@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 15,
+    "news": 18,
     "facts": 1,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 8
     },
     {
       "id": "meta-llama",
@@ -78,6 +78,19 @@
     }
   ],
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
+      "source": "Qwen",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -122,11 +135,11 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "name": "RecreationWorld · 仓库更新",
       "date": "2026-09-20",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "text": "RecreationWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/RecreationWorld/releases",
       "source": "Qwen",
       "external": true
     },
@@ -203,6 +216,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Omnilingua-Bench · 仓库更新",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "Omnilingua-Bench · 仓库更新",
+      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
@@ -210,6 +249,19 @@
       "facts": {},
       "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -262,19 +314,6 @@
       "facts": {},
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-09-18",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },

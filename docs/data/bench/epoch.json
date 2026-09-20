@@ -667,6 +667,18 @@
       }
     },
     {
+      "model": "Muse Spark 1.3",
+      "release": "2026-09-02",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.4973,
+          "best": 0.9917
+        }
+      }
+    },
+    {
       "model": "GPT-4.1 mini",
       "release": "2025-04-14",
       "nRuns": 9,
@@ -1287,18 +1299,6 @@
           "n": 6,
           "avg": 0.4068,
           "best": 0.7039
-        }
-      }
-    },
-    {
-      "model": "Muse Spark 1.3",
-      "release": "2026-09-02",
-      "nRuns": 5,
-      "domains": {
-        "Language": {
-          "n": 5,
-          "avg": 0.5283,
-          "best": 0.9917
         }
       }
     },
