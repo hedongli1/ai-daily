@@ -1,0 +1,95 @@
+
+{
+  "modelsDev": "https://models.dev/api.json",
+
+  "rss": [
+    {
+      "id": "openai",
+      "vendor": "openai",
+      "label": "OpenAI",
+      "url": "https://openai.com/news/rss.xml",
+      "status": "ok"
+    },
+    {
+      "id": "deepmind",
+      "vendor": "google",
+      "label": "Google DeepMind",
+      "url": "https://deepmind.google/blog/rss.xml",
+      "status": "ok"
+    },
+    {
+      "id": "qwen",
+      "vendor": "alibaba",
+      "label": "Qwen",
+      "url": "https://qwenlm.github.io/blog/index.xml",
+      "status": "ok"
+    },
+    {
+      "id": "anthropic",
+      "vendor": "anthropic",
+      "label": "Anthropic",
+      "url": "https://www.anthropic.com/news/rss.xml",
+      "status": "unverified",
+      "note": "本机探测超时（DNS 正常），需在 GitHub Actions 上复测"
+    },
+    {
+      "id": "googleblog",
+      "vendor": "google",
+      "label": "Google Blog · AI",
+      "url": "https://blog.google/technology/ai/rss/",
+      "status": "redirect",
+      "note": "返回 301，fetch 会自动跟随重定向"
+    }
+  ],
+
+  "github": [
+    {
+      "id": "deepseek-ai",
+      "vendor": "deepseek",
+      "label": "DeepSeek",
+      "org": "deepseek-ai",
+      "status": "ok",
+      "note": "DeepSeek 无官方 RSS，用 GitHub org 的 release 兜底"
+    },
+    {
+      "id": "QwenLM",
+      "vendor": "alibaba",
+      "label": "Qwen",
+      "org": "QwenLM",
+      "status": "ok"
+    },
+    {
+      "id": "meta-llama",
+      "vendor": "meta",
+      "label": "Meta Llama",
+      "org": "meta-llama",
+      "status": "ok"
+    },
+    {
+      "id": "mistralai",
+      "vendor": "mistral",
+      "label": "Mistral AI",
+      "org": "mistralai",
+      "status": "ok"
+    },
+    {
+      "id": "zai-org",
+      "vendor": "zhipu",
+      "label": "智谱 AI",
+      "org": "zai-org",
+      "status": "ok",
+      "note": "智谱无官方 RSS，用 GitHub org 兜底"
+    }
+  ],
+
+  "bench": {
+    "epoch": {
+      "id": "epoch",
+      "label": "Epoch AI",
+      "url": "https://epoch.ai/data/benchmarks.csv",
+      "license": "CC-BY 4.0",
+      "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
+      "status": "ok"
+    }
+  }
+}

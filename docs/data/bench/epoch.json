@@ -1,0 +1,2530 @@
+{
+  "generated": "2026-09-20",
+  "source": "https://epoch.ai/data/benchmarks.csv",
+  "license": "CC-BY 4.0",
+  "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
+  "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
+  "count": 210,
+  "models": [
+    {
+      "model": "GPT-5.2",
+      "release": "2025-12-11",
+      "nRuns": 42,
+      "domains": {
+        "(未标注)": {
+          "n": 42,
+          "avg": 0.4314,
+          "best": 0.9611
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "release": "2026-02-05",
+      "nRuns": 34,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 34,
+          "avg": 0.4354,
+          "best": 0.9444
+        }
+      }
+    },
+    {
+      "model": "GPT-5",
+      "release": "2025-08-07",
+      "nRuns": 32,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 32,
+          "avg": 0.4336,
+          "best": 0.9813
+        }
+      }
+    },
+    {
+      "model": "GPT-5.4",
+      "release": "2026-03-05",
+      "nRuns": 31,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 31,
+          "avg": 0.5446,
+          "best": 0.9778
+        }
+      }
+    },
+    {
+      "model": "GPT-5 nano",
+      "release": "2025-08-07",
+      "nRuns": 30,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 30,
+          "avg": 0.278,
+          "best": 0.9524
+        }
+      }
+    },
+    {
+      "model": "GPT-5 mini",
+      "release": "2025-08-07",
+      "nRuns": 28,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 28,
+          "avg": 0.3568,
+          "best": 0.9785
+        }
+      }
+    },
+    {
+      "model": "o4-mini",
+      "release": "2025-04-16",
+      "nRuns": 27,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 27,
+          "avg": 0.3242,
+          "best": 0.9783
+        }
+      }
+    },
+    {
+      "model": "GPT-5.5",
+      "release": "2026-04-23",
+      "nRuns": 25,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 25,
+          "avg": 0.5149,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "o3",
+      "release": "2025-04-16",
+      "nRuns": 25,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 25,
+          "avg": 0.3924,
+          "best": 0.9777
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 4.5",
+      "release": "2025-09-29",
+      "nRuns": 25,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 25,
+          "avg": 0.3633,
+          "best": 0.9773
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.5",
+      "release": "2025-11-24",
+      "nRuns": 23,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 23,
+          "avg": 0.3663,
+          "best": 0.8611
+        }
+      }
+    },
+    {
+      "model": "o3-mini",
+      "release": "2025-01-31",
+      "nRuns": 23,
+      "domains": {
+        "Language": {
+          "n": 23,
+          "avg": 0.3303,
+          "best": 0.9649
+        }
+      }
+    },
+    {
+      "model": "GPT-5.6 Sol",
+      "release": "2026-07-09",
+      "nRuns": 22,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 22,
+          "avg": 0.5852,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.5 Flash",
+      "release": "2026-05-19",
+      "nRuns": 22,
+      "domains": {
+        "Language,Multimodal,Audio,Video,Vision": {
+          "n": 22,
+          "avg": 0.5251,
+          "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "GPT-5.1",
+      "release": "2025-11-13",
+      "nRuns": 22,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 22,
+          "avg": 0.4109,
+          "best": 0.8861
+        }
+      }
+    },
+    {
+      "model": "Claude 3.7 Sonnet",
+      "release": "2025-02-24",
+      "nRuns": 22,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 22,
+          "avg": 0.4043,
+          "best": 0.9116
+        }
+      }
+    },
+    {
+      "model": "GPT-5.4 Nano",
+      "release": "2026-03-17",
+      "nRuns": 21,
+      "domains": {
+        "Language": {
+          "n": 21,
+          "avg": 0.3183,
+          "best": 0.8778
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "release": "2026-02-17",
+      "nRuns": 21,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 21,
+          "avg": 0.4622,
+          "best": 0.8737
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.1 Pro",
+      "release": "2026-02-19",
+      "nRuns": 20,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 20,
+          "avg": 0.5033,
+          "best": 0.956
+        }
+      }
+    },
+    {
+      "model": "Claude Fable 5",
+      "release": "2026-06-09",
+      "nRuns": 20,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 20,
+          "avg": 0.6693,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "release": "2026-05-28",
+      "nRuns": 20,
+      "domains": {
+        "Language": {
+          "n": 20,
+          "avg": 0.5479,
+          "best": 0.9833
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.7",
+      "release": "2026-04-16",
+      "nRuns": 20,
+      "domains": {
+        "Language": {
+          "n": 20,
+          "avg": 0.4681,
+          "best": 0.978
+        }
+      }
+    },
+    {
+      "model": "GLM-5.2",
+      "release": "2026-06-16",
+      "nRuns": 20,
+      "domains": {
+        "Language": {
+          "n": 20,
+          "avg": 0.4304,
+          "best": 0.9186
+        }
+      }
+    },
+    {
+      "model": "GPT-5.4 Mini",
+      "release": "2026-03-17",
+      "nRuns": 20,
+      "domains": {
+        "Language": {
+          "n": 20,
+          "avg": 0.3604,
+          "best": 0.8889
+        }
+      }
+    },
+    {
+      "model": "GPT-5.6 Luna",
+      "release": "2026-07-09",
+      "nRuns": 19,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 19,
+          "avg": 0.4648,
+          "best": 0.9833
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.1",
+      "release": "2025-08-05",
+      "nRuns": 18,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 18,
+          "avg": 0.3012,
+          "best": 0.7727
+        }
+      }
+    },
+    {
+      "model": "GPT-5.6 Terra",
+      "release": "2026-07-09",
+      "nRuns": 17,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 17,
+          "avg": 0.537,
+          "best": 0.9972
+        }
+      }
+    },
+    {
+      "model": "GPT-4o",
+      "release": "2024-08-06",
+      "nRuns": 17,
+      "domains": {
+        "Multimodal,Language,Audio,Speech,Vision": {
+          "n": 17,
+          "avg": 0.2294,
+          "best": 0.5328
+        }
+      }
+    },
+    {
+      "model": "o1",
+      "release": "2024-12-17",
+      "nRuns": 17,
+      "domains": {
+        "Language,Mathematics,Multimodal": {
+          "n": 17,
+          "avg": 0.4316,
+          "best": 0.9471
+        }
+      }
+    },
+    {
+      "model": "Gemini 3 Flash",
+      "release": "2025-12-17",
+      "nRuns": 17,
+      "domains": {
+        "(未标注)": {
+          "n": 17,
+          "avg": 0.4825,
+          "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.6 Flash",
+      "release": "2026-07-21",
+      "nRuns": 16,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 16,
+          "avg": 0.5557,
+          "best": 0.9417
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 5",
+      "release": "2026-07-24",
+      "nRuns": 16,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 16,
+          "avg": 0.6756,
+          "best": 0.9889
+        }
+      }
+    },
+    {
+      "model": "GPT-6 Astra",
+      "release": "2026-09-03",
+      "nRuns": 16,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 16,
+          "avg": 0.805,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Kimi K3",
+      "release": "2026-07-16",
+      "nRuns": 15,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 15,
+          "avg": 0.5649,
+          "best": 0.9722
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro (Jun 2025)",
+      "release": "2025-06-17",
+      "nRuns": 15,
+      "domains": {
+        "Language,Vision,Video,Multimodal,Speech": {
+          "n": 15,
+          "avg": 0.3051,
+          "best": 0.8529
+        }
+      }
+    },
+    {
+      "model": "Kimi K2.6",
+      "release": "2026-04-20",
+      "nRuns": 14,
+      "domains": {
+        "Language": {
+          "n": 14,
+          "avg": 0.4321,
+          "best": 0.9611
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-V4-Pro",
+      "release": "2026-04-24",
+      "nRuns": 14,
+      "domains": {
+        "Language": {
+          "n": 14,
+          "avg": 0.5157,
+          "best": 0.9667
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4",
+      "release": "2025-05-22",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.3433,
+          "best": 0.8505
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 4",
+      "release": "2025-05-22",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.4362,
+          "best": 0.8437
+        }
+      }
+    },
+    {
+      "model": "Claude Haiku 4.5",
+      "release": "2025-10-15",
+      "nRuns": 13,
+      "domains": {
+        "Language": {
+          "n": 13,
+          "avg": 0.3565,
+          "best": 0.9636
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.5 Flash-Lite",
+      "release": "2026-07-21",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.4104,
+          "best": 0.8333
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.1 Flash-Lite",
+      "release": "2026-03-03",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 12,
+          "avg": 0.4438,
+          "best": 0.8182
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.6 Plus",
+      "release": "2026-03-31",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 12,
+          "avg": 0.3898,
+          "best": 0.9333
+        }
+      }
+    },
+    {
+      "model": "Grok 4.6",
+      "release": "2026-08-12",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 12,
+          "avg": 0.5962,
+          "best": 0.9917
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 5",
+      "release": "2026-06-30",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 12,
+          "avg": 0.5075,
+          "best": 0.9472
+        }
+      }
+    },
+    {
+      "model": "GPT-4.1",
+      "release": "2025-04-14",
+      "nRuns": 11,
+      "domains": {
+        "Multimodal,Language,Vision,Video": {
+          "n": 11,
+          "avg": 0.2594,
+          "best": 0.8301
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.6 Flash",
+      "release": "2026-04-27",
+      "nRuns": 11,
+      "domains": {
+        "Language": {
+          "n": 11,
+          "avg": 0.2761,
+          "best": 0.8444
+        }
+      }
+    },
+    {
+      "model": "GLM-5.1",
+      "release": "2026-04-07",
+      "nRuns": 11,
+      "domains": {
+        "Language": {
+          "n": 11,
+          "avg": 0.4528,
+          "best": 0.9333
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.5 Flash (hosted 35B-A3B)",
+      "release": "2026-02-25",
+      "nRuns": 11,
+      "domains": {
+        "(未标注)": {
+          "n": 11,
+          "avg": 0.2618,
+          "best": 0.8444
+        }
+      }
+    },
+    {
+      "model": "Grok-3 mini",
+      "release": "2025-04-09",
+      "nRuns": 11,
+      "domains": {
+        "Language": {
+          "n": 11,
+          "avg": 0.4358,
+          "best": 0.9094
+        }
+      }
+    },
+    {
+      "model": "Claude Fable 5.1",
+      "release": "2026-09-01",
+      "nRuns": 10,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 10,
+          "avg": 0.6542,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Qwen3.7 Flash",
+      "release": "2026-07-27",
+      "nRuns": 10,
+      "domains": {
+        "Language": {
+          "n": 10,
+          "avg": 0.4272,
+          "best": 0.8667
+        }
+      }
+    },
+    {
+      "model": "Qwen3.7-Max",
+      "release": "2026-05-19",
+      "nRuns": 10,
+      "domains": {
+        "Language": {
+          "n": 10,
+          "avg": 0.5047,
+          "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.6 Max (Preview)",
+      "release": "2026-04-20",
+      "nRuns": 10,
+      "domains": {
+        "Language": {
+          "n": 10,
+          "avg": 0.4234,
+          "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "o1-mini",
+      "release": "2024-09-12",
+      "nRuns": 10,
+      "domains": {
+        "Language": {
+          "n": 10,
+          "avg": 0.3901,
+          "best": 0.8918
+        }
+      }
+    },
+    {
+      "model": "GPT-4.1 mini",
+      "release": "2025-04-14",
+      "nRuns": 9,
+      "domains": {
+        "Multimodal,Language,Vision,Video": {
+          "n": 9,
+          "avg": 0.273,
+          "best": 0.8729
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.6 35B-A3B",
+      "release": "2026-04-14",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.4602,
+          "best": 0.8667
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5 397B-A17B",
+      "release": "2026-02-13",
+      "nRuns": 9,
+      "domains": {
+        "Language,Vision": {
+          "n": 9,
+          "avg": 0.4967,
+          "best": 0.8889
+        }
+      }
+    },
+    {
+      "model": "Qwen3.7-Plus",
+      "release": "2026-06-02",
+      "nRuns": 9,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 9,
+          "avg": 0.4938,
+          "best": 0.9333
+        }
+      }
+    },
+    {
+      "model": "Qwen3.6 27B",
+      "release": "2026-04-22",
+      "nRuns": 9,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 9,
+          "avg": 0.484,
+          "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.5 Plus (hosted 397B-A17B)",
+      "release": "2026-02-16",
+      "nRuns": 9,
+      "domains": {
+        "(未标注)": {
+          "n": 9,
+          "avg": 0.3611,
+          "best": 0.8667
+        }
+      }
+    },
+    {
+      "model": "Qwen3-235B-A22B (Jul 2025)",
+      "release": "2025-07-25",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.2852,
+          "best": 0.8667
+        }
+      }
+    },
+    {
+      "model": "gpt-oss-20b",
+      "release": "2025-08-05",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.3581,
+          "best": 0.6528
+        }
+      }
+    },
+    {
+      "model": "GPT-5.5 Pro",
+      "release": "2026-04-23",
+      "nRuns": 9,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 9,
+          "avg": 0.6737,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.7 Flash",
+      "release": "2026-08-13",
+      "nRuns": 8,
+      "domains": {
+        "Language,Audio,Video,Multimodal": {
+          "n": 8,
+          "avg": 0.6001,
+          "best": 0.9722
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.8 Flash",
+      "release": "2026-09-02",
+      "nRuns": 8,
+      "domains": {
+        "Language,Multimodal,Image generation,Video,Audio": {
+          "n": 8,
+          "avg": 0.6175,
+          "best": 0.9889
+        }
+      }
+    },
+    {
+      "model": "GPT-3.5 Turbo",
+      "release": "2024-01-25",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.1099,
+          "best": 0.2803
+        }
+      }
+    },
+    {
+      "model": "MiniMax-M3",
+      "release": "2026-06-01",
+      "nRuns": 8,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 8,
+          "avg": 0.3788,
+          "best": 0.9091
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-V3.2",
+      "release": "2025-12-01",
+      "nRuns": 8,
+      "domains": {
+        "(未标注)": {
+          "n": 8,
+          "avg": 0.4132,
+          "best": 0.8782
+        }
+      }
+    },
+    {
+      "model": "GLM-5",
+      "release": "2026-02-11",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.3381,
+          "best": 0.8782
+        }
+      }
+    },
+    {
+      "model": "Gemini 3 Pro",
+      "release": "2025-11-18",
+      "nRuns": 8,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 8,
+          "avg": 0.5304,
+          "best": 0.9261
+        }
+      }
+    },
+    {
+      "model": "Kimi K2 Thinking",
+      "release": "2025-11-06",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.3358,
+          "best": 0.8422
+        }
+      }
+    },
+    {
+      "model": "Gemini 1.5 Flash",
+      "release": "2024-09-24",
+      "nRuns": 8,
+      "domains": {
+        "Multimodal,Language,Vision,Audio": {
+          "n": 8,
+          "avg": 0.2435,
+          "best": 0.6187
+        }
+      }
+    },
+    {
+      "model": "Mistral Large 2",
+      "release": "2024-11-18",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.2651,
+          "best": 0.5133
+        }
+      }
+    },
+    {
+      "model": "Qwen3.8 Max (0902)",
+      "release": "2026-09-01",
+      "nRuns": 7,
+      "domains": {
+        "Language,Vision": {
+          "n": 7,
+          "avg": 0.5705,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "GPT-4o mini",
+      "release": "2024-07-18",
+      "nRuns": 7,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 7,
+          "avg": 0.169,
+          "best": 0.5263
+        }
+      }
+    },
+    {
+      "model": "GLM-5.3",
+      "release": "2026-08-14",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.5358,
+          "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "Qwen3-Max",
+      "release": "2025-09-24",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.4568,
+          "best": 0.9713
+        }
+      }
+    },
+    {
+      "model": "Inkling-Small",
+      "release": "2026-07-15",
+      "nRuns": 7,
+      "domains": {
+        "Language,Multimodal,Audio,Video,Vision": {
+          "n": 7,
+          "avg": 0.4071,
+          "best": 0.9
+        }
+      }
+    },
+    {
+      "model": "Kimi K2.5",
+      "release": "2026-01-27",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.4742,
+          "best": 0.922
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.8 Max",
+      "release": "2026-08-02",
+      "nRuns": 7,
+      "domains": {
+        "Language,Vision,Video": {
+          "n": 7,
+          "avg": 0.6086,
+          "best": 0.9944
+        }
+      }
+    },
+    {
+      "model": "DeepSeek V4 Pro 0813",
+      "release": "2026-08-13",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.6065,
+          "best": 0.9861
+        }
+      }
+    },
+    {
+      "model": "DeepSeek V4 Flash 0731",
+      "release": "2026-07-31",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.5258,
+          "best": 0.9444
+        }
+      }
+    },
+    {
+      "model": "GPT-5.4 Pro",
+      "release": "2026-03-05",
+      "nRuns": 7,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 7,
+          "avg": 0.6114,
+          "best": 0.946
+        }
+      }
+    },
+    {
+      "model": "Claude 3.5 Sonnet (October 2024)",
+      "release": "2024-10-22",
+      "nRuns": 7,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 7,
+          "avg": 0.1754,
+          "best": 0.5695
+        }
+      }
+    },
+    {
+      "model": "Claude 3.5 Sonnet",
+      "release": "2024-06-20",
+      "nRuns": 7,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 7,
+          "avg": 0.1618,
+          "best": 0.5404
+        }
+      }
+    },
+    {
+      "model": "Grok 3",
+      "release": "2025-04-09",
+      "nRuns": 7,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 7,
+          "avg": 0.3198,
+          "best": 0.8875
+        }
+      }
+    },
+    {
+      "model": "GPT-4.1 nano",
+      "release": "2025-04-14",
+      "nRuns": 6,
+      "domains": {
+        "Multimodal,Language,Vision,Video": {
+          "n": 6,
+          "avg": 0.2581,
+          "best": 0.7
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-35B-A3B",
+      "release": "2026-02-24",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.5002,
+          "best": 0.8346
+        }
+      }
+    },
+    {
+      "model": "Qwen3-32B",
+      "release": "2025-04-29",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.3597,
+          "best": 0.6694
+        }
+      }
+    },
+    {
+      "model": "Qwen3-30B-A3B (Jul 2025)",
+      "release": "2025-07-30",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.447,
+          "best": 0.7028
+        }
+      }
+    },
+    {
+      "model": "Qwen3-30B-A3B",
+      "release": "2025-04-29",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.3423,
+          "best": 0.6278
+        }
+      }
+    },
+    {
+      "model": "Qwen3-14B",
+      "release": "2025-04-29",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.3557,
+          "best": 0.6639
+        }
+      }
+    },
+    {
+      "model": "Mistral Small 3.1",
+      "release": "2025-03-17",
+      "nRuns": 6,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 6,
+          "avg": 0.2448,
+          "best": 0.4747
+        }
+      }
+    },
+    {
+      "model": "Mistral Small 3",
+      "release": "2025-01-30",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.2489,
+          "best": 0.4729
+        }
+      }
+    },
+    {
+      "model": "Mistral 7B",
+      "release": "2024-05-27",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.0599,
+          "best": 0.1518
+        }
+      }
+    },
+    {
+      "model": "GLM-5.3-Flash",
+      "release": "2026-08-20",
+      "nRuns": 6,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 6,
+          "avg": 0.4648,
+          "best": 0.9389
+        }
+      }
+    },
+    {
+      "model": "Inkling",
+      "release": "2026-07-15",
+      "nRuns": 6,
+      "domains": {
+        "Language,Multimodal,Audio,Video,Vision": {
+          "n": 6,
+          "avg": 0.4611,
+          "best": 0.8889
+        }
+      }
+    },
+    {
+      "model": "Kimi K2.7 Code",
+      "release": "2026-06-12",
+      "nRuns": 6,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 6,
+          "avg": 0.5119,
+          "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "GLM-4.7",
+      "release": "2025-12-22",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.3455,
+          "best": 0.8333
+        }
+      }
+    },
+    {
+      "model": "Grok 4.20",
+      "release": "2026-02-17",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.4962,
+          "best": 0.9222
+        }
+      }
+    },
+    {
+      "model": "Grok 4.3 Beta",
+      "release": "2026-04-17",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.4963,
+          "best": 0.9333
+        }
+      }
+    },
+    {
+      "model": "Grok 4.5",
+      "release": "2026-07-08",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.5952,
+          "best": 0.9778
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-9B",
+      "release": "2026-02-24",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.4606,
+          "best": 0.7898
+        }
+      }
+    },
+    {
+      "model": "Qwen3-8B",
+      "release": "2025-04-28",
+      "nRuns": 6,
+      "domains": {
+        "Language": {
+          "n": 6,
+          "avg": 0.3126,
+          "best": 0.5676
+        }
+      }
+    },
+    {
+      "model": "Grok 4",
+      "release": "2025-07-09",
+      "nRuns": 6,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 6,
+          "avg": 0.3679,
+          "best": 0.87
+        }
+      }
+    },
+    {
+      "model": "Gemini 1.5 Pro",
+      "release": "2024-05-14",
+      "nRuns": 6,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 6,
+          "avg": 0.4068,
+          "best": 0.7039
+        }
+      }
+    },
+    {
+      "model": "Muse Spark 1.3",
+      "release": "2026-09-02",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.5283,
+          "best": 0.9917
+        }
+      }
+    },
+    {
+      "model": "Claude 3 Opus",
+      "release": "2024-02-29",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.2139,
+          "best": 0.4716
+        }
+      }
+    },
+    {
+      "model": "GPT-4 (Jun 2023)",
+      "release": "2023-06-13",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.1415,
+          "best": 0.3065
+        }
+      }
+    },
+    {
+      "model": "gpt-oss-120b",
+      "release": "2025-08-05",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.3733,
+          "best": 0.8889
+        }
+      }
+    },
+    {
+      "model": "GPT-4 Turbo (Apr 2024)",
+      "release": "2024-04-09",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Vision,Language,Image generation": {
+          "n": 5,
+          "avg": 0.2134,
+          "best": 0.4673
+        }
+      }
+    },
+    {
+      "model": "GPT-5.5 Instant",
+      "release": "2026-05-05",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.3826,
+          "best": 0.8251
+        }
+      }
+    },
+    {
+      "model": "Qwen Plus",
+      "release": "2025-04-28",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.2658,
+          "best": 0.6528
+        }
+      }
+    },
+    {
+      "model": "Mistral Medium 3",
+      "release": "2025-05-07",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.3475,
+          "best": 0.8163
+        }
+      }
+    },
+    {
+      "model": "Llama 4 Maverick",
+      "release": "2025-04-05",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.3225,
+          "best": 0.7302
+        }
+      }
+    },
+    {
+      "model": "Llama 4 Scout",
+      "release": "2025-04-05",
+      "nRuns": 5,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 5,
+          "avg": 0.2438,
+          "best": 0.6227
+        }
+      }
+    },
+    {
+      "model": "Qwen2.5-Max",
+      "release": "2025-01-25",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.2809,
+          "best": 0.6718
+        }
+      }
+    },
+    {
+      "model": "Claude 3.5 Haiku",
+      "release": "2024-10-22",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.1783,
+          "best": 0.4636
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.0 Flash",
+      "release": "2025-02-05",
+      "nRuns": 5,
+      "domains": {
+        "Language,Vision,Audio,Speech,Video,Multimodal": {
+          "n": 5,
+          "avg": 0.3583,
+          "best": 0.8217
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-V3",
+      "release": "2024-12-26",
+      "nRuns": 5,
+      "domains": {
+        "Language": {
+          "n": 5,
+          "avg": 0.2779,
+          "best": 0.6485
+        }
+      }
+    },
+    {
+      "model": "Grok-2",
+      "release": "2024-12-12",
+      "nRuns": 5,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 5,
+          "avg": 0.259,
+          "best": 0.6352
+        }
+      }
+    },
+    {
+      "model": "Qwen2.5-32B",
+      "release": "2024-09-17",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.2738,
+          "best": 0.5607
+        }
+      }
+    },
+    {
+      "model": "Llama 3-8B",
+      "release": "2024-04-18",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.0854,
+          "best": 0.2607
+        }
+      }
+    },
+    {
+      "model": "DeepSeek LLM 67B",
+      "release": "2023-11-29",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.0796,
+          "best": 0.2462
+        }
+      }
+    },
+    {
+      "model": "Qwen3-1.7B",
+      "release": "2025-04-29",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.1917,
+          "best": 0.3801
+        }
+      }
+    },
+    {
+      "model": "Phi-4",
+      "release": "2024-12-12",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.3394,
+          "best": 0.6494
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Qwen-14B",
+      "release": "2025-01-20",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.4584,
+          "best": 0.8712
+        }
+      }
+    },
+    {
+      "model": "Gemma 4 31B IT",
+      "release": "2026-04-02",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.4112,
+          "best": 0.7576
+        }
+      }
+    },
+    {
+      "model": "Nemotron 3 Ultra",
+      "release": "2026-06-04",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.5101,
+          "best": 0.8667
+        }
+      }
+    },
+    {
+      "model": "Llama 3.1-8B",
+      "release": "2024-07-23",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.1287,
+          "best": 0.2696
+        }
+      }
+    },
+    {
+      "model": "Gemma 3 27B",
+      "release": "2025-03-12",
+      "nRuns": 4,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 4,
+          "avg": 0.3607,
+          "best": 0.7404
+        }
+      }
+    },
+    {
+      "model": "GPT-5 Pro",
+      "release": "2025-10-07",
+      "nRuns": 4,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 4,
+          "avg": 0.3748,
+          "best": 0.6
+        }
+      }
+    },
+    {
+      "model": "Muse Spark",
+      "release": "2026-04-08",
+      "nRuns": 4,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 4,
+          "avg": 0.5807,
+          "best": 0.898
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.5 Flash",
+      "release": "2025-06-17",
+      "nRuns": 4,
+      "domains": {
+        "Language,Multimodal,Vision,Speech,Video": {
+          "n": 4,
+          "avg": 0.3822,
+          "best": 0.7306
+        }
+      }
+    },
+    {
+      "model": "GLM-4.6",
+      "release": "2025-09-30",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.0149,
+          "best": 0.0382
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1 (May 2025)",
+      "release": "2025-05-28",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.5984,
+          "best": 0.9664
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-V3 (Mar 2025)",
+      "release": "2025-03-24",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.4523,
+          "best": 0.7555
+        }
+      }
+    },
+    {
+      "model": "GPT-4 Turbo (Nov 2023)",
+      "release": "2024-01-25",
+      "nRuns": 4,
+      "domains": {
+        "Multimodal,Vision,Language,Image generation": {
+          "n": 4,
+          "avg": 0.4002,
+          "best": 0.4236
+        }
+      }
+    },
+    {
+      "model": "Mixtral 8x7B",
+      "release": "2023-12-11",
+      "nRuns": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.1991,
+          "best": 0.3059
+        }
+      }
+    },
+    {
+      "model": "Qwen2.5-7B",
+      "release": "2024-09-19",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.1266,
+          "best": 0.3548
+        }
+      }
+    },
+    {
+      "model": "Mistral Small 3.2",
+      "release": "2025-06-20",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 3,
+          "avg": 0.2678,
+          "best": 0.4905
+        }
+      }
+    },
+    {
+      "model": "Magistral Small 1.2",
+      "release": "2025-09-18",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 3,
+          "avg": 0.2622,
+          "best": 0.476
+        }
+      }
+    },
+    {
+      "model": "Llama 3.2 1B",
+      "release": "2024-09-24",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.0816,
+          "best": 0.2393
+        }
+      }
+    },
+    {
+      "model": "Qwen3-4B",
+      "release": "2025-04-29",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.323,
+          "best": 0.5234
+        }
+      }
+    },
+    {
+      "model": "Gemma 4 26B A4B",
+      "release": "2026-04-02",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.5382,
+          "best": 0.8222
+        }
+      }
+    },
+    {
+      "model": "Gemma 3 4B",
+      "release": "2025-03-12",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 3,
+          "avg": 0.1024,
+          "best": 0.2323
+        }
+      }
+    },
+    {
+      "model": "Gemma 3 1B",
+      "release": "2025-03-12",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.0702,
+          "best": 0.1995
+        }
+      }
+    },
+    {
+      "model": "Gemma 3 12B",
+      "release": "2025-03-12",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 3,
+          "avg": 0.1871,
+          "best": 0.3946
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Qwen-32B",
+      "release": "2025-01-20",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.4023,
+          "best": 0.6414
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Qwen-1.5B",
+      "release": "2025-01-20",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.1832,
+          "best": 0.3359
+        }
+      }
+    },
+    {
+      "model": "QwQ-32B",
+      "release": "2025-03-05",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.4317,
+          "best": 0.6534
+        }
+      }
+    },
+    {
+      "model": "Magistral Small 1.0",
+      "release": "2025-06-10",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2869,
+          "best": 0.5606
+        }
+      }
+    },
+    {
+      "model": "GPT-5.2 Pro",
+      "release": "2025-12-11",
+      "nRuns": 3,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 3,
+          "avg": 0.5043,
+          "best": 0.74
+        }
+      }
+    },
+    {
+      "model": "Qwen3-235B-A22B",
+      "release": "2025-04-29",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.4652,
+          "best": 0.7071
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1",
+      "release": "2025-01-20",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.727,
+          "best": 0.9305
+        }
+      }
+    },
+    {
+      "model": "Qwen-Turbo",
+      "release": "2024-11-01",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.3471,
+          "best": 0.5623
+        }
+      }
+    },
+    {
+      "model": "Hermes 2 Theta Llama-3 70B",
+      "release": "2024-06-20",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2089,
+          "best": 0.3747
+        }
+      }
+    },
+    {
+      "model": "DeepSeek-R1-Distill-Llama-70B",
+      "release": "2025-01-20",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.6568,
+          "best": 0.899
+        }
+      }
+    },
+    {
+      "model": "Tulu 3 (Tülu 3) 70B",
+      "release": "2024-11-21",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.3113,
+          "best": 0.4628
+        }
+      }
+    },
+    {
+      "model": "Gemma 2 27B",
+      "release": "2024-06-24",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2192,
+          "best": 0.3649
+        }
+      }
+    },
+    {
+      "model": "Gemma 2 9B",
+      "release": "2024-06-24",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.1634,
+          "best": 0.2746
+        }
+      }
+    },
+    {
+      "model": "Claude 2",
+      "release": "2023-07-11",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.1629,
+          "best": 0.3466
+        }
+      }
+    },
+    {
+      "model": "o1-preview",
+      "release": "2024-09-12",
+      "nRuns": 3,
+      "domains": {
+        "Language,Mathematics,Biology": {
+          "n": 3,
+          "avg": 0.5436,
+          "best": 0.8165
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.0 Pro",
+      "release": "2025-02-05",
+      "nRuns": 3,
+      "domains": {
+        "Language,Multimodal,Vision,Video,Audio": {
+          "n": 3,
+          "avg": 0.4971,
+          "best": 0.8346
+        }
+      }
+    },
+    {
+      "model": "GPT-4.5",
+      "release": "2025-02-27",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 3,
+          "avg": 0.617,
+          "best": 0.7863
+        }
+      }
+    },
+    {
+      "model": "Llama 3-70B",
+      "release": "2024-04-18",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2247,
+          "best": 0.4056
+        }
+      }
+    },
+    {
+      "model": "Llama 3.3 70B",
+      "release": "2024-12-06",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.3139,
+          "best": 0.4744
+        }
+      }
+    },
+    {
+      "model": "Llama 3.2 90B",
+      "release": "2024-09-24",
+      "nRuns": 3,
+      "domains": {
+        "Multimodal,Vision,Language": {
+          "n": 3,
+          "avg": 0.277,
+          "best": 0.4104
+        }
+      }
+    },
+    {
+      "model": "Llama 2-70B",
+      "release": "2023-07-18",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.0987,
+          "best": 0.2633
+        }
+      }
+    },
+    {
+      "model": "Mistral Large",
+      "release": "2024-02-26",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2172,
+          "best": 0.3876
+        }
+      }
+    },
+    {
+      "model": "Claude 3 Sonnet",
+      "release": "2024-02-29",
+      "nRuns": 3,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 3,
+          "avg": 0.2042,
+          "best": 0.4059
+        }
+      }
+    },
+    {
+      "model": "Gemini 1.0 Pro",
+      "release": "2023-12-13",
+      "nRuns": 3,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 3,
+          "avg": 0.1544,
+          "best": 0.3396
+        }
+      }
+    },
+    {
+      "model": "Llama 3.1-405B",
+      "release": "2024-07-23",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.368,
+          "best": 0.5092
+        }
+      }
+    },
+    {
+      "model": "Qwen2.5-72B",
+      "release": "2024-09-19",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.4012,
+          "best": 0.6317
+        }
+      }
+    },
+    {
+      "model": "Llama 3.1-70B",
+      "release": "2024-07-23",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.2816,
+          "best": 0.4419
+        }
+      }
+    },
+    {
+      "model": "Claude 3 Haiku",
+      "release": "2024-03-07",
+      "nRuns": 3,
+      "domains": {
+        "Language": {
+          "n": 3,
+          "avg": 0.1766,
+          "best": 0.363
+        }
+      }
+    },
+    {
+      "model": "AI Co-Mathematician",
+      "release": "2026-05-08",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.6175,
+          "best": 0.756
+        }
+      }
+    },
+    {
+      "model": "GPT-4 (Mar 2023)",
+      "release": "2023-03-14",
+      "nRuns": 2,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 2,
+          "avg": 0.1814,
+          "best": 0.3573
+        }
+      }
+    },
+    {
+      "model": "GLM-4.5",
+      "release": "2025-08-03",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0,
+          "best": 0
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro (May 2025)",
+      "release": "2025-05-06",
+      "nRuns": 2,
+      "domains": {
+        "Language,Vision,Video,Multimodal,Speech": {
+          "n": 2,
+          "avg": 0.8128,
+          "best": 0.959
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.5 Pro (Mar 2025)",
+      "release": "2025-03-31",
+      "nRuns": 2,
+      "domains": {
+        "Language,Vision,Video,Multimodal,Speech": {
+          "n": 2,
+          "avg": 0.897,
+          "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "Gemini 1.5 Flash 8B",
+      "release": "2024-10-03",
+      "nRuns": 2,
+      "domains": {
+        "Multimodal,Language,Vision,Audio": {
+          "n": 2,
+          "avg": 0.1877,
+          "best": 0.3295
+        }
+      }
+    },
+    {
+      "model": "Claude 2.1",
+      "release": "2023-11-21",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.1745,
+          "best": 0.3295
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.0 Flash Thinking",
+      "release": "2025-01-21",
+      "nRuns": 2,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 2,
+          "avg": 0.5742,
+          "best": 0.5778
+        }
+      }
+    },
+    {
+      "model": "phi-3-medium 14B",
+      "release": "2024-04-23",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2257,
+          "best": 0.2759
+        }
+      }
+    },
+    {
+      "model": "Yi-1.5-34B",
+      "release": "2024-05-13",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2873,
+          "best": 0.3198
+        }
+      }
+    },
+    {
+      "model": "Yi-34B",
+      "release": "2023-11-22",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.0994,
+          "best": 0.1474
+        }
+      }
+    },
+    {
+      "model": "Qwen2-72B",
+      "release": "2024-06-07",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.3993,
+          "best": 0.4078
+        }
+      }
+    },
+    {
+      "model": "WizardLM-2 8x22B",
+      "release": "2024-04-15",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.3459,
+          "best": 0.4343
+        }
+      }
+    },
+    {
+      "model": "DBRX",
+      "release": "2024-03-27",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2227,
+          "best": 0.3289
+        }
+      }
+    },
+    {
+      "model": "Ministral 3B",
+      "release": "2024-10-16",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.1985,
+          "best": 0.2525
+        }
+      }
+    },
+    {
+      "model": "Mixtral 8x22B",
+      "release": "2024-04-17",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2915,
+          "best": 0.3406
+        }
+      }
+    },
+    {
+      "model": "Ministral 8B",
+      "release": "2024-10-16",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2104,
+          "best": 0.2715
+        }
+      }
+    },
+    {
+      "model": "Mistral NeMo",
+      "release": "2024-07-18",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.2036,
+          "best": 0.2989
+        }
+      }
+    },
+    {
+      "model": "Gemini 2.5 Deep Think",
+      "release": "2025-08-01",
+      "nRuns": 2,
+      "domains": {
+        "Language,Multimodal,Vision,Video,Audio,Mathematics": {
+          "n": 2,
+          "avg": 0.197,
+          "best": 0.29
+        }
+      }
+    },
+    {
+      "model": "Muse Spark 1.1",
+      "release": "2026-07-09",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.5779,
+          "best": 0.5779
+        }
+      }
+    },
+    {
+      "model": "phi-3-mini 3.8B",
+      "release": "2024-04-23",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0,
+          "best": 0
+        }
+      }
+    },
+    {
+      "model": "Llama 2-7B",
+      "release": "2023-07-18",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0,
+          "best": 0
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-4B",
+      "release": "2026-02-24",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.5583,
+          "best": 0.5583
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-2B",
+      "release": "2026-02-24",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0,
+          "best": 0
+        }
+      }
+    },
+    {
+      "model": "Llama 2-13B",
+      "release": "2023-07-18",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0,
+          "best": 0
+        }
+      }
+    },
+    {
+      "model": "Muse Spark 1.2",
+      "release": "2026-08-05",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.603,
+          "best": 0.603
+        }
+      }
+    },
+    {
+      "model": "Qwen3.5-122B-A10B",
+      "release": "2026-02-24",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.17,
+          "best": 0.17
+        }
+      }
+    },
+    {
+      "model": "GPT-5.3 Codex",
+      "release": "2026-02-05",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.7479,
+          "best": 0.7479
+        }
+      }
+    },
+    {
+      "model": "Grok 4 Heavy",
+      "release": "2025-07-10",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.0208,
+          "best": 0.0208
+        }
+      }
+    },
+    {
+      "model": "QWQ-Plus",
+      "release": "2025-04-08",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.654,
+          "best": 0.654
+        }
+      }
+    },
+    {
+      "model": "Qwen1.5-72B",
+      "release": "2024-02-04",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.2882,
+          "best": 0.2882
+        }
+      }
+    },
+    {
+      "model": "Qwen1.5-32B",
+      "release": "2024-04-03",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.3074,
+          "best": 0.3074
+        }
+      }
+    },
+    {
+      "model": "Eurus-2-7B-PRIME",
+      "release": "2024-12-31",
+      "nRuns": 1,
+      "domains": {
+        "Mathematics,Language": {
+          "n": 1,
+          "avg": 0.339,
+          "best": 0.339
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+name: ai-daily 每日管线
+
+# 晨报 08:30 / 晚报 22:14（北京时间），与 trending-radar 同频错峰。
+# cron 用 UTC 写：08:30 CST = 00:30 UTC，22:14 CST = 14:14 UTC。
+#
+# 注意：GitHub 的 schedule 在高负载时会排队，实际延迟通常在 5～30 分钟，
+# 极端情况可能超过一小时。这对日报站是可以接受的。
+# 另外，仓库连续 60 天没有任何提交时，GitHub 会自动禁用 scheduled workflow ——
+# 本管线每个班次都会提交数据，所以不会触发这个限制。
+
+on:
+  schedule:
+    - cron: '30 0 * * *'    # 08:30 北京时间 · 晨报
+    - cron: '14 14 * * *'   # 22:14 北京时间 · 晚报
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-daily-pipeline
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 纯函数自检：归一化、渠道判定、差分逻辑、文案模板。不联网。
+      # 这一步挂了说明代码有问题，应该直接失败而不是产出错误数据。
+      - name: 自检
+        run: node scripts/selftest.js
+
+      # 抓取 + 归一化 + 差分 + 落盘。
+      # 单个数据源失败只标记降级，不影响整条管线产出 —— 日报不能因为
+      # 某个厂商改了 RSS 地址就整体停摆。
+      - name: 抓取与差分
+        run: node scripts/fetch.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 第三方评测。失败了不阻断 —— 榜单是附加信息，不是日报主干。
+      - name: 抓取 Epoch AI 评测
+        run: node scripts/fetch-bench.js
+        continue-on-error: true
+
+      - name: 编译站点数据
+        run: node scripts/build-site.js
+
+      - name: 提交数据
+        run: |
+          set -e
+          git config user.name  "ai-daily-bot"
+          git config user.email "ai-daily-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "今天没有数据变化，跳过提交。"
+          else
+            D=$(date -u +%Y-%m-%d)
+            git commit -m "data: ${D} 每日快照与事件"
+            git push
+          fi
+
+      - name: 输出今日战报
+        run: |
+          node -e "
+          const e = require('./docs/data/events/' + new Date().toISOString().slice(0,10) + '.json');
+          const c = e.counts;
+          console.log('### ai-daily 今日战报');
+          console.log('');
+          console.log('| 新模型 | 调价 | 上下文变更 | 下架 | 官方公告 |');
+          console.log('| ---: | ---: | ---: | ---: | ---: |');
+          console.log('| ' + c.new + ' | ' + c.price + ' | ' + c.context + ' | ' + c.retired + ' | ' + c.news + ' |');
+          console.log('');
+          const news = e.events.filter(x => x.type === 'new' && x.vendorRaw !== undefined).slice(0, 15);
+          if (news.length) { console.log('**今日新模型**'); news.forEach(x => console.log('- ' + x.vendorName + ' · ' + x.text)); }
+          if (e.degraded && e.degraded.length) { console.log(''); console.log('⚠️ 降级源：' + e.degraded.join(', ')); }
+          " >> "$GITHUB_STEP_SUMMARY"

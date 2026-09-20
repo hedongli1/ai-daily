@@ -1,0 +1,9 @@
+# 抓取产物与本地状态，不进版本库。
+# 注意 raw/ 是**刻意排除**的：4.7MB 的原始 payload 每天都存一份会让仓库迅速膨胀，
+# 而它是完全可以重新抓取的。snapshot/ 必须保留，因为差分依赖历史快照。
+docs/data/raw/
+
+node_modules/
+.next/
+.DS_Store
+*.log

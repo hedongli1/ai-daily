@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "date": "2026-09-20",
+  "mode": "backfill",
+  "baselineDate": null,
+  "counts": {
+    "new": 1,
+    "retired": 0,
+    "price": 0,
+    "context": 0,
+    "news": 13,
+    "facts": 1,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)",
+    "Google Blog · AI(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 1
+    }
+  ],
+  "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-mm-plugins-hub · A documentation for Qwen-MM-Plugins",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "qwen-mm-plugins-hub · A documentation for Qwen-MM-Plugins",
+      "href": "https://github.com/QwenLM/qwen-mm-plugins-hub/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-09-19",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "zhipuai/GLM-5.3-FlashX",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-5.3-FlashX",
+      "date": "2026-09-18",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.37,
+        "outCost": 1.25,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "GLM-5.3-FlashX · 开源 · 1M 上下文 · 输入 $0.37/M · 支持推理",
+      "href": "/models/glm-5-3-flashx/",
+      "shared": 6
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing the Australian Youth Safety Blueprint",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "Introducing the Australian Youth Safety Blueprint",
+      "href": "https://openai.com/index/australian-youth-safety-blueprint",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "search-starter-app · Base template to build, manage and improve search engines",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "search-starter-app · Base template to build, manage and improve search engines",
+      "href": "https://github.com/mistralai/search-starter-app/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-09-18",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "date": "2026-09-20",
+  "vendors": [
+    {
+      "id": "nvidia",
+      "name": "英伟达",
+      "n": 105,
+      "cheapest": 0,
+      "latest": "2026-08-26"
+    },
+    {
+      "id": "alibaba",
+      "name": "阿里云",
+      "n": 146,
+      "cheapest": 0,
+      "latest": "2026-09-10"
+    },
+    {
+      "id": "openai",
+      "name": "OpenAI",
+      "n": 48,
+      "cheapest": 0.02,
+      "latest": "2026-09-04"
+    },
+    {
+      "id": "google",
+      "name": "谷歌",
+      "n": 39,
+      "cheapest": 0,
+      "latest": "2026-09-02"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral",
+      "n": 35,
+      "cheapest": 0,
+      "latest": "2026-08-14"
+    },
+    {
+      "id": "databricks",
+      "name": "Databricks",
+      "n": 30,
+      "cheapest": 0.05,
+      "latest": "2026-07-09"
+    },
+    {
+      "id": "volcengine",
+      "name": "字节跳动",
+      "n": 16,
+      "cheapest": 0.02227,
+      "latest": "2026-08-26"
+    },
+    {
+      "id": "zhipuai",
+      "name": "智谱 AI",
+      "n": 33,
+      "cheapest": 0,
+      "latest": "2026-09-18"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 14,
+      "cheapest": 1,
+      "latest": "2026-09-01"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 14,
+      "cheapest": 0,
+      "latest": "2026-06-09"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "n": 10,
+      "cheapest": 1,
+      "latest": "2026-08-12"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "n": 16,
+      "cheapest": 0.1,
+      "latest": "2026-05-29"
+    },
+    {
+      "id": "minimax",
+      "name": "MiniMax",
+      "n": 14,
+      "cheapest": 0.3,
+      "latest": "2026-06-01"
+    },
+    {
+      "id": "arcee",
+      "name": "Arcee AI",
+      "n": 7,
+      "cheapest": 0.14,
+      "latest": "2026-08-12"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-06-08"
+    },
+    {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 5,
+      "cheapest": 0,
+      "latest": "2026-08-12"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "n": 12,
+      "cheapest": 0,
+      "latest": "2026-09-02"
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 4,
+      "cheapest": 0.95,
+      "latest": "2026-08-03"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-09-10"
+    },
+    {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 8,
+      "cheapest": 0.95,
+      "latest": "2026-07-16"
+    },
+    {
+      "id": "upstage",
+      "name": "Upstage",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-08-06"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "n": 4,
+      "cheapest": 1,
+      "latest": "2025-02-01"
+    },
+    {
+      "id": "morph",
+      "name": "Morph",
+      "n": 3,
+      "cheapest": 0.8,
+      "latest": "2024-08-15"
+    },
+    {
+      "id": "poolside",
+      "name": "Poolside",
+      "n": 3,
+      "cheapest": 0,
+      "latest": "2026-07-21"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "n": 3,
+      "cheapest": 0.04,
+      "latest": "2026-09-08"
+    },
+    {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 13,
+      "cheapest": 0,
+      "latest": "2026-08-28"
+    },
+    {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15"
+    },
+    {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "n": 2,
+      "cheapest": 1.87,
+      "latest": "2026-07-15"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": null,
+      "latest": "2026-02-18"
+    },
+    {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14"
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "n": 2,
+      "cheapest": 0.2,
+      "latest": "2026-01-01"
+    },
+    {
+      "id": "longcat",
+      "name": "美团 LongCat",
+      "n": 1,
+      "cheapest": 0.75,
+      "latest": "2026-06-30"
+    }
+  ]
+}

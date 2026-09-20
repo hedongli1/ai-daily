@@ -1,0 +1,21 @@
+{
+  "name": "ai-daily",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "AI 日报 · 用模型数据库的每日差分回答「今天 AI 圈发生了什么」",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node scripts/selftest.js",
+    "selftest": "node scripts/selftest.js",
+    "fetch": "node scripts/fetch.js",
+    "offline": "node scripts/fetch.js --offline",
+    "bench": "node scripts/fetch-bench.js",
+    "build": "node scripts/build-site.js",
+    "all": "node scripts/selftest.js && node scripts/fetch.js && node scripts/fetch-bench.js && node scripts/build-site.js",
+    "serve": "cd docs && python3 -m http.server 8899"
+  }
+}

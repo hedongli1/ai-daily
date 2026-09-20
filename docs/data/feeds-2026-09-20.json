@@ -1,0 +1,82 @@
+[
+  {
+    "id": "openai",
+    "label": "OpenAI",
+    "vendor": "openai",
+    "status": "ok",
+    "count": 40,
+    "error": null
+  },
+  {
+    "id": "deepmind",
+    "label": "Google DeepMind",
+    "vendor": "google",
+    "status": "ok",
+    "count": 40,
+    "error": null
+  },
+  {
+    "id": "qwen",
+    "label": "Qwen",
+    "vendor": "alibaba",
+    "status": "ok",
+    "count": 40,
+    "error": null
+  },
+  {
+    "id": "anthropic",
+    "label": "Anthropic",
+    "vendor": "anthropic",
+    "status": "failed",
+    "count": 0,
+    "error": "fetch failed"
+  },
+  {
+    "id": "googleblog",
+    "label": "Google Blog · AI",
+    "vendor": "google",
+    "status": "failed",
+    "count": 0,
+    "error": "This operation was aborted"
+  },
+  {
+    "id": "deepseek-ai",
+    "label": "DeepSeek",
+    "vendor": "deepseek",
+    "status": "ok",
+    "count": 6,
+    "error": null
+  },
+  {
+    "id": "QwenLM",
+    "label": "Qwen",
+    "vendor": "alibaba",
+    "status": "ok",
+    "count": 4,
+    "error": null
+  },
+  {
+    "id": "meta-llama",
+    "label": "Meta Llama",
+    "vendor": "meta",
+    "status": "empty",
+    "count": 0,
+    "error": null
+  },
+  {
+    "id": "mistralai",
+    "label": "Mistral AI",
+    "vendor": "mistral",
+    "status": "ok",
+    "count": 10,
+    "error": null
+  },
+  {
+    "id": "zai-org",
+    "label": "智谱 AI",
+    "vendor": "zhipu",
+    "status": "ok",
+    "count": 1,
+    "error": null
+  }
+]

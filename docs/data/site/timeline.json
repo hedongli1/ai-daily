@@ -1,0 +1,5495 @@
+{
+  "date": "2026-09-20",
+  "timeline": [
+    {
+      "n": "glm-5-3-flashx",
+      "name": "GLM-5.3-FlashX",
+      "vn": "智谱 AI",
+      "rel": "2026-09-18",
+      "ctx": 1000000,
+      "in": 0.37,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3-flashx",
+      "name": "GLM-5.3-FlashX",
+      "vn": "智谱 AI",
+      "rel": "2026-09-18",
+      "ctx": 1000000,
+      "in": 0.37,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash-vision-exp",
+      "name": "DeepSeek V4 Flash Vision Exp",
+      "vn": "DeepSeek",
+      "rel": "2026-09-10",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vn": "DeepSeek",
+      "rel": "2026-09-10",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "vn": "DeepSeek",
+      "rel": "2026-09-10",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "vn": "阿里云",
+      "rel": "2026-09-10",
+      "ctx": 1000000,
+      "in": 0.29754,
+      "open": 1
+    },
+    {
+      "n": "mercury-2-5",
+      "name": "Mercury 2.5",
+      "vn": "Inception",
+      "rel": "2026-09-08",
+      "ctx": 260000,
+      "in": 0.04,
+      "open": 0
+    },
+    {
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vn": "OpenAI",
+      "rel": "2026-09-04",
+      "ctx": 1050000,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "muse-spark-1-3-contributor",
+      "name": "Muse Spark 1.3 Contributor",
+      "vn": "Meta",
+      "rel": "2026-09-02",
+      "ctx": 1048576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "muse-spark-1-3",
+      "name": "Muse Spark 1.3",
+      "vn": "Meta",
+      "rel": "2026-09-02",
+      "ctx": 1048576,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "vn": "谷歌",
+      "rel": "2026-09-02",
+      "ctx": 1048576,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "claude-fable-5-1",
+      "name": "Claude Fable 5.1",
+      "vn": "Anthropic",
+      "rel": "2026-09-01",
+      "ctx": 1000000,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "hy4-preview",
+      "name": "Hy4 preview",
+      "vn": "腾讯混元",
+      "rel": "2026-08-28",
+      "ctx": 1024000,
+      "in": 0.834,
+      "open": 1
+    },
+    {
+      "n": "hy4-preview",
+      "name": "Hy4 preview",
+      "vn": "腾讯混元",
+      "rel": "2026-08-28",
+      "ctx": 1024000,
+      "in": 0.834,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "vn": "智谱 AI",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "vn": "智谱 AI",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "vn": "字节跳动",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0.11875,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "vn": "英伟达",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-8-flash",
+      "name": "Qwen3.8 Flash",
+      "vn": "阿里云",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 0
+    },
+    {
+      "n": "qwen3-8-flash",
+      "name": "Qwen3.8 Flash",
+      "vn": "阿里云",
+      "rel": "2026-08-26",
+      "ctx": 1000000,
+      "in": 0.11875,
+      "open": 0
+    },
+    {
+      "n": "glm-5-3",
+      "name": "GLM-5.3",
+      "vn": "智谱 AI",
+      "rel": "2026-08-14",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3",
+      "name": "GLM-5.3",
+      "vn": "智谱 AI",
+      "rel": "2026-08-14",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3",
+      "name": "GLM-5.3",
+      "vn": "英伟达",
+      "rel": "2026-08-14",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3",
+      "name": "GLM-5.3",
+      "vn": "Mistral",
+      "rel": "2026-08-14",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "qwen3-8-27b",
+      "name": "Qwen3.8 27B",
+      "vn": "Cerebras",
+      "rel": "2026-08-14",
+      "ctx": 65536,
+      "in": 0.99,
+      "open": 1
+    },
+    {
+      "n": "glm-5-3",
+      "name": "GLM-5.3",
+      "vn": "阿里云",
+      "rel": "2026-08-14",
+      "ctx": 1000000,
+      "in": 1.1,
+      "open": 1
+    },
+    {
+      "n": "gemini-flash-latest",
+      "name": "Gemini Flash Latest",
+      "vn": "谷歌",
+      "rel": "2026-08-13",
+      "ctx": 1048576,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-7-flash",
+      "name": "Gemini 3.7 Flash",
+      "vn": "谷歌",
+      "rel": "2026-08-13",
+      "ctx": 1048576,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "grok-4-6",
+      "name": "Grok 4.6",
+      "vn": "xAI",
+      "rel": "2026-08-12",
+      "ctx": 500000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "vn": "字节跳动",
+      "rel": "2026-08-12",
+      "ctx": 1000000,
+      "in": 1.3359,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vn": "商汤科技",
+      "rel": "2026-08-12",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "vn": "英伟达",
+      "rel": "2026-08-12",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vn": "DeepSeek",
+      "rel": "2026-08-12",
+      "ctx": 1000000,
+      "in": 0.435,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro-0813",
+      "name": "DeepSeek V4 Pro 0813",
+      "vn": "Arcee AI",
+      "rel": "2026-08-12",
+      "ctx": 1048576,
+      "in": 1.32,
+      "open": 1
+    },
+    {
+      "n": "sensenova-6-8-flash-lite",
+      "name": "SenseNova 6.8 Flash Lite",
+      "vn": "商汤科技",
+      "rel": "2026-08-11",
+      "ctx": 262144,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "nemotron-3-5-lightning-30b-a3b",
+      "name": "Nemotron 3.5 Lightning 30B A3B",
+      "vn": "英伟达",
+      "rel": "2026-08-11",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "muse-glimmer-30b",
+      "name": "Muse Glimmer 30B",
+      "vn": "英伟达",
+      "rel": "2026-08-10",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "solar-pro-4",
+      "name": "Solar Pro 4",
+      "vn": "Upstage",
+      "rel": "2026-08-06",
+      "ctx": 524288,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "muse-spark-1-2-contributor",
+      "name": "Muse Spark 1.2 Contributor",
+      "vn": "Meta",
+      "rel": "2026-08-05",
+      "ctx": 1048576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "muse-spark-1-2",
+      "name": "Muse Spark 1.2",
+      "vn": "Meta",
+      "rel": "2026-08-05",
+      "ctx": 1048576,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "sakana-namazu",
+      "name": "Sakana Namazu",
+      "vn": "Sakana AI",
+      "rel": "2026-08-03",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 0
+    },
+    {
+      "n": "qwen3-8-max",
+      "name": "Qwen3.8 Max",
+      "vn": "阿里云",
+      "rel": "2026-08-03",
+      "ctx": 1000000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "qwen3-8-max",
+      "name": "Qwen3.8 Max",
+      "vn": "阿里云",
+      "rel": "2026-08-03",
+      "ctx": 1000000,
+      "in": 1.77744,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "vn": "字节跳动",
+      "rel": "2026-07-31",
+      "ctx": 1000000,
+      "in": 0.4453,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "vn": "英伟达",
+      "rel": "2026-07-31",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash-latest",
+      "name": "DeepSeek V4 Flash Latest",
+      "vn": "Arcee AI",
+      "rel": "2026-07-31",
+      "ctx": 1048576,
+      "in": 0.14,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash-0731",
+      "name": "DeepSeek V4 Flash 0731",
+      "vn": "阿里云",
+      "rel": "2026-07-31",
+      "ctx": 1000000,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "inkling-small",
+      "name": "Inkling Small",
+      "vn": "Arcee AI",
+      "rel": "2026-07-30",
+      "ctx": 262144,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "claude-opus-5",
+      "name": "Claude Opus 5",
+      "vn": "Anthropic",
+      "rel": "2026-07-24",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "laguna-s-2-1",
+      "name": "Laguna S 2.1",
+      "vn": "Poolside",
+      "rel": "2026-07-21",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemini-flash-lite-latest",
+      "name": "Gemini Flash-Lite Latest",
+      "vn": "谷歌",
+      "rel": "2026-07-21",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-6-flash",
+      "name": "Gemini 3.6 Flash",
+      "vn": "谷歌",
+      "rel": "2026-07-21",
+      "ctx": 1048576,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-5-flash-lite",
+      "name": "Gemini 3.5 Flash Lite",
+      "vn": "谷歌",
+      "rel": "2026-07-21",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "商汤科技",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "英伟达",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "月之暗面",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 3,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "月之暗面",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 3,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "Arcee AI",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 3,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "阿里云",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 3,
+      "open": 1
+    },
+    {
+      "n": "kimi-k3",
+      "name": "Kimi K3",
+      "vn": "阿里云",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 2.827,
+      "open": 1
+    },
+    {
+      "n": "inkling",
+      "name": "Inkling (256K)",
+      "vn": "Thinking Machines",
+      "rel": "2026-07-15",
+      "ctx": 262144,
+      "in": 3.74,
+      "open": 1
+    },
+    {
+      "n": "inkling",
+      "name": "Inkling",
+      "vn": "Thinking Machines",
+      "rel": "2026-07-15",
+      "ctx": 65536,
+      "in": 1.87,
+      "open": 1
+    },
+    {
+      "n": "inkling",
+      "name": "Inkling",
+      "vn": "英伟达",
+      "rel": "2026-07-15",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-7-flash",
+      "name": "Qwen3.7 Flash",
+      "vn": "阿里云",
+      "rel": "2026-07-15",
+      "ctx": 1000000,
+      "in": 0.02962,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-terra",
+      "name": "GPT-5.6 Terra",
+      "vn": "OpenAI",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-sol",
+      "name": "GPT-5.6 Sol",
+      "vn": "OpenAI",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 4,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-luna",
+      "name": "GPT-5.6 Luna",
+      "vn": "OpenAI",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 0.2,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6",
+      "name": "GPT-5.6",
+      "vn": "OpenAI",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 4,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-terra",
+      "name": "GPT-5.6 Terra",
+      "vn": "Databricks",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-sol",
+      "name": "GPT-5.6 Sol",
+      "vn": "Databricks",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6-luna",
+      "name": "GPT-5.6 Luna",
+      "vn": "Databricks",
+      "rel": "2026-07-09",
+      "ctx": 400000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "grok-4-5",
+      "name": "Grok 4.5",
+      "vn": "xAI",
+      "rel": "2026-07-08",
+      "ctx": 500000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "hy3",
+      "name": "Hy3",
+      "vn": "腾讯混元",
+      "rel": "2026-07-06",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "hy3",
+      "name": "Hy3",
+      "vn": "腾讯混元",
+      "rel": "2026-07-06",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-realtime-2-1",
+      "name": "GPT-Realtime-2.1",
+      "vn": "OpenAI",
+      "rel": "2026-07-06",
+      "ctx": 128000,
+      "in": 4,
+      "open": 0
+    },
+    {
+      "n": "laguna-xs-2-1",
+      "name": "Laguna XS 2.1",
+      "vn": "Poolside",
+      "rel": "2026-07-02",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "laguna-xs-2-1",
+      "name": "Laguna XS 2.1",
+      "vn": "英伟达",
+      "rel": "2026-07-02",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "longcat-2-0",
+      "name": "LongCat-2.0",
+      "vn": "美团 LongCat",
+      "rel": "2026-06-30",
+      "ctx": 1000000,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "gemini-omni-flash-preview",
+      "name": "Gemini Omni Flash Preview",
+      "vn": "谷歌",
+      "rel": "2026-06-30",
+      "ctx": 131072,
+      "in": 1.5,
+      "open": 0
+    },
+    {
+      "n": "nano-banana-2-lite",
+      "name": "Nano Banana 2 Lite",
+      "vn": "谷歌",
+      "rel": "2026-06-30",
+      "ctx": 65536,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "claude-sonnet-5",
+      "name": "Claude Sonnet 5",
+      "vn": "Anthropic",
+      "rel": "2026-06-29",
+      "ctx": 1000000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "seed-evolving",
+      "name": "Seed Evolving",
+      "vn": "字节跳动",
+      "rel": "2026-06-23",
+      "ctx": 256000,
+      "in": 0.8906,
+      "open": 0
+    },
+    {
+      "n": "seed-character",
+      "name": "Seed Character",
+      "vn": "字节跳动",
+      "rel": "2026-06-23",
+      "ctx": 256000,
+      "in": 0.11875,
+      "open": 0
+    },
+    {
+      "n": "seed-2-1-turbo",
+      "name": "Seed 2.1 Turbo",
+      "vn": "字节跳动",
+      "rel": "2026-06-23",
+      "ctx": 256000,
+      "in": 0.4453,
+      "open": 0
+    },
+    {
+      "n": "seed-2-1-pro",
+      "name": "Seed 2.1 Pro",
+      "vn": "字节跳动",
+      "rel": "2026-06-23",
+      "ctx": 256000,
+      "in": 0.8906,
+      "open": 0
+    },
+    {
+      "n": "fugu-ultra",
+      "name": "Fugu Ultra",
+      "vn": "Sakana AI",
+      "rel": "2026-06-15",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "fugu-ultra",
+      "name": "Fugu Ultra",
+      "vn": "Sakana AI",
+      "rel": "2026-06-15",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "fugu",
+      "name": "Fugu",
+      "vn": "Sakana AI",
+      "rel": "2026-06-15",
+      "ctx": 1000000,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "智谱 AI",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 0
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "智谱 AI",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "字节跳动",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.18747,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "商汤科技",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "英伟达",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "Mistral",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "Databricks",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "Arcee AI",
+      "rel": "2026-06-13",
+      "ctx": 262144,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "阿里云",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "glm-5-2",
+      "name": "GLM-5.2",
+      "vn": "阿里云",
+      "rel": "2026-06-13",
+      "ctx": 1000000,
+      "in": 1.1,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-7-code-highspeed",
+      "name": "Kimi K2.7 Code HighSpeed",
+      "vn": "月之暗面",
+      "rel": "2026-06-12",
+      "ctx": 262144,
+      "in": 1.9,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-7-code",
+      "name": "Kimi K2.7 Code",
+      "vn": "月之暗面",
+      "rel": "2026-06-12",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-7-code-highspeed",
+      "name": "Kimi K2.7 Code HighSpeed",
+      "vn": "月之暗面",
+      "rel": "2026-06-12",
+      "ctx": 262144,
+      "in": 1.9,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-7-code",
+      "name": "Kimi K2.7 Code",
+      "vn": "月之暗面",
+      "rel": "2026-06-12",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-7-code",
+      "name": "Kimi K2.7 Code",
+      "vn": "Databricks",
+      "rel": "2026-06-12",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 1
+    },
+    {
+      "n": "gemini-3-5-live-translate-preview",
+      "name": "Gemini 3.5 Live Translate Preview",
+      "vn": "谷歌",
+      "rel": "2026-06-09",
+      "ctx": 16384,
+      "in": 3.5,
+      "open": 0
+    },
+    {
+      "n": "north-mini-code",
+      "name": "North Mini Code",
+      "vn": "Cohere",
+      "rel": "2026-06-09",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mimo-v2-5-pro-ultraspeed",
+      "name": "MiMo-V2.5-Pro-UltraSpeed",
+      "vn": "小米",
+      "rel": "2026-06-08",
+      "ctx": 1048576,
+      "in": 1.305,
+      "open": 1
+    },
+    {
+      "n": "claude-fable-5",
+      "name": "Claude Fable 5",
+      "vn": "Anthropic",
+      "rel": "2026-06-07",
+      "ctx": 1000000,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "nemotron-3-ultra-550b-a55b",
+      "name": "Nemotron 3 Ultra 550B A55B",
+      "vn": "英伟达",
+      "rel": "2026-06-04",
+      "ctx": 1000000,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "qwen3-7-plus",
+      "name": "Qwen3.7 Plus",
+      "vn": "阿里云",
+      "rel": "2026-06-02",
+      "ctx": 1000000,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "qwen3-7-plus",
+      "name": "Qwen3.7 Plus",
+      "vn": "阿里云",
+      "rel": "2026-06-02",
+      "ctx": 1000000,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "minimax-m3",
+      "name": "MiniMax-M3",
+      "vn": "英伟达",
+      "rel": "2026-06-01",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "minimax-m3",
+      "name": "MiniMax-M3",
+      "vn": "MiniMax",
+      "rel": "2026-06-01",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m3",
+      "name": "MiniMax-M3",
+      "vn": "MiniMax",
+      "rel": "2026-06-01",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "grok-imagine-video-1-5",
+      "name": "Grok Imagine Video 1.5",
+      "vn": "xAI",
+      "rel": "2026-05-30",
+      "ctx": 1024,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "step-3-7-flash",
+      "name": "Step 3.7 Flash",
+      "vn": "阶跃星辰",
+      "rel": "2026-05-29",
+      "ctx": 256000,
+      "in": 0.185,
+      "open": 1
+    },
+    {
+      "n": "step-3-7-flash",
+      "name": "Step 3.7 Flash",
+      "vn": "阶跃星辰",
+      "rel": "2026-05-29",
+      "ctx": 256000,
+      "in": 0.185,
+      "open": 1
+    },
+    {
+      "n": "step-3-7-flash",
+      "name": "Step 3.7 Flash",
+      "vn": "英伟达",
+      "rel": "2026-05-28",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nano-banana-2",
+      "name": "Nano Banana 2",
+      "vn": "谷歌",
+      "rel": "2026-05-28",
+      "ctx": 65536,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "vn": "谷歌",
+      "rel": "2026-05-28",
+      "ctx": 131072,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
+      "vn": "Anthropic",
+      "rel": "2026-05-28",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "qwen3-7-max",
+      "name": "Qwen3.7 Max",
+      "vn": "阿里云",
+      "rel": "2026-05-21",
+      "ctx": 1000000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "qwen3-7-max",
+      "name": "Qwen3.7 Max",
+      "vn": "阿里云",
+      "rel": "2026-05-21",
+      "ctx": 1000000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "command-a-plus",
+      "name": "Command A Plus",
+      "vn": "Cohere",
+      "rel": "2026-05-20",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "gemini-3-5-flash",
+      "name": "Gemini 3.5 Flash",
+      "vn": "谷歌",
+      "rel": "2026-05-19",
+      "ctx": 1048576,
+      "in": 1.5,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-flash-lite",
+      "name": "Gemini 3.1 Flash Lite",
+      "vn": "谷歌",
+      "rel": "2026-05-07",
+      "ctx": 1048576,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "vn": "英伟达",
+      "rel": "2026-04-29",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-medium",
+      "name": "Mistral Medium (latest)",
+      "vn": "Mistral",
+      "rel": "2026-04-29",
+      "ctx": 262144,
+      "in": 1.5,
+      "open": 1
+    },
+    {
+      "n": "mistral-medium-3-5",
+      "name": "Mistral Medium 3.5",
+      "vn": "Mistral",
+      "rel": "2026-04-29",
+      "ctx": 262144,
+      "in": 1.5,
+      "open": 1
+    },
+    {
+      "n": "laguna-m-1",
+      "name": "Laguna M.1",
+      "vn": "Poolside",
+      "rel": "2026-04-28",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nemotron-3-nano-omni",
+      "name": "Nemotron 3 Nano Omni",
+      "vn": "英伟达",
+      "rel": "2026-04-28",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-6-flash",
+      "name": "Qwen3.6 Flash",
+      "vn": "阿里云",
+      "rel": "2026-04-27",
+      "ctx": 1000000,
+      "in": 0.1875,
+      "open": 0
+    },
+    {
+      "n": "qwen3-6-flash",
+      "name": "Qwen3.6 Flash",
+      "vn": "阿里云",
+      "rel": "2026-04-27",
+      "ctx": 1000000,
+      "in": 0.1875,
+      "open": 0
+    },
+    {
+      "n": "stepaudio-2-5-asr",
+      "name": "StepAudio 2.5 ASR",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-24",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "stepaudio-2-5-asr",
+      "name": "StepAudio 2.5 ASR",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-24",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vn": "商汤科技",
+      "rel": "2026-04-24",
+      "ctx": 1000000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vn": "英伟达",
+      "rel": "2026-04-24",
+      "ctx": 1048576,
+      "in": 0.435,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vn": "英伟达",
+      "rel": "2026-04-24",
+      "ctx": 1048576,
+      "in": 0.14,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vn": "Arcee AI",
+      "rel": "2026-04-24",
+      "ctx": 512000,
+      "in": 1.74,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-pro",
+      "name": "DeepSeek V4 Pro",
+      "vn": "阿里云",
+      "rel": "2026-04-24",
+      "ctx": 1000000,
+      "in": 0.435,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-flash",
+      "name": "DeepSeek V4 Flash",
+      "vn": "阿里云",
+      "rel": "2026-04-24",
+      "ctx": 1000000,
+      "in": 0.14,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-5-pro",
+      "name": "GPT-5.5 Pro",
+      "vn": "OpenAI",
+      "rel": "2026-04-23",
+      "ctx": 1050000,
+      "in": 30,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-5",
+      "name": "GPT-5.5",
+      "vn": "OpenAI",
+      "rel": "2026-04-23",
+      "ctx": 1050000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-5",
+      "name": "GPT-5.5",
+      "vn": "Databricks",
+      "rel": "2026-04-23",
+      "ctx": 1050000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "mimo-v2-5-pro",
+      "name": "MiMo-V2.5-Pro",
+      "vn": "小米",
+      "rel": "2026-04-22",
+      "ctx": 1048576,
+      "in": 0.435,
+      "open": 1
+    },
+    {
+      "n": "mimo-v2-5",
+      "name": "MiMo-V2.5",
+      "vn": "小米",
+      "rel": "2026-04-22",
+      "ctx": 1048576,
+      "in": 0.14,
+      "open": 1
+    },
+    {
+      "n": "gemini-embedding-2",
+      "name": "Gemini Embedding 2",
+      "vn": "谷歌",
+      "rel": "2026-04-22",
+      "ctx": 8192,
+      "in": 0.2,
+      "open": 0
+    },
+    {
+      "n": "qwen3-6-27b",
+      "name": "Qwen3.6 27B",
+      "vn": "阿里云",
+      "rel": "2026-04-22",
+      "ctx": 262144,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "gpt-image-2",
+      "name": "gpt-image-2",
+      "vn": "OpenAI",
+      "rel": "2026-04-21",
+      "ctx": 0,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "vn": "英伟达",
+      "rel": "2026-04-21",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "vn": "月之暗面",
+      "rel": "2026-04-21",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "vn": "月之暗面",
+      "rel": "2026-04-21",
+      "ctx": 262144,
+      "in": 0.95,
+      "open": 1
+    },
+    {
+      "n": "deep-research-preview",
+      "name": "Deep Research Preview (Apr-21-2026)",
+      "vn": "谷歌",
+      "rel": "2026-04-21",
+      "ctx": 131072,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "deep-research-max-preview",
+      "name": "Deep Research Max Preview (Apr-21-2026)",
+      "vn": "谷歌",
+      "rel": "2026-04-21",
+      "ctx": 131072,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "moonshot-kimi-k2-6",
+      "name": "Moonshot Kimi K2.6",
+      "vn": "阿里云",
+      "rel": "2026-04-21",
+      "ctx": 262144,
+      "in": 0.929,
+      "open": 1
+    },
+    {
+      "n": "hy3-preview",
+      "name": "Hy3 preview",
+      "vn": "腾讯混元",
+      "rel": "2026-04-20",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-6-max-preview",
+      "name": "Qwen3.6 Max Preview",
+      "vn": "阿里云",
+      "rel": "2026-04-20",
+      "ctx": 262144,
+      "in": 1.3,
+      "open": 0
+    },
+    {
+      "n": "qwen3-6-max-preview",
+      "name": "Qwen3.6 Max Preview",
+      "vn": "阿里云",
+      "rel": "2026-04-20",
+      "ctx": 245800,
+      "in": 1.32,
+      "open": 0
+    },
+    {
+      "n": "grok-4-3",
+      "name": "Grok 4.3",
+      "vn": "xAI",
+      "rel": "2026-04-17",
+      "ctx": 1000000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "qwen3-6-35b-a3b",
+      "name": "Qwen3.6 35B-A3B",
+      "vn": "阿里云",
+      "rel": "2026-04-17",
+      "ctx": 262144,
+      "in": 0.248,
+      "open": 1
+    },
+    {
+      "n": "grok-build-0-1",
+      "name": "Grok Build 0.1",
+      "vn": "xAI",
+      "rel": "2026-04-16",
+      "ctx": 256000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "stepaudio-2-5-tts",
+      "name": "StepAudio 2.5 TTS",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-16",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "stepaudio-2-5-tts",
+      "name": "StepAudio 2.5 TTS",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-16",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "synthetic-video-detector",
+      "name": "synthetic-video-detector",
+      "vn": "英伟达",
+      "rel": "2026-04-16",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nemotron-3-content-safety",
+      "name": "nemotron-3-content-safety",
+      "vn": "英伟达",
+      "rel": "2026-04-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "active-speaker-detection",
+      "name": "Active Speaker Detection",
+      "vn": "英伟达",
+      "rel": "2026-04-16",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "vn": "Databricks",
+      "rel": "2026-04-16",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-flash-tts-preview",
+      "name": "Gemini 3.1 Flash TTS Preview",
+      "vn": "谷歌",
+      "rel": "2026-04-15",
+      "ctx": 8192,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "vn": "Anthropic",
+      "rel": "2026-04-14",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "glm-5-1",
+      "name": "GLM-5.1",
+      "vn": "阿里云",
+      "rel": "2026-04-14",
+      "ctx": 202752,
+      "in": 0.825,
+      "open": 1
+    },
+    {
+      "n": "muse-spark-1-1",
+      "name": "Muse Spark 1.1",
+      "vn": "Meta",
+      "rel": "2026-04-08",
+      "ctx": 1048576,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "glm-5-1",
+      "name": "GLM-5.1",
+      "vn": "智谱 AI",
+      "rel": "2026-04-07",
+      "ctx": 200000,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "step-3-5-flash-2603",
+      "name": "Step 3.5 Flash 2603",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-02",
+      "ctx": 256000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "step-3-5-flash-2603",
+      "name": "Step 3.5 Flash 2603",
+      "vn": "阶跃星辰",
+      "rel": "2026-04-02",
+      "ctx": 256000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "gemma-4-31b-it",
+      "name": "Gemma-4-31B-IT",
+      "vn": "英伟达",
+      "rel": "2026-04-02",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemma-4-31b-it",
+      "name": "Gemma 4 31B IT",
+      "vn": "谷歌",
+      "rel": "2026-04-02",
+      "ctx": 262144,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "gemma-4-26b-a4b-it",
+      "name": "Gemma 4 26B A4B IT",
+      "vn": "谷歌",
+      "rel": "2026-04-02",
+      "ctx": 262144,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "qwen3-6-plus",
+      "name": "Qwen3.6 Plus",
+      "vn": "阿里云",
+      "rel": "2026-04-02",
+      "ctx": 1000000,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "qwen3-6-plus",
+      "name": "Qwen3.6 Plus",
+      "vn": "阿里云",
+      "rel": "2026-04-02",
+      "ctx": 1000000,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "glm-5v-turbo",
+      "name": "GLM-5V-Turbo",
+      "vn": "智谱 AI",
+      "rel": "2026-04-01",
+      "ctx": 200000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "glm-5v-turbo",
+      "name": "GLM-5V-Turbo",
+      "vn": "智谱 AI",
+      "rel": "2026-04-01",
+      "ctx": 200000,
+      "in": 1.2,
+      "open": 0
+    },
+    {
+      "n": "trinity-large-thinking",
+      "name": "Trinity Large Thinking",
+      "vn": "Arcee AI",
+      "rel": "2026-04-01",
+      "ctx": 262144,
+      "in": 0.25,
+      "open": 1
+    },
+    {
+      "n": "llama-nemotron-rerank-vl-1b-v2",
+      "name": "llama-nemotron-rerank-vl-1b-v2",
+      "vn": "英伟达",
+      "rel": "2026-03-31",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "veo-3-1-lite",
+      "name": "Veo 3.1 lite",
+      "vn": "谷歌",
+      "rel": "2026-03-31",
+      "ctx": 480,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "mercury-edit-2",
+      "name": "Mercury Edit 2",
+      "vn": "Inception",
+      "rel": "2026-03-30",
+      "ctx": 32000,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "glm-5-1",
+      "name": "GLM-5.1",
+      "vn": "智谱 AI",
+      "rel": "2026-03-27",
+      "ctx": 200000,
+      "in": 1.4,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-flash-live-preview",
+      "name": "Gemini 3.1 Flash Live Preview",
+      "vn": "谷歌",
+      "rel": "2026-03-26",
+      "ctx": 131072,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "lyria-3-pro-preview",
+      "name": "Lyria 3 Pro Preview",
+      "vn": "谷歌",
+      "rel": "2026-03-25",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "lyria-3-clip-preview",
+      "name": "Lyria 3 Clip Preview",
+      "vn": "谷歌",
+      "rel": "2026-03-25",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "mimo-v2-pro",
+      "name": "MiMo-V2-Pro",
+      "vn": "小米",
+      "rel": "2026-03-18",
+      "ctx": 1048576,
+      "in": 0.435,
+      "open": 0
+    },
+    {
+      "n": "mimo-v2-omni",
+      "name": "MiMo-V2-Omni",
+      "vn": "小米",
+      "rel": "2026-03-18",
+      "ctx": 262144,
+      "in": 0.14,
+      "open": 0
+    },
+    {
+      "n": "minimax-m2-7",
+      "name": "MiniMax-M2.7",
+      "vn": "英伟达",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-7-highspeed",
+      "name": "MiniMax-M2.7-highspeed",
+      "vn": "MiniMax",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-7",
+      "name": "MiniMax-M2.7",
+      "vn": "MiniMax",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-7-highspeed",
+      "name": "MiniMax-M2.7-highspeed",
+      "vn": "MiniMax",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-7",
+      "name": "MiniMax-M2.7",
+      "vn": "MiniMax",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-7",
+      "name": "MiniMax-M2.7",
+      "vn": "阿里云",
+      "rel": "2026-03-18",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-4-nano",
+      "name": "GPT-5.4 nano",
+      "vn": "OpenAI",
+      "rel": "2026-03-17",
+      "ctx": 400000,
+      "in": 0.2,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4-mini",
+      "name": "GPT-5.4 mini",
+      "vn": "OpenAI",
+      "rel": "2026-03-17",
+      "ctx": 400000,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4-nano",
+      "name": "GPT-5.4 nano",
+      "vn": "Databricks",
+      "rel": "2026-03-17",
+      "ctx": 400000,
+      "in": 0.2,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4-mini",
+      "name": "GPT-5.4 mini",
+      "vn": "Databricks",
+      "rel": "2026-03-17",
+      "ctx": 400000,
+      "in": 0.75,
+      "open": 0
+    },
+    {
+      "n": "glm-5-turbo",
+      "name": "GLM-5-Turbo",
+      "vn": "智谱 AI",
+      "rel": "2026-03-16",
+      "ctx": 200000,
+      "in": 1.2,
+      "open": 0
+    },
+    {
+      "n": "nemotron-voicechat",
+      "name": "nemotron-voicechat",
+      "vn": "英伟达",
+      "rel": "2026-03-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-small-4-119b-2603",
+      "name": "mistral-small-4-119b-2603",
+      "vn": "英伟达",
+      "rel": "2026-03-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-small",
+      "name": "Mistral Small (latest)",
+      "vn": "Mistral",
+      "rel": "2026-03-16",
+      "ctx": 256000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "mistral-small-4",
+      "name": "Mistral Small 4",
+      "vn": "Mistral",
+      "rel": "2026-03-16",
+      "ctx": 256000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "nemotron-3-super",
+      "name": "Nemotron 3 Super",
+      "vn": "英伟达",
+      "rel": "2026-03-11",
+      "ctx": 262144,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "grok-4-20-multi-agent",
+      "name": "Grok 4.20 Multi-Agent",
+      "vn": "xAI",
+      "rel": "2026-03-09",
+      "ctx": 1000000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "grok-4-20",
+      "name": "Grok 4.20 (Reasoning)",
+      "vn": "xAI",
+      "rel": "2026-03-09",
+      "ctx": 1000000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "grok-4-20",
+      "name": "Grok 4.20 (Non-Reasoning)",
+      "vn": "xAI",
+      "rel": "2026-03-09",
+      "ctx": 1000000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "auto",
+      "name": "Auto",
+      "vn": "腾讯混元",
+      "rel": "2026-03-08",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "hunyuan-turbos",
+      "name": "Hunyuan-TurboS",
+      "vn": "腾讯混元",
+      "rel": "2026-03-08",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "hunyuan-t1",
+      "name": "Hunyuan-T1",
+      "vn": "腾讯混元",
+      "rel": "2026-03-08",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "tencent-hy-2-0-think",
+      "name": "Tencent HY 2.0 Think",
+      "vn": "腾讯混元",
+      "rel": "2026-03-08",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "tencent-hy-2-0-instruct",
+      "name": "Tencent HY 2.0 Instruct",
+      "vn": "腾讯混元",
+      "rel": "2026-03-08",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4-pro",
+      "name": "GPT-5.4 Pro",
+      "vn": "OpenAI",
+      "rel": "2026-03-05",
+      "ctx": 1050000,
+      "in": 30,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4",
+      "name": "GPT-5.4",
+      "vn": "OpenAI",
+      "rel": "2026-03-05",
+      "ctx": 1050000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-4",
+      "name": "GPT-5.4",
+      "vn": "Databricks",
+      "rel": "2026-03-05",
+      "ctx": 1050000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-3-chat",
+      "name": "GPT-5.3 Chat (latest)",
+      "vn": "OpenAI",
+      "rel": "2026-03-03",
+      "ctx": 128000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "gliner-pii",
+      "name": "gliner-pii",
+      "vn": "英伟达",
+      "rel": "2026-03-03",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemini-3-1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "vn": "谷歌",
+      "rel": "2026-03-03",
+      "ctx": 1048576,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-flash-lite-preview",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "vn": "Databricks",
+      "rel": "2026-03-03",
+      "ctx": 1048576,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "step-tts-2",
+      "name": "Step TTS 2",
+      "vn": "阶跃星辰",
+      "rel": "2026-03-01",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "step-tts-2",
+      "name": "Step TTS 2",
+      "vn": "阶跃星辰",
+      "rel": "2026-03-01",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "voxtral-mini-tts",
+      "name": "Voxtral Mini TTS (latest)",
+      "vn": "Mistral",
+      "rel": "2026-03-01",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "cosmos-transfer2-5-2b",
+      "name": "cosmos-transfer2.5-2b",
+      "vn": "英伟达",
+      "rel": "2026-02-26",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nano-banana-2",
+      "name": "Nano Banana 2",
+      "vn": "谷歌",
+      "rel": "2026-02-26",
+      "ctx": 65536,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "mercury-2",
+      "name": "Mercury 2",
+      "vn": "Inception",
+      "rel": "2026-02-24",
+      "ctx": 128000,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "qwen3-5-122b-a10b",
+      "name": "Qwen3.5 122B-A10B",
+      "vn": "英伟达",
+      "rel": "2026-02-23",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-35b-a3b",
+      "name": "Qwen3.5 35B-A3B",
+      "vn": "阿里云",
+      "rel": "2026-02-23",
+      "ctx": 262144,
+      "in": 0.25,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-27b",
+      "name": "Qwen3.5 27B",
+      "vn": "阿里云",
+      "rel": "2026-02-23",
+      "ctx": 262144,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-122b-a10b",
+      "name": "Qwen3.5 122B-A10B",
+      "vn": "阿里云",
+      "rel": "2026-02-23",
+      "ctx": 262144,
+      "in": 0.4,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-flash",
+      "name": "Qwen3.5 Flash",
+      "vn": "阿里云",
+      "rel": "2026-02-23",
+      "ctx": 1000000,
+      "in": 0.172,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-pro-preview-custom-tools",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "vn": "谷歌",
+      "rel": "2026-02-19",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
+      "vn": "谷歌",
+      "rel": "2026-02-19",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-1-pro-preview-custom-tools",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "vn": "Databricks",
+      "rel": "2026-02-19",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "sarvam-30b",
+      "name": "Sarvam-30B",
+      "vn": "Sarvam AI",
+      "rel": "2026-02-18",
+      "ctx": 65536,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "sarvam-105b",
+      "name": "Sarvam-105B",
+      "vn": "Sarvam AI",
+      "rel": "2026-02-18",
+      "ctx": 131072,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "vn": "Databricks",
+      "rel": "2026-02-17",
+      "ctx": 1000000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "vn": "Anthropic",
+      "rel": "2026-02-17",
+      "ctx": 1000000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "qwen3-5-397b-a17b",
+      "name": "Qwen3.5-397B-A17B",
+      "vn": "英伟达",
+      "rel": "2026-02-16",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-plus",
+      "name": "Qwen3.5 Plus",
+      "vn": "阿里云",
+      "rel": "2026-02-16",
+      "ctx": 1000000,
+      "in": 0.4,
+      "open": 0
+    },
+    {
+      "n": "qwen3-5-plus",
+      "name": "Qwen3.5 Plus",
+      "vn": "阿里云",
+      "rel": "2026-02-16",
+      "ctx": 1000000,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "qwen3-5-397b-a17b",
+      "name": "Qwen3.5 397B-A17B",
+      "vn": "阿里云",
+      "rel": "2026-02-16",
+      "ctx": 262144,
+      "in": 0.172,
+      "open": 1
+    },
+    {
+      "n": "qwen3-5-397b-a17b",
+      "name": "Qwen3.5 397B-A17B",
+      "vn": "阿里云",
+      "rel": "2026-02-15",
+      "ctx": 262144,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "seed-2-0-pro",
+      "name": "Seed 2.0 Pro",
+      "vn": "字节跳动",
+      "rel": "2026-02-14",
+      "ctx": 256000,
+      "in": 0.47499,
+      "open": 0
+    },
+    {
+      "n": "seed-2-0-mini",
+      "name": "Seed 2.0 Mini",
+      "vn": "字节跳动",
+      "rel": "2026-02-14",
+      "ctx": 256000,
+      "in": 0.02969,
+      "open": 0
+    },
+    {
+      "n": "seed-2-0-lite",
+      "name": "Seed 2.0 Lite",
+      "vn": "字节跳动",
+      "rel": "2026-02-14",
+      "ctx": 256000,
+      "in": 0.08906,
+      "open": 0
+    },
+    {
+      "n": "seed-2-0-code",
+      "name": "Seed 2.0 Code",
+      "vn": "字节跳动",
+      "rel": "2026-02-14",
+      "ctx": 262144,
+      "in": 0.47499,
+      "open": 0
+    },
+    {
+      "n": "minimax-m2-5-highspeed",
+      "name": "MiniMax-M2.5-highspeed",
+      "vn": "MiniMax",
+      "rel": "2026-02-13",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-5-highspeed",
+      "name": "MiniMax-M2.5-highspeed",
+      "vn": "MiniMax",
+      "rel": "2026-02-13",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "glm-5",
+      "name": "GLM-5",
+      "vn": "智谱 AI",
+      "rel": "2026-02-12",
+      "ctx": 204800,
+      "in": 1,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-5",
+      "name": "MiniMax-M2.5",
+      "vn": "腾讯混元",
+      "rel": "2026-02-12",
+      "ctx": 204800,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-5",
+      "name": "MiniMax-M2.5",
+      "vn": "MiniMax",
+      "rel": "2026-02-12",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-5",
+      "name": "MiniMax-M2.5",
+      "vn": "MiniMax",
+      "rel": "2026-02-12",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-5",
+      "name": "MiniMax-M2.5",
+      "vn": "阿里云",
+      "rel": "2026-02-12",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "glm-5",
+      "name": "GLM-5",
+      "vn": "智谱 AI",
+      "rel": "2026-02-11",
+      "ctx": 204800,
+      "in": 1,
+      "open": 1
+    },
+    {
+      "n": "glm-5",
+      "name": "GLM-5",
+      "vn": "腾讯混元",
+      "rel": "2026-02-11",
+      "ctx": 202752,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "glm-5",
+      "name": "GLM-5",
+      "vn": "阿里云",
+      "rel": "2026-02-11",
+      "ctx": 202752,
+      "in": 0.573,
+      "open": 0
+    },
+    {
+      "n": "llama-nemotron-embed-vl-1b-v2",
+      "name": "llama-nemotron-embed-vl-1b-v2",
+      "vn": "英伟达",
+      "rel": "2026-02-10",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-3-codex-spark",
+      "name": "GPT-5.3 Codex Spark",
+      "vn": "OpenAI",
+      "rel": "2026-02-05",
+      "ctx": 128000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-3-codex",
+      "name": "GPT-5.3 Codex",
+      "vn": "OpenAI",
+      "rel": "2026-02-05",
+      "ctx": 400000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "vn": "Databricks",
+      "rel": "2026-02-05",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-6",
+      "name": "Claude Opus 4.6",
+      "vn": "Anthropic",
+      "rel": "2026-02-04",
+      "ctx": 1000000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "step-3-5-flash",
+      "name": "Step 3.5 Flash",
+      "vn": "英伟达",
+      "rel": "2026-02-02",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "voxtral-mini",
+      "name": "Voxtral Mini (latest)",
+      "vn": "Mistral",
+      "rel": "2026-02-01",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "step-3-5-flash",
+      "name": "Step 3.5 Flash",
+      "vn": "阶跃星辰",
+      "rel": "2026-01-29",
+      "ctx": 256000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "step-3-5-flash",
+      "name": "Step 3.5 Flash",
+      "vn": "阶跃星辰",
+      "rel": "2026-01-29",
+      "ctx": 256000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "grok-imagine-video",
+      "name": "Grok Imagine Video",
+      "vn": "xAI",
+      "rel": "2026-01-28",
+      "ctx": 1024,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "grok-imagine-image",
+      "name": "Grok Imagine Image",
+      "vn": "xAI",
+      "rel": "2026-01-28",
+      "ctx": 16000,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "kimi-k2-5",
+      "name": "Kimi-K2.5",
+      "vn": "腾讯混元",
+      "rel": "2026-01-27",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "kimi-k2-5",
+      "name": "kimi/kimi-k2.5",
+      "vn": "阿里云",
+      "rel": "2026-01-27",
+      "ctx": 262144,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "moonshot-kimi-k2-5",
+      "name": "Moonshot Kimi K2.5",
+      "vn": "阿里云",
+      "rel": "2026-01-27",
+      "ctx": 262144,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "nemotron-content-safety-reasoning-4b",
+      "name": "nemotron-content-safety-reasoning-4b",
+      "vn": "英伟达",
+      "rel": "2026-01-22",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7-flashx",
+      "name": "GLM-4.7-FlashX",
+      "vn": "智谱 AI",
+      "rel": "2026-01-19",
+      "ctx": 200000,
+      "in": 0.07,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7-flash",
+      "name": "GLM-4.7-Flash",
+      "vn": "智谱 AI",
+      "rel": "2026-01-19",
+      "ctx": 200000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7-flashx",
+      "name": "GLM-4.7-FlashX",
+      "vn": "智谱 AI",
+      "rel": "2026-01-19",
+      "ctx": 200000,
+      "in": 0.07,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7-flash",
+      "name": "GLM-4.7-Flash",
+      "vn": "智谱 AI",
+      "rel": "2026-01-19",
+      "ctx": 200000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "flux-2-klein-4b",
+      "name": "FLUX.2 Klein 4B",
+      "vn": "英伟达",
+      "rel": "2026-01-14",
+      "ctx": 40960,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "solar-pro3",
+      "name": "solar-pro3",
+      "vn": "Upstage",
+      "rel": "2026-01-01",
+      "ctx": 131072,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "usdcode",
+      "name": "usdcode",
+      "vn": "英伟达",
+      "rel": "2026-01-01",
+      "ctx": 128000,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "jamba-mini",
+      "name": "Jamba Mini",
+      "vn": "AI21 Labs",
+      "rel": "2026-01-01",
+      "ctx": 256000,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "seed-1-8",
+      "name": "Seed 1.8",
+      "vn": "字节跳动",
+      "rel": "2025-12-28",
+      "ctx": 256000,
+      "in": 0.11875,
+      "open": 0
+    },
+    {
+      "n": "minimax-m2-1",
+      "name": "MiniMax-M2.1",
+      "vn": "MiniMax",
+      "rel": "2025-12-23",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2-1",
+      "name": "MiniMax-M2.1",
+      "vn": "MiniMax",
+      "rel": "2025-12-23",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7",
+      "name": "GLM-4.7",
+      "vn": "智谱 AI",
+      "rel": "2025-12-22",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "glm-4-7",
+      "name": "GLM-4.7",
+      "vn": "智谱 AI",
+      "rel": "2025-12-22",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "vn": "谷歌",
+      "rel": "2025-12-17",
+      "ctx": 1048576,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-flash-preview",
+      "name": "Gemini 3 Flash Preview",
+      "vn": "Databricks",
+      "rel": "2025-12-17",
+      "ctx": 1048576,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "mimo-v2-flash",
+      "name": "MiMo-V2-Flash",
+      "vn": "小米",
+      "rel": "2025-12-16",
+      "ctx": 262144,
+      "in": 0.14,
+      "open": 1
+    },
+    {
+      "n": "chatgpt-image-latest",
+      "name": "chatgpt-image-latest",
+      "vn": "OpenAI",
+      "rel": "2025-12-16",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "riva-translate-4b-instruct-v1-1",
+      "name": "riva-translate-4b-instruct-v1_1",
+      "vn": "英伟达",
+      "rel": "2025-12-12",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-2-pro",
+      "name": "GPT-5.2 Pro",
+      "vn": "OpenAI",
+      "rel": "2025-12-11",
+      "ctx": 400000,
+      "in": 21,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-2-chat",
+      "name": "GPT-5.2 Chat",
+      "vn": "OpenAI",
+      "rel": "2025-12-11",
+      "ctx": 128000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-2",
+      "name": "GPT-5.2",
+      "vn": "OpenAI",
+      "rel": "2025-12-11",
+      "ctx": 400000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-2",
+      "name": "GPT-5.2",
+      "vn": "Databricks",
+      "rel": "2025-12-11",
+      "ctx": 400000,
+      "in": 1.75,
+      "open": 0
+    },
+    {
+      "n": "devstral-small-2",
+      "name": "Devstral Small 2",
+      "vn": "Mistral",
+      "rel": "2025-12-09",
+      "ctx": 256000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "devstral-2",
+      "name": "Devstral 2",
+      "vn": "Mistral",
+      "rel": "2025-12-09",
+      "ctx": 262144,
+      "in": 0.4,
+      "open": 1
+    },
+    {
+      "n": "devstral-2",
+      "name": "Devstral 2",
+      "vn": "Mistral",
+      "rel": "2025-12-09",
+      "ctx": 262144,
+      "in": 0.4,
+      "open": 1
+    },
+    {
+      "n": "glm-4-6v",
+      "name": "GLM-4.6V",
+      "vn": "智谱 AI",
+      "rel": "2025-12-08",
+      "ctx": 128000,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "glm-4-6v",
+      "name": "GLM-4.6V",
+      "vn": "智谱 AI",
+      "rel": "2025-12-08",
+      "ctx": 128000,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v3-2",
+      "name": "siliconflow/deepseek-v3.2",
+      "vn": "阿里云",
+      "rel": "2025-12-03",
+      "ctx": 163840,
+      "in": 0.27,
+      "open": 0
+    },
+    {
+      "n": "mistral-large-3-675b-instruct-2512",
+      "name": "Mistral Large 3 675B Instruct 2512",
+      "vn": "英伟达",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "ministral-3-14b-instruct-2512",
+      "name": "Ministral 3 14B Instruct 2512",
+      "vn": "英伟达",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "devstral-2",
+      "name": "Devstral 2 (latest)",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0.4,
+      "open": 1
+    },
+    {
+      "n": "cosmos-reason2-8b",
+      "name": "Cosmos Reason2 8B",
+      "vn": "英伟达",
+      "rel": "2025-12-01",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-image-1-5",
+      "name": "gpt-image-1.5",
+      "vn": "OpenAI",
+      "rel": "2025-11-25",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-5",
+      "name": "Claude Opus 4.5 (latest)",
+      "vn": "Databricks",
+      "rel": "2025-11-24",
+      "ctx": 200000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-5",
+      "name": "Claude Opus 4.5",
+      "vn": "Anthropic",
+      "rel": "2025-11-24",
+      "ctx": 200000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "claude-opus-4-5",
+      "name": "Claude Opus 4.5 (latest)",
+      "vn": "Anthropic",
+      "rel": "2025-11-24",
+      "ctx": 200000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "nano-banana-pro",
+      "name": "Nano Banana Pro",
+      "vn": "谷歌",
+      "rel": "2025-11-20",
+      "ctx": 131072,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gemini-3-pro-preview",
+      "name": "Gemini 3 Pro Preview",
+      "vn": "Databricks",
+      "rel": "2025-11-18",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-1",
+      "name": "GPT-5.1",
+      "vn": "OpenAI",
+      "rel": "2025-11-13",
+      "ctx": 400000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "streampetr",
+      "name": "streampetr",
+      "vn": "英伟达",
+      "rel": "2025-11-13",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-1",
+      "name": "GPT-5.1",
+      "vn": "Databricks",
+      "rel": "2025-11-13",
+      "ctx": 400000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "moonshot-kimi-k2-thinking",
+      "name": "Moonshot Kimi K2 Thinking",
+      "vn": "阿里云",
+      "rel": "2025-11-06",
+      "ctx": 262144,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "nemotron-nano-12b-v2-vl",
+      "name": "Nemotron Nano 12B v2 VL",
+      "vn": "英伟达",
+      "rel": "2025-10-28",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-1-nemotron-safety-guard-8b-v3",
+      "name": "llama-3.1-nemotron-safety-guard-8b-v3",
+      "vn": "英伟达",
+      "rel": "2025-10-28",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2",
+      "name": "MiniMax-M2",
+      "vn": "MiniMax",
+      "rel": "2025-10-27",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "minimax-m2",
+      "name": "MiniMax-M2",
+      "vn": "MiniMax",
+      "rel": "2025-10-27",
+      "ctx": 204800,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "seed-1-6",
+      "name": "Seed 1.6",
+      "vn": "字节跳动",
+      "rel": "2025-10-15",
+      "ctx": 256000,
+      "in": 0.11875,
+      "open": 0
+    },
+    {
+      "n": "veo-3-1",
+      "name": "Veo 3.1",
+      "vn": "谷歌",
+      "rel": "2025-10-15",
+      "ctx": 480,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "veo-3-1-fast",
+      "name": "Veo 3.1 fast",
+      "vn": "谷歌",
+      "rel": "2025-10-15",
+      "ctx": 480,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5 (latest)",
+      "vn": "Databricks",
+      "rel": "2025-10-15",
+      "ctx": 200000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5",
+      "vn": "Anthropic",
+      "rel": "2025-10-15",
+      "ctx": 200000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "claude-haiku-4-5",
+      "name": "Claude Haiku 4.5 (latest)",
+      "vn": "Anthropic",
+      "rel": "2025-10-15",
+      "ctx": 200000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-computer-use-preview-10-2025",
+      "name": "Gemini 2.5 Computer Use Preview 10-2025",
+      "vn": "谷歌",
+      "rel": "2025-10-07",
+      "ctx": 131072,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-pro",
+      "name": "GPT-5 Pro",
+      "vn": "OpenAI",
+      "rel": "2025-10-06",
+      "ctx": 400000,
+      "in": 15,
+      "open": 0
+    },
+    {
+      "n": "ring-1t",
+      "name": "Ring-1T",
+      "vn": "蚂蚁百灵",
+      "rel": "2025-10-01",
+      "ctx": 128000,
+      "in": 0.57,
+      "open": 1
+    },
+    {
+      "n": "ling-1t",
+      "name": "Ling-1T",
+      "vn": "蚂蚁百灵",
+      "rel": "2025-10-01",
+      "ctx": 128000,
+      "in": 0.57,
+      "open": 1
+    },
+    {
+      "n": "glm-4-6",
+      "name": "GLM-4.6",
+      "vn": "智谱 AI",
+      "rel": "2025-09-30",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "glm-4-6",
+      "name": "GLM-4.6",
+      "vn": "智谱 AI",
+      "rel": "2025-09-30",
+      "ctx": 204800,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5 (latest)",
+      "vn": "Databricks",
+      "rel": "2025-09-29",
+      "ctx": 200000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "vn": "Databricks",
+      "rel": "2025-09-29",
+      "ctx": 200000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5",
+      "vn": "Anthropic",
+      "rel": "2025-09-29",
+      "ctx": 1000000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "claude-sonnet-4-5",
+      "name": "Claude Sonnet 4.5 (latest)",
+      "vn": "Anthropic",
+      "rel": "2025-09-29",
+      "ctx": 1000000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v3-1-terminus",
+      "name": "siliconflow/deepseek-v3.1-terminus",
+      "vn": "阿里云",
+      "rel": "2025-09-29",
+      "ctx": 163840,
+      "in": 0.27,
+      "open": 0
+    },
+    {
+      "n": "gpt-image-1-mini",
+      "name": "gpt-image-1-mini",
+      "vn": "OpenAI",
+      "rel": "2025-09-26",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "vn": "英伟达",
+      "rel": "2025-09-25",
+      "ctx": 131072,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "magistral-small-2506",
+      "name": "Magistral Small 2506",
+      "vn": "英伟达",
+      "rel": "2025-09-25",
+      "ctx": 32768,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "qwen3-vl-plus",
+      "name": "Qwen3-VL Plus",
+      "vn": "阿里云",
+      "rel": "2025-09-23",
+      "ctx": 262144,
+      "in": 0.2,
+      "open": 0
+    },
+    {
+      "n": "qwen3-max",
+      "name": "Qwen3 Max",
+      "vn": "阿里云",
+      "rel": "2025-09-23",
+      "ctx": 262144,
+      "in": 1.2,
+      "open": 0
+    },
+    {
+      "n": "qwen3-vl-plus",
+      "name": "Qwen3-VL Plus",
+      "vn": "阿里云",
+      "rel": "2025-09-23",
+      "ctx": 262144,
+      "in": 0.143353,
+      "open": 0
+    },
+    {
+      "n": "qwen3-max",
+      "name": "Qwen3 Max",
+      "vn": "阿里云",
+      "rel": "2025-09-23",
+      "ctx": 262144,
+      "in": 1.291,
+      "open": 0
+    },
+    {
+      "n": "qwen3-livetranslate-flash-realtime",
+      "name": "Qwen3-LiveTranslate Flash Realtime",
+      "vn": "阿里云",
+      "rel": "2025-09-22",
+      "ctx": 53248,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "qwen3-omni-flash-realtime",
+      "name": "Qwen3-Omni Flash Realtime",
+      "vn": "阿里云",
+      "rel": "2025-09-15",
+      "ctx": 65536,
+      "in": 0.52,
+      "open": 0
+    },
+    {
+      "n": "qwen3-omni-flash",
+      "name": "Qwen3-Omni Flash",
+      "vn": "阿里云",
+      "rel": "2025-09-15",
+      "ctx": 65536,
+      "in": 0.43,
+      "open": 0
+    },
+    {
+      "n": "qwen3-omni-flash-realtime",
+      "name": "Qwen3-Omni Flash Realtime",
+      "vn": "阿里云",
+      "rel": "2025-09-15",
+      "ctx": 65536,
+      "in": 0.23,
+      "open": 0
+    },
+    {
+      "n": "qwen3-omni-flash",
+      "name": "Qwen3-Omni Flash",
+      "vn": "阿里云",
+      "rel": "2025-09-15",
+      "ctx": 65536,
+      "in": 0.058,
+      "open": 0
+    },
+    {
+      "n": "qwen3-asr-flash",
+      "name": "Qwen3-ASR Flash",
+      "vn": "阿里云",
+      "rel": "2025-09-08",
+      "ctx": 53248,
+      "in": 0.035,
+      "open": 0
+    },
+    {
+      "n": "qwen3-asr-flash",
+      "name": "Qwen3-ASR Flash",
+      "vn": "阿里云",
+      "rel": "2025-09-08",
+      "ctx": 53248,
+      "in": 0.032,
+      "open": 0
+    },
+    {
+      "n": "kimi-k2-0905",
+      "name": "Kimi K2 0905",
+      "vn": "英伟达",
+      "rel": "2025-09-05",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "seed-oss-36b-instruct",
+      "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+      "vn": "英伟达",
+      "rel": "2025-09-04",
+      "ctx": 262000,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "qwen3-next-80b-a3b",
+      "name": "Qwen3-Next 80B-A3B (Thinking)",
+      "vn": "阿里云",
+      "rel": "2025-09-01",
+      "ctx": 131072,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "qwen3-next-80b-a3b-instruct",
+      "name": "Qwen3-Next 80B-A3B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-09-01",
+      "ctx": 131072,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "qwen3-next-80b-a3b",
+      "name": "Qwen3-Next 80B-A3B (Thinking)",
+      "vn": "阿里云",
+      "rel": "2025-09-01",
+      "ctx": 131072,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "qwen3-next-80b-a3b-instruct",
+      "name": "Qwen3-Next 80B-A3B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-09-01",
+      "ctx": 131072,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "seed-1-6-flash",
+      "name": "Seed 1.6 Flash",
+      "vn": "字节跳动",
+      "rel": "2025-08-28",
+      "ctx": 256000,
+      "in": 0.02227,
+      "open": 0
+    },
+    {
+      "n": "command-a-translate",
+      "name": "Command A Translate",
+      "vn": "Cohere",
+      "rel": "2025-08-28",
+      "ctx": 8000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "nano-banana",
+      "name": "Nano Banana",
+      "vn": "谷歌",
+      "rel": "2025-08-26",
+      "ctx": 32768,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "command-a-reasoning",
+      "name": "Command A Reasoning",
+      "vn": "Cohere",
+      "rel": "2025-08-21",
+      "ctx": 256000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "qwen-image-edit",
+      "name": "Qwen Image Edit",
+      "vn": "英伟达",
+      "rel": "2025-08-19",
+      "ctx": 0,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "nvidia-nemotron-nano-9b-v2",
+      "name": "nvidia-nemotron-nano-9b-v2",
+      "vn": "英伟达",
+      "rel": "2025-08-18",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "seed-1-6-vision",
+      "name": "Seed 1.6 Vision",
+      "vn": "字节跳动",
+      "rel": "2025-08-15",
+      "ctx": 256000,
+      "in": 0.11875,
+      "open": 0
+    },
+    {
+      "n": "flux-1-kontext-dev",
+      "name": "FLUX.1-Kontext-dev",
+      "vn": "英伟达",
+      "rel": "2025-08-12",
+      "ctx": 40960,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-medium-3-1",
+      "name": "Mistral Medium 3.1",
+      "vn": "Mistral",
+      "rel": "2025-08-12",
+      "ctx": 262144,
+      "in": 0.4,
+      "open": 0
+    },
+    {
+      "n": "glm-4-5v",
+      "name": "GLM-4.5V",
+      "vn": "智谱 AI",
+      "rel": "2025-08-11",
+      "ctx": 64000,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5v",
+      "name": "GLM-4.5V",
+      "vn": "智谱 AI",
+      "rel": "2025-08-11",
+      "ctx": 64000,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "vn": "OpenAI",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 0.05,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "vn": "OpenAI",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "gpt-5",
+      "name": "GPT-5",
+      "vn": "OpenAI",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "qwen-image",
+      "name": "Qwen Image",
+      "vn": "英伟达",
+      "rel": "2025-08-07",
+      "ctx": 0,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-nano",
+      "name": "GPT-5 Nano",
+      "vn": "Databricks",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 0.05,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-mini",
+      "name": "GPT-5 Mini",
+      "vn": "Databricks",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "gpt-5",
+      "name": "GPT-5",
+      "vn": "Databricks",
+      "rel": "2025-08-07",
+      "ctx": 400000,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "gpt-oss-20b",
+      "name": "GPT OSS 20B",
+      "vn": "英伟达",
+      "rel": "2025-08-05",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-oss-20b",
+      "name": "GPT OSS 20B",
+      "vn": "Databricks",
+      "rel": "2025-08-05",
+      "ctx": 131072,
+      "in": 0.05,
+      "open": 1
+    },
+    {
+      "n": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "vn": "Databricks",
+      "rel": "2025-08-05",
+      "ctx": 131072,
+      "in": 0.072,
+      "open": 1
+    },
+    {
+      "n": "claude-opus-4-1",
+      "name": "Claude Opus 4.1 (latest)",
+      "vn": "Databricks",
+      "rel": "2025-08-05",
+      "ctx": 200000,
+      "in": 15,
+      "open": 0
+    },
+    {
+      "n": "gpt-oss-120b",
+      "name": "GPT OSS 120B",
+      "vn": "Cerebras",
+      "rel": "2025-08-05",
+      "ctx": 131072,
+      "in": 0.35,
+      "open": 1
+    },
+    {
+      "n": "gpt-oss-120b",
+      "name": "GPT-OSS-120B",
+      "vn": "英伟达",
+      "rel": "2025-08-04",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "command-a-vision",
+      "name": "Command A Vision",
+      "vn": "Cohere",
+      "rel": "2025-07-31",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5-flash",
+      "name": "GLM-4.5-Flash",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5-air",
+      "name": "GLM-4.5-Air",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5",
+      "name": "GLM-4.5",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5-flash",
+      "name": "GLM-4.5-Flash",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5-air",
+      "name": "GLM-4.5-Air",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "glm-4-5",
+      "name": "GLM-4.5",
+      "vn": "智谱 AI",
+      "rel": "2025-07-28",
+      "ctx": 131072,
+      "in": 0.6,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-flash",
+      "name": "Qwen3 Coder Flash",
+      "vn": "阿里云",
+      "rel": "2025-07-28",
+      "ctx": 1000000,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "qwen-flash",
+      "name": "Qwen Flash",
+      "vn": "阿里云",
+      "rel": "2025-07-28",
+      "ctx": 1000000,
+      "in": 0.05,
+      "open": 0
+    },
+    {
+      "n": "qwen3-coder-flash",
+      "name": "Qwen3 Coder Flash",
+      "vn": "阿里云",
+      "rel": "2025-07-28",
+      "ctx": 1000000,
+      "in": 0.144,
+      "open": 0
+    },
+    {
+      "n": "qwen-flash",
+      "name": "Qwen Flash",
+      "vn": "阿里云",
+      "rel": "2025-07-28",
+      "ctx": 1000000,
+      "in": 0.022,
+      "open": 0
+    },
+    {
+      "n": "phi-4-multimodal",
+      "name": "Phi 4 Multimodal",
+      "vn": "英伟达",
+      "rel": "2025-07-26",
+      "ctx": 128000,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "sarvam-m",
+      "name": "sarvam-m",
+      "vn": "英伟达",
+      "rel": "2025-07-25",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-3-nemotron-super-49b-v1-5",
+      "name": "Llama 3.3 Nemotron Super 49B v1.5",
+      "vn": "英伟达",
+      "rel": "2025-07-25",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-2-nemoretriever-300m-embed-v1",
+      "name": "llama-3_2-nemoretriever-300m-embed-v1",
+      "vn": "英伟达",
+      "rel": "2025-07-24",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-480b-a35b-instruct",
+      "name": "Qwen3 Coder 480B A35B Instruct",
+      "vn": "英伟达",
+      "rel": "2025-07-23",
+      "ctx": 262144,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "qwen3-coder-plus",
+      "name": "Qwen3 Coder Plus",
+      "vn": "阿里云",
+      "rel": "2025-07-23",
+      "ctx": 1048576,
+      "in": 1,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-plus",
+      "name": "Qwen3 Coder Plus",
+      "vn": "阿里云",
+      "rel": "2025-07-23",
+      "ctx": 1048576,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "voxtral-small",
+      "name": "Voxtral Small (latest)",
+      "vn": "Mistral",
+      "rel": "2025-07-15",
+      "ctx": 32000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "devstral-small",
+      "name": "Devstral Small",
+      "vn": "Mistral",
+      "rel": "2025-07-10",
+      "ctx": 128000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "devstral-medium",
+      "name": "Devstral Medium",
+      "vn": "Mistral",
+      "rel": "2025-07-10",
+      "ctx": 128000,
+      "in": 0.4,
+      "open": 1
+    },
+    {
+      "n": "jamba-large",
+      "name": "Jamba Large",
+      "vn": "AI21 Labs",
+      "rel": "2025-07-01",
+      "ctx": 256000,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "mistral-small-3-2",
+      "name": "Mistral Small 3.2",
+      "vn": "Mistral",
+      "rel": "2025-06-20",
+      "ctx": 128000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "gemini-2-5-pro",
+      "name": "Gemini 2.5 Pro",
+      "vn": "谷歌",
+      "rel": "2025-06-17",
+      "ctx": 1048576,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "vn": "谷歌",
+      "rel": "2025-06-17",
+      "ctx": 1048576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "vn": "谷歌",
+      "rel": "2025-06-17",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-pro",
+      "name": "Gemini 2.5 Pro",
+      "vn": "Databricks",
+      "rel": "2025-06-17",
+      "ctx": 1048576,
+      "in": 1.25,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "vn": "Databricks",
+      "rel": "2025-06-17",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
+      "n": "cosmos-transfer1-7b",
+      "name": "cosmos-transfer1-7b",
+      "vn": "英伟达",
+      "rel": "2025-06-13",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemma-3n-e2b-it",
+      "name": "Gemma 3n E2b It",
+      "vn": "英伟达",
+      "rel": "2025-06-12",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-nemotron",
+      "name": "mistral-nemotron",
+      "vn": "英伟达",
+      "rel": "2025-06-11",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "o3-pro",
+      "name": "o3-pro",
+      "vn": "OpenAI",
+      "rel": "2025-06-10",
+      "ctx": 200000,
+      "in": 20,
+      "open": 0
+    },
+    {
+      "n": "gemma-3n-e4b-it",
+      "name": "Gemma 3n E4b It",
+      "vn": "英伟达",
+      "rel": "2025-06-03",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "deepseek-r1-0528",
+      "name": "siliconflow/deepseek-r1-0528",
+      "vn": "阿里云",
+      "rel": "2025-05-28",
+      "ctx": 163840,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-0528",
+      "name": "DeepSeek R1 0528",
+      "vn": "阿里云",
+      "rel": "2025-05-28",
+      "ctx": 131072,
+      "in": 0.574,
+      "open": 0
+    },
+    {
+      "n": "magpie-tts-zeroshot",
+      "name": "magpie-tts-zeroshot",
+      "vn": "英伟达",
+      "rel": "2025-05-22",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "solar-pro2",
+      "name": "solar-pro2",
+      "vn": "Upstage",
+      "rel": "2025-05-20",
+      "ctx": 65536,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "gemini-embedding-001",
+      "name": "Gemini Embedding 001",
+      "vn": "谷歌",
+      "rel": "2025-05-20",
+      "ctx": 2048,
+      "in": 0.15,
+      "open": 0
+    },
+    {
+      "n": "qwen-omni-turbo-realtime",
+      "name": "Qwen-Omni Turbo Realtime",
+      "vn": "阿里云",
+      "rel": "2025-05-08",
+      "ctx": 32768,
+      "in": 0.27,
+      "open": 0
+    },
+    {
+      "n": "qwen-omni-turbo-realtime",
+      "name": "Qwen-Omni Turbo Realtime",
+      "vn": "阿里云",
+      "rel": "2025-05-08",
+      "ctx": 32768,
+      "in": 0.23,
+      "open": 0
+    },
+    {
+      "n": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "vn": "Mistral",
+      "rel": "2025-05-07",
+      "ctx": 131072,
+      "in": 0.4,
+      "open": 0
+    },
+    {
+      "n": "devstral-small-2505",
+      "name": "Devstral Small 2505",
+      "vn": "Mistral",
+      "rel": "2025-05-07",
+      "ctx": 128000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "gemini-2-5-pro-preview-tts",
+      "name": "Gemini 2.5 Pro Preview TTS",
+      "vn": "谷歌",
+      "rel": "2025-05-01",
+      "ctx": 8192,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "gemini-2-5-flash-preview-tts",
+      "name": "Gemini 2.5 Flash Preview TTS",
+      "vn": "谷歌",
+      "rel": "2025-05-01",
+      "ctx": 8192,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "gpt-image-1",
+      "name": "gpt-image-1",
+      "vn": "OpenAI",
+      "rel": "2025-04-24",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
+      "n": "o4-mini",
+      "name": "o4-mini",
+      "vn": "OpenAI",
+      "rel": "2025-04-16",
+      "ctx": 200000,
+      "in": 1.1,
+      "open": 0
+    },
+    {
+      "n": "o3",
+      "name": "o3",
+      "vn": "OpenAI",
+      "rel": "2025-04-16",
+      "ctx": 200000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "llama-3-1-nemotron-70b-instruct",
+      "name": "Llama 3.1 Nemotron 70B Instruct",
+      "vn": "英伟达",
+      "rel": "2025-04-15",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-4-1-nano",
+      "name": "GPT-4.1 nano",
+      "vn": "OpenAI",
+      "rel": "2025-04-14",
+      "ctx": 1047576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "gpt-4-1-mini",
+      "name": "GPT-4.1 mini",
+      "vn": "OpenAI",
+      "rel": "2025-04-14",
+      "ctx": 1047576,
+      "in": 0.4,
+      "open": 0
+    },
+    {
+      "n": "gpt-4-1",
+      "name": "GPT-4.1",
+      "vn": "OpenAI",
+      "rel": "2025-04-14",
+      "ctx": 1047576,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "llama-3-1-nemotron-nano-vl-8b-v1",
+      "name": "Llama 3.1 Nemotron Nano VL 8B v1",
+      "vn": "英伟达",
+      "rel": "2025-04-10",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-3-nemotron-super-49b-v1",
+      "name": "Llama 3.3 Nemotron Super 49B v1",
+      "vn": "英伟达",
+      "rel": "2025-04-07",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-1-nemotron-ultra-253b",
+      "name": "Llama 3.1 Nemotron Ultra 253B",
+      "vn": "英伟达",
+      "rel": "2025-04-07",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-guard-4-12b",
+      "name": "Llama Guard 4 12B",
+      "vn": "英伟达",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-4-scout-17b-16e-instruct-fp8",
+      "name": "Llama-4-Scout-17B-16E-Instruct-FP8",
+      "vn": "Meta",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-4-maverick-17b-128e-instruct-fp8",
+      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
+      "vn": "Meta",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "groq-llama-4-maverick-17b-128e-instruct",
+      "name": "Groq-Llama-4-Maverick-17B-128E-Instruct",
+      "vn": "Meta",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "cerebras-llama-4-scout-17b-16e-instruct",
+      "name": "Cerebras-Llama-4-Scout-17B-16E-Instruct",
+      "vn": "Meta",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "cerebras-llama-4-maverick-17b-128e-instruct",
+      "name": "Cerebras-Llama-4-Maverick-17B-128E-Instruct",
+      "vn": "Meta",
+      "rel": "2025-04-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mistral-7b-instruct-v0-3",
+      "name": "Mistral-7B-Instruct-v0.3",
+      "vn": "英伟达",
+      "rel": "2025-04-01",
+      "ctx": 65536,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-4-maverick-17b-128e-instruct",
+      "name": "Llama 4 Maverick 17b 128e Instruct",
+      "vn": "英伟达",
+      "rel": "2025-04-01",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen3-vl-30b-a3b",
+      "name": "Qwen3-VL 30B-A3B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.2,
+      "open": 1
+    },
+    {
+      "n": "qwen3-vl-235b-a22b",
+      "name": "Qwen3-VL 235B-A22B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.7,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-480b-a35b-instruct",
+      "name": "Qwen3-Coder 480B-A35B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 262144,
+      "in": 1.5,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 262144,
+      "in": 0.45,
+      "open": 1
+    },
+    {
+      "n": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.18,
+      "open": 1
+    },
+    {
+      "n": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.7,
+      "open": 1
+    },
+    {
+      "n": "qwen3-235b-a22b",
+      "name": "Qwen3 235B-A22B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.7,
+      "open": 1
+    },
+    {
+      "n": "qwen3-14b",
+      "name": "Qwen3 14B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.35,
+      "open": 1
+    },
+    {
+      "n": "qwen3-vl-30b-a3b",
+      "name": "Qwen3-VL 30B-A3B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.108,
+      "open": 1
+    },
+    {
+      "n": "qwen3-vl-235b-a22b",
+      "name": "Qwen3-VL 235B-A22B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.286705,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-480b-a35b-instruct",
+      "name": "Qwen3-Coder 480B-A35B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 262144,
+      "in": 0.861,
+      "open": 1
+    },
+    {
+      "n": "qwen3-coder-30b-a3b-instruct",
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 262144,
+      "in": 0.216,
+      "open": 1
+    },
+    {
+      "n": "qwen3-8b",
+      "name": "Qwen3 8B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.072,
+      "open": 1
+    },
+    {
+      "n": "qwen3-32b",
+      "name": "Qwen3 32B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen3-235b-a22b",
+      "name": "Qwen3 235B-A22B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen3-14b",
+      "name": "Qwen3 14B",
+      "vn": "阿里云",
+      "rel": "2025-04-01",
+      "ctx": 131072,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "qvq-max",
+      "name": "QVQ Max",
+      "vn": "阿里云",
+      "rel": "2025-03-25",
+      "ctx": 131072,
+      "in": 1.2,
+      "open": 0
+    },
+    {
+      "n": "qvq-max",
+      "name": "QVQ Max",
+      "vn": "阿里云",
+      "rel": "2025-03-25",
+      "ctx": 131072,
+      "in": 1.147,
+      "open": 0
+    },
+    {
+      "n": "o1-pro",
+      "name": "o1-pro",
+      "vn": "OpenAI",
+      "rel": "2025-03-19",
+      "ctx": 200000,
+      "in": 150,
+      "open": 0
+    },
+    {
+      "n": "sparsedrive",
+      "name": "sparsedrive",
+      "vn": "英伟达",
+      "rel": "2025-03-18",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-1-nemotron-nano-8b-v1",
+      "name": "Llama 3.1 Nemotron Nano 8B v1",
+      "vn": "英伟达",
+      "rel": "2025-03-18",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "cosmos-predict1-5b",
+      "name": "cosmos-predict1-5b",
+      "vn": "英伟达",
+      "rel": "2025-03-18",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "bevformer",
+      "name": "bevformer",
+      "vn": "英伟达",
+      "rel": "2025-03-18",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nv-embedcode-7b-v1",
+      "name": "nv-embedcode-7b-v1",
+      "vn": "英伟达",
+      "rel": "2025-03-17",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "magistral-small",
+      "name": "Magistral Small",
+      "vn": "Mistral",
+      "rel": "2025-03-17",
+      "ctx": 128000,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "magistral-medium",
+      "name": "Magistral Medium (latest)",
+      "vn": "Mistral",
+      "rel": "2025-03-17",
+      "ctx": 128000,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "command-a",
+      "name": "Command A",
+      "vn": "Cohere",
+      "rel": "2025-03-13",
+      "ctx": 256000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "gemma-3-4b-it",
+      "name": "Gemma 3 4B IT",
+      "vn": "英伟达",
+      "rel": "2025-03-12",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemma-3-12b-it",
+      "name": "Gemma 3 12B IT",
+      "vn": "英伟达",
+      "rel": "2025-03-12",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwq-plus",
+      "name": "QwQ Plus",
+      "vn": "阿里云",
+      "rel": "2025-03-05",
+      "ctx": 131072,
+      "in": 0.8,
+      "open": 0
+    },
+    {
+      "n": "qwq-plus",
+      "name": "QwQ Plus",
+      "vn": "阿里云",
+      "rel": "2025-03-05",
+      "ctx": 131072,
+      "in": 0.23,
+      "open": 0
+    },
+    {
+      "n": "aya-vision-8b",
+      "name": "Aya Vision 8B",
+      "vn": "Cohere",
+      "rel": "2025-03-04",
+      "ctx": 16000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "aya-vision-32b",
+      "name": "Aya Vision 32B",
+      "vn": "Cohere",
+      "rel": "2025-03-04",
+      "ctx": 16000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "command-r7b-arabic",
+      "name": "Command R7B Arabic",
+      "vn": "Cohere",
+      "rel": "2025-02-27",
+      "ctx": 128000,
+      "in": 0.0375,
+      "open": 1
+    },
+    {
+      "n": "perplexity-sonar-deep-research",
+      "name": "Perplexity Sonar Deep Research",
+      "vn": "Perplexity",
+      "rel": "2025-02-01",
+      "ctx": 128000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "qwen-long",
+      "name": "Qwen Long",
+      "vn": "阿里云",
+      "rel": "2025-01-25",
+      "ctx": 10000000,
+      "in": 0.072,
+      "open": 0
+    },
+    {
+      "n": "qwen-omni-turbo",
+      "name": "Qwen-Omni Turbo",
+      "vn": "阿里云",
+      "rel": "2025-01-19",
+      "ctx": 32768,
+      "in": 0.07,
+      "open": 0
+    },
+    {
+      "n": "qwen-omni-turbo",
+      "name": "Qwen-Omni Turbo",
+      "vn": "阿里云",
+      "rel": "2025-01-19",
+      "ctx": 32768,
+      "in": 0.058,
+      "open": 0
+    },
+    {
+      "n": "step-2",
+      "name": "Step 2 (16K)",
+      "vn": "阶跃星辰",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 5.21,
+      "open": 0
+    },
+    {
+      "n": "step-1",
+      "name": "Step 1 (32K)",
+      "vn": "阶跃星辰",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 2.05,
+      "open": 0
+    },
+    {
+      "n": "step-2",
+      "name": "Step 2 (16K)",
+      "vn": "阶跃星辰",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 5.21,
+      "open": 0
+    },
+    {
+      "n": "step-1",
+      "name": "Step 1 (32K)",
+      "vn": "阶跃星辰",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 2.05,
+      "open": 0
+    },
+    {
+      "n": "llama-3-1-8b-instruct",
+      "name": "Llama 3.1 8B Instruct",
+      "vn": "英伟达",
+      "rel": "2025-01-01",
+      "ctx": 16000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen-mt-turbo",
+      "name": "Qwen-MT Turbo",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 0.16,
+      "open": 0
+    },
+    {
+      "n": "qwen-mt-plus",
+      "name": "Qwen-MT Plus",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 2.46,
+      "open": 0
+    },
+    {
+      "n": "qwen-mt-turbo",
+      "name": "Qwen-MT Turbo",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 0.101,
+      "open": 0
+    },
+    {
+      "n": "qwen-mt-plus",
+      "name": "Qwen-MT Plus",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 16384,
+      "in": 0.259,
+      "open": 0
+    },
+    {
+      "n": "moonshot-kimi-k2-instruct",
+      "name": "Moonshot Kimi K2 Instruct",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 131072,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v3-2-exp",
+      "name": "DeepSeek V3.2 Exp",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v3-1",
+      "name": "DeepSeek V3.1",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 131072,
+      "in": 0.574,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-qwen-7b",
+      "name": "DeepSeek R1 Distill Qwen 7B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0.072,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-qwen-32b",
+      "name": "DeepSeek R1 Distill Qwen 32B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-qwen-14b",
+      "name": "DeepSeek R1 Distill Qwen 14B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0.144,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-qwen-1-5b",
+      "name": "DeepSeek R1 Distill Qwen 1.5B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-llama-8b",
+      "name": "DeepSeek R1 Distill Llama 8B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1-distill-llama-70b",
+      "name": "DeepSeek R1 Distill Llama 70B",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 32768,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "deepseek-r1",
+      "name": "DeepSeek R1",
+      "vn": "阿里云",
+      "rel": "2025-01-01",
+      "ctx": 131072,
+      "in": 0.574,
+      "open": 0
+    },
+    {
+      "n": "deepseek-v3-0324",
+      "name": "siliconflow/deepseek-v3-0324",
+      "vn": "阿里云",
+      "rel": "2024-12-26",
+      "ctx": 163840,
+      "in": 0.25,
+      "open": 0
+    },
+    {
+      "n": "o3-mini",
+      "name": "o3-mini",
+      "vn": "OpenAI",
+      "rel": "2024-12-20",
+      "ctx": 200000,
+      "in": 1.1,
+      "open": 0
+    },
+    {
+      "n": "llama-3-3-8b-instruct",
+      "name": "Llama-3.3-8B-Instruct",
+      "vn": "Meta",
+      "rel": "2024-12-06",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-3-70b-instruct",
+      "name": "Llama-3.3-70B-Instruct",
+      "vn": "Meta",
+      "rel": "2024-12-06",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "o1",
+      "name": "o1",
+      "vn": "OpenAI",
+      "rel": "2024-12-05",
+      "ctx": 200000,
+      "in": 15,
+      "open": 0
+    },
+    {
+      "n": "command-r7b",
+      "name": "Command R7B",
+      "vn": "Cohere",
+      "rel": "2024-12-02",
+      "ctx": 128000,
+      "in": 0.0375,
+      "open": 1
+    },
+    {
+      "n": "qwen3-next-80b-a3b-instruct",
+      "name": "Qwen3-Next-80B-A3B-Instruct",
+      "vn": "英伟达",
+      "rel": "2024-12-01",
+      "ctx": 262144,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "nemotron-3-nano-30b-a3b",
+      "name": "nemotron-3-nano-30b-a3b",
+      "vn": "英伟达",
+      "rel": "2024-12-01",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "phi-4-mini",
+      "name": "Phi-4-Mini",
+      "vn": "英伟达",
+      "rel": "2024-12-01",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-omni-7b",
+      "name": "Qwen2.5-Omni 7B",
+      "vn": "阿里云",
+      "rel": "2024-12-01",
+      "ctx": 32768,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "qwq-32b",
+      "name": "QwQ 32B",
+      "vn": "阿里云",
+      "rel": "2024-12-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-omni-7b",
+      "name": "Qwen2.5-Omni 7B",
+      "vn": "阿里云",
+      "rel": "2024-12-01",
+      "ctx": 32768,
+      "in": 0.087,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v3",
+      "name": "DeepSeek V3",
+      "vn": "阿里云",
+      "rel": "2024-12-01",
+      "ctx": 65536,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "llama-3-3-70b-instruct",
+      "name": "Llama 3.3 70b Instruct",
+      "vn": "英伟达",
+      "rel": "2024-11-26",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-4o",
+      "name": "GPT-4o (2024-11-20)",
+      "vn": "OpenAI",
+      "rel": "2024-11-20",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "mistral-large-2-1",
+      "name": "Mistral Large 2.1",
+      "vn": "Mistral",
+      "rel": "2024-11-18",
+      "ctx": 131072,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-coder-32b-instruct",
+      "name": "Qwen2.5 Coder 32b Instruct",
+      "vn": "英伟达",
+      "rel": "2024-11-06",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "pixtral-large",
+      "name": "Pixtral Large (latest)",
+      "vn": "Mistral",
+      "rel": "2024-11-01",
+      "ctx": 128000,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "mistral-large",
+      "name": "Mistral Large (latest)",
+      "vn": "Mistral",
+      "rel": "2024-11-01",
+      "ctx": 262144,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "vn": "Mistral",
+      "rel": "2024-11-01",
+      "ctx": 262144,
+      "in": 0.5,
+      "open": 1
+    },
+    {
+      "n": "qwen-turbo",
+      "name": "Qwen Turbo",
+      "vn": "阿里云",
+      "rel": "2024-11-01",
+      "ctx": 1000000,
+      "in": 0.05,
+      "open": 0
+    },
+    {
+      "n": "qwen2-5-coder-7b-instruct",
+      "name": "Qwen2.5-Coder 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-11-01",
+      "ctx": 131072,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-coder-32b-instruct",
+      "name": "Qwen2.5-Coder 32B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-11-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen-turbo",
+      "name": "Qwen Turbo",
+      "vn": "阿里云",
+      "rel": "2024-11-01",
+      "ctx": 1000000,
+      "in": 0.044,
+      "open": 0
+    },
+    {
+      "n": "qwen-vl-ocr",
+      "name": "Qwen-VL OCR",
+      "vn": "阿里云",
+      "rel": "2024-10-28",
+      "ctx": 34096,
+      "in": 0.72,
+      "open": 0
+    },
+    {
+      "n": "qwen-vl-ocr",
+      "name": "Qwen-VL OCR",
+      "vn": "阿里云",
+      "rel": "2024-10-28",
+      "ctx": 34096,
+      "in": 0.043,
+      "open": 0
+    },
+    {
+      "n": "aya-expanse-8b",
+      "name": "Aya Expanse 8B",
+      "vn": "Cohere",
+      "rel": "2024-10-24",
+      "ctx": 8000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "aya-expanse-32b",
+      "name": "Aya Expanse 32B",
+      "vn": "Cohere",
+      "rel": "2024-10-24",
+      "ctx": 128000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "studiovoice",
+      "name": "studiovoice",
+      "vn": "英伟达",
+      "rel": "2024-10-03",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "ministral-8b",
+      "name": "Ministral 8B (latest)",
+      "vn": "Mistral",
+      "rel": "2024-10-01",
+      "ctx": 128000,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "ministral-3b",
+      "name": "Ministral 3B (latest)",
+      "vn": "Mistral",
+      "rel": "2024-10-01",
+      "ctx": 128000,
+      "in": 0.04,
+      "open": 1
+    },
+    {
+      "n": "llama-3-2-90b-vision-instruct",
+      "name": "Llama-3.2-90B-Vision-Instruct",
+      "vn": "英伟达",
+      "rel": "2024-09-25",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen-math-turbo",
+      "name": "Qwen Math Turbo",
+      "vn": "阿里云",
+      "rel": "2024-09-19",
+      "ctx": 4096,
+      "in": 0.287,
+      "open": 0
+    },
+    {
+      "n": "llama-3-2-3b-instruct",
+      "name": "Llama 3.2 3B Instruct",
+      "vn": "英伟达",
+      "rel": "2024-09-18",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-2-1b-instruct",
+      "name": "Llama 3.2 1b Instruct",
+      "vn": "英伟达",
+      "rel": "2024-09-18",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-2-11b-vision-instruct",
+      "name": "Llama 3.2 11b Vision Instruct",
+      "vn": "英伟达",
+      "rel": "2024-09-18",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "dracarys-llama-3-1-70b-instruct",
+      "name": "dracarys-llama-3.1-70b-instruct",
+      "vn": "英伟达",
+      "rel": "2024-09-11",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "pixtral-12b",
+      "name": "Pixtral 12B",
+      "vn": "Mistral",
+      "rel": "2024-09-01",
+      "ctx": 128000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-vl-7b-instruct",
+      "name": "Qwen2.5-VL 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.35,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-vl-72b-instruct",
+      "name": "Qwen2.5-VL 72B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 2.8,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-7b-instruct",
+      "name": "Qwen2.5 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.175,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-72b-instruct",
+      "name": "Qwen2.5 72B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 1.4,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-32b-instruct",
+      "name": "Qwen2.5 32B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.7,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-14b-instruct",
+      "name": "Qwen2.5 14B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.35,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-vl-7b-instruct",
+      "name": "Qwen2.5-VL 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-vl-72b-instruct",
+      "name": "Qwen2.5-VL 72B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 2.294,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-math-7b-instruct",
+      "name": "Qwen2.5-Math 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 4096,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-math-72b-instruct",
+      "name": "Qwen2.5-Math 72B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 4096,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-7b-instruct",
+      "name": "Qwen2.5 7B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.072,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-72b-instruct",
+      "name": "Qwen2.5 72B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.574,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-32b-instruct",
+      "name": "Qwen2.5 32B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.287,
+      "open": 1
+    },
+    {
+      "n": "qwen2-5-14b-instruct",
+      "name": "Qwen2.5 14B Instruct",
+      "vn": "阿里云",
+      "rel": "2024-09-01",
+      "ctx": 131072,
+      "in": 0.144,
+      "open": 1
+    },
+    {
+      "n": "command-r",
+      "name": "Command R+",
+      "vn": "Cohere",
+      "rel": "2024-08-30",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 1
+    },
+    {
+      "n": "command-r",
+      "name": "Command R",
+      "vn": "Cohere",
+      "rel": "2024-08-30",
+      "ctx": 128000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "esm2-650m",
+      "name": "esm2-650m",
+      "vn": "英伟达",
+      "rel": "2024-08-29",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nemotron-mini-4b-instruct",
+      "name": "nemotron-mini-4b-instruct",
+      "vn": "英伟达",
+      "rel": "2024-08-21",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "qwen-math-plus",
+      "name": "Qwen Math Plus",
+      "vn": "阿里云",
+      "rel": "2024-08-16",
+      "ctx": 4096,
+      "in": 0.574,
+      "open": 0
+    },
+    {
+      "n": "morph-v3-large",
+      "name": "Morph v3 Large",
+      "vn": "Morph",
+      "rel": "2024-08-15",
+      "ctx": 32000,
+      "in": 0.9,
+      "open": 0
+    },
+    {
+      "n": "morph-v3-fast",
+      "name": "Morph v3 Fast",
+      "vn": "Morph",
+      "rel": "2024-08-15",
+      "ctx": 16000,
+      "in": 0.8,
+      "open": 0
+    },
+    {
+      "n": "gpt-4o",
+      "name": "GPT-4o (2024-08-06)",
+      "vn": "OpenAI",
+      "rel": "2024-08-06",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "flux-1-schnell",
+      "name": "FLUX.1-schnell",
+      "vn": "英伟达",
+      "rel": "2024-08-01",
+      "ctx": 77,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "flux-1-dev",
+      "name": "FLUX.1-dev",
+      "vn": "英伟达",
+      "rel": "2024-08-01",
+      "ctx": 4096,
+      "in": 0,
+      "open": 0
+    },
+    {
+      "n": "usdvalidate",
+      "name": "usdvalidate",
+      "vn": "英伟达",
+      "rel": "2024-07-24",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-4o-mini",
+      "name": "GPT-4o mini",
+      "vn": "OpenAI",
+      "rel": "2024-07-18",
+      "ctx": 128000,
+      "in": 0.15,
+      "open": 0
+    },
+    {
+      "n": "llama-3-1-70b-instruct",
+      "name": "Llama 3.1 70b Instruct",
+      "vn": "英伟达",
+      "rel": "2024-07-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemma-2-2b-it",
+      "name": "Gemma 2 2b It",
+      "vn": "英伟达",
+      "rel": "2024-07-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "open-mistral-nemo",
+      "name": "Open Mistral Nemo",
+      "vn": "Mistral",
+      "rel": "2024-07-01",
+      "ctx": 128000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "mistral-nemo",
+      "name": "Mistral Nemo",
+      "vn": "Mistral",
+      "rel": "2024-07-01",
+      "ctx": 128000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "solar-mini",
+      "name": "solar-mini",
+      "vn": "Upstage",
+      "rel": "2024-06-12",
+      "ctx": 32768,
+      "in": 0.15,
+      "open": 0
+    },
+    {
+      "n": "nv-embed-v1",
+      "name": "nv-embed-v1",
+      "vn": "英伟达",
+      "rel": "2024-06-07",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "solar-10-7b-instruct",
+      "name": "solar-10.7b-instruct",
+      "vn": "英伟达",
+      "rel": "2024-06-05",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "auto",
+      "name": "Auto",
+      "vn": "Morph",
+      "rel": "2024-06-01",
+      "ctx": 32000,
+      "in": 0.85,
+      "open": 0
+    },
+    {
+      "n": "codestral",
+      "name": "Codestral (latest)",
+      "vn": "Mistral",
+      "rel": "2024-05-29",
+      "ctx": 256000,
+      "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "vision-small",
+      "name": "Vision Small",
+      "vn": "Vispark",
+      "rel": "2024-05-15",
+      "ctx": 1000000,
+      "in": 1.05,
+      "open": 0
+    },
+    {
+      "n": "vision-medium",
+      "name": "Vision Medium",
+      "vn": "Vispark",
+      "rel": "2024-05-15",
+      "ctx": 1000000,
+      "in": 4.21,
+      "open": 0
+    },
+    {
+      "n": "vision-large",
+      "name": "Vision Large",
+      "vn": "Vispark",
+      "rel": "2024-05-15",
+      "ctx": 1000000,
+      "in": 7.37,
+      "open": 0
+    },
+    {
+      "n": "paligemma",
+      "name": "paligemma",
+      "vn": "英伟达",
+      "rel": "2024-05-14",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-4o",
+      "name": "GPT-4o (2024-05-13)",
+      "vn": "OpenAI",
+      "rel": "2024-05-13",
+      "ctx": 128000,
+      "in": 5,
+      "open": 0
+    },
+    {
+      "n": "gpt-4o",
+      "name": "GPT-4o",
+      "vn": "OpenAI",
+      "rel": "2024-05-13",
+      "ctx": 128000,
+      "in": 2.5,
+      "open": 0
+    },
+    {
+      "n": "mixtral-8x22b-instruct",
+      "name": "Mistral: Mixtral 8x22B Instruct",
+      "vn": "英伟达",
+      "rel": "2024-04-17",
+      "ctx": 65536,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mixtral-8x22b",
+      "name": "Mixtral 8x22B",
+      "vn": "Mistral",
+      "rel": "2024-04-17",
+      "ctx": 64000,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "qwen-vl-max",
+      "name": "Qwen-VL Max",
+      "vn": "阿里云",
+      "rel": "2024-04-08",
+      "ctx": 131072,
+      "in": 0.8,
+      "open": 0
+    },
+    {
+      "n": "qwen-vl-max",
+      "name": "Qwen-VL Max",
+      "vn": "阿里云",
+      "rel": "2024-04-08",
+      "ctx": 131072,
+      "in": 0.23,
+      "open": 0
+    },
+    {
+      "n": "qwen-max",
+      "name": "Qwen Max",
+      "vn": "阿里云",
+      "rel": "2024-04-03",
+      "ctx": 32768,
+      "in": 1.6,
+      "open": 0
+    },
+    {
+      "n": "qwen-max",
+      "name": "Qwen Max",
+      "vn": "阿里云",
+      "rel": "2024-04-03",
+      "ctx": 131072,
+      "in": 0.345,
+      "open": 0
+    },
+    {
+      "n": "rerank-qa-mistral-4b",
+      "name": "rerank-qa-mistral-4b",
+      "vn": "英伟达",
+      "rel": "2024-03-17",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "esmfold",
+      "name": "esmfold",
+      "vn": "英伟达",
+      "rel": "2024-03-15",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "bge-m3",
+      "name": "BGE M3",
+      "vn": "英伟达",
+      "rel": "2024-01-30",
+      "ctx": 8192,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "text-embedding-3-small",
+      "name": "text-embedding-3-small",
+      "vn": "OpenAI",
+      "rel": "2024-01-25",
+      "ctx": 8191,
+      "in": 0.02,
+      "open": 0
+    },
+    {
+      "n": "text-embedding-3-large",
+      "name": "text-embedding-3-large",
+      "vn": "OpenAI",
+      "rel": "2024-01-25",
+      "ctx": 8191,
+      "in": 0.13,
+      "open": 0
+    },
+    {
+      "n": "qwen-vl-plus",
+      "name": "Qwen-VL Plus",
+      "vn": "阿里云",
+      "rel": "2024-01-25",
+      "ctx": 131072,
+      "in": 0.21,
+      "open": 0
+    },
+    {
+      "n": "qwen-plus",
+      "name": "Qwen Plus",
+      "vn": "阿里云",
+      "rel": "2024-01-25",
+      "ctx": 1000000,
+      "in": 0.4,
+      "open": 0
+    },
+    {
+      "n": "qwen-vl-plus",
+      "name": "Qwen-VL Plus",
+      "vn": "阿里云",
+      "rel": "2024-01-25",
+      "ctx": 131072,
+      "in": 0.115,
+      "open": 0
+    },
+    {
+      "n": "qwen-plus",
+      "name": "Qwen Plus",
+      "vn": "阿里云",
+      "rel": "2024-01-25",
+      "ctx": 1000000,
+      "in": 0.115,
+      "open": 0
+    },
+    {
+      "n": "sonar-reasoning-pro",
+      "name": "Sonar Reasoning Pro",
+      "vn": "Perplexity",
+      "rel": "2024-01-01",
+      "ctx": 128000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "sonar-pro",
+      "name": "Sonar Pro",
+      "vn": "Perplexity",
+      "rel": "2024-01-01",
+      "ctx": 200000,
+      "in": 3,
+      "open": 0
+    },
+    {
+      "n": "sonar",
+      "name": "Sonar",
+      "vn": "Perplexity",
+      "rel": "2024-01-01",
+      "ctx": 128000,
+      "in": 1,
+      "open": 0
+    },
+    {
+      "n": "qwen-plus-character",
+      "name": "Qwen Plus Character (Japanese)",
+      "vn": "阿里云",
+      "rel": "2024-01-01",
+      "ctx": 8192,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "tongyi-intent-detect-v3",
+      "name": "Tongyi Intent Detect V3",
+      "vn": "阿里云",
+      "rel": "2024-01-01",
+      "ctx": 8192,
+      "in": 0.058,
+      "open": 0
+    },
+    {
+      "n": "qwen-plus-character",
+      "name": "Qwen Plus Character",
+      "vn": "阿里云",
+      "rel": "2024-01-01",
+      "ctx": 32768,
+      "in": 0.115,
+      "open": 0
+    },
+    {
+      "n": "qwen-doc-turbo",
+      "name": "Qwen Doc Turbo",
+      "vn": "阿里云",
+      "rel": "2024-01-01",
+      "ctx": 131072,
+      "in": 0.087,
+      "open": 0
+    },
+    {
+      "n": "qwen-deep-research",
+      "name": "Qwen Deep Research",
+      "vn": "阿里云",
+      "rel": "2024-01-01",
+      "ctx": 1000000,
+      "in": 7.742,
+      "open": 0
+    },
+    {
+      "n": "mixtral-8x7b",
+      "name": "Mixtral 8x7B",
+      "vn": "Mistral",
+      "rel": "2023-12-11",
+      "ctx": 32000,
+      "in": 0.7,
+      "open": 1
+    },
+    {
+      "n": "mistral-embed",
+      "name": "Mistral Embed",
+      "vn": "Mistral",
+      "rel": "2023-12-11",
+      "ctx": 8000,
+      "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "mixtral-8x7b-instruct",
+      "name": "Mistral: Mixtral 8x7B Instruct",
+      "vn": "英伟达",
+      "rel": "2023-12-10",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-4-turbo",
+      "name": "GPT-4 Turbo",
+      "vn": "OpenAI",
+      "rel": "2023-11-06",
+      "ctx": 128000,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "gpt-4",
+      "name": "GPT-4",
+      "vn": "OpenAI",
+      "rel": "2023-11-06",
+      "ctx": 8192,
+      "in": 30,
+      "open": 0
+    },
+    {
+      "n": "mistral-7b",
+      "name": "Mistral 7B",
+      "vn": "Mistral",
+      "rel": "2023-09-27",
+      "ctx": 8000,
+      "in": 0.25,
+      "open": 1
+    },
+    {
+      "n": "whisper-large-v3",
+      "name": "Whisper Large v3",
+      "vn": "英伟达",
+      "rel": "2023-09-01",
+      "ctx": 0,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gpt-3-5-turbo",
+      "name": "GPT-3.5-turbo",
+      "vn": "OpenAI",
+      "rel": "2023-03-01",
+      "ctx": 16385,
+      "in": 0.5,
+      "open": 0
+    },
+    {
+      "n": "text-embedding-ada-002",
+      "name": "text-embedding-ada-002",
+      "vn": "OpenAI",
+      "rel": "2022-12-15",
+      "ctx": 8192,
+      "in": 0.1,
+      "open": 0
+    }
+  ]
+}

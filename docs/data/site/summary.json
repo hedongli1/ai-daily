@@ -1,0 +1,86 @@
+{
+  "date": "2026-09-20",
+  "mode": "backfill",
+  "baselineDate": null,
+  "counts": {
+    "new": 1,
+    "retired": 0,
+    "price": 0,
+    "context": 0,
+    "news": 13,
+    "facts": 1,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)",
+    "Google Blog · AI(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 1
+    }
+  ],
+  "totals": {
+    "originVendors": 33,
+    "originModels": 610,
+    "channels": 181,
+    "allEntries": 7870
+  }
+}

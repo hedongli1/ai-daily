@@ -1,0 +1,68 @@
+{
+  "date": "2026-09-20",
+  "board": {
+    "latest": [
+      {
+        "n": "glm-5-3-flashx",
+        "name": "GLM-5.3-FlashX",
+        "vn": "智谱 AI",
+        "val": "2026-09-18",
+        "metric": "发布日期"
+      }
+    ],
+    "longestCtx": [
+      {
+        "n": "qwen-long",
+        "name": "Qwen Long",
+        "vn": "阿里云",
+        "val": 10000000,
+        "metric": "上下文"
+      }
+    ],
+    "cheapest": [
+      {
+        "n": "text-embedding-3-small",
+        "name": "text-embedding-3-small",
+        "vn": "OpenAI",
+        "val": 0.02,
+        "metric": "输入价"
+      }
+    ],
+    "priciest": [
+      {
+        "n": "o1-pro",
+        "name": "o1-pro",
+        "vn": "OpenAI",
+        "val": 150,
+        "metric": "输入价"
+      }
+    ],
+    "cnStrongest": [
+      {
+        "n": "qwen-long",
+        "name": "Qwen Long",
+        "vn": "阿里云",
+        "val": 10000000,
+        "metric": "上下文"
+      }
+    ],
+    "openStrongest": [
+      {
+        "n": "kimi-k3",
+        "name": "Kimi K3",
+        "vn": "阿里云",
+        "val": 1048576,
+        "metric": "上下文"
+      }
+    ],
+    "mostChannels": [
+      {
+        "n": "glm-5-2",
+        "name": "GLM-5.2",
+        "vn": "阿里云",
+        "val": 85,
+        "metric": "渠道数"
+      }
+    ]
+  }
+}
