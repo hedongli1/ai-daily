@@ -18,6 +18,8 @@ permissions:
   contents: write
 
 concurrency:
+  # 同一时刻只允许一个管线实例在跑。不加锁的话，两个班次撞在一起会
+  # 同时基于旧 commit 提交，后完成的那个必然 push 被拒。
   group: ai-daily-pipeline
   cancel-in-progress: false
 
