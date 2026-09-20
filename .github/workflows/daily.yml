@@ -60,11 +60,31 @@ jobs:
           git add docs/data
           if git diff --staged --quiet; then
             echo "今天没有数据变化，跳过提交。"
-          else
-            D=$(date -u +%Y-%m-%d)
-            git commit -m "data: ${D} 每日快照与事件"
-            git push
+            exit 0
           fi
+
+          D=$(date -u +%Y-%m-%d)
+          git commit -q -m "data: ${D} 每日快照与事件"
+
+          # push 前先同步远端。两个班次（或手动触发与定时触发）撞在一起时，
+          # 后启动的那个会基于旧 commit，直接 push 必然被拒：
+          #   ! [rejected] main -> main (fetch first)
+          # 所以这里先 rebase 到远端最新。
+          #
+          # 冲突时用本地版本（-X theirs）：本地是刚刚抓取的新数据，
+          # 而远端那份来自更早的同日运行，取新不取旧。
+          for attempt in 1 2 3; do
+            if git push -q 2>/dev/null; then
+              echo "✓ 已推送到远端（第 ${attempt} 次尝试）"
+              exit 0
+            fi
+            echo "⚠️ push 被拒（第 ${attempt} 次），同步远端后重试…"
+            git pull --rebase -X theirs --no-edit origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "::error::连续 3 次推送失败，请检查分支保护规则或权限设置"
+          exit 1
 
       - name: 输出今日战报
         run: |
