@@ -65522,9 +65522,9 @@
       "updated": "2026-09-14",
       "ctx": 1024000,
       "out": 384000,
-      "in": 0.56628,
-      "outCost": 1.69884,
-      "cacheRead": 0.018876,
+      "in": 0.56364,
+      "outCost": 1.69092,
+      "cacheRead": 0.018788,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -94747,7 +94747,7 @@
       "cacheRead": 0.04,
       "open": true,
       "reasoning": false,
-      "toolCall": false,
+      "toolCall": true,
       "shared": 1
     },
     "nano-gpt/qwen/qwen3-235b-a22b": {
@@ -94807,7 +94807,7 @@
       "cacheRead": 0.05,
       "open": true,
       "reasoning": false,
-      "toolCall": false,
+      "toolCall": true,
       "shared": 12
     },
     "nano-gpt/qwen/qwen3-30b-a3b-instruct-2507": {
@@ -94867,7 +94867,7 @@
       "cacheRead": 0.235,
       "open": true,
       "reasoning": false,
-      "toolCall": false,
+      "toolCall": true,
       "shared": 1
     },
     "nano-gpt/qwen/qwen3-coder": {
@@ -118842,9 +118842,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.56628,
-      "outCost": 1.69884,
-      "cacheRead": 0.018876,
+      "in": 0.56364,
+      "outCost": 1.69092,
+      "cacheRead": 0.018788,
       "open": false,
       "reasoning": true,
       "toolCall": true,

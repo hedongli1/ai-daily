@@ -7,13 +7,12 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 13,
+    "news": 15,
     "facts": 1,
     "newsAttached": 0
   },
   "degraded": [
-    "Anthropic(failed)",
-    "Google Blog · AI(failed)"
+    "Anthropic(failed)"
   ],
   "sources": [
     {
@@ -43,14 +42,14 @@
     {
       "id": "googleblog",
       "label": "Google Blog · AI",
-      "status": "failed",
-      "count": 0
+      "status": "ok",
+      "count": 20
     },
     {
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "id": "QwenLM",

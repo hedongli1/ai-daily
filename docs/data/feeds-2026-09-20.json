@@ -29,22 +29,22 @@
     "vendor": "anthropic",
     "status": "failed",
     "count": 0,
-    "error": "fetch failed"
+    "error": "HTTP 404"
   },
   {
     "id": "googleblog",
     "label": "Google Blog · AI",
     "vendor": "google",
-    "status": "failed",
-    "count": 0,
-    "error": "This operation was aborted"
+    "status": "ok",
+    "count": 20,
+    "error": null
   },
   {
     "id": "deepseek-ai",
     "label": "DeepSeek",
     "vendor": "deepseek",
     "status": "ok",
-    "count": 6,
+    "count": 5,
     "error": null
   },
   {
