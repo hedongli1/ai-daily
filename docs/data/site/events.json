@@ -4,16 +4,73 @@
   "baselineDate": "2026-09-20",
   "events": [
     {
+      "type": "new",
+      "key": "xai/Grok 4.7",
+      "vendor": "xai",
+      "vendorName": "xAI",
+      "name": "Grok 4.7",
+      "date": "2026-09-21",
+      "facts": {
+        "ctx": 500000,
+        "in": 2,
+        "outCost": 6,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Grok 4.7 · 闭源 · 500K 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/grok-4-7/",
+      "shared": 10
+    },
+    {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "RecreationWorld · 仓库更新",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advisory Group on Mathematics and Artificial Intelligence",
       "date": "2026-09-21",
       "facts": {},
-      "text": "RecreationWorld · 仓库更新",
-      "href": "https://github.com/QwenLM/RecreationWorld/releases",
-      "source": "Qwen",
+      "text": "Advisory Group on Mathematics and Artificial Intelligence",
+      "href": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Building standards for the next phase of AI",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Building standards for the next phase of AI",
+      "href": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Expanding OpenAI Academy with new learning paths",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Expanding OpenAI Academy with new learning paths",
+      "href": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How V7 gives AI agents institutional memory",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "How V7 gives AI agents institutional memory",
+      "href": "https://openai.com/index/v7",
+      "source": "OpenAI",
       "external": true
     },
     {
@@ -34,12 +91,103 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "Omnilingua-Bench · 仓库更新",
+      "name": "RecreationWorld · 仓库更新",
       "date": "2026-09-21",
       "facts": {},
-      "text": "Omnilingua-Bench · 仓库更新",
-      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
+      "text": "RecreationWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/RecreationWorld/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "search-starter-app · Base template to build, manage and improve search engines",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "search-starter-app · Base template to build, manage and improve search engines",
+      "href": "https://github.com/mistralai/search-starter-app/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -93,6 +241,60 @@
       "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
       "external": true
+    },
+    {
+      "type": "new",
+      "key": "stepfun-ai/Step 5 Preview",
+      "vendor": "stepfun",
+      "vendorName": "阶跃星辰",
+      "name": "Step 5 Preview",
+      "date": "2026-09-16",
+      "facts": {
+        "ctx": 1000000,
+        "in": 1,
+        "outCost": 2.7,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Step 5 Preview · 闭源 · 1M 上下文 · 输入 $1/M · 支持推理",
+      "href": "/models/step-5-preview/",
+      "shared": 5
+    },
+    {
+      "type": "new",
+      "key": "xai/Grok Imagine Image Quality",
+      "vendor": "xai",
+      "vendorName": "xAI",
+      "name": "Grok Imagine Image Quality",
+      "date": "2026-04-03",
+      "facts": {
+        "ctx": 16000,
+        "in": null,
+        "outCost": null,
+        "open": false,
+        "reasoning": false
+      },
+      "text": "Grok Imagine Image Quality · 闭源 · 16K 上下文",
+      "href": "/models/grok-imagine-image-quality/",
+      "shared": 1
+    },
+    {
+      "type": "new",
+      "key": "zhipuai/GLM-4.6V-Flash",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-4.6V-Flash",
+      "date": "2025-12-08",
+      "facts": {
+        "ctx": 128000,
+        "in": 0,
+        "outCost": 0,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "GLM-4.6V-Flash · 开源 · 128K 上下文 · 输入 免费/M · 支持推理",
+      "href": "/models/glm-4-6v-flash/",
+      "shared": 5
     }
   ]
 }

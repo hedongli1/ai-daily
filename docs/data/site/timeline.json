@@ -2,6 +2,15 @@
   "date": "2026-09-21",
   "timeline": [
     {
+      "n": "grok-4-7",
+      "name": "Grok 4.7",
+      "vn": "xAI",
+      "rel": "2026-09-21",
+      "ctx": 500000,
+      "in": 2,
+      "open": 0
+    },
+    {
       "n": "glm-5-3-flashx",
       "name": "GLM-5.3-FlashX",
       "vn": "智谱 AI",
@@ -18,6 +27,15 @@
       "ctx": 1000000,
       "in": 0.37,
       "open": 1
+    },
+    {
+      "n": "step-5-preview",
+      "name": "Step 5 Preview",
+      "vn": "阶跃星辰",
+      "rel": "2026-09-16",
+      "ctx": 1000000,
+      "in": 1,
+      "open": 0
     },
     {
       "n": "deepseek-v4-flash-vision-exp",
@@ -1541,6 +1559,15 @@
       "open": 1
     },
     {
+      "n": "grok-imagine-image-quality",
+      "name": "Grok Imagine Image Quality",
+      "vn": "xAI",
+      "rel": "2026-04-03",
+      "ctx": 16000,
+      "in": null,
+      "open": 0
+    },
+    {
       "n": "step-3-5-flash-2603",
       "name": "Step 3.5 Flash 2603",
       "vn": "阶跃星辰",
@@ -2684,12 +2711,30 @@
       "open": 1
     },
     {
+      "n": "glm-4-6v-flash",
+      "name": "GLM-4.6V-Flash",
+      "vn": "智谱 AI",
+      "rel": "2025-12-08",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "glm-4-6v",
       "name": "GLM-4.6V",
       "vn": "智谱 AI",
       "rel": "2025-12-08",
       "ctx": 128000,
       "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "glm-4-6v-flash",
+      "name": "GLM-4.6V-Flash",
+      "vn": "智谱 AI",
+      "rel": "2025-12-08",
+      "ctx": 128000,
+      "in": 0,
       "open": 1
     },
     {

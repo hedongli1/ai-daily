@@ -44,18 +44,18 @@
       "latest": "2026-07-09"
     },
     {
+      "id": "zhipuai",
+      "name": "智谱 AI",
+      "n": 35,
+      "cheapest": 0,
+      "latest": "2026-09-18"
+    },
+    {
       "id": "volcengine",
       "name": "字节跳动",
       "n": 16,
       "cheapest": 0.02227,
       "latest": "2026-08-26"
-    },
-    {
-      "id": "zhipuai",
-      "name": "智谱 AI",
-      "n": 33,
-      "cheapest": 0,
-      "latest": "2026-09-18"
     },
     {
       "id": "anthropic",
@@ -74,16 +74,16 @@
     {
       "id": "xai",
       "name": "xAI",
-      "n": 10,
+      "n": 12,
       "cheapest": 1,
-      "latest": "2026-08-12"
+      "latest": "2026-09-21"
     },
     {
       "id": "stepfun",
       "name": "阶跃星辰",
-      "n": 16,
+      "n": 17,
       "cheapest": 0.1,
-      "latest": "2026-05-29"
+      "latest": "2026-09-16"
     },
     {
       "id": "minimax",
