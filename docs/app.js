@@ -25,7 +25,7 @@ const fmtNum = (n) => (n == null ? '—' : n.toLocaleString('en-US'));
 /** 月粒度的日期加「（月）」后缀，不假装是精确到日的发布。 */
 const fmtDate = (d, p) => (d == null ? '—' : p === 'month' ? `${d.slice(0, 7)}（月）` : p === 'year' ? `${d.slice(0, 4)}（年）` : d);
 
-const TYPE_LABEL = { new: '新模型', price: '调价', context: '上下文', retired: '下架', news: '公告' };
+const TYPE_LABEL = { new: '新生物', price: '交易行情', context: '背包扩容', retired: '生物灭绝', news: '村庄告示' };
 const TYPE_RANK = { new: 0, price: 1, context: 2, retired: 3, news: 4 };
 
 async function load() {
@@ -95,11 +95,11 @@ function viewHome() {
   const c = s.counts ?? {};
   const tally = `
     <div class="tally">
-      <div class="t new"><div class="num">${c.new ?? 0}</div><div class="lbl">新模型</div></div>
-      <div class="t price"><div class="num">${c.price ?? 0}</div><div class="lbl">调价</div></div>
-      <div class="t ctx"><div class="num">${c.context ?? 0}</div><div class="lbl">上下文变更</div></div>
-      <div class="t retired"><div class="num">${c.retired ?? 0}</div><div class="lbl">下架</div></div>
-      <div class="t news"><div class="num">${c.news ?? 0}</div><div class="lbl">官方公告</div></div>
+      <div class="t new"><div class="num">${c.new ?? 0}</div><div class="lbl">新生物</div></div>
+      <div class="t price"><div class="num">${c.price ?? 0}</div><div class="lbl">交易行情</div></div>
+      <div class="t ctx"><div class="num">${c.context ?? 0}</div><div class="lbl">背包扩容</div></div>
+      <div class="t retired"><div class="num">${c.retired ?? 0}</div><div class="lbl">生物灭绝</div></div>
+      <div class="t news"><div class="num">${c.news ?? 0}</div><div class="lbl">村庄告示</div></div>
     </div>`;
 
   // 事件流：只显示事实事件 + 未挂到任何模型上的公告
@@ -111,7 +111,7 @@ function viewHome() {
 
   const evHtml = merged.length
     ? merged.map(evCard).join('')
-    : `<div class="empty">今天没有记录到原厂模型的变动。<br><span style="font-size:12px">这本身也是一个事实 —— AI 圈并没有每天都发生结构性变化。</span></div>`;
+    : `<div class="empty">今天矿洞平静无波，没有记录到原厂模型的变动。<br><span style="font-size:12px">这本身也是一个事实 —— AI 圈并没有每天都发生结构性变化。</span></div>`;
 
   const boardHtml = Object.entries(BOARD_LABEL)
     .filter(([k]) => (b[k] ?? []).length)
@@ -132,24 +132,43 @@ function viewHome() {
     prevS?.baselineDate ? `<a href="#/models">全部 ${t.originModels ?? 0} 个原厂模型 →</a>` : null,
   ].filter(Boolean).join('');
 
+  // 方块广场：五类事件各取头条一张卡，一眼看清今天矿洞里的动静。
+  const PLAZA_LABEL = { new: '新生物', price: '交易行情', context: '背包扩容', retired: '生物灭绝', news: '村庄告示' };
+  const plazaCards = Object.keys(PLAZA_LABEL)
+    .map((tp) => merged.find((e) => e.type === tp))
+    .filter(Boolean);
+  const plazaHtml = plazaCards.length
+    ? `<div class="section"><h2>方块广场 <span class="cnt">各类事件头条</span></h2><div class="plaza">${plazaCards
+        .map(
+          (e) => `<a class="plaza-card plaza-${e.type}" href="${e.type !== 'news' && e.href ? '#' + esc(e.href.replace(/^\//, '/')) : '#'}">
+          <div class="plaza-strip"></div>
+          <div class="plaza-name">${esc(e.name)}</div>
+          <div class="plaza-fact">${esc(linkifyFacts(e)) || PLAZA_LABEL[e.type]}</div>
+          <div class="plaza-meta">${esc(e.date ?? '')} · ${esc(e.vendorName ?? '')}</div>
+        </a>`
+        )
+        .join('')}</div></div>`
+    : '';
+
   return `
     ${banner}${degraded}
     ${tally}
+    ${plazaHtml}
     <div class="cols">
       <div>
         <div class="section">
-          <h2>今日事件 <span class="cnt">${merged.length} 条</span></h2>
+          <h2>矿洞播报 <span class="cnt">${merged.length} 条</span></h2>
           ${evHtml}
           ${nav ? `<p style="margin-top:14px;font-size:12.5px">${nav}</p>` : ''}
         </div>
       </div>
       <div>
         <div class="section">
-          <h2>当前格局</h2>
+          <h2>方块名人堂</h2>
           <div class="board">${boardHtml || '<div class="empty">数据不足</div>'}</div>
         </div>
         <div class="section">
-          <h2>数据规模</h2>
+          <h2>世界档案</h2>
           <div class="board">
             <div class="b"><div class="k">原厂</div><div class="v">${t.originVendors ?? 0} 家</div><div class="w">人工登记注册表</div></div>
             <div class="b"><div class="k">原厂模型</div><div class="v">${t.originModels ?? 0} 个</div><div class="w">渠道转售不计入</div></div>
@@ -162,8 +181,8 @@ function viewHome() {
 }
 
 const BOARD_LABEL = {
-  latest: '最新发布', longestCtx: '最长上下文', cheapest: '最低价', priciest: '最高价',
-  cnStrongest: '国产最长上下文', openStrongest: '开源最长上下文', mostChannels: '渠道最多',
+  latest: '最新降生', longestCtx: '最大背包', cheapest: '最便宜', priciest: '最昂贵',
+  cnStrongest: '国产最大背包', openStrongest: '开源最大背包', mostChannels: '流通最广',
 };
 
 function evCard(e) {
@@ -241,7 +260,7 @@ function viewModels() {
 
   return `
     <div class="section">
-      <h2>模型库 <span class="cnt">${list.length} 个原厂模型</span></h2>
+      <h2>生物图鉴 <span class="cnt">${list.length} 个原厂模型</span></h2>
       <div class="filters">
         <select id="f-vendor"><option value="">全部厂商</option>${vs
           .map((v) => `<option value="${esc(v.id)}"${state.filters.vendor === v.id ? ' selected' : ''}>${esc(v.name)} (${v.n})</option>`)
@@ -357,7 +376,7 @@ function viewTimeline() {
     })
     .join('');
   return `<div class="section">
-    <h2>发布时间线 <span class="cnt">${list.length} 个原厂模型 · 按发布时间倒序</span></h2>
+    <h2>编年史 <span class="cnt">${list.length} 个原厂模型 · 按发布时间倒序</span></h2>
     <div class="tl">${rows || '<div class="empty">暂无数据</div>'}</div>
   </div>`;
 }
@@ -375,7 +394,7 @@ function viewVendors() {
     )
     .join('');
   return `<div class="section">
-    <h2>原厂 <span class="cnt">${vs.length} 家 · 登记在 vendor-registry.js</span></h2>
+    <h2>村庄 <span class="cnt">${vs.length} 家原厂 · 登记在 vendor-registry.js</span></h2>
     <div class="vgrid">${cards || '<div class="empty">暂无数据</div>'}</div>
   </div>`;
 }
@@ -425,7 +444,7 @@ function viewAbout() {
         同样的输入永远产出同样的输出，而且任何一句话都能被追溯到来源。
         一旦让模型写文案，这个性质就没了。</p>
 
-    <h2>🚨 我们遇到的第一个真问题：渠道刷屏</h2>
+    <h2>我们遇到的第一个真问题：渠道刷屏</h2>
     <p>models.dev 收录了 ${fmtNum(t.allEntries ?? 0)} 条模型条目，但其中 <b>${fmtNum((t.allEntries ?? 0) - (t.originModels ?? 0))}</b> 条来自
         <b>${t.channels ?? 0} 家渠道</b>——API 网关、云平台、托管服务。同一个模型会被 N 个渠道重复收录，
         实测某模型一天内出现在 5 个条目下。不加处理，「今日新模型」会被渠道的收录动作刷屏。</p>
@@ -452,7 +471,7 @@ function viewAbout() {
     <ul>
       <li>DeepSeek、智谱、月之暗面等国产厂商<b>没有官方 RSS</b>，目前用它们的 GitHub 组织动态兜底，覆盖不完整。</li>
       <li>厂商注册表是人工维护的。出现新原厂时需要补一行，否则它的模型不会出现在事件流里。</li>
-      <li>快照每天只拍两次（北京时间 08:30 / 22:14），当天更晚发生的变化要等下一个班次。</li>
+      <li>快照每天排班两次（晨报与晚报，北京时间清晨与傍晚触发）。GitHub 托管调度会排队数小时，实际落地多在早晨与晚间；当天更晚发生的变化要等下一个班次。</li>
     </ul>
 
     <h2>今日运行状态</h2>
@@ -473,6 +492,8 @@ function viewCredits() {
         <tr><td><a href="https://models.dev" target="_blank" rel="noopener">models.dev</a></td><td>模型元数据（价格 / 上下文 / 开源 / 发布日期）</td><td>MIT</td></tr>
         <tr><td><a href="https://epoch.ai" target="_blank" rel="noopener">Epoch AI</a></td><td>第三方评测明细</td><td><b>CC-BY 4.0</b></td></tr>
         <tr><td>各厂商官方博客 / GitHub</td><td>公告标题与链接（不抓正文）</td><td>各自所有，仅作引用链接</td></tr>
+        <tr><td><a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank" rel="noopener">Press Start 2P</a></td><td>英文像素字体（Google Fonts 官方分发）</td><td>OFL 1.1</td></tr>
+        <tr><td><a href="https://github.com/TakWolf/fusion-pixel-font" target="_blank" rel="noopener">缝合像素字体 Fusion Pixel</a></td><td>中文像素字体（12px 等宽 woff2，随仓库分发）</td><td>OFL-1.1</td></tr>
       </tbody>
     </table>
 
@@ -492,6 +513,8 @@ function viewCredits() {
        站点实现、数据管线、信息架构均为独立编写。设计思路上参考了
        <a href="https://github.com/liyupi/ai-model-world" target="_blank" rel="noopener">liyupi/ai-model-world</a>（同为 MIT）
        公开的「零维护数据管线」思路，但未复用其任何代码、像素素材、字体或文案。</p>
+    <p>界面为《我的世界》风格的原创像素方块主题：所有方块、边框与配色均由 CSS 绘制，
+       <b>未使用 Mojang《Minecraft》的任何官方贴图或素材</b>。像素字体见上表（Press Start 2P / 缝合像素，均为开源许可）。</p>
   </div>`;
 }
 

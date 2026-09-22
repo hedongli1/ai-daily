@@ -58,8 +58,16 @@ export async function writeText(file, value) {
   await fs.writeFile(file, value, 'utf8');
 }
 
+// 日期键用「北京时间」而不是 UTC：日报的两个班次都锚定北京日期，
+// 凌晨 / 傍晚的班次在 UTC 下会落到前一天，把战报日期劈成两天。
+// 统一用 en-CA 区域格式直接产出 YYYY-MM-DD，避免手工补零。
 export function todayISO(now = new Date()) {
-  return now.toISOString().slice(0, 10);
+  return new Intl.DateTimeFormat('en-CA', {
+    timeZone: 'Asia/Shanghai',
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+  }).format(now);
 }
 
 /**

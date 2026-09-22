@@ -3,31 +3,35 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>AI 日报 · 今天 AI 圈发生了什么</title>
-<meta name="description" content="用模型数据库的每日差分回答「今天 AI 圈发生了什么」。数据来自 models.dev 与 Epoch AI，全部结构化，不经过大模型生成。">
+<title>AI 矿务日报 · 方块世界里的 AI 情报站</title>
+<meta name="description" content="用模型数据库的每日差分回答「今天 AI 圈发生了什么」，以《我的世界》方块风格呈现。数据来自 models.dev 与 Epoch AI，全部结构化，不经过大模型生成。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- 像素字体：英文 Press Start 2P（OFL，Google Fonts 官方分发）；中文 Fusion Pixel Font（OFL-1.1，TakWolf 官方 Releases，见 style.css 内 @font-face） -->
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 
 <header class="topbar">
-  <a class="brand" href="#/">ai<span>-daily</span></a>
+  <a class="brand" href="#/">AI 矿务日报 <span>· 方块世界里的 AI 情报站</span></a>
   <nav class="nav">
-    <a href="#/" data-page="home">今日</a>
-    <a href="#/models" data-page="models">模型库</a>
-    <a href="#/timeline" data-page="timeline">时间线</a>
-    <a href="#/vendors" data-page="vendors">厂商</a>
-    <a href="#/about" data-page="about">关于</a>
+    <a href="#/" data-page="home">今日矿情</a>
+    <a href="#/models" data-page="models">生物图鉴</a>
+    <a href="#/timeline" data-page="timeline">编年史</a>
+    <a href="#/vendors" data-page="vendors">村庄</a>
+    <a href="#/about" data-page="about">告示牌</a>
   </nav>
   <div class="topright">
     <input id="search" type="search" placeholder="搜模型 / 厂商 / 能力" autocomplete="off" aria-label="搜索">
-    <button id="theme" class="iconbtn" title="切换主题" aria-label="切换主题">◐</button>
+    <button id="theme" class="iconbtn" title="切换白天 / 夜晚" aria-label="切换白天 / 夜晚">◐</button>
   </div>
 </header>
 
 <div id="searchpanel" class="searchpanel" hidden></div>
 
 <main id="app">
-  <div class="loading">正在载入数据…</div>
+  <div class="loading">正在下矿，稍等…</div>
 </main>
 
 <footer class="footer">
@@ -36,13 +40,15 @@
       数据源：
       <a href="https://models.dev" target="_blank" rel="noopener">models.dev</a>（MIT）·
       <a href="https://epoch.ai" target="_blank" rel="noopener">Epoch AI</a>（CC-BY 4.0）·
-      厂商识别：<a href="https://github.com/hedongli1/ai-daily/blob/main/scripts/vendor-registry.js" target="_blank" rel="noopener">人工登记注册表</a>
+      厂商识别：<a href="https://github.com/hedongli1/ai-daily/blob/main/scripts/vendor-registry.js" target="_blank" rel="noopener">人工登记注册表</a> ·
+      像素字体：<a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank" rel="noopener">Press Start 2P</a>（OFL）·
+      <a href="https://github.com/TakWolf/fusion-pixel-font" target="_blank" rel="noopener">缝合像素</a>（OFL-1.1）
     </p>
     <p class="fmeta dim">
       本站不提供「综合智力排名」——Epoch 原始数据的结构不支持，强行合成会失真。想看排名请去 Epoch 看板。
     </p>
     <p class="fmeta dim">
-      <a href="#/about">方法与边界</a> · <a href="#/credits">署名</a> ·
+      <a href="#/about">方法与边界</a> · <a href="#/credits">署名</a> · 像素方块均为 CSS 原创绘制，不含 Mojang 官方贴图 ·
       <a href="https://github.com/hedongli1/ai-daily" target="_blank" rel="noopener">源码</a>（MIT）
     </p>
   </div>

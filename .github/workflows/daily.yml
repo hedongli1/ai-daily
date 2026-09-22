@@ -1,17 +1,21 @@
 name: ai-daily 每日管线
 
-# 晨报 08:30 / 晚报 22:14（北京时间），与 trending-radar 同频错峰。
-# cron 用 UTC 写：08:30 CST = 00:30 UTC，22:14 CST = 14:14 UTC。
+# 晨报 04:30 / 晚报 18:00（北京时间）。cron 用 UTC 写：04:30 CST = 20:30 UTC（前一天），
+# 18:00 CST = 10:00 UTC。
 #
-# 注意：GitHub 的 schedule 在高负载时会排队，实际延迟通常在 5～30 分钟，
-# 极端情况可能超过一小时。这对日报站是可以接受的。
+# 为什么提前：2026-09 实测 GitHub 托管 schedule 排队 3～5 小时（远超过往估计的
+# 5～30 分钟），原 08:30/22:14 班次实际落在约 13:10 / 次日 01:26。把 cron 提前
+# 约 4 小时后，实际落地大致回到早晨 / 晚间两个阅读时段。
+#
+# 配套：scripts/lib.js 的 todayISO 已改用北京时间日期键，凌晨班次（UTC 仍停在
+# 前一天）不会再把战报日期劈成两天。
 # 另外，仓库连续 60 天没有任何提交时，GitHub 会自动禁用 scheduled workflow ——
 # 本管线每个班次都会提交数据，所以不会触发这个限制。
 
 on:
   schedule:
-    - cron: '30 0 * * *'    # 08:30 北京时间 · 晨报
-    - cron: '14 14 * * *'   # 22:14 北京时间 · 晚报
+    - cron: '30 20 * * *'   # 04:30 北京时间 · 晨报（提前约 4h 对冲 GitHub 排队）
+    - cron: '0 10 * * *'    # 18:00 北京时间 · 晚报（提前约 4h 对冲 GitHub 排队）
   workflow_dispatch:
 
 permissions:
@@ -65,7 +69,7 @@ jobs:
             exit 0
           fi
 
-          D=$(date -u +%Y-%m-%d)
+          D=$(TZ=Asia/Shanghai date +%Y-%m-%d)   # 与 lib.js 的 todayISO 一致，用北京日期
           git commit -q -m "data: ${D} 每日快照与事件"
 
           # push 前先同步远端。两个班次（或手动触发与定时触发）撞在一起时，
@@ -91,7 +95,7 @@ jobs:
       - name: 输出今日战报
         run: |
           node -e "
-          const e = require('./docs/data/events/' + new Date().toISOString().slice(0,10) + '.json');
+          const e = require('./docs/data/events/' + new Date(Date.now() + 8 * 3600e3).toISOString().slice(0,10) + '.json'); // 北京日期，与 lib.js 的 todayISO 一致
           const c = e.counts;
           console.log('### ai-daily 今日战报');
           console.log('');

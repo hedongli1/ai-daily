@@ -1,10 +1,13 @@
-# AI 日报 · ai-daily
+# AI 矿务日报 · ai-daily
 
 **用模型数据库的每日差分，回答「今天 AI 圈发生了什么」。**
 
 不是新闻聚合，是事实差分。每个工作日两次自动抓取、比对、发报，全程不经过任何大模型。
 
 🔗 https://hedongli1.github.io/ai-daily/
+
+界面为《我的世界》风格像素方块主题（CSS 原创绘制，不含 Mojang 官方素材）。
+像素字体：Press Start 2P（OFL，Google Fonts）+ 缝合像素 Fusion Pixel（OFL-1.1，TakWolf 官方 Releases）。
 
 ---
 

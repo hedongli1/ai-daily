@@ -39,9 +39,17 @@
 | **Artificial Analysis** | 其条款禁止再分发数据，本站不使用其任何数据 |
 | **LMArena** | 其条款禁止自动化抓取，本站不抓取 |
 
+## 像素字体
+
+| 字体 | 用途 | 许可 | 来源 |
+|---|---|---|---|
+| **Press Start 2P** | 英文像素字体 | OFL 1.1 | https://fonts.google.com/specimen/Press+Start+2P （Google Fonts 官方分发） |
+| **缝合像素字体 Fusion Pixel（12px 等宽 zh_hans）** | 中文像素字体，`docs/fonts/fusion-pixel.woff2` 随仓库分发 | OFL-1.1 | https://github.com/TakWolf/fusion-pixel-font （作者官方 Releases） |
+
 ## 本站自身
 
 - 站点实现（HTML / CSS / JS）、数据管线、信息架构、视觉设计均为独立编写。
+- 界面为《我的世界》风格像素方块主题，全部由 CSS 原创绘制，**未使用 Mojang《Minecraft》任何官方贴图或素材**。
 - 设计思路上参考了 [liyupi/ai-model-world](https://github.com/liyupi/ai-model-world)
   （MIT）公开的「零维护数据管线」思路 —— 特别是其「系统里唯一依赖人类常识的地方是一张
   查表」的结论，本站的厂商注册表出于同一考虑。
