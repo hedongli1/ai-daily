@@ -8,12 +8,75 @@
     "retired": 0,
     "price": 1,
     "context": 0,
-    "news": 0,
+    "news": 22,
     "facts": 4,
     "newsAttached": 0
   },
-  "degraded": [],
-  "sources": [],
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 2
+    }
+  ],
   "events": [
     {
       "type": "new",
@@ -31,7 +94,7 @@
       },
       "text": "MiMo-V2.6-Flash · 闭源 · 1M 上下文 · 输入 $0.14/M · 支持推理",
       "href": "/models/mimo-v2-6-flash/",
-      "shared": 9
+      "shared": 13
     },
     {
       "type": "new",
@@ -49,7 +112,7 @@
       },
       "text": "MiMo-V2.6-Pro · 闭源 · 1M 上下文 · 输入 $0.43/M · 支持推理",
       "href": "/models/mimo-v2-6-pro/",
-      "shared": 9
+      "shared": 13
     },
     {
       "type": "price",
@@ -69,7 +132,151 @@
         }
       },
       "text": "输入 $0.17 → $0.03 · 输出 $1.03 → $0.29",
-      "href": "/models/qwen3-5-flash/"
+      "href": "/models/qwen3-5-flash/",
+      "evidence": [
+        {
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "RecreationWorld · 仓库更新",
+          "url": "https://github.com/QwenLM/RecreationWorld/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+          "url": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Omnilingua-Bench · 仓库更新",
+          "url": "https://github.com/QwenLM/Omnilingua-Bench/releases",
+          "source": "Qwen"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-compute-openapi · 仓库更新",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "mistral-compute-openapi · 仓库更新",
+      "href": "https://github.com/mistralai/mistral-compute-openapi/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-09-22",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
     },
     {
       "type": "new",
@@ -87,7 +294,176 @@
       },
       "text": "MiMo-V2.6-Pro-UltraSpeed · 闭源 · 1M 上下文 · 输入 $4.35/M · 支持推理",
       "href": "/models/mimo-v2-6-pro-ultraspeed/",
-      "shared": 5
+      "shared": 6
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advisory Group on Mathematics and Artificial Intelligence",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Advisory Group on Mathematics and Artificial Intelligence",
+      "href": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
+      "href": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Building standards for the next phase of AI",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Building standards for the next phase of AI",
+      "href": "https://openai.com/index/building-standards-next-phase-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Expanding OpenAI Academy with new learning paths",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Expanding OpenAI Academy with new learning paths",
+      "href": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How V7 gives AI agents institutional memory",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "How V7 gives AI agents institutional memory",
+      "href": "https://openai.com/index/v7",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "RecreationWorld · 仓库更新",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "RecreationWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/RecreationWorld/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Omnilingua-Bench · 仓库更新",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "Omnilingua-Bench · 仓库更新",
+      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "search-starter-app · Base template to build, manage and improve search engines",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "search-starter-app · Base template to build, manage and improve search engines",
+      "href": "https://github.com/mistralai/search-starter-app/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-09-21",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "date": "2026-09-20",
+      "facts": {},
+      "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
+      "source": "Qwen",
+      "external": true
     }
   ]
 }
