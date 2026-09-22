@@ -149,18 +149,23 @@ function pxTerrain(seed) {
 }
 
 async function load() {
-  const names = ['models', 'vendors', 'timeline', 'board', 'events', 'summary', 'bench'];
+  const names = ['models', 'vendors', 'timeline', 'board', 'events', 'summary', 'bench', 'bilibili'];
   const got = await Promise.all(names.map((n) => fetch(D + n + '.json').then((r) => (r.ok ? r.json() : null))));
-  const [models, vendors, timeline, board, events, summary, bench] = got;
-  state.data = { models, vendors, timeline, board, events, summary, bench };
+  const [models, vendors, timeline, board, events, summary, bench, bilibili] = got;
+  state.data = { models, vendors, timeline, board, events, summary, bench, bilibili };
 
   // 搜索索引：模型 + 厂商
+  // 能力词进 hay：搜「多模态 / 视觉 / 图像生成 / 开源」会直接命中对应模型。
+  // 标签来自 models.dev 原生 modalities 字段，见 build-site.js 的 capTags。
+  const CAP_EN = { 多模态: 'multimodal', 视觉: 'vision', 音频理解: 'audio-in', 视频理解: 'video-in', 图像生成: 'image-generation imagegen', 语音: 'speech audio', 视频生成: 'video-generation', 开源: 'open', 推理: 'reasoning', 工具调用: 'tool' };
   const idx = [];
   for (const m of models?.models ?? []) {
+    const caps = Array.isArray(m.cap) ? m.cap : [];
+    const capHay = caps.map((t) => `${t} ${CAP_EN[t] ?? ''}`).join(' ');
     idx.push({
       kind: 'model', id: m.n, title: m.name, vendor: m.vn,
-      meta: [m.open ? '开源' : '闭源', fmtCtx(m.ctx) + ' 上下文', m.in != null ? fmtCost(m.in) + '/M' : null].filter(Boolean).join(' · '),
-      hay: `${m.name} ${m.vn} ${m.n} ${m.open ? '开源 open' : '闭源'} ${m.rsn ? '推理 reasoning' : ''} ${m.tool ? '工具 tool' : ''}`.toLowerCase(),
+      meta: [m.open ? '开源' : '闭源', ...caps.slice(0, 3), fmtCtx(m.ctx) + ' 上下文', m.in != null ? fmtCost(m.in) + '/M' : null].filter(Boolean).join(' · '),
+      hay: `${m.name} ${m.vn} ${m.n} ${m.open ? '开源 open' : '闭源'} ${m.rsn ? '推理 reasoning' : ''} ${m.tool ? '工具 tool' : ''} ${capHay}`.toLowerCase(),
     });
   }
   for (const v of vendors?.vendors ?? []) {
@@ -246,6 +251,39 @@ function viewHome() {
     })
     .join('');
 
+  // Epoch 单域霸主：原始数据只有「模态 / 学科标签」（Language/Vision/Audio…），
+  // 没有 Code 域 —— 所以不编造「最会写代码」。数据与口径见 build-site.js。
+  const domainLeaders = state.data.board?.domainLeaders ?? [];
+  const DOMAIN_CN = { Language: '语言', Multimodal: '多模态', Vision: '视觉', Video: '视频', Audio: '音频', Speech: '语音', Image: '图像', Mathematics: '数学', 'Image Generation': '图像生成' };
+  const domainHtml = domainLeaders
+    .map(
+      (d) => `<div class="b">${pxFace(d.n, 34)}
+      <div class="bb"><div class="k">${esc(DOMAIN_CN[d.tag] ?? d.tag)}领域霸主 <span class="dl-cnt">${d.models} 模型</span></div>
+      <div class="v"><a href="#/models/${encodeURIComponent(d.n)}">${esc(d.name)}</a></div>
+      <div class="m">${esc(d.vn)}</div>
+      <div class="w">Epoch 域内均分 ${d.avg.toFixed(3)} · ${d.runs} 次运行</div></div>
+    </div>`
+    )
+    .join('');
+
+  // B站矿脉：社区情报。数据来自 B站搜索公开结果，由浏览器管线定期更新入库。
+  const bili = state.data.bilibili;
+  const biliVideos = (bili?.videos ?? []).filter((v) => v.hot).slice(0, 8);
+  const biliHtml = biliVideos.length
+    ? `<div class="section"><h2>B站矿脉 <span class="cnt">社区情报 · ${bili.count} 条 · 热点 ${bili.hotCount}</span></h2>
+      <div class="bili-grid">${biliVideos
+        .map(
+          (v) => `<a class="bili-card" href="${esc(v.url)}" target="_blank" rel="noopener">
+        <div class="bl-t">${esc(v.title)}</div>
+        <div class="bl-m">${esc(v.up)} · ▶ ${fmtNum(v.play)} · ${esc(v.pub)}</div>
+        <div class="bl-q">${(v.topics ?? []).map((t) => `<span class="chip cap">${esc(t)}</span>`).join('')}</div>
+      </a>`
+        )
+        .join('')}</div>
+      <p class="bili-note">来源：B站搜索公开结果（${(bili.queries ?? []).join(' / ')}），按最新排序抓取。点赞数搜索页不提供，故未展示。数据定期更新；内容为 UP 主个人创作，观点不代表事实结论。</p>
+    </div>`
+    : '';
+
   const t = s.totals ?? {};
   const prevS = state.data.events;
   const nav = [
@@ -289,6 +327,7 @@ function viewHome() {
     ${heroHtml}
     ${tally}
     ${plazaHtml}
+    ${biliHtml}
     <div class="cols">
       <div>
         <div class="section">
@@ -302,6 +341,10 @@ function viewHome() {
           <h2>方块名人堂</h2>
           <div class="board">${boardHtml || '<div class="empty">数据不足</div>'}</div>
         </div>
+        ${domainHtml ? `<div class="section">
+          <h2>领域霸主 <span class="cnt">Epoch 单域榜首 · 原始数据无代码域</span></h2>
+          <div class="board">${domainHtml}</div>
+        </div>` : ''}
         <div class="section">
           <h2>世界档案</h2>
           <div class="board">
@@ -384,7 +427,7 @@ function viewModels() {
   const rows = slice
     .map(
       (m) => `<tr>
-      <td>${pxFace(m.n, 18)}<a class="mn" href="#/models/${encodeURIComponent(m.n)}">${esc(m.name)}</a>${m.open ? '<span class="chip open">开源</span>' : ''}${m.rsn ? '<span class="chip">推理</span>' : ''}</td>
+      <td>${pxFace(m.n, 18)}<a class="mn" href="#/models/${encodeURIComponent(m.n)}">${esc(m.name)}</a>${m.open ? '<span class="chip open">开源</span>' : ''}${m.rsn ? '<span class="chip">推理</span>' : ''}${(Array.isArray(m.cap) ? m.cap : []).filter((t) => t !== '开源' && t !== '推理').slice(0, 2).map((t) => `<span class="chip cap">${esc(t)}</span>`).join('')}</td>
       <td class="vn">${esc(m.vn)}</td>
       <td class="num">${fmtDate(m.rel, m.relP)}</td>
       <td class="num">${fmtCtx(m.ctx)}</td>
@@ -459,6 +502,7 @@ function viewModel(id) {
     ['缓存读取价', m.cr != null ? `${fmtCost(m.cr)} / 百万 tokens` : '未记录'],
     ['支持推理', m.rsn ? '是' : '否'],
     ['支持工具调用', m.tool ? '是' : '否'],
+    ['能力', (Array.isArray(m.cap) && m.cap.length) ? m.cap.map((t) => `<span class="chip cap">${esc(t)}</span>`).join('') : '未标注'],
     ['渠道总数', `${m.ch ?? 1} 家收录（含原厂）`],
   ]
     .map(([k, v]) => `<div class="k">${k}</div><div>${v}</div>`)
@@ -524,19 +568,21 @@ function viewTimeline() {
 // ---------- 厂商 ----------
 function viewVendors() {
   const vs = state.data.vendors?.vendors ?? [];
-  const cards = vs
-    .map(
-      (v) => `<a class="vcard" href="#/vendors/${encodeURIComponent(v.id)}">
+  const card = (v) => `<a class="vcard" href="#/vendors/${encodeURIComponent(v.id)}">
       ${pxFace('village:' + v.id, 42)}
       <div class="vm"><div class="n">${esc(v.name)}</div>
       <div class="s"><b>${v.n}</b> 个模型 · 最低输入价 <b>${fmtCost(v.cheapest)}</b></div>
       <div class="s">最近发布 ${esc(v.latest ?? '—')}</div></div>
-    </a>`
-    )
-    .join('');
+    </a>`;
+  const cn = vs.filter((v) => v.country === 'cn');
+  const intl = vs.filter((v) => v.country !== 'cn');
+  const grid = (list) => `<div class="vgrid">${list.map(card).join('') || '<div class="empty">暂无数据</div>'}</div>`;
   return `<div class="section">
-    <h2>村庄 <span class="cnt">${vs.length} 家原厂 · 登记在 vendor-registry.js</span></h2>
-    <div class="vgrid">${cards || '<div class="empty">暂无数据</div>'}</div>
+    <h2>村庄 <span class="cnt">${vs.length} 家原厂 · 国内 ${cn.length} / 国外 ${intl.length} · 登记在 vendor-registry.js</span></h2>
+    <h3 class="vsub">国内村庄 <span class="cnt">${cn.length} 家</span></h3>
+    ${grid(cn)}
+    <h3 class="vsub">国外村庄 <span class="cnt">${intl.length} 家</span></h3>
+    ${grid(intl)}
   </div>`;
 }
 
@@ -578,7 +624,22 @@ function viewAbout() {
           得到「今天新增了什么模型、哪个模型调价了、哪个下架了」。今天是第 ${fmtNum(t.allEntries ?? 0)} 条原始条目。</li>
       <li><b>Epoch AI</b>（CC-BY 4.0）—— 第三方评测明细。只用于展示「该模型被评测过多少次」。</li>
       <li><b>厂商官方公告</b> —— 只取标题与链接，不抓正文，用来给事实事件提供溯源证据。</li>
+      <li><b>Bilibili 搜索</b>（公开结果）—— 社区情报「B站矿脉」。5 个关键词按最新排序抓取。
+          抓取发生在浏览器侧（B站对无 cookie 的数据中心请求做风控，CI 拿不到真实结果），
+          原始 JSON 随抓取入库后由 scripts/build-bilibili.js 编译展示。
+          发布时间是「N 小时前」式相对值，按抓取时刻换算成日期并标注 dateApprox；搜索页不提供点赞数，故不展示。</li>
     </ul>
+
+    <h2>能力标签怎么来的</h2>
+    <p>模型卡上的「多模态 / 视觉 / 图像生成」等标签<b>不是人工填的，也不是大模型写的</b>——
+        全部派生自 models.dev 的原生 <code>modalities</code> 字段（输入 / 输出模态列表），
+        叠加开源、推理、工具调用三个布尔位。派生规则在 scripts/build-site.js 的 <code>capTags</code> 里，可审计。
+        搜索框认这些词：输入「多模态」会列出所有输入模态超出纯文本的模型。</p>
+
+    <h2>领域霸主是什么口径</h2>
+    <p>首页「领域霸主」取 Epoch 数据里<b>真实存在的单域标签</b>（语言 / 多模态 / 视觉 / 音频 / 数学等）内均分第一的模型，
+        只展示覆盖模型数 ≥ 3 的域。Epoch 原始数据<b>没有「代码」域</b>，所以本站没有「最会写代码」榜——
+        那需要跨赛制合成，会失真。每个榜都标注覆盖模型数与运行次数，可回溯到 bench/epoch.json。</p>
 
     <h2>为什么不用大模型</h2>
     <p>站上每一个字要么直接来自结构化字段，要么是原文标题本身。理由是<b>可复现</b>：
@@ -613,6 +674,8 @@ function viewAbout() {
       <li>DeepSeek、智谱、月之暗面等国产厂商<b>没有官方 RSS</b>，目前用它们的 GitHub 组织动态兜底，覆盖不完整。</li>
       <li>厂商注册表是人工维护的。出现新原厂时需要补一行，否则它的模型不会出现在事件流里。</li>
       <li>快照每天排班两次（晨报与晚报，北京时间清晨与傍晚触发）。GitHub 托管调度会排队数小时，实际落地多在早晨与晚间；当天更晚发生的变化要等下一个班次。</li>
+      <li>B站矿脉<b>不是 cron 自动更新</b>：B站对数据中心 IP 的搜索请求做风控，GitHub Actions 环境拿不到真实结果。
+          目前靠浏览器侧管线定期刷新，原始文件在 docs/data/bilibili/，编译步骤幂等。</li>
     </ul>
 
     <h2>今日运行状态</h2>
@@ -633,6 +696,7 @@ function viewCredits() {
         <tr><td><a href="https://models.dev" target="_blank" rel="noopener">models.dev</a></td><td>模型元数据（价格 / 上下文 / 开源 / 发布日期）</td><td>MIT</td></tr>
         <tr><td><a href="https://epoch.ai" target="_blank" rel="noopener">Epoch AI</a></td><td>第三方评测明细</td><td><b>CC-BY 4.0</b></td></tr>
         <tr><td>各厂商官方博客 / GitHub</td><td>公告标题与链接（不抓正文）</td><td>各自所有，仅作引用链接</td></tr>
+        <tr><td><a href="https://search.bilibili.com" target="_blank" rel="noopener">Bilibili 搜索</a></td><td>社区情报（公开搜索结果的标题 / UP 主 / 播放量 / 相对时间）</td><td>各自所有，仅作引用链接</td></tr>
         <tr><td><a href="https://fonts.google.com/specimen/Press+Start+2P" target="_blank" rel="noopener">Press Start 2P</a></td><td>英文像素字体（Google Fonts 官方分发）</td><td>OFL 1.1</td></tr>
         <tr><td><a href="https://github.com/TakWolf/fusion-pixel-font" target="_blank" rel="noopener">缝合像素字体 Fusion Pixel</a></td><td>中文像素字体（12px 等宽 woff2，随仓库分发）</td><td>OFL-1.1</td></tr>
       </tbody>

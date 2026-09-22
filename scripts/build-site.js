@@ -19,6 +19,27 @@ const SITE = path.join(DATA, 'site');
 const argv = process.argv.slice(2);
 const DATE = argv.find((a) => a.startsWith('--date='))?.slice(7) || todayISO();
 
+// 能力标签派生：全部来自 models.dev 原生字段 + 布尔位，零猜测。
+// 多模态 = input 含 text 之外的模态；图像生成/语音/视频 = output 含对应模态。
+// 这些标签写进搜索 hay 与模型卡，让「多模态」「图像生成」这类能力词可被搜到。
+function capTags(m) {
+  const mod = m.modalities ?? {};
+  const inp = Array.isArray(mod.input) ? mod.input : [];
+  const out = Array.isArray(mod.output) ? mod.output : [];
+  const t = [];
+  if (inp.some((x) => x && x !== 'text')) t.push('多模态');
+  if (inp.includes('image')) t.push('视觉');
+  if (inp.includes('audio')) t.push('音频理解');
+  if (inp.includes('video')) t.push('视频理解');
+  if (out.includes('image')) t.push('图像生成');
+  if (out.includes('audio')) t.push('语音');
+  if (out.includes('video')) t.push('视频生成');
+  if (m.open) t.push('开源');
+  if (m.reasoning) t.push('推理');
+  if (m.toolCall) t.push('工具调用');
+  return t;
+}
+
 /** 字段名压到最短 —— 610 个模型每条省几个字节，整体体积能少三分之一。 */
 function slimModel(m) {
   return {
@@ -38,6 +59,7 @@ function slimModel(m) {
     tool: m.toolCall ? 1 : 0,
     // 有几家渠道在售 —— 原厂自营也算一路，所以最小是 1
     ch: m.shared,
+    cap: capTags(m),
     rel_ts: m.release ? Date.parse(m.release) : null,
   };
 }
@@ -95,6 +117,8 @@ async function main() {
   });
 
   // ---- 厂商 ----
+  // 国内厂商名单（原厂 id）。用于村庄页「国内 / 国外」分区与国产最强榜。
+  const cnVendors = new Set(['alibaba', 'deepseek', 'moonshotai', 'zhipuai', 'minimax', 'xiaomi', 'stepfun', 'sensenova', 'volcengine', 'bailing', 'longcat', 'tencent-tokenhub']);
   const vendors = realVendors(snapshot).map((v) => {
     const mine = originModels.filter((m) => m.v === v.id);
     const prices = mine.map((m) => m.in).filter((x) => x != null);
@@ -104,6 +128,7 @@ async function main() {
       n: mine.length,
       cheapest: prices.length ? Math.min(...prices) : null,
       latest: mine.map((m) => m.rel).filter(Boolean).sort().pop() ?? null,
+      country: cnVendors.has(v.id) ? 'cn' : 'intl',
     };
   });
   await writeJson(path.join(SITE, 'vendors.json'), { date: DATE, vendors });
@@ -119,7 +144,6 @@ async function main() {
   const withCtx = originModels.filter((m) => m.ctx != null);
   const withPrice = originModels.filter((m) => m.in != null && m.in > 0);
   const newest = originModels.slice().sort((a, b) => String(b.rel ?? '').localeCompare(String(a.rel ?? '')));
-  const cnVendors = new Set(['alibaba', 'deepseek', 'moonshotai', 'zhipuai', 'minimax', 'xiaomi', 'stepfun', 'sensenova', 'volcengine', 'bailing', 'longcat', 'tencent-tokenhub']);
 
   const board = {
     latest: newest.slice(0, 1).map((m) => ({ n: m.n, name: m.name, vn: m.vn, val: m.rel, metric: '发布日期' })),
@@ -136,7 +160,32 @@ async function main() {
     mostChannels: originModels.slice().sort((a, b) => b.ch - a.ch).slice(0, 1)
       .map((m) => ({ n: m.n, name: m.name, vn: m.vn, val: m.ch, metric: '渠道数' })),
   };
-  await writeJson(path.join(SITE, 'board.json'), { date: DATE, board });
+
+  // ---- Epoch 单域霸主（诚实版）----
+  // Epoch 的 domain 是「模态 / 学科标签」（Language / Vision / Mathematics…），
+  // 原始数据里没有 Code 域 —— 所以不做「最会写代码」之类的榜，那需要合成，会失真。
+  // 规则：把复合标签拆开，只展示覆盖模型数 ≥3 的域，取域内 avg 最高者。
+  const byNormModel = new Map(originModels.map((m) => [m.n, m]));
+  const tagStat = new Map();
+  for (const [norm, bx] of Object.entries(bench)) {
+    for (const [comp, v] of Object.entries(bx.domains ?? {})) {
+      for (const tag of String(comp).split(',').map((s) => s.trim())) {
+        if (!tag || tag === '(未标注)') continue;
+        const cur = tagStat.get(tag) ?? { n: 0, top: null };
+        cur.n++;
+        if (!cur.top || v.avg > cur.top.avg) {
+          const mdl = byNormModel.get(norm);
+          cur.top = { n: norm, name: mdl?.name ?? bx.name ?? norm, vn: mdl?.vn ?? '', avg: v.avg, best: v.best, runs: v.n };
+        }
+        tagStat.set(tag, cur);
+      }
+    }
+  }
+  const domainLeaders = [...tagStat.entries()]
+    .filter(([, s]) => s.n >= 3 && s.top)
+    .map(([tag, s]) => ({ tag, models: s.n, ...s.top }))
+    .sort((a, b) => b.models - a.models);
+  await writeJson(path.join(SITE, 'board.json'), { date: DATE, board, domainLeaders });
 
   // ---- 概览 ----
   await writeJson(path.join(SITE, 'summary.json'), {

@@ -88,6 +88,9 @@ export function buildSnapshot(payload, { date }) {
       open: m.open_weights === true,
       reasoning: m.reasoning === true,
       toolCall: m.tool_call === true,
+      // models.dev 原生 modalities 字段（{input:[...], output:[...]}），
+      // 用于能力词搜索与模型卡能力标签。diff 只比对 price/ctx/presence，不受影响。
+      modalities: m.modalities ?? null,
       shared: sharedOf.get(r.norm) ?? 1,
     };
   }

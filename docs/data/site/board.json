@@ -1,12 +1,12 @@
 {
-  "date": "2026-09-21",
+  "date": "2026-09-22",
   "board": {
     "latest": [
       {
-        "n": "grok-4-7",
-        "name": "Grok 4.7",
-        "vn": "xAI",
-        "val": "2026-09-21",
+        "n": "mimo-v2-6-flash",
+        "name": "MiMo-V2.6-Flash",
+        "vn": "小米",
+        "val": "2026-09-22",
         "metric": "发布日期"
       }
     ],
@@ -64,5 +64,67 @@
         "metric": "渠道数"
       }
     ]
-  }
+  },
+  "domainLeaders": [
+    {
+      "tag": "Language",
+      "models": 108,
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vn": "OpenAI",
+      "avg": 0.805,
+      "best": 1,
+      "runs": 16
+    },
+    {
+      "tag": "Multimodal",
+      "models": 52,
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vn": "OpenAI",
+      "avg": 0.805,
+      "best": 1,
+      "runs": 16
+    },
+    {
+      "tag": "Vision",
+      "models": 48,
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vn": "OpenAI",
+      "avg": 0.805,
+      "best": 1,
+      "runs": 16
+    },
+    {
+      "tag": "Video",
+      "models": 11,
+      "n": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "vn": "谷歌",
+      "avg": 0.6175,
+      "best": 0.9889,
+      "runs": 8
+    },
+    {
+      "tag": "Audio",
+      "models": 6,
+      "n": "gemini-3-8-flash",
+      "name": "Gemini 3.8 Flash",
+      "vn": "谷歌",
+      "avg": 0.6175,
+      "best": 0.9889,
+      "runs": 8
+    },
+    {
+      "tag": "Speech",
+      "models": 3,
+      "n": "gemini-2-5-flash",
+      "name": "Gemini 2.5 Flash",
+      "vn": "谷歌",
+      "avg": 0.3822,
+      "best": 0.7306,
+      "runs": 4
+    }
+  ]
 }
