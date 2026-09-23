@@ -1,13 +1,47 @@
-# AI 矿务日报 · ai-daily
+<div align="center">
+
+# ⛏️ AI 矿务日报 · ai-daily
 
 **用模型数据库的每日差分，回答「今天 AI 圈发生了什么」。**
 
-不是新闻聚合，是事实差分。每个工作日两次自动抓取、比对、发报，全程不经过任何大模型。
+不是新闻聚合，是**事实差分** —— 每个字都能追溯到数据源，全程不经过任何大模型。
 
-🔗 https://hedongli1.github.io/ai-daily/
+[![Stars](https://img.shields.io/github/stars/hedongli1/ai-daily?style=social&label=Stars)](https://github.com/hedongli1/ai-daily/stargazers)
+[![Forks](https://img.shields.io/github/forks/hedongli1/ai-daily?style=social&label=Forks)](https://github.com/hedongli1/ai-daily/network/members)
+[![License](https://img.shields.io/github/license/hedongli1/ai-daily)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/hedongli1/ai-daily)](https://github.com/hedongli1/ai-daily/commits/main)
 
-界面为《我的世界》风格像素方块主题（CSS 原创绘制，不含 Mojang 官方素材）。
+[![Live](https://img.shields.io/badge/%F0%9F%94%97%20在线站点-打开-brightgreen)](https://hedongli1.github.io/ai-daily/)
+[![Zero LLM](https://img.shields.io/badge/%E9%9B%B6%20LLM-%E7%BA%AF%E5%8F%AF%E5%A4%8D%E7%8E%B0-blue)](#它怎么工作)
+[![Minecraft theme](https://img.shields.io/badge/theme-%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C%E5%83%8F%E7%B4%A0%E9%A3%8E-9b59b6)](#)
+
+**简体中文** ｜ [English](README.en.md)
+
+🔗 **https://hedongli1.github.io/ai-daily/**
+
+</div>
+
+> ⭐ **如果它让你每天多知道一件事，欢迎点个 Star** —— 这是它继续免费跑下去最直接的动力。
+> 每次出差/发版，对照「今日矿情」扫一眼，就知道这一夜 AI 圈发生了什么。
+
+每个工作日自动抓取两次、比对、发报。界面是《我的世界》风格的像素方块主题（CSS 与 SVG **原创绘制**，不含 Mojang 官方素材）。
 像素字体：Press Start 2P（OFL，Google Fonts）+ 缝合像素 Fusion Pixel（OFL-1.1，TakWolf 官方 Releases）。
+
+---
+
+## 📰 站上有什么
+
+| 板块 | 内容 |
+|---|---|
+| **今日矿情** | 与昨日全量快照相减得到的真实增量：新模型 / 调价 / 上下文变更 / 下架 / 官方公告 |
+| **方块广场** | 各类事件的头条卡，一眼看到今天最值得看的一条 |
+| **B站矿脉** | 社区情报：抓取 B 站公开搜索结果（大模型 / 多模态 / 开源 / 评测 / 新模型），把「大家今天在聊什么」也纳入视野 |
+| **领域霸主** | Epoch 单域榜首：语言 / 多模态 / 视觉 / 视频 / 音频 / 语音，每个域内均分第一，**只展示原始数据真实存在的域** |
+| **生物图鉴** | 全部原厂模型，支持**能力词搜索**：输入「多模态」直接列出所有多模态模型 |
+| **村庄** | 原厂厂商，按**国内 / 国外**分区 |
+| **编年史** | 完整发布时间线 |
+
+> 能力标签（多模态 / 视觉 / 图像生成…）全部派生自 `models.dev` 原生 `modalities` 字段，**零 LLM、可审计**。
 
 ---
 
@@ -37,7 +71,7 @@ Epoch AI 评测明细    ──┘         └──► 证据链接挂到事件
 
 ## 🚨 这个项目最大的一个坑
 
-`models.dev` 收录了 **7868 条**模型条目，但其中 **92%** 来自 **181 家渠道**——
+`models.dev` 收录了近 **8000 条**模型条目，但其中 **92%** 来自 **180 多家渠道** ——
 API 网关（OpenRouter / NanoGPT）、云平台（Amazon Bedrock）、托管服务（Hugging Face）、
 订阅套餐（`*-coding-plan`）。
 
@@ -58,7 +92,7 @@ API 网关（OpenRouter / NanoGPT）、云平台（Amazon Bedrock）、托管服
 只收真正训练并发布模型的原厂 —— 当前 **33 家**。为了让维护不需要你盯着，
 管线每次运行都会打印「未登记但有新模型的厂商」，把缺口变成可见清单。
 
-> 结果是：610 条原厂模型条目，而不是 7868 条渠道噪声。
+> 结果是：**620+ 条原厂模型条目**，而不是近 8000 条渠道噪声。
 
 ---
 
@@ -66,9 +100,10 @@ API 网关（OpenRouter / NanoGPT）、云平台（Amazon Bedrock）、托管服
 
 | 来源 | 用途 | 许可 |
 |---|---|---|
-| [models.dev](https://models.dev) | 模型元数据（价格 / 上下文 / 开源 / 发布日期） | MIT |
+| [models.dev](https://models.dev) | 模型元数据（价格 / 上下文 / 开源 / 发布日期 / 模态） | MIT |
 | [Epoch AI](https://epoch.ai) | 第三方评测明细 | **CC-BY 4.0** |
 | 各厂商官方博客 / GitHub | 公告标题与链接（不抓正文） | 各自所有，仅作引用 |
+| [Bilibili 搜索](https://search.bilibili.com) | 社区情报（公开搜索结果的标题 / UP 主 / 播放量） | 各自所有，仅作引用 |
 
 **明确排除**：Artificial Analysis（条款禁止再分发）、LMArena（条款禁止自动化抓取）。
 
@@ -77,7 +112,8 @@ API 网关（OpenRouter / NanoGPT）、云平台（Amazon Bedrock）、托管服
 ### 本站不提供「综合智力排名」
 
 Epoch AI 原始数据的 `Task` 列对同一个模型是常量，**结构上不足以算出跨赛制综合排名**。
-本站只如实展示「该模型被评测过多少次、在哪个域、均分多少」。想看排名请去
+同理，原始数据没有独立的「代码」域，所以本站**也不做「最会写代码」榜** —— 强行合成会失真。
+本站只如实展示「该模型在哪个域、均分多少、被评测过多少次」。想看排名请去
 [Epoch 原始看板](https://epoch.ai/data/ai-benchmarking-dashboard)。
 
 ---
@@ -92,6 +128,7 @@ node scripts/fetch.js           # 抓取 + 差分 + 落盘
 node scripts/fetch.js --offline # 用本地已有原始快照复算，不联网、确定性
 node scripts/fetch-bench.js     # 抓 Epoch AI 评测
 node scripts/build-site.js      # 编译站点数据到 docs/data/site/
+node scripts/build-bilibili.js  # 编译 B站矿脉数据（缺原始文件时自动跳过）
 
 # 本地预览站点
 cd docs && python3 -m http.server 8899
@@ -100,24 +137,28 @@ cd docs && python3 -m http.server 8899
 ### 目录
 
 ```
-.github/workflows/
-  daily.yml     晨报 08:30 / 晚报 22:14（北京时间，与 trending-radar 同频错峰）
-  deploy.yml    push 到 main 后发布 GitHub Pages
+.github/
+  workflows/daily.yml     晨报 04:30 / 晚报 18:00（北京时间）→ 抓取、提交、自动部署
+  workflows/deploy.yml    push 到 main 后发布 GitHub Pages
+  ISSUE_TEMPLATE/         Bug / 功能请求模板
 scripts/
   lib.js               零依赖工具（抓取 / 归一化 / 日期 / 格式化）
   sources.json         数据源清单
   vendor-registry.js   ⭐ 原厂注册表（唯一需要人工维护的文件）
-  normalize.js         展平 + 原厂/渠道判定 + 原厂优选
+  normalize.js         展平 + 原厂/渠道判定 + 原厂优选（保留 modalities）
   diff.js              快照相减 → 五类事件
   feeds.js             RSS 解析 + 证据挂载
   fetch.js             管线入口
   fetch-bench.js       Epoch AI 评测
-  build-site.js        编译站点数据
+  build-site.js        编译站点数据（含能力标签 capTags、厂商分区、领域霸主）
+  build-bilibili.js    B站矿脉：去重 + 日期换算 + 话题标签
   selftest.js          纯函数自检
 docs/
   index.html / style.css / app.js   零依赖静态站（含 hash 路由）
+  data/raw/            每日原始 payload（.gitignore 排除，可重新抓取）
   data/snapshot/       每日全量快照（历史累积，差分的依据）
   data/events/         每日事件
+  data/bilibili/       B站矿脉原始抓取文件（q*.json）
   data/site/           站点消费的 JSON
 ```
 
@@ -127,8 +168,10 @@ docs/
 
 - **国产厂商缺官方源**：DeepSeek、智谱、月之暗面等均无官方 RSS，目前用其 GitHub 组织动态兜底，覆盖不完整。
 - **注册表靠人工**：出现新原厂时需要补一行，否则它的模型不进事件流。管线会打印缺口提醒。
-- **每天只拍两次快照**：北京时间 08:30 / 22:14，更晚发生的变化要等下一个班次。
-- **Anthropic RSS 不稳定**：本机探测超时，Actions 上需持续观察。
+- **每天只拍两次快照**：北京时间 04:30 / 18:00，更晚发生的变化要等下一个班次。
+- **B站矿脉非 cron 自动**：B站对数据中心 IP 的搜索请求做风控，CI 拿不到真实结果；
+  目前靠浏览器侧管线定期刷新，原始文件入库后由 `build-bilibili.js` 编译。
+- **Anthropic RSS 不稳定**：偶发超时，Actions 上需持续观察（站点会如实提示「已降级处理」）。
 
 ---
 
@@ -142,6 +185,22 @@ docs/
 
 ---
 
+## 参与贡献
+
+欢迎提 issue 与 PR，见 [CONTRIBUTING.md](CONTRIBUTING.md)。数据管线改动请先跑 `node scripts/selftest.js`。
+
+---
+
 ## 许可
 
 代码与文档 [MIT](LICENSE)。数据快照各自遵循上游许可，详见 [NOTICE.md](NOTICE.md)。
+
+---
+
+<div align="center">
+
+**如果这个项目对你有用，点个 ⭐ Star 就是最好的支持。**
+
+[⭐ Star](https://github.com/hedongli1/ai-daily/stargazers) · [🐛 报 Bug](https://github.com/hedongli1/ai-daily/issues/new?template=bug_report.yml) · [💡 提需求](https://github.com/hedongli1/ai-daily/issues/new?template=feature_request.yml)
+
+</div>

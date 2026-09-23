@@ -1,0 +1,42 @@
+name: 💡 功能建议
+description: 新数据源、新板块或改进想法
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题
+      description: 说明场景，而不只是方案。
+      placeholder: 例如：我想知道某个模型是哪天首次出现的……
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 建议的做法
+      placeholder: 可以描述你设想的交互或数据来源。
+    validations:
+      required: false
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 建议类型
+      options:
+        - 新数据源
+        - 新板块 / 可视化
+        - 现有功能改进
+        - 文档 / 体验
+        - 其它
+    validations:
+      required: true
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: 是否契合项目原则
+      description: 本项目坚持零 LLM、零依赖、可追溯。请确认你的建议与之一致。
+      options:
+        - label: 该建议不需要引入大模型生成内容
+        - label: 该建议不引入 npm 运行时依赖（或确有必要）
+    validations:
+      required: false

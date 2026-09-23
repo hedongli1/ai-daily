@@ -1,0 +1,55 @@
+name: 🐛 Bug 反馈
+description: 站点显示、数据内容或抓取管线的问题
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填全，方便定位问题。
+  - type: textarea
+    id: what
+    attributes:
+      label: 发生了什么
+      description: 简述问题现象，以及你期望的结果。
+      placeholder: 例如：首页「今日矿情」显示的不是今天的日期……
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: 相关页面 / 数据文件
+      description: 贴出出问题的页面链接或数据文件路径。
+      placeholder: https://hedongli1.github.io/ai-daily/#/models
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: 问题范围
+      options:
+        - 站点前端（显示 / 交互 / 样式）
+        - 数据内容（数字 / 事件 / 厂商判定不对）
+        - 抓取管线（fetch / diff / sources）
+        - B站矿脉
+        - 自动化 / 部署（Actions / Pages）
+        - 其它
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. 打开 …
+        2. 点击 …
+        3. 看到 …
+    validations:
+      required: false
+  - type: input
+    id: env
+    attributes:
+      label: 环境（可选）
+      placeholder: 浏览器 / 操作系统 / Node 版本
+    validations:
+      required: false
