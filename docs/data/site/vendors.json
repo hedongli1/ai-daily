@@ -100,7 +100,7 @@
     {
       "id": "stepfun",
       "name": "阶跃星辰",
-      "n": 17,
+      "n": 18,
       "cheapest": 0.1,
       "latest": "2026-09-16",
       "country": "cn"
@@ -138,36 +138,12 @@
       "country": "intl"
     },
     {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 4,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
       "id": "deepseek",
       "name": "DeepSeek",
       "n": 4,
       "cheapest": 0.15,
       "latest": "2026-09-10",
       "country": "cn"
-    },
-    {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "n": 8,
-      "cheapest": 0.95,
-      "latest": "2026-07-16",
-      "country": "cn"
-    },
-    {
-      "id": "upstage",
-      "name": "Upstage",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-08-06",
-      "country": "intl"
     },
     {
       "id": "perplexity",
@@ -178,12 +154,28 @@
       "country": "intl"
     },
     {
-      "id": "morph",
-      "name": "Morph",
-      "n": 3,
-      "cheapest": 0.8,
-      "latest": "2024-08-15",
+      "id": "upstage",
+      "name": "Upstage",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-08-06",
       "country": "intl"
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 4,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
+      "country": "intl"
+    },
+    {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 8,
+      "cheapest": 0.95,
+      "latest": "2026-07-16",
+      "country": "cn"
     },
     {
       "id": "poolside",
@@ -194,11 +186,11 @@
       "country": "intl"
     },
     {
-      "id": "inception",
-      "name": "Inception",
+      "id": "vispark",
+      "name": "Vispark",
       "n": 3,
-      "cheapest": 0.04,
-      "latest": "2026-09-08",
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
       "country": "intl"
     },
     {
@@ -210,27 +202,19 @@
       "country": "cn"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
+      "id": "inception",
+      "name": "Inception",
       "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
+      "cheapest": 0.04,
+      "latest": "2026-09-08",
       "country": "intl"
     },
     {
-      "id": "thinkingmachines",
-      "name": "Thinking Machines",
-      "n": 2,
-      "cheapest": 1.87,
-      "latest": "2026-07-15",
-      "country": "intl"
-    },
-    {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "n": 2,
-      "cheapest": null,
-      "latest": "2026-02-18",
+      "id": "morph",
+      "name": "Morph",
+      "n": 3,
+      "cheapest": 0.8,
+      "latest": "2024-08-15",
       "country": "intl"
     },
     {
@@ -255,6 +239,22 @@
       "n": 2,
       "cheapest": 0.2,
       "latest": "2026-01-01",
+      "country": "intl"
+    },
+    {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "n": 2,
+      "cheapest": 1.87,
+      "latest": "2026-07-15",
+      "country": "intl"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": null,
+      "latest": "2026-02-18",
       "country": "intl"
     },
     {
