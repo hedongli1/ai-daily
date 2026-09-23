@@ -107,3 +107,31 @@ jobs:
           if (news.length) { console.log('**今日新模型**'); news.forEach(x => console.log('- ' + x.vendorName + ' · ' + x.text)); }
           if (e.degraded && e.degraded.length) { console.log(''); console.log('⚠️ 降级源：' + e.degraded.join(', ')); }
           " >> "$GITHUB_STEP_SUMMARY"
+
+
+  # 提交数据后自动部署到 Pages —— 关键修复。
+  # 原因：默认 GITHUB_TOKEN 发起的 push 不会触发其它工作流（GitHub 防递归），
+  # 所以 deploy.yml 收不到管线自动提交的信号，Pages 一直停在最后一次人工推送。
+  # 把部署直接放进本管线：数据一提交就上线，不再依赖跨工作流触发。
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # 必须取最新 main：默认会回到本班次触发时的旧 commit，拿不到刚提交的数据
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
