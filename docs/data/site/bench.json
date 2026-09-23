@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 204,
+  "count": 207,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -485,6 +485,18 @@
       },
       "rel": "2026-07-24",
       "name": "Claude Opus 5"
+    },
+    "claude-opus-5-5": {
+      "runs": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.8333,
+          "best": 0.8333
+        }
+      },
+      "rel": "2026-09-22",
+      "name": "Claude Opus 5.5"
     },
     "claude-sonnet-4-5": {
       "runs": 25,
@@ -1205,6 +1217,30 @@
       },
       "rel": "2026-09-03",
       "name": "GPT-6 Astra"
+    },
+    "gpt-6-luna": {
+      "runs": 1,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 1,
+          "avg": 0.2833,
+          "best": 0.2833
+        }
+      },
+      "rel": "2026-09-22",
+      "name": "GPT-6 Luna"
+    },
+    "gpt-6-sol": {
+      "runs": 2,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 2,
+          "avg": 0.5583,
+          "best": 0.5833
+        }
+      },
+      "rel": "2026-09-22",
+      "name": "GPT-6 Sol"
     },
     "o1": {
       "runs": 17,

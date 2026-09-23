@@ -1,8 +1,66 @@
 {
-  "date": "2026-09-23",
+  "date": "2026-09-24",
   "mode": "diff",
-  "baselineDate": "2026-09-22",
+  "baselineDate": "2026-09-23",
   "events": [
+    {
+      "type": "context",
+      "key": "minimax-cn/MiniMax-M3",
+      "vendor": "minimax",
+      "vendorName": "MiniMax",
+      "name": "MiniMax-M3",
+      "date": "2026-09-24",
+      "facts": {
+        "before": 1048576,
+        "after": 1000000
+      },
+      "text": "上下文 1M → 1M",
+      "href": "/models/minimax-m3/"
+    },
+    {
+      "type": "context",
+      "key": "google/Nano Banana 2",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana 2",
+      "date": "2026-09-24",
+      "facts": {
+        "before": 65536,
+        "after": 131072
+      },
+      "text": "上下文 66K → 131K",
+      "href": "/models/nano-banana-2/",
+      "evidence": [
+        {
+          "title": "Advancing Private AI Compute with secure, server-side memory",
+          "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+          "source": "Google DeepMind"
+        },
+        {
+          "title": "Gemini 3.8 text-to-speech says hello",
+          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+          "source": "Google DeepMind"
+        },
+        {
+          "title": "Google Beam expands with new regions, partners, and customers",
+          "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+          "source": "Google Blog · AI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Two years of OpenAI Academy",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Two years of OpenAI Academy",
+      "href": "https://openai.com/index/two-years-of-openai-academy",
+      "source": "OpenAI",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -21,12 +79,129 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
+      "name": "Sam Altman’s remarks at the United Nations Security Council",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Sam Altman’s remarks at the United Nations Security Council",
+      "href": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+      "href": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "How invideo improves color grading 3x with GPT‑6 Astra",
+      "href": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "href": "https://openai.com/index/ringg",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing MentalHealthBench",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Introducing MentalHealthBench",
+      "href": "https://openai.com/index/introducing-mentalhealthbench",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "href": "https://openai.com/index/airbnb-gpt-6-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
       "name": "Grab and OpenAI bring practical AI skills to Southeast Asia",
       "date": "2026-09-23",
       "facts": {},
       "text": "Grab and OpenAI bring practical AI skills to Southeast Asia",
       "href": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
       "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Advancing Private AI Compute with secure, server-side memory",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Advancing Private AI Compute with secure, server-side memory",
+      "href": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 3.8 text-to-speech says hello",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Gemini 3.8 text-to-speech says hello",
+      "href": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Google Beam expands with new regions, partners, and customers",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Google Beam expands with new regions, partners, and customers",
+      "href": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
+      "source": "Google Blog · AI",
       "external": true
     },
     {
@@ -112,6 +287,19 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
       "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "date": "2026-09-23",
       "facts": {},
@@ -125,11 +313,24 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
       "date": "2026-09-23",
       "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -158,117 +359,6 @@
       "href": "https://github.com/zai-org/ZCode/releases",
       "source": "智谱 AI",
       "external": true
-    },
-    {
-      "type": "new",
-      "key": "anthropic/Claude Opus 5.5",
-      "vendor": "anthropic",
-      "vendorName": "Anthropic",
-      "name": "Claude Opus 5.5",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 1000000,
-        "in": 4,
-        "outCost": 20,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Claude Opus 5.5 · 闭源 · 1M 上下文 · 输入 $4/M · 支持推理",
-      "href": "/models/claude-opus-5-5/",
-      "shared": 20
-    },
-    {
-      "type": "new",
-      "key": "openai/GPT-6 Luna",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-6 Luna",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 1050000,
-        "in": 0.1,
-        "outCost": 0.5,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "GPT-6 Luna · 闭源 · 1.1M 上下文 · 输入 $0.1/M · 支持推理",
-      "href": "/models/gpt-6-luna/",
-      "shared": 17,
-      "evidence": [
-        {
-          "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-          "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-          "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Better prompt caching for GPT-6",
-          "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Introducing GPT-6 Sol and Luna",
-          "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Priorities and principles for effective third party assessments",
-          "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-          "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Advisory Group on Mathematics and Artificial Intelligence",
-          "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Building standards for the next phase of AI",
-          "url": "https://openai.com/index/building-standards-next-phase-ai",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Expanding OpenAI Academy with new learning paths",
-          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-          "source": "OpenAI"
-        },
-        {
-          "title": "How V7 gives AI agents institutional memory",
-          "url": "https://openai.com/index/v7",
-          "source": "OpenAI"
-        }
-      ]
-    },
-    {
-      "type": "new",
-      "key": "openai/GPT-6 Sol",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-6 Sol",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 1050000,
-        "in": 2,
-        "outCost": 10,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "GPT-6 Sol · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/gpt-6-sol/",
-      "shared": 17
     },
     {
       "type": "news",
@@ -340,19 +430,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "mistral-compute-openapi · 仓库更新",
       "date": "2026-09-22",
       "facts": {},
@@ -371,123 +448,6 @@
       "facts": {},
       "text": "client-python · Python client library for Mistral AI platform",
       "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "href": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Advisory Group on Mathematics and Artificial Intelligence",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Advisory Group on Mathematics and Artificial Intelligence",
-      "href": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Building standards for the next phase of AI",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Building standards for the next phase of AI",
-      "href": "https://openai.com/index/building-standards-next-phase-ai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Expanding OpenAI Academy with new learning paths",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Expanding OpenAI Academy with new learning paths",
-      "href": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How V7 gives AI agents institutional memory",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "How V7 gives AI agents institutional memory",
-      "href": "https://openai.com/index/v7",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "RecreationWorld · RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "RecreationWorld · RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
-      "href": "https://github.com/QwenLM/RecreationWorld/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Omnilingua-Bench · 仓库更新",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "Omnilingua-Bench · 仓库更新",
-      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "search-starter-app · Base template to build, manage and improve search engines",
-      "date": "2026-09-21",
-      "facts": {},
-      "text": "search-starter-app · Base template to build, manage and improve search engines",
-      "href": "https://github.com/mistralai/search-starter-app/releases",
       "source": "Mistral AI",
       "external": true
     }

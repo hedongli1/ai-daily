@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-23",
+  "generated": "2026-09-24",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 210,
+  "count": 213,
   "models": [
     {
       "model": "GPT-5.2",
@@ -2131,6 +2131,18 @@
       }
     },
     {
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
+      "nRuns": 2,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 2,
+          "avg": 0.5583,
+          "best": 0.5833
+        }
+      }
+    },
+    {
       "model": "AI Co-Mathematician",
       "release": "2026-05-08",
       "nRuns": 2,
@@ -2355,6 +2367,30 @@
           "n": 2,
           "avg": 0.197,
           "best": 0.29
+        }
+      }
+    },
+    {
+      "model": "GPT-6 Luna",
+      "release": "2026-09-22",
+      "nRuns": 1,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 1,
+          "avg": 0.2833,
+          "best": 0.2833
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.8333,
+          "best": 0.8333
         }
       }
     },
