@@ -2,7 +2,7 @@
 //
 // 数据流：
 //   浏览器管线（B站搜索技能）抓取 → 人工/助手落盘为 docs/data/bilibili/q*.json
-//   → 本脚本去重、换算日期、打话题标签 → docs/data/site/bilibili.json
+//   → 本脚本去重 → 换算日期 → 相关性过滤 → 打话题标签 → docs/data/site/bilibili.json
 //
 // 为什么不直接联网抓：B站搜索对无 cookie 的请求做风控（返回验证页而非数据），
 // CI 环境里拿不到真实结果。与其假装自动，不如把抓取做成浏览器侧管线、
@@ -36,6 +36,16 @@ function parsePub(pub, base) {
   return { date: null, dateApprox: true };
 }
 
+// 相关性闸门（确定性、零 LLM）。
+// 起因：关键词「大模型」按最新排序时，会把标题里任何含「模型」二字的视频都捞进来，
+// 例如宇宙学「颠覆宇宙模型」、宠物报告、个人游戏日志——它们不是 AI 内容，
+// 混进「B站矿脉」会让社区情报区看起来跑偏。这里做一道可审计的过滤：
+//   1) 必须命中 AI 关键词（AI_SIGNAL）或已由话题规则命中（topics 非空）；
+//   2) 且不得命中已确认的非 AI 语境（NOISE）。
+// 规则只读标题，仍然可复现：同样的 q*.json 永远产出同样的 bilibili.json。
+const AI_SIGNAL = /AI|人工智能|大模型|大语言模型|语言模型|智能体|agent|多模态|开源|算力|推理|训练|微调|SFT|RAG|MCP|LLM|提示词|神经网络|深度学习|对齐|GPT|Grok|MiMo|Qwen|通义|DeepSeek|深度求索|Kimi|Claude|Opus|Gemini|GLM|智谱|阶跃|机器人|具身|检索|跨模态|AIGC|生成式|显卡|本地跑|迷你主机|评测|测试|实测|跑分|横评|首发/i;
+const NOISE = /宇宙模型|宠物|养宠|明日方舟|商业游戏|游戏能不能超过|开箱|美食|旅游|星座/i;
+
 // 话题标签：确定性规则，零 LLM。只标标题里真实出现的词。
 const TOPIC_RULES = [
   ['MiMo', /mimo/i], ['Grok', /grok/i], ['Jev', /\bjev\b/i], ['阶跃Step', /阶跃|step\s*5/i],
@@ -52,6 +62,9 @@ const topicsOf = (title) => {
   for (const [label, re] of TOPIC_RULES) if (re.test(title)) t.push(label);
   return t.slice(0, 4);
 };
+
+// 相关性判定：命中 AI 信号或已有话题标签，且不含非 AI 语境。
+const isRelevant = (title, topics) => !NOISE.test(title) && (topics.length > 0 || AI_SIGNAL.test(title));
 
 function main() {
   if (!existsSync(SRC)) {
@@ -88,9 +101,11 @@ function main() {
     }
   }
 
-  const videos = [...byBvid.values()]
-    .map((v) => ({ ...v, topics: topicsOf(v.title), hot: v.play >= 1000, likes: null }))
+  const all = [...byBvid.values()].map((v) => ({ ...v, topics: topicsOf(v.title), hot: v.play >= 1000, likes: null }));
+  const videos = all
+    .filter((v) => isRelevant(v.title, v.topics))
     .sort((a, b) => (b.date ?? '').localeCompare(a.date ?? '') || b.play - a.play);
+  const dropped = all.filter((v) => !isRelevant(v.title, v.topics));
 
   const byQuery = {};
   for (const v of videos) for (const q of v.queries) (byQuery[q] ??= []).push(v.bvid);
@@ -101,12 +116,15 @@ function main() {
     queries: queryNames,
     count: videos.length,
     hotCount: videos.filter((v) => v.hot).length,
+    dropped: dropped.length,
     videos, byQuery,
-    honesty: '数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。视频观点为UP主个人创作，不代表事实结论。',
+    honesty: '数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。已用确定性规则（AI 关键词/话题标签 + 非 AI 语境排除，仅读标题）过滤掉关键词误捞的非 AI 内容，规则见 scripts/build-bilibili.js。视频观点为UP主个人创作，不代表事实结论。',
   };
   mkdirSync(path.dirname(OUT), { recursive: true });
   writeFileSync(OUT, JSON.stringify(out, null, 1));
-  console.log(`✅ bilibili.json ← ${files.length} 个查询 · ${videos.length} 条去重视频 · 热点 ${out.hotCount} 条`);
+  console.log(`✅ bilibili.json ← ${files.length} 个查询 · 去重 ${all.length} 条 · 保留 ${videos.length} 条 · 过滤 ${dropped.length} 条 · 热点 ${out.hotCount} 条`);
+  console.log('--- 被过滤（相关性闸门剔除）---');
+  for (const v of dropped) console.log(`   [${v.play}] ${v.title}`);
 }
 
 main();
