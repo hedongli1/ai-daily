@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T05:42:26.905Z",
+ "generated": "2026-09-24T03:22:42.510Z",
  "source": "B站搜索（公开结果，按最新排序）",
  "queries": [
   "大模型",
@@ -8,8 +8,9 @@
   "大模型评测",
   "AI新模型"
  ],
- "count": 94,
+ "count": 89,
  "hotCount": 20,
+ "dropped": 5,
  "videos": [
   {
    "title": "OpenAI称新模型解决100+开放问题，数学顾问组正式成立!",
@@ -668,22 +669,6 @@
    "likes": null
   },
   {
-   "title": "已接入大模型 不整了 十年后看看商业游戏能不能超过我",
-   "up": "只有五点9个硬币",
-   "play": 2,
-   "pub": "18分钟前",
-   "date": "2026-09-22",
-   "dateApprox": true,
-   "bvid": "BV1SZh76LEzw",
-   "url": "https://www.bilibili.com/video/BV1SZh76LEzw/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【中字】海外博主警告：本地跑AI模型竟成黑客入侵入口！",
    "up": "枫叶边城",
    "play": 1,
@@ -698,22 +683,6 @@
    "topics": [
     "硬件跑模型"
    ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "突破物理极限！两大巨型结构颠覆宇宙模型",
-   "up": "宇宙引路人",
-   "play": 1,
-   "pub": "55分钟前",
-   "date": "2026-09-22",
-   "dateApprox": true,
-   "bvid": "BV118hk6rENW",
-   "url": "https://www.bilibili.com/video/BV118hk6rENW/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
    "hot": false,
    "likes": null
   },
@@ -1015,22 +984,6 @@
     "教程",
     "硬件跑模型"
    ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "超强大？pixAI最新模型tsubaki.3制作图例-明日方舟终末地时尚封面",
-   "up": "萱野雪kayanoyuki",
-   "play": 701,
-   "pub": "16小时前",
-   "date": "2026-09-21",
-   "dateApprox": true,
-   "bvid": "BV1VNhB6GEw4",
-   "url": "https://www.bilibili.com/video/BV1VNhB6GEw4/",
-   "queries": [
-    "AI新模型"
-   ],
-   "topics": [],
    "hot": false,
    "likes": null
   },
@@ -1424,22 +1377,6 @@
    "likes": null
   },
   {
-   "title": "100万字小说生成平台，全自动新1.1优化版",
-   "up": "南山微光工作室",
-   "play": 18,
-   "pub": "14小时前",
-   "date": "2026-09-21",
-   "dateApprox": true,
-   "bvid": "BV1uVh66yECQ",
-   "url": "https://www.bilibili.com/video/BV1uVh66yECQ/",
-   "queries": [
-    "AI新模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "首个评测具身空间智能完整闭环的基准！VABench测爆了当前大模型的短板",
    "up": "熊二等兵",
    "play": 16,
@@ -1729,22 +1666,6 @@
    ],
    "hot": false,
    "likes": null
-  },
-  {
-   "title": "【陶醉Salon】第322讲: 2026宠物智能用品报告，AI大模型如何颠覆精致养宠",
-   "up": "陶醉沙龍",
-   "play": 4,
-   "pub": "3天前",
-   "date": "2026-09-19",
-   "dateApprox": true,
-   "bvid": "BV1qSYi6nE5g",
-   "url": "https://www.bilibili.com/video/BV1qSYi6nE5g/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
   }
  ],
  "byQuery": {
@@ -1760,14 +1681,12 @@
    "BV1HhhB6sEp2",
    "BV17Nhk6ZE3T",
    "BV1MJh666EVY",
-   "BV1VNhB6GEw4",
    "BV1zahB69EAV",
    "BV13Uhi6NEHE",
    "BV1vnhq6GERE",
    "BV1GMhB6gEzG",
    "BV1wWhi6HEsc",
    "BV1aDhB6rEFp",
-   "BV1uVh66yECQ",
    "BV179hq6SE9A"
   ],
   "开源大模型": [
@@ -1832,9 +1751,7 @@
    "BV1Kxhk65EaG",
    "BV1PCev68EFU",
    "BV1BLhz6WE8o",
-   "BV1SZh76LEzw",
-   "BV11PhE63EDJ",
-   "BV118hk6rENW"
+   "BV11PhE63EDJ"
   ],
   "多模态大模型": [
    "BV1nahB69Ee3",
@@ -1855,9 +1772,8 @@
    "BV1Feei6xEJs",
    "BV1nBeb6zE5X",
    "BV1nTe269EXk",
-   "BV1HFeh6VE3k",
-   "BV1qSYi6nE5g"
+   "BV1HFeh6VE3k"
   ]
  },
- "honesty": "数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。视频观点为UP主个人创作，不代表事实结论。"
+ "honesty": "数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。已用确定性规则（AI 关键词/话题标签 + 非 AI 语境排除，仅读标题）过滤掉关键词误捞的非 AI 内容，规则见 scripts/build-bilibili.js。视频观点为UP主个人创作，不代表事实结论。"
 }
