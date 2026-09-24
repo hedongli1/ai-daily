@@ -124,6 +124,18 @@ export function formatContext(n) {
   return String(n);
 }
 
+/**
+ * 上下文长度的「高精度」写法：只在需要区分两个被 formatContext 取整后看起来相同的值时使用。
+ * 例：1048576 与 1000000 都会被 formatContext 显示成 "1M"，
+ *     本函数显示为 "1.05M" 与 "1M"，从而如实反映变化方向与幅度。
+ */
+export function formatContextDetail(n) {
+  if (n == null) return null;
+  if (n >= 1000000) return `${(n / 1000000).toFixed(2).replace(/0+$/, '').replace(/\.$/, '')}M`;
+  if (n >= 1000) return `${(n / 1000).toFixed(1).replace(/\.0$/, '')}K`;
+  return String(n);
+}
+
 /** 价格人读化：0.15 -> "$0.15"，50 -> "$50" */
 export function formatCost(n) {
   if (n == null) return null;

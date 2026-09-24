@@ -9,7 +9,7 @@
 //   同一个模型会被多个渠道重复收录（实测 GLM-5.3-FlashX 一天内出现在 5 处），
 //   按条目 key 对比会产出 5 条重复事件。这里先归并，每个模型每天只出一条。
 
-import { formatContext, formatCost } from './lib.js';
+import { formatContext, formatContextDetail, formatCost } from './lib.js';
 import { pickCanonical } from './normalize.js';
 
 export const TYPES = ['new', 'retired', 'price', 'context', 'news'];
@@ -76,7 +76,15 @@ export function describePrice(before, after) {
 }
 
 export function describeContext(before, after) {
-  return `上下文 ${formatContext(before.ctx) ?? '未知'} → ${formatContext(after.ctx) ?? '未知'}`;
+  let b = formatContext(before.ctx) ?? '未知';
+  let a = formatContext(after.ctx) ?? '未知';
+  // 取整后看起来没变、但原始值确实不同（如 1048576 与 1000000 都会显示成 "1M"）时，
+  // 改用高精度重算，避免出现「1M → 1M」这种看起来像假事件的文案。
+  if (b === a && before.ctx !== after.ctx) {
+    b = formatContextDetail(before.ctx) ?? b;
+    a = formatContextDetail(after.ctx) ?? a;
+  }
+  return `上下文 ${b} → ${a}`;
 }
 
 function eventBase(type, m, date, snapshot) {
