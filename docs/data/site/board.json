@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "board": {
     "latest": [
       {
@@ -68,13 +68,13 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 111,
-      "n": "claude-opus-5-5",
-      "name": "Claude Opus 5.5",
-      "vn": "Anthropic",
-      "avg": 0.8333,
-      "best": 0.8333,
-      "runs": 1
+      "models": 112,
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
+      "vn": "OpenAI",
+      "avg": 0.805,
+      "best": 1,
+      "runs": 16
     },
     {
       "tag": "Multimodal",

@@ -1,94 +1,20 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "mode": "diff",
-  "baselineDate": "2026-09-23",
+  "baselineDate": "2026-09-24",
   "events": [
     {
-      "type": "context",
-      "key": "minimax-cn/MiniMax-M3",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M3",
-      "date": "2026-09-24",
-      "facts": {
-        "before": 1048576,
-        "after": 1000000
-      },
-      "text": "上下文 1.05M → 1M",
-      "href": "/models/minimax-m3/"
-    },
-    {
-      "type": "context",
-      "key": "google/Nano Banana Pro",
+      "type": "news",
+      "key": null,
       "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana Pro",
+      "vendorName": "Google DeepMind",
+      "name": "Introducing Gemini 3.8 Live with Live Avatar",
       "date": "2026-09-24",
-      "facts": {
-        "before": 131072,
-        "after": 65536
-      },
-      "text": "上下文 131K → 66K",
-      "href": "/models/nano-banana-pro/",
-      "evidence": [
-        {
-          "title": "Advancing Private AI Compute with secure, server-side memory",
-          "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Gemini 3.8 text-to-speech says hello",
-          "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Google Beam expands with new regions, partners, and customers",
-          "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-          "source": "Google Blog · AI"
-        }
-      ]
-    },
-    {
-      "type": "context",
-      "key": "google/Nano Banana 2",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana 2",
-      "date": "2026-09-24",
-      "facts": {
-        "before": 65536,
-        "after": 131072
-      },
-      "text": "上下文 66K → 131K",
-      "href": "/models/nano-banana-2/"
-    },
-    {
-      "type": "context",
-      "key": "stepfun-ai/Step 5 Preview",
-      "vendor": "stepfun",
-      "vendorName": "阶跃星辰",
-      "name": "Step 5 Preview",
-      "date": "2026-09-24",
-      "facts": {
-        "before": 1000000,
-        "after": 1024000
-      },
-      "text": "上下文 1M → 1.02M",
-      "href": "/models/step-5-preview/"
-    },
-    {
-      "type": "context",
-      "key": "google/Gemini 2.5 Computer Use Preview 10-2025",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemini 2.5 Computer Use Preview 10-2025",
-      "date": "2026-09-24",
-      "facts": {
-        "before": 131072,
-        "after": 128000
-      },
-      "text": "上下文 131K → 128K",
-      "href": "/models/gemini-2-5-computer-use-preview-10-2025/"
+      "facts": {},
+      "text": "Introducing Gemini 3.8 Live with Live Avatar",
+      "href": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+      "source": "Google DeepMind",
+      "external": true
     },
     {
       "type": "news",
@@ -381,6 +307,19 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-09-23",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
       "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
       "date": "2026-09-23",
       "facts": {},
@@ -425,97 +364,6 @@
       "facts": {},
       "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
       "href": "https://github.com/mistralai/vllm/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Better prompt caching for GPT-6",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "Better prompt caching for GPT-6",
-      "href": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Introducing GPT-6 Sol and Luna",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "Introducing GPT-6 Sol and Luna",
-      "href": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "href": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Priorities and principles for effective third party assessments",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "Priorities and principles for effective third party assessments",
-      "href": "https://openai.com/index/priorities-principles-third-party-assessments",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-compute-openapi · 仓库更新",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "mistral-compute-openapi · 仓库更新",
-      "href": "https://github.com/mistralai/mistral-compute-openapi/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-09-22",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     }

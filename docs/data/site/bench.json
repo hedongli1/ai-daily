@@ -1,10 +1,10 @@
 {
-  "date": "2026-09-24",
+  "date": "2026-09-25",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 207,
+  "count": 208,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -487,11 +487,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 1,
+      "runs": 2,
       "domains": {
         "Language": {
-          "n": 1,
-          "avg": 0.8333,
+          "n": 2,
+          "avg": 0.7738,
           "best": 0.8333
         }
       },
@@ -1303,11 +1303,11 @@
       "name": "Grok 4.20"
     },
     "grok-4-5": {
-      "runs": 6,
+      "runs": 7,
       "domains": {
         "Language": {
-          "n": 6,
-          "avg": 0.5952,
+          "n": 7,
+          "avg": 0.5423,
           "best": 0.9778
         }
       },
@@ -1315,16 +1315,28 @@
       "name": "Grok 4.5"
     },
     "grok-4-6": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5962,
+          "n": 13,
+          "avg": 0.5811,
           "best": 0.9917
         }
       },
       "rel": "2026-08-12",
       "name": "Grok 4.6"
+    },
+    "grok-4-7": {
+      "runs": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.2083,
+          "best": 0.2083
+        }
+      },
+      "rel": "2026-09-21",
+      "name": "Grok 4.7"
     },
     "glm-4-5": {
       "runs": 2,

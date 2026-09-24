@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-24",
+  "generated": "2026-09-25",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 213,
+  "count": 214,
   "models": [
     {
       "model": "GPT-5.2",
@@ -475,6 +475,18 @@
       }
     },
     {
+      "model": "Grok 4.6",
+      "release": "2026-08-12",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.5811,
+          "best": 0.9917
+        }
+      }
+    },
+    {
       "model": "Claude Haiku 4.5",
       "release": "2025-10-15",
       "nRuns": 13,
@@ -519,18 +531,6 @@
           "n": 12,
           "avg": 0.3898,
           "best": 0.9333
-        }
-      }
-    },
-    {
-      "model": "Grok 4.6",
-      "release": "2026-08-12",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5962,
-          "best": 0.9917
         }
       }
     },
@@ -907,6 +907,18 @@
       }
     },
     {
+      "model": "Grok 4.5",
+      "release": "2026-07-08",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.5423,
+          "best": 0.9778
+        }
+      }
+    },
+    {
       "model": "Qwen3.8 Max (0902)",
       "release": "2026-09-01",
       "nRuns": 7,
@@ -1239,18 +1251,6 @@
           "n": 6,
           "avg": 0.4963,
           "best": 0.9333
-        }
-      }
-    },
-    {
-      "model": "Grok 4.5",
-      "release": "2026-07-08",
-      "nRuns": 6,
-      "domains": {
-        "Language": {
-          "n": 6,
-          "avg": 0.5952,
-          "best": 0.9778
         }
       }
     },
@@ -2143,6 +2143,18 @@
       }
     },
     {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.7738,
+          "best": 0.8333
+        }
+      }
+    },
+    {
       "model": "AI Co-Mathematician",
       "release": "2026-05-08",
       "nRuns": 2,
@@ -2371,6 +2383,18 @@
       }
     },
     {
+      "model": "Grok 4.7",
+      "release": "2026-09-21",
+      "nRuns": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.2083,
+          "best": 0.2083
+        }
+      }
+    },
+    {
       "model": "GPT-6 Luna",
       "release": "2026-09-22",
       "nRuns": 1,
@@ -2379,18 +2403,6 @@
           "n": 1,
           "avg": 0.2833,
           "best": 0.2833
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.8333,
-          "best": 0.8333
         }
       }
     },
