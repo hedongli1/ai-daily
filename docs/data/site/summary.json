@@ -1,14 +1,14 @@
 {
-  "date": "2026-09-25",
+  "date": "2026-09-26",
   "mode": "diff",
-  "baselineDate": "2026-09-24",
+  "baselineDate": "2026-09-25",
   "counts": {
     "new": 0,
     "retired": 0,
     "price": 0,
-    "context": 1,
-    "news": 27,
-    "facts": 1,
+    "context": 0,
+    "news": 12,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -55,7 +55,7 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 3
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 622,
     "channels": 182,
-    "allEntries": 8175
+    "allEntries": 8182
   }
 }
