@@ -4,6 +4,33 @@
   "baselineDate": "2026-09-24",
   "events": [
     {
+      "type": "context",
+      "key": "cerebras/Qwen3.8 27B",
+      "vendor": "cerebras",
+      "vendorName": "Cerebras",
+      "name": "Qwen3.8 27B",
+      "date": "2026-09-25",
+      "facts": {
+        "before": 65536,
+        "after": 131072
+      },
+      "text": "上下文 66K → 131K",
+      "href": "/models/qwen3-8-27b/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-25",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "google",
@@ -40,19 +67,6 @@
       "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
       "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -305,27 +319,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
       "date": "2026-09-23",
       "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "date": "2026-09-23",
-      "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
       "external": true
     },
     {
