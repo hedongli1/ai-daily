@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 12,
+    "news": 14,
     "facts": 0,
     "newsAttached": 0
   },
@@ -56,7 +56,7 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "meta-llama",
@@ -81,6 +81,45 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-26",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-09-26",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-09-26",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Proaction boosts sales 60% and saves 75+ hours with Codex",
@@ -89,19 +128,6 @@
       "text": "Proaction boosts sales 60% and saves 75+ hours with Codex",
       "href": "https://openai.com/index/proaction",
       "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-09-25",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -213,11 +239,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "name": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
       "date": "2026-09-24",
       "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "text": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
+      "href": "https://github.com/zai-org/GLM-5/releases",
       "source": "智谱 AI",
       "external": true
     },
@@ -226,11 +252,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "date": "2026-09-24",
       "facts": {},
-      "text": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
-      "href": "https://github.com/zai-org/GLM-5/releases",
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
       "external": true
     }

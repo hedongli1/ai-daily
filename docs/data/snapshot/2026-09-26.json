@@ -8,7 +8,7 @@
   "channelVendorCount": 182,
   "aliasVendorCount": 8,
   "originModelCount": 622,
-  "modelCount": 8182,
+  "modelCount": 8183,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -411,7 +411,7 @@
       "name": "Kilo Gateway",
       "rawName": "Kilo Gateway",
       "doc": "https://kilo.ai",
-      "modelCount": 392,
+      "modelCount": 391,
       "isChannel": true,
       "aliasOf": null
     },
@@ -564,7 +564,7 @@
       "name": "OpenRouter",
       "rawName": "OpenRouter",
       "doc": "https://openrouter.ai/models",
-      "modelCount": 385,
+      "modelCount": 384,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1230,7 +1230,7 @@
       "name": "Fireworks AI",
       "rawName": "Fireworks AI",
       "doc": "https://fireworks.ai/docs/",
-      "modelCount": 34,
+      "modelCount": 33,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1482,7 +1482,7 @@
       "name": "OpenCode Go",
       "rawName": "OpenCode Go",
       "doc": "https://opencode.ai/docs/go",
-      "modelCount": 41,
+      "modelCount": 42,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1545,7 +1545,7 @@
       "name": "Eden AI",
       "rawName": "Eden AI",
       "doc": "https://docs.edenai.co",
-      "modelCount": 285,
+      "modelCount": 287,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1617,7 +1617,7 @@
       "name": "OpenCode Zen",
       "rawName": "OpenCode Zen",
       "doc": "https://opencode.ai/docs/zen",
-      "modelCount": 111,
+      "modelCount": 112,
       "isChannel": true,
       "aliasOf": null
     },
@@ -11928,7 +11928,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "aihubmix/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -37332,7 +37332,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 2
     },
     "cohere/c4ai-aya-expanse-8b": {
       "name": "Aya Expanse 8B",
@@ -43152,7 +43152,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "crossmodel/x-ai/grok-4.3": {
       "name": "Grok 4.3",
@@ -51989,6 +51989,34 @@
       },
       "shared": 24
     },
+    "edenai/cohere/c4ai-aya-expanse-32b": {
+      "name": "Aya Expanse 32B",
+      "norm": "aya-expanse-32b",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2024-10-24",
+      "releasePrecision": "day",
+      "updated": "2024-10-24",
+      "ctx": 128000,
+      "out": 4000,
+      "in": 0.5,
+      "outCost": 1.5,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "edenai/cohere/command-a-03-2025": {
       "name": "Command A",
       "norm": "command-a",
@@ -52980,6 +53008,34 @@
         ]
       },
       "shared": 18
+    },
+    "edenai/deepinfra/tencent/Hy4-preview": {
+      "name": "Hy4 preview (Deep Infra)",
+      "norm": "hy4-preview",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-08-28",
+      "releasePrecision": "day",
+      "updated": "2026-08-28",
+      "ctx": 1048576,
+      "out": 64000,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
+      "open": true,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
     },
     "edenai/deepinfra/thinkingmachines/Inkling": {
       "name": "Inkling (Deep Infra)",
@@ -63294,34 +63350,6 @@
       },
       "shared": 3
     },
-    "fireworks-ai/accounts/fireworks/routers/deepseek-pro-latest": {
-      "name": "DeepSeek Pro Latest",
-      "norm": "deepseek-pro-latest",
-      "vendor": "fireworks-ai",
-      "vendorRaw": "fireworks-ai",
-      "vendorName": "Fireworks AI",
-      "isOrigin": false,
-      "release": "2026-08-12",
-      "releasePrecision": "day",
-      "updated": "2026-08-22",
-      "ctx": 1000000,
-      "out": 384000,
-      "in": 1.32,
-      "outCost": 3.96,
-      "cacheRead": 0.044,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 3
-    },
     "fireworks-ai/accounts/fireworks/routers/glm-5p2-fast": {
       "name": "GLM 5.2 Fast",
       "norm": "glm-5-2-fast",
@@ -71965,7 +71993,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 1
     },
     "helicone/claude-3.5-haiku": {
       "name": "Anthropic: Claude 3.5 Haiku",
@@ -76622,7 +76650,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "huggingface/thinkingmachines/Inkling": {
       "name": "Inkling",
@@ -86783,36 +86811,6 @@
       },
       "shared": 3
     },
-    "kilo/anthropic/claude-3-haiku": {
-      "name": "Anthropic: Claude 3 Haiku",
-      "norm": "claude-3-haiku",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2024-03-13",
-      "releasePrecision": "day",
-      "updated": "2024-03-13",
-      "ctx": 200000,
-      "out": 4096,
-      "in": 0.25,
-      "outCost": 1.25,
-      "cacheRead": 0.03,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 3
-    },
     "kilo/anthropic/claude-fable-5": {
       "name": "Claude Fable 5",
       "norm": "claude-fable-5",
@@ -88966,8 +88964,8 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 16384,
-      "in": 0.09,
-      "outCost": 0.34,
+      "in": 0.08,
+      "outCost": 0.3,
       "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
@@ -91474,7 +91472,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-11",
       "ctx": 262144,
-      "out": 235929,
+      "out": 131072,
       "in": 0.065,
       "outCost": 0.18,
       "cacheRead": null,
@@ -94992,7 +94990,7 @@
       "releasePrecision": "day",
       "updated": "2026-04-22",
       "ctx": 262144,
-      "out": 262140,
+      "out": 81920,
       "in": 0.45,
       "outCost": 2.7,
       "cacheRead": null,
@@ -96132,9 +96130,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.13,
+      "outCost": 0.53,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -96202,7 +96200,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "kilo/thedrummer/cydonia-24b-v4.1": {
       "name": "TheDrummer: Cydonia 24B V4.1",
@@ -97230,8 +97228,8 @@
       "release": "2026-08-14",
       "releasePrecision": "day",
       "updated": "2026-08-14",
-      "ctx": 1048575,
-      "out": 943717,
+      "ctx": 1048576,
+      "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
       "cacheRead": 0.26,
@@ -97259,7 +97257,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-26",
       "ctx": 1048576,
-      "out": 128000,
+      "out": 131072,
       "in": 0.15,
       "outCost": 0.5,
       "cacheRead": 0.03,
@@ -97496,11 +97494,11 @@
       "release": "2026-09-14",
       "releasePrecision": "day",
       "updated": "2026-09-14",
-      "ctx": 1048576,
-      "out": 943718,
-      "in": 0.099,
-      "outCost": 0.6,
-      "cacheRead": 0.06,
+      "ctx": 1040000,
+      "out": 384000,
+      "in": 0.035,
+      "outCost": 0.29,
+      "cacheRead": 0.001,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -97526,10 +97524,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.25,
-      "outCost": 3.5,
-      "cacheRead": 0.249,
+      "out": 393216,
+      "in": 0.24948,
+      "outCost": 0.74844,
+      "cacheRead": 0.007938,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -97541,7 +97539,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 2
     },
     "kilo/~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
@@ -97555,7 +97553,7 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.022,
+      "in": 0.021,
       "outCost": 0.32,
       "cacheRead": 0.016,
       "open": false,
@@ -97647,8 +97645,8 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1.2,
-      "outCost": 10.5346,
+      "in": 1.0301,
+      "outCost": 9.043,
       "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
@@ -97856,10 +97854,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 1048576,
-      "out": 128000,
-      "in": 0.045,
-      "outCost": 0.14,
-      "cacheRead": 0.01,
+      "out": 131072,
+      "in": 0.04,
+      "outCost": 0.5,
+      "cacheRead": 0.015,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -97887,9 +97885,9 @@
       "updated": "2026-08-19",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.5614,
-      "outCost": 1.7644,
-      "cacheRead": 0.10426,
+      "in": 0.3794,
+      "outCost": 1.1924,
+      "cacheRead": 0.07046,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109177,7 +109175,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "llmgateway-providers/tencent/kimi-k2.6": {
       "name": "Kimi K2.6 (Tencent Cloud)",
@@ -114378,7 +114376,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "llmgateway/inkling": {
       "name": "Inkling",
@@ -162744,7 +162742,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "opencode-go/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -162893,6 +162891,35 @@
         ]
       },
       "shared": 7
+    },
+    "opencode-go/longcat-2.5-preview-free": {
+      "name": "LongCat 2.5 Preview Free",
+      "norm": "longcat-2-5-preview-free",
+      "vendor": "opencode-go",
+      "vendorRaw": "opencode-go",
+      "vendorName": "OpenCode Go",
+      "isOrigin": false,
+      "release": "2026-09-25",
+      "releasePrecision": "day",
+      "updated": "2026-09-25",
+      "ctx": 1000000,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
     },
     "opencode-go/mimo-v2-omni": {
       "name": "MiMo V2 Omni",
@@ -165878,6 +165905,35 @@
       },
       "shared": 1
     },
+    "opencode/longcat-2.5-preview-free": {
+      "name": "LongCat 2.5 Preview Free",
+      "norm": "longcat-2-5-preview-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode Zen",
+      "isOrigin": false,
+      "release": "2026-09-25",
+      "releasePrecision": "day",
+      "updated": "2026-09-25",
+      "ctx": 1000000,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "opencode/mimo-v2-flash-free": {
       "name": "MiMo V2 Flash Free",
       "norm": "mimo-v2-flash-free",
@@ -167187,35 +167243,6 @@
       },
       "shared": 3
     },
-    "openrouter/anthropic/claude-3-haiku": {
-      "name": "Claude 3 Haiku",
-      "norm": "claude-3-haiku",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2024-03-13",
-      "releasePrecision": "day",
-      "updated": "2024-03-13",
-      "ctx": 200000,
-      "out": 4096,
-      "in": 0.25,
-      "outCost": 1.25,
-      "cacheRead": 0.03,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 3
-    },
     "openrouter/anthropic/claude-fable-5": {
       "name": "Claude Fable 5",
       "norm": "claude-fable-5",
@@ -168391,7 +168418,7 @@
       "updated": "2026-07-31",
       "ctx": 1310720,
       "out": 943718,
-      "in": 0.022,
+      "in": 0.021,
       "outCost": 0.32,
       "cacheRead": 0.016,
       "open": true,
@@ -168448,9 +168475,9 @@
       "updated": "2026-04-24",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.52026,
-      "outCost": 1.04052,
-      "cacheRead": 0.043355,
+      "in": 0.348,
+      "outCost": 0.696,
+      "cacheRead": 0.029,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -168504,9 +168531,9 @@
       "updated": "2026-09-10",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.099,
-      "outCost": 0.6,
-      "cacheRead": 0.06,
+      "in": 0.3,
+      "outCost": 1.2,
+      "cacheRead": 0.006,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -171785,8 +171812,8 @@
       "releasePrecision": "day",
       "updated": "2026-08-11",
       "ctx": 1000000,
-      "out": 235929,
-      "in": 0.07,
+      "out": 131072,
+      "in": 0.08,
       "outCost": 0.2,
       "cacheRead": 0.04,
       "open": true,
@@ -175319,10 +175346,10 @@
       "releasePrecision": "day",
       "updated": "2026-04-22",
       "ctx": 262144,
-      "out": 262140,
+      "out": 81920,
       "in": 0.32,
-      "outCost": 2.7,
-      "cacheRead": 0.15,
+      "outCost": 3.2,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -176281,9 +176308,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -176351,7 +176378,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "openrouter/thedrummer/cydonia-24b-v4.1": {
       "name": "Cydonia 24B V4.1",
@@ -176447,7 +176474,7 @@
       "release": "2026-07-15",
       "releasePrecision": "day",
       "updated": "2026-07-15",
-      "ctx": 1048576,
+      "ctx": 524288,
       "out": 471859,
       "in": 1,
       "outCost": 4.05,
@@ -176477,7 +176504,7 @@
       "release": "2026-07-30",
       "releasePrecision": "day",
       "updated": "2026-07-30",
-      "ctx": 1048576,
+      "ctx": 524288,
       "out": 262144,
       "in": 0.45,
       "outCost": 1.2,
@@ -177410,10 +177437,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-14",
       "ctx": 1310720,
-      "out": 943717,
-      "in": 1.4,
-      "outCost": 4.4,
-      "cacheRead": 0.26,
+      "out": 131072,
+      "in": 0.3794,
+      "outCost": 1.1924,
+      "cacheRead": 0.07046,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -177438,10 +177465,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-26",
       "ctx": 1310720,
-      "out": 128000,
-      "in": 0.045,
-      "outCost": 0.14,
-      "cacheRead": 0.01,
+      "out": 131072,
+      "in": 0.04,
+      "outCost": 0.5,
+      "cacheRead": 0.015,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -177676,10 +177703,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.099,
-      "outCost": 0.6,
-      "cacheRead": 0.06,
+      "out": 384000,
+      "in": 0.035,
+      "outCost": 0.29,
+      "cacheRead": 0.001,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -177705,10 +177732,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.25,
-      "outCost": 3.5,
-      "cacheRead": 0.249,
+      "out": 393216,
+      "in": 0.24948,
+      "outCost": 0.74844,
+      "cacheRead": 0.007938,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -177720,7 +177747,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 2
     },
     "openrouter/~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
@@ -177734,7 +177761,7 @@
       "updated": "2026-08-01",
       "ctx": 1310720,
       "out": 943718,
-      "in": 0.022,
+      "in": 0.021,
       "outCost": 0.32,
       "cacheRead": 0.016,
       "open": false,
@@ -177826,8 +177853,8 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1.2,
-      "outCost": 10.5346,
+      "in": 1.0301,
+      "outCost": 9.043,
       "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
@@ -178035,10 +178062,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 1310720,
-      "out": 128000,
-      "in": 0.045,
-      "outCost": 0.14,
-      "cacheRead": 0.01,
+      "out": 131072,
+      "in": 0.04,
+      "outCost": 0.5,
+      "cacheRead": 0.015,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -178066,9 +178093,9 @@
       "updated": "2026-08-19",
       "ctx": 1310720,
       "out": 131072,
-      "in": 0.5614,
-      "outCost": 1.7644,
-      "cacheRead": 0.10426,
+      "in": 0.3794,
+      "outCost": 1.1924,
+      "cacheRead": 0.07046,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -196415,9 +196442,9 @@
       "updated": "2026-09-22",
       "ctx": 1000000,
       "out": 128000,
-      "in": 5,
-      "outCost": 25,
-      "cacheRead": 0.5,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -196445,9 +196472,9 @@
       "updated": "2026-09-22",
       "ctx": 1000000,
       "out": 128000,
-      "in": 5.5,
-      "outCost": 27.5,
-      "cacheRead": 0.55,
+      "in": 4.4,
+      "outCost": 22,
+      "cacheRead": 0.22,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -210825,7 +210852,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "tencent-tokenhub/hy3": {
       "name": "Hy3",
@@ -210909,7 +210936,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "tensorx/deepseek/deepseek-r1-0528": {
       "name": "DeepSeek R1-0528",
@@ -215318,7 +215345,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "vancine/kimi-k3": {
       "name": "Kimi K3",

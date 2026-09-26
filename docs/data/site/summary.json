@@ -7,7 +7,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 12,
+    "news": 14,
     "facts": 0,
     "newsAttached": 0
   },
@@ -55,7 +55,7 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "meta-llama",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 622,
     "channels": 182,
-    "allEntries": 8182
+    "allEntries": 8183
   }
 }
