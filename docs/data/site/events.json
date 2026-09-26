@@ -1,7 +1,7 @@
 {
-  "date": "2026-09-26",
+  "date": "2026-09-27",
   "mode": "diff",
-  "baselineDate": "2026-09-25",
+  "baselineDate": "2026-09-26",
   "events": [
     {
       "type": "news",
@@ -79,110 +79,6 @@
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Introducing Gemini 3.8 Live with Live Avatar",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "Introducing Gemini 3.8 Live with Live Avatar",
-      "href": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "href": "https://github.com/zai-org/ZCode/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
-      "href": "https://github.com/zai-org/GLM-5/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-09-24",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]
