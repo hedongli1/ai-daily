@@ -1,8 +1,21 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-28",
   "mode": "diff",
-  "baselineDate": "2026-09-26",
+  "baselineDate": "2026-09-27",
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-09-27",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -65,32 +78,6 @@
       "facts": {},
       "text": "cli · 仓库更新",
       "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "date": "2026-09-25",
-      "facts": {},
-      "text": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "href": "https://openai.com/index/proaction",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "date": "2026-09-25",
-      "facts": {},
-      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "href": "https://github.com/mistralai/vllm/releases",
       "source": "Mistral AI",
       "external": true
     }
