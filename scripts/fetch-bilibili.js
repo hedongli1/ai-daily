@@ -8,7 +8,7 @@
 //   node scripts/fetch-bilibili.js                # 从 docs/data/bilibili/queries.json 读配置
 //   node scripts/fetch-bilibili.js --query="大模型" --order=pubdate  # 单次查询调试
 //
-// 输出：docs/data/bilibili/q{index}.json（覆盖旧文件）
+// 输出：docs/data/bilibili/q{index}.json
 // 字段：query, order, fetchedAt, rows[{title, up, play, pub, bvid}]
 
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs';
@@ -21,20 +21,22 @@ const CONFIG = path.join(OUT_DIR, 'queries.json');
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
+// 去掉搜索结果标题里的 <em class="keyword"> 高亮标签，得到纯文本标题。
+function cleanTitle(s) {
+  return (s || '').replace(/<[^>]+>/g, '').trim();
+}
+
 async function fetchPage(keyword, order = 'pubdate', page = 1) {
-  const url = `https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=${encodeURIComponent(keyword)}&order=${order}&page=${page}`;
+  const url = 'https://api.bilibili.com/x/web-interface/search/type?search_type=video&keyword=' +
+    encodeURIComponent(keyword) + '&order=' + order + '&page=' + page;
   const res = await fetch(url, {
-    headers: {
-      'User-Agent': UA,
-      'Referer': 'https://search.bilibili.com/',
-      'Accept': 'application/json',
-    },
+    headers: { 'User-Agent': UA, 'Referer': 'https://search.bilibili.com/', Accept: 'application/json' },
   });
-  if (!res.ok) throw new Error(`HTTP ${res.status}`);
+  if (!res.ok) throw new Error('HTTP ' + res.status);
   const json = await res.json();
-  if (json.code !== 0) throw new Error(`API code=${json.code} msg=${json.message}`);
+  if (json.code !== 0) throw new Error('API code=' + json.code + ' msg=' + json.message);
   return (json.data?.result || []).map((r) => ({
-    title: r.title?.replace(/<em class="keyword">/g, '').replace(/<\/em>/g, '') || '',
+    title: cleanTitle(r.title),
     up: r.upname || r.up || '',
     play: r.play || 0,
     pub: r.pubdate ? new Date(r.pubdate * 1000).toLocaleDateString('zh-CN') : null,
@@ -50,7 +52,7 @@ async function fetchQuery(keyword, order = 'pubdate', pages = 2) {
       all.push(...rows);
       if (rows.length < 20) break; // 不足 20 条说明到末页
     } catch (e) {
-      console.warn(`  ⚠️ page ${p} failed: ${e.message}`);
+      console.warn('  ⚠️ page ' + p + ' failed: ' + e.message);
       break;
     }
   }
@@ -70,26 +72,32 @@ async function main() {
     try {
       queries = JSON.parse(readFileSync(CONFIG, 'utf8')).queries || [];
     } catch (e) {
-      console.log(`ℹ️  未找到 ${CONFIG}，跳过 B站实时抓取`);
+      console.log('ℹ️  未找到 ' + CONFIG + '，跳过 B站实时抓取');
       process.exit(0);
     }
   }
 
   let idx = 1;
   for (const q of queries) {
-    console.log(`🔍 [${idx}] ${q.keyword} (${q.order || 'pubdate'})`);
+    console.log('🔍 [' + idx + '] ' + q.keyword + ' (' + (q.order || 'pubdate') + ')');
     try {
       const rows = await fetchQuery(q.keyword, q.order || 'pubdate', 2);
-      const out = {
-        query: q.keyword,
-        order: q.order || 'pubdate',
-        fetchedAt: new Date().toISOString(),
-        rows,
-      };
-      writeFileSync(path.join(OUT_DIR, `q${idx}.json`), JSON.stringify(out, null, 1));
-      console.log(`   ✓ ${rows.length} 条 → q${idx}.json`);
+      // 非破坏写入：CI 的数据中心 IP 常被 B站风控，返回空结果。
+      // 0 条一律不覆盖旧 q 文件，避免把已入库的真实数据抹成空。
+      if (!rows.length) {
+        console.warn('   ⚠️ 0 条（疑似被风控/无结果），保留旧 q' + idx + '.json 不覆盖');
+      } else {
+        const out = {
+          query: q.keyword,
+          order: q.order || 'pubdate',
+          fetchedAt: new Date().toISOString(),
+          rows,
+        };
+        writeFileSync(path.join(OUT_DIR, 'q' + idx + '.json'), JSON.stringify(out, null, 1));
+        console.log('   ✓ ' + rows.length + ' 条 → q' + idx + '.json');
+      }
     } catch (e) {
-      console.warn(`   ✖ ${e.message}，保留旧文件（如有）`);
+      console.warn('   ✖ ' + e.message + '，保留旧文件（如有）');
     }
     idx++;
   }
