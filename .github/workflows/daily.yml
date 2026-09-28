@@ -60,6 +60,13 @@ jobs:
         run: node scripts/fetch-bilibili.js
         continue-on-error: true
 
+      # B 站矿脉编译：由 docs/data/bilibili/q*.json 生成 docs/data/site/bilibili.json。
+      # 必须单独成步 —— build-site.js 不涉及 B 站，缺这步线上矿脉会一直停在旧数据。
+      # 失败不阻断：矿脉是附加信息，不是日报主干。
+      - name: 编译 B 站矿脉
+        run: node scripts/build-bilibili.js
+        continue-on-error: true
+
       - name: 编译站点数据
         run: node scripts/build-site.js
 
