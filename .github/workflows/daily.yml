@@ -1,0 +1,142 @@
+name: ai-daily 每日管线
+
+# 晨报 04:30 / 晚报 18:00（北京时间）。cron 用 UTC 写：04:30 CST = 20:30 UTC（前一天），
+# 18:00 CST = 10:00 UTC。
+#
+# 为什么提前：2026-09 实测 GitHub 托管 schedule 排队 3～5 小时（远超过往估计的
+# 5～30 分钟），原 08:30/22:14 班次实际落在约 13:10 / 次日 01:26。把 cron 提前
+# 约 4 小时后，实际落地大致回到早晨 / 晚间两个阅读时段。
+#
+# 配套：scripts/lib.js 的 todayISO 已改用北京时间日期键，凌晨班次（UTC 仍停在
+# 前一天）不会再把战报日期劈成两天。
+# 另外，仓库连续 60 天没有任何提交时，GitHub 会自动禁用 scheduled workflow ——
+# 本管线每个班次都会提交数据，所以不会触发这个限制。
+
+on:
+  schedule:
+    - cron: '30 20 * * *'   # 04:30 北京时间 · 晨报（提前约 4h 对冲 GitHub 排队）
+    - cron: '0 10 * * *'    # 18:00 北京时间 · 晚报（提前约 4h 对冲 GitHub 排队）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  # 同一时刻只允许一个管线实例在跑。不加锁的话，两个班次撞在一起会
+  # 同时基于旧 commit 提交，后完成的那个必然 push 被拒。
+  group: ai-daily-pipeline
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # 纯函数自检：归一化、渠道判定、差分逻辑、文案模板。不联网。
+      # 这一步挂了说明代码有问题，应该直接失败而不是产出错误数据。
+      - name: 自检
+        run: node scripts/selftest.js
+
+      # 抓取 + 归一化 + 差分 + 落盘。
+      # 单个数据源失败只标记降级，不影响整条管线产出 —— 日报不能因为
+      # 某个厂商改了 RSS 地址就整体停摆。
+      - name: 抓取与差分
+        run: node scripts/fetch.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # 第三方评测。失败了不阻断 —— 榜单是附加信息，不是日报主干。
+      - name: 抓取 Epoch AI 评测
+        run: node scripts/fetch-bench.js
+        continue-on-error: true
+
+      # B 站矿脉实时抓取。失败时保留旧数据（continue-on-error），避免 CI IP 被风控时整条管线停摆。
+      - name: 抓取 B 站搜索结果（实时矿脉）
+        run: node scripts/fetch-bilibili.js
+        continue-on-error: true
+
+      - name: 编译站点数据
+        run: node scripts/build-site.js
+
+      - name: 提交数据
+        run: |
+          set -e
+          git config user.name  "ai-daily-bot"
+          git config user.email "ai-daily-bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --staged --quiet; then
+            echo "今天没有数据变化，跳过提交。"
+            exit 0
+          fi
+
+          D=$(TZ=Asia/Shanghai date +%Y-%m-%d)   # 与 lib.js 的 todayISO 一致，用北京日期
+          git commit -q -m "data: ${D} 每日快照与事件"
+
+          # push 前先同步远端。两个班次（或手动触发与定时触发）撞在一起时，
+          # 后启动的那个会基于旧 commit，直接 push 必然被拒：
+          #   ! [rejected] main -> main (fetch first)
+          # 所以这里先 rebase 到远端最新。
+          #
+          # 冲突时用本地版本（-X theirs）：本地是刚刚抓取的新数据，
+          # 而远端那份来自更早的同日运行，取新不取旧。
+          for attempt in 1 2 3; do
+            if git push -q 2>/dev/null; then
+              echo "✓ 已推送到远端（第 ${attempt} 次尝试）"
+              exit 0
+            fi
+            echo "⚠️ push 被拒（第 ${attempt} 次），同步远端后重试…"
+            git pull --rebase -X theirs --no-edit origin "${GITHUB_REF_NAME}"
+            sleep 3
+          done
+
+          echo "::error::连续 3 次推送失败，请检查分支保护规则或权限设置"
+          exit 1
+
+      - name: 输出今日战报
+        run: |
+          node -e "
+          const e = require('./docs/data/events/' + new Date(Date.now() + 8 * 3600e3).toISOString().slice(0,10) + '.json'); // 北京日期，与 lib.js 的 todayISO 一致
+          const c = e.counts;
+          console.log('### ai-daily 今日战报');
+          console.log('');
+          console.log('| 新模型 | 调价 | 上下文变更 | 下架 | 官方公告 |');
+          console.log('| ---: | ---: | ---: | ---: | ---: |');
+          console.log('| ' + c.new + ' | ' + c.price + ' | ' + c.context + ' | ' + c.retired + ' | ' + c.news + ' |');
+          console.log('');
+          const news = e.events.filter(x => x.type === 'new' && x.vendorRaw !== undefined).slice(0, 15);
+          if (news.length) { console.log('**今日新模型**'); news.forEach(x => console.log('- ' + x.vendorName + ' · ' + x.text)); }
+          if (e.degraded && e.degraded.length) { console.log(''); console.log('⚠️ 降级源：' + e.degraded.join(', ')); }
+          " >> "$GITHUB_STEP_SUMMARY"
+
+
+  # 提交数据后自动部署到 Pages —— 关键修复。
+  # 原因：默认 GITHUB_TOKEN 发起的 push 不会触发其它工作流（GitHub 防递归），
+  # 所以 deploy.yml 收不到管线自动提交的信号，Pages 一直停在最后一次人工推送。
+  # 把部署直接放进本管线：数据一提交就上线，不再依赖跨工作流触发。
+  deploy:
+    needs: sync
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: false
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main   # 必须取最新 main：默认会回到本班次触发时的旧 commit，拿不到刚提交的数据
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - id: deployment
+        uses: actions/deploy-pages@v4
