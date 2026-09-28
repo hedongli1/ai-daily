@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1223,8 +1223,8 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 1,
-          "avg": 0.2833,
-          "best": 0.2833
+          "avg": 0.4417,
+          "best": 0.4417
         }
       },
       "rel": "2026-09-22",

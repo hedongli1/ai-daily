@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-28",
+  "generated": "2026-09-29",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -2383,6 +2383,18 @@
       }
     },
     {
+      "model": "GPT-6 Luna",
+      "release": "2026-09-22",
+      "nRuns": 1,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 1,
+          "avg": 0.4417,
+          "best": 0.4417
+        }
+      }
+    },
+    {
       "model": "Grok 4.7",
       "release": "2026-09-21",
       "nRuns": 1,
@@ -2391,18 +2403,6 @@
           "n": 1,
           "avg": 0.2083,
           "best": 0.2083
-        }
-      }
-    },
-    {
-      "model": "GPT-6 Luna",
-      "release": "2026-09-22",
-      "nRuns": 1,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 1,
-          "avg": 0.2833,
-          "best": 0.2833
         }
       }
     },

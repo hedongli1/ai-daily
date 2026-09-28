@@ -1,8 +1,124 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "mode": "diff",
-  "baselineDate": "2026-09-27",
+  "baselineDate": "2026-09-28",
   "events": [
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.7 Plus",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.7 Plus",
+      "date": "2026-09-29",
+      "facts": {
+        "before": {
+          "in": 0.5,
+          "outCost": 3
+        },
+        "after": {
+          "in": 0.4,
+          "outCost": 1.6
+        }
+      },
+      "text": "输入 $0.5 → $0.4 · 输出 $3 → $1.6",
+      "href": "/models/qwen3-7-plus/",
+      "evidence": [
+        {
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+          "url": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+          "url": "https://github.com/QwenLM/FlashQLA/releases",
+          "source": "Qwen"
+        }
+      ]
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.5 Flash",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.5 Flash",
+      "date": "2026-09-29",
+      "facts": {
+        "before": {
+          "in": 0.029,
+          "outCost": 0.287
+        },
+        "after": {
+          "in": 0.1,
+          "outCost": 0.4
+        }
+      },
+      "text": "输入 $0.03 → $0.1 · 输出 $0.29 → $0.4",
+      "href": "/models/qwen3-5-flash/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.7 Flash",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.7 Flash",
+      "date": "2026-09-29",
+      "facts": {
+        "before": {
+          "in": 0.02962,
+          "outCost": 0.1185
+        },
+        "after": {
+          "in": 0.03,
+          "outCost": 0.13
+        }
+      },
+      "text": "输入 $0.03 → $0.03 · 输出 $0.12 → $0.13",
+      "href": "/models/qwen3-7-flash/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+      "href": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -19,14 +135,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-09-27",
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-09-28",
       "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
       "external": true
     },
     {
@@ -34,11 +150,11 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "date": "2026-09-27",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-09-28",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
       "source": "Qwen",
       "external": true
     },
@@ -48,7 +164,7 @@
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "cookbook · 仓库更新",
-      "date": "2026-09-27",
+      "date": "2026-09-28",
       "facts": {},
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
@@ -60,13 +176,93 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-09-26",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-09-28",
       "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
       "source": "Mistral AI",
       "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "alibaba/Qwen3.8 Omni Flash",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.8 Omni Flash",
+      "date": "2026-09-17",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.15,
+        "outCost": 0.47,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Qwen3.8 Omni Flash · 闭源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
+      "href": "/models/qwen3-8-omni-flash/",
+      "shared": 9
+    },
+    {
+      "type": "new",
+      "key": "openai/Daybreak Blue",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Daybreak Blue",
+      "date": "2026-08-07",
+      "facts": {
+        "ctx": 1050000,
+        "in": 4,
+        "outCost": 20,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Daybreak Blue · 闭源 · 1.1M 上下文 · 输入 $4/M · 支持推理",
+      "href": "/models/daybreak-blue/",
+      "shared": 1
+    },
+    {
+      "type": "new",
+      "key": "openai/Daybreak Red",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Daybreak Red",
+      "date": "2026-08-07",
+      "facts": {
+        "ctx": 400000,
+        "in": 12.5,
+        "outCost": 75,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Daybreak Red · 闭源 · 400K 上下文 · 输入 $12.5/M · 支持推理",
+      "href": "/models/daybreak-red/",
+      "shared": 1
     }
   ]
 }

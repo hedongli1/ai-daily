@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-28",
+  "date": "2026-09-29",
   "timeline": [
     {
       "n": "mimo-v2-6-pro",
@@ -72,6 +72,15 @@
       "ctx": 1000000,
       "in": 0.37,
       "open": 1
+    },
+    {
+      "n": "qwen3-8-omni-flash",
+      "name": "Qwen3.8 Omni Flash",
+      "vn": "阿里云",
+      "rel": "2026-09-17",
+      "ctx": 1000000,
+      "in": 0.113,
+      "open": 0
     },
     {
       "n": "step-5-preview",
@@ -279,6 +288,24 @@
       "ctx": 131072,
       "in": 0,
       "open": 1
+    },
+    {
+      "n": "daybreak-red",
+      "name": "Daybreak Red",
+      "vn": "OpenAI",
+      "rel": "2026-08-07",
+      "ctx": 400000,
+      "in": 12.5,
+      "open": 0
+    },
+    {
+      "n": "daybreak-blue",
+      "name": "Daybreak Blue",
+      "vn": "OpenAI",
+      "rel": "2026-08-07",
+      "ctx": 1050000,
+      "in": 4,
+      "open": 0
     },
     {
       "n": "solar-pro-4",
