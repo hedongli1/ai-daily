@@ -74,24 +74,6 @@
       "open": 1
     },
     {
-      "n": "glm-5-3-flashx",
-      "name": "GLM-5.3-FlashX",
-      "vn": "智谱 AI",
-      "rel": "2026-09-18",
-      "ctx": 1000000,
-      "in": 0.37,
-      "open": 1
-    },
-    {
-      "n": "step-5-preview",
-      "name": "Step 5 Preview",
-      "vn": "阶跃星辰",
-      "rel": "2026-09-16",
-      "ctx": 1000000,
-      "in": 0.959,
-      "open": 0
-    },
-    {
       "n": "step-5-preview",
       "name": "Step 5 Preview",
       "vn": "阶跃星辰",
@@ -110,30 +92,21 @@
       "open": 1
     },
     {
+      "n": "deepseek-v4-1-flash",
+      "name": "DeepSeek V4.1 Flash",
+      "vn": "DeepSeek",
+      "rel": "2026-09-10",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
+    {
       "n": "deepseek-v4-flash",
       "name": "DeepSeek V4 Flash",
       "vn": "DeepSeek",
       "rel": "2026-09-10",
       "ctx": 1000000,
       "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-1-flash",
-      "name": "DeepSeek V4.1 Flash",
-      "vn": "DeepSeek",
-      "rel": "2026-09-10",
-      "ctx": 1000000,
-      "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-1-flash",
-      "name": "DeepSeek V4.1 Flash",
-      "vn": "阿里云",
-      "rel": "2026-09-10",
-      "ctx": 1000000,
-      "in": 0.29754,
       "open": 1
     },
     {
@@ -200,15 +173,6 @@
       "open": 1
     },
     {
-      "n": "hy4-preview",
-      "name": "Hy4 preview",
-      "vn": "腾讯混元",
-      "rel": "2026-08-28",
-      "ctx": 1024000,
-      "in": 0.834,
-      "open": 1
-    },
-    {
       "n": "glm-5-3-flash",
       "name": "GLM-5.3-Flash",
       "vn": "智谱 AI",
@@ -216,42 +180,6 @@
       "ctx": 1000000,
       "in": 0.15,
       "open": 1
-    },
-    {
-      "n": "glm-5-3-flash",
-      "name": "GLM-5.3-Flash",
-      "vn": "智谱 AI",
-      "rel": "2026-08-26",
-      "ctx": 1000000,
-      "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "glm-5-3-flash",
-      "name": "GLM-5.3-Flash",
-      "vn": "字节跳动",
-      "rel": "2026-08-26",
-      "ctx": 1000000,
-      "in": 0.11875,
-      "open": 1
-    },
-    {
-      "n": "glm-5-3-flash",
-      "name": "GLM-5.3-Flash",
-      "vn": "英伟达",
-      "rel": "2026-08-26",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "qwen3-8-flash",
-      "name": "Qwen3.8 Flash",
-      "vn": "阿里云",
-      "rel": "2026-08-26",
-      "ctx": 1000000,
-      "in": 0.15,
-      "open": 0
     },
     {
       "n": "qwen3-8-flash",
@@ -261,42 +189,6 @@
       "ctx": 1000000,
       "in": 0.11875,
       "open": 0
-    },
-    {
-      "n": "glm-5-3",
-      "name": "GLM-5.3",
-      "vn": "智谱 AI",
-      "rel": "2026-08-14",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-3",
-      "name": "GLM-5.3",
-      "vn": "智谱 AI",
-      "rel": "2026-08-14",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-3",
-      "name": "GLM-5.3",
-      "vn": "英伟达",
-      "rel": "2026-08-14",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-5-3",
-      "name": "GLM-5.3",
-      "vn": "Mistral",
-      "rel": "2026-08-14",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
     },
     {
       "n": "qwen3-8-27b",
@@ -310,10 +202,10 @@
     {
       "n": "glm-5-3",
       "name": "GLM-5.3",
-      "vn": "阿里云",
+      "vn": "智谱 AI",
       "rel": "2026-08-14",
       "ctx": 1000000,
-      "in": 1.1,
+      "in": 1.4,
       "open": 1
     },
     {
@@ -346,28 +238,10 @@
     {
       "n": "deepseek-v4-pro-0813",
       "name": "DeepSeek V4 Pro 0813",
-      "vn": "字节跳动",
-      "rel": "2026-08-12",
-      "ctx": 1000000,
-      "in": 1.3359,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "vn": "商汤科技",
+      "vn": "Arcee AI",
       "rel": "2026-08-12",
       "ctx": 1048576,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro-0813",
-      "name": "DeepSeek V4 Pro 0813",
-      "vn": "英伟达",
-      "rel": "2026-08-12",
-      "ctx": 1000000,
-      "in": 0,
+      "in": 1.32,
       "open": 1
     },
     {
@@ -377,15 +251,6 @@
       "rel": "2026-08-12",
       "ctx": 1000000,
       "in": 0.435,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro-0813",
-      "name": "DeepSeek V4 Pro 0813",
-      "vn": "Arcee AI",
-      "rel": "2026-08-12",
-      "ctx": 1048576,
-      "in": 1.32,
       "open": 1
     },
     {
@@ -457,35 +322,8 @@
       "vn": "阿里云",
       "rel": "2026-08-03",
       "ctx": 1000000,
-      "in": 2,
-      "open": 0
-    },
-    {
-      "n": "qwen3-8-max",
-      "name": "Qwen3.8 Max",
-      "vn": "阿里云",
-      "rel": "2026-08-03",
-      "ctx": 1000000,
       "in": 1.77744,
       "open": 0
-    },
-    {
-      "n": "deepseek-v4-flash-0731",
-      "name": "DeepSeek V4 Flash 0731",
-      "vn": "字节跳动",
-      "rel": "2026-07-31",
-      "ctx": 1000000,
-      "in": 0.4453,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-flash-0731",
-      "name": "DeepSeek V4 Flash 0731",
-      "vn": "英伟达",
-      "rel": "2026-07-31",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "deepseek-v4-flash-latest",
@@ -562,73 +400,10 @@
     {
       "n": "kimi-k3",
       "name": "Kimi K3",
-      "vn": "商汤科技",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
-      "vn": "英伟达",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
       "vn": "月之暗面",
       "rel": "2026-07-16",
       "ctx": 1048576,
       "in": 3,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
-      "vn": "月之暗面",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 3,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
-      "vn": "Arcee AI",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 3,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
-      "vn": "阿里云",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 3,
-      "open": 1
-    },
-    {
-      "n": "kimi-k3",
-      "name": "Kimi K3",
-      "vn": "阿里云",
-      "rel": "2026-07-16",
-      "ctx": 1048576,
-      "in": 2.827,
-      "open": 1
-    },
-    {
-      "n": "inkling",
-      "name": "Inkling (256K)",
-      "vn": "Thinking Machines",
-      "rel": "2026-07-15",
-      "ctx": 262144,
-      "in": 3.74,
       "open": 1
     },
     {
@@ -641,21 +416,21 @@
       "open": 1
     },
     {
-      "n": "inkling",
-      "name": "Inkling",
-      "vn": "英伟达",
-      "rel": "2026-07-15",
-      "ctx": 1048576,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwen3-7-flash",
       "name": "Qwen3.7 Flash",
       "vn": "阿里云",
       "rel": "2026-07-15",
       "ctx": 1000000,
       "in": 0.02962,
+      "open": 0
+    },
+    {
+      "n": "gpt-5-6",
+      "name": "GPT-5.6",
+      "vn": "OpenAI",
+      "rel": "2026-07-09",
+      "ctx": 1050000,
+      "in": 4,
       "open": 0
     },
     {
@@ -686,42 +461,6 @@
       "open": 0
     },
     {
-      "n": "gpt-5-6",
-      "name": "GPT-5.6",
-      "vn": "OpenAI",
-      "rel": "2026-07-09",
-      "ctx": 1050000,
-      "in": 4,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-6-terra",
-      "name": "GPT-5.6 Terra",
-      "vn": "Databricks",
-      "rel": "2026-07-09",
-      "ctx": 1050000,
-      "in": 2.5,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-6-sol",
-      "name": "GPT-5.6 Sol",
-      "vn": "Databricks",
-      "rel": "2026-07-09",
-      "ctx": 1050000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-6-luna",
-      "name": "GPT-5.6 Luna",
-      "vn": "Databricks",
-      "rel": "2026-07-09",
-      "ctx": 400000,
-      "in": 1,
-      "open": 0
-    },
-    {
       "n": "grok-4-5",
       "name": "Grok 4.5",
       "vn": "xAI",
@@ -729,15 +468,6 @@
       "ctx": 500000,
       "in": 2,
       "open": 0
-    },
-    {
-      "n": "hy3",
-      "name": "Hy3",
-      "vn": "腾讯混元",
-      "rel": "2026-07-06",
-      "ctx": 256000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "hy3",
@@ -761,15 +491,6 @@
       "n": "laguna-xs-2-1",
       "name": "Laguna XS 2.1",
       "vn": "Poolside",
-      "rel": "2026-07-02",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "laguna-xs-2-1",
-      "name": "Laguna XS 2.1",
-      "vn": "英伟达",
       "rel": "2026-07-02",
       "ctx": 262144,
       "in": 0,
@@ -857,15 +578,6 @@
       "open": 0
     },
     {
-      "n": "fugu-ultra",
-      "name": "Fugu Ultra",
-      "vn": "Sakana AI",
-      "rel": "2026-06-15",
-      "ctx": 1000000,
-      "in": 5,
-      "open": 0
-    },
-    {
       "n": "fugu",
       "name": "Fugu",
       "vn": "Sakana AI",
@@ -881,87 +593,6 @@
       "rel": "2026-06-13",
       "ctx": 1000000,
       "in": 1.4,
-      "open": 0
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "智谱 AI",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "字节跳动",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.18747,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "商汤科技",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "英伟达",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "Mistral",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "Databricks",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "Arcee AI",
-      "rel": "2026-06-13",
-      "ctx": 262144,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "阿里云",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "glm-5-2",
-      "name": "GLM-5.2",
-      "vn": "阿里云",
-      "rel": "2026-06-13",
-      "ctx": 1000000,
-      "in": 1.1,
       "open": 1
     },
     {
@@ -977,33 +608,6 @@
       "n": "kimi-k2-7-code",
       "name": "Kimi K2.7 Code",
       "vn": "月之暗面",
-      "rel": "2026-06-12",
-      "ctx": 262144,
-      "in": 0.95,
-      "open": 1
-    },
-    {
-      "n": "kimi-k2-7-code-highspeed",
-      "name": "Kimi K2.7 Code HighSpeed",
-      "vn": "月之暗面",
-      "rel": "2026-06-12",
-      "ctx": 262144,
-      "in": 1.9,
-      "open": 1
-    },
-    {
-      "n": "kimi-k2-7-code",
-      "name": "Kimi K2.7 Code",
-      "vn": "月之暗面",
-      "rel": "2026-06-12",
-      "ctx": 262144,
-      "in": 0.95,
-      "open": 1
-    },
-    {
-      "n": "kimi-k2-7-code",
-      "name": "Kimi K2.7 Code",
-      "vn": "Databricks",
       "rel": "2026-06-12",
       "ctx": 262144,
       "in": 0.95,
@@ -1064,33 +668,6 @@
       "open": 0
     },
     {
-      "n": "qwen3-7-plus",
-      "name": "Qwen3.7 Plus",
-      "vn": "阿里云",
-      "rel": "2026-06-02",
-      "ctx": 1000000,
-      "in": 0.5,
-      "open": 0
-    },
-    {
-      "n": "minimax-m3",
-      "name": "MiniMax-M3",
-      "vn": "英伟达",
-      "rel": "2026-06-01",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "minimax-m3",
-      "name": "MiniMax-M3",
-      "vn": "MiniMax",
-      "rel": "2026-06-01",
-      "ctx": 1000000,
-      "in": 0.3,
-      "open": 1
-    },
-    {
       "n": "minimax-m3",
       "name": "MiniMax-M3",
       "vn": "MiniMax",
@@ -1115,24 +692,6 @@
       "rel": "2026-05-29",
       "ctx": 256000,
       "in": 0.185,
-      "open": 1
-    },
-    {
-      "n": "step-3-7-flash",
-      "name": "Step 3.7 Flash",
-      "vn": "阶跃星辰",
-      "rel": "2026-05-29",
-      "ctx": 256000,
-      "in": 0.185,
-      "open": 1
-    },
-    {
-      "n": "step-3-7-flash",
-      "name": "Step 3.7 Flash",
-      "vn": "英伟达",
-      "rel": "2026-05-28",
-      "ctx": 256000,
-      "in": 0,
       "open": 1
     },
     {
@@ -1172,15 +731,6 @@
       "open": 0
     },
     {
-      "n": "qwen3-7-max",
-      "name": "Qwen3.7 Max",
-      "vn": "阿里云",
-      "rel": "2026-05-21",
-      "ctx": 1000000,
-      "in": 2.5,
-      "open": 0
-    },
-    {
       "n": "command-a-plus",
       "name": "Command A Plus",
       "vn": "Cohere",
@@ -1206,15 +756,6 @@
       "ctx": 1048576,
       "in": 0.25,
       "open": 0
-    },
-    {
-      "n": "mistral-medium-3-5",
-      "name": "Mistral Medium 3.5",
-      "vn": "英伟达",
-      "rel": "2026-04-29",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "mistral-medium",
@@ -1262,15 +803,6 @@
       "open": 0
     },
     {
-      "n": "qwen3-6-flash",
-      "name": "Qwen3.6 Flash",
-      "vn": "阿里云",
-      "rel": "2026-04-27",
-      "ctx": 1000000,
-      "in": 0.1875,
-      "open": 0
-    },
-    {
       "n": "stepaudio-2-5-asr",
       "name": "StepAudio 2.5 ASR",
       "vn": "阶跃星辰",
@@ -1278,69 +810,6 @@
       "ctx": 0,
       "in": null,
       "open": 0
-    },
-    {
-      "n": "stepaudio-2-5-asr",
-      "name": "StepAudio 2.5 ASR",
-      "vn": "阶跃星辰",
-      "rel": "2026-04-24",
-      "ctx": 0,
-      "in": null,
-      "open": 0
-    },
-    {
-      "n": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "vn": "商汤科技",
-      "rel": "2026-04-24",
-      "ctx": 1000000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "vn": "英伟达",
-      "rel": "2026-04-24",
-      "ctx": 1048576,
-      "in": 0.435,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "vn": "英伟达",
-      "rel": "2026-04-24",
-      "ctx": 1048576,
-      "in": 0.14,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "vn": "Arcee AI",
-      "rel": "2026-04-24",
-      "ctx": 512000,
-      "in": 1.74,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-pro",
-      "name": "DeepSeek V4 Pro",
-      "vn": "阿里云",
-      "rel": "2026-04-24",
-      "ctx": 1000000,
-      "in": 0.435,
-      "open": 1
-    },
-    {
-      "n": "deepseek-v4-flash",
-      "name": "DeepSeek V4 Flash",
-      "vn": "阿里云",
-      "rel": "2026-04-24",
-      "ctx": 1000000,
-      "in": 0.14,
-      "open": 1
     },
     {
       "n": "gpt-5-5-pro",
@@ -1355,15 +824,6 @@
       "n": "gpt-5-5",
       "name": "GPT-5.5",
       "vn": "OpenAI",
-      "rel": "2026-04-23",
-      "ctx": 1050000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-5",
-      "name": "GPT-5.5",
-      "vn": "Databricks",
       "rel": "2026-04-23",
       "ctx": 1050000,
       "in": 5,
@@ -1417,24 +877,6 @@
     {
       "n": "kimi-k2-6",
       "name": "Kimi K2.6",
-      "vn": "英伟达",
-      "rel": "2026-04-21",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "kimi-k2-6",
-      "name": "Kimi K2.6",
-      "vn": "月之暗面",
-      "rel": "2026-04-21",
-      "ctx": 262144,
-      "in": 0.95,
-      "open": 1
-    },
-    {
-      "n": "kimi-k2-6",
-      "name": "Kimi K2.6",
       "vn": "月之暗面",
       "rel": "2026-04-21",
       "ctx": 262144,
@@ -1482,15 +924,6 @@
       "name": "Qwen3.6 Max Preview",
       "vn": "阿里云",
       "rel": "2026-04-20",
-      "ctx": 262144,
-      "in": 1.3,
-      "open": 0
-    },
-    {
-      "n": "qwen3-6-max-preview",
-      "name": "Qwen3.6 Max Preview",
-      "vn": "阿里云",
-      "rel": "2026-04-20",
       "ctx": 245800,
       "in": 1.32,
       "open": 0
@@ -1532,15 +965,6 @@
       "open": 0
     },
     {
-      "n": "stepaudio-2-5-tts",
-      "name": "StepAudio 2.5 TTS",
-      "vn": "阶跃星辰",
-      "rel": "2026-04-16",
-      "ctx": 0,
-      "in": null,
-      "open": 0
-    },
-    {
       "n": "synthetic-video-detector",
       "name": "synthetic-video-detector",
       "vn": "英伟达",
@@ -1568,15 +992,6 @@
       "open": 1
     },
     {
-      "n": "claude-opus-4-7",
-      "name": "Claude Opus 4.7",
-      "vn": "Databricks",
-      "rel": "2026-04-16",
-      "ctx": 1000000,
-      "in": 5,
-      "open": 0
-    },
-    {
       "n": "gemini-3-1-flash-tts-preview",
       "name": "Gemini 3.1 Flash TTS Preview",
       "vn": "谷歌",
@@ -1593,15 +1008,6 @@
       "ctx": 1000000,
       "in": 5,
       "open": 0
-    },
-    {
-      "n": "glm-5-1",
-      "name": "GLM-5.1",
-      "vn": "阿里云",
-      "rel": "2026-04-14",
-      "ctx": 202752,
-      "in": 0.825,
-      "open": 1
     },
     {
       "n": "muse-spark-1-1",
@@ -1640,24 +1046,6 @@
       "open": 1
     },
     {
-      "n": "step-3-5-flash-2603",
-      "name": "Step 3.5 Flash 2603",
-      "vn": "阶跃星辰",
-      "rel": "2026-04-02",
-      "ctx": 256000,
-      "in": 0.1,
-      "open": 1
-    },
-    {
-      "n": "gemma-4-31b-it",
-      "name": "Gemma-4-31B-IT",
-      "vn": "英伟达",
-      "rel": "2026-04-02",
-      "ctx": 256000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "gemma-4-31b-it",
       "name": "Gemma 4 31B IT",
       "vn": "谷歌",
@@ -1682,24 +1070,6 @@
       "rel": "2026-04-02",
       "ctx": 1000000,
       "in": 0.5,
-      "open": 0
-    },
-    {
-      "n": "qwen3-6-plus",
-      "name": "Qwen3.6 Plus",
-      "vn": "阿里云",
-      "rel": "2026-04-02",
-      "ctx": 1000000,
-      "in": 0.5,
-      "open": 0
-    },
-    {
-      "n": "glm-5v-turbo",
-      "name": "GLM-5V-Turbo",
-      "vn": "智谱 AI",
-      "rel": "2026-04-01",
-      "ctx": 200000,
-      "in": 5,
       "open": 0
     },
     {
@@ -1748,15 +1118,6 @@
       "open": 0
     },
     {
-      "n": "glm-5-1",
-      "name": "GLM-5.1",
-      "vn": "智谱 AI",
-      "rel": "2026-03-27",
-      "ctx": 200000,
-      "in": 1.4,
-      "open": 0
-    },
-    {
       "n": "gemini-3-1-flash-live-preview",
       "name": "Gemini 3.1 Flash Live Preview",
       "vn": "谷歌",
@@ -1802,15 +1163,6 @@
       "open": 0
     },
     {
-      "n": "minimax-m2-7",
-      "name": "MiniMax-M2.7",
-      "vn": "英伟达",
-      "rel": "2026-03-18",
-      "ctx": 204800,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "minimax-m2-7-highspeed",
       "name": "MiniMax-M2.7-highspeed",
       "vn": "MiniMax",
@@ -1829,33 +1181,6 @@
       "open": 1
     },
     {
-      "n": "minimax-m2-7-highspeed",
-      "name": "MiniMax-M2.7-highspeed",
-      "vn": "MiniMax",
-      "rel": "2026-03-18",
-      "ctx": 204800,
-      "in": 0.6,
-      "open": 1
-    },
-    {
-      "n": "minimax-m2-7",
-      "name": "MiniMax-M2.7",
-      "vn": "MiniMax",
-      "rel": "2026-03-18",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
-      "n": "minimax-m2-7",
-      "name": "MiniMax-M2.7",
-      "vn": "阿里云",
-      "rel": "2026-03-18",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
       "n": "gpt-5-4-nano",
       "name": "GPT-5.4 nano",
       "vn": "OpenAI",
@@ -1868,24 +1193,6 @@
       "n": "gpt-5-4-mini",
       "name": "GPT-5.4 mini",
       "vn": "OpenAI",
-      "rel": "2026-03-17",
-      "ctx": 400000,
-      "in": 0.75,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-4-nano",
-      "name": "GPT-5.4 nano",
-      "vn": "Databricks",
-      "rel": "2026-03-17",
-      "ctx": 400000,
-      "in": 0.2,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-4-mini",
-      "name": "GPT-5.4 mini",
-      "vn": "Databricks",
       "rel": "2026-03-17",
       "ctx": 400000,
       "in": 0.75,
@@ -1956,29 +1263,11 @@
     },
     {
       "n": "grok-4-20",
-      "name": "Grok 4.20 (Reasoning)",
-      "vn": "xAI",
-      "rel": "2026-03-09",
-      "ctx": 1000000,
-      "in": 1.25,
-      "open": 0
-    },
-    {
-      "n": "grok-4-20",
       "name": "Grok 4.20 (Non-Reasoning)",
       "vn": "xAI",
       "rel": "2026-03-09",
       "ctx": 1000000,
       "in": 1.25,
-      "open": 0
-    },
-    {
-      "n": "auto",
-      "name": "Auto",
-      "vn": "腾讯混元",
-      "rel": "2026-03-08",
-      "ctx": 131072,
-      "in": 0,
       "open": 0
     },
     {
@@ -2036,15 +1325,6 @@
       "open": 0
     },
     {
-      "n": "gpt-5-4",
-      "name": "GPT-5.4",
-      "vn": "Databricks",
-      "rel": "2026-03-05",
-      "ctx": 1050000,
-      "in": 2.5,
-      "open": 0
-    },
-    {
       "n": "gpt-5-3-chat",
       "name": "GPT-5.3 Chat (latest)",
       "vn": "OpenAI",
@@ -2069,24 +1349,6 @@
       "rel": "2026-03-03",
       "ctx": 1048576,
       "in": 0.25,
-      "open": 0
-    },
-    {
-      "n": "gemini-3-1-flash-lite-preview",
-      "name": "Gemini 3.1 Flash Lite Preview",
-      "vn": "Databricks",
-      "rel": "2026-03-03",
-      "ctx": 1048576,
-      "in": 0.25,
-      "open": 0
-    },
-    {
-      "n": "step-tts-2",
-      "name": "Step TTS 2",
-      "vn": "阶跃星辰",
-      "rel": "2026-03-01",
-      "ctx": 0,
-      "in": null,
       "open": 0
     },
     {
@@ -2117,15 +1379,6 @@
       "open": 1
     },
     {
-      "n": "nano-banana-2",
-      "name": "Nano Banana 2",
-      "vn": "谷歌",
-      "rel": "2026-02-26",
-      "ctx": 65536,
-      "in": 0.5,
-      "open": 0
-    },
-    {
       "n": "mercury-2",
       "name": "Mercury 2",
       "vn": "Inception",
@@ -2133,15 +1386,6 @@
       "ctx": 128000,
       "in": 0.25,
       "open": 0
-    },
-    {
-      "n": "qwen3-5-122b-a10b",
-      "name": "Qwen3.5 122B-A10B",
-      "vn": "英伟达",
-      "rel": "2026-02-23",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "qwen3-5-35b-a3b",
@@ -2180,15 +1424,6 @@
       "open": 0
     },
     {
-      "n": "gemini-3-1-pro-preview-custom-tools",
-      "name": "Gemini 3.1 Pro Preview Custom Tools",
-      "vn": "谷歌",
-      "rel": "2026-02-19",
-      "ctx": 1048576,
-      "in": 2,
-      "open": 0
-    },
-    {
       "n": "gemini-3-1-pro-preview",
       "name": "Gemini 3.1 Pro Preview",
       "vn": "谷歌",
@@ -2200,7 +1435,7 @@
     {
       "n": "gemini-3-1-pro-preview-custom-tools",
       "name": "Gemini 3.1 Pro Preview Custom Tools",
-      "vn": "Databricks",
+      "vn": "谷歌",
       "rel": "2026-02-19",
       "ctx": 1048576,
       "in": 2,
@@ -2227,37 +1462,10 @@
     {
       "n": "claude-sonnet-4-6",
       "name": "Claude Sonnet 4.6",
-      "vn": "Databricks",
-      "rel": "2026-02-17",
-      "ctx": 1000000,
-      "in": 3,
-      "open": 0
-    },
-    {
-      "n": "claude-sonnet-4-6",
-      "name": "Claude Sonnet 4.6",
       "vn": "Anthropic",
       "rel": "2026-02-17",
       "ctx": 1000000,
       "in": 3,
-      "open": 0
-    },
-    {
-      "n": "qwen3-5-397b-a17b",
-      "name": "Qwen3.5-397B-A17B",
-      "vn": "英伟达",
-      "rel": "2026-02-16",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "qwen3-5-plus",
-      "name": "Qwen3.5 Plus",
-      "vn": "阿里云",
-      "rel": "2026-02-16",
-      "ctx": 1000000,
-      "in": 0.4,
       "open": 0
     },
     {
@@ -2276,15 +1484,6 @@
       "rel": "2026-02-16",
       "ctx": 262144,
       "in": 0.172,
-      "open": 1
-    },
-    {
-      "n": "qwen3-5-397b-a17b",
-      "name": "Qwen3.5 397B-A17B",
-      "vn": "阿里云",
-      "rel": "2026-02-15",
-      "ctx": 262144,
-      "in": 0.6,
       "open": 1
     },
     {
@@ -2333,15 +1532,6 @@
       "open": 1
     },
     {
-      "n": "minimax-m2-5-highspeed",
-      "name": "MiniMax-M2.5-highspeed",
-      "vn": "MiniMax",
-      "rel": "2026-02-13",
-      "ctx": 204800,
-      "in": 0.6,
-      "open": 1
-    },
-    {
       "n": "glm-5",
       "name": "GLM-5",
       "vn": "智谱 AI",
@@ -2353,65 +1543,11 @@
     {
       "n": "minimax-m2-5",
       "name": "MiniMax-M2.5",
-      "vn": "腾讯混元",
-      "rel": "2026-02-12",
-      "ctx": 204800,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "minimax-m2-5",
-      "name": "MiniMax-M2.5",
       "vn": "MiniMax",
       "rel": "2026-02-12",
       "ctx": 204800,
       "in": 0.3,
       "open": 1
-    },
-    {
-      "n": "minimax-m2-5",
-      "name": "MiniMax-M2.5",
-      "vn": "MiniMax",
-      "rel": "2026-02-12",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
-      "n": "minimax-m2-5",
-      "name": "MiniMax-M2.5",
-      "vn": "阿里云",
-      "rel": "2026-02-12",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
-      "n": "glm-5",
-      "name": "GLM-5",
-      "vn": "智谱 AI",
-      "rel": "2026-02-11",
-      "ctx": 204800,
-      "in": 1,
-      "open": 1
-    },
-    {
-      "n": "glm-5",
-      "name": "GLM-5",
-      "vn": "腾讯混元",
-      "rel": "2026-02-11",
-      "ctx": 202752,
-      "in": 0,
-      "open": 0
-    },
-    {
-      "n": "glm-5",
-      "name": "GLM-5",
-      "vn": "阿里云",
-      "rel": "2026-02-11",
-      "ctx": 202752,
-      "in": 0.573,
-      "open": 0
     },
     {
       "n": "llama-nemotron-embed-vl-1b-v2",
@@ -2443,29 +1579,11 @@
     {
       "n": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
-      "vn": "Databricks",
-      "rel": "2026-02-05",
-      "ctx": 1000000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "claude-opus-4-6",
-      "name": "Claude Opus 4.6",
       "vn": "Anthropic",
       "rel": "2026-02-04",
       "ctx": 1000000,
       "in": 5,
       "open": 0
-    },
-    {
-      "n": "step-3-5-flash",
-      "name": "Step 3.5 Flash",
-      "vn": "英伟达",
-      "rel": "2026-02-02",
-      "ctx": 256000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "voxtral-mini",
@@ -2475,15 +1593,6 @@
       "ctx": 0,
       "in": null,
       "open": 0
-    },
-    {
-      "n": "step-3-5-flash",
-      "name": "Step 3.5 Flash",
-      "vn": "阶跃星辰",
-      "rel": "2026-01-29",
-      "ctx": 256000,
-      "in": 0.1,
-      "open": 1
     },
     {
       "n": "step-3-5-flash",
@@ -2511,15 +1620,6 @@
       "ctx": 16000,
       "in": null,
       "open": 0
-    },
-    {
-      "n": "kimi-k2-5",
-      "name": "Kimi-K2.5",
-      "vn": "腾讯混元",
-      "rel": "2026-01-27",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "kimi-k2-5",
@@ -2554,24 +1654,6 @@
       "vn": "英伟达",
       "rel": "2026-01-22",
       "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-4-7-flashx",
-      "name": "GLM-4.7-FlashX",
-      "vn": "智谱 AI",
-      "rel": "2026-01-19",
-      "ctx": 200000,
-      "in": 0.07,
-      "open": 1
-    },
-    {
-      "n": "glm-4-7-flash",
-      "name": "GLM-4.7-Flash",
-      "vn": "智谱 AI",
-      "rel": "2026-01-19",
-      "ctx": 200000,
       "in": 0,
       "open": 1
     },
@@ -2648,24 +1730,6 @@
       "open": 1
     },
     {
-      "n": "minimax-m2-1",
-      "name": "MiniMax-M2.1",
-      "vn": "MiniMax",
-      "rel": "2025-12-23",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
-      "n": "glm-4-7",
-      "name": "GLM-4.7",
-      "vn": "智谱 AI",
-      "rel": "2025-12-22",
-      "ctx": 204800,
-      "in": 0.6,
-      "open": 1
-    },
-    {
       "n": "glm-4-7",
       "name": "GLM-4.7",
       "vn": "智谱 AI",
@@ -2678,15 +1742,6 @@
       "n": "gemini-3-flash-preview",
       "name": "Gemini 3 Flash Preview",
       "vn": "谷歌",
-      "rel": "2025-12-17",
-      "ctx": 1048576,
-      "in": 0.5,
-      "open": 0
-    },
-    {
-      "n": "gemini-3-flash-preview",
-      "name": "Gemini 3 Flash Preview",
-      "vn": "Databricks",
       "rel": "2025-12-17",
       "ctx": 1048576,
       "in": 0.5,
@@ -2747,15 +1802,6 @@
       "open": 0
     },
     {
-      "n": "gpt-5-2",
-      "name": "GPT-5.2",
-      "vn": "Databricks",
-      "rel": "2025-12-11",
-      "ctx": 400000,
-      "in": 1.75,
-      "open": 0
-    },
-    {
       "n": "devstral-small-2",
       "name": "Devstral Small 2",
       "vn": "Mistral",
@@ -2771,33 +1817,6 @@
       "rel": "2025-12-09",
       "ctx": 262144,
       "in": 0.4,
-      "open": 1
-    },
-    {
-      "n": "devstral-2",
-      "name": "Devstral 2",
-      "vn": "Mistral",
-      "rel": "2025-12-09",
-      "ctx": 262144,
-      "in": 0.4,
-      "open": 1
-    },
-    {
-      "n": "glm-4-6v-flash",
-      "name": "GLM-4.6V-Flash",
-      "vn": "智谱 AI",
-      "rel": "2025-12-08",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-4-6v",
-      "name": "GLM-4.6V",
-      "vn": "智谱 AI",
-      "rel": "2025-12-08",
-      "ctx": 128000,
-      "in": 0.3,
       "open": 1
     },
     {
@@ -2846,15 +1865,6 @@
       "open": 1
     },
     {
-      "n": "devstral-2",
-      "name": "Devstral 2 (latest)",
-      "vn": "Mistral",
-      "rel": "2025-12-02",
-      "ctx": 262144,
-      "in": 0.4,
-      "open": 1
-    },
-    {
       "n": "cosmos-reason2-8b",
       "name": "Cosmos Reason2 8B",
       "vn": "英伟达",
@@ -2875,37 +1885,10 @@
     {
       "n": "claude-opus-4-5",
       "name": "Claude Opus 4.5 (latest)",
-      "vn": "Databricks",
-      "rel": "2025-11-24",
-      "ctx": 200000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "claude-opus-4-5",
-      "name": "Claude Opus 4.5",
       "vn": "Anthropic",
       "rel": "2025-11-24",
       "ctx": 200000,
       "in": 5,
-      "open": 0
-    },
-    {
-      "n": "claude-opus-4-5",
-      "name": "Claude Opus 4.5 (latest)",
-      "vn": "Anthropic",
-      "rel": "2025-11-24",
-      "ctx": 200000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "nano-banana-pro",
-      "name": "Nano Banana Pro",
-      "vn": "谷歌",
-      "rel": "2025-11-20",
-      "ctx": 131072,
-      "in": 2,
       "open": 0
     },
     {
@@ -2915,15 +1898,6 @@
       "rel": "2025-11-18",
       "ctx": 1048576,
       "in": 2,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-1",
-      "name": "GPT-5.1",
-      "vn": "OpenAI",
-      "rel": "2025-11-13",
-      "ctx": 400000,
-      "in": 1.25,
       "open": 0
     },
     {
@@ -2938,7 +1912,7 @@
     {
       "n": "gpt-5-1",
       "name": "GPT-5.1",
-      "vn": "Databricks",
+      "vn": "OpenAI",
       "rel": "2025-11-13",
       "ctx": 400000,
       "in": 1.25,
@@ -2981,15 +1955,6 @@
       "open": 1
     },
     {
-      "n": "minimax-m2",
-      "name": "MiniMax-M2",
-      "vn": "MiniMax",
-      "rel": "2025-10-27",
-      "ctx": 204800,
-      "in": 0.3,
-      "open": 1
-    },
-    {
       "n": "seed-1-6",
       "name": "Seed 1.6",
       "vn": "字节跳动",
@@ -3014,24 +1979,6 @@
       "rel": "2025-10-15",
       "ctx": 480,
       "in": null,
-      "open": 0
-    },
-    {
-      "n": "claude-haiku-4-5",
-      "name": "Claude Haiku 4.5 (latest)",
-      "vn": "Databricks",
-      "rel": "2025-10-15",
-      "ctx": 200000,
-      "in": 1,
-      "open": 0
-    },
-    {
-      "n": "claude-haiku-4-5",
-      "name": "Claude Haiku 4.5",
-      "vn": "Anthropic",
-      "rel": "2025-10-15",
-      "ctx": 200000,
-      "in": 1,
       "open": 0
     },
     {
@@ -3089,42 +2036,6 @@
       "open": 1
     },
     {
-      "n": "glm-4-6",
-      "name": "GLM-4.6",
-      "vn": "智谱 AI",
-      "rel": "2025-09-30",
-      "ctx": 204800,
-      "in": 0.6,
-      "open": 1
-    },
-    {
-      "n": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5 (latest)",
-      "vn": "Databricks",
-      "rel": "2025-09-29",
-      "ctx": 200000,
-      "in": 3,
-      "open": 0
-    },
-    {
-      "n": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5",
-      "vn": "Databricks",
-      "rel": "2025-09-29",
-      "ctx": 200000,
-      "in": 3,
-      "open": 0
-    },
-    {
-      "n": "claude-sonnet-4-5",
-      "name": "Claude Sonnet 4.5",
-      "vn": "Anthropic",
-      "rel": "2025-09-29",
-      "ctx": 1000000,
-      "in": 3,
-      "open": 0
-    },
-    {
       "n": "claude-sonnet-4-5",
       "name": "Claude Sonnet 4.5 (latest)",
       "vn": "Anthropic",
@@ -3152,39 +2063,12 @@
       "open": 0
     },
     {
-      "n": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "vn": "英伟达",
-      "rel": "2025-09-25",
-      "ctx": 131072,
-      "in": 0,
-      "open": 0
-    },
-    {
       "n": "magistral-small-2506",
       "name": "Magistral Small 2506",
       "vn": "英伟达",
       "rel": "2025-09-25",
       "ctx": 32768,
       "in": 0,
-      "open": 0
-    },
-    {
-      "n": "qwen3-vl-plus",
-      "name": "Qwen3-VL Plus",
-      "vn": "阿里云",
-      "rel": "2025-09-23",
-      "ctx": 262144,
-      "in": 0.2,
-      "open": 0
-    },
-    {
-      "n": "qwen3-max",
-      "name": "Qwen3 Max",
-      "vn": "阿里云",
-      "rel": "2025-09-23",
-      "ctx": 262144,
-      "in": 1.2,
       "open": 0
     },
     {
@@ -3211,24 +2095,6 @@
       "vn": "阿里云",
       "rel": "2025-09-15",
       "ctx": 65536,
-      "in": 0.52,
-      "open": 0
-    },
-    {
-      "n": "qwen3-omni-flash",
-      "name": "Qwen3-Omni Flash",
-      "vn": "阿里云",
-      "rel": "2025-09-15",
-      "ctx": 65536,
-      "in": 0.43,
-      "open": 0
-    },
-    {
-      "n": "qwen3-omni-flash-realtime",
-      "name": "Qwen3-Omni Flash Realtime",
-      "vn": "阿里云",
-      "rel": "2025-09-15",
-      "ctx": 65536,
       "in": 0.23,
       "open": 0
     },
@@ -3239,15 +2105,6 @@
       "rel": "2025-09-15",
       "ctx": 65536,
       "in": 0.058,
-      "open": 0
-    },
-    {
-      "n": "qwen3-asr-flash",
-      "name": "Qwen3-ASR Flash",
-      "vn": "阿里云",
-      "rel": "2025-09-08",
-      "ctx": 53248,
-      "in": 0.035,
       "open": 0
     },
     {
@@ -3276,24 +2133,6 @@
       "ctx": 262000,
       "in": 0,
       "open": 0
-    },
-    {
-      "n": "qwen3-next-80b-a3b",
-      "name": "Qwen3-Next 80B-A3B (Thinking)",
-      "vn": "阿里云",
-      "rel": "2025-09-01",
-      "ctx": 131072,
-      "in": 0.5,
-      "open": 1
-    },
-    {
-      "n": "qwen3-next-80b-a3b-instruct",
-      "name": "Qwen3-Next 80B-A3B Instruct",
-      "vn": "阿里云",
-      "rel": "2025-09-01",
-      "ctx": 131072,
-      "in": 0.5,
-      "open": 1
     },
     {
       "n": "qwen3-next-80b-a3b",
@@ -3404,42 +2243,6 @@
       "open": 1
     },
     {
-      "n": "glm-4-5v",
-      "name": "GLM-4.5V",
-      "vn": "智谱 AI",
-      "rel": "2025-08-11",
-      "ctx": 64000,
-      "in": 0.6,
-      "open": 1
-    },
-    {
-      "n": "gpt-5-nano",
-      "name": "GPT-5 Nano",
-      "vn": "OpenAI",
-      "rel": "2025-08-07",
-      "ctx": 400000,
-      "in": 0.05,
-      "open": 0
-    },
-    {
-      "n": "gpt-5-mini",
-      "name": "GPT-5 Mini",
-      "vn": "OpenAI",
-      "rel": "2025-08-07",
-      "ctx": 400000,
-      "in": 0.25,
-      "open": 0
-    },
-    {
-      "n": "gpt-5",
-      "name": "GPT-5",
-      "vn": "OpenAI",
-      "rel": "2025-08-07",
-      "ctx": 400000,
-      "in": 1.25,
-      "open": 0
-    },
-    {
       "n": "qwen-image",
       "name": "Qwen Image",
       "vn": "英伟达",
@@ -3451,7 +2254,7 @@
     {
       "n": "gpt-5-nano",
       "name": "GPT-5 Nano",
-      "vn": "Databricks",
+      "vn": "OpenAI",
       "rel": "2025-08-07",
       "ctx": 400000,
       "in": 0.05,
@@ -3460,7 +2263,7 @@
     {
       "n": "gpt-5-mini",
       "name": "GPT-5 Mini",
-      "vn": "Databricks",
+      "vn": "OpenAI",
       "rel": "2025-08-07",
       "ctx": 400000,
       "in": 0.25,
@@ -3469,7 +2272,7 @@
     {
       "n": "gpt-5",
       "name": "GPT-5",
-      "vn": "Databricks",
+      "vn": "OpenAI",
       "rel": "2025-08-07",
       "ctx": 400000,
       "in": 1.25,
@@ -3478,28 +2281,10 @@
     {
       "n": "gpt-oss-20b",
       "name": "GPT OSS 20B",
-      "vn": "英伟达",
-      "rel": "2025-08-05",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "gpt-oss-20b",
-      "name": "GPT OSS 20B",
       "vn": "Databricks",
       "rel": "2025-08-05",
       "ctx": 131072,
       "in": 0.05,
-      "open": 1
-    },
-    {
-      "n": "gpt-oss-120b",
-      "name": "GPT OSS 120B",
-      "vn": "Databricks",
-      "rel": "2025-08-05",
-      "ctx": 131072,
-      "in": 0.072,
       "open": 1
     },
     {
@@ -3518,15 +2303,6 @@
       "rel": "2025-08-05",
       "ctx": 131072,
       "in": 0.35,
-      "open": 1
-    },
-    {
-      "n": "gpt-oss-120b",
-      "name": "GPT-OSS-120B",
-      "vn": "英伟达",
-      "rel": "2025-08-04",
-      "ctx": 128000,
-      "in": 0,
       "open": 1
     },
     {
@@ -3564,51 +2340,6 @@
       "ctx": 131072,
       "in": 0.6,
       "open": 1
-    },
-    {
-      "n": "glm-4-5-flash",
-      "name": "GLM-4.5-Flash",
-      "vn": "智谱 AI",
-      "rel": "2025-07-28",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "glm-4-5-air",
-      "name": "GLM-4.5-Air",
-      "vn": "智谱 AI",
-      "rel": "2025-07-28",
-      "ctx": 131072,
-      "in": 0.2,
-      "open": 1
-    },
-    {
-      "n": "glm-4-5",
-      "name": "GLM-4.5",
-      "vn": "智谱 AI",
-      "rel": "2025-07-28",
-      "ctx": 131072,
-      "in": 0.6,
-      "open": 1
-    },
-    {
-      "n": "qwen3-coder-flash",
-      "name": "Qwen3 Coder Flash",
-      "vn": "阿里云",
-      "rel": "2025-07-28",
-      "ctx": 1000000,
-      "in": 0.3,
-      "open": 0
-    },
-    {
-      "n": "qwen-flash",
-      "name": "Qwen Flash",
-      "vn": "阿里云",
-      "rel": "2025-07-28",
-      "ctx": 1000000,
-      "in": 0.05,
-      "open": 0
     },
     {
       "n": "qwen3-coder-flash",
@@ -3662,24 +2393,6 @@
       "rel": "2025-07-24",
       "ctx": 32768,
       "in": 0,
-      "open": 1
-    },
-    {
-      "n": "qwen3-coder-480b-a35b-instruct",
-      "name": "Qwen3 Coder 480B A35B Instruct",
-      "vn": "英伟达",
-      "rel": "2025-07-23",
-      "ctx": 262144,
-      "in": 0,
-      "open": 0
-    },
-    {
-      "n": "qwen3-coder-plus",
-      "name": "Qwen3 Coder Plus",
-      "vn": "阿里云",
-      "rel": "2025-07-23",
-      "ctx": 1048576,
-      "in": 1,
       "open": 1
     },
     {
@@ -3737,15 +2450,6 @@
       "open": 1
     },
     {
-      "n": "gemini-2-5-pro",
-      "name": "Gemini 2.5 Pro",
-      "vn": "谷歌",
-      "rel": "2025-06-17",
-      "ctx": 1048576,
-      "in": 1.25,
-      "open": 0
-    },
-    {
       "n": "gemini-2-5-flash-lite",
       "name": "Gemini 2.5 Flash-Lite",
       "vn": "谷歌",
@@ -3755,18 +2459,9 @@
       "open": 0
     },
     {
-      "n": "gemini-2-5-flash",
-      "name": "Gemini 2.5 Flash",
-      "vn": "谷歌",
-      "rel": "2025-06-17",
-      "ctx": 1048576,
-      "in": 0.3,
-      "open": 0
-    },
-    {
       "n": "gemini-2-5-pro",
       "name": "Gemini 2.5 Pro",
-      "vn": "Databricks",
+      "vn": "谷歌",
       "rel": "2025-06-17",
       "ctx": 1048576,
       "in": 1.25,
@@ -3775,7 +2470,7 @@
     {
       "n": "gemini-2-5-flash",
       "name": "Gemini 2.5 Flash",
-      "vn": "Databricks",
+      "vn": "谷歌",
       "rel": "2025-06-17",
       "ctx": 1048576,
       "in": 0.3,
@@ -3828,15 +2523,6 @@
     },
     {
       "n": "deepseek-r1-0528",
-      "name": "siliconflow/deepseek-r1-0528",
-      "vn": "阿里云",
-      "rel": "2025-05-28",
-      "ctx": 163840,
-      "in": 0.5,
-      "open": 0
-    },
-    {
-      "n": "deepseek-r1-0528",
       "name": "DeepSeek R1 0528",
       "vn": "阿里云",
       "rel": "2025-05-28",
@@ -3869,15 +2555,6 @@
       "rel": "2025-05-20",
       "ctx": 2048,
       "in": 0.15,
-      "open": 0
-    },
-    {
-      "n": "qwen-omni-turbo-realtime",
-      "name": "Qwen-Omni Turbo Realtime",
-      "vn": "阿里云",
-      "rel": "2025-05-08",
-      "ctx": 32768,
-      "in": 0.27,
       "open": 0
     },
     {
@@ -4093,78 +2770,6 @@
       "vn": "阿里云",
       "rel": "2025-04-01",
       "ctx": 131072,
-      "in": 0.2,
-      "open": 1
-    },
-    {
-      "n": "qwen3-vl-235b-a22b",
-      "name": "Qwen3-VL 235B-A22B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
-      "in": 0.7,
-      "open": 1
-    },
-    {
-      "n": "qwen3-coder-480b-a35b-instruct",
-      "name": "Qwen3-Coder 480B-A35B Instruct",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 262144,
-      "in": 1.5,
-      "open": 1
-    },
-    {
-      "n": "qwen3-coder-30b-a3b-instruct",
-      "name": "Qwen3-Coder 30B-A3B Instruct",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 262144,
-      "in": 0.45,
-      "open": 1
-    },
-    {
-      "n": "qwen3-8b",
-      "name": "Qwen3 8B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
-      "in": 0.18,
-      "open": 1
-    },
-    {
-      "n": "qwen3-32b",
-      "name": "Qwen3 32B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
-      "in": 0.7,
-      "open": 1
-    },
-    {
-      "n": "qwen3-235b-a22b",
-      "name": "Qwen3 235B-A22B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
-      "in": 0.7,
-      "open": 1
-    },
-    {
-      "n": "qwen3-14b",
-      "name": "Qwen3 14B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
-      "in": 0.35,
-      "open": 1
-    },
-    {
-      "n": "qwen3-vl-30b-a3b",
-      "name": "Qwen3-VL 30B-A3B",
-      "vn": "阿里云",
-      "rel": "2025-04-01",
-      "ctx": 131072,
       "in": 0.108,
       "open": 1
     },
@@ -4230,15 +2835,6 @@
       "ctx": 131072,
       "in": 0.144,
       "open": 1
-    },
-    {
-      "n": "qvq-max",
-      "name": "QVQ Max",
-      "vn": "阿里云",
-      "rel": "2025-03-25",
-      "ctx": 131072,
-      "in": 1.2,
-      "open": 0
     },
     {
       "n": "qvq-max",
@@ -4354,15 +2950,6 @@
       "vn": "阿里云",
       "rel": "2025-03-05",
       "ctx": 131072,
-      "in": 0.8,
-      "open": 0
-    },
-    {
-      "n": "qwq-plus",
-      "name": "QwQ Plus",
-      "vn": "阿里云",
-      "rel": "2025-03-05",
-      "ctx": 131072,
       "in": 0.23,
       "open": 0
     },
@@ -4417,34 +3004,7 @@
       "vn": "阿里云",
       "rel": "2025-01-19",
       "ctx": 32768,
-      "in": 0.07,
-      "open": 0
-    },
-    {
-      "n": "qwen-omni-turbo",
-      "name": "Qwen-Omni Turbo",
-      "vn": "阿里云",
-      "rel": "2025-01-19",
-      "ctx": 32768,
       "in": 0.058,
-      "open": 0
-    },
-    {
-      "n": "step-2",
-      "name": "Step 2 (16K)",
-      "vn": "阶跃星辰",
-      "rel": "2025-01-01",
-      "ctx": 16384,
-      "in": 5.21,
-      "open": 0
-    },
-    {
-      "n": "step-1",
-      "name": "Step 1 (32K)",
-      "vn": "阶跃星辰",
-      "rel": "2025-01-01",
-      "ctx": 32768,
-      "in": 2.05,
       "open": 0
     },
     {
@@ -4473,24 +3033,6 @@
       "ctx": 16000,
       "in": 0,
       "open": 1
-    },
-    {
-      "n": "qwen-mt-turbo",
-      "name": "Qwen-MT Turbo",
-      "vn": "阿里云",
-      "rel": "2025-01-01",
-      "ctx": 16384,
-      "in": 0.16,
-      "open": 0
-    },
-    {
-      "n": "qwen-mt-plus",
-      "name": "Qwen-MT Plus",
-      "vn": "阿里云",
-      "rel": "2025-01-01",
-      "ctx": 16384,
-      "in": 2.46,
-      "open": 0
     },
     {
       "n": "qwen-mt-turbo",
@@ -4655,15 +3197,6 @@
       "open": 1
     },
     {
-      "n": "qwen3-next-80b-a3b-instruct",
-      "name": "Qwen3-Next-80B-A3B-Instruct",
-      "vn": "英伟达",
-      "rel": "2024-12-01",
-      "ctx": 262144,
-      "in": 0,
-      "open": 0
-    },
-    {
       "n": "nemotron-3-nano-30b-a3b",
       "name": "nemotron-3-nano-30b-a3b",
       "vn": "英伟达",
@@ -4679,15 +3212,6 @@
       "rel": "2024-12-01",
       "ctx": 131072,
       "in": 0,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-omni-7b",
-      "name": "Qwen2.5-Omni 7B",
-      "vn": "阿里云",
-      "rel": "2024-12-01",
-      "ctx": 32768,
-      "in": 0.1,
       "open": 1
     },
     {
@@ -4718,39 +3242,12 @@
       "open": 0
     },
     {
-      "n": "llama-3-3-70b-instruct",
-      "name": "Llama 3.3 70b Instruct",
-      "vn": "英伟达",
-      "rel": "2024-11-26",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "gpt-4o",
-      "name": "GPT-4o (2024-11-20)",
-      "vn": "OpenAI",
-      "rel": "2024-11-20",
-      "ctx": 128000,
-      "in": 2.5,
-      "open": 0
-    },
-    {
       "n": "mistral-large-2-1",
       "name": "Mistral Large 2.1",
       "vn": "Mistral",
       "rel": "2024-11-18",
       "ctx": 131072,
       "in": 2,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-coder-32b-instruct",
-      "name": "Qwen2.5 Coder 32b Instruct",
-      "vn": "英伟达",
-      "rel": "2024-11-06",
-      "ctx": 128000,
-      "in": 0,
       "open": 1
     },
     {
@@ -4781,15 +3278,6 @@
       "open": 1
     },
     {
-      "n": "qwen-turbo",
-      "name": "Qwen Turbo",
-      "vn": "阿里云",
-      "rel": "2024-11-01",
-      "ctx": 1000000,
-      "in": 0.05,
-      "open": 0
-    },
-    {
       "n": "qwen2-5-coder-7b-instruct",
       "name": "Qwen2.5-Coder 7B Instruct",
       "vn": "阿里云",
@@ -4814,15 +3302,6 @@
       "rel": "2024-11-01",
       "ctx": 1000000,
       "in": 0.044,
-      "open": 0
-    },
-    {
-      "n": "qwen-vl-ocr",
-      "name": "Qwen-VL OCR",
-      "vn": "阿里云",
-      "rel": "2024-10-28",
-      "ctx": 34096,
-      "in": 0.72,
       "open": 0
     },
     {
@@ -4948,60 +3427,6 @@
       "vn": "阿里云",
       "rel": "2024-09-01",
       "ctx": 131072,
-      "in": 0.35,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-vl-72b-instruct",
-      "name": "Qwen2.5-VL 72B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 2.8,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-7b-instruct",
-      "name": "Qwen2.5 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.175,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-72b-instruct",
-      "name": "Qwen2.5 72B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 1.4,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-32b-instruct",
-      "name": "Qwen2.5 32B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.7,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-14b-instruct",
-      "name": "Qwen2.5 14B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.35,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-vl-7b-instruct",
-      "name": "Qwen2.5-VL 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
       "in": 0.287,
       "open": 1
     },
@@ -5070,15 +3495,6 @@
     },
     {
       "n": "command-r",
-      "name": "Command R+",
-      "vn": "Cohere",
-      "rel": "2024-08-30",
-      "ctx": 128000,
-      "in": 2.5,
-      "open": 1
-    },
-    {
-      "n": "command-r",
       "name": "Command R",
       "vn": "Cohere",
       "rel": "2024-08-30",
@@ -5129,15 +3545,6 @@
       "rel": "2024-08-15",
       "ctx": 16000,
       "in": 0.8,
-      "open": 0
-    },
-    {
-      "n": "gpt-4o",
-      "name": "GPT-4o (2024-08-06)",
-      "vn": "OpenAI",
-      "rel": "2024-08-06",
-      "ctx": 128000,
-      "in": 2.5,
       "open": 0
     },
     {
@@ -5295,15 +3702,6 @@
     },
     {
       "n": "gpt-4o",
-      "name": "GPT-4o (2024-05-13)",
-      "vn": "OpenAI",
-      "rel": "2024-05-13",
-      "ctx": 128000,
-      "in": 5,
-      "open": 0
-    },
-    {
-      "n": "gpt-4o",
       "name": "GPT-4o",
       "vn": "OpenAI",
       "rel": "2024-05-13",
@@ -5335,25 +3733,7 @@
       "vn": "阿里云",
       "rel": "2024-04-08",
       "ctx": 131072,
-      "in": 0.8,
-      "open": 0
-    },
-    {
-      "n": "qwen-vl-max",
-      "name": "Qwen-VL Max",
-      "vn": "阿里云",
-      "rel": "2024-04-08",
-      "ctx": 131072,
       "in": 0.23,
-      "open": 0
-    },
-    {
-      "n": "qwen-max",
-      "name": "Qwen Max",
-      "vn": "阿里云",
-      "rel": "2024-04-03",
-      "ctx": 32768,
-      "in": 1.6,
       "open": 0
     },
     {
@@ -5416,24 +3796,6 @@
       "vn": "阿里云",
       "rel": "2024-01-25",
       "ctx": 131072,
-      "in": 0.21,
-      "open": 0
-    },
-    {
-      "n": "qwen-plus",
-      "name": "Qwen Plus",
-      "vn": "阿里云",
-      "rel": "2024-01-25",
-      "ctx": 1000000,
-      "in": 0.4,
-      "open": 0
-    },
-    {
-      "n": "qwen-vl-plus",
-      "name": "Qwen-VL Plus",
-      "vn": "阿里云",
-      "rel": "2024-01-25",
-      "ctx": 131072,
       "in": 0.115,
       "open": 0
     },
@@ -5471,15 +3833,6 @@
       "rel": "2024-01-01",
       "ctx": 128000,
       "in": 1,
-      "open": 0
-    },
-    {
-      "n": "qwen-plus-character",
-      "name": "Qwen Plus Character (Japanese)",
-      "vn": "阿里云",
-      "rel": "2024-01-01",
-      "ctx": 8192,
-      "in": 0.5,
       "open": 0
     },
     {

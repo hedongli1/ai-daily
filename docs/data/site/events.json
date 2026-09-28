@@ -6,6 +6,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "deepseek",
       "vendorName": "DeepSeek",
       "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
@@ -14,19 +27,6 @@
       "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
       "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-09-27",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -53,19 +53,6 @@
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "date": "2026-09-26",
-      "facts": {},
-      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "href": "https://github.com/QwenLM/FlashQLA/releases",
-      "source": "Qwen",
       "external": true
     },
     {
