@@ -1,0 +1,10 @@
+{
+  "note": "B站矿脉搜索查询配置。脚本 scripts/fetch-bilibili.js 逐条读取，按 order 排序抓取公开搜索结果，落成 q*.json 后由 build-bilibili.js 编译。改这里即可调整矿脉覆盖的话题。",
+  "queries": [
+    { "keyword": "大模型", "order": "pubdate" },
+    { "keyword": "多模态大模型", "order": "pubdate" },
+    { "keyword": "开源大模型", "order": "pubdate" },
+    { "keyword": "大模型评测", "order": "pubdate" },
+    { "keyword": "AI新模型", "order": "pubdate" }
+  ]
+}
