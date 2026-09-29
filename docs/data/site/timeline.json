@@ -2,6 +2,15 @@
   "date": "2026-09-29",
   "timeline": [
     {
+      "n": "claude-sonnet-5-5",
+      "name": "Claude Sonnet 5.5",
+      "vn": "Anthropic",
+      "rel": "2026-09-28",
+      "ctx": 1000000,
+      "in": 2,
+      "open": 0
+    },
+    {
       "n": "mimo-v2-6-pro",
       "name": "MiMo-V2.6-Pro",
       "vn": "小米",

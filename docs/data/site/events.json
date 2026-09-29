@@ -83,6 +83,37 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "anthropic/Claude Sonnet 5.5",
+      "vendor": "anthropic",
+      "vendorName": "Anthropic",
+      "name": "Claude Sonnet 5.5",
+      "date": "2026-09-28",
+      "facts": {
+        "ctx": 1000000,
+        "in": 2,
+        "outCost": 10,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Claude Sonnet 5.5 · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/claude-sonnet-5-5/",
+      "shared": 15
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "The Lenfest Institute grows landmark program with expanded OpenAI support",
@@ -91,6 +122,45 @@
       "text": "The Lenfest Institute grows landmark program with expanded OpenAI support",
       "href": "https://openai.com/index/lenfest-ai-collaborative-expansion",
       "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Are you a Codex Original?",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "Are you a Codex Original?",
+      "href": "https://openai.com/form/codex-originals",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+      "href": "https://openai.com/index/basis-tax-workbook-with-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
+      "href": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
+      "source": "Google Blog · AI",
       "external": true
     },
     {
@@ -124,19 +194,6 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
       "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "date": "2026-09-28",
       "facts": {},
@@ -156,6 +213,32 @@
       "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
       "href": "https://github.com/QwenLM/FlashQLA/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -194,19 +277,6 @@
       "facts": {},
       "text": "platform-docs-public · 仓库更新",
       "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
