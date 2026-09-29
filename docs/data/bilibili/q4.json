@@ -1,47 +1,68 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-09-29T16:14:39.527Z",
+ "fetchedAt": "2026-09-29T23:53:34.743Z",
  "rows": [
+  {
+   "title": "实测Claude Sonnet 5.5：20美元套餐接近Opus",
+   "up": "",
+   "play": 3,
+   "pub": "2026/9/29",
+   "bvid": "BV1E3aR6KExw"
+  },
+  {
+   "title": "以防你不知道，马斯克抢注了GPT dot域名，并且指向了grokbot官网",
+   "up": "",
+   "play": 500,
+   "pub": "2026/9/29",
+   "bvid": "BV1cCaX6iEWn"
+  },
   {
    "title": "拉扎维模拟电路分析评测集介绍（Opus 5.5 一键生成）",
    "up": "",
-   "play": 381,
+   "play": 585,
    "pub": "2026/9/29",
    "bvid": "BV1FDan6rEBc"
   },
   {
    "title": "性价比与低功耗实用均衡的T10 16GB显卡，27b大模型功耗与推理速度实测对比",
    "up": "",
-   "play": 194,
+   "play": 394,
    "pub": "2026/9/29",
    "bvid": "BV16taH6LE2J"
   },
   {
    "title": "《奇迹工厂》体验报告：居然能用自然语言控制单位，有大模型吗？",
    "up": "",
-   "play": 181,
+   "play": 288,
    "pub": "2026/9/29",
    "bvid": "BV1YyaH6eEJd"
   },
   {
    "title": "2026最热AI大模型测试三阶段！AI大模型评测与自动化实战，别再盲目自学了，3小时测Agent入门精通",
    "up": "",
-   "play": 253,
+   "play": 537,
    "pub": "2026/9/29",
    "bvid": "BV1WPap6DEgN"
   },
   {
    "title": "手把手带你微调 Deepseek‑OCR！AutoDL 部署、AnsLoss 推理、LoRA 微调、CER 评测全流程",
    "up": "",
-   "play": 139,
+   "play": 211,
    "pub": "2026/9/29",
    "bvid": "BV1C7aJ65E1o"
   },
   {
+   "title": "Claude Sonnet 5.5 实测：半价能打 Opus 5.5 吗？花费只要 37%",
+   "up": "",
+   "play": 155,
+   "pub": "2026/9/29",
+   "bvid": "BV117aJ65EHt"
+  },
+  {
    "title": "3万转电机装进一个巴掌大的遥控车里？1：43飞驰人生·奥迪正版授权拉力赛车开箱评测",
    "up": "",
-   "play": 183,
+   "play": 225,
    "pub": "2026/9/29",
    "bvid": "BV1R6aJ6bEAd"
   },
@@ -62,28 +83,28 @@
   {
    "title": "显卡性价比首选 专业卡RTX PRO 5000测评#显卡 #大模型 #服务器 #工作站 #RTX pro5000",
    "up": "",
-   "play": 1,
+   "play": 2,
    "pub": "2026/9/29",
    "bvid": "BV1jgaE6cE1k"
   },
   {
    "title": "【中字】国外博主实测：12G显卡竟跑180B大模型，3倍速度的秘密",
    "up": "",
-   "play": 34,
+   "play": 39,
    "pub": "2026/9/29",
    "bvid": "BV1r7a76iEiy"
   },
   {
    "title": "【中字】老外测评美国最强开源模型Inkling Small，吊打英伟达旗舰！",
    "up": "",
-   "play": 5,
+   "play": 6,
    "pub": "2026/9/29",
    "bvid": "BV1NhaE62Efa"
   },
   {
    "title": "发明项目：DS硬邦邦Coding|发明人：正负等式",
    "up": "",
-   "play": 23887,
+   "play": 26854,
    "pub": "2026/9/29",
    "bvid": "BV1QFaJ6dE7T"
   },
@@ -97,14 +118,14 @@
   {
    "title": "Claude Sonnet 5.5 这是要抄家伙干自家大哥 Fable 5.1？| 浪浪妈雷达图",
    "up": "",
-   "play": 16584,
+   "play": 17235,
    "pub": "2026/9/29",
    "bvid": "BV1mMa76kE1m"
   },
   {
    "title": "【全网最细】AI视频生图模型大评测，生图到底哪家强？",
    "up": "",
-   "play": 2135,
+   "play": 2236,
    "pub": "2026/9/28",
    "bvid": "BV1RSaj6RE7Y"
   },
@@ -118,30 +139,9 @@
   {
    "title": "一分钟玩具开盒-大冬瓜 风火轮银标潘通系列KOOL KOMBI开盒科普把玩评测",
    "up": "",
-   "play": 969,
+   "play": 990,
    "pub": "2026/9/28",
    "bvid": "BV1esaV6LEQt"
-  },
-  {
-   "title": "Minimax M3.1 Flash 实测：分数很高，但实际生成表现到底稳不稳？",
-   "up": "",
-   "play": 1566,
-   "pub": "2026/9/28",
-   "bvid": "BV1bvaV6BE2C"
-  },
-  {
-   "title": "10 做完一单，谁也不知道做得好不好：给 Agent 建评测与轨迹，第 73 到第 80 步",
-   "up": "",
-   "play": 15,
-   "pub": "2026/9/28",
-   "bvid": "BV1Xsa36qEWA"
-  },
-  {
-   "title": "【中字】老外实测小米新模型：便宜版竟把旗舰按在地上摩擦",
-   "up": "",
-   "play": 45,
-   "pub": "2026/9/28",
-   "bvid": "BV1rNa36nEoA"
   }
  ]
 }

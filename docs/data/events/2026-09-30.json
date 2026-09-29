@@ -4,12 +4,12 @@
   "mode": "diff",
   "baselineDate": "2026-09-29",
   "counts": {
-    "new": 0,
+    "new": 1,
     "retired": 2,
     "price": 7,
     "context": 0,
-    "news": 19,
-    "facts": 9,
+    "news": 24,
+    "facts": 10,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,19 +50,19 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "meta-llama",
       "label": "Meta Llama",
-      "status": "empty",
-      "count": 0
+      "status": "ok",
+      "count": 1
     },
     {
       "id": "mistralai",
@@ -99,13 +99,18 @@
       "href": "/models/mistral-small-4/",
       "evidence": [
         {
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "source": "Mistral AI"
+        },
+        {
           "title": "platform-docs-public · 仓库更新",
           "url": "https://github.com/mistralai/platform-docs-public/releases",
           "source": "Mistral AI"
         },
         {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
+          "url": "https://github.com/mistralai/mistral-common/releases",
           "source": "Mistral AI"
         },
         {
@@ -263,6 +268,105 @@
       "href": "/vendors/mistral/"
     },
     {
+      "type": "new",
+      "key": "openai/GPT-6.1 Sol",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.1 Sol",
+      "date": "2026-09-29",
+      "facts": {
+        "ctx": 1050000,
+        "in": 2,
+        "outCost": 10,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6.1 Sol · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/gpt-6-1-sol/",
+      "shared": 16,
+      "evidence": [
+        {
+          "title": "Introducing GPT-6.1 Sol",
+          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
+          "source": "OpenAI"
+        },
+        {
+          "title": "DevDay 2026 Recap",
+          "url": "https://openai.com/index/devday-2026-recap",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Introducing dots",
+          "url": "https://openai.com/index/introducing-dots",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Towards safety cases for frontier AI training",
+          "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+          "source": "OpenAI"
+        },
+        {
+          "title": "How we will do better for Australia",
+          "url": "https://openai.com/index/how-we-will-do-better-for-australia",
+          "source": "OpenAI"
+        },
+        {
+          "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
+          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Are you a Codex Original?",
+          "url": "https://openai.com/form/codex-originals",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
+          "url": "https://openai.com/index/basis-tax-workbook-with-astra",
+          "source": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing GPT-6.1 Sol",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "Introducing GPT-6.1 Sol",
+      "href": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "DevDay 2026 Recap",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "DevDay 2026 Recap",
+      "href": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing dots",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "Introducing dots",
+      "href": "https://openai.com/index/introducing-dots",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "deepseek",
@@ -304,6 +408,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "meta",
+      "vendorName": "Meta Llama",
+      "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
+      "href": "https://github.com/meta-llama/PurpleLlama/releases",
+      "source": "Meta Llama",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "platform-docs-public · 仓库更新",
@@ -319,11 +449,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
       "date": "2026-09-29",
       "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -384,11 +514,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "How we will do better for Australia",
+      "name": "Towards safety cases for frontier AI training",
       "date": "2026-09-28",
       "facts": {},
-      "text": "How we will do better for Australia",
-      "href": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "text": "Towards safety cases for frontier AI training",
+      "href": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
       "source": "OpenAI",
       "external": true
     },
@@ -397,11 +527,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Towards safety cases for frontier AI training",
+      "name": "How we will do better for Australia",
       "date": "2026-09-28",
       "facts": {},
-      "text": "Towards safety cases for frontier AI training",
-      "href": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "text": "How we will do better for Australia",
+      "href": "https://openai.com/index/how-we-will-do-better-for-australia",
       "source": "OpenAI",
       "external": true
     },
@@ -460,6 +590,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
@@ -468,19 +611,6 @@
       "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
       "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
       "external": true
     },
     {

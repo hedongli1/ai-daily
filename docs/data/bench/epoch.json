@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 214,
+  "count": 215,
   "models": [
     {
       "model": "GPT-5.2",
@@ -667,6 +667,18 @@
       }
     },
     {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.8358,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Muse Spark 1.3",
       "release": "2026-09-02",
       "nRuns": 9,
@@ -782,18 +794,6 @@
         "Multimodal,Language,Vision": {
           "n": 9,
           "avg": 0.6737,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 8,
-      "domains": {
-        "Language": {
-          "n": 8,
-          "avg": 0.8515,
           "best": 1
         }
       }
@@ -915,6 +915,18 @@
           "n": 8,
           "avg": 0.2651,
           "best": 0.5133
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
+      "nRuns": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.7876,
+          "best": 1
         }
       }
     },

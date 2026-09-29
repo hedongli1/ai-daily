@@ -2,6 +2,15 @@
   "date": "2026-09-30",
   "timeline": [
     {
+      "n": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
+      "vn": "OpenAI",
+      "rel": "2026-09-29",
+      "ctx": 1050000,
+      "in": 2,
+      "open": 0
+    },
+    {
       "n": "claude-sonnet-5-5",
       "name": "Claude Sonnet 5.5",
       "vn": "Anthropic",

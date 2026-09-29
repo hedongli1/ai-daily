@@ -3,10 +3,10 @@
   "board": {
     "latest": [
       {
-        "n": "claude-sonnet-5-5",
-        "name": "Claude Sonnet 5.5",
-        "vn": "Anthropic",
-        "val": "2026-09-28",
+        "n": "gpt-6-1-sol",
+        "name": "GPT-6.1 Sol",
+        "vn": "OpenAI",
+        "val": "2026-09-29",
         "metric": "发布日期"
       }
     ],
@@ -68,13 +68,13 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 112,
+      "models": 113,
       "n": "claude-opus-5-5",
       "name": "Claude Opus 5.5",
       "vn": "Anthropic",
-      "avg": 0.8515,
+      "avg": 0.8358,
       "best": 1,
-      "runs": 8
+      "runs": 9
     },
     {
       "tag": "Multimodal",

@@ -44,7 +44,7 @@
     "label": "DeepSeek",
     "vendor": "deepseek",
     "status": "ok",
-    "count": 4,
+    "count": 5,
     "error": null
   },
   {
@@ -52,15 +52,15 @@
     "label": "Qwen",
     "vendor": "alibaba",
     "status": "ok",
-    "count": 5,
+    "count": 4,
     "error": null
   },
   {
     "id": "meta-llama",
     "label": "Meta Llama",
     "vendor": "meta",
-    "status": "empty",
-    "count": 0,
+    "status": "ok",
+    "count": 1,
     "error": null
   },
   {
