@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-29",
+  "generated": "2026-09-30",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -782,6 +782,18 @@
         "Multimodal,Language,Vision": {
           "n": 9,
           "avg": 0.6737,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.8515,
           "best": 1
         }
       }
@@ -2139,18 +2151,6 @@
           "n": 2,
           "avg": 0.5583,
           "best": 0.5833
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.7738,
-          "best": 0.8333
         }
       }
     },

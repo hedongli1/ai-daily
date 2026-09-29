@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "timeline": [
     {
       "n": "claude-sonnet-5-5",
@@ -2153,15 +2153,6 @@
       "open": 0
     },
     {
-      "n": "kimi-k2-0905",
-      "name": "Kimi K2 0905",
-      "vn": "英伟达",
-      "rel": "2025-09-05",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "seed-oss-36b-instruct",
       "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
       "vn": "英伟达",
@@ -2933,15 +2924,6 @@
       "rel": "2025-03-17",
       "ctx": 32768,
       "in": 0,
-      "open": 1
-    },
-    {
-      "n": "magistral-small",
-      "name": "Magistral Small",
-      "vn": "Mistral",
-      "rel": "2025-03-17",
-      "ctx": 128000,
-      "in": 0.5,
       "open": 1
     },
     {

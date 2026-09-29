@@ -1,84 +1,217 @@
 {
-  "date": "2026-09-29",
+  "date": "2026-09-30",
   "mode": "diff",
-  "baselineDate": "2026-09-28",
+  "baselineDate": "2026-09-29",
   "events": [
     {
       "type": "price",
-      "key": "alibaba/Qwen3.7 Plus",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.7 Plus",
-      "date": "2026-09-29",
+      "key": "mistral/Mistral Small 4",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Small 4",
+      "date": "2026-09-30",
       "facts": {
         "before": {
-          "in": 0.5,
-          "outCost": 3
+          "in": 0.15,
+          "outCost": 0.6
         },
         "after": {
-          "in": 0.4,
-          "outCost": 1.6
+          "in": 0.15,
+          "outCost": 0.6
         }
       },
-      "text": "输入 $0.5 → $0.4 · 输出 $3 → $1.6",
-      "href": "/models/qwen3-7-plus/",
+      "text": "",
+      "href": "/models/mistral-small-4/",
       "evidence": [
         {
-          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-          "url": "https://github.com/QwenLM/qwen-code/releases",
-          "source": "Qwen"
+          "title": "platform-docs-public · 仓库更新",
+          "url": "https://github.com/mistralai/platform-docs-public/releases",
+          "source": "Mistral AI"
         },
         {
-          "title": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-          "url": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-          "source": "Qwen"
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "source": "Mistral AI"
         },
         {
-          "title": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-          "url": "https://github.com/QwenLM/FlashQLA/releases",
-          "source": "Qwen"
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "llm-d-router-public · Inference scheduler for llm-d",
+          "url": "https://github.com/mistralai/llm-d-router-public/releases",
+          "source": "Mistral AI"
         }
       ]
     },
     {
       "type": "price",
-      "key": "alibaba/Qwen3.5 Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.5 Flash",
-      "date": "2026-09-29",
+      "key": "mistral/Mistral Large 3",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large 3",
+      "date": "2026-09-30",
       "facts": {
         "before": {
-          "in": 0.029,
-          "outCost": 0.287
+          "in": 0.5,
+          "outCost": 1.5
         },
         "after": {
-          "in": 0.1,
-          "outCost": 0.4
+          "in": 0.5,
+          "outCost": 1.5
         }
       },
-      "text": "输入 $0.03 → $0.1 · 输出 $0.29 → $0.4",
-      "href": "/models/qwen3-5-flash/"
+      "text": "",
+      "href": "/models/mistral-large-3/"
     },
     {
       "type": "price",
-      "key": "alibaba/Qwen3.7 Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.7 Flash",
-      "date": "2026-09-29",
+      "key": "mistral/Mistral Medium 3.5",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Medium 3.5",
+      "date": "2026-09-30",
       "facts": {
         "before": {
-          "in": 0.02962,
-          "outCost": 0.1185
+          "in": 1.5,
+          "outCost": 7.5
         },
         "after": {
-          "in": 0.03,
-          "outCost": 0.13
+          "in": 1.5,
+          "outCost": 7.5
         }
       },
-      "text": "输入 $0.03 → $0.03 · 输出 $0.12 → $0.13",
-      "href": "/models/qwen3-7-flash/"
+      "text": "",
+      "href": "/models/mistral-medium-3-5/"
+    },
+    {
+      "type": "price",
+      "key": "mistral/Codestral (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Codestral (latest)",
+      "date": "2026-09-30",
+      "facts": {
+        "before": {
+          "in": 0.3,
+          "outCost": 0.9
+        },
+        "after": {
+          "in": 0.3,
+          "outCost": 0.9
+        }
+      },
+      "text": "",
+      "href": "/models/codestral/"
+    },
+    {
+      "type": "price",
+      "key": "mistral/Mistral Large (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large (latest)",
+      "date": "2026-09-30",
+      "facts": {
+        "before": {
+          "in": 0.5,
+          "outCost": 1.5
+        },
+        "after": {
+          "in": 0.5,
+          "outCost": 1.5
+        }
+      },
+      "text": "",
+      "href": "/models/mistral-large/"
+    },
+    {
+      "type": "price",
+      "key": "mistral/Mistral Medium (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Medium (latest)",
+      "date": "2026-09-30",
+      "facts": {
+        "before": {
+          "in": 1.5,
+          "outCost": 7.5
+        },
+        "after": {
+          "in": 1.5,
+          "outCost": 7.5
+        }
+      },
+      "text": "",
+      "href": "/models/mistral-medium/"
+    },
+    {
+      "type": "price",
+      "key": "mistral/Mistral Small (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Small (latest)",
+      "date": "2026-09-30",
+      "facts": {
+        "before": {
+          "in": 0.15,
+          "outCost": 0.6
+        },
+        "after": {
+          "in": 0.15,
+          "outCost": 0.6
+        }
+      },
+      "text": "",
+      "href": "/models/mistral-small/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Kimi K2 0905",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Kimi K2 0905",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "mistral/Magistral Small",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Magistral Small",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "已从 Mistral 下架",
+      "href": "/vendors/mistral/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "href": "https://github.com/deepseek-ai/DeepEP/releases",
+      "source": "DeepSeek",
+      "external": true
     },
     {
       "type": "news",
@@ -94,22 +227,108 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "anthropic/Claude Sonnet 5.5",
-      "vendor": "anthropic",
-      "vendorName": "Anthropic",
-      "name": "Claude Sonnet 5.5",
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How we will do better for Australia",
       "date": "2026-09-28",
-      "facts": {
-        "ctx": 1000000,
-        "in": 2,
-        "outCost": 10,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Claude Sonnet 5.5 · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/claude-sonnet-5-5/",
-      "shared": 15
+      "facts": {},
+      "text": "How we will do better for Australia",
+      "href": "https://openai.com/index/how-we-will-do-better-for-australia",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Towards safety cases for frontier AI training",
+      "date": "2026-09-28",
+      "facts": {},
+      "text": "Towards safety cases for frontier AI training",
+      "href": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -166,32 +385,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
@@ -199,19 +392,6 @@
       "facts": {},
       "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "href": "https://github.com/QwenLM/FlashQLA/releases",
       "source": "Qwen",
       "external": true
     },
@@ -246,19 +426,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
       "date": "2026-09-28",
       "facts": {},
@@ -266,73 +433,6 @@
       "href": "https://github.com/mistralai/vllm/releases",
       "source": "Mistral AI",
       "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "new",
-      "key": "alibaba/Qwen3.8 Omni Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.8 Omni Flash",
-      "date": "2026-09-17",
-      "facts": {
-        "ctx": 1000000,
-        "in": 0.15,
-        "outCost": 0.47,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Qwen3.8 Omni Flash · 闭源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
-      "href": "/models/qwen3-8-omni-flash/",
-      "shared": 9
-    },
-    {
-      "type": "new",
-      "key": "openai/Daybreak Blue",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Daybreak Blue",
-      "date": "2026-08-07",
-      "facts": {
-        "ctx": 1050000,
-        "in": 4,
-        "outCost": 20,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Daybreak Blue · 闭源 · 1.1M 上下文 · 输入 $4/M · 支持推理",
-      "href": "/models/daybreak-blue/",
-      "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "openai/Daybreak Red",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Daybreak Red",
-      "date": "2026-08-07",
-      "facts": {
-        "ctx": 400000,
-        "in": 12.5,
-        "outCost": 75,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Daybreak Red · 闭源 · 400K 上下文 · 输入 $12.5/M · 支持推理",
-      "href": "/models/daybreak-red/",
-      "shared": 1
     }
   ]
 }
