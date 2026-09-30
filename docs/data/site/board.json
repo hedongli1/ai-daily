@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "board": {
     "latest": [
       {
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 54,
+      "models": 55,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 50,
+      "models": 51,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",

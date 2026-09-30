@@ -1,268 +1,260 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "mode": "diff",
-  "baselineDate": "2026-09-29",
+  "baselineDate": "2026-09-30",
   "events": [
     {
       "type": "price",
-      "key": "mistral/Mistral Small 4",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Small 4",
-      "date": "2026-09-30",
+      "key": "cerebras/Qwen3.8 27B",
+      "vendor": "cerebras",
+      "vendorName": "Cerebras",
+      "name": "Qwen3.8 27B",
+      "date": "2026-10-01",
       "facts": {
         "before": {
-          "in": 0.15,
-          "outCost": 0.6
+          "in": 0.99,
+          "outCost": 1.49
         },
         "after": {
-          "in": 0.15,
-          "outCost": 0.6
+          "in": 0.99,
+          "outCost": 1.49
         }
       },
       "text": "",
-      "href": "/models/mistral-small-4/",
-      "evidence": [
-        {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "platform-docs-public · 仓库更新",
-          "url": "https://github.com/mistralai/platform-docs-public/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "llm-d-router-public · Inference scheduler for llm-d",
-          "url": "https://github.com/mistralai/llm-d-router-public/releases",
-          "source": "Mistral AI"
-        }
-      ]
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Large 3",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large 3",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 0.5,
-          "outCost": 1.5
-        },
-        "after": {
-          "in": 0.5,
-          "outCost": 1.5
-        }
-      },
-      "text": "",
-      "href": "/models/mistral-large-3/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Medium 3.5",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Medium 3.5",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 1.5,
-          "outCost": 7.5
-        },
-        "after": {
-          "in": 1.5,
-          "outCost": 7.5
-        }
-      },
-      "text": "",
-      "href": "/models/mistral-medium-3-5/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Codestral (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Codestral (latest)",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 0.9
-        },
-        "after": {
-          "in": 0.3,
-          "outCost": 0.9
-        }
-      },
-      "text": "",
-      "href": "/models/codestral/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Large (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large (latest)",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 0.5,
-          "outCost": 1.5
-        },
-        "after": {
-          "in": 0.5,
-          "outCost": 1.5
-        }
-      },
-      "text": "",
-      "href": "/models/mistral-large/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Medium (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Medium (latest)",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 1.5,
-          "outCost": 7.5
-        },
-        "after": {
-          "in": 1.5,
-          "outCost": 7.5
-        }
-      },
-      "text": "",
-      "href": "/models/mistral-medium/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Small (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Small (latest)",
-      "date": "2026-09-30",
-      "facts": {
-        "before": {
-          "in": 0.15,
-          "outCost": 0.6
-        },
-        "after": {
-          "in": 0.15,
-          "outCost": 0.6
-        }
-      },
-      "text": "",
-      "href": "/models/mistral-small/"
-    },
-    {
-      "type": "retired",
-      "key": "nvidia/Kimi K2 0905",
-      "vendor": "nvidia",
-      "vendorName": "英伟达",
-      "name": "Kimi K2 0905",
-      "date": "2026-09-30",
-      "facts": {},
-      "text": "已从 英伟达 下架",
-      "href": "/vendors/nvidia/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Magistral Small",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Magistral Small",
-      "date": "2026-09-30",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "new",
-      "key": "openai/GPT-6.1 Sol",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-6.1 Sol",
-      "date": "2026-09-29",
-      "facts": {
-        "ctx": 1050000,
-        "in": 2,
-        "outCost": 10,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "GPT-6.1 Sol · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/gpt-6-1-sol/",
-      "shared": 16,
-      "evidence": [
-        {
-          "title": "Introducing GPT-6.1 Sol",
-          "url": "https://openai.com/index/introducing-gpt-6-1-sol",
-          "source": "OpenAI"
-        },
-        {
-          "title": "DevDay 2026 Recap",
-          "url": "https://openai.com/index/devday-2026-recap",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Introducing dots",
-          "url": "https://openai.com/index/introducing-dots",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Towards safety cases for frontier AI training",
-          "url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-          "source": "OpenAI"
-        },
-        {
-          "title": "How we will do better for Australia",
-          "url": "https://openai.com/index/how-we-will-do-better-for-australia",
-          "source": "OpenAI"
-        },
-        {
-          "title": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-          "url": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Are you a Codex Original?",
-          "url": "https://openai.com/form/codex-originals",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-          "url": "https://openai.com/index/basis-tax-workbook-with-astra",
-          "source": "OpenAI"
-        }
-      ]
+      "href": "/models/qwen3-8-27b/"
     },
     {
       "type": "news",
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Introducing GPT-6.1 Sol",
-      "date": "2026-09-29",
+      "name": "Helping small businesses put AI to work",
+      "date": "2026-09-30",
       "facts": {},
-      "text": "Introducing GPT-6.1 Sol",
-      "href": "https://openai.com/index/introducing-gpt-6-1-sol",
+      "text": "Helping small businesses put AI to work",
+      "href": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
       "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Introducing SynthID Bio",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "Introducing SynthID Bio",
+      "href": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "href": "https://github.com/deepseek-ai/DeepEP/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepSelect · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepSelect · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "href": "https://github.com/deepseek-ai/DeepSelect/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "dsh-libreoffice-kit · An internal component used by DeepSeek Harness",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "dsh-libreoffice-kit · An internal component used by DeepSeek Harness",
+      "href": "https://github.com/deepseek-ai/dsh-libreoffice-kit/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepEP-Ascend · A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs.",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepEP-Ascend · A high-performance communication library for machine learning training and inference on Huawei Ascend NPUs.",
+      "href": "https://github.com/deepseek-ai/DeepEP-Ascend/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "href": "https://github.com/deepseek-ai/DeepGEMM-Ascend/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "TileKernels · A kernel library written in tilelang",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "TileKernels · A kernel library written in tilelang",
+      "href": "https://github.com/deepseek-ai/TileKernels/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "dsh-node-addon-require-builtin · An internal component used by DeepSeek Harness",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "dsh-node-addon-require-builtin · An internal component used by DeepSeek Harness",
+      "href": "https://github.com/deepseek-ai/dsh-node-addon-require-builtin/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-09-30",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -275,6 +267,19 @@
       "facts": {},
       "text": "DevDay 2026 Recap",
       "href": "https://openai.com/index/devday-2026-recap",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing GPT-6.1 Sol",
+      "date": "2026-09-29",
+      "facts": {},
+      "text": "Introducing GPT-6.1 Sol",
+      "href": "https://openai.com/index/introducing-gpt-6-1-sol",
       "source": "OpenAI",
       "external": true
     },
@@ -302,32 +307,6 @@
       "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
       "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "date": "2026-09-29",
-      "facts": {},
-      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "href": "https://github.com/deepseek-ai/DeepEP/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-09-29",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -361,50 +340,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-09-29",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-09-29",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "cookbook · 仓库更新",
       "date": "2026-09-29",
       "facts": {},
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-09-29",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -432,136 +372,6 @@
       "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Towards safety cases for frontier AI training",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "Towards safety cases for frontier AI training",
-      "href": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How we will do better for Australia",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "How we will do better for Australia",
-      "href": "https://openai.com/index/how-we-will-do-better-for-australia",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "The Lenfest Institute grows landmark program with expanded OpenAI support",
-      "href": "https://openai.com/index/lenfest-ai-collaborative-expansion",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Are you a Codex Original?",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "Are you a Codex Original?",
-      "href": "https://openai.com/form/codex-originals",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "Basis completes a tax workbook 2x faster with GPT-6 Astra",
-      "href": "https://openai.com/index/basis-tax-workbook-with-astra",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "Watch the winning trailer from the Future Vision XPRIZE, The Gifted.",
-      "href": "https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "date": "2026-09-28",
-      "facts": {},
-      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "href": "https://github.com/mistralai/vllm/releases",
-      "source": "Mistral AI",
       "external": true
     }
   ]

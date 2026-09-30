@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-30",
+  "date": "2026-10-01",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -537,7 +537,7 @@
     "claude-sonnet-5-5": {
       "runs": 7,
       "domains": {
-        "Language": {
+        "Language,Multimodal,Vision": {
           "n": 7,
           "avg": 0.7876,
           "best": 1
