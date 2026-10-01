@@ -1,287 +1,147 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-01T00:04:26.036Z",
+ "fetchedAt": "2026-10-01T16:47:27.493Z",
  "rows": [
   {
-   "title": "点了“深度思考”，AI那几十秒到底在想什么？｜原LAI如此 #06",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/1",
-   "bvid": "BV1r6Yw6bEJ7"
-  },
-  {
-   "title": "解决通用智能体训练环境短缺问题！从技能自动生成高难度训练环境 【大语言模型智能体】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/1",
-   "bvid": "BV1r6Yw6bEe9"
-  },
-  {
-   "title": "OpenClaw实战：零代码搭你的第一个AI Agent",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/1",
-   "bvid": "BV1XVaN6DEuF"
-  },
-  {
-   "title": "【RL 前沿】不用反向传播能训大模型 Agent 吗？进化策略与 GRPO 的方差、显存与 pass@k 对比",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/1",
-   "bvid": "BV1zbea6GEF9"
-  },
-  {
-   "title": "第25集l工装伪装挑战,大肥鱼拒绝冒充别的模型",
-   "up": "",
-   "play": 2,
-   "pub": "2026/9/30",
-   "bvid": "BV1wqYw6aEfG"
-  },
-  {
-   "title": "这款鼠标让我准点#下班了，拥有这款#科大讯飞ai鼠标，从此向#加班说不！内置#讯飞星火大模型和#de (1)",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV1CqYw6hEDt"
-  },
-  {
-   "title": "解决大模型知识蒸馏误差累积！新型在线蒸馏方法OLIVE，性能提升最高22% 【大模型蒸馏】【LLM训练】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV123YA6MEw7"
-  },
-  {
-   "title": "解决大模型长上下文弱学习难题！用扰动公开文档生成低成本训练数据 【大语言模型】【长上下文】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV14uYA6zEtJ"
-  },
-  {
-   "title": "锐龙AIMax+395顶配，拿下235B大模型极摩客EVO-X2迷你PC，锐龙AIMax+395平台主打本地部署LLM大模型，优势是在本地、不上云、不花钱、无限",
-   "up": "",
-   "play": 1,
-   "pub": "2026/9/30",
-   "bvid": "BV1s5YA6KEpL"
-  },
-  {
-   "title": "选多样化SFT推理路径，让大模型RL后泛化能力直接涨16个点！ 【大语言模型推理】【强化学习】",
-   "up": "",
-   "play": 2,
-   "pub": "2026/9/30",
-   "bvid": "BV1afYw6jEbP"
-  },
-  {
-   "title": "解决LLM强化学习全失败prompt难题！跨模型轨迹交换提升推理性能 RLVR大模型优化",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV1YoYw6mEqC"
-  },
-  {
-   "title": "一分钟掌握今日全球AI圈大事10.1",
-   "up": "",
-   "play": 36,
-   "pub": "2026/9/30",
-   "bvid": "BV1SoaZ6wEJQ"
-  },
-  {
-   "title": "AI改变了哪些，应该接受哪些",
-   "up": "",
-   "play": 108,
-   "pub": "2026/9/30",
-   "bvid": "BV1d1aZ6zE1t"
-  },
-  {
-   "title": "让时间序列智能体自己进化！从失败中自动生成工具，全任务性能提升最高14.7个点 【大语言模型智能体】【时间序列分析】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV1tKYA6rEUV"
-  },
-  {
-   "title": "打破奖励模型标量瓶颈！用扩散建模拟合人类偏好的多峰分布 【大语言模型对齐】",
-   "up": "",
-   "play": 6,
-   "pub": "2026/9/30",
-   "bvid": "BV1gAYA6yEpc"
-  },
-  {
-   "title": "生成任务真的能帮视觉理解吗？伯克利等机构最新研究给出答案 【计算机视觉】【多模态大模型】",
-   "up": "",
-   "play": 4,
-   "pub": "2026/9/30",
-   "bvid": "BV13rYA6mEi1"
-  },
-  {
-   "title": "Gemini 4 Argon来了 重回第一",
-   "up": "",
-   "play": 406,
-   "pub": "2026/9/30",
-   "bvid": "BV1aCYA6jETr"
-  },
-  {
-   "title": "第3课 FlashAttention-3：异步搬运与计算流⽔线",
-   "up": "",
-   "play": 19,
-   "pub": "2026/9/30",
-   "bvid": "BV1VBYA6SEAv"
-  },
-  {
-   "title": "训练通用AI agent新方向！通过组合服务生成千万级跨环境任务，超过GPT-5.4和Claude Opus 【大语言模型】【AI Agent论文解读】",
-   "up": "",
-   "play": 1,
-   "pub": "2026/9/30",
-   "bvid": "BV1nWYA6FEe8"
-  },
-  {
-   "title": "10月1日，鲸鱼娘带你看看AI圈发生了什么？",
-   "up": "",
-   "play": 12,
-   "pub": "2026/9/30",
-   "bvid": "BV16qYF6XEYZ"
-  },
-  {
-   "title": "懒惰的大肥鱼也会被优化吗",
-   "up": "",
-   "play": 105,
-   "pub": "2026/9/30",
-   "bvid": "BV1C3af6QEjF"
-  },
-  {
-   "title": "大模型能做通用异步智能体了！无需微调适配多场景并发任务 【大语言模型智能体】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/9/30",
-   "bvid": "BV1jhYA6sEHY"
-  },
-  {
-   "title": "爆甲玩法？拆装复杂？超多零件？废件有大用？布鲁可假面骑士传奇版 甲斗 骑士形态拓展包 大货简单分享与拆装教程",
-   "up": "",
-   "play": 506,
-   "pub": "2026/9/30",
-   "bvid": "BV1JtYA64EKu"
-  },
-  {
-   "title": "通义千问出品：超长远景智能体强化训练弹性框架QwenGyre，任务通过率从52.5%提升到58.5%【AI论文解读 大语言模型智能体】",
-   "up": "",
-   "play": 4,
-   "pub": "2026/9/30",
-   "bvid": "BV1ZtYA64E9H"
-  },
-  {
-   "title": "请选择你的开发大模型",
-   "up": "",
-   "play": 1,
-   "pub": "2026/9/30",
-   "bvid": "BV1qCYF6UE8v"
-  },
-  {
-   "title": "爆杀xxx？消光质感？加灯改造？手型补色？缺点合集？布鲁可假面骑士传奇版 甲斗 骑士形态 大货简单分享展示",
-   "up": "",
-   "play": 455,
-   "pub": "2026/9/30",
-   "bvid": "BV1zkYF6JEHp"
-  },
-  {
-   "title": "Gemini4 Argon即将发布！吊打astra和opus！",
-   "up": "",
-   "play": 275,
-   "pub": "2026/9/30",
-   "bvid": "BV1zkYF6JEci"
-  },
-  {
-   "title": "小模型不靠堆规模也能赢大模型！自己判断什么时候需要外部知识帮忙 【大语言模型】【AI论文解读】",
-   "up": "",
-   "play": 4,
-   "pub": "2026/9/30",
-   "bvid": "BV1eQYF6VEue"
-  },
-  {
-   "title": "AI 的下一轮演进：从大语言模型到世界模型",
-   "up": "",
-   "play": 5,
-   "pub": "2026/9/30",
-   "bvid": "BV1q2YF62EWi"
-  },
-  {
-   "title": "让机器人操作成功率暴涨30%！跨智能体递归知识蒸馏框架【机器人学】【大模型应用】",
-   "up": "",
-   "play": 1,
-   "pub": "2026/9/30",
-   "bvid": "BV1vUYF6LE2G"
-  },
-  {
-   "title": "大模型智能搜索新思路！用实体关系重构文档库 提升RAG回答质量还省Token 【智能体RAG】",
-   "up": "",
-   "play": 3,
-   "pub": "2026/9/30",
-   "bvid": "BV1NbYF6FEp8"
-  },
-  {
-   "title": "解决大模型蒸馏分布错配！基于最大耦合路由的自适应知识蒸馏 SAKI 【大模型压缩】【知识蒸馏】",
-   "up": "",
-   "play": 6,
-   "pub": "2026/9/30",
-   "bvid": "BV1ygYc6cEZ4"
-  },
-  {
-   "title": "大模型推理免费涨点！自适应循环Transformer大幅提升测试时缩放效率 【大模型推理】【LLM】",
-   "up": "",
-   "play": 5,
-   "pub": "2026/9/30",
-   "bvid": "BV1C5Yc6tEVG"
-  },
-  {
-   "title": "九月大模型六连发，现在该选哪个？用真实 API 价格算笔账",
-   "up": "",
-   "play": 14,
-   "pub": "2026/9/30",
-   "bvid": "BV1HLYc6oErF"
-  },
-  {
-   "title": "解决大模型数据预处理长尾并行痛点！血统控制多粒度数据流RayOrch来了 【AI系统论文解读】",
-   "up": "",
-   "play": 3,
-   "pub": "2026/9/30",
-   "bvid": "BV1W3Yc68EeZ"
-  },
-  {
-   "title": "用大模型编码Agent拼3D场景！单张图片生成可编辑可执行的Blender程序 【3D重建】【AI Agent】",
-   "up": "",
-   "play": 5,
-   "pub": "2026/9/30",
-   "bvid": "BV1hZYF6uE3w"
-  },
-  {
-   "title": "《战锤 40K：暗潮》第一款模型替换模组，接下来就靠各位大手子搞事了",
-   "up": "",
-   "play": 1065,
-   "pub": "2026/9/30",
-   "bvid": "BV1YXYF6kEgm"
-  },
-  {
-   "title": "[中配]192GB Framework Desktop实测：Gorgon Halo本地运行大模型与双模型协同",
-   "up": "",
-   "play": 71,
-   "pub": "2026/9/30",
-   "bvid": "BV1aRYF63E9w"
-  },
-  {
-   "title": "去掉视觉编码器之后，无编码器多模态大模型什么时候能反超？【多模态大模型】【AI论文解读】",
+   "title": "大肥鱼保卫战（又名：暴打赛博藤壶）AI游戏 1.0版本开源",
    "up": "",
    "play": 7,
-   "pub": "2026/9/30",
-   "bvid": "BV1aRYF63Etf"
+   "pub": "2026/10/1",
+   "bvid": "BV1mdak62EA4"
   },
   {
-   "title": "10 大AI图片模型文生图能力横评",
+   "title": "呆呆的大音响",
    "up": "",
-   "play": 5,
-   "pub": "2026/9/30",
-   "bvid": "BV18fYF6BERt"
+   "play": 14,
+   "pub": "2026/10/1",
+   "bvid": "BV1kNaC66EJe"
+  },
+  {
+   "title": "【中配】五十年军事机密模型能否解决智能体提示注入 - Fireship I_KVMFrUtPk",
+   "up": "",
+   "play": 462,
+   "pub": "2026/10/1",
+   "bvid": "BV1USak6DE4m"
+  },
+  {
+   "title": "【熟肉】五十年军事机密模型能否解决智能体提示注入 - Fireship I_KVMFrUtPk",
+   "up": "",
+   "play": 40,
+   "pub": "2026/10/1",
+   "bvid": "BV1SSak6DEhv"
+  },
+  {
+   "title": "【生成AI与大模型】GenAI &amp; LLMs | 视频2 | 第1部分 | 线性回归 | Venkat Red｜Venkata Reddy AI Classes",
+   "up": "",
+   "play": 85,
+   "pub": "2026/10/1",
+   "bvid": "BV1uKa66VEsP"
+  },
+  {
+   "title": "180B的MoE大模型，怎么能塞进一张12GB显卡？Strata × Qwen3.8-Flash-Next本地实测",
+   "up": "",
+   "play": 334,
+   "pub": "2026/10/1",
+   "bvid": "BV1TTa66kEmm"
+  },
+  {
+   "title": "GPT6.1Sol 13.5token每秒_21小时实测_挂机21小时后，我看懂了GPT Pro的「耐用」是怎么来的",
+   "up": "",
+   "play": 207,
+   "pub": "2026/10/1",
+   "bvid": "BV1hPa66yEut"
+  },
+  {
+   "title": "小说转漫剧实操答疑",
+   "up": "",
+   "play": 2,
+   "pub": "2026/10/1",
+   "bvid": "BV1Kua663E1Y"
+  },
+  {
+   "title": "让大模型蒸馏更省显存、更快",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/1",
+   "bvid": "BV1xga666E94"
+  },
+  {
+   "title": "【英语科普】大语言模型为啥是电老虎？（双语字幕）",
+   "up": "",
+   "play": 3,
+   "pub": "2026/10/1",
+   "bvid": "BV1L9az6HEts"
+  },
+  {
+   "title": "web安全开发，在线%智能红队AI智能体渗透%系统，基于pycharm，html，css，jquery，python，flask，ai，llm，agent，",
+   "up": "",
+   "play": 3,
+   "pub": "2026/10/1",
+   "bvid": "BV1VRaz6DEGq"
+  },
+  {
+   "title": "卡游奥特曼英雄赏第五弹。赛迦奥特曼s赏，模型比以往的做得大，110收的，盒子非常大，是以前的一倍#英雄赏第5弹#赛迦奥特曼#s赏",
+   "up": "",
+   "play": 18,
+   "pub": "2026/10/1",
+   "bvid": "BV17Daz6WEMu"
+  },
+  {
+   "title": "【推理 RL】OctoThinker：通过中段训练补推理语料，改进 Llama 做 RL 时长度失控、不涨分的问题",
+   "up": "",
+   "play": 156,
+   "pub": "2026/10/1",
+   "bvid": "BV19Fea6wEg4"
+  },
+  {
+   "title": "鹣鹕骑自行车",
+   "up": "",
+   "play": 2,
+   "pub": "2026/10/1",
+   "bvid": "BV15Qaz6XEZU"
+  },
+  {
+   "title": "第4课 Decode Attention：Paged KV、GQA 与 Split-KV",
+   "up": "",
+   "play": 55,
+   "pub": "2026/10/1",
+   "bvid": "BV13Fa667Epd"
+  },
+  {
+   "title": "强袭大胶！懒人福音！成品PG？限械突破 强袭高达 GAT-X105 机动战士高达SEED 眼镜厂BANPRESTO",
+   "up": "",
+   "play": 12517,
+   "pub": "2026/10/1",
+   "bvid": "BV1GZaz6UEDA"
+  },
+  {
+   "title": "国庆江边玩具房大阅兵！！！各就各位……起步走！！！",
+   "up": "",
+   "play": 79,
+   "pub": "2026/10/1",
+   "bvid": "BV1gca662Ez7"
+  },
+  {
+   "title": "【大手套子的玩具分享e.6】盗版好物 AC盖塔",
+   "up": "",
+   "play": 205,
+   "pub": "2026/10/1",
+   "bvid": "BV1Voaz6JEFD"
+  },
+  {
+   "title": "提示好词 vol. 28",
+   "up": "",
+   "play": 48,
+   "pub": "2026/10/1",
+   "bvid": "BV1Yoaz6JEwf"
+  },
+  {
+   "title": "666，离谱实验！不同AI大模型，面对男女牺牲问题道德判断完全反转",
+   "up": "",
+   "play": 378,
+   "pub": "2026/10/1",
+   "bvid": "BV15oaz6JEgS"
   }
  ]
 }
