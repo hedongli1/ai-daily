@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 215,
+  "count": 216,
   "models": [
     {
       "model": "GPT-5.2",
@@ -667,6 +667,18 @@
       }
     },
     {
+      "model": "GPT-6.1 Sol",
+      "release": "2026-09-29",
+      "nRuns": 9,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 9,
+          "avg": 0.8203,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Opus 5.5",
       "release": "2026-09-22",
       "nRuns": 9,
@@ -794,6 +806,18 @@
         "Multimodal,Language,Vision": {
           "n": 9,
           "avg": 0.6737,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
+      "nRuns": 8,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 8,
+          "avg": 0.7531,
           "best": 1
         }
       }
@@ -1095,6 +1119,18 @@
           "n": 7,
           "avg": 0.3198,
           "best": 0.8875
+        }
+      }
+    },
+    {
+      "model": "GPT-6 Luna",
+      "release": "2026-09-22",
+      "nRuns": 6,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 6,
+          "avg": 0.6833,
+          "best": 0.9889
         }
       }
     },
@@ -2155,18 +2191,6 @@
       }
     },
     {
-      "model": "GPT-6 Sol",
-      "release": "2026-09-22",
-      "nRuns": 2,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 2,
-          "avg": 0.5583,
-          "best": 0.5833
-        }
-      }
-    },
-    {
       "model": "AI Co-Mathematician",
       "release": "2026-05-08",
       "nRuns": 2,
@@ -2391,18 +2415,6 @@
           "n": 2,
           "avg": 0.197,
           "best": 0.29
-        }
-      }
-    },
-    {
-      "model": "GPT-6 Luna",
-      "release": "2026-09-22",
-      "nRuns": 1,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 1,
-          "avg": 0.4417,
-          "best": 0.4417
         }
       }
     },

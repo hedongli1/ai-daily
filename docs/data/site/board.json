@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 113,
+      "models": 114,
       "n": "claude-opus-5-5",
       "name": "Claude Opus 5.5",
       "vn": "Anthropic",
@@ -78,23 +78,23 @@
     },
     {
       "tag": "Multimodal",
-      "models": 55,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
+      "models": 56,
+      "n": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
       "vn": "OpenAI",
-      "avg": 0.805,
+      "avg": 0.8203,
       "best": 1,
-      "runs": 16
+      "runs": 9
     },
     {
       "tag": "Vision",
-      "models": 51,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
+      "models": 52,
+      "n": "gpt-6-1-sol",
+      "name": "GPT-6.1 Sol",
       "vn": "OpenAI",
-      "avg": 0.805,
+      "avg": 0.8203,
       "best": 1,
-      "runs": 16
+      "runs": 9
     },
     {
       "tag": "Video",

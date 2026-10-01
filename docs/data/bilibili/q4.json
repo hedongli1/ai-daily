@@ -1,89 +1,110 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-09-30T16:09:41.812Z",
+ "fetchedAt": "2026-10-01T00:04:27.132Z",
  "rows": [
+  {
+   "title": "[中配]192GB Framework Desktop实测：Gorgon Halo本地运行大模型与双模型协同",
+   "up": "",
+   "play": 71,
+   "pub": "2026/9/30",
+   "bvid": "BV1aRYF63E9w"
+  },
+  {
+   "title": "10 大AI图片模型文生图能力横评",
+   "up": "",
+   "play": 5,
+   "pub": "2026/9/30",
+   "bvid": "BV18fYF6BERt"
+  },
+  {
+   "title": "从真实AI Agent部署日志自动生成行为测试基准！首个按需构建评测集的自动化系统 【大语言模型Agent】【AI评测】",
+   "up": "",
+   "play": 2,
+   "pub": "2026/9/30",
+   "bvid": "BV15YYc6LEMe"
+  },
   {
    "title": "GPT-6.1 Sol 强势登场，OpenAI 以更低成本正面回应 Anthropic 新模型 | Theo - t3․gg",
    "up": "",
-   "play": 39,
+   "play": 47,
    "pub": "2026/9/30",
    "bvid": "BV1XPad6fEfi"
   },
   {
    "title": "北府认知系统与 BCOS PhiAct Benchmark 全球发布",
    "up": "",
-   "play": 11,
+   "play": 14,
    "pub": "2026/9/30",
    "bvid": "BV18jaZ68EVB"
   },
   {
    "title": "FireRedTTS3 评测：其实我想不出来标题了，大家自己看吧",
    "up": "",
-   "play": 1282,
+   "play": 1429,
    "pub": "2026/9/30",
    "bvid": "BV17yaq6SERn"
   },
   {
    "title": "铭凡M2Pro实测巴掌大迷你主机竟能本地跑大模型还能打 3A",
    "up": "",
-   "play": 61,
+   "play": 65,
    "pub": "2026/9/30",
    "bvid": "BV1ZEao6TEJ4"
   },
   {
    "title": "Sonnet 5.5 vs Opus 5.5 vs GPT-6 Astra：四大实战场景谁更强 | Chase AI",
    "up": "",
-   "play": 115,
+   "play": 133,
    "pub": "2026/9/30",
    "bvid": "BV1zvad6BEFg"
   },
   {
    "title": "Anthropic突袭发布Sonnet 5.5，但我劝你别急着用 | Theo - t3․gg",
    "up": "",
-   "play": 26,
+   "play": 30,
    "pub": "2026/9/30",
    "bvid": "BV1Bqad6TEiP"
   },
   {
    "title": "结构大改产生的奇怪合体！ 超凡战队武士 战翼麦克佐德 大天空 把玩分享",
    "up": "",
-   "play": 1567,
+   "play": 1780,
    "pub": "2026/9/30",
    "bvid": "BV1d1aZ6zEeA"
   },
   {
    "title": "Opus5.5对决GPT-6 | GPT-6 Astra十二项真实实测",
    "up": "",
-   "play": 502,
+   "play": 529,
    "pub": "2026/9/30",
    "bvid": "BV1MvaR6SEvy"
   },
   {
    "title": "转倾动漫评测，千值练大雷神麦克佐德这才是评测，麻烦商单用点心啦，名字也叫不对，玩家要看的是你们吹牛逼吗？玩家要看的是避坑，品控，做工细节，可动范围，设计缺陷",
    "up": "",
-   "play": 454,
+   "play": 539,
    "pub": "2026/9/30",
    "bvid": "BV1Cpad62EQC"
   },
   {
    "title": "一个面向DeepSeek的红队评测插件",
    "up": "",
-   "play": 8,
+   "play": 9,
    "pub": "2026/9/30",
    "bvid": "BV1Asad6jEfT"
   },
   {
    "title": "gpt sol 6.1 实测：同一个提示词，五个模型差在哪？",
    "up": "",
-   "play": 3100,
+   "play": 3386,
    "pub": "2026/9/30",
    "bvid": "BV1DQad6oE2A"
   },
   {
    "title": "GPT 6.1 Sol 距前代模型 6 Sol 发布过去仅一周，显然OpenAI对前代模型的表现不太满意 | 浪浪妈雷达图",
    "up": "",
-   "play": 61908,
+   "play": 65072,
    "pub": "2026/9/30",
    "bvid": "BV1viaQ6HEGJ"
   },
@@ -97,191 +118,30 @@
   {
    "title": "OpenAI终于反击了！这次新模型大升级 | Theo - t3․gg",
    "up": "",
-   "play": 866,
+   "play": 873,
    "pub": "2026/9/29",
    "bvid": "BV17GaX6oE4E"
   },
   {
    "title": "以防你不知道，马斯克抢注了GPT dot域名，并且指向了grokbot官网",
    "up": "",
-   "play": 21160,
+   "play": 25168,
    "pub": "2026/9/29",
    "bvid": "BV1cCaX6iEWn"
   },
   {
    "title": "拉扎维模拟电路分析评测集介绍（Opus 5.5 一键生成）",
    "up": "",
-   "play": 1023,
+   "play": 1050,
    "pub": "2026/9/29",
    "bvid": "BV1FDan6rEBc"
   },
   {
    "title": "性价比与低功耗实用均衡的T10 16GB显卡，27b大模型功耗与推理速度实测对比",
    "up": "",
-   "play": 1169,
+   "play": 1253,
    "pub": "2026/9/29",
    "bvid": "BV16taH6LE2J"
-  },
-  {
-   "title": "《奇迹工厂》体验报告：居然能用自然语言控制单位，有大模型吗？",
-   "up": "",
-   "play": 490,
-   "pub": "2026/9/29",
-   "bvid": "BV1YyaH6eEJd"
-  },
-  {
-   "title": "2026最热AI大模型测试三阶段！AI大模型评测与自动化实战，别再盲目自学了，3小时测Agent入门精通",
-   "up": "",
-   "play": 1024,
-   "pub": "2026/9/29",
-   "bvid": "BV1WPap6DEgN"
-  },
-  {
-   "title": "手把手带你微调 Deepseek‑OCR！AutoDL 部署、AnsLoss 推理、LoRA 微调、CER 评测全流程",
-   "up": "",
-   "play": 289,
-   "pub": "2026/9/29",
-   "bvid": "BV1C7aJ65E1o"
-  },
-  {
-   "title": "Claude Sonnet 5.5 实测：半价能打 Opus 5.5 吗？花费只要 37%",
-   "up": "",
-   "play": 192,
-   "pub": "2026/9/29",
-   "bvid": "BV117aJ65EHt"
-  },
-  {
-   "title": "3万转电机装进一个巴掌大的遥控车里？1：43飞驰人生·奥迪正版授权拉力赛车开箱评测",
-   "up": "",
-   "play": 315,
-   "pub": "2026/9/29",
-   "bvid": "BV1R6aJ6bEAd"
-  },
-  {
-   "title": "【中字】海外博主实测Laguna S2.1：118B模型真能超越GLM 5.2？",
-   "up": "",
-   "play": 13,
-   "pub": "2026/9/29",
-   "bvid": "BV16va56tEyL"
-  },
-  {
-   "title": "【中字】海外博主硬核对决：Llama新模型能否撼动Qwen3.6？",
-   "up": "",
-   "play": 35,
-   "pub": "2026/9/29",
-   "bvid": "BV1Pta56AE8i"
-  },
-  {
-   "title": "显卡性价比首选 专业卡RTX PRO 5000测评#显卡 #大模型 #服务器 #工作站 #RTX pro5000",
-   "up": "",
-   "play": 2,
-   "pub": "2026/9/29",
-   "bvid": "BV1jgaE6cE1k"
-  },
-  {
-   "title": "【中字】国外博主实测：12G显卡竟跑180B大模型，3倍速度的秘密",
-   "up": "",
-   "play": 48,
-   "pub": "2026/9/29",
-   "bvid": "BV1r7a76iEiy"
-  },
-  {
-   "title": "【中字】老外测评美国最强开源模型Inkling Small，吊打英伟达旗舰！",
-   "up": "",
-   "play": 8,
-   "pub": "2026/9/29",
-   "bvid": "BV1NhaE62Efa"
-  },
-  {
-   "title": "发明项目：DS硬邦邦Coding|发明人：正负等式",
-   "up": "",
-   "play": 34323,
-   "pub": "2026/9/29",
-   "bvid": "BV1QFaJ6dE7T"
-  },
-  {
-   "title": "【中字】老外实测腾讯混元大模型：竟能秒懂英国梗",
-   "up": "",
-   "play": 8,
-   "pub": "2026/9/29",
-   "bvid": "BV1QFaJ6dE84"
-  },
-  {
-   "title": "Claude Sonnet 5.5 这是要抄家伙干自家大哥 Fable 5.1？| 浪浪妈雷达图",
-   "up": "",
-   "play": 19526,
-   "pub": "2026/9/29",
-   "bvid": "BV1mMa76kE1m"
-  },
-  {
-   "title": "【全网最细】AI视频生图模型大评测，生图到底哪家强？",
-   "up": "",
-   "play": 2532,
-   "pub": "2026/9/28",
-   "bvid": "BV1RSaj6RE7Y"
-  },
-  {
-   "title": "Jev 爆火之后，真正值得看的是什么？",
-   "up": "",
-   "play": 55,
-   "pub": "2026/9/28",
-   "bvid": "BV1i4aL6QE1c"
-  },
-  {
-   "title": "一分钟玩具开盒-大冬瓜 风火轮银标潘通系列KOOL KOMBI开盒科普把玩评测",
-   "up": "",
-   "play": 1105,
-   "pub": "2026/9/28",
-   "bvid": "BV1esaV6LEQt"
-  },
-  {
-   "title": "Minimax M3.1 Flash 实测：分数很高，但实际生成表现到底稳不稳？",
-   "up": "",
-   "play": 1926,
-   "pub": "2026/9/28",
-   "bvid": "BV1bvaV6BE2C"
-  },
-  {
-   "title": "10 做完一单，谁也不知道做得好不好：给 Agent 建评测与轨迹，第 73 到第 80 步",
-   "up": "",
-   "play": 16,
-   "pub": "2026/9/28",
-   "bvid": "BV1Xsa36qEWA"
-  },
-  {
-   "title": "【中字】老外实测小米新模型：便宜版竟把旗舰按在地上摩擦",
-   "up": "",
-   "play": 53,
-   "pub": "2026/9/28",
-   "bvid": "BV1rNa36nEoA"
-  },
-  {
-   "title": "【DeepSeekHarness】从LLM测评到自动化评估全流程拆解|教你搭建高效评测体系，掌握核心方法论与落地技巧，吃透模型评估关键环节，快速提升实战能力",
-   "up": "",
-   "play": 359,
-   "pub": "2026/9/28",
-   "bvid": "BV1dfa365EkD"
-  },
-  {
-   "title": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长【硅谷101播客】",
-   "up": "",
-   "play": 6319,
-   "pub": "2026/9/28",
-   "bvid": "BV1imaq6mEof"
-  },
-  {
-   "title": "Codex 还是 WorkBuddy？10 个维度深度对比，国内该选谁",
-   "up": "",
-   "play": 283,
-   "pub": "2026/9/28",
-   "bvid": "BV1r9aP6eESE"
-  },
-  {
-   "title": "给触摸一体机广告机粉丝提供的方案i58代8g内存128g固态无线都有，大屏全息试衣ai模型3d模型#一体机电脑 #触摸一体机 #电子白板会议一体机 #装机",
-   "up": "",
-   "play": 150,
-   "pub": "2026/9/27",
-   "bvid": "BV1Lkav65EkK"
   }
  ]
 }
