@@ -7,8 +7,8 @@
   "originVendorCount": 33,
   "channelVendorCount": 185,
   "aliasVendorCount": 8,
-  "originModelCount": 635,
-  "modelCount": 8371,
+  "originModelCount": 634,
+  "modelCount": 8383,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -213,7 +213,7 @@
       "name": "Cohere",
       "rawName": "Cohere",
       "doc": "https://docs.cohere.com/docs/models",
-      "modelCount": 19,
+      "modelCount": 17,
       "isChannel": false,
       "aliasOf": null
     },
@@ -402,7 +402,7 @@
       "name": "LLM Gateway",
       "rawName": "LLM Gateway",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 433,
+      "modelCount": 438,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1122,7 +1122,7 @@
       "name": "xAI",
       "rawName": "xAI",
       "doc": "https://docs.x.ai/docs/models",
-      "modelCount": 12,
+      "modelCount": 13,
       "isChannel": false,
       "aliasOf": null
     },
@@ -1419,7 +1419,7 @@
       "name": "Merge Gateway",
       "rawName": "Merge Gateway",
       "doc": "https://docs.merge.dev/merge-gateway",
-      "modelCount": 193,
+      "modelCount": 195,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1644,7 +1644,7 @@
       "name": "OpenCode Zen",
       "rawName": "OpenCode Zen",
       "doc": "https://opencode.ai/docs/zen",
-      "modelCount": 115,
+      "modelCount": 116,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1725,7 +1725,7 @@
       "name": "Requesty",
       "rawName": "Requesty",
       "doc": "https://requesty.ai/solution/llm-routing/models",
-      "modelCount": 165,
+      "modelCount": 166,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1743,7 +1743,7 @@
       "name": "Amazon Bedrock",
       "rawName": "Amazon Bedrock",
       "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
-      "modelCount": 186,
+      "modelCount": 189,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1752,7 +1752,7 @@
       "name": "Synthetic",
       "rawName": "Synthetic",
       "doc": "https://synthetic.new/pricing",
-      "modelCount": 10,
+      "modelCount": 11,
       "isChannel": true,
       "aliasOf": null
     },
@@ -3848,7 +3848,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "302ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -4942,7 +4942,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "302ai/kimi-k2-0905-preview": {
       "name": "kimi-k2-0905-preview",
@@ -5614,7 +5614,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "302ai/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -9274,7 +9274,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "agentrouter/gpt-5.6-sol": {
       "name": "GPT-5.6 Sol",
@@ -9947,7 +9947,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "aiand/zai-org/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -11730,7 +11730,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "aihubmix/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -12554,7 +12554,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "aihubmix/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -13744,7 +13744,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "aihubmix/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -14183,7 +14183,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "aki-io/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -14859,7 +14859,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "alibaba-cn/kimi-k2-thinking": {
       "name": "Moonshot Kimi K2 Thinking",
@@ -16645,7 +16645,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "alibaba-cn/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -17786,7 +17786,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "alibaba-token-plan-cn/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -18166,7 +18166,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "alibaba-token-plan-cn/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -18592,7 +18592,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "alibaba-token-plan/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -18972,7 +18972,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "alibaba-token-plan/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -20722,7 +20722,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "alibaba/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -23110,7 +23110,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "amazon-bedrock/google.gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -23289,6 +23289,96 @@
         ]
       },
       "shared": 2
+    },
+    "amazon-bedrock/in.anthropic.claude-haiku-4-5-20251001-v1:0": {
+      "name": "Claude Haiku 4.5 (India)",
+      "norm": "claude-haiku-4-5",
+      "vendor": "amazon-bedrock",
+      "vendorRaw": "amazon-bedrock",
+      "vendorName": "Amazon Bedrock",
+      "isOrigin": false,
+      "release": "2025-10-15",
+      "releasePrecision": "day",
+      "updated": "2025-10-15",
+      "ctx": 200000,
+      "out": 64000,
+      "in": 1.1,
+      "outCost": 5.5,
+      "cacheRead": 0.11,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 43
+    },
+    "amazon-bedrock/in.anthropic.claude-opus-5": {
+      "name": "Claude Opus 5 (India)",
+      "norm": "claude-opus-5",
+      "vendor": "amazon-bedrock",
+      "vendorRaw": "amazon-bedrock",
+      "vendorName": "Amazon Bedrock",
+      "isOrigin": false,
+      "release": "2026-07-24",
+      "releasePrecision": "day",
+      "updated": "2026-07-24",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 5.5,
+      "outCost": 27.5,
+      "cacheRead": 0.55,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 34
+    },
+    "amazon-bedrock/in.anthropic.claude-sonnet-5": {
+      "name": "Claude Sonnet 5 (India)",
+      "norm": "claude-sonnet-5",
+      "vendor": "amazon-bedrock",
+      "vendorRaw": "amazon-bedrock",
+      "vendorName": "Amazon Bedrock",
+      "isOrigin": false,
+      "release": "2026-06-30",
+      "releasePrecision": "day",
+      "updated": "2026-06-30",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 2.2,
+      "outCost": 11,
+      "cacheRead": 0.22,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 37
     },
     "amazon-bedrock/in.openai.gpt-5.6-luna": {
       "name": "GPT-5.6 Luna (India)",
@@ -26084,7 +26174,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "amazon-bedrock/writer.palmyra-x4-v1:0": {
       "name": "Palmyra X4",
@@ -34876,7 +34966,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "baseten/zai-org/GLM-5.3-Fast": {
       "name": "GLM 5.3 Fast",
@@ -35456,7 +35546,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "bothub/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -36579,7 +36669,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "cline-pass/cline-pass/glm-5.3-flash": {
       "name": "cline-pass/glm-5.3-flash",
@@ -38594,7 +38684,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "cloudflare-workers-ai/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
       "name": "Gemma Sea Lion V4 27B It",
@@ -39328,7 +39418,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "cloudflare-workers-ai/@cf/zai-org/glm-5.3-flash": {
       "name": "Glm 5.3 Flash",
@@ -39387,66 +39477,9 @@
       },
       "shared": 2
     },
-    "cohere/c4ai-aya-expanse-8b": {
-      "name": "Aya Expanse 8B",
-      "norm": "aya-expanse-8b",
-      "vendor": "cohere",
-      "vendorRaw": "cohere",
-      "vendorName": "Cohere",
-      "isOrigin": true,
-      "release": "2024-10-24",
-      "releasePrecision": "day",
-      "updated": "2024-10-24",
-      "ctx": 8000,
-      "out": 4000,
-      "in": null,
-      "outCost": null,
-      "cacheRead": null,
-      "open": true,
-      "reasoning": false,
-      "toolCall": false,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "cohere/c4ai-aya-vision-32b": {
       "name": "Aya Vision 32B",
       "norm": "aya-vision-32b",
-      "vendor": "cohere",
-      "vendorRaw": "cohere",
-      "vendorName": "Cohere",
-      "isOrigin": true,
-      "release": "2025-03-04",
-      "releasePrecision": "day",
-      "updated": "2025-05-14",
-      "ctx": 16000,
-      "out": 4000,
-      "in": null,
-      "outCost": null,
-      "cacheRead": null,
-      "open": true,
-      "reasoning": false,
-      "toolCall": false,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
-    "cohere/c4ai-aya-vision-8b": {
-      "name": "Aya Vision 8B",
-      "norm": "aya-vision-8b",
       "vendor": "cohere",
       "vendorRaw": "cohere",
       "vendorName": "Cohere",
@@ -40519,7 +40552,7 @@
       "releasePrecision": "day",
       "updated": "2026-09-10",
       "ctx": 1048576,
-      "out": 393216,
+      "out": 1048576,
       "in": 0.201,
       "outCost": 0.6,
       "cacheRead": 0.004,
@@ -41063,7 +41096,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "cortecs/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -43429,7 +43462,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "crof/glm-5.3-flash": {
       "name": "GLM 5.3-Flash",
@@ -45261,7 +45294,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "crossmodel/qwen/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -45494,7 +45527,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "crossmodel/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -45810,7 +45843,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "crossmodel/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -46011,7 +46044,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "crusoe/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B": {
       "name": "Nemotron 3 Super 120B A12B",
@@ -48023,7 +48056,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "deepinfra/Qwen/Qwen3.8-Max": {
       "name": "Qwen3.8 Max",
@@ -48923,7 +48956,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "deepinfra/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning": {
       "name": "Nemotron 3 Nano Omni 30B A3B Reasoning",
@@ -49352,7 +49385,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "deepinfra/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -49484,9 +49517,9 @@
       "updated": "2026-08-22",
       "ctx": 1000000,
       "out": 393216,
-      "in": 0.435,
-      "outCost": 0.87,
-      "cacheRead": 0.003625,
+      "in": 0.66,
+      "outCost": 1.98,
+      "cacheRead": 0.022,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -51181,7 +51214,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "digitalocean/nemotron-3-nano-omni": {
       "name": "Nemotron 3 Nano Omni",
@@ -55178,7 +55211,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "edenai/deepinfra/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B (Deep Infra)",
@@ -59252,7 +59285,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "edenai/qwen/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -60856,7 +60889,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "edenai/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -61142,7 +61175,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "edenai/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -61688,7 +61721,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "empiriolabs/glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -62761,7 +62794,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "empiriolabs/qwen3-8-max": {
       "name": "Qwen3.8 Max",
@@ -63259,7 +63292,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "engy/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -65290,7 +65323,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "fireworks-ai/accounts/fireworks/models/glm-5p3-flash": {
       "name": "GLM 5.3 Flash",
@@ -66300,7 +66333,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "friendli/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -67990,7 +68023,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "github-copilot/kimi-k2.7-code": {
       "name": "Kimi K2.7 Code",
@@ -69116,7 +69149,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "gmicloud/Qwen/Qwen3.8-Max": {
       "name": "Qwen3.8 Max",
@@ -73267,7 +73300,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "greenpt/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -79458,7 +79491,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "huggingface/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -79712,7 +79745,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "hyper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -80113,7 +80146,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "hyper/qwen3.8-max": {
       "name": "Qwen3.8 Max Preview",
@@ -83032,7 +83065,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "inco/glm-5.3-flash:fast": {
       "name": "GLM-5.3-Flash",
@@ -84843,7 +84876,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "iteracompute/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -87824,7 +87857,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "kenari/glm-5-3-flash": {
       "name": "GLM-5.3-Flash",
@@ -88674,7 +88707,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "kenari/nemotron-3-super-120b-a12b": {
       "name": "Nemotron 3 Super 120B A12B",
@@ -90342,11 +90375,11 @@
       "release": "2025-09-22",
       "releasePrecision": "day",
       "updated": "2025-09-22",
-      "ctx": 131072,
-      "out": 65536,
-      "in": 0.3,
+      "ctx": 163840,
+      "out": 147456,
+      "in": 0.27,
       "outCost": 1,
-      "cacheRead": 0.135,
+      "cacheRead": null,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -91691,7 +91724,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 262144,
-      "out": 235929,
+      "out": 32768,
       "in": 0.075,
       "outCost": 0.22,
       "cacheRead": 0.015,
@@ -91767,7 +91800,7 @@
       "shared": 6
     },
     "kilo/inclusionai/ling-3.1-flash": {
-      "name": "inclusionAI: Ling 3.1 Flash",
+      "name": "inclusionAI: Ling 3.1 Flash (new)",
       "norm": "ling-3-1-flash",
       "vendor": "kilo",
       "vendorRaw": "kilo",
@@ -93423,10 +93456,10 @@
       "releasePrecision": "day",
       "updated": "2025-11-06",
       "ctx": 262144,
-      "out": 98304,
+      "out": 235929,
       "in": 0.6,
       "outCost": 2.5,
-      "cacheRead": 0.15,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -93781,7 +93814,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "kilo/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "name": "NVIDIA: Nemotron 3 Nano Omni (free)",
@@ -97913,7 +97946,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "kilo/qwen/qwen3.8-max-0902": {
       "name": "Qwen3.8 Max 0902",
@@ -98713,9 +98746,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.13,
-      "outCost": 0.53,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -98769,9 +98802,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99335,7 +99368,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "kilo/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -99438,9 +99471,9 @@
       "updated": "2026-09-22",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.07,
+      "in": 0.12,
       "outCost": 0.28,
-      "cacheRead": 0.002,
+      "cacheRead": 0.006,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99856,7 +99889,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "kilo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -100109,8 +100142,8 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.015,
-      "outCost": 1.2,
-      "cacheRead": 0.002115,
+      "outCost": 0.676999,
+      "cacheRead": 0.002097,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100165,9 +100198,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.008625,
-      "outCost": 1.6,
-      "cacheRead": 0.008625,
+      "in": 0.0115,
+      "outCost": 1.28,
+      "cacheRead": 0.0115,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100257,9 +100290,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1.34,
-      "outCost": 13,
-      "cacheRead": 0.8,
+      "in": 1,
+      "outCost": 11.357,
+      "cacheRead": 0.29,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100468,7 +100501,7 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.02625,
-      "outCost": 0.9,
+      "outCost": 0.928749,
       "cacheRead": 0.01125,
       "open": false,
       "reasoning": true,
@@ -101374,7 +101407,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/alibaba/kimi-k2.5": {
       "name": "Kimi K2.5 (Alibaba Cloud)",
@@ -102078,7 +102111,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/alibaba/qwen3.8-max": {
       "name": "Qwen3.8 Max (Alibaba Cloud)",
@@ -102918,6 +102951,36 @@
       },
       "shared": 34
     },
+    "llmgateway-providers/aws-bedrock/claude-opus-5-5": {
+      "name": "Claude Opus 5.5 (AWS Bedrock)",
+      "norm": "claude-opus-5-5",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 26
+    },
     "llmgateway-providers/aws-bedrock/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (AWS Bedrock)",
       "norm": "claude-sonnet-4-5",
@@ -103038,6 +103101,36 @@
       },
       "shared": 37
     },
+    "llmgateway-providers/aws-bedrock/claude-sonnet-5-5": {
+      "name": "Claude Sonnet 5.5 (AWS Bedrock)",
+      "norm": "claude-sonnet-5-5",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-28",
+      "releasePrecision": "day",
+      "updated": "2026-09-28",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 22
+    },
     "llmgateway-providers/aws-bedrock/grok-4-3": {
       "name": "Grok 4.3 (AWS Bedrock)",
       "norm": "grok-4-3",
@@ -103095,6 +103188,65 @@
         ]
       },
       "shared": 31
+    },
+    "llmgateway-providers/aws-bedrock/grok-4-7": {
+      "name": "Grok 4.7 (AWS Bedrock)",
+      "norm": "grok-4-7",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-21",
+      "releasePrecision": "day",
+      "updated": "2026-09-21",
+      "ctx": 524288,
+      "out": 524288,
+      "in": 2,
+      "outCost": 6,
+      "cacheRead": 0.5,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 21
+    },
+    "llmgateway-providers/aws-bedrock/kimi-k3": {
+      "name": "Kimi K3 (AWS Bedrock)",
+      "norm": "kimi-k3",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-07-16",
+      "releasePrecision": "day",
+      "updated": "2026-07-16",
+      "ctx": 1048576,
+      "out": 1048576,
+      "in": 3,
+      "outCost": 15,
+      "cacheRead": 0.3,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 75
     },
     "llmgateway-providers/aws-bedrock/llama-3.1-70b-instruct": {
       "name": "Llama 3.1 70B Instruct (AWS Bedrock)",
@@ -104366,6 +104518,36 @@
       },
       "shared": 24
     },
+    "llmgateway-providers/azure/gpt-6.1-sol": {
+      "name": "GPT-6.1 Sol (Azure)",
+      "norm": "gpt-6-1-sol",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-29",
+      "releasePrecision": "day",
+      "updated": "2026-09-29",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 20
+    },
     "llmgateway-providers/azure/gpt-oss-120b": {
       "name": "GPT OSS 120B (Azure)",
       "norm": "gpt-oss-120b",
@@ -104589,7 +104771,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/baidu/kimi-k2.6": {
       "name": "Kimi K2.6 (Baidu)",
@@ -106445,7 +106627,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/fireworks/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Fireworks AI)",
@@ -107436,7 +107618,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/inference.net/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Inference.net)",
@@ -107986,7 +108168,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/mistral/ministral-14b-2512": {
       "name": "Ministral 14B (Mistral AI)",
@@ -108765,7 +108947,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/novita/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (NovitaAI)",
@@ -109712,7 +109894,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/novita/qwen3.8-max": {
       "name": "Qwen3.8 Max (NovitaAI)",
@@ -111117,7 +111299,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/runware/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Runware)",
@@ -111435,7 +111617,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/scx-ai-gp/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (SCX.ai)",
@@ -112327,7 +112509,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/together-ai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Together AI)",
@@ -113225,7 +113407,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "llmgateway-providers/xai/grok-build-0-1": {
       "name": "Grok Build 0.1 (xAI)",
@@ -113800,7 +113982,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway-providers/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Z AI)",
@@ -115656,7 +115838,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "llmgateway/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -117108,7 +117290,7 @@
       "release": "2026-09-21",
       "releasePrecision": "day",
       "updated": "2026-09-21",
-      "ctx": 500000,
+      "ctx": 524288,
       "out": 500000,
       "in": 2,
       "outCost": 6,
@@ -117125,7 +117307,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "llmgateway/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -119735,7 +119917,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway/qwen3.8-max": {
       "name": "Qwen3.8 Max Preview",
@@ -122034,7 +122216,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "melious/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -124958,6 +125140,34 @@
       },
       "shared": 21
     },
+    "merge-gateway/nvidia/nemotron-3-nano-30b-a3b": {
+      "name": "Nemotron 3 Nano 30B A3B",
+      "norm": "nemotron-3-nano-30b-a3b",
+      "vendor": "merge-gateway",
+      "vendorRaw": "merge-gateway",
+      "vendorName": "Merge Gateway",
+      "isOrigin": false,
+      "release": "2025-12-15",
+      "releasePrecision": "day",
+      "updated": "2025-12-15",
+      "ctx": 256000,
+      "out": 32000,
+      "in": 0.05,
+      "outCost": 0.2,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 11
+    },
     "merge-gateway/nvidia/nemotron-3.5-lightning-30b-a3b": {
       "name": "Nemotron 3.5 Lightning 30B A3B",
       "norm": "nemotron-3-5-lightning-30b-a3b",
@@ -125946,10 +126156,10 @@
       "release": "2025-08-05",
       "releasePrecision": "day",
       "updated": "2025-08-05",
-      "ctx": 131072,
-      "out": 32768,
-      "in": 0.09,
-      "outCost": 0.36,
+      "ctx": 128000,
+      "out": 32000,
+      "in": 0.05,
+      "outCost": 0.25,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
@@ -125974,10 +126184,10 @@
       "release": "2025-08-05",
       "releasePrecision": "day",
       "updated": "2025-08-05",
-      "ctx": 131072,
-      "out": 32768,
+      "ctx": 128000,
+      "out": 32000,
       "in": 0.04,
-      "outCost": 0.2,
+      "outCost": 0.15,
       "cacheRead": 0.02,
       "open": true,
       "reasoning": true,
@@ -127039,6 +127249,34 @@
       },
       "shared": 19
     },
+    "merge-gateway/qwen/qwen3.8-flash": {
+      "name": "Qwen3.8 Flash",
+      "norm": "qwen3-8-flash",
+      "vendor": "merge-gateway",
+      "vendorRaw": "merge-gateway",
+      "vendorName": "Merge Gateway",
+      "isOrigin": false,
+      "release": "2026-08-26",
+      "releasePrecision": "day",
+      "updated": "2026-08-26",
+      "ctx": 977000,
+      "out": 128000,
+      "in": 0.15,
+      "outCost": 0.47,
+      "cacheRead": 0.016,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 25
+    },
     "merge-gateway/qwen/qwen3.8-max": {
       "name": "Qwen3.8 Max",
       "norm": "qwen3-8-max",
@@ -127382,7 +127620,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "merge-gateway/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -127748,7 +127986,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "merge-gateway/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -129755,7 +129993,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "mixlayer/qwen/qwen3.5-122b-a10b": {
       "name": "Qwen3.5 122B A10B",
@@ -131384,7 +131622,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "nan/glm5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -131529,7 +131767,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "nano-gpt/Doctor-Shotgun/MS3.2-24B-Magnum-Diamond": {
       "name": "MS3.2 24B Magnum Diamond",
@@ -146164,7 +146402,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "nano-gpt/qwen/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -147469,7 +147707,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "nano-gpt/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -148614,7 +148852,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "nano-gpt/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -150382,7 +150620,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "nebius/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -152333,7 +152571,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "neuralwatt/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -157794,7 +158032,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "nvidia/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning": {
       "name": "Nemotron 3 Nano Omni",
@@ -158846,7 +159084,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "nvidia/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -160195,7 +160433,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "ofox/bailian/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -162672,7 +162910,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "ofox/qwen/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -163266,7 +163504,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "ofox/z-ai/glm-4.6": {
       "name": "GLM-4.6",
@@ -163490,7 +163728,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "ofox/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -163837,7 +164075,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "ollama-cloud/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -165994,7 +166232,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "opencode-go/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -166173,7 +166411,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "opencode-go/hy3": {
       "name": "Hy3",
@@ -166737,7 +166975,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "opencode-go/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -167956,7 +168194,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "opencode/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -168785,7 +169023,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "opencode/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -169234,6 +169472,34 @@
       "in": 0,
       "outCost": 0,
       "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "opencode/ling-3.1-flash-free": {
+      "name": "Ling 3.1 Flash Free",
+      "norm": "ling-3-1-flash-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode Zen",
+      "isOrigin": false,
+      "release": "2026-09-29",
+      "releasePrecision": "day",
+      "updated": "2026-09-29",
+      "ctx": 262144,
+      "out": 32768,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -170039,7 +170305,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "opencode/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -171705,10 +171971,10 @@
       "releasePrecision": "day",
       "updated": "2025-09-22",
       "ctx": 163840,
-      "out": 65536,
-      "in": 0.3,
+      "out": 147456,
+      "in": 0.27,
       "outCost": 1,
-      "cacheRead": 0.135,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -172760,9 +173026,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.09,
-      "outCost": 0.3,
-      "cacheRead": 0.05,
+      "in": 0.0675,
+      "outCost": 0.225,
+      "cacheRead": 0.0375,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -173107,10 +173373,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.06,
-      "outCost": 0.18,
-      "cacheRead": 0.012,
+      "out": 32768,
+      "in": 0.042,
+      "outCost": 0.1232,
+      "cacheRead": 0.0084,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -174693,10 +174959,10 @@
       "releasePrecision": "day",
       "updated": "2025-11-06",
       "ctx": 262144,
-      "out": 98304,
+      "out": 235929,
       "in": 0.6,
       "outCost": 2.5,
-      "cacheRead": 0.15,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -175051,7 +175317,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free": {
       "name": "Nemotron 3 Nano Omni (free)",
@@ -179199,7 +179465,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "openrouter/qwen/qwen3.8-max-0902": {
       "name": "Qwen3.8 Max 0902",
@@ -179821,9 +180087,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.132,
-      "outCost": 0.528,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -179877,9 +180143,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -180473,7 +180739,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "openrouter/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -180994,7 +181260,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "openrouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -181247,8 +181513,8 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.015,
-      "outCost": 1.2,
-      "cacheRead": 0.002115,
+      "outCost": 0.676999,
+      "cacheRead": 0.002097,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181304,8 +181570,8 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.008625,
-      "outCost": 1.6,
-      "cacheRead": 0.008625,
+      "outCost": 0.808374,
+      "cacheRead": 0.00105,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181395,9 +181661,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1.34,
-      "outCost": 13,
-      "cacheRead": 0.8,
+      "in": 1,
+      "outCost": 11.357,
+      "cacheRead": 0.29,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181606,7 +181872,7 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.02625,
-      "outCost": 0.9,
+      "outCost": 0.928749,
       "cacheRead": 0.01125,
       "open": false,
       "reasoning": true,
@@ -182339,7 +182605,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "opper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -186728,7 +186994,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "orcarouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -191042,7 +191308,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "pioneer/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B-FP8": {
       "name": "Nemotron 3 Super 120B A12B",
@@ -195625,10 +195891,10 @@
       "release": "2026-08-14",
       "releasePrecision": "day",
       "updated": "2026-08-14",
-      "ctx": 256000,
+      "ctx": 1000000,
       "out": 131072,
       "in": 1.791,
-      "outCost": 8.9436,
+      "outCost": 6.6326,
       "cacheRead": 0.1733,
       "open": true,
       "reasoning": true,
@@ -195641,7 +195907,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "privatemode-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -195653,7 +195919,7 @@
       "release": "2026-08-26",
       "releasePrecision": "day",
       "updated": "2026-08-26",
-      "ctx": 256000,
+      "ctx": 1000000,
       "out": 131072,
       "in": 0.2311,
       "outCost": 0.7511,
@@ -195682,7 +195948,7 @@
       "release": "2026-08-26",
       "releasePrecision": "day",
       "updated": "2026-08-26",
-      "ctx": 256000,
+      "ctx": 1000000,
       "out": 131072,
       "in": 0.2311,
       "outCost": 0.7511,
@@ -195711,10 +195977,10 @@
       "release": "2026-08-14",
       "releasePrecision": "day",
       "updated": "2026-08-14",
-      "ctx": 256000,
+      "ctx": 1000000,
       "out": 131072,
       "in": 1.791,
-      "outCost": 8.9436,
+      "outCost": 6.6326,
       "cacheRead": 0.1733,
       "open": true,
       "reasoning": true,
@@ -195741,8 +196007,8 @@
       "updated": "2025-08-05",
       "ctx": 128000,
       "out": 32768,
-      "in": 0.4969,
-      "outCost": 1.9644,
+      "in": 0.2311,
+      "outCost": 0.7511,
       "cacheRead": 0.0462,
       "open": true,
       "reasoning": true,
@@ -201523,7 +201789,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "requesty/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -201613,7 +201879,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "requesty/gpt-4.1-mini@eu": {
       "name": "GPT-4.1 mini (EU)",
@@ -202623,6 +202889,36 @@
         ]
       },
       "shared": 31
+    },
+    "requesty/grok-4.7": {
+      "name": "Grok 4.7",
+      "norm": "grok-4-7",
+      "vendor": "requesty",
+      "vendorRaw": "requesty",
+      "vendorName": "Requesty",
+      "isOrigin": false,
+      "release": "2026-09-21",
+      "releasePrecision": "day",
+      "updated": "2026-09-21",
+      "ctx": 500000,
+      "out": 500000,
+      "in": 2,
+      "outCost": 6,
+      "cacheRead": 0.5,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 21
     },
     "requesty/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -204189,7 +204485,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "requesty/qwen3.8-flash-next": {
       "name": "Qwen3.8 Flash Next",
@@ -207494,7 +207790,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "scnet-token-plan/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -207753,7 +208049,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "scnet-token-plan/Qwen3.8-Max": {
       "name": "Qwen3.8 Max",
@@ -210847,7 +211143,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "siliconflow/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -213242,6 +213538,34 @@
       },
       "shared": 86
     },
+    "synthetic/hf:zai-org/GLM-5.3": {
+      "name": "GLM-5.3",
+      "norm": "glm-5-3",
+      "vendor": "synthetic",
+      "vendorRaw": "synthetic",
+      "vendorName": "Synthetic",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 524288,
+      "out": 65536,
+      "in": 1.4,
+      "outCost": 4.4,
+      "cacheRead": 0.26,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 67
+    },
     "synthetic/hf:zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
       "norm": "glm-5-3-flash",
@@ -214755,7 +215079,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "tempr/moonshot/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -215055,7 +215379,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "tempr/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -215604,7 +215928,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "tempr/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -216727,7 +217051,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "tensorx/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -217188,7 +217512,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "tinfoil/glm-5-3-flash": {
       "name": "GLM-5.3-Flash",
@@ -218153,7 +218477,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "togetherai/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -218526,7 +218850,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "tokengo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -218585,7 +218909,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "trustedrouter/trustedrouter/auto": {
       "name": "Auto",
@@ -220131,7 +220455,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "vancine/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -220250,7 +220574,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "vancine/qwen3.8-max": {
       "name": "Qwen3.8 Max",
@@ -221563,7 +221887,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "venice/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -223388,7 +223712,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "venice/z-ai-glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -230054,7 +230378,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 11
     },
     "vercel/nvidia/nemotron-3-super-120b-a12b": {
       "name": "NVIDIA Nemotron 3 Super 120B A12B",
@@ -233651,7 +233975,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "vercel/spacexai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -233820,7 +234144,7 @@
           "video"
         ]
       },
-      "shared": 1
+      "shared": 2
     },
     "vercel/spacexai/grok-stt": {
       "name": "Grok STT",
@@ -235124,7 +235448,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "vercel/zai/glm-5.3-fast": {
       "name": "GLM 5.3 Fast",
@@ -235841,7 +236165,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "vivgrid/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -236580,7 +236904,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "volcengine-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -237284,7 +237608,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "vultr/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -238960,7 +239284,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -239108,6 +239432,36 @@
           "text",
           "image",
           "audio",
+          "pdf"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "shared": 2
+    },
+    "xai/grok-imagine-video-1.5-lite": {
+      "name": "Grok Imagine Video 1.5 Lite",
+      "norm": "grok-imagine-video-1-5-lite",
+      "vendor": "xai",
+      "vendorRaw": "xai",
+      "vendorName": "xAI",
+      "isOrigin": true,
+      "release": "2026-10-01",
+      "releasePrecision": "day",
+      "updated": "2026-10-01",
+      "ctx": 1024,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
           "pdf"
         ],
         "output": [
@@ -240682,7 +241036,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "zai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -241167,7 +241521,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -244972,7 +245326,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "zenmux/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -245151,7 +245505,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "zhipuai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -245608,7 +245962,7 @@
           "text"
         ]
       },
-      "shared": 66
+      "shared": 67
     },
     "zhipuai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",

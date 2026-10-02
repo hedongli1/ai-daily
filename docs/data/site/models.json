@@ -1,6 +1,6 @@
 {
   "date": "2026-10-03",
-  "count": 449,
+  "count": 448,
   "models": [
     {
       "n": "jamba-large",
@@ -365,9 +365,9 @@
       "relP": "day",
       "ctx": 1000000,
       "out": 393216,
-      "in": 0.435,
-      "oc": 0.87,
-      "cr": 0.003625,
+      "in": 0.66,
+      "oc": 1.98,
+      "cr": 0.022,
       "open": 1,
       "rsn": 1,
       "tool": 1,
@@ -488,7 +488,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 66,
+      "ch": 67,
       "cap": [
         "开源",
         "推理",
@@ -1919,7 +1919,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 24,
+      "ch": 25,
       "cap": [
         "多模态",
         "视觉",
@@ -2810,52 +2810,8 @@
       "rel_ts": 1729728000000
     },
     {
-      "n": "aya-expanse-8b",
-      "name": "Aya Expanse 8B",
-      "v": "cohere",
-      "vn": "Cohere",
-      "rel": "2024-10-24",
-      "relP": "day",
-      "ctx": 8000,
-      "out": 4000,
-      "in": null,
-      "oc": null,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "开源"
-      ],
-      "rel_ts": 1729728000000
-    },
-    {
       "n": "aya-vision-32b",
       "name": "Aya Vision 32B",
-      "v": "cohere",
-      "vn": "Cohere",
-      "rel": "2025-03-04",
-      "relP": "day",
-      "ctx": 16000,
-      "out": 4000,
-      "in": null,
-      "oc": null,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源"
-      ],
-      "rel_ts": 1741046400000
-    },
-    {
-      "n": "aya-vision-8b",
-      "name": "Aya Vision 8B",
       "v": "cohere",
       "vn": "Cohere",
       "rel": "2025-03-04",
@@ -7045,7 +7001,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 10,
+      "ch": 11,
       "cap": [
         "开源",
         "推理",
@@ -9791,7 +9747,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 20,
+      "ch": 21,
       "cap": [
         "多模态",
         "视觉",
@@ -9917,6 +9873,29 @@
         "视频生成"
       ],
       "rel_ts": 1780099200000
+    },
+    {
+      "n": "grok-imagine-video-1-5-lite",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "v": "xai",
+      "vn": "xAI",
+      "rel": "2026-10-01",
+      "relP": "day",
+      "ctx": 1024,
+      "out": 0,
+      "in": null,
+      "oc": null,
+      "cr": null,
+      "open": 0,
+      "rsn": 0,
+      "tool": 0,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "视频生成"
+      ],
+      "rel_ts": 1790812800000
     },
     {
       "n": "mimo-v2-flash",

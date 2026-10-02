@@ -2,6 +2,15 @@
   "date": "2026-10-03",
   "timeline": [
     {
+      "n": "grok-imagine-video-1-5-lite",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "vn": "xAI",
+      "rel": "2026-10-01",
+      "ctx": 1024,
+      "in": null,
+      "open": 0
+    },
+    {
       "n": "gpt-6-1-sol",
       "name": "GPT-6.1 Sol",
       "vn": "OpenAI",
@@ -286,7 +295,7 @@
       "vn": "DeepSeek",
       "rel": "2026-08-12",
       "ctx": 1000000,
-      "in": 0.435,
+      "in": 0.66,
       "open": 1
     },
     {
@@ -3044,15 +3053,6 @@
       "open": 0
     },
     {
-      "n": "aya-vision-8b",
-      "name": "Aya Vision 8B",
-      "vn": "Cohere",
-      "rel": "2025-03-04",
-      "ctx": 16000,
-      "in": null,
-      "open": 1
-    },
-    {
       "n": "aya-vision-32b",
       "name": "Aya Vision 32B",
       "vn": "Cohere",
@@ -3402,15 +3402,6 @@
       "ctx": 34096,
       "in": 0.043,
       "open": 0
-    },
-    {
-      "n": "aya-expanse-8b",
-      "name": "Aya Expanse 8B",
-      "vn": "Cohere",
-      "rel": "2024-10-24",
-      "ctx": 8000,
-      "in": null,
-      "open": 1
     },
     {
       "n": "aya-expanse-32b",

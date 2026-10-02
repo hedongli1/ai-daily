@@ -4,6 +4,74 @@
   "baselineDate": "2026-10-02",
   "events": [
     {
+      "type": "price",
+      "key": "deepseek/DeepSeek V4 Pro",
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepSeek V4 Pro",
+      "date": "2026-10-03",
+      "facts": {
+        "before": {
+          "in": 0.435,
+          "outCost": 0.87
+        },
+        "after": {
+          "in": 0.66,
+          "outCost": 1.98
+        }
+      },
+      "text": "输入 $0.43 → $0.66 · 输出 $0.87 → $1.98",
+      "href": "/models/deepseek-v4-pro/"
+    },
+    {
+      "type": "retired",
+      "key": "cohere/Aya Expanse 8B",
+      "vendor": "cohere",
+      "vendorName": "Cohere",
+      "name": "Aya Expanse 8B",
+      "date": "2026-10-03",
+      "facts": {},
+      "text": "已从 Cohere 下架",
+      "href": "/vendors/cohere/"
+    },
+    {
+      "type": "retired",
+      "key": "cohere/Aya Vision 8B",
+      "vendor": "cohere",
+      "vendorName": "Cohere",
+      "name": "Aya Vision 8B",
+      "date": "2026-10-03",
+      "facts": {},
+      "text": "已从 Cohere 下架",
+      "href": "/vendors/cohere/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "A model guide for the GPT-6 family",
+      "date": "2026-10-02",
+      "facts": {},
+      "text": "A model guide for the GPT-6 family",
+      "href": "https://openai.com/index/practical-guide-building-gpt-6",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Chatham scales its capital markets expertise with OpenAI",
+      "date": "2026-10-02",
+      "facts": {},
+      "text": "Chatham scales its capital markets expertise with OpenAI",
+      "href": "https://openai.com/index/chatham-financial",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "google",
@@ -47,6 +115,19 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-02",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
       "name": "cookbook · 仓库更新",
       "date": "2026-10-02",
       "facts": {},
@@ -69,17 +150,22 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "date": "2026-10-02",
-      "facts": {},
-      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "href": "https://github.com/zai-org/GLM-V/releases",
-      "source": "智谱 AI",
-      "external": true
+      "type": "new",
+      "key": "xai/Grok Imagine Video 1.5 Lite",
+      "vendor": "xai",
+      "vendorName": "xAI",
+      "name": "Grok Imagine Video 1.5 Lite",
+      "date": "2026-10-01",
+      "facts": {
+        "ctx": 1024,
+        "in": null,
+        "outCost": null,
+        "open": false,
+        "reasoning": false
+      },
+      "text": "Grok Imagine Video 1.5 Lite · 闭源 · 1K 上下文",
+      "href": "/models/grok-imagine-video-1-5-lite/",
+      "shared": 2
     },
     {
       "type": "news",
