@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "timeline": [
     {
       "n": "gpt-6-1-sol",
@@ -134,6 +134,15 @@
       "rel": "2026-09-10",
       "ctx": 1000000,
       "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "north-small-translate",
+      "name": "North Small Translate",
+      "vn": "Cohere",
+      "rel": "2026-09-09",
+      "ctx": 32768,
+      "in": 0,
       "open": 1
     },
     {
@@ -1519,6 +1528,42 @@
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
       "ctx": 131072,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "tiny-aya-water",
+      "name": "Tiny Aya Water",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "ctx": 8000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "tiny-aya-global",
+      "name": "Tiny Aya Global",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "ctx": 8000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "tiny-aya-fire",
+      "name": "Tiny Aya Fire",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "ctx": 8000,
+      "in": null,
+      "open": 1
+    },
+    {
+      "n": "tiny-aya-earth",
+      "name": "Tiny Aya Earth",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "ctx": 8000,
       "in": null,
       "open": 1
     },

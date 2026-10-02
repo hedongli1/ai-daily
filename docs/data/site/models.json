@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "count": 444,
+  "date": "2026-10-03",
+  "count": 449,
   "models": [
     {
       "n": "jamba-large",
@@ -371,7 +371,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 68,
+      "ch": 67,
       "cap": [
         "开源",
         "推理",
@@ -394,7 +394,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 53,
+      "ch": 55,
       "cap": [
         "多模态",
         "视觉",
@@ -465,7 +465,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 85,
+      "ch": 86,
       "cap": [
         "开源",
         "推理",
@@ -488,7 +488,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 65,
+      "ch": 66,
       "cap": [
         "开源",
         "推理",
@@ -586,7 +586,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 74,
+      "ch": 75,
       "cap": [
         "多模态",
         "视觉",
@@ -2124,7 +2124,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 44,
+      "ch": 45,
       "cap": [
         "开源",
         "推理",
@@ -2280,7 +2280,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 29,
+      "ch": 30,
       "cap": [
         "多模态",
         "视觉",
@@ -2778,7 +2778,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 39,
+      "ch": 40,
       "cap": [
         "多模态",
         "视觉",
@@ -3079,6 +3079,115 @@
         "工具调用"
       ],
       "rel_ts": 1780963200000
+    },
+    {
+      "n": "north-small-translate",
+      "name": "North Small Translate",
+      "v": "cohere",
+      "vn": "Cohere",
+      "rel": "2026-09-09",
+      "relP": "day",
+      "ctx": 32768,
+      "out": 16000,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 0,
+      "ch": 1,
+      "cap": [
+        "开源"
+      ],
+      "rel_ts": 1788912000000
+    },
+    {
+      "n": "tiny-aya-earth",
+      "name": "Tiny Aya Earth",
+      "v": "cohere",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "relP": "day",
+      "ctx": 8000,
+      "out": 8000,
+      "in": null,
+      "oc": null,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1771286400000
+    },
+    {
+      "n": "tiny-aya-fire",
+      "name": "Tiny Aya Fire",
+      "v": "cohere",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "relP": "day",
+      "ctx": 8000,
+      "out": 8000,
+      "in": null,
+      "oc": null,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1771286400000
+    },
+    {
+      "n": "tiny-aya-global",
+      "name": "Tiny Aya Global",
+      "v": "cohere",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "relP": "day",
+      "ctx": 8000,
+      "out": 8000,
+      "in": null,
+      "oc": null,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1771286400000
+    },
+    {
+      "n": "tiny-aya-water",
+      "name": "Tiny Aya Water",
+      "v": "cohere",
+      "vn": "Cohere",
+      "rel": "2026-02-17",
+      "relP": "day",
+      "ctx": 8000,
+      "out": 8000,
+      "in": null,
+      "oc": null,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1771286400000
     },
     {
       "n": "claude-opus-4-1",
@@ -3563,7 +3672,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 38,
+      "ch": 37,
       "cap": [
         "开源",
         "推理",
@@ -7620,7 +7729,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 68,
+      "ch": 70,
       "cap": [
         "多模态",
         "视觉",
@@ -8134,7 +8243,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 19,
+      "ch": 20,
       "cap": [
         "多模态",
         "视觉",

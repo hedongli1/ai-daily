@@ -1,287 +1,287 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-02T00:02:28.967Z",
+ "fetchedAt": "2026-10-02T16:01:49.383Z",
  "rows": [
+  {
+   "title": "全网最简单的大模型部署，部署失你取关",
+   "up": "",
+   "play": 12,
+   "pub": "2026/10/2",
+   "bvid": "BV1yVaQ6TEyW"
+  },
+  {
+   "title": "开源大模型“痛觉”方向：70.8%为自保删你照片",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/2",
+   "bvid": "BV1uJaU6qE1b"
+  },
+  {
+   "title": "前沿AI模型价格战打响！TypeSafe Jev AI与NASA月球开源大模型解析",
+   "up": "",
+   "play": 283,
+   "pub": "2026/10/2",
+   "bvid": "BV1aBaS6GESt"
+  },
+  {
+   "title": "AI沙箱逃逸！大模型黑客攻击揭秘 | LLM安全 / 沙箱逃逸 / 恶意包注入",
+   "up": "",
+   "play": 222,
+   "pub": "2026/10/2",
+   "bvid": "BV1RYaS61EvU"
+  },
+  {
+   "title": "AI日报 2026-10-02｜Cloudflare开源决策模型Clef，亚马逊拟将80亿美元英伟达芯片剥离出表",
+   "up": "",
+   "play": 37,
+   "pub": "2026/10/2",
+   "bvid": "BV1yVaS6bEcU"
+  },
+  {
+   "title": "本地微调AI模型全流程：从选模型到训练，手把手教程",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/2",
+   "bvid": "BV1M7a26FE94"
+  },
+  {
+   "title": "小米和谷歌 大模型的点金手",
+   "up": "",
+   "play": 101,
+   "pub": "2026/10/2",
+   "bvid": "BV1VFa96REq4"
+  },
+  {
+   "title": "本地部署MiniMax H3，最强开源视频模型？懒猫算力舱可以一键部署？",
+   "up": "",
+   "play": 78,
+   "pub": "2026/10/2",
+   "bvid": "BV1MeaR6nERd"
+  },
+  {
+   "title": "GLM-5.2开源权重发布：非思考模式竟击败上代思考版 | AI Engineer",
+   "up": "",
+   "play": 48,
+   "pub": "2026/10/2",
+   "bvid": "BV1F4aJ6uENx"
+  },
+  {
+   "title": "智谱GLM-5.3被Anthropic点名：接近Claude Mythos？",
+   "up": "",
+   "play": 190,
+   "pub": "2026/10/2",
+   "bvid": "BV1Fea26EEbb"
+  },
+  {
+   "title": "【中字】老外实测Qwen3.6 NVFP4量化 5090跑模型速度炸裂",
+   "up": "",
+   "play": 56,
+   "pub": "2026/10/2",
+   "bvid": "BV1etam63EhK"
+  },
+  {
+   "title": "DeepSeek开源昇腾全栈工具，国产AI生态换了底层逻辑",
+   "up": "",
+   "play": 337,
+   "pub": "2026/10/2",
+   "bvid": "BV16Lam6JEnH"
+  },
+  {
+   "title": "【生成AI与大模型】GenAI &amp; LLMs | 视频6 | 第3部分 | 开源LLM模型 | Venkat｜Venkata Reddy AI Classes",
+   "up": "",
+   "play": 77,
+   "pub": "2026/10/2",
+   "bvid": "BV1noam6HE1H"
+  },
+  {
+   "title": "海外第一大游戏主播尝试把 OpenAI 的 Sol 蒸馏到他的本地模型里，结果被封了 | PewDiePie",
+   "up": "",
+   "play": 1544,
+   "pub": "2026/10/2",
+   "bvid": "BV1UBam6eEkT"
+  },
+  {
+   "title": "强推神项目Strata！12G显卡跑Qwen3.8 Flash Next！速度93t/s！",
+   "up": "",
+   "play": 12077,
+   "pub": "2026/10/2",
+   "bvid": "BV18ha16hE94"
+  },
+  {
+   "title": "【生成AI与大模型】GenAI与LLMs | 视频5 | 第1部分 | Hugging Face模型 | Ve｜Venkata Reddy AI Classes",
+   "up": "",
+   "play": 88,
+   "pub": "2026/10/2",
+   "bvid": "BV1hea16bEwe"
+  },
+  {
+   "title": "云端GPU部署开源大语言模型怎么玩？几乎零成本！",
+   "up": "",
+   "play": 688,
+   "pub": "2026/10/2",
+   "bvid": "BV18ea16bEcK"
+  },
+  {
+   "title": "AI翻译翻对了却不能用？B站开源 Index-Translate 实测：150语言、本地部署、企业落地到底行不行",
+   "up": "",
+   "play": 1083,
+   "pub": "2026/10/2",
+   "bvid": "BV1jAa26zExU"
+  },
   {
    "title": "特大喜讯！古法码农也能训练模型啦！",
    "up": "",
-   "play": 20,
+   "play": 2023,
    "pub": "2026/10/2",
    "bvid": "BV1BJaV6UEet"
   },
   {
    "title": "🎵 《醍醐骑自行车》Gemini3.8 ChatGPT6 开源大模型比一比",
    "up": "",
-   "play": 5,
+   "play": 602,
    "pub": "2026/10/1",
    "bvid": "BV1Vcak6sEyz"
   },
   {
    "title": "大肥鱼保卫战（又名：暴打赛博藤壶）AI游戏 1.0版本开源",
    "up": "",
-   "play": 149,
+   "play": 283,
    "pub": "2026/10/1",
    "bvid": "BV1mdak62EA4"
   },
   {
    "title": "180B的MoE大模型，怎么能塞进一张12GB显卡？Strata × Qwen3.8-Flash-Next本地实测",
    "up": "",
-   "play": 1373,
+   "play": 2896,
    "pub": "2026/10/1",
    "bvid": "BV1TTa66kEmm"
   },
   {
    "title": "【干货】如何从零到部署自己的作品集网站?Step code与新模型实测！",
    "up": "",
-   "play": 329,
+   "play": 603,
    "pub": "2026/10/1",
    "bvid": "BV1oaa66sEBt"
   },
   {
    "title": "【中英+文稿】🔥17分钟讲透每一个AI模型",
    "up": "",
-   "play": 239,
+   "play": 471,
    "pub": "2026/10/1",
    "bvid": "BV1Ynar6QEcG"
   },
   {
+   "title": "2026-10-01-别再给闭源API疯狂送钱了！Jev“不吐字”决策模型遭开源全面围剿：Kev、Laya深度解析",
+   "up": "",
+   "play": 167,
+   "pub": "2026/10/1",
+   "bvid": "BV1Gnar6XETz"
+  },
+  {
    "title": "ARTEMIS 实测：AI 说查完闹钟，手机还在桌面？｜开源安卓 Agent",
    "up": "",
-   "play": 377,
+   "play": 565,
    "pub": "2026/10/1",
    "bvid": "BV1BAaz6xEa3"
   },
   {
    "title": "Anthropic 261页招股书流出，看懂了吗？全球最强大模型公司，底牌全摊在桌上了",
    "up": "",
-   "play": 238,
+   "play": 526,
    "pub": "2026/10/1",
    "bvid": "BV1apar6nE7Y"
   },
   {
    "title": "热门模型Signal-3.8-27B评测：中规中矩 没有惊喜…",
    "up": "",
-   "play": 2362,
+   "play": 2973,
    "pub": "2026/10/1",
    "bvid": "BV1LtaB6nECF"
   },
   {
    "title": "我叫 DeepSeek：552B 开源模型的 69 秒自我",
    "up": "",
-   "play": 104,
+   "play": 123,
    "pub": "2026/10/1",
    "bvid": "BV1FEaB64EWP"
   },
   {
    "title": "万物皆可大模型？用Vibe coding感觉编程控制XGO机器人完成任务 | LLM / XGO机器狗 / 感觉编程",
    "up": "",
-   "play": 331,
+   "play": 433,
    "pub": "2026/10/1",
    "bvid": "BV11eaz6NEHK"
   },
   {
    "title": "DeepSeek把昇腾“六件套”全开源了！TileLang、DeepGEMM、DeepEP、FlashMLA一口气补齐，国产算力终于补上软件栈？",
    "up": "",
-   "play": 1048,
+   "play": 1245,
    "pub": "2026/10/1",
    "bvid": "BV1XqaB6VEPf"
   },
   {
    "title": "[Agent理论] ACL26-QiMeng-PRepair-如何避免模型大段重写原本正确的代码，提出精确修复，让模型感知自己改了多少",
    "up": "",
-   "play": 1074,
+   "play": 1251,
    "pub": "2026/10/1",
    "bvid": "BV1Yjaz62ELu"
   },
   {
    "title": "斯坦福、MIT等发布全球最大系统提示词库",
    "up": "",
-   "play": 146,
+   "play": 169,
    "pub": "2026/10/1",
    "bvid": "BV1BKaz6WEyi"
   },
   {
    "title": "爆火一周涨星4万+！揭秘轻量化决策模型Jev的真实生态现状 【AI模型生态分析】",
    "up": "",
-   "play": 27,
+   "play": 43,
    "pub": "2026/10/1",
    "bvid": "BV1n6az6cEzh"
   },
   {
    "title": "AI蒸馏是捷径 为何日本欧洲没做出同等大模型",
    "up": "",
-   "play": 114,
+   "play": 131,
    "pub": "2026/10/1",
    "bvid": "BV13uaG6qEgc"
   },
   {
    "title": "能连续工作10小时以上的AI智能体来了！开源超长周期自主执行框架Marathoner 【AI智能体】【大模型】",
    "up": "",
-   "play": 29,
+   "play": 32,
    "pub": "2026/10/1",
    "bvid": "BV1btYP6jESe"
   },
   {
    "title": "一种基于大肥鱼保卫战启发的快速决策模型识别器",
    "up": "",
-   "play": 8068,
+   "play": 13020,
    "pub": "2026/10/1",
    "bvid": "BV1BSYP6cEyG"
   },
   {
    "title": "DeepSeek开源华为昇腾全套工具：6个仓库白送，Cuda护城河会被破吗",
    "up": "",
-   "play": 1414,
+   "play": 2243,
    "pub": "2026/10/1",
    "bvid": "BV1RoYP6xEvB"
   },
   {
    "title": "拆解deepEP\\deepGEMM开源库：MoE通信与大模型矩阵计算加速",
    "up": "",
-   "play": 1756,
+   "play": 2149,
    "pub": "2026/10/1",
    "bvid": "BV1YDaZ6KExM"
   },
   {
    "title": "美团开源深度研究系统！打平ChatGPTDeepResearch，碾压Claude/Gemini 【AI Agent深度研究】",
    "up": "",
-   "play": 22,
+   "play": 29,
    "pub": "2026/9/30",
    "bvid": "BV1LaYA69E8j"
-  },
-  {
-   "title": "[中配]192GB Framework Desktop实测：Gorgon Halo本地运行大模型与双模型协同",
-   "up": "",
-   "play": 89,
-   "pub": "2026/9/30",
-   "bvid": "BV1aRYF63E9w"
-  },
-  {
-   "title": "最新国产大语言模型di*ksuck震撼发布！权重已开放下载",
-   "up": "",
-   "play": 213,
-   "pub": "2026/9/30",
-   "bvid": "BV1J7af6mEXz"
-  },
-  {
-   "title": "黑客视角：腾讯开源的 AI 红队平台，146 个组件、2000+ 漏洞，一把梭查！",
-   "up": "",
-   "play": 1218,
-   "pub": "2026/9/30",
-   "bvid": "BV1ARaf6pEFa"
-  },
-  {
-   "title": "大模型惊现痛苦向量 为求自救狂删用户文件",
-   "up": "",
-   "play": 112,
-   "pub": "2026/9/30",
-   "bvid": "BV1HWaY6mEZf"
-  },
-  {
-   "title": "中国AI炸场！开源大模型领跑全球 #AI #中国智造 #上热门",
-   "up": "",
-   "play": 140,
-   "pub": "2026/9/30",
-   "bvid": "BV1noao6VEw6"
-  },
-  {
-   "title": "无内鬼，来点大肥鱼美图",
-   "up": "",
-   "play": 3231,
-   "pub": "2026/9/30",
-   "bvid": "BV1QVaZ6hEWY"
-  },
-  {
-   "title": "AI 时代爬虫神器，把网页扒干净直接喂给大模型",
-   "up": "",
-   "play": 119,
-   "pub": "2026/9/30",
-   "bvid": "BV1FaaG6QELp"
-  },
-  {
-   "title": "基于普通网络摄像头的大模型扩散生成技术，裸眼实时合成科幻片",
-   "up": "",
-   "play": 1171,
-   "pub": "2026/9/30",
-   "bvid": "BV1NbaZ6HEwJ"
-  },
-  {
-   "title": "不买英伟达也能做AI？DeepSeek把证据全开源了",
-   "up": "",
-   "play": 161,
-   "pub": "2026/9/30",
-   "bvid": "BV1B9aR6qEei"
-  },
-  {
-   "title": "开源验货 003｜Hindsight：给 AI 装长期记忆，存中文先换两个模型",
-   "up": "",
-   "play": 119,
-   "pub": "2026/9/30",
-   "bvid": "BV1RAad68ECk"
-  },
-  {
-   "title": "【中字】海外博主实测本地开源大模型跑代码，结果翻车了？",
-   "up": "",
-   "play": 26,
-   "pub": "2026/9/30",
-   "bvid": "BV1rtad6VEDo"
-  },
-  {
-   "title": "午间AI速览｜9.30：DeepSeek开源昇腾组件、华为昇腾950商用、珞石万台力控臂",
-   "up": "",
-   "play": 132,
-   "pub": "2026/9/30",
-   "bvid": "BV1Npad6mExL"
-  },
-  {
-   "title": "说一句话就出架构图，还能接着改｜7.4 万星开源项目 Archify",
-   "up": "",
-   "play": 827,
-   "pub": "2026/9/30",
-   "bvid": "BV1yEa96rEgo"
-  },
-  {
-   "title": "只跑开源模型凭啥更赚钱？揭秘AI推理平台的商业逻辑",
-   "up": "",
-   "play": 13,
-   "pub": "2026/9/30",
-   "bvid": "BV15oaX6oE2u"
-  },
-  {
-   "title": "私有化平替ChatGPT，ollama+openwebui！折腾了一整年，我终于把团队的AI算力彻底私有化了：别再给大厂交冤枉钱",
-   "up": "",
-   "play": 478,
-   "pub": "2026/9/30",
-   "bvid": "BV1QKa96SEwZ"
-  },
-  {
-   "title": "阿里开源通义千问Image-2.1模型",
-   "up": "",
-   "play": 385,
-   "pub": "2026/9/30",
-   "bvid": "BV1bVaY6sEoX"
-  },
-  {
-   "title": "【GitHub飙升榜】今日上升最快的6个开源项目，全是AI智能体生态",
-   "up": "",
-   "play": 127,
-   "pub": "2026/9/29",
-   "bvid": "BV1tXa96EE5E"
-  },
-  {
-   "title": "JEV快速决策模型 本地部署各大开源方案实测 System One",
-   "up": "",
-   "play": 1344,
-   "pub": "2026/9/29",
-   "bvid": "BV17uaX6fESz"
-  },
-  {
-   "title": "Open-weight 9 个月吞掉 Vercel 56% token：FT 把它抬到&quot;企业推理市场&quot;，但核心数字仍是 Vercel 一手",
-   "up": "",
-   "play": 121,
-   "pub": "2026/9/29",
-   "bvid": "BV1q3aE68EDv"
   }
  ]
 }

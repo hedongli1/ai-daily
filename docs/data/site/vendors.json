@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "vendors": [
     {
       "id": "nvidia",
@@ -50,6 +50,14 @@
       "country": "intl"
     },
     {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 18,
+      "cheapest": 0,
+      "latest": "2026-09-09",
+      "country": "intl"
+    },
+    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
@@ -72,14 +80,6 @@
       "cheapest": 0.02227,
       "latest": "2026-06-23",
       "country": "cn"
-    },
-    {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 13,
-      "cheapest": 0,
-      "latest": "2026-06-09",
-      "country": "intl"
     },
     {
       "id": "xai",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1351,11 +1351,11 @@
       "name": "Grok 4.6"
     },
     "grok-4-7": {
-      "runs": 6,
+      "runs": 8,
       "domains": {
         "Language": {
-          "n": 6,
-          "avg": 0.5577,
+          "n": 8,
+          "avg": 0.5059,
           "best": 0.9806
         }
       },
