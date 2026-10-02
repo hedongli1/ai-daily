@@ -403,11 +403,11 @@
       "name": "Claude Fable 5"
     },
     "claude-fable-5-1": {
-      "runs": 10,
+      "runs": 12,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.6542,
+          "n": 12,
+          "avg": 0.5485,
           "best": 1
         }
       },
@@ -487,11 +487,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 9,
+      "runs": 11,
       "domains": {
         "Language": {
-          "n": 9,
-          "avg": 0.8358,
+          "n": 11,
+          "avg": 0.6899,
           "best": 1
         }
       },
@@ -535,11 +535,11 @@
       "name": "Claude Sonnet 5"
     },
     "claude-sonnet-5-5": {
-      "runs": 7,
+      "runs": 8,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 7,
-          "avg": 0.7876,
+          "n": 8,
+          "avg": 0.6925,
           "best": 1
         }
       },
@@ -1219,11 +1219,11 @@
       "name": "GPT-5.5 Pro"
     },
     "gpt-6-astra": {
-      "runs": 16,
+      "runs": 18,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 16,
-          "avg": 0.805,
+          "n": 18,
+          "avg": 0.7441,
           "best": 1
         }
       },
@@ -1231,11 +1231,11 @@
       "name": "GPT-6 Astra"
     },
     "gpt-6-luna": {
-      "runs": 6,
+      "runs": 10,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 6,
-          "avg": 0.6833,
+          "n": 10,
+          "avg": 0.448,
           "best": 0.9889
         }
       },
@@ -1243,11 +1243,11 @@
       "name": "GPT-6 Luna"
     },
     "gpt-6-sol": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 8,
-          "avg": 0.7531,
+          "n": 9,
+          "avg": 0.6713,
           "best": 1
         }
       },
@@ -1255,11 +1255,11 @@
       "name": "GPT-6 Sol"
     },
     "gpt-6-1-sol": {
-      "runs": 9,
+      "runs": 11,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 9,
-          "avg": 0.8203,
+          "n": 11,
+          "avg": 0.716,
           "best": 1
         }
       },
@@ -1351,12 +1351,12 @@
       "name": "Grok 4.6"
     },
     "grok-4-7": {
-      "runs": 1,
+      "runs": 6,
       "domains": {
         "Language": {
-          "n": 1,
-          "avg": 0.2083,
-          "best": 0.2083
+          "n": 6,
+          "avg": 0.5577,
+          "best": 0.9806
         }
       },
       "rel": "2026-09-21",

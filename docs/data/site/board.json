@@ -69,32 +69,32 @@
     {
       "tag": "Language",
       "models": 114,
-      "n": "claude-opus-5-5",
-      "name": "Claude Opus 5.5",
-      "vn": "Anthropic",
-      "avg": 0.8358,
-      "best": 1,
-      "runs": 9
+      "n": "gpt-5-3-codex",
+      "name": "GPT-5.3 Codex",
+      "vn": "OpenAI",
+      "avg": 0.7479,
+      "best": 0.7479,
+      "runs": 1
     },
     {
       "tag": "Multimodal",
       "models": 56,
-      "n": "gpt-6-1-sol",
-      "name": "GPT-6.1 Sol",
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
       "vn": "OpenAI",
-      "avg": 0.8203,
+      "avg": 0.7441,
       "best": 1,
-      "runs": 9
+      "runs": 18
     },
     {
       "tag": "Vision",
       "models": 52,
-      "n": "gpt-6-1-sol",
-      "name": "GPT-6.1 Sol",
+      "n": "gpt-6-astra",
+      "name": "GPT-6 Astra",
       "vn": "OpenAI",
-      "avg": 0.8203,
+      "avg": 0.7441,
       "best": 1,
-      "runs": 9
+      "runs": 18
     },
     {
       "tag": "Video",

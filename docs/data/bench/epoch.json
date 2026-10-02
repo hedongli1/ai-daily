@@ -307,6 +307,18 @@
       }
     },
     {
+      "model": "GPT-6 Astra",
+      "release": "2026-09-03",
+      "nRuns": 18,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 18,
+          "avg": 0.7441,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Opus 4.1",
       "release": "2025-08-05",
       "nRuns": 18,
@@ -387,18 +399,6 @@
           "n": 16,
           "avg": 0.6756,
           "best": 0.9889
-        }
-      }
-    },
-    {
-      "model": "GPT-6 Astra",
-      "release": "2026-09-03",
-      "nRuns": 16,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 16,
-          "avg": 0.805,
-          "best": 1
         }
       }
     },
@@ -511,6 +511,18 @@
       }
     },
     {
+      "model": "Claude Fable 5.1",
+      "release": "2026-09-01",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 12,
+          "avg": 0.5485,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Gemini 3.1 Flash-Lite",
       "release": "2026-03-03",
       "nRuns": 12,
@@ -543,6 +555,30 @@
           "n": 12,
           "avg": 0.5075,
           "best": 0.9472
+        }
+      }
+    },
+    {
+      "model": "GPT-6.1 Sol",
+      "release": "2026-09-29",
+      "nRuns": 11,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 11,
+          "avg": 0.716,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 11,
+      "domains": {
+        "Language": {
+          "n": 11,
+          "avg": 0.6899,
+          "best": 1
         }
       }
     },
@@ -607,14 +643,14 @@
       }
     },
     {
-      "model": "Claude Fable 5.1",
-      "release": "2026-09-01",
+      "model": "GPT-6 Luna",
+      "release": "2026-09-22",
       "nRuns": 10,
       "domains": {
-        "Language,Multimodal,Vision": {
+        "Multimodal,Language,Vision": {
           "n": 10,
-          "avg": 0.6542,
-          "best": 1
+          "avg": 0.448,
+          "best": 0.9889
         }
       }
     },
@@ -667,25 +703,13 @@
       }
     },
     {
-      "model": "GPT-6.1 Sol",
-      "release": "2026-09-29",
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
       "nRuns": 9,
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 9,
-          "avg": 0.8203,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 9,
-      "domains": {
-        "Language": {
-          "n": 9,
-          "avg": 0.8358,
+          "avg": 0.6713,
           "best": 1
         }
       }
@@ -811,13 +835,13 @@
       }
     },
     {
-      "model": "GPT-6 Sol",
-      "release": "2026-09-22",
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
       "nRuns": 8,
       "domains": {
-        "Multimodal,Language,Vision": {
+        "Language,Multimodal,Vision": {
           "n": 8,
-          "avg": 0.7531,
+          "avg": 0.6925,
           "best": 1
         }
       }
@@ -939,18 +963,6 @@
           "n": 8,
           "avg": 0.2651,
           "best": 0.5133
-        }
-      }
-    },
-    {
-      "model": "Claude Sonnet 5.5",
-      "release": "2026-09-28",
-      "nRuns": 7,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 7,
-          "avg": 0.7876,
-          "best": 1
         }
       }
     },
@@ -1123,14 +1135,14 @@
       }
     },
     {
-      "model": "GPT-6 Luna",
-      "release": "2026-09-22",
+      "model": "Grok 4.7",
+      "release": "2026-09-21",
       "nRuns": 6,
       "domains": {
-        "Multimodal,Language,Vision": {
+        "Language": {
           "n": 6,
-          "avg": 0.6833,
-          "best": 0.9889
+          "avg": 0.5577,
+          "best": 0.9806
         }
       }
     },
@@ -2415,18 +2427,6 @@
           "n": 2,
           "avg": 0.197,
           "best": 0.29
-        }
-      }
-    },
-    {
-      "model": "Grok 4.7",
-      "release": "2026-09-21",
-      "nRuns": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.2083,
-          "best": 0.2083
         }
       }
     },

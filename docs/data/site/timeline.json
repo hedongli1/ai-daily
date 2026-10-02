@@ -659,6 +659,15 @@
       "open": 1
     },
     {
+      "n": "diffusiongemma-26b-a4b-it",
+      "name": "DiffusionGemma 26B A4B IT",
+      "vn": "英伟达",
+      "rel": "2026-06-09",
+      "ctx": 250000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "gemini-3-5-live-translate-preview",
       "name": "Gemini 3.5 Live Translate Preview",
       "vn": "谷歌",
@@ -693,6 +702,15 @@
       "ctx": 1000000,
       "in": 10,
       "open": 0
+    },
+    {
+      "n": "nemotron-3-5-content-safety",
+      "name": "Nemotron 3.5 Content Safety",
+      "vn": "英伟达",
+      "rel": "2026-06-04",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
     },
     {
       "n": "nemotron-3-ultra-550b-a55b",

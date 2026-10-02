@@ -1,6 +1,6 @@
 {
   "date": "2026-10-02",
-  "count": 442,
+  "count": 444,
   "models": [
     {
       "n": "jamba-large",
@@ -394,7 +394,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 52,
+      "ch": 53,
       "cap": [
         "多模态",
         "视觉",
@@ -5846,6 +5846,31 @@
       "rel_ts": 1756944000000
     },
     {
+      "n": "diffusiongemma-26b-a4b-it",
+      "name": "DiffusionGemma 26B A4B IT",
+      "v": "nvidia",
+      "vn": "英伟达",
+      "rel": "2026-06-09",
+      "relP": "day",
+      "ctx": 250000,
+      "out": 32768,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 1,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1780963200000
+    },
+    {
       "n": "gemma-2-2b-it",
       "name": "Gemma 2 2b It",
       "v": "nvidia",
@@ -6989,6 +7014,30 @@
         "开源",
         "推理",
         "工具调用"
+      ],
+      "rel_ts": 1780531200000
+    },
+    {
+      "n": "nemotron-3-5-content-safety",
+      "name": "Nemotron 3.5 Content Safety",
+      "v": "nvidia",
+      "vn": "英伟达",
+      "rel": "2026-06-04",
+      "relP": "day",
+      "ctx": 128000,
+      "out": 8192,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 1,
+      "rsn": 1,
+      "tool": 0,
+      "ch": 6,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "推理"
       ],
       "rel_ts": 1780531200000
     },
