@@ -8,7 +8,7 @@
     "retired": 2,
     "price": 1,
     "context": 0,
-    "news": 11,
+    "news": 12,
     "facts": 9,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 10
+      "count": 3
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "meta-llama",
@@ -96,7 +96,14 @@
         }
       },
       "text": "输入 $0.43 → $0.66 · 输出 $0.87 → $1.98",
-      "href": "/models/deepseek-v4-pro/"
+      "href": "/models/deepseek-v4-pro/",
+      "evidence": [
+        {
+          "title": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/releases",
+          "source": "DeepSeek"
+        }
+      ]
     },
     {
       "type": "retired",
@@ -119,6 +126,45 @@
       "facts": {},
       "text": "已从 Cohere 下架",
       "href": "/vendors/cohere/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-03",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-03",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-10-03",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
     },
     {
       "type": "news",
@@ -157,32 +203,6 @@
       "text": "The latest AI news we announced in September 2026",
       "href": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
       "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-02",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "date": "2026-10-02",
-      "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
       "external": true
     },
     {

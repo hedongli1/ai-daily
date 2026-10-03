@@ -8,7 +8,7 @@
   "channelVendorCount": 185,
   "aliasVendorCount": 8,
   "originModelCount": 634,
-  "modelCount": 8383,
+  "modelCount": 8385,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -141,7 +141,7 @@
       "name": "NanoGPT",
       "rawName": "NanoGPT",
       "doc": "https://docs.nano-gpt.com",
-      "modelCount": 600,
+      "modelCount": 599,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1572,7 +1572,7 @@
       "name": "Eden AI",
       "rawName": "Eden AI",
       "doc": "https://docs.edenai.co",
-      "modelCount": 287,
+      "modelCount": 290,
       "isChannel": true,
       "aliasOf": null
     },
@@ -13893,7 +13893,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "aihubmix/xiaomi-mimo-v2.5": {
       "name": "Xiaomi MiMo-V2.5",
@@ -38812,7 +38812,7 @@
       "out": 16384,
       "in": 0.1,
       "outCost": 0.3,
-      "cacheRead": null,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -55698,6 +55698,34 @@
       },
       "shared": 45
     },
+    "edenai/flexai/DeepSeek-V4.1-Flash": {
+      "name": "DeepSeek V4.1 Flash (FlexAI)",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1048576,
+      "out": 384000,
+      "in": 0.14,
+      "outCost": 0.42,
+      "cacheRead": 0.021,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 55
+    },
     "edenai/flexai/gpt-oss-120b": {
       "name": "GPT OSS 120B (FlexAI)",
       "norm": "gpt-oss-120b",
@@ -56319,6 +56347,34 @@
         ]
       },
       "shared": 6
+    },
+    "edenai/greenference/gpt-oss-20b": {
+      "name": "GPT OSS 20B (Greenference)",
+      "norm": "gpt-oss-20b",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2025-08-05",
+      "releasePrecision": "day",
+      "updated": "2025-08-05",
+      "ctx": 131072,
+      "out": 32768,
+      "in": 0.009,
+      "outCost": 0.045,
+      "cacheRead": 0.0045,
+      "open": true,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 37
     },
     "edenai/groq/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B (Groq)",
@@ -59602,6 +59658,34 @@
         ]
       },
       "shared": 13
+    },
+    "edenai/tencent/step-5-preview": {
+      "name": "Step 5 Preview (Tencent)",
+      "norm": "step-5-preview",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-09-16",
+      "releasePrecision": "day",
+      "updated": "2026-09-20",
+      "ctx": 1000000,
+      "out": 1000000,
+      "in": 1,
+      "outCost": 2.7,
+      "cacheRead": 0.05,
+      "open": false,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 9
     },
     "edenai/tensorx/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731 (TensorX)",
@@ -63179,7 +63263,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "engy/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -93514,9 +93598,9 @@
       "updated": "2026-04-21",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.43415,
-      "outCost": 1.828,
-      "cacheRead": 0.07312,
+      "in": 0.95,
+      "outCost": 4,
+      "cacheRead": 0.16,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -94028,7 +94112,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-11",
       "ctx": 262144,
-      "out": 32768,
+      "out": 131072,
       "in": 0.039,
       "outCost": 0.18,
       "cacheRead": 0.0195,
@@ -97134,8 +97218,8 @@
       "release": "2025-09-01",
       "releasePrecision": "month",
       "updated": "2025-09-01",
-      "ctx": 262144,
-      "out": 235929,
+      "ctx": 131072,
+      "out": 32768,
       "in": 0.15,
       "outCost": 1.2,
       "cacheRead": null,
@@ -98746,9 +98830,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.13,
+      "outCost": 0.53,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -98802,9 +98886,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99471,9 +99555,9 @@
       "updated": "2026-09-22",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.12,
+      "in": 0.11,
       "outCost": 0.28,
-      "cacheRead": 0.006,
+      "cacheRead": 0.09,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99502,9 +99586,9 @@
       "updated": "2026-09-22",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.435,
+      "in": 0.43,
       "outCost": 0.87,
-      "cacheRead": 0.004,
+      "cacheRead": 0.0036,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -100141,9 +100225,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.015,
-      "outCost": 0.676999,
-      "cacheRead": 0.002097,
+      "in": 0.02,
+      "outCost": 0.6,
+      "cacheRead": 0.01,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100169,10 +100253,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 393216,
-      "in": 0.132,
-      "outCost": 0.396,
-      "cacheRead": 0.0042,
+      "out": 943718,
+      "in": 0.14,
+      "outCost": 4.2,
+      "cacheRead": 0.12,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100198,9 +100282,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0115,
+      "in": 0.0188,
       "outCost": 1.28,
-      "cacheRead": 0.0115,
+      "cacheRead": 0.0188,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100290,9 +100374,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1,
-      "outCost": 11.357,
-      "cacheRead": 0.29,
+      "in": 0.9895,
+      "outCost": 13,
+      "cacheRead": 0.45,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100499,10 +100583,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.02625,
-      "outCost": 0.928749,
-      "cacheRead": 0.01125,
+      "out": 131072,
+      "in": 0.035,
+      "outCost": 0.5,
+      "cacheRead": 0.035,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -140127,35 +140211,6 @@
       },
       "shared": 1
     },
-    "nano-gpt/kitani/clover-1-150b": {
-      "name": "Clover 1 150B Preview",
-      "norm": "clover-1-150b-preview",
-      "vendor": "nano-gpt",
-      "vendorRaw": "nano-gpt",
-      "vendorName": "NanoGPT",
-      "isOrigin": false,
-      "release": "2026-09-24",
-      "releasePrecision": "day",
-      "updated": "2026-09-24",
-      "ctx": 200000,
-      "out": 100000,
-      "in": 0.15,
-      "outCost": 0.8,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "nano-gpt/lightonai/LightOnOCR-2-1B": {
       "name": "LightOnOCR 2",
       "norm": "lightonocr-2",
@@ -146987,7 +147042,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "nano-gpt/tencent/hy3": {
       "name": "Tencent Hy3",
@@ -172084,9 +172139,9 @@
       "updated": "2026-07-31",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0115,
+      "in": 0.0188,
       "outCost": 1.28,
-      "cacheRead": 0.0115,
+      "cacheRead": 0.0188,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -175017,9 +175072,9 @@
       "updated": "2026-04-21",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.43415,
-      "outCost": 1.828,
-      "cacheRead": 0.07312,
+      "in": 0.95,
+      "outCost": 4,
+      "cacheRead": 0.16,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -175531,10 +175586,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-11",
       "ctx": 262144,
-      "out": 32768,
-      "in": 0.06,
-      "outCost": 0.16,
-      "cacheRead": 0.03,
+      "out": 131072,
+      "in": 0.0595,
+      "outCost": 0.17,
+      "cacheRead": 0.02975,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -178654,7 +178709,7 @@
       "releasePrecision": "month",
       "updated": "2025-09-01",
       "ctx": 262144,
-      "out": 235929,
+      "out": 32768,
       "in": 0.15,
       "outCost": 1.2,
       "cacheRead": null,
@@ -180087,9 +180142,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -180143,9 +180198,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -181190,9 +181245,9 @@
       "updated": "2026-04-07",
       "ctx": 204800,
       "out": 131072,
-      "in": 0.9646,
-      "outCost": 3.0316,
-      "cacheRead": 0.17914,
+      "in": 1.4,
+      "outCost": 4.4,
+      "cacheRead": 0.26,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -181512,9 +181567,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.015,
-      "outCost": 0.676999,
-      "cacheRead": 0.002097,
+      "in": 0.02,
+      "outCost": 0.6,
+      "cacheRead": 0.01,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181540,10 +181595,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 393216,
-      "in": 0.132,
-      "outCost": 0.396,
-      "cacheRead": 0.0042,
+      "out": 943718,
+      "in": 0.14,
+      "outCost": 4.2,
+      "cacheRead": 0.12,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181569,9 +181624,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.008625,
-      "outCost": 0.808374,
-      "cacheRead": 0.00105,
+      "in": 0.0188,
+      "outCost": 1.28,
+      "cacheRead": 0.0188,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181661,9 +181716,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1,
-      "outCost": 11.357,
-      "cacheRead": 0.29,
+      "in": 0.9895,
+      "outCost": 13,
+      "cacheRead": 0.45,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181870,10 +181925,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.02625,
-      "outCost": 0.928749,
-      "cacheRead": 0.01125,
+      "out": 131072,
+      "in": 0.035,
+      "outCost": 0.5,
+      "cacheRead": 0.035,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -212315,7 +212370,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "stepfun-ai/step-1-32k": {
       "name": "Step 1 (32K)",
@@ -212487,7 +212542,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "stepfun-ai/step-tts-2": {
       "name": "Step TTS 2",
@@ -212687,7 +212742,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "stepfun-step-plan/step-router-v1": {
       "name": "Step Router v1",
@@ -212887,7 +212942,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "stepfun/step-tts-2": {
       "name": "Step TTS 2",
@@ -221222,8 +221277,8 @@
       "updated": "2026-09-10",
       "ctx": 1000000,
       "out": 131072,
-      "in": 0.375,
-      "outCost": 1.5,
+      "in": 0.3,
+      "outCost": 1.2,
       "cacheRead": 0.0075,
       "open": true,
       "reasoning": true,
@@ -234347,7 +234402,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 9
     },
     "vercel/tencent/hy-mt2-lite": {
       "name": "Tencent Hy-MT2-Lite",
