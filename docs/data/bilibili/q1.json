@@ -1,287 +1,147 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-04T15:02:11.301Z",
+ "fetchedAt": "2026-10-04T23:29:18.529Z",
  "rows": [
   {
-   "title": "Jev 深入解读：为什么这么快？和普通大模型有什么区别",
+   "title": "10.5 一半人分不清 AI 视频通话真假 第15期AI日报",
    "up": "",
    "play": 1,
    "pub": "2026/10/4",
-   "bvid": "BV1YYH76FEwP"
+   "bvid": "BV12GHH6FEfK"
   },
   {
-   "title": "快乐弹弹乐，基拉大和，出击！甲板下方有空洞，手指可以拉动弹射甲板，积木大天使号小机关",
+   "title": "[中配]14年旧服务器加装双3060跑大模型，性能提升4倍",
+   "up": "",
+   "play": 12,
+   "pub": "2026/10/4",
+   "bvid": "BV1STHH6YEMH"
+  },
+  {
+   "title": "Pi Agent 实战：Package 的安装与开发｜试用、项目安装，再做一个自己的 Package",
+   "up": "",
+   "play": 65,
+   "pub": "2026/10/4",
+   "bvid": "BV1STHH6YEmX"
+  },
+  {
+   "title": "自d大闹天宫孙悟空",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/4",
+   "bvid": "BV1gPHH6iEpS"
+  },
+  {
+   "title": "Cursor + MCP 实战：把禅道接进工作流，专心写代码",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/4",
+   "bvid": "BV1tDHJ6xEA9"
+  },
+  {
+   "title": "10月5日，鲸鱼娘带你看看AI圈发生了什么？",
+   "up": "",
+   "play": 16,
+   "pub": "2026/10/4",
+   "bvid": "BV1JrHE6CEjS"
+  },
+  {
+   "title": "大肥鱼被鳄鱼欺负了",
+   "up": "",
+   "play": 72,
+   "pub": "2026/10/4",
+   "bvid": "BV1nFHE6rEWw"
+  },
+  {
+   "title": "09. MCP 与 AI Agent：模型如何调用 MCP 工具｜MCP 服务器工程大师课",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/4",
+   "bvid": "BV1pnHH6RECY"
+  },
+  {
+   "title": "World Model 最大的盲区：它不知道该看哪里",
+   "up": "",
+   "play": 89,
+   "pub": "2026/10/4",
+   "bvid": "BV16xHH6nEcB"
+  },
+  {
+   "title": "上下文并行 CP：Ring Attention 和 DeepSpeed-Ulysses",
    "up": "",
    "play": 11,
    "pub": "2026/10/4",
-   "bvid": "BV1VYH76cEgt"
+   "bvid": "BV1dSHE6TEJU"
   },
   {
-   "title": "Astra为什么强？S-Space模型内部的空间地图",
+   "title": "【中配】Gemini 4、GPT 6.1、Dots、Claude Sonnet 5.5、Ideogram 4.5与Flux 3：A... lHmZoRHMZyM",
    "up": "",
-   "play": 0,
+   "play": 307,
    "pub": "2026/10/4",
-   "bvid": "BV1eYH76FEvN"
+   "bvid": "BV1F6HE65EU6"
   },
   {
-   "title": "Negative Self-Distillation无答案OPSD",
+   "title": "【熟肉】Gemini 4、GPT 6.1、Dots、Claude Sonnet 5.5、Ideogram 4.5与Flux 3：A... lHmZoRHMZyM",
    "up": "",
-   "play": 0,
+   "play": 13,
    "pub": "2026/10/4",
-   "bvid": "BV19eH76bEib"
+   "bvid": "BV1w6HE65E3g"
   },
   {
-   "title": "国产之光，deepseek，kimi，豆包，quen，GLM最新ai大模型全部免费用！",
+   "title": "IF线:如果大白鲨在淡水中衍化  万茏堂大白鲨模型淡水鱼涂装",
    "up": "",
-   "play": 1,
+   "play": 55,
    "pub": "2026/10/4",
-   "bvid": "BV1w7H763EGQ"
+   "bvid": "BV1JrHE6CEs3"
   },
   {
-   "title": "Token 到底是个啥？一份文件喂给 AI 花多少钱，会员额度怎么少花｜3 分钟看懂 AI 黑话",
+   "title": "【PIXIE AI 周报 #1】大模型开真车，还怀疑人类在骗它｜OpenAI 叫停自家新模型",
    "up": "",
-   "play": 2,
+   "play": 70,
    "pub": "2026/10/4",
-   "bvid": "BV1qWH76TEUh"
+   "bvid": "BV1Z2HE6uEro"
   },
   {
-   "title": "从量化千亿大佬到国产 AI 先锋，DeepSeek梁文锋用算法改写国产大模型格局 #梁文锋 #DeepSeek #幻方量化 #国产大模型 #世界名人榜",
-   "up": "",
-   "play": 8,
-   "pub": "2026/10/4",
-   "bvid": "BV16nH76MEKo"
-  },
-  {
-   "title": "LLMProbe：一条命令给 LLM 上游做体检｜macOS 原生 GUI + CLI 开源",
-   "up": "",
-   "play": 3,
-   "pub": "2026/10/4",
-   "bvid": "BV1pdH765EDH"
-  },
-  {
-   "title": "DSH云部署，同事终于不用自己配环境了 #人工智能 #大模型 #DeepSeek Harness #云部署",
-   "up": "",
-   "play": 2,
-   "pub": "2026/10/4",
-   "bvid": "BV1fHH76qEwd"
-  },
-  {
-   "title": "白嫖海量AI模型，deepseek，kimi，Quen，GLM，豆包最新大模型全部免费用！",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/4",
-   "bvid": "BV1W9H761EN9"
-  },
-  {
-   "title": "AI 大模型养宠助手｜猫咪全周期档案管理",
-   "up": "",
-   "play": 121,
-   "pub": "2026/10/4",
-   "bvid": "BV1pXH76jErT"
-  },
-  {
-   "title": "盘点一周AI大事(10月4日)｜Gemini重夺最强",
-   "up": "",
-   "play": 2467,
-   "pub": "2026/10/4",
-   "bvid": "BV1kdH765EpR"
-  },
-  {
-   "title": "国产之光，deepseek，kimi豆包，quen，glm最新大模型全部免费用！",
-   "up": "",
-   "play": 20,
-   "pub": "2026/10/4",
-   "bvid": "BV11DH76mEsk"
-  },
-  {
-   "title": "苹果不做大模型，反而可能是最稳的赢家",
-   "up": "",
-   "play": 22,
-   "pub": "2026/10/4",
-   "bvid": "BV1zNHr6iEJH"
-  },
-  {
-   "title": "什么是基座大模型",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/4",
-   "bvid": "BV1cFHE6kEGE"
-  },
-  {
-   "title": "30火力不足准备上105吧！新大八轮RC",
-   "up": "",
-   "play": 95,
-   "pub": "2026/10/4",
-   "bvid": "BV1rFHE6rE7X"
-  },
-  {
-   "title": "喷涂亮黑补土大出漆烘箱50度30分钟",
-   "up": "",
-   "play": 28,
-   "pub": "2026/10/4",
-   "bvid": "BV16wHE6gEv9"
-  },
-  {
-   "title": "[中配]K2 Horizon MoVA 36B本地实测：性能尚可但复杂任务表现不佳",
-   "up": "",
-   "play": 31,
-   "pub": "2026/10/4",
-   "bvid": "BV1nfH76GEAa"
-  },
-  {
-   "title": "qwen3.8 35b代餐",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/4",
-   "bvid": "BV1HfH76GET4"
-  },
-  {
-   "title": "什么是大模型的KV Cache?，一段话给你讲清楚",
-   "up": "",
-   "play": 34,
-   "pub": "2026/10/4",
-   "bvid": "BV1JfH76GEZX"
-  },
-  {
-   "title": "Space Bunny+Wordbuddy鹈鹕测试",
-   "up": "",
-   "play": 6,
-   "pub": "2026/10/4",
-   "bvid": "BV1nfH76GEiN"
-  },
-  {
-   "title": "【上海2026WF展】一年一度的云逛展来啦！继续大饱眼福！",
-   "up": "",
-   "play": 156,
-   "pub": "2026/10/4",
-   "bvid": "BV1uCH76WECT"
-  },
-  {
-   "title": "【AI赛评】WE_vs_BRO赛后数据丨国产四大大模型，谁更幽默！",
-   "up": "",
-   "play": 823,
-   "pub": "2026/10/4",
-   "bvid": "BV1brH769EXm"
-  },
-  {
-   "title": "【信息差】408稳保110，仅需21天，大数据提分模型！",
-   "up": "",
-   "play": 846,
-   "pub": "2026/10/4",
-   "bvid": "BV1brH769E3X"
-  },
-  {
-   "title": "#N比例火车模型#大湾区火车模型俱乐部，国庆小跑",
-   "up": "",
-   "play": 24,
-   "pub": "2026/10/4",
-   "bvid": "BV1mCH76pEzt"
-  },
-  {
-   "title": "【大绿绿来啦】手办雕像+谷子乐园",
-   "up": "",
-   "play": 53,
-   "pub": "2026/10/4",
-   "bvid": "BV12SH76EEKX"
-  },
-  {
-   "title": "123.第二十章 AIGC生成式大模型算法八股_图像扩散_03",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/4",
-   "bvid": "BV1QBH76dEJR"
-  },
-  {
-   "title": "稳坐年度十佳 MGSD刹帝利参上！万代NZ-666 Kshatriya大青椒 机动战士高达UC",
-   "up": "",
-   "play": 14989,
-   "pub": "2026/10/4",
-   "bvid": "BV12SH76EEsq"
-  },
-  {
-   "title": "【中字】海外博主:OpenAI新模型号称对标旗舰,实测性能却差80分",
-   "up": "",
-   "play": 4,
-   "pub": "2026/10/4",
-   "bvid": "BV1cuHi6bE6m"
-  },
-  {
-   "title": "最便宜的AI编程工具和海外模型组合也能获得高质量的编码和工作体验",
+   "title": "虚幻引擎AI天梯：12家大模型做同一个游戏，最贵的竟然翻车",
    "up": "",
    "play": 98,
    "pub": "2026/10/4",
-   "bvid": "BV1ySH76EErs"
+   "bvid": "BV1pBHE61EnN"
   },
   {
-   "title": "RAG Query Rewriting 5种常用查询改写策略",
-   "up": "",
-   "play": 8,
-   "pub": "2026/10/4",
-   "bvid": "BV1iHHL6fEbd"
-  },
-  {
-   "title": "当我要求Opus5.5制作一个UFO的视频，它直接端出了一部《UFO编年史》",
-   "up": "",
-   "play": 243,
-   "pub": "2026/10/4",
-   "bvid": "BV12yH76QE1k"
-  },
-  {
-   "title": "【抽奖】50套缩小版车车大放送！",
-   "up": "",
-   "play": 105,
-   "pub": "2026/10/4",
-   "bvid": "BV1GEHE6bEAR"
-  },
-  {
-   "title": "投入翻倍，AI就强一倍？3分钟看懂Scaling Laws与训练预算",
-   "up": "",
-   "play": 1,
-   "pub": "2026/10/4",
-   "bvid": "BV13EHE6bEKo"
-  },
-  {
-   "title": "你的肱二头肌怎么比头还大啊【30MM混搭改造】",
-   "up": "",
-   "play": 100,
-   "pub": "2026/10/4",
-   "bvid": "BV1VLHE6hErg"
-  },
-  {
-   "title": "AI周报: Gemini 4、GPT 6.1、数字员工Dots、Sonnet 5.5, 讲个笑话，AI要降速！！",
-   "up": "",
-   "play": 259,
-   "pub": "2026/10/4",
-   "bvid": "BV13JHE6ZExa"
-  },
-  {
-   "title": "【2026.10.4 AI日报】模型自己找到漏洞入侵自家机器，OpenAI 每天花 50 万美元调查",
-   "up": "",
-   "play": 69,
-   "pub": "2026/10/4",
-   "bvid": "BV137HE6FE72"
-  },
-  {
-   "title": "进步巨大 玩法丰富 大火鸟制造 美杜莎 伏翼 模型评测 异鸟代码",
-   "up": "",
-   "play": 913,
-   "pub": "2026/10/4",
-   "bvid": "BV1a7HE6FEs9"
-  },
-  {
-   "title": "如何正确驾驭驾驭Ai大模型？看不懂Ai做了啥？",
+   "title": "这10个免费AI开源项目太强了！省Token、加Agent技能、还能训小模型",
    "up": "",
    "play": 4,
    "pub": "2026/10/4",
-   "bvid": "BV1MsHE6sE1p"
+   "bvid": "BV1wvHE6mEyd"
   },
   {
-   "title": "261003-开源大模型如何在生产中高效运行？Nebius实战解析",
+   "title": "起飞还是鸡肋？rk182x协处理器+3588非权威评测！",
    "up": "",
-   "play": 10,
+   "play": 3,
    "pub": "2026/10/4",
-   "bvid": "BV1tsHE6sEJ2"
+   "bvid": "BV11uHJ6WEDV"
+  },
+  {
+   "title": "AI 日报丨Trump 组建超级智能部队,ChatGPT-6 盲通魔兽新手村",
+   "up": "",
+   "play": 143,
+   "pub": "2026/10/4",
+   "bvid": "BV1R9HE6eEtQ"
+  },
+  {
+   "title": "拼装模型大玩具",
+   "up": "",
+   "play": 12,
+   "pub": "2026/10/4",
+   "bvid": "BV1DcHJ6fE9r"
+  },
+  {
+   "title": "神级开源框架Strata！免费真正闭源级本地12/16g部署Qwen 176B大模型 跑通跑快！48g内存跑IQ3_XS、IQ2_XS实测",
+   "up": "",
+   "play": 314,
+   "pub": "2026/10/4",
+   "bvid": "BV1QfHE6cEZy"
   }
  ]
 }
