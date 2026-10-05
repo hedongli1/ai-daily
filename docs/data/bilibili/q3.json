@@ -1,147 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-04T15:02:12.879Z",
+ "fetchedAt": "2026-10-05T18:58:04.052Z",
  "rows": [
+  {
+   "title": "最火最新strata项目！开源qwen 3.8 flash next 125B参数大模型消费级6G 8G 显卡电脑手把手安装指南",
+   "up": "",
+   "play": 318,
+   "pub": "2026/10/5",
+   "bvid": "BV1a9Ht6xEgu"
+  },
+  {
+   "title": "DeepSeek DSec：如何搞定大规模Agent训练？",
+   "up": "",
+   "play": 7,
+   "pub": "2026/10/5",
+   "bvid": "BV1Y9Ht6xEbC"
+  },
+  {
+   "title": "2026 年 9 月 AI 大模型月报：旗舰价格腰斩，中国开源正名，AI 坐上中美博弈主桌",
+   "up": "",
+   "play": 9,
+   "pub": "2026/10/5",
+   "bvid": "BV1PsHx6BEoF"
+  },
+  {
+   "title": "MoE专家卸载+量化调参：Flash-Next本地速率压榨实录（纯分享）",
+   "up": "",
+   "play": 51,
+   "pub": "2026/10/5",
+   "bvid": "BV1uqH46EEAT"
+  },
+  {
+   "title": "从SFT、通用能力强化、Agent能力强化到RLHF，一个开源完整的LLM训练方案",
+   "up": "",
+   "play": 1291,
+   "pub": "2026/10/5",
+   "bvid": "BV1YSHx6nETN"
+  },
+  {
+   "title": "我们开源了一个AI八字命理大模型",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/5",
+   "bvid": "BV19bH469EUr"
+  },
+  {
+   "title": "《创造AGI》",
+   "up": "",
+   "play": 185,
+   "pub": "2026/10/5",
+   "bvid": "BV1aeH46nE7P"
+  },
+  {
+   "title": "为什么我不再让AI工作流任务全部调用云端？Gemma-3-4B",
+   "up": "",
+   "play": 487,
+   "pub": "2026/10/5",
+   "bvid": "BV17gHn6kEdM"
+  },
+  {
+   "title": "6G显卡能跑Qwen3.8 flash？热门项目Strata问题解答",
+   "up": "",
+   "play": 4676,
+   "pub": "2026/10/5",
+   "bvid": "BV1PwHs6vEiY"
+  },
+  {
+   "title": "DeepSeek 开源 昇腾基础组件",
+   "up": "",
+   "play": 109,
+   "pub": "2026/10/5",
+   "bvid": "BV19SHj6bELP"
+  },
+  {
+   "title": "[中配]四块P100显卡本地运行180B Qwen3.8 Flash-Next Q2量化模型实测",
+   "up": "",
+   "play": 206,
+   "pub": "2026/10/5",
+   "bvid": "BV1A2Hs6eEWe"
+  },
+  {
+   "title": "【开源】OpenCode 八连更详解：超时兜底+模型兼容大修",
+   "up": "",
+   "play": 737,
+   "pub": "2026/10/5",
+   "bvid": "BV14yH76QEtF"
+  },
+  {
+   "title": "一个视频讲清楚，为什么越来越多人，开始用微调模型？",
+   "up": "",
+   "play": 277,
+   "pub": "2026/10/5",
+   "bvid": "BV1utHn6cERK"
+  },
+  {
+   "title": "【中字】海外博主逐行拆解决策模型Laya源码，一张图看懂内部架构",
+   "up": "",
+   "play": 32,
+   "pub": "2026/10/5",
+   "bvid": "BV1jDHn6LE93"
+  },
+  {
+   "title": "【中配】用Pi和Telegram打造你自己的开源dots",
+   "up": "",
+   "play": 53,
+   "pub": "2026/10/4",
+   "bvid": "BV1WDH76mEee"
+  },
+  {
+   "title": "这10个免费AI开源项目太强了！省Token、加Agent技能、还能训小模型",
+   "up": "",
+   "play": 15,
+   "pub": "2026/10/4",
+   "bvid": "BV1wvHE6mEyd"
+  },
+  {
+   "title": "神级开源框架Strata！免费真正闭源级本地12/16g部署Qwen 176B大模型 跑通跑快！48g内存跑IQ3_XS、IQ2_XS实测",
+   "up": "",
+   "play": 2953,
+   "pub": "2026/10/4",
+   "bvid": "BV1QfHE6cEZy"
+  },
   {
    "title": "LLMProbe：一条命令给 LLM 上游做体检｜macOS 原生 GUI + CLI 开源",
    "up": "",
-   "play": 3,
+   "play": 133,
    "pub": "2026/10/4",
    "bvid": "BV1pdH765EDH"
   },
   {
    "title": "261003-开源大模型如何在生产中高效运行？Nebius实战解析",
    "up": "",
-   "play": 10,
+   "play": 151,
    "pub": "2026/10/4",
    "bvid": "BV1tsHE6sEJ2"
   },
   {
    "title": "腾讯双开源：互联网那套打法，AI 时代不灵了？",
    "up": "",
-   "play": 145,
+   "play": 518,
    "pub": "2026/10/4",
    "bvid": "BV1M7a26FEtx"
-  },
-  {
-   "title": "未来几年AI最大机会不在模型，在钻进企业工作流的AI应用",
-   "up": "",
-   "play": 103,
-   "pub": "2026/10/4",
-   "bvid": "BV1x5HY6tE87"
-  },
-  {
-   "title": "【中文音轨】为什么专用AI可能击败万能模型",
-   "up": "",
-   "play": 26,
-   "pub": "2026/10/4",
-   "bvid": "BV1uqHL6SExo"
-  },
-  {
-   "title": "自己接管大模型！支持开源模型，本地 AI 小说工作台，写长篇太丝滑",
-   "up": "",
-   "play": 25,
-   "pub": "2026/10/4",
-   "bvid": "BV1a5Hj6WE9x"
-  },
-  {
-   "title": "美财长急了：中国开源模型“偷”了美国技术？",
-   "up": "",
-   "play": 140,
-   "pub": "2026/10/4",
-   "bvid": "BV1K4Hj6LENL"
-  },
-  {
-   "title": "【中英双语】为什么专用AI可能击败万能模型",
-   "up": "",
-   "play": 23,
-   "pub": "2026/10/4",
-   "bvid": "BV1FiHj6uEyE"
-  },
-  {
-   "title": "Astra通用模型 + VLA + Harness，具身 Agent Runtime 开始有了更完整的形态。 最近，清华团队牵头、多机构合作开源了 RPent",
-   "up": "",
-   "play": 330,
-   "pub": "2026/10/4",
-   "bvid": "BV1qTHr6KE7z"
-  },
-  {
-   "title": "16GB 显存跑 125B 大模型，实测每秒吐 30 个字，还不花一分钱 API 费",
-   "up": "",
-   "play": 524,
-   "pub": "2026/10/4",
-   "bvid": "BV17UHr6TEKa"
-  },
-  {
-   "title": "12G显卡跑1250亿大模型：开源引擎Strata本地免费跑",
-   "up": "",
-   "play": 722,
-   "pub": "2026/10/4",
-   "bvid": "BV187Hz6SEbH"
-  },
-  {
-   "title": "万亿MoE大模型预训练如何做到高性能高可靠高易用？——基于昇腾950超节点的预训练系统参考实践",
-   "up": "",
-   "play": 1499,
-   "pub": "2026/10/4",
-   "bvid": "BV1wpak6gEZx"
-  },
-  {
-   "title": "原生Android体验！为 MiMo 大模型深度优化的 AI 聊天客户端 MChat",
-   "up": "",
-   "play": 213,
-   "pub": "2026/10/4",
-   "bvid": "BV1N3H66CEJ1"
-  },
-  {
-   "title": "2000元跑前沿大模型，OpenAi和 A÷濒临破产，直呼这是外星科技！！！",
-   "up": "",
-   "play": 364,
-   "pub": "2026/10/3",
-   "bvid": "BV1VRHz6sEA8"
-  },
-  {
-   "title": "10.4 欧洲 780 亿参数大模型开源！英伟达、Cloudflare 同推新模型 第14期AI日报",
-   "up": "",
-   "play": 183,
-   "pub": "2026/10/3",
-   "bvid": "BV1VYH66bEuZ"
-  },
-  {
-   "title": "270亿本地模型竟能挑战GPT5.6 Luna？差距惊人",
-   "up": "",
-   "play": 19,
-   "pub": "2026/10/3",
-   "bvid": "BV1FkaD6bEBF"
-  },
-  {
-   "title": "中国发布2.4万亿参数大模型，但你真正该关注的是下周这件事",
-   "up": "",
-   "play": 15,
-   "pub": "2026/10/3",
-   "bvid": "BV1FkaD6bEwt"
-  },
-  {
-   "title": "2026 前沿开源模型都能做什么？11 个方向 MacBook 本地实测",
-   "up": "",
-   "play": 50,
-   "pub": "2026/10/3",
-   "bvid": "BV16QHi6fEba"
-  },
-  {
-   "title": "在个人电脑上训练 mini-AGI：一个永不遗忘的持续学习小模型 | Better Stack",
-   "up": "",
-   "play": 55,
-   "pub": "2026/10/3",
-   "bvid": "BV15oaz6JEKB"
-  },
-  {
-   "title": "【中英+文稿】🔥大多数人不知道的10个强大AI网站",
-   "up": "",
-   "play": 68,
-   "pub": "2026/10/3",
-   "bvid": "BV1SYHe6PEVS"
   }
  ]
 }
