@@ -8,7 +8,7 @@
   "channelVendorCount": 185,
   "aliasVendorCount": 8,
   "originModelCount": 635,
-  "modelCount": 8396,
+  "modelCount": 8416,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -141,7 +141,7 @@
       "name": "NanoGPT",
       "rawName": "NanoGPT",
       "doc": "https://docs.nano-gpt.com",
-      "modelCount": 608,
+      "modelCount": 609,
       "isChannel": true,
       "aliasOf": null
     },
@@ -402,7 +402,7 @@
       "name": "LLM Gateway",
       "rawName": "LLM Gateway",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 439,
+      "modelCount": 442,
       "isChannel": true,
       "aliasOf": null
     },
@@ -573,7 +573,7 @@
       "name": "OpenRouter",
       "rawName": "OpenRouter",
       "doc": "https://openrouter.ai/models",
-      "modelCount": 389,
+      "modelCount": 390,
       "isChannel": true,
       "aliasOf": null
     },
@@ -600,7 +600,7 @@
       "name": "The Grid AI",
       "rawName": "The Grid AI",
       "doc": "https://thegrid.ai/docs",
-      "modelCount": 9,
+      "modelCount": 16,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1158,7 +1158,7 @@
       "name": "Vercel AI Gateway",
       "rawName": "Vercel AI Gateway",
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
-      "modelCount": 406,
+      "modelCount": 409,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1644,7 +1644,7 @@
       "name": "OpenCode Zen",
       "rawName": "OpenCode Zen",
       "doc": "https://opencode.ai/docs/zen",
-      "modelCount": 116,
+      "modelCount": 118,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1743,7 +1743,7 @@
       "name": "Amazon Bedrock",
       "rawName": "Amazon Bedrock",
       "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
-      "modelCount": 191,
+      "modelCount": 193,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1761,7 +1761,7 @@
       "name": "DevPass (LLM Gateway)",
       "rawName": "DevPass (LLM Gateway)",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 214,
+      "modelCount": 215,
       "isChannel": true,
       "aliasOf": null
     },
@@ -3848,7 +3848,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "302ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -9274,7 +9274,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "agentrouter/gpt-5.6-sol": {
       "name": "GPT-5.6 Sol",
@@ -9948,7 +9948,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "aiand/zai-org/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -11732,7 +11732,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "aihubmix/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -14186,7 +14186,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "aki-io/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -14862,7 +14862,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "alibaba-cn/kimi-k2-thinking": {
       "name": "Moonshot Kimi K2 Thinking",
@@ -17789,7 +17789,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "alibaba-token-plan-cn/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -18595,7 +18595,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "alibaba-token-plan/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -23145,6 +23145,34 @@
       },
       "shared": 21
     },
+    "amazon-bedrock/global.zai.glm-5.3": {
+      "name": "GLM-5.3 (Global)",
+      "norm": "glm-5-3",
+      "vendor": "amazon-bedrock",
+      "vendorRaw": "amazon-bedrock",
+      "vendorName": "Amazon Bedrock",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 1.68,
+      "outCost": 5.28,
+      "cacheRead": 0.312,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 71
+    },
     "amazon-bedrock/google.gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
       "norm": "gemma-3-12b-it",
@@ -26238,6 +26266,34 @@
         ]
       },
       "shared": 21
+    },
+    "amazon-bedrock/us.zai.glm-5.3": {
+      "name": "GLM-5.3 (US)",
+      "norm": "glm-5-3",
+      "vendor": "amazon-bedrock",
+      "vendorRaw": "amazon-bedrock",
+      "vendorName": "Amazon Bedrock",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 1.848,
+      "outCost": 5.808,
+      "cacheRead": 0.3432,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 71
     },
     "amazon-bedrock/writer.palmyra-x4-v1:0": {
       "name": "Palmyra X4",
@@ -35029,7 +35085,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "baseten/zai-org/GLM-5.3-Fast": {
       "name": "GLM 5.3 Fast",
@@ -35581,7 +35637,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "bothub/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -36704,7 +36760,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "cline-pass/cline-pass/glm-5.3-flash": {
       "name": "cline-pass/glm-5.3-flash",
@@ -39453,7 +39509,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "cloudflare-workers-ai/@cf/zai-org/glm-5.3-flash": {
       "name": "Glm 5.3 Flash",
@@ -40047,7 +40103,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "coralbricks/glm-5.3-flash-fp4": {
       "name": "GLM 5.3 Flash FP4",
@@ -41104,7 +41160,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "cortecs/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -43384,7 +43440,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "crof/glm-5.3-flash": {
       "name": "GLM 5.3-Flash",
@@ -45765,7 +45821,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "crossmodel/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -49307,7 +49363,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "deepinfra/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -53763,7 +53819,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "edenai/anthropic/claude-sonnet-4-6": {
       "name": "Claude Sonnet 4.6",
@@ -56242,9 +56298,9 @@
       "updated": "2026-08-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -56274,9 +56330,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -56306,9 +56362,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -56356,7 +56412,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "edenai/greenference/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Greenference)",
@@ -60591,9 +60647,9 @@
       "updated": "2026-08-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60623,9 +60679,9 @@
       "updated": "2026-08-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60655,9 +60711,9 @@
       "updated": "2026-08-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60687,9 +60743,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60719,9 +60775,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60751,9 +60807,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60783,9 +60839,9 @@
       "updated": "2026-09-02",
       "ctx": 1048576,
       "out": 65536,
-      "in": 0.75,
-      "outCost": 3.75,
-      "cacheRead": 0.075,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60833,7 +60889,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "edenai/xai/grok-4.20-0309-non-reasoning": {
       "name": "Grok 4.20 (Non-Reasoning)",
@@ -61297,7 +61353,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "edenai/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -61843,7 +61899,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "empiriolabs/glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -63414,7 +63470,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "engy/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -65445,7 +65501,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "fireworks-ai/accounts/fireworks/models/glm-5p3-flash": {
       "name": "GLM 5.3 Flash",
@@ -65843,7 +65899,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "fireworks-ai/accounts/fireworks/routers/kimi-fast-latest": {
       "name": "Kimi Fast Latest",
@@ -65958,7 +66014,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 3
     },
     "fireworks-ai/accounts/fireworks/routers/qwen-max-latest": {
       "name": "Qwen Max Latest (Qwen3.8 Max)",
@@ -66455,7 +66511,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "friendli/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -73422,7 +73478,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "greenpt/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -79613,7 +79669,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "huggingface/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -79867,7 +79923,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "hyper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -83187,7 +83243,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "inco/glm-5.3-flash:fast": {
       "name": "GLM-5.3-Flash",
@@ -84998,7 +85054,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "iteracompute/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -87979,7 +88035,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "kenari/glm-5-3-flash": {
       "name": "GLM-5.3-Flash",
@@ -89856,34 +89912,6 @@
       },
       "shared": 22
     },
-    "kilo/apodex/apodex-1.1-mini:free": {
-      "name": "Apodex: Apodex 1.1 Mini (free)",
-      "norm": "apodex-1-1-mini",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2026-10-01",
-      "releasePrecision": "day",
-      "updated": "2026-10-01",
-      "ctx": 262144,
-      "out": 235929,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 2
-    },
     "kilo/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
       "norm": "trinity-large-thinking",
@@ -91431,6 +91459,37 @@
         ]
       },
       "shared": 23
+    },
+    "kilo/google/gemini-nano-banana-2.1": {
+      "name": "Google: Nano Banana 2.1",
+      "norm": "nano-banana-2-1",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 65536,
+      "out": 58982,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "image",
+          "text",
+          "pdf"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "shared": 2
     },
     "kilo/google/gemma-2-27b-it": {
       "name": "Google: Gemma 2 27B",
@@ -93206,7 +93265,7 @@
       "outCost": 4.18,
       "cacheRead": 0.14,
       "open": false,
-      "reasoning": false,
+      "reasoning": true,
       "toolCall": true,
       "modalities": {
         "input": [
@@ -93217,7 +93276,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 9
     },
     "kilo/mistralai/mistral-medium-3": {
       "name": "Mistral: Mistral Medium 3",
@@ -98837,9 +98896,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.13,
-      "outCost": 0.53,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -98893,9 +98952,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99980,7 +100039,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "kilo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -100188,7 +100247,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "kilo/~anthropic/claude-sonnet-latest": {
       "name": "Anthropic: Claude Sonnet Latest",
@@ -100232,9 +100291,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0395,
-      "outCost": 1.2,
-      "cacheRead": 0.015,
+      "in": 0.002,
+      "outCost": 2.4,
+      "cacheRead": 0.002,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100261,9 +100320,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.2444,
+      "in": 0.2514,
       "outCost": 4.2,
-      "cacheRead": 0.24,
+      "cacheRead": 0.25,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100275,7 +100334,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 3
     },
     "kilo/~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek: DeepSeek V4 Flash Latest",
@@ -100289,9 +100348,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.009,
+      "in": 0.015,
       "outCost": 1.28,
-      "cacheRead": 0.009,
+      "cacheRead": 0.015,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100367,7 +100426,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "kilo/~moonshotai/kimi-latest": {
       "name": "MoonshotAI: Kimi Latest",
@@ -100381,7 +100440,7 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.82,
+      "in": 0.83,
       "outCost": 13,
       "cacheRead": 0.45,
       "open": false,
@@ -100517,7 +100576,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "kilo/~openai/gpt-terra-latest": {
       "name": "OpenAI: GPT Terra Latest",
@@ -100591,9 +100650,9 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.0214,
+      "in": 0.0244,
       "outCost": 0.5,
-      "cacheRead": 0.0214,
+      "cacheRead": 0.0244,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100635,7 +100694,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "kimi-code-plan-cn/k3": {
       "name": "Kimi K3",
@@ -101498,7 +101557,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/alibaba/kimi-k2.5": {
       "name": "Kimi K2.5 (Alibaba Cloud)",
@@ -104862,7 +104921,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/baidu/kimi-k2.6": {
       "name": "Kimi K2.6 (Baidu)",
@@ -106607,6 +106666,35 @@
       },
       "shared": 18
     },
+    "llmgateway-providers/entrim/deepseek-v4.1-flash": {
+      "name": "DeepSeek V4.1 Flash (entrim)",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1048576,
+      "out": 384000,
+      "in": 0.2,
+      "outCost": 0.6,
+      "cacheRead": 0.005,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 57
+    },
     "llmgateway-providers/fireworks/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (Fireworks AI)",
       "norm": "deepseek-v4-flash",
@@ -106718,7 +106806,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/fireworks/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Fireworks AI)",
@@ -107275,7 +107363,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "llmgateway-providers/google-vertex/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash (Google Vertex AI)",
@@ -107709,7 +107797,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/inference.net/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Inference.net)",
@@ -108288,7 +108376,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/mistral/ministral-14b-2512": {
       "name": "Ministral 14B (Mistral AI)",
@@ -108405,6 +108493,35 @@
         ]
       },
       "shared": 14
+    },
+    "llmgateway-providers/mistral/mistral-large-4": {
+      "name": "Mistral Large 4 (Mistral AI)",
+      "norm": "mistral-large-4",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 1000000,
+      "out": 262144,
+      "in": 1.36,
+      "outCost": 4.18,
+      "cacheRead": 0.14,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 9
     },
     "llmgateway-providers/mistral/mistral-large-latest": {
       "name": "Mistral Large Latest (Mistral AI)",
@@ -109067,7 +109184,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/novita/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (NovitaAI)",
@@ -111419,7 +111536,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/runware/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Runware)",
@@ -111627,6 +111744,35 @@
       },
       "shared": 3
     },
+    "llmgateway-providers/sciforium/deepseek-v4.1-flash": {
+      "name": "DeepSeek V4.1 Flash (sciforium)",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1048576,
+      "out": 384000,
+      "in": 0.246,
+      "outCost": 0.944,
+      "cacheRead": 0.012,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 57
+    },
     "llmgateway-providers/scx-ai-gp/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (SCX.ai)",
       "norm": "deepseek-v4-1-flash",
@@ -111737,7 +111883,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/scx-ai-gp/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (SCX.ai)",
@@ -112629,7 +112775,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/together-ai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Together AI)",
@@ -114102,7 +114248,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway-providers/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Z AI)",
@@ -115391,7 +115537,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "llmgateway/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT",
@@ -115958,7 +116104,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "llmgateway/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -118554,6 +118700,35 @@
         ]
       },
       "shared": 14
+    },
+    "llmgateway/mistral-large-4": {
+      "name": "Mistral Large 4",
+      "norm": "mistral-large-4",
+      "vendor": "llmgateway",
+      "vendorRaw": "llmgateway",
+      "vendorName": "DevPass (LLM Gateway)",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 1000000,
+      "out": 262144,
+      "in": 1.36,
+      "outCost": 4.18,
+      "cacheRead": 0.14,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 9
     },
     "llmgateway/mistral-large-latest": {
       "name": "Mistral Large (latest)",
@@ -122336,7 +122511,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "melious/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -128107,7 +128282,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "merge-gateway/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -129414,7 +129589,7 @@
       "release": "2024-10-01",
       "releasePrecision": "day",
       "updated": "2024-10-04",
-      "ctx": 128000,
+      "ctx": 131072,
       "out": 128000,
       "in": 0.04,
       "outCost": 0.04,
@@ -129424,7 +129599,8 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -129442,7 +129618,7 @@
       "release": "2024-10-01",
       "releasePrecision": "day",
       "updated": "2024-10-04",
-      "ctx": 128000,
+      "ctx": 262144,
       "out": 128000,
       "in": 0.1,
       "outCost": 0.1,
@@ -129452,7 +129628,8 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -129572,7 +129749,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 9
     },
     "mistral/mistral-large-latest": {
       "name": "Mistral Large (latest)",
@@ -129786,7 +129963,7 @@
       "release": "2026-03-16",
       "releasePrecision": "day",
       "updated": "2026-03-16",
-      "ctx": 256000,
+      "ctx": 262144,
       "out": 256000,
       "in": 0.15,
       "outCost": 0.6,
@@ -129815,7 +129992,7 @@
       "release": "2026-03-16",
       "releasePrecision": "day",
       "updated": "2026-03-16",
-      "ctx": 256000,
+      "ctx": 262144,
       "out": 256000,
       "in": 0.15,
       "outCost": 0.6,
@@ -130070,7 +130247,7 @@
       "release": "2025-07-15",
       "releasePrecision": "day",
       "updated": "2025-07-15",
-      "ctx": 32000,
+      "ctx": 32768,
       "out": 32000,
       "in": 0.1,
       "outCost": 0.3,
@@ -130099,7 +130276,7 @@
       "release": "2026-06-13",
       "releasePrecision": "day",
       "updated": "2026-06-13",
-      "ctx": 1000000,
+      "ctx": 1048576,
       "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
@@ -130127,7 +130304,7 @@
       "release": "2026-08-14",
       "releasePrecision": "day",
       "updated": "2026-08-14",
-      "ctx": 1000000,
+      "ctx": 1048576,
       "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
@@ -130143,7 +130320,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "mixlayer/qwen/qwen3.5-122b-a10b": {
       "name": "Qwen3.5 122B A10B",
@@ -131772,7 +131949,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "nan/glm5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -135414,7 +135591,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "nano-gpt/anthropic/claude-sonnet-4": {
       "name": "Claude 4 Sonnet",
@@ -139533,7 +139710,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "nano-gpt/google/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B",
@@ -140975,7 +141152,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 3
     },
     "nano-gpt/minimax/minimax-m2": {
       "name": "MiniMax M2",
@@ -141483,6 +141660,35 @@
         ]
       },
       "shared": 1
+    },
+    "nano-gpt/mistralai/mistral-large-4": {
+      "name": "Mistral Large 4",
+      "norm": "mistral-large-4",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 524288,
+      "out": 262144,
+      "in": 0.68,
+      "outCost": 2.09,
+      "cacheRead": 0.07,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 9
     },
     "nano-gpt/mistralai/mistral-medium-3": {
       "name": "Mistral Medium 3",
@@ -144063,7 +144269,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "nano-gpt/openai/gpt-terra-latest": {
       "name": "GPT Terra Latest",
@@ -149174,7 +149380,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "nano-gpt/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -149492,7 +149698,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "nearai/Qwen/Qwen3-Embedding-0.6B": {
       "name": "Qwen3 Embedding 0.6B",
@@ -151000,7 +151206,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "nebius/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -152981,7 +153187,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "neuralwatt/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -159494,7 +159700,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "nvidia/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -164138,7 +164344,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "ofox/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -164485,7 +164691,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "ollama-cloud/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -166642,7 +166848,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "opencode-go/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -168127,6 +168333,35 @@
       },
       "shared": 57
     },
+    "opencode/exo-free": {
+      "name": "Exo Free",
+      "norm": "exo-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode Zen",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
     "opencode/fledge-alpha-free": {
       "name": "Fledge Alpha Free",
       "norm": "fledge-alpha-free",
@@ -168634,7 +168869,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "opencode/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -170359,6 +170594,35 @@
       },
       "shared": 1
     },
+    "opencode/mistral-large-4": {
+      "name": "Mistral Large 4",
+      "norm": "mistral-large-4",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode Zen",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 524288,
+      "out": 262144,
+      "in": 0.68,
+      "outCost": 2.09,
+      "cacheRead": 0.07,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 9
+    },
     "opencode/muse-spark-1.2": {
       "name": "Muse Spark 1.2",
       "norm": "muse-spark-1-2",
@@ -171795,7 +172059,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 1
     },
     "openrouter/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -172496,9 +172760,9 @@
       "updated": "2026-04-24",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0031,
+      "in": 0.0299,
       "outCost": 1.28,
-      "cacheRead": 0.0031,
+      "cacheRead": 0.0299,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -172524,9 +172788,9 @@
       "updated": "2026-07-31",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.009,
+      "in": 0.015,
       "outCost": 1.28,
-      "cacheRead": 0.009,
+      "cacheRead": 0.015,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -172637,9 +172901,9 @@
       "updated": "2026-09-10",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0495,
-      "outCost": 1.32,
-      "cacheRead": 0.0165,
+      "in": 0.3,
+      "outCost": 1.2,
+      "cacheRead": 0.006,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -173339,6 +173603,36 @@
       },
       "shared": 23
     },
+    "openrouter/google/gemini-nano-banana-2.1": {
+      "name": "Nano Banana 2.1",
+      "norm": "nano-banana-2-1",
+      "vendor": "openrouter",
+      "vendorRaw": "openrouter",
+      "vendorName": "OpenRouter",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 65536,
+      "out": 58982,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "image",
+          "text"
+        ],
+        "output": [
+          "image",
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "openrouter/google/gemma-2-27b-it": {
       "name": "Gemma 2 27B",
       "norm": "gemma-2-27b",
@@ -173466,9 +173760,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.09,
-      "outCost": 0.3,
-      "cacheRead": 0.05,
+      "in": 0.0765,
+      "outCost": 0.255,
+      "cacheRead": 0.0425,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -175027,7 +175321,7 @@
       "outCost": 2.09,
       "cacheRead": 0.07,
       "open": false,
-      "reasoning": false,
+      "reasoning": true,
       "toolCall": true,
       "modalities": {
         "input": [
@@ -175038,7 +175332,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 9
     },
     "openrouter/mistralai/mistral-medium-3": {
       "name": "Mistral Medium 3",
@@ -175544,9 +175838,9 @@
       "updated": "2026-07-16",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.83,
-      "outCost": 14,
-      "cacheRead": 0.27,
+      "in": 0.89,
+      "outCost": 15,
+      "cacheRead": 0.29,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -180496,9 +180790,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.132,
-      "outCost": 0.528,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -180552,9 +180846,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -181669,7 +181963,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "openrouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -181877,7 +182171,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "openrouter/~anthropic/claude-sonnet-latest": {
       "name": "Claude Sonnet Latest",
@@ -181921,9 +182215,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0395,
-      "outCost": 1.2,
-      "cacheRead": 0.015,
+      "in": 0.002,
+      "outCost": 2.4,
+      "cacheRead": 0.002,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181950,9 +182244,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.2444,
+      "in": 0.2514,
       "outCost": 4.2,
-      "cacheRead": 0.24,
+      "cacheRead": 0.25,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181964,7 +182258,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 3
     },
     "openrouter/~deepseek/deepseek-v4-flash-latest": {
       "name": "DeepSeek V4 Flash Latest",
@@ -181978,9 +182272,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.009,
+      "in": 0.015,
       "outCost": 1.28,
-      "cacheRead": 0.009,
+      "cacheRead": 0.015,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -182056,7 +182350,7 @@
           "text"
         ]
       },
-      "shared": 6
+      "shared": 7
     },
     "openrouter/~moonshotai/kimi-latest": {
       "name": "Kimi Latest",
@@ -182070,7 +182364,7 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.82,
+      "in": 0.83,
       "outCost": 13,
       "cacheRead": 0.45,
       "open": false,
@@ -182206,7 +182500,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "openrouter/~openai/gpt-terra-latest": {
       "name": "GPT Terra Latest",
@@ -182280,9 +182574,9 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.0214,
+      "in": 0.0244,
       "outCost": 0.5,
-      "cacheRead": 0.0214,
+      "cacheRead": 0.0244,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -182324,7 +182618,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 5
     },
     "opper/claude-fable-5": {
       "name": "Claude Fable 5",
@@ -183014,7 +183308,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "opper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -187403,7 +187697,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "orcarouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -196316,7 +196610,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "privatemode-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -202198,7 +202492,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "requesty/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -202288,7 +202582,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "requesty/gpt-4.1-mini@eu": {
       "name": "GPT-4.1 mini (EU)",
@@ -204088,7 +204382,7 @@
       "shared": 51
     },
     "requesty/mistral-large-4": {
-      "name": "mistral-large-4",
+      "name": "Mistral Large 4",
       "norm": "mistral-large-4",
       "vendor": "requesty",
       "vendorRaw": "requesty",
@@ -204114,11 +204408,11 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 9
     },
     "requesty/mistral-large-4@eu": {
-      "name": "mistral-large-4@eu",
-      "norm": "mistral-large-4-eu",
+      "name": "Mistral Large 4 (EU)",
+      "norm": "mistral-large-4",
       "vendor": "requesty",
       "vendorRaw": "requesty",
       "vendorName": "Requesty",
@@ -204143,7 +204437,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 9
     },
     "requesty/mistral-medium-3-5": {
       "name": "mistral-medium-3-5",
@@ -208257,7 +208551,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "scnet-token-plan/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -211610,7 +211904,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "siliconflow/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -214032,7 +214326,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "synthetic/hf:zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -215547,7 +215841,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "tempr/moonshot/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -216396,7 +216690,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "tempr/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -217519,7 +217813,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "tensorx/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -217623,7 +217917,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 196608,
-      "out": 30000,
+      "out": 131072,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217651,7 +217945,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 128000,
-      "out": 16000,
+      "out": 65536,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217667,6 +217961,63 @@
         ]
       },
       "shared": 1
+    },
+    "the-grid-ai/bytedance-pro-latest": {
+      "name": "ByteDance Pro Latest",
+      "norm": "bytedance-pro-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 262144,
+      "out": 131072,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "the-grid-ai/claude-opus-latest": {
+      "name": "Claude Opus Latest",
+      "norm": "claude-opus-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-30",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 5
     },
     "the-grid-ai/code-max": {
       "name": "Code Max",
@@ -217708,7 +218059,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 196608,
-      "out": 30000,
+      "out": 131072,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217736,7 +218087,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 128000,
-      "out": 16000,
+      "out": 65536,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217752,6 +218103,148 @@
         ]
       },
       "shared": 1
+    },
+    "the-grid-ai/deepseek-pro-latest": {
+      "name": "DeepSeek Pro Latest",
+      "norm": "deepseek-pro-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 1000000,
+      "out": 384000,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "the-grid-ai/gemini-pro-latest": {
+      "name": "Gemini Pro Latest",
+      "norm": "gemini-pro-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 1000000,
+      "out": 65536,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 7
+    },
+    "the-grid-ai/glm-latest": {
+      "name": "GLM Latest",
+      "norm": "glm-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 5
+    },
+    "the-grid-ai/gpt-sol-latest": {
+      "name": "GPT Sol Latest",
+      "norm": "gpt-sol-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 4
+    },
+    "the-grid-ai/minimax-latest": {
+      "name": "MiniMax Latest",
+      "norm": "minimax-latest",
+      "vendor": "the-grid-ai",
+      "vendorRaw": "the-grid-ai",
+      "vendorName": "The Grid AI",
+      "isOrigin": false,
+      "release": "2026-07-06",
+      "releasePrecision": "day",
+      "updated": "2026-07-06",
+      "ctx": 1000000,
+      "out": 512000,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
     },
     "the-grid-ai/text-max": {
       "name": "Text Max",
@@ -217793,7 +218286,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 196608,
-      "out": 30000,
+      "out": 131072,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217821,7 +218314,7 @@
       "releasePrecision": "day",
       "updated": "2026-07-15",
       "ctx": 128000,
-      "out": 16000,
+      "out": 65536,
       "in": null,
       "outCost": null,
       "cacheRead": null,
@@ -217980,7 +218473,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "tinfoil/glm-5-3-flash": {
       "name": "GLM-5.3-Flash",
@@ -218945,7 +219438,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "togetherai/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -219318,7 +219811,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "tokengo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -219377,7 +219870,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "trustedrouter/trustedrouter/auto": {
       "name": "Auto",
@@ -219731,7 +220224,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "umans-ai-coding-plan/umans-glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -219963,7 +220456,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "umans-ai/umans-glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -220979,7 +221472,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "vancine/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -224236,7 +224729,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "venice/z-ai-glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -228650,6 +229143,36 @@
       },
       "shared": 4
     },
+    "vercel/google/gemini-nano-banana-2.1": {
+      "name": "Gemini Nano Banana 2.1",
+      "norm": "gemini-nano-banana-2-1",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 131072,
+      "out": 32768,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
+      "open": false,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text",
+          "image"
+        ]
+      },
+      "shared": 1
+    },
     "vercel/google/gemini-omni-flash-preview": {
       "name": "Gemini Omni Flash Preview",
       "norm": "gemini-omni-flash-preview",
@@ -229878,34 +230401,6 @@
       },
       "shared": 10
     },
-    "vercel/microsoft/mai-transcribe-1.5": {
-      "name": "MAI-Transcribe-1.5",
-      "norm": "mai-transcribe-1-5",
-      "vendor": "vercel",
-      "vendorRaw": "vercel",
-      "vendorName": "Vercel AI Gateway",
-      "isOrigin": false,
-      "release": "2026-06-01",
-      "releasePrecision": "day",
-      "updated": "2026-06-01",
-      "ctx": 0,
-      "out": 0,
-      "in": null,
-      "outCost": null,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": false,
-      "toolCall": false,
-      "modalities": {
-        "input": [
-          "audio"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "vercel/microsoft/mai-transcribe-2": {
       "name": "MAI-Transcribe 2",
       "norm": "mai-transcribe-2",
@@ -230454,7 +230949,7 @@
       "release": "2024-10-01",
       "releasePrecision": "day",
       "updated": "2024-10-04",
-      "ctx": 128000,
+      "ctx": 131072,
       "out": 128000,
       "in": 0.04,
       "outCost": 0.04,
@@ -230464,7 +230959,8 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -230482,7 +230978,7 @@
       "release": "2024-10-01",
       "releasePrecision": "day",
       "updated": "2024-10-04",
-      "ctx": 128000,
+      "ctx": 262144,
       "out": 128000,
       "in": 0.1,
       "outCost": 0.1,
@@ -230492,7 +230988,8 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -230567,7 +231064,7 @@
       "release": "2026-10-06",
       "releasePrecision": "day",
       "updated": "2026-10-06",
-      "ctx": 1048576,
+      "ctx": 524288,
       "out": 262144,
       "in": 0.68,
       "outCost": 2.09,
@@ -230584,7 +231081,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 9
     },
     "vercel/mistral/mistral-medium-3.5": {
       "name": "Mistral Medium Latest",
@@ -235187,6 +235684,90 @@
       },
       "shared": 11
     },
+    "vercel/topaz/proteus": {
+      "name": "Proteus",
+      "norm": "proteus",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 0,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "shared": 1
+    },
+    "vercel/topaz/starlight-precise-2.6": {
+      "name": "Starlight Precise 2.6",
+      "norm": "starlight-precise-2-6",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 0,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "video"
+        ]
+      },
+      "shared": 1
+    },
+    "vercel/topaz/wonder-3.5": {
+      "name": "Wonder 3.5",
+      "norm": "wonder-3-5",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-06",
+      "releasePrecision": "day",
+      "updated": "2026-10-06",
+      "ctx": 0,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "shared": 1
+    },
     "vercel/voyage/rerank-2.5": {
       "name": "Voyage Rerank 2.5",
       "norm": "voyage-rerank-2-5",
@@ -236086,7 +236667,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "vercel/zai/glm-5.3-fast": {
       "name": "GLM 5.3 Fast",
@@ -236803,7 +237384,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "vivgrid/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -237542,7 +238123,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "volcengine-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -238246,7 +238827,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "vultr/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -241420,7 +242001,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "zai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -241905,7 +242486,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -245710,7 +246291,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "zenmux/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -245889,7 +246470,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "zhipuai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -246346,7 +246927,7 @@
           "text"
         ]
       },
-      "shared": 70
+      "shared": 71
     },
     "zhipuai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",

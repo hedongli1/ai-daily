@@ -1,54 +1,75 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-10-06T16:23:56.978Z",
+ "fetchedAt": "2026-10-06T23:59:02.700Z",
  "rows": [
+  {
+   "title": "【中字】老外实测640G大模型塞进128G迷你主机，真能跑起来？",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/6",
+   "bvid": "BV1d9pP6wEAV"
+  },
+  {
+   "title": "Laya决策模型 vs 15行正则：Claude Code和PI Agent实测，谁更适合Shell防护？",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/6",
+   "bvid": "BV14QpN6pE28"
+  },
+  {
+   "title": "Claude Code vs Codex vs Pi：哪个编程智能体更强？隐藏Harness税",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/6",
+   "bvid": "BV17xpA6aEN5"
+  },
   {
    "title": "微调≠万能！什么时候才该做微调？Deepseek‑OCR 多模态 LoRA 微调全流程｜数据集处理、训练调参、CER 指标评测、项目简历、面试高频问题梳理",
    "up": "",
-   "play": 111,
+   "play": 228,
    "pub": "2026/10/6",
    "bvid": "BV1Ktpw6GEgG"
   },
   {
    "title": "MiniMax M3.1-Flash-Preview实测:5个案例看效果,这次提升有点大",
    "up": "",
-   "play": 2287,
+   "play": 2969,
    "pub": "2026/10/6",
    "bvid": "BV1vDpw6xE6m"
   },
   {
    "title": "【XNMK】Claude Fable 5.5 网页Chat模式灰测表现三则速览",
    "up": "",
-   "play": 1964,
+   "play": 2169,
    "pub": "2026/10/6",
    "bvid": "BV1ZoHf69EdV"
   },
   {
    "title": "Qwen3.8-27B 微调谁最强？减少思考Token仍保精度的对比",
    "up": "",
-   "play": 127,
+   "play": 188,
    "pub": "2026/10/6",
    "bvid": "BV1FXHf6tEoP"
   },
   {
    "title": "【中字】老外实测：125B模型跑AMD小主机，速度炸裂",
    "up": "",
-   "play": 78,
+   "play": 89,
    "pub": "2026/10/6",
    "bvid": "BV1nSHo6QEsd"
   },
   {
    "title": "实测 Claude 3.5 Sonnet：用原生 JS 构建 3D 场景与 FPS 游戏",
    "up": "",
-   "play": 9,
+   "play": 11,
    "pub": "2026/10/6",
    "bvid": "BV1FeHZ6QEch"
   },
   {
    "title": "M5 Ultra对决双DGX Spark：256G本地大模型推理实战，到底谁更强？ | Alex Ziskind",
    "up": "",
-   "play": 485,
+   "play": 516,
    "pub": "2026/10/5",
    "bvid": "BV1nRam6XExG"
   },
@@ -62,7 +83,7 @@
   {
    "title": "【手办评测】整体做工偏向景品，喜欢可入！MMW 化为尘埃的绫波丽 祖国版手办大货评测！",
    "up": "",
-   "play": 2410,
+   "play": 2457,
    "pub": "2026/10/5",
    "bvid": "BV1rLH46YET8"
   },
@@ -76,28 +97,28 @@
   {
    "title": "【DeepSeekHarness系统课程】全套实战教学|拆解LLM自动化评估核心逻辑，演示模型性能测试方法，助力模型稳定落地，零基础也能掌握大模型评测完整流程！",
    "up": "",
-   "play": 484,
+   "play": 493,
    "pub": "2026/10/5",
    "bvid": "BV1gNa96HEQr"
   },
   {
    "title": "这难道不是 PG 级吗？！全新的刹帝利高达，史上最大的 MGSD 模型，简直太疯狂了！【高达模型评测/机动战士高达 UC】",
    "up": "",
-   "play": 263,
+   "play": 269,
    "pub": "2026/10/5",
    "bvid": "BV1eVHr6cEHh"
   },
   {
    "title": "Fable 5.5 泄露与首批预览，Gemini 4 Argon 曝光",
    "up": "",
-   "play": 85,
+   "play": 86,
    "pub": "2026/10/5",
    "bvid": "BV1taHp6KExy"
   },
   {
    "title": "一个视频讲清楚，为什么越来越多人，开始用微调模型？",
    "up": "",
-   "play": 772,
+   "play": 880,
    "pub": "2026/10/5",
    "bvid": "BV1utHn6cERK"
   },
@@ -111,37 +132,16 @@
   {
    "title": "Claude Code vs Trae 实写 3 个月：一份最全对比指南",
    "up": "",
-   "play": 101,
+   "play": 115,
    "pub": "2026/10/5",
    "bvid": "BV1Soa26aEpv"
   },
   {
    "title": "起飞还是鸡肋？rk182x协处理器+3588非权威评测！",
    "up": "",
-   "play": 137,
+   "play": 144,
    "pub": "2026/10/4",
    "bvid": "BV11uHJ6WEDV"
-  },
-  {
-   "title": "进步巨大 玩法丰富 大火鸟制造 美杜莎 伏翼 模型评测 异鸟代码",
-   "up": "",
-   "play": 2150,
-   "pub": "2026/10/4",
-   "bvid": "BV1a7HE6FEs9"
-  },
-  {
-   "title": "大厂测试开发面试模拟",
-   "up": "",
-   "play": 243,
-   "pub": "2026/10/4",
-   "bvid": "BV1VdHr6aEze"
-  },
-  {
-   "title": "【中字】国外博主自建LLM测试框架，曝光本地大模型全部跑分骗局",
-   "up": "",
-   "play": 13,
-   "pub": "2026/10/4",
-   "bvid": "BV1rXHL6BEZB"
   }
  ]
 }

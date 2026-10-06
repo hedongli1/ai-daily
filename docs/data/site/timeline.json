@@ -1320,7 +1320,7 @@
       "name": "Mistral Small (latest)",
       "vn": "Mistral",
       "rel": "2026-03-16",
-      "ctx": 256000,
+      "ctx": 262144,
       "in": 0.15,
       "open": 1
     },
@@ -1329,7 +1329,7 @@
       "name": "Mistral Small 4",
       "vn": "Mistral",
       "rel": "2026-03-16",
-      "ctx": 256000,
+      "ctx": 262144,
       "in": 0.15,
       "open": 1
     },
@@ -2526,7 +2526,7 @@
       "name": "Voxtral Small (latest)",
       "vn": "Mistral",
       "rel": "2025-07-15",
-      "ctx": 32000,
+      "ctx": 32768,
       "in": 0.1,
       "open": 1
     },
@@ -3435,7 +3435,7 @@
       "name": "Ministral 8B (latest)",
       "vn": "Mistral",
       "rel": "2024-10-01",
-      "ctx": 128000,
+      "ctx": 262144,
       "in": 0.1,
       "open": 1
     },
@@ -3444,7 +3444,7 @@
       "name": "Ministral 3B (latest)",
       "vn": "Mistral",
       "rel": "2024-10-01",
-      "ctx": 128000,
+      "ctx": 131072,
       "in": 0.04,
       "open": 1
     },

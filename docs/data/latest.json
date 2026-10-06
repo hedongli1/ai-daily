@@ -7,9 +7,9 @@
     "new": 1,
     "retired": 0,
     "price": 0,
-    "context": 0,
-    "news": 9,
-    "facts": 1,
+    "context": 5,
+    "news": 14,
+    "facts": 6,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 10
+      "count": 5
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "meta-llama",
@@ -79,6 +79,76 @@
   ],
   "events": [
     {
+      "type": "context",
+      "key": "mistral/Mistral Small 4",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Small 4",
+      "date": "2026-10-07",
+      "facts": {
+        "before": 256000,
+        "after": 262144
+      },
+      "text": "上下文 256K → 262K",
+      "href": "/models/mistral-small-4/"
+    },
+    {
+      "type": "context",
+      "key": "mistral/Ministral 3B (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Ministral 3B (latest)",
+      "date": "2026-10-07",
+      "facts": {
+        "before": 128000,
+        "after": 131072
+      },
+      "text": "上下文 128K → 131K",
+      "href": "/models/ministral-3b/"
+    },
+    {
+      "type": "context",
+      "key": "mistral/Mistral Small (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Small (latest)",
+      "date": "2026-10-07",
+      "facts": {
+        "before": 256000,
+        "after": 262144
+      },
+      "text": "上下文 256K → 262K",
+      "href": "/models/mistral-small/"
+    },
+    {
+      "type": "context",
+      "key": "mistral/Voxtral Small (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Voxtral Small (latest)",
+      "date": "2026-10-07",
+      "facts": {
+        "before": 32000,
+        "after": 32768
+      },
+      "text": "上下文 32K → 33K",
+      "href": "/models/voxtral-small/"
+    },
+    {
+      "type": "context",
+      "key": "mistral/Ministral 8B (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Ministral 8B (latest)",
+      "date": "2026-10-07",
+      "facts": {
+        "before": 128000,
+        "after": 262144
+      },
+      "text": "上下文 128K → 262K",
+      "href": "/models/ministral-8b/"
+    },
+    {
       "type": "new",
       "key": "mistral/Mistral Large 4",
       "vendor": "mistral",
@@ -94,16 +164,11 @@
       },
       "text": "Mistral Large 4 · 闭源 · 524K 上下文 · 输入 $0.68/M · 支持推理",
       "href": "/models/mistral-large-4/",
-      "shared": 5,
+      "shared": 9,
       "evidence": [
         {
-          "title": "client-python · Python client library for Mistral AI platform",
-          "url": "https://github.com/mistralai/client-python/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "llm-d-router-public · Inference scheduler for llm-d",
-          "url": "https://github.com/mistralai/llm-d-router-public/releases",
+          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
+          "url": "https://github.com/mistralai/mistral-common/releases",
           "source": "Mistral AI"
         },
         {
@@ -112,8 +177,8 @@
           "source": "Mistral AI"
         },
         {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
+          "title": "llm-d-router-public · Inference scheduler for llm-d",
+          "url": "https://github.com/mistralai/llm-d-router-public/releases",
           "source": "Mistral AI"
         },
         {
@@ -122,11 +187,81 @@
           "source": "Mistral AI"
         },
         {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "client-python · Python client library for Mistral AI platform",
+          "url": "https://github.com/mistralai/client-python/releases",
           "source": "Mistral AI"
         }
       ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Jump Trading is scaling quant research with ChatGPT",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "How Jump Trading is scaling quant research with ChatGPT",
+      "href": "https://openai.com/index/jump-trading",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Sharing AI progress in mathematics",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "Sharing AI progress in mathematics",
+      "href": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advancing computer use with Ironclad",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "Advancing computer use with Ironclad",
+      "href": "https://openai.com/index/advancing-computer-use-with-ironclad",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "href": "https://openai.com/index/atlassian-partnership",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "href": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": "Google DeepMind",
+      "external": true
     },
     {
       "type": "news",
@@ -146,24 +281,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
       "date": "2026-10-06",
       "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -185,11 +307,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
       "date": "2026-10-06",
       "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -211,11 +333,24 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "name": "cookbook · 仓库更新",
       "date": "2026-10-06",
       "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },

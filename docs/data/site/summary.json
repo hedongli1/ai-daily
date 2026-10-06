@@ -6,9 +6,9 @@
     "new": 1,
     "retired": 0,
     "price": 0,
-    "context": 0,
-    "news": 9,
-    "facts": 1,
+    "context": 5,
+    "news": 14,
+    "facts": 6,
     "newsAttached": 0
   },
   "degraded": [
@@ -49,13 +49,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 10
+      "count": 5
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "meta-llama",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 635,
     "channels": 185,
-    "allEntries": 8396
+    "allEntries": 8416
   }
 }
