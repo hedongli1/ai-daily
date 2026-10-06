@@ -8,7 +8,7 @@
   "channelVendorCount": 185,
   "aliasVendorCount": 8,
   "originModelCount": 634,
-  "modelCount": 8395,
+  "modelCount": 8389,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -267,7 +267,7 @@
       "name": "CoreWeave",
       "rawName": "CoreWeave",
       "doc": "https://docs.wandb.ai/inference",
-      "modelCount": 29,
+      "modelCount": 20,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1158,7 +1158,7 @@
       "name": "Vercel AI Gateway",
       "rawName": "Vercel AI Gateway",
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
-      "modelCount": 402,
+      "modelCount": 405,
       "isChannel": true,
       "aliasOf": null
     },
@@ -5377,7 +5377,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "302ai/qwen3.5-plus": {
       "name": "Qwen3.5 Plus",
@@ -5871,7 +5871,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "abacus/claude-3-7-sonnet-20250219": {
       "name": "Claude Sonnet 3.7",
@@ -6393,7 +6393,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "abacus/deepseek-ai/DeepSeek-V4-Pro": {
       "name": "DeepSeek V4 Pro",
@@ -6421,7 +6421,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "abacus/deepseek/deepseek-v3.1": {
       "name": "DeepSeek V3.1",
@@ -8894,7 +8894,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "above/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -8922,7 +8922,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "above/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -9246,7 +9246,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "agentrouter/glm-5.3": {
       "name": "GLM-5.3",
@@ -9625,7 +9625,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "aiand/deepseek-ai/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -9653,7 +9653,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "aiand/deepseek-ai/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -9861,7 +9861,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "aiand/qwen/qwen3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -10007,7 +10007,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "aihubmix/alicloud-deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Alibaba Cloud)",
@@ -10035,7 +10035,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "aihubmix/alicloud-glm-5.1": {
       "name": "GLM-5.1 (Alibaba Cloud)",
@@ -10765,7 +10765,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "aihubmix/deep-deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (DeepSeek)",
@@ -10793,7 +10793,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "aihubmix/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -13393,7 +13393,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "aihubmix/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -14692,7 +14692,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "alibaba-cn/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -14720,7 +14720,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "alibaba-cn/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -17563,7 +17563,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "alibaba-token-plan-cn/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -17619,7 +17619,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "alibaba-token-plan-cn/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -18369,7 +18369,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "alibaba-token-plan/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -18425,7 +18425,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "alibaba-token-plan/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -20365,7 +20365,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "alibaba/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -20487,7 +20487,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "alibaba/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -26490,7 +26490,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "ambient/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -26606,7 +26606,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "ambient/qwen/qwen3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -27693,7 +27693,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "anyapi/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -27721,7 +27721,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "anyapi/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -28375,7 +28375,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "arcee/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -28775,7 +28775,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "auriko/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -28803,7 +28803,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "auriko/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -32341,7 +32341,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "azure/deepseek-v4-pro": {
       "name": "DeepSeek-V4-Pro",
@@ -32369,7 +32369,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "azure/gpt-3.5-turbo-0125": {
       "name": "GPT-3.5 Turbo 0125",
@@ -34513,7 +34513,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "baseten/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -36472,7 +36472,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "clarifai/qwen/qwenLM/models/Qwen3-30B-A3B-Thinking-2507": {
       "name": "Qwen3 30B A3B Thinking 2507",
@@ -36590,7 +36590,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "cline-pass/cline-pass/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -36618,7 +36618,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "cline-pass/cline-pass/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -37772,7 +37772,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "cloudflare-ai-gateway/moonshotai/kimi-k3": {
       "name": "Kimi K3",
@@ -40574,7 +40574,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "cortecs/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -42702,7 +42702,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "cortecs/qwen3-32b": {
       "name": "Qwen3 32B",
@@ -42901,7 +42901,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "cortecs/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -43157,7 +43157,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "crof/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash (New)",
@@ -43185,7 +43185,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "crof/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -43242,7 +43242,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "crof/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro (0813)",
@@ -43270,7 +43270,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "crof/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -43768,7 +43768,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "crof/qwen3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -44116,7 +44116,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "crossmodel/deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -44173,7 +44173,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "crossmodel/deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -47831,7 +47831,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "deepinfra/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B A3B",
@@ -48298,7 +48298,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "deepinfra/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -48383,7 +48383,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "deepinfra/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -49395,7 +49395,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -49452,7 +49452,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "digitalocean/alibaba-qwen3-32b": {
       "name": "Qwen3 32B",
@@ -50228,7 +50228,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "digitalocean/deepseek-r1-distill-llama-70b": {
       "name": "DeepSeek R1 Distill Llama 70B",
@@ -50340,7 +50340,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "digitalocean/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -50636,7 +50636,7 @@
       "releasePrecision": "day",
       "updated": "2026-06-13",
       "ctx": 262144,
-      "out": 262144,
+      "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
       "cacheRead": 0.21,
@@ -50692,7 +50692,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-26",
       "ctx": 1048576,
-      "out": 1048576,
+      "out": 131072,
       "in": 0.15,
       "outCost": 0.5,
       "cacheRead": 0.03,
@@ -52629,7 +52629,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "ebcloud/DeepSeek-V4-Pro": {
       "name": "DeepSeek V4 Pro",
@@ -52657,7 +52657,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "ebcloud/GLM-5.1": {
       "name": "GLM-5.1",
@@ -55447,7 +55447,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "edenai/deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -55504,7 +55504,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "edenai/fireworks_ai/accounts/fireworks/models/gpt-oss-120b": {
       "name": "GPT OSS 120B (Fireworks AI)",
@@ -61383,7 +61383,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "empiriolabs/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -61439,7 +61439,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "empiriolabs/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -62413,7 +62413,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "empiriolabs/qwen3-5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -62593,7 +62593,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "empiriolabs/qwen3-6-35b-a3b": {
       "name": "Qwen3.6 35B A3B",
@@ -64134,7 +64134,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "fastrouter/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -66574,7 +66574,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "frogbot/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -69385,7 +69385,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "gmicloud/deepseek-ai/DeepSeek-V4-Pro": {
       "name": "DeepSeek V4 Pro",
@@ -69413,7 +69413,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "gmicloud/moonshotai/Kimi-K2.6": {
       "name": "Kimi K2.6",
@@ -74386,7 +74386,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "groq/qwen/qwen3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -77169,7 +77169,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "hpc-ai/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -77197,7 +77197,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "hpc-ai/minimax/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -78018,7 +78018,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "huggingface/Qwen/Qwen3.5-397B-A17B": {
       "name": "Qwen3.5-397B-A17B",
@@ -78105,7 +78105,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "huggingface/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B-A3B",
@@ -78471,7 +78471,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "huggingface/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -78556,7 +78556,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "huggingface/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -79611,7 +79611,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "hyper/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -79667,7 +79667,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "hyper/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -80957,7 +80957,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "impossibl/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -80985,7 +80985,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "impossibl/fireworks/glm-5.2": {
       "name": "GLM-5.2",
@@ -83883,7 +83883,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "inferx/gemma-4-31B-it-fp8": {
       "name": "Gemma 4 31B IT FP8",
@@ -84996,7 +84996,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "jalapeno/DeepSeek-V4-Pro": {
       "name": "DeepSeek V4 Pro",
@@ -85024,7 +85024,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "jalapeno/GLM-5.1": {
       "name": "GLM-5.1",
@@ -85435,7 +85435,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "jalapeno/Qwen3.5-397B-A17B": {
       "name": "Qwen3.5 397B-A17B",
@@ -87471,7 +87471,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "kenari/deepseek-v4-flash:free": {
       "name": "DeepSeek V4 Flash (Free)",
@@ -87499,7 +87499,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "kenari/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -87527,7 +87527,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "kenari/gemini-2-5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -90438,11 +90438,11 @@
       "release": "2025-09-22",
       "releasePrecision": "day",
       "updated": "2025-09-22",
-      "ctx": 131072,
-      "out": 65536,
-      "in": 0.3,
+      "ctx": 163840,
+      "out": 147456,
+      "in": 0.27,
       "outCost": 1,
-      "cacheRead": 0.135,
+      "cacheRead": null,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -90538,7 +90538,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "kilo/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -90623,7 +90623,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "kilo/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -90636,7 +90636,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-22",
       "ctx": 1048576,
-      "out": 943718,
+      "out": 393216,
       "in": 1.32,
       "outCost": 3.96,
       "cacheRead": 0.044,
@@ -96778,7 +96778,7 @@
       "releasePrecision": "day",
       "updated": "2025-07-21",
       "ctx": 262144,
-      "out": 235929,
+      "out": 16384,
       "in": 0.1495,
       "outCost": 0.598,
       "cacheRead": null,
@@ -96861,8 +96861,8 @@
       "release": "2025-07-29",
       "releasePrecision": "day",
       "updated": "2025-07-29",
-      "ctx": 128000,
-      "out": 32000,
+      "ctx": 262144,
+      "out": 235929,
       "in": 0.13,
       "outCost": 0.52,
       "cacheRead": null,
@@ -96877,7 +96877,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "kilo/qwen/qwen3-30b-a3b-thinking-2507": {
       "name": "Qwen: Qwen3 30B A3B Thinking 2507 (retires Oct 9)",
@@ -97506,7 +97506,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "kilo/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -97519,7 +97519,7 @@
       "releasePrecision": "day",
       "updated": "2026-02-15",
       "ctx": 262144,
-      "out": 235929,
+      "out": 81920,
       "in": 0.39,
       "outCost": 2.34,
       "cacheRead": null,
@@ -97686,7 +97686,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "kilo/qwen/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -98749,9 +98749,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.13,
+      "outCost": 0.53,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -98805,9 +98805,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99904,8 +99904,8 @@
       "release": "2026-08-26",
       "releasePrecision": "day",
       "updated": "2026-08-26",
-      "ctx": 1048575,
-      "out": 943717,
+      "ctx": 1048576,
+      "out": 131072,
       "in": 0.15,
       "outCost": 0.5,
       "cacheRead": 0.03,
@@ -100173,9 +100173,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1901,
+      "in": 0.3,
       "outCost": 4.2,
-      "cacheRead": 0.19,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100293,7 +100293,7 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.7717,
+      "in": 1,
       "outCost": 13,
       "cacheRead": 0.45,
       "open": false,
@@ -101269,7 +101269,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/alibaba/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Alibaba Cloud)",
@@ -101297,7 +101297,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/alibaba/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Alibaba Cloud)",
@@ -101877,7 +101877,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "llmgateway-providers/alibaba/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B A3B (Alibaba Cloud)",
@@ -104605,7 +104605,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/baidu/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Baidu)",
@@ -104633,7 +104633,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/baidu/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Baidu)",
@@ -104860,7 +104860,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/bytedance/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (ByteDance)",
@@ -104888,7 +104888,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/bytedance/glm-4.7": {
       "name": "GLM-4.7 (ByteDance)",
@@ -105232,7 +105232,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/canopywave/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (CanopyWave)",
@@ -105260,7 +105260,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/canopywave/glm-5.2": {
       "name": "GLM-5.2 (CanopyWave)",
@@ -105546,7 +105546,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/consensusprotocol/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Consensus Protocol)",
@@ -105718,7 +105718,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/deepinfra/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (DeepInfra)",
@@ -105746,7 +105746,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/deepinfra/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (DeepInfra)",
@@ -106236,7 +106236,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (DeepSeek)",
@@ -106545,7 +106545,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/fireworks/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Fireworks AI)",
@@ -106573,7 +106573,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/fireworks/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Fireworks AI)",
@@ -106749,7 +106749,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/gonka24/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Gonka24)",
@@ -108637,7 +108637,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/novita/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (NovitaAI)",
@@ -111131,7 +111131,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/runpod/kimi-k3": {
       "name": "Kimi K3 (Runpod)",
@@ -111189,7 +111189,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/runware/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Runware)",
@@ -111217,7 +111217,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/runware/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Runware)",
@@ -111939,7 +111939,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/tencent/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Tencent Cloud)",
@@ -111967,7 +111967,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/tencent/glm-5": {
       "name": "GLM-5 (Tencent Cloud)",
@@ -112428,7 +112428,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway-providers/together-ai/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro (Together AI)",
@@ -112456,7 +112456,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway-providers/together-ai/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (Together AI)",
@@ -114723,7 +114723,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "llmgateway/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -114751,7 +114751,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "llmgateway/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -119655,7 +119655,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "llmgateway/qwen3.5-9b": {
       "name": "Qwen3.5 9B",
@@ -123299,7 +123299,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "merge-gateway/deepseek/deepseek-v4-flash-0423": {
       "name": "DeepSeek V4 Flash 0423",
@@ -123411,7 +123411,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "merge-gateway/deepseek/deepseek-v4-pro-0423": {
       "name": "DeepSeek V4 Pro 0423",
@@ -124316,7 +124316,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 1
     },
     "merge-gateway/meta/llama-3.1-8b-instruct": {
       "name": "Llama 3.1 8B",
@@ -126941,7 +126941,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "merge-gateway/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B A17B",
@@ -127066,23 +127066,24 @@
       "release": "2026-04-22",
       "releasePrecision": "day",
       "updated": "2026-04-22",
-      "ctx": 131072,
-      "out": 32768,
-      "in": 0.289,
-      "outCost": 2.4,
+      "ctx": 256000,
+      "out": 64000,
+      "in": 0.4126,
+      "outCost": 2.4754,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "merge-gateway/qwen/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B A3B",
@@ -130109,7 +130110,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "mixlayer/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B A17B",
@@ -130516,7 +130517,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "model-oracle-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -130898,7 +130899,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "modelis/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -130926,7 +130927,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "modelis/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -131132,7 +131133,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "modelscope/Qwen/Qwen3-30B-A3B-Thinking-2507": {
       "name": "Qwen3 30B A3B Thinking 2507",
@@ -136823,7 +136824,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "nano-gpt/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -136921,9 +136922,9 @@
       "updated": "2026-09-01",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.22,
-      "outCost": 0.66,
-      "cacheRead": 0.007,
+      "in": 0.44,
+      "outCost": 1.32,
+      "cacheRead": 0.014,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -136964,7 +136965,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "nano-gpt/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -136992,7 +136993,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "nano-gpt/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -137076,7 +137077,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "nano-gpt/deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -144884,7 +144885,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "nano-gpt/qwen/qwen3-32b": {
       "name": "Qwen 3 32b",
@@ -145397,7 +145398,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "nano-gpt/qwen/qwen3.5-35b-a3b:thinking": {
       "name": "Qwen3.5 35B A3B Thinking",
@@ -145729,7 +145730,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "nano-gpt/qwen/qwen3.6-27b:thinking": {
       "name": "Qwen3.6 27B Thinking",
@@ -146127,9 +146128,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146185,9 +146186,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146243,9 +146244,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146301,9 +146302,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146330,9 +146331,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146359,9 +146360,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146475,9 +146476,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -146504,9 +146505,9 @@
       "updated": "2026-10-05",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.125,
+      "in": 0.1,
+      "outCost": 0.6,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": false,
       "toolCall": false,
@@ -150492,7 +150493,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "nebius/Qwen/Qwen3-Embedding-8B": {
       "name": "Qwen3-Embedding-8B",
@@ -150632,7 +150633,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "nebius/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -152528,7 +152529,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "neuralwatt/deepseek-v4-flash-flex": {
       "name": "DeepSeek V4 Flash Flex",
@@ -152584,7 +152585,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "neuralwatt/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -152612,7 +152613,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "neuralwatt/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -154040,7 +154041,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "novita-ai/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -154068,7 +154069,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "novita-ai/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B",
@@ -155874,7 +155875,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "novita-ai/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5-397B-A17B",
@@ -156667,7 +156668,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "nvidia/deepseek-ai/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -156723,7 +156724,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "nvidia/deepseek-ai/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -160459,7 +160460,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "ofox/bailian/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -160579,7 +160580,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "ofox/bailian/qwen3.6-flash": {
       "name": "Qwen3.6 Flash",
@@ -160903,7 +160904,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "ofox/deepseek/deepseek-v4-flash-0423": {
       "name": "DeepSeek V4 Flash 0423",
@@ -161016,7 +161017,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "ofox/deepseek/deepseek-v4-pro-0423": {
       "name": "DeepSeek V4 Pro 0423",
@@ -162936,7 +162937,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "ofox/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -163056,7 +163057,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "ofox/qwen/qwen3.6-flash": {
       "name": "Qwen3.6 Flash",
@@ -164201,7 +164202,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "ollama-cloud/deepseek-v4-flash:0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -164257,7 +164258,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "ollama-cloud/deepseek-v4-pro:0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -166442,7 +166443,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "opencode-go/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -166499,7 +166500,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "opencode-go/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -167923,7 +167924,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "opencode/deepseek-v4-flash-free": {
       "name": "DeepSeek V4 Flash Free",
@@ -168008,7 +168009,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "opencode/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -172323,10 +172324,10 @@
       "releasePrecision": "day",
       "updated": "2025-09-22",
       "ctx": 163840,
-      "out": 65536,
-      "in": 0.3,
+      "out": 147456,
+      "in": 0.27,
       "outCost": 1,
-      "cacheRead": 0.135,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -172422,7 +172423,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "openrouter/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -172507,7 +172508,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "openrouter/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -172520,10 +172521,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-22",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.4,
-      "outCost": 5,
-      "cacheRead": 0.36,
+      "out": 393216,
+      "in": 1.32,
+      "outCost": 3.96,
+      "cacheRead": 0.044,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -173378,9 +173379,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.09,
-      "outCost": 0.3,
-      "cacheRead": 0.05,
+      "in": 0.0765,
+      "outCost": 0.255,
+      "cacheRead": 0.0425,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -175427,9 +175428,9 @@
       "updated": "2026-07-16",
       "ctx": 1048576,
       "out": 943718,
-      "in": 1.39,
+      "in": 1.19,
       "outCost": 14,
-      "cacheRead": 0.46,
+      "cacheRead": 0.39,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -178586,10 +178587,10 @@
       "releasePrecision": "day",
       "updated": "2025-07-21",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.0875,
-      "outCost": 0.35,
-      "cacheRead": 0.0175,
+      "out": 16384,
+      "in": 0.09,
+      "outCost": 0.55,
+      "cacheRead": null,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -178670,9 +178671,9 @@
       "releasePrecision": "day",
       "updated": "2025-07-29",
       "ctx": 262144,
-      "out": 32000,
-      "in": 0.04815,
-      "outCost": 0.19305,
+      "out": 235929,
+      "in": 0.1,
+      "outCost": 0.3,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -178685,7 +178686,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "openrouter/qwen/qwen3-30b-a3b-thinking-2507": {
       "name": "Qwen3 30B A3B Thinking 2507",
@@ -179314,7 +179315,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "openrouter/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -179327,10 +179328,10 @@
       "releasePrecision": "day",
       "updated": "2026-02-15",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.55,
-      "outCost": 3.5,
-      "cacheRead": 0.225,
+      "out": 81920,
+      "in": 0.45,
+      "outCost": 3,
+      "cacheRead": 0.22,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -179494,7 +179495,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "openrouter/qwen/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -180379,9 +180380,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -180435,9 +180436,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -181510,9 +181511,9 @@
       "updated": "2026-06-13",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.032,
+      "in": 0.0464,
       "outCost": 12,
-      "cacheRead": 0.032,
+      "cacheRead": 0.0464,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -181833,9 +181834,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1901,
+      "in": 0.3,
       "outCost": 4.2,
-      "cacheRead": 0.19,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -181953,7 +181954,7 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.7717,
+      "in": 1,
       "outCost": 13,
       "cacheRead": 0.45,
       "open": false,
@@ -182564,7 +182565,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "opper/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -182592,7 +182593,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "opper/devstral-2512": {
       "name": "Devstral 2",
@@ -184268,7 +184269,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "orcarouter/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -184324,7 +184325,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "orcarouter/deepseek/deepseek-v4-flash-vision-exp": {
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -184381,7 +184382,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "orcarouter/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -186675,7 +186676,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "orcarouter/qwen/qwen3.5-397b-a17b": {
       "name": "Qwen3.5 397B-A17B",
@@ -187661,7 +187662,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "ovhcloud/qwen3.8-27b": {
       "name": "Qwen3.8-27B",
@@ -187804,7 +187805,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "pendra/glm-4.7-flash": {
       "name": "GLM-4.7-Flash",
@@ -187945,7 +187946,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "perplexity-agent/anthropic/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5",
@@ -189086,7 +189087,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "pioneer/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B-A3B",
@@ -189650,7 +189651,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "pioneer/deepseek-ai/DeepSeek-V4-Pro": {
       "name": "DeepSeek V4 Pro",
@@ -189678,7 +189679,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "pioneer/devstral-2": {
       "name": "Devstral 2",
@@ -198695,7 +198696,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "qiniu-ai/qwen3-30b-a3b-thinking-2507": {
       "name": "Qwen3 30b A3b Thinking 2507",
@@ -199590,7 +199591,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "qvac/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -201002,7 +201003,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "requesty/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -201086,7 +201087,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "requesty/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -201170,7 +201171,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "requesty/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -204603,7 +204604,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "requesty/qwen3.6-plus": {
       "name": "Qwen3.6 Plus",
@@ -205133,7 +205134,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "routing-run/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -205161,7 +205162,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "routing-run/glm-5.2": {
       "name": "GLM-5.2",
@@ -207858,7 +207859,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "scnet-token-plan/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -207914,7 +207915,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "scnet-token-plan/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -208514,7 +208515,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "sensenova/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -208542,7 +208543,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "sensenova/glm-5.2": {
       "name": "GLM-5.2",
@@ -209079,7 +209080,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "siliconflow-cn/Qwen/Qwen3-32B": {
       "name": "Qwen/Qwen3-32B",
@@ -209426,7 +209427,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "siliconflow-cn/Qwen/Qwen3.5-397B-A17B": {
       "name": "Qwen/Qwen3.5-397B-A17B",
@@ -209715,7 +209716,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "siliconflow-cn/deepseek-ai/DeepSeek-V4-Pro": {
       "name": "deepseek-ai/DeepSeek-V4-Pro",
@@ -209743,7 +209744,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "siliconflow-cn/inclusionAI/Ling-flash-2.0": {
       "name": "inclusionAI/Ling-flash-2.0",
@@ -210080,7 +210081,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 10
     },
     "siliconflow/Qwen/Qwen3-32B": {
       "name": "Qwen/Qwen3-32B",
@@ -210421,7 +210422,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 19
     },
     "siliconflow/Qwen/Qwen3.5-397B-A17B": {
       "name": "Qwen3.5 397B-A17B",
@@ -210505,7 +210506,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "siliconflow/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B-A3B",
@@ -210757,7 +210758,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "siliconflow/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -210842,7 +210843,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "siliconflow/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -212321,7 +212322,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "stackit/cortecs/Llama-3.3-70B-Instruct-FP8-Dynamic": {
       "name": "Llama 3.3 70B",
@@ -213630,7 +213631,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 22
     },
     "synthetic/hf:deepseek-ai/DeepSeek-V4.1-Flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -214420,7 +214421,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "tempr/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -216792,7 +216793,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "tensorx/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -218884,7 +218885,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "tokengo/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -218912,7 +218913,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "tokengo/minimax/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -219470,7 +219471,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "umans-ai-coding-plan/umans-deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -219702,7 +219703,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "umans-ai/umans-deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -219965,7 +219966,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "unorouter/deepseek-v4-flash:free": {
       "name": "DeepSeek V4 Flash",
@@ -219993,7 +219994,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "unorouter/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -220021,7 +220022,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "unorouter/deepseek-v4-pro:free": {
       "name": "DeepSeek V4 Pro",
@@ -220049,7 +220050,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "unorouter/gemini-3.5-flash": {
       "name": "Gemini 3.5 Flash",
@@ -221698,7 +221699,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "venice/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -226493,6 +226494,34 @@
       },
       "shared": 1
     },
+    "vercel/bfl/flux-3-image": {
+      "name": "FLUX 3 Image",
+      "norm": "flux-3-image",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-05",
+      "releasePrecision": "day",
+      "updated": "2026-10-05",
+      "ctx": 0,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "shared": 1
+    },
     "vercel/bfl/flux-3-video": {
       "name": "Flux 3",
       "norm": "flux-3",
@@ -227115,6 +227144,62 @@
       },
       "shared": 1
     },
+    "vercel/cohere/embed-v5.0-fast": {
+      "name": "Embed 5 Fast",
+      "norm": "embed-5-fast",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-09-30",
+      "releasePrecision": "day",
+      "updated": "2026-09-30",
+      "ctx": 128000,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "vercel/cohere/embed-v5.0-pro": {
+      "name": "Embed 5 Pro",
+      "norm": "embed-5-pro",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-09-30",
+      "releasePrecision": "day",
+      "updated": "2026-09-30",
+      "ctx": 128000,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
     "vercel/cohere/rerank-v3.5": {
       "name": "Cohere Rerank 3.5",
       "norm": "cohere-rerank-3-5",
@@ -227365,7 +227450,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "vercel/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -227450,7 +227535,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "vercel/deepseek/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -236246,7 +236331,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "vivgrid/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -236274,7 +236359,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "vivgrid/deepseek-v4-pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -237108,7 +237193,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "volcengine-coding-plan/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -237136,7 +237221,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "volcengine-coding-plan/doubao-seed-2.0-lite": {
       "name": "Seed 2.0 Lite",
@@ -238461,34 +238546,6 @@
       },
       "shared": 75
     },
-    "wandb/JetBrains/Mellum2-12B-A2.5B-Instruct": {
-      "name": "Mellum2 12B A2.5B",
-      "norm": "mellum2-12b-a2-5b",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-06-01",
-      "releasePrecision": "day",
-      "updated": "2026-06-01",
-      "ctx": 131072,
-      "out": 131072,
-      "in": 0.05,
-      "outCost": 0.1,
-      "cacheRead": 0.05,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "wandb/MiniMaxAI/MiniMax-M3": {
       "name": "MiniMax M3",
       "norm": "minimax-m3",
@@ -238517,120 +238574,6 @@
         ]
       },
       "shared": 51
-    },
-    "wandb/OpenPipe/Qwen3-14B-Instruct": {
-      "name": "Qwen3 14B Instruct",
-      "norm": "qwen3-14b-instruct",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2025-04-29",
-      "releasePrecision": "day",
-      "updated": "2025-04-29",
-      "ctx": 32768,
-      "out": 32768,
-      "in": 0.05,
-      "outCost": 0.22,
-      "cacheRead": 0.05,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
-    "wandb/Qwen/Qwen3-30B-A3B-Instruct-2507": {
-      "name": "Qwen3 30B A3B Instruct 2507",
-      "norm": "qwen3-30b-a3b-instruct-2507",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2025-07-29",
-      "releasePrecision": "day",
-      "updated": "2025-07-29",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.1,
-      "outCost": 0.3,
-      "cacheRead": 0.1,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 11
-    },
-    "wandb/Qwen/Qwen3.5-35B-A3B": {
-      "name": "Qwen3.5-35B-A3B",
-      "norm": "qwen3-5-35b-a3b",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-02-24",
-      "releasePrecision": "day",
-      "updated": "2026-02-24",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.25,
-      "outCost": 1.25,
-      "cacheRead": 0.25,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 20
-    },
-    "wandb/Qwen/Qwen3.6-27B": {
-      "name": "Qwen3.6 27B",
-      "norm": "qwen3-6-27b",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-04-22",
-      "releasePrecision": "day",
-      "updated": "2026-04-22",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.6,
-      "outCost": 3.6,
-      "cacheRead": 0.12,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 23
     },
     "wandb/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B A3B",
@@ -238718,34 +238661,6 @@
       },
       "shared": 22
     },
-    "wandb/deepseek-ai/DeepSeek-V4-Flash": {
-      "name": "DeepSeek V4 Flash",
-      "norm": "deepseek-v4-flash",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-04-24",
-      "releasePrecision": "day",
-      "updated": "2026-04-24",
-      "ctx": 1048576,
-      "out": 1048576,
-      "in": 0.14,
-      "outCost": 0.28,
-      "cacheRead": 0.07,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 62
-    },
     "wandb/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
       "norm": "deepseek-v4-flash-0731",
@@ -238773,34 +238688,6 @@
         ]
       },
       "shared": 45
-    },
-    "wandb/deepseek-ai/DeepSeek-V4-Pro": {
-      "name": "DeepSeek V4 Pro",
-      "norm": "deepseek-v4-pro",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-04-24",
-      "releasePrecision": "day",
-      "updated": "2026-04-24",
-      "ctx": 1048576,
-      "out": 1048576,
-      "in": 1.15,
-      "outCost": 2.55,
-      "cacheRead": 0.2,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 67
     },
     "wandb/deepseek-ai/DeepSeek-V4-Pro-0813": {
       "name": "DeepSeek V4 Pro 0813",
@@ -238917,34 +238804,6 @@
       },
       "shared": 6
     },
-    "wandb/ibm-granite/granite-4.1-8b": {
-      "name": "Granite 4.1 8B",
-      "norm": "granite-4-1-8b",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2026-04-29",
-      "releasePrecision": "day",
-      "updated": "2026-04-29",
-      "ctx": 131072,
-      "out": 131072,
-      "in": 0.05,
-      "outCost": 0.1,
-      "cacheRead": 0.05,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "wandb/ibm-granite/granite-4.2-8b": {
       "name": "Granite 4.2 8B",
       "norm": "granite-4-2-8b",
@@ -238972,34 +238831,6 @@
         ]
       },
       "shared": 6
-    },
-    "wandb/meta-llama/Llama-3.1-70B-Instruct": {
-      "name": "Llama 3.1 70B",
-      "norm": "llama-3-1-70b",
-      "vendor": "wandb",
-      "vendorRaw": "wandb",
-      "vendorName": "CoreWeave",
-      "isOrigin": false,
-      "release": "2024-07-23",
-      "releasePrecision": "day",
-      "updated": "2024-07-23",
-      "ctx": 131072,
-      "out": 131072,
-      "in": 0.8,
-      "outCost": 0.8,
-      "cacheRead": 0.8,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 2
     },
     "wandb/meta-llama/Llama-3.1-8B-Instruct": {
       "name": "Llama 3.1 8B",
@@ -242669,7 +242500,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 61
     },
     "zenmux/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -242697,7 +242528,7 @@
           "text"
         ]
       },
-      "shared": 67
+      "shared": 66
     },
     "zenmux/deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",

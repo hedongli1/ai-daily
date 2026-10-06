@@ -655,6 +655,18 @@
       }
     },
     {
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
+      "nRuns": 10,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 10,
+          "avg": 0.6175,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Qwen3.7 Flash",
       "release": "2026-07-27",
       "nRuns": 10,
@@ -703,13 +715,13 @@
       }
     },
     {
-      "model": "GPT-6 Sol",
-      "release": "2026-09-22",
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
       "nRuns": 9,
       "domains": {
-        "Multimodal,Language,Vision": {
+        "Language,Multimodal,Vision": {
           "n": 9,
-          "avg": 0.6713,
+          "avg": 0.6156,
           "best": 1
         }
       }
@@ -830,18 +842,6 @@
         "Multimodal,Language,Vision": {
           "n": 9,
           "avg": 0.6737,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Sonnet 5.5",
-      "release": "2026-09-28",
-      "nRuns": 8,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 8,
-          "avg": 0.6925,
           "best": 1
         }
       }

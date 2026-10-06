@@ -535,11 +535,11 @@
       "name": "Claude Sonnet 5"
     },
     "claude-sonnet-5-5": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 8,
-          "avg": 0.6925,
+          "n": 9,
+          "avg": 0.6156,
           "best": 1
         }
       },
@@ -1243,11 +1243,11 @@
       "name": "GPT-6 Luna"
     },
     "gpt-6-sol": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 9,
-          "avg": 0.6713,
+          "n": 10,
+          "avg": 0.6175,
           "best": 1
         }
       },
