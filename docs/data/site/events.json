@@ -1,8 +1,58 @@
 {
-  "date": "2026-10-06",
+  "date": "2026-10-07",
   "mode": "diff",
-  "baselineDate": "2026-10-05",
+  "baselineDate": "2026-10-06",
   "events": [
+    {
+      "type": "new",
+      "key": "mistral/Mistral Large 4",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large 4",
+      "date": "2026-10-06",
+      "facts": {
+        "ctx": 524288,
+        "in": 0.68,
+        "outCost": 2.09,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Mistral Large 4 · 闭源 · 524K 上下文 · 输入 $0.68/M · 支持推理",
+      "href": "/models/mistral-large-4/",
+      "shared": 5,
+      "evidence": [
+        {
+          "title": "client-python · Python client library for Mistral AI platform",
+          "url": "https://github.com/mistralai/client-python/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "llm-d-router-public · Inference scheduler for llm-d",
+          "url": "https://github.com/mistralai/llm-d-router-public/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "platform-docs-public · 仓库更新",
+          "url": "https://github.com/mistralai/platform-docs-public/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
+          "url": "https://github.com/mistralai/mistral-common/releases",
+          "source": "Mistral AI"
+        }
+      ]
+    },
     {
       "type": "news",
       "key": null,
@@ -14,6 +64,84 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-06",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -40,45 +168,6 @@
       "text": "Building advertising for the way people use AI",
       "href": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
       "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-05",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-05",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-05",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
       "external": true
     }
   ]
