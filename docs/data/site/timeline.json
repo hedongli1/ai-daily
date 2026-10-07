@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "timeline": [
     {
       "n": "mistral-large-4",
@@ -564,6 +564,15 @@
       "name": "Laguna XS 2.1",
       "vn": "Poolside",
       "rel": "2026-07-02",
+      "ctx": 262144,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "leanstral-1-5",
+      "name": "Leanstral 1.5",
+      "vn": "Mistral",
+      "rel": "2026-06-30",
       "ctx": 262144,
       "in": 0,
       "open": 1
@@ -1991,6 +2000,33 @@
       "open": 1
     },
     {
+      "n": "ministral-3-8b",
+      "name": "Ministral 3 8B",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0.15,
+      "open": 1
+    },
+    {
+      "n": "ministral-3-3b",
+      "name": "Ministral 3 3B",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "ctx": 131072,
+      "in": 0.1,
+      "open": 1
+    },
+    {
+      "n": "ministral-3-14b",
+      "name": "Ministral 3 14B",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0.2,
+      "open": 1
+    },
+    {
       "n": "cosmos-reason2-8b",
       "name": "Cosmos Reason2 8B",
       "vn": "英伟达",
@@ -2432,6 +2468,15 @@
       "open": 1
     },
     {
+      "n": "codestral-25-08",
+      "name": "Codestral 25.08",
+      "vn": "Mistral",
+      "rel": "2025-07-30",
+      "ctx": 256000,
+      "in": 0.3,
+      "open": 0
+    },
+    {
       "n": "glm-4-5-flash",
       "name": "GLM-4.5-Flash",
       "vn": "智谱 AI",
@@ -2523,7 +2568,7 @@
     },
     {
       "n": "voxtral-small",
-      "name": "Voxtral Small (latest)",
+      "name": "Voxtral Small",
       "vn": "Mistral",
       "rel": "2025-07-15",
       "ctx": 32768,
@@ -3021,7 +3066,7 @@
       "name": "Magistral Medium (latest)",
       "vn": "Mistral",
       "rel": "2025-03-17",
-      "ctx": 128000,
+      "ctx": 262144,
       "in": 2,
       "open": 1
     },

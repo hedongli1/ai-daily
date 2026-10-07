@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-07",
-  "count": 449,
+  "date": "2026-10-08",
+  "count": 454,
   "models": [
     {
       "n": "jamba-large",
@@ -2595,7 +2595,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 22,
+      "ch": 24,
       "cap": [
         "多模态",
         "视觉",
@@ -4962,6 +4962,27 @@
       "rel_ts": 1780272000000
     },
     {
+      "n": "codestral-25-08",
+      "name": "Codestral 25.08",
+      "v": "mistral",
+      "vn": "Mistral",
+      "rel": "2025-07-30",
+      "relP": "day",
+      "ctx": 256000,
+      "out": 8192,
+      "in": 0.3,
+      "oc": 0.9,
+      "cr": 0.03,
+      "open": 0,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 5,
+      "cap": [
+        "工具调用"
+      ],
+      "rel_ts": 1753833600000
+    },
+    {
       "n": "codestral",
       "name": "Codestral (latest)",
       "v": "mistral",
@@ -5096,13 +5117,38 @@
       "rel_ts": 1765238400000
     },
     {
+      "n": "leanstral-1-5",
+      "name": "Leanstral 1.5",
+      "v": "mistral",
+      "vn": "Mistral",
+      "rel": "2026-06-30",
+      "relP": "day",
+      "ctx": 262144,
+      "out": 128000,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 1,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1782777600000
+    },
+    {
       "n": "magistral-medium",
       "name": "Magistral Medium (latest)",
       "v": "mistral",
       "vn": "Mistral",
       "rel": "2025-03-17",
       "relP": "day",
-      "ctx": 128000,
+      "ctx": 262144,
       "out": 16384,
       "in": 2,
       "oc": 5,
@@ -5112,11 +5158,61 @@
       "tool": 1,
       "ch": 4,
       "cap": [
+        "多模态",
+        "视觉",
         "开源",
         "推理",
         "工具调用"
       ],
       "rel_ts": 1742169600000
+    },
+    {
+      "n": "ministral-3-14b",
+      "name": "Ministral 3 14B",
+      "v": "mistral",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "relP": "day",
+      "ctx": 262144,
+      "out": 262144,
+      "in": 0.2,
+      "oc": 0.2,
+      "cr": 0.02,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 4,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1764633600000
+    },
+    {
+      "n": "ministral-3-3b",
+      "name": "Ministral 3 3B",
+      "v": "mistral",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "relP": "day",
+      "ctx": 131072,
+      "out": 262144,
+      "in": 0.1,
+      "oc": 0.1,
+      "cr": 0.01,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1764633600000
     },
     {
       "n": "ministral-3b",
@@ -5141,6 +5237,30 @@
         "工具调用"
       ],
       "rel_ts": 1727740800000
+    },
+    {
+      "n": "ministral-3-8b",
+      "name": "Ministral 3 8B",
+      "v": "mistral",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "relP": "day",
+      "ctx": 262144,
+      "out": 262144,
+      "in": 0.15,
+      "oc": 0.15,
+      "cr": 0.015,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 3,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1764633600000
     },
     {
       "n": "ministral-8b",
@@ -5246,7 +5366,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 9,
+      "ch": 11,
       "cap": [
         "多模态",
         "视觉",
@@ -5652,7 +5772,7 @@
     },
     {
       "n": "voxtral-small",
-      "name": "Voxtral Small (latest)",
+      "name": "Voxtral Small",
       "v": "mistral",
       "vn": "Mistral",
       "rel": "2025-07-15",
@@ -5660,7 +5780,7 @@
       "ctx": 32768,
       "out": 32000,
       "in": 0.1,
-      "oc": 0.3,
+      "oc": 0.4,
       "cr": null,
       "open": 1,
       "rsn": 0,
@@ -8227,7 +8347,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 20,
+      "ch": 21,
       "cap": [
         "多模态",
         "视觉",
@@ -9775,7 +9895,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 21,
+      "ch": 22,
       "cap": [
         "多模态",
         "视觉",

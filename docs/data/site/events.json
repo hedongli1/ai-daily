@@ -1,99 +1,68 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "mode": "diff",
-  "baselineDate": "2026-10-06",
+  "baselineDate": "2026-10-07",
   "events": [
     {
-      "type": "context",
-      "key": "mistral/Mistral Small 4",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Small 4",
-      "date": "2026-10-07",
+      "type": "price",
+      "key": "alibaba/Qwen-VL OCR",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-VL OCR",
+      "date": "2026-10-08",
       "facts": {
-        "before": 256000,
-        "after": 262144
+        "before": {
+          "in": 0.72,
+          "outCost": 0.72
+        },
+        "after": {
+          "in": 0.07,
+          "outCost": 0.16
+        }
       },
-      "text": "上下文 256K → 262K",
-      "href": "/models/mistral-small-4/"
-    },
-    {
-      "type": "context",
-      "key": "mistral/Ministral 3B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3B (latest)",
-      "date": "2026-10-07",
-      "facts": {
-        "before": 128000,
-        "after": 131072
-      },
-      "text": "上下文 128K → 131K",
-      "href": "/models/ministral-3b/"
-    },
-    {
-      "type": "context",
-      "key": "mistral/Mistral Small (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Small (latest)",
-      "date": "2026-10-07",
-      "facts": {
-        "before": 256000,
-        "after": 262144
-      },
-      "text": "上下文 256K → 262K",
-      "href": "/models/mistral-small/"
-    },
-    {
-      "type": "context",
-      "key": "mistral/Voxtral Small (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Voxtral Small (latest)",
-      "date": "2026-10-07",
-      "facts": {
-        "before": 32000,
-        "after": 32768
-      },
-      "text": "上下文 32K → 33K",
-      "href": "/models/voxtral-small/"
-    },
-    {
-      "type": "context",
-      "key": "mistral/Ministral 8B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 8B (latest)",
-      "date": "2026-10-07",
-      "facts": {
-        "before": 128000,
-        "after": 262144
-      },
-      "text": "上下文 128K → 262K",
-      "href": "/models/ministral-8b/"
-    },
-    {
-      "type": "new",
-      "key": "mistral/Mistral Large 4",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large 4",
-      "date": "2026-10-06",
-      "facts": {
-        "ctx": 524288,
-        "in": 0.68,
-        "outCost": 2.09,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Mistral Large 4 · 闭源 · 524K 上下文 · 输入 $0.68/M · 支持推理",
-      "href": "/models/mistral-large-4/",
-      "shared": 9,
+      "text": "输入 $0.72 → $0.07 · 输出 $0.72 → $0.16",
+      "href": "/models/qwen-vl-ocr/",
       "evidence": [
         {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+          "url": "https://github.com/QwenLM/qwen-code-docs/releases",
+          "source": "Qwen"
+        }
+      ]
+    },
+    {
+      "type": "price",
+      "key": "mistral/Voxtral Small",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Voxtral Small",
+      "date": "2026-10-08",
+      "facts": {
+        "before": {
+          "in": 0.1,
+          "outCost": 0.3
+        },
+        "after": {
+          "in": 0.1,
+          "outCost": 0.4
+        }
+      },
+      "text": "输出 $0.3 → $0.4",
+      "href": "/models/voxtral-small/",
+      "evidence": [
+        {
+          "title": "platform-docs-public · 仓库更新",
+          "url": "https://github.com/mistralai/platform-docs-public/releases",
           "source": "Mistral AI"
         },
         {
@@ -107,21 +76,160 @@
           "source": "Mistral AI"
         },
         {
-          "title": "platform-docs-public · 仓库更新",
-          "url": "https://github.com/mistralai/platform-docs-public/releases",
+          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
+          "url": "https://github.com/mistralai/mistral-common/releases",
           "source": "Mistral AI"
         },
         {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "client-python · Python client library for Mistral AI platform",
-          "url": "https://github.com/mistralai/client-python/releases",
+          "title": "client-ts ·  TS Client library for Mistral AI platform ",
+          "url": "https://github.com/mistralai/client-ts/releases",
           "source": "Mistral AI"
         }
       ]
+    },
+    {
+      "type": "context",
+      "key": "mistral/Magistral Medium (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Magistral Medium (latest)",
+      "date": "2026-10-08",
+      "facts": {
+        "before": 128000,
+        "after": 262144
+      },
+      "text": "上下文 128K → 262K",
+      "href": "/models/magistral-medium/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Helping teens learn, plan, and shape the future of AI",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "Helping teens learn, plan, and shape the future of AI",
+      "href": "https://openai.com/index/teens-learn-and-plan",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Introducing Playground: Create and play custom games",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "Introducing Playground: Create and play custom games",
+      "href": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
     },
     {
       "type": "news",
@@ -191,71 +299,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "cookbook · 仓库更新",
@@ -280,30 +323,94 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Our approach to EU text provenance rules",
-      "date": "2026-10-05",
-      "facts": {},
-      "text": "Our approach to EU text provenance rules",
-      "href": "https://openai.com/index/eu-text-provenance",
-      "source": "OpenAI",
-      "external": true
+      "type": "new",
+      "key": "mistral/Leanstral 1.5",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Leanstral 1.5",
+      "date": "2026-06-30",
+      "facts": {
+        "ctx": 262144,
+        "in": 0,
+        "outCost": 0,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Leanstral 1.5 · 开源 · 262K 上下文 · 输入 免费/M · 支持推理",
+      "href": "/models/leanstral-1-5/",
+      "shared": 2
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Building advertising for the way people use AI",
-      "date": "2026-10-05",
-      "facts": {},
-      "text": "Building advertising for the way people use AI",
-      "href": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
-      "source": "OpenAI",
-      "external": true
+      "type": "new",
+      "key": "mistral/Ministral 3 3B",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Ministral 3 3B",
+      "date": "2025-12-02",
+      "facts": {
+        "ctx": 131072,
+        "in": 0.1,
+        "outCost": 0.1,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "Ministral 3 3B · 开源 · 131K 上下文 · 输入 $0.1/M",
+      "href": "/models/ministral-3-3b/",
+      "shared": 2
+    },
+    {
+      "type": "new",
+      "key": "mistral/Ministral 3 8B",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Ministral 3 8B",
+      "date": "2025-12-02",
+      "facts": {
+        "ctx": 262144,
+        "in": 0.15,
+        "outCost": 0.15,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "Ministral 3 8B · 开源 · 262K 上下文 · 输入 $0.15/M",
+      "href": "/models/ministral-3-8b/",
+      "shared": 3
+    },
+    {
+      "type": "new",
+      "key": "mistral/Ministral 3 14B",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Ministral 3 14B",
+      "date": "2025-12-02",
+      "facts": {
+        "ctx": 262144,
+        "in": 0.2,
+        "outCost": 0.2,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "Ministral 3 14B · 开源 · 262K 上下文 · 输入 $0.2/M",
+      "href": "/models/ministral-3-14b/",
+      "shared": 4
+    },
+    {
+      "type": "new",
+      "key": "mistral/Codestral 25.08",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Codestral 25.08",
+      "date": "2025-07-30",
+      "facts": {
+        "ctx": 256000,
+        "in": 0.3,
+        "outCost": 0.9,
+        "open": false,
+        "reasoning": false
+      },
+      "text": "Codestral 25.08 · 闭源 · 256K 上下文 · 输入 $0.3/M",
+      "href": "/models/codestral-25-08/",
+      "shared": 5
     }
   ]
 }

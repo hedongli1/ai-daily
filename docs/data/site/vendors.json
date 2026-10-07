@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-07",
+  "date": "2026-10-08",
   "vendors": [
     {
       "id": "nvidia",
@@ -26,19 +26,19 @@
       "country": "intl"
     },
     {
+      "id": "mistral",
+      "name": "Mistral",
+      "n": 36,
+      "cheapest": 0,
+      "latest": "2026-10-06",
+      "country": "intl"
+    },
+    {
       "id": "google",
       "name": "谷歌",
       "n": 37,
       "cheapest": 0,
       "latest": "2026-09-02",
-      "country": "intl"
-    },
-    {
-      "id": "mistral",
-      "name": "Mistral",
-      "n": 31,
-      "cheapest": 0,
-      "latest": "2026-10-06",
       "country": "intl"
     },
     {
