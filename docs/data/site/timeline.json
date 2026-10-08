@@ -2,6 +2,15 @@
   "date": "2026-10-08",
   "timeline": [
     {
+      "n": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "vn": "Anthropic",
+      "rel": "2026-10-07",
+      "ctx": 1000000,
+      "in": 0.1,
+      "open": 0
+    },
+    {
       "n": "mistral-large-4",
       "name": "Mistral Large 4",
       "vn": "Mistral",
@@ -2202,7 +2211,7 @@
       "name": "Claude Sonnet 4.5 (latest)",
       "vn": "Anthropic",
       "rel": "2025-09-29",
-      "ctx": 1000000,
+      "ctx": 200000,
       "in": 3,
       "open": 0
     },

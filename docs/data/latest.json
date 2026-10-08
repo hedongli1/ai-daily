@@ -4,12 +4,12 @@
   "mode": "diff",
   "baselineDate": "2026-10-07",
   "counts": {
-    "new": 5,
+    "new": 6,
     "retired": 0,
-    "price": 2,
-    "context": 1,
-    "news": 17,
-    "facts": 8,
+    "price": 3,
+    "context": 2,
+    "news": 19,
+    "facts": 11,
     "newsAttached": 0
   },
   "degraded": [
@@ -80,6 +80,26 @@
   "events": [
     {
       "type": "price",
+      "key": "anthropic/Claude Sonnet 5.5",
+      "vendor": "anthropic",
+      "vendorName": "Anthropic",
+      "name": "Claude Sonnet 5.5",
+      "date": "2026-10-08",
+      "facts": {
+        "before": {
+          "in": 2,
+          "outCost": 10
+        },
+        "after": {
+          "in": 2,
+          "outCost": 10
+        }
+      },
+      "text": "",
+      "href": "/models/claude-sonnet-5-5/"
+    },
+    {
+      "type": "price",
       "key": "alibaba/Qwen-VL OCR",
       "vendor": "alibaba",
       "vendorName": "阿里云",
@@ -104,13 +124,13 @@
           "source": "Qwen"
         },
         {
-          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+          "title": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+          "url": "https://github.com/QwenLM/qwen-code-docs/releases",
           "source": "Qwen"
         },
         {
-          "title": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-          "url": "https://github.com/QwenLM/qwen-code-docs/releases",
+          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
           "source": "Qwen"
         }
       ]
@@ -136,13 +156,13 @@
       "href": "/models/voxtral-small/",
       "evidence": [
         {
-          "title": "platform-docs-public · 仓库更新",
-          "url": "https://github.com/mistralai/platform-docs-public/releases",
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
           "source": "Mistral AI"
         },
         {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "title": "platform-docs-public · 仓库更新",
+          "url": "https://github.com/mistralai/platform-docs-public/releases",
           "source": "Mistral AI"
         },
         {
@@ -164,6 +184,20 @@
     },
     {
       "type": "context",
+      "key": "anthropic/Claude Sonnet 4.5 (latest)",
+      "vendor": "anthropic",
+      "vendorName": "Anthropic",
+      "name": "Claude Sonnet 4.5 (latest)",
+      "date": "2026-10-08",
+      "facts": {
+        "before": 1000000,
+        "after": 200000
+      },
+      "text": "上下文 1M → 200K",
+      "href": "/models/claude-sonnet-4-5/"
+    },
+    {
+      "type": "context",
       "key": "mistral/Magistral Medium (latest)",
       "vendor": "mistral",
       "vendorName": "Mistral",
@@ -179,6 +213,50 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "anthropic/Claude Haiku 5.5",
+      "vendor": "anthropic",
+      "vendorName": "Anthropic",
+      "name": "Claude Haiku 5.5",
+      "date": "2026-10-07",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.1,
+        "outCost": 0.5,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Claude Haiku 5.5 · 闭源 · 1M 上下文 · 输入 $0.1/M · 支持推理",
+      "href": "/models/claude-haiku-5-5/",
+      "shared": 17
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Helping teens learn, plan, and shape the future of AI",
@@ -186,6 +264,32 @@
       "facts": {},
       "text": "Helping teens learn, plan, and shape the future of AI",
       "href": "https://openai.com/index/teens-learn-and-plan",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "Radisson Hotel Group brings hotel discovery into ChatGPT",
+      "href": "https://openai.com/index/radisson",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6 and Intelligent UI for everyone",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "GPT-6 and Intelligent UI for everyone",
+      "href": "https://openai.com/index/gpt-6-for-everyone",
       "source": "OpenAI",
       "external": true
     },
@@ -207,51 +311,12 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
       "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
       "date": "2026-10-07",
       "facts": {},
       "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
       "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
       "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
       "external": true
     },
     {
@@ -264,6 +329,19 @@
       "facts": {},
       "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-07",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -376,11 +454,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
+      "name": "client-python · Python client library for Mistral AI platform",
       "date": "2026-10-06",
       "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -389,11 +467,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
+      "name": "cookbook · 仓库更新",
       "date": "2026-10-06",
       "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },

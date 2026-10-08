@@ -3,12 +3,12 @@
   "mode": "diff",
   "baselineDate": "2026-10-07",
   "counts": {
-    "new": 5,
+    "new": 6,
     "retired": 0,
-    "price": 2,
-    "context": 1,
-    "news": 17,
-    "facts": 8,
+    "price": 3,
+    "context": 2,
+    "news": 19,
+    "facts": 11,
     "newsAttached": 0
   },
   "degraded": [
@@ -78,8 +78,8 @@
   ],
   "totals": {
     "originVendors": 33,
-    "originModels": 642,
+    "originModels": 643,
     "channels": 185,
-    "allEntries": 8430
+    "allEntries": 8452
   }
 }

@@ -1,6 +1,6 @@
 {
   "date": "2026-10-08",
-  "count": 454,
+  "count": 455,
   "models": [
     {
       "n": "jamba-large",
@@ -2061,7 +2061,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 11,
+      "ch": 10,
       "cap": [
         "推理",
         "工具调用"
@@ -2365,6 +2365,30 @@
       "rel_ts": 1760486400000
     },
     {
+      "n": "claude-haiku-5-5",
+      "name": "Claude Haiku 5.5",
+      "v": "anthropic",
+      "vn": "Anthropic",
+      "rel": "2026-10-07",
+      "relP": "day",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 0.1,
+      "oc": 0.5,
+      "cr": 0.01,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 17,
+      "cap": [
+        "多模态",
+        "视觉",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1791331200000
+    },
+    {
       "n": "claude-opus-4-5",
       "name": "Claude Opus 4.5 (latest)",
       "v": "anthropic",
@@ -2515,7 +2539,7 @@
       "vn": "Anthropic",
       "rel": "2025-09-29",
       "relP": "day",
-      "ctx": 1000000,
+      "ctx": 200000,
       "out": 64000,
       "in": 3,
       "oc": 15,
@@ -2591,7 +2615,7 @@
       "out": 128000,
       "in": 2,
       "oc": 10,
-      "cr": 0.2,
+      "cr": 0.1,
       "open": 0,
       "rsn": 1,
       "tool": 1,

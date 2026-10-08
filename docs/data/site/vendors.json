@@ -50,6 +50,14 @@
       "country": "intl"
     },
     {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 14,
+      "cheapest": 0.1,
+      "latest": "2026-10-07",
+      "country": "intl"
+    },
+    {
       "id": "cohere",
       "name": "Cohere",
       "n": 16,
@@ -64,14 +72,6 @@
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 13,
-      "cheapest": 1,
-      "latest": "2026-09-28",
-      "country": "intl"
     },
     {
       "id": "volcengine",
