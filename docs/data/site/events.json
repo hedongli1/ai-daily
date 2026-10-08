@@ -1,88 +1,25 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "mode": "diff",
-  "baselineDate": "2026-10-07",
+  "baselineDate": "2026-10-08",
   "events": [
     {
-      "type": "price",
-      "key": "anthropic/Claude Sonnet 5.5",
-      "vendor": "anthropic",
-      "vendorName": "Anthropic",
-      "name": "Claude Sonnet 5.5",
-      "date": "2026-10-08",
-      "facts": {
-        "before": {
-          "in": 2,
-          "outCost": 10
-        },
-        "after": {
-          "in": 2,
-          "outCost": 10
-        }
-      },
-      "text": "",
-      "href": "/models/claude-sonnet-5-5/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen-VL OCR",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen-VL OCR",
-      "date": "2026-10-08",
-      "facts": {
-        "before": {
-          "in": 0.72,
-          "outCost": 0.72
-        },
-        "after": {
-          "in": 0.07,
-          "outCost": 0.16
-        }
-      },
-      "text": "输入 $0.72 → $0.07 · 输出 $0.72 → $0.16",
-      "href": "/models/qwen-vl-ocr/",
-      "evidence": [
-        {
-          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-          "url": "https://github.com/QwenLM/qwen-code/releases",
-          "source": "Qwen"
-        },
-        {
-          "title": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-          "url": "https://github.com/QwenLM/qwen-code-docs/releases",
-          "source": "Qwen"
-        },
-        {
-          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-          "source": "Qwen"
-        }
-      ]
-    },
-    {
-      "type": "price",
-      "key": "mistral/Voxtral Small",
+      "type": "context",
+      "key": "mistral/Mistral Large 4",
       "vendor": "mistral",
       "vendorName": "Mistral",
-      "name": "Voxtral Small",
-      "date": "2026-10-08",
+      "name": "Mistral Large 4",
+      "date": "2026-10-09",
       "facts": {
-        "before": {
-          "in": 0.1,
-          "outCost": 0.3
-        },
-        "after": {
-          "in": 0.1,
-          "outCost": 0.4
-        }
+        "before": 524288,
+        "after": 1048576
       },
-      "text": "输出 $0.3 → $0.4",
-      "href": "/models/voxtral-small/",
+      "text": "上下文 524K → 1M",
+      "href": "/models/mistral-large-4/",
       "evidence": [
         {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
           "source": "Mistral AI"
         },
         {
@@ -96,11 +33,6 @@
           "source": "Mistral AI"
         },
         {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
-          "source": "Mistral AI"
-        },
-        {
           "title": "client-ts ·  TS Client library for Mistral AI platform ",
           "url": "https://github.com/mistralai/client-ts/releases",
           "source": "Mistral AI"
@@ -108,32 +40,17 @@
       ]
     },
     {
-      "type": "context",
-      "key": "anthropic/Claude Sonnet 4.5 (latest)",
-      "vendor": "anthropic",
-      "vendorName": "Anthropic",
-      "name": "Claude Sonnet 4.5 (latest)",
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Disrupting AI-enabled “false front” operations",
       "date": "2026-10-08",
-      "facts": {
-        "before": 1000000,
-        "after": 200000
-      },
-      "text": "上下文 1M → 200K",
-      "href": "/models/claude-sonnet-4-5/"
-    },
-    {
-      "type": "context",
-      "key": "mistral/Magistral Medium (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Magistral Medium (latest)",
-      "date": "2026-10-08",
-      "facts": {
-        "before": 128000,
-        "after": 262144
-      },
-      "text": "上下文 128K → 262K",
-      "href": "/models/magistral-medium/"
+      "facts": {},
+      "text": "Disrupting AI-enabled “false front” operations",
+      "href": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -151,33 +68,67 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
       "date": "2026-10-08",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
-      "type": "new",
-      "key": "anthropic/Claude Haiku 5.5",
-      "vendor": "anthropic",
-      "vendorName": "Anthropic",
-      "name": "Claude Haiku 5.5",
-      "date": "2026-10-07",
-      "facts": {
-        "ctx": 1000000,
-        "in": 0.1,
-        "outCost": 0.5,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Claude Haiku 5.5 · 闭源 · 1M 上下文 · 输入 $0.1/M · 支持推理",
-      "href": "/models/claude-haiku-5-5/",
-      "shared": 17
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
     },
     {
       "type": "news",
@@ -262,32 +213,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "mistral-common · Official inference library for pre-processing of Mistral models",
       "date": "2026-10-07",
       "facts": {},
@@ -295,200 +220,6 @@
       "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-ts ·  TS Client library for Mistral AI platform ",
-      "date": "2026-10-07",
-      "facts": {},
-      "text": "client-ts ·  TS Client library for Mistral AI platform ",
-      "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Jump Trading is scaling quant research with ChatGPT",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "How Jump Trading is scaling quant research with ChatGPT",
-      "href": "https://openai.com/index/jump-trading",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Sharing AI progress in mathematics",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "Sharing AI progress in mathematics",
-      "href": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Advancing computer use with Ironclad",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "Advancing computer use with Ironclad",
-      "href": "https://openai.com/index/advancing-computer-use-with-ironclad",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "href": "https://openai.com/index/atlassian-partnership",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "href": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-10-06",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "new",
-      "key": "mistral/Leanstral 1.5",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Leanstral 1.5",
-      "date": "2026-06-30",
-      "facts": {
-        "ctx": 262144,
-        "in": 0,
-        "outCost": 0,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Leanstral 1.5 · 开源 · 262K 上下文 · 输入 免费/M · 支持推理",
-      "href": "/models/leanstral-1-5/",
-      "shared": 2
-    },
-    {
-      "type": "new",
-      "key": "mistral/Ministral 3 3B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3 3B",
-      "date": "2025-12-02",
-      "facts": {
-        "ctx": 131072,
-        "in": 0.1,
-        "outCost": 0.1,
-        "open": true,
-        "reasoning": false
-      },
-      "text": "Ministral 3 3B · 开源 · 131K 上下文 · 输入 $0.1/M",
-      "href": "/models/ministral-3-3b/",
-      "shared": 2
-    },
-    {
-      "type": "new",
-      "key": "mistral/Ministral 3 8B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3 8B",
-      "date": "2025-12-02",
-      "facts": {
-        "ctx": 262144,
-        "in": 0.15,
-        "outCost": 0.15,
-        "open": true,
-        "reasoning": false
-      },
-      "text": "Ministral 3 8B · 开源 · 262K 上下文 · 输入 $0.15/M",
-      "href": "/models/ministral-3-8b/",
-      "shared": 3
-    },
-    {
-      "type": "new",
-      "key": "mistral/Ministral 3 14B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3 14B",
-      "date": "2025-12-02",
-      "facts": {
-        "ctx": 262144,
-        "in": 0.2,
-        "outCost": 0.2,
-        "open": true,
-        "reasoning": false
-      },
-      "text": "Ministral 3 14B · 开源 · 262K 上下文 · 输入 $0.2/M",
-      "href": "/models/ministral-3-14b/",
-      "shared": 4
-    },
-    {
-      "type": "new",
-      "key": "mistral/Codestral 25.08",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Codestral 25.08",
-      "date": "2025-07-30",
-      "facts": {
-        "ctx": 256000,
-        "in": 0.3,
-        "outCost": 0.9,
-        "open": false,
-        "reasoning": false
-      },
-      "text": "Codestral 25.08 · 闭源 · 256K 上下文 · 输入 $0.3/M",
-      "href": "/models/codestral-25-08/",
-      "shared": 5
     }
   ]
 }

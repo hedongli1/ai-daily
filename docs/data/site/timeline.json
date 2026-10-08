@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "timeline": [
     {
       "n": "claude-haiku-5-5",
@@ -15,7 +15,7 @@
       "name": "Mistral Large 4",
       "vn": "Mistral",
       "rel": "2026-10-06",
-      "ctx": 524288,
+      "ctx": 1048576,
       "in": 0.68,
       "open": 0
     },

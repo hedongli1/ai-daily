@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08",
+  "generated": "2026-10-09",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -511,6 +511,18 @@
       }
     },
     {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 12,
+      "domains": {
+        "Language": {
+          "n": 12,
+          "avg": 0.6348,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Fable 5.1",
       "release": "2026-09-01",
       "nRuns": 12,
@@ -566,18 +578,6 @@
         "Multimodal,Language,Vision": {
           "n": 11,
           "avg": 0.716,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 11,
-      "domains": {
-        "Language": {
-          "n": 11,
-          "avg": 0.6899,
           "best": 1
         }
       }
@@ -639,6 +639,18 @@
           "n": 11,
           "avg": 0.4358,
           "best": 0.9094
+        }
+      }
+    },
+    {
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
+      "nRuns": 10,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 10,
+          "avg": 0.5569,
+          "best": 1
         }
       }
     },
@@ -711,18 +723,6 @@
           "n": 10,
           "avg": 0.3901,
           "best": 0.8918
-        }
-      }
-    },
-    {
-      "model": "Claude Sonnet 5.5",
-      "release": "2026-09-28",
-      "nRuns": 9,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 9,
-          "avg": 0.6156,
-          "best": 1
         }
       }
     },

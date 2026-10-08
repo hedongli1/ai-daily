@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-08",
+  "date": "2026-10-09",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -487,11 +487,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 11,
+      "runs": 12,
       "domains": {
         "Language": {
-          "n": 11,
-          "avg": 0.6899,
+          "n": 12,
+          "avg": 0.6348,
           "best": 1
         }
       },
@@ -535,11 +535,11 @@
       "name": "Claude Sonnet 5"
     },
     "claude-sonnet-5-5": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 9,
-          "avg": 0.6156,
+          "n": 10,
+          "avg": 0.5569,
           "best": 1
         }
       },

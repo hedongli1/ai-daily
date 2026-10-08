@@ -1,147 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-07T17:06:01.245Z",
+ "fetchedAt": "2026-10-08T17:04:58.927Z",
  "rows": [
+  {
+   "title": "我为什么要用围棋测试大模型？从一手棋看懂七种能力",
+   "up": "",
+   "play": 833,
+   "pub": "2026/10/8",
+   "bvid": "BV1wqHX65EUB"
+  },
+  {
+   "title": "不生成文本的AI模型？揭秘Jev如何以毫秒级延迟直接输出决策结果 | bycloud",
+   "up": "",
+   "play": 22,
+   "pub": "2026/10/8",
+   "bvid": "BV1xXHQ65EjG"
+  },
+  {
+   "title": "Mistral 回归了！（Le Chonk）",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/8",
+   "bvid": "BV1YBH96aEV7"
+  },
+  {
+   "title": "谷歌开源 EmbeddingGemma 2：小到普通电脑都能跑，干嘛的？",
+   "up": "",
+   "play": 16,
+   "pub": "2026/10/8",
+   "bvid": "BV1RDHD6dErd"
+  },
+  {
+   "title": "一张7900XTX跑出70tok/s，我可能不需要订阅API了",
+   "up": "",
+   "play": 19,
+   "pub": "2026/10/8",
+   "bvid": "BV1kEH96LEaL"
+  },
+  {
+   "title": "本地大模型救不了你的数据：没有社会契约一切都是空谈",
+   "up": "",
+   "play": 3,
+   "pub": "2026/10/8",
+   "bvid": "BV1vwHU6QE95"
+  },
+  {
+   "title": "【开源】把一块 RK3588 开发板，变成你自己的大模型服务器",
+   "up": "",
+   "play": 151,
+   "pub": "2026/10/8",
+   "bvid": "BV1sspu64EiS"
+  },
+  {
+   "title": "实测世界第三的开源大模型Step5 Preview，优缺点一次性扒光！",
+   "up": "",
+   "play": 4403,
+   "pub": "2026/10/8",
+   "bvid": "BV1yGHQ6rEHB"
+  },
+  {
+   "title": "Reachy Mini 接入豆包大模型！开源桌面机器人中文语音对话实战：ASR→LLM工具调用→TTS，声源定位+手部跟随全都有",
+   "up": "",
+   "play": 200,
+   "pub": "2026/10/8",
+   "bvid": "BV1otHQ6hETL"
+  },
+  {
+   "title": "这个开源编程工具，可以一键上线做好的网站",
+   "up": "",
+   "play": 124,
+   "pub": "2026/10/8",
+   "bvid": "BV1JfHS6aEPM"
+  },
+  {
+   "title": "一个点子，24 小时，我用 &quot;豆包工作&quot; 从 0 做出一款能用的软件，已开源",
+   "up": "",
+   "play": 74836,
+   "pub": "2026/10/8",
+   "bvid": "BV1Lzhi63E1c"
+  },
+  {
+   "title": "最新研发神器，盈信AI交易面板，专注于交易领域的人工智能大模型，助力小白",
+   "up": "",
+   "play": 82,
+   "pub": "2026/10/8",
+   "bvid": "BV1ehHQ6bEBh"
+  },
+  {
+   "title": "达利欧：AI泡沫即将破裂",
+   "up": "",
+   "play": 839,
+   "pub": "2026/10/8",
+   "bvid": "BV1cwHX6uEof"
+  },
+  {
+   "title": "ftop 0.2：界面全部重做｜Mac 悬浮系统监视器，占用不到 1%【开源】",
+   "up": "",
+   "play": 1668,
+   "pub": "2026/10/8",
+   "bvid": "BV1H5HS6YE3K"
+  },
+  {
+   "title": "再也不用熬大夜画顶会图！免费大模型一键生成 CVPR 风格论文插图｜附提示词",
+   "up": "",
+   "play": 73,
+   "pub": "2026/10/8",
+   "bvid": "BV1Q6Hk6hEA4"
+  },
   {
    "title": "谷歌前CEO：美国真正的对手只有中国，他们把大模型开源，导致我们无法控制",
    "up": "",
-   "play": 68,
+   "play": 1071,
    "pub": "2026/10/7",
    "bvid": "BV1urpA6HEyN"
   },
   {
+   "title": "从零到一搭大模型 · 第 18集：高并发与分布式限流",
+   "up": "",
+   "play": 126,
+   "pub": "2026/10/7",
+   "bvid": "BV11FH16xEaJ"
+  },
+  {
    "title": "Adobe全套软件开源实现，Rust编写轻巧极速",
    "up": "",
-   "play": 24,
+   "play": 1411,
    "pub": "2026/10/7",
    "bvid": "BV1yZHy6oEhX"
   },
   {
    "title": "GitHub开源 AI编程代码改动追溯 多Agent记忆共享",
    "up": "",
-   "play": 21,
+   "play": 122,
    "pub": "2026/10/7",
    "bvid": "BV1CFH16xEyr"
   },
   {
-   "title": "最火Strata项目原理大揭秘！1250亿参数凭什么跑在消费级显卡上？四大狠招一次讲透",
+   "title": "【AI大模型速报】12G显存秒跑千亿MoE！Rapid-MLX登顶，循环架构终结显存带宽墙",
    "up": "",
-   "play": 443,
+   "play": 147,
    "pub": "2026/10/7",
-   "bvid": "BV1DtH16TErW"
-  },
-  {
-   "title": "鹈鹕骑自行车一次过！Qwen3.8 Flash Next 无审查版实测",
-   "up": "",
-   "play": 33,
-   "pub": "2026/10/7",
-   "bvid": "BV1meH16AEYG"
-  },
-  {
-   "title": "Mistral大肥猫万亿参数每次只醒五百亿，为什么一个任务反而贵四倍多",
-   "up": "",
-   "play": 47,
-   "pub": "2026/10/7",
-   "bvid": "BV1B8Hk6uEqs"
-  },
-  {
-   "title": "Reflection AI发布Beam：开源模型为何在自家跑分表垫底",
-   "up": "",
-   "play": 10,
-   "pub": "2026/10/7",
-   "bvid": "BV1iLH16LEB7"
-  },
-  {
-   "title": "把Qwen3.8 Flash Next装进本地设备！体验到底怎么样？",
-   "up": "",
-   "play": 214,
-   "pub": "2026/10/7",
-   "bvid": "BV1mDHk69EUu"
-  },
-  {
-   "title": "我们训练开源了一个AI算命八字命理大模型",
-   "up": "",
-   "play": 1033,
-   "pub": "2026/10/7",
-   "bvid": "BV1x9pA6VEKs"
-  },
-  {
-   "title": "Google 昨晚开源 EmbeddingGemma2｜文字和图片在同一个空间｜多模态 Embedding 入门",
-   "up": "",
-   "play": 1152,
-   "pub": "2026/10/7",
-   "bvid": "BV17DHC6CELr"
-  },
-  {
-   "title": "【中字】海外博主炸了！欧洲自研万亿参数开源王炸登场",
-   "up": "",
-   "play": 1049,
-   "pub": "2026/10/7",
-   "bvid": "BV1efHC6MEjG"
-  },
-  {
-   "title": "限制Token就像限制笔记本电量般荒谬。Cast AI开源Kimchi，按任务成本让Agent智能选模型 | AI Engineer",
-   "up": "",
-   "play": 104,
-   "pub": "2026/10/7",
-   "bvid": "BV1SepM6hEFX"
-  },
-  {
-   "title": "Ollama决策模型实测：90毫秒做出带概率分布的可靠判断",
-   "up": "",
-   "play": 64,
-   "pub": "2026/10/7",
-   "bvid": "BV1fGpM61ENG"
-  },
-  {
-   "title": "美国开源模型Beam：5000亿参数，每次只用230亿",
-   "up": "",
-   "play": 107,
-   "pub": "2026/10/7",
-   "bvid": "BV1xQpA6yEX5"
-  },
-  {
-   "title": "【中字】老外硬核测评：128GB内存到底能塞下谁？235B模型真相曝光",
-   "up": "",
-   "play": 15,
-   "pub": "2026/10/7",
-   "bvid": "BV1nppN6GEbG"
-  },
-  {
-   "title": "125B大模型装进12GB显卡：阿里Qwen3.8-Flash-Next+Strata引擎免费白嫖",
-   "up": "",
-   "play": 157,
-   "pub": "2026/10/7",
-   "bvid": "BV1aMpu6MEhD"
-  },
-  {
-   "title": "Mac 跑 AI 时机器到底在忙什么？我做了个占用不到 1% 的悬浮监视器【开源】",
-   "up": "",
-   "play": 2467,
-   "pub": "2026/10/7",
-   "bvid": "BV1XnpK6aEqx"
-  },
-  {
-   "title": "【实测】最近爆火的Jev模型做量化交易靠不靠谱？（测试台已开源）",
-   "up": "",
-   "play": 2177,
-   "pub": "2026/10/7",
-   "bvid": "BV1FApP6TE2Y"
-  },
-  {
-   "title": "Mistral is BACK! (Le Chonk) | Matthew Berman",
-   "up": "",
-   "play": 32,
-   "pub": "2026/10/7",
-   "bvid": "BV1y7pT6WEZ2"
-  },
-  {
-   "title": "你的电脑能跑多大的模型？7B、Q4 到底是什么？3 分钟动画讲透",
-   "up": "",
-   "play": 25,
-   "pub": "2026/10/7",
-   "bvid": "BV1MqHf6BEkj"
+   "bvid": "BV1KdHy6FECb"
   }
  ]
 }
