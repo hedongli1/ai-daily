@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 1,
-    "news": 14,
+    "news": 17,
     "facts": 1,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 9
     },
     {
       "id": "QwenLM",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 4
     }
   ],
   "events": [
@@ -117,6 +117,58 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-09",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "href": "https://openai.com/index/oracle",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "href": "https://openai.com/index/pollo-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "LegalOn halves Codex costs while maintaining development speed",
+      "date": "2026-10-08",
+      "facts": {},
+      "text": "LegalOn halves Codex costs while maintaining development speed",
+      "href": "https://openai.com/index/legalon-halves-codex-costs",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Disrupting AI-enabled “false front” operations",
@@ -125,19 +177,6 @@
       "text": "Disrupting AI-enabled “false front” operations",
       "href": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
       "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {

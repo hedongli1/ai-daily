@@ -7,7 +7,7 @@
     "retired": 0,
     "price": 0,
     "context": 1,
-    "news": 14,
+    "news": 17,
     "facts": 1,
     "newsAttached": 0
   },
@@ -49,7 +49,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 9
     },
     {
       "id": "QwenLM",
@@ -73,13 +73,13 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 4
     }
   ],
   "totals": {
     "originVendors": 33,
     "originModels": 643,
-    "channels": 185,
-    "allEntries": 8459
+    "channels": 184,
+    "allEntries": 8462
   }
 }
