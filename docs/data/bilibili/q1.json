@@ -1,147 +1,287 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-10T15:38:18.531Z",
+ "fetchedAt": "2026-10-10T23:43:16.712Z",
  "rows": [
   {
-   "title": "ai-infra职业规划：怎么规划和修改自己的nano-vllm简历让它更出众？",
+   "title": "融合VLM推理+视频生成动力学！打造真正的通用机器人基础模型 【机器人基础模型】【AI论文解读】",
    "up": "",
-   "play": 57,
+   "play": 0,
    "pub": "2026/10/10",
-   "bvid": "BV1FJpG6tE2N"
+   "bvid": "BV1RXpL68Eb5"
   },
   {
-   "title": "Unreal统一检索和生成模型",
+   "title": "英伟达250亿买下自己投的公司，开源AI要变天｜AI圈观察10月11日",
    "up": "",
-   "play": 15,
+   "play": 0,
    "pub": "2026/10/10",
-   "bvid": "BV1n7pG6fEmH"
+   "bvid": "BV1jRpL6cEPx"
   },
   {
-   "title": "城市虎抛壳系列模型G17/26X/26，大几千元的价格换来不同的感受和品质，仁者见仁智者见智",
+   "title": "Stop Prompting — Greg Pstrucha, Sentry",
    "up": "",
-   "play": 60,
+   "play": 0,
    "pub": "2026/10/10",
-   "bvid": "BV1MApG6uEWy"
+   "bvid": "BV1LRpL6cE96"
   },
   {
-   "title": "老显卡跑大模型的三个坑",
+   "title": "首个面向物理信息的视频嵌入基准！现有多模态模型居然藏着物理知识但用不了？【AI基准测试】【多模态大模型】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1gApj6REJY"
+  },
+  {
+   "title": "【中字】老外算账：花$20/月用ChatGPT？不如显卡跑1250亿模型",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1gApj6RERt"
+  },
+  {
+   "title": "员工聊天，凭什么全公司共享",
+   "up": "",
+   "play": 31,
+   "pub": "2026/10/10",
+   "bvid": "BV1QzHk6wEXN"
+  },
+  {
+   "title": "大模型能生成合格的工程级Simulink模型？首个工程级原生仿真基准来了 【AI工程应用】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/10",
+   "bvid": "BV1aFpj6oEAY"
+  },
+  {
+   "title": "10.11 英伟达模型在信息学奥赛超过人类最高分 第21期AI日报",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1J1pL6TEnp"
+  },
+  {
+   "title": "一分钟掌握今日全球AI圈大事10.11",
+   "up": "",
+   "play": 26,
+   "pub": "2026/10/10",
+   "bvid": "BV1ZnpG6dExL"
+  },
+  {
+   "title": "节度使平定大洋洲战锤40K废胴的功绩实在太大了。大本营颁发的勋章本地DHL是一刻都不敢怠慢，专机专送，星期天一大早都不休息，要赶在第一时间把勋章送到节度使手中",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/10",
+   "bvid": "BV1pkpL6uEFx"
+  },
+  {
+   "title": "AI时代，只懂技术的程序员，越来越没有优势。",
+   "up": "",
+   "play": 139,
+   "pub": "2026/10/10",
+   "bvid": "BV1jSpL6eEUH"
+  },
+  {
+   "title": "准确率暴涨22个百分点！解决MLLM视频事件预测三大痛点 工具增强强化学习新思路 【多模态大模型】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1qSpL6eENj"
+  },
+  {
+   "title": "首个长周期零件级3D编辑基准！让LLM代理vs生成式编辑方法正面PK 【3D生成论文解读】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV17UpL6NE4q"
+  },
+  {
+   "title": "给世界模型装上理解驱动的长时空间记忆！83%压缩率还能提升生成一致性 【世界模型】【AI论文解读】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1zcpV6bEuZ"
+  },
+  {
+   "title": "斯坦福Stanford大模型LLM原理讲座",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/10",
+   "bvid": "BV1FwpV6fEcn"
+  },
+  {
+   "title": "小度智能屏X10 Ultra深度评测：10.1英寸大屏 文心大模型AI智能音箱，中秋送礼怎么样？",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1qwpV6ZE97"
+  },
+  {
+   "title": "超难压力测试！专为web浏览大模型agent设计的多语言多模态基准测试 【大语言模型】【AI Agent】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1egpV6pEhV"
+  },
+  {
+   "title": "小模型、大成果：以不到 500 美元的成本训练金融智能体 — Charles Dickens, Snorkel AI",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1pvpV6KEaL"
+  },
+  {
+   "title": "解决大语言模型记忆诱导谄媚问题！MemAdapter基于反事实推理的记忆自适应框架 【大语言模型】【AI Agent】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1kQpG6vEQ5"
+  },
+  {
+   "title": "zotero与AI大模型联动插件-AwesomeGPT",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1MNp561ED2"
+  },
+  {
+   "title": "10月11日AI圈6件事：Anthropic披露Claude评测越界并误提交警方线索，决策模型Jev估值75亿美元",
+   "up": "",
+   "play": 12,
+   "pub": "2026/10/10",
+   "bvid": "BV18JpV6jEsZ"
+  },
+  {
+   "title": "迎接用户回家的大肥鱼",
+   "up": "",
+   "play": 394,
+   "pub": "2026/10/10",
+   "bvid": "BV1ZWpG69EqC"
+  },
+  {
+   "title": "AI生成的学术论文都是垃圾？第一个科学垃圾检测基准来了！【大语言模型 学术AI】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV16ZpG6hEto"
+  },
+  {
+   "title": "Beyond RAG： A Relational Context Engine That Cuts Token Burn — Unblocked",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/10",
+   "bvid": "BV14bpV6gE7u"
+  },
+  {
+   "title": "可配置API大语言模型的原神雷电将军桌宠",
+   "up": "",
+   "play": 86,
+   "pub": "2026/10/10",
+   "bvid": "BV14bpV6gET2"
+  },
+  {
+   "title": "大模型赋能通用机器人导航：能适配任意场景任意任务的SuperNav框架来了 【具身智能】【机器人导航】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/10",
+   "bvid": "BV1WapV6MEfu"
+  },
+  {
+   "title": "Zero Cold Starts： Serverless AI Agents on Akamai Functions — Thorsten Hans",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV1GjpV6JEbe"
+  },
+  {
+   "title": "整合多个领域专家能力！让单个大模型同时超越所有单领域老师 【大语言模型】【知识蒸馏】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/10",
+   "bvid": "BV1YVpV6nEiZ"
+  },
+  {
+   "title": "日本右翼势力被曝向国际主流大模型数据“投毒” 外交部：日方歪曲美化侵略历史 国际社会须提高警惕",
    "up": "",
    "play": 3,
    "pub": "2026/10/10",
-   "bvid": "BV1ucpG66ENt"
+   "bvid": "BV1tWpV6CExU"
   },
   {
-   "title": "老显卡跑大模型力压4090原理拆解",
+   "title": "解决大模型自进化性能崩溃！让推理模型持续自我提升 【大模型推理】【AI论文研读】",
    "up": "",
-   "play": 6,
+   "play": 5,
    "pub": "2026/10/10",
-   "bvid": "BV1ucpG66EKR"
+   "bvid": "BV1UppV65ETG"
   },
   {
-   "title": "【中配】Opus 5.5 vs GPT-6 Astra、Sonnet 5.5、GPT-6.1 Sol 实测对比 - RemakeBench",
+   "title": "首个大模型欺骗行为系统化基准！AI什么时候会骗人？DecepEval给出了答案 【AI安全】【大语言模型】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/10",
+   "bvid": "BV18JpV6jE4c"
+  },
+  {
+   "title": "11倍速生成！让大模型视频生成 latency 狂降，生成质量不打折｜GRACE 高效潜在压缩框架 【AI视频生成】【扩散模型】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/10",
+   "bvid": "BV1GRpV6pEe7"
+  },
+  {
+   "title": "扩散大模型速度反超自回归！精度还更高？ALoDLM自适应循环计算解决扩散语言模型质量瓶颈 【大语言模型】【扩散模型】",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/10",
+   "bvid": "BV15QpV6sE6W"
+  },
+  {
+   "title": "MoE大模型RL训练省5.4倍！用FP4量化还能保持BF16精度 【大模型高效训练】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/10",
+   "bvid": "BV1EkpV6hEoS"
+  },
+  {
+   "title": "一句话生成游戏，AI 在里面到底做了什么？Opus 5.5 自己画给你看",
    "up": "",
    "play": 8,
    "pub": "2026/10/10",
-   "bvid": "BV1PupG6NEFr"
+   "bvid": "BV1jUpV64EyP"
   },
   {
-   "title": "大模型参数的原理",
+   "title": "用低秩梯度草图把大模型强化训练内存砍半！27B模型单8卡节点就能训 【大模型训练】【强化学习】",
    "up": "",
-   "play": 1,
+   "play": 7,
    "pub": "2026/10/10",
-   "bvid": "BV1MFpG63EmE"
+   "bvid": "BV1LUpV64Eo2"
   },
   {
-   "title": "什么？6000块钱老显卡跑大模型超过4090 48G？",
+   "title": "新时代论语：我们需要什么样的 Agent",
    "up": "",
-   "play": 19,
+   "play": 73,
    "pub": "2026/10/10",
-   "bvid": "BV1ucpG66EuT"
+   "bvid": "BV1wjp56MEUL"
   },
   {
-   "title": "qwen35BA3B真的不出了吗？",
+   "title": "哆啦A梦：大雄用模型大百科了解日食，胖虎差点引起火灾",
    "up": "",
-   "play": 16,
+   "play": 0,
    "pub": "2026/10/10",
-   "bvid": "BV1CgpG6eEfB"
+   "bvid": "BV1fWp56aEGh"
   },
   {
-   "title": "【RL 排障】训练回复长度暴涨的三个来源：奖励模型偏长、GRPO 长度归一化与截断样本，对应三种修法",
+   "title": "开源全设备个人AIAgent来了！对标Meta闭源Muse可本地运行 【AI Agent论文解读】",
    "up": "",
-   "play": 84,
+   "play": 4,
    "pub": "2026/10/10",
-   "bvid": "BV1G3pF6LEP1"
+   "bvid": "BV1Zxp56cELS"
   },
   {
-   "title": "[N比例] 南太平洋铁路大蒸汽-反头AC-11 &amp; GS-4",
+   "title": "Generation Is Cheap, Review Is Expensive： How to Stop Shipping AI Slop…",
    "up": "",
-   "play": 145,
+   "play": 0,
    "pub": "2026/10/10",
-   "bvid": "BV1DzpG6CEG4"
-  },
-  {
-   "title": "AI自己来当AI算法工程师？FrontierOR：评估大语言模型在大规模优化中高效算法设计能力的基准测试",
-   "up": "",
-   "play": 35,
-   "pub": "2026/10/10",
-   "bvid": "BV1uzpG6yEhW"
-  },
-  {
-   "title": "本地DeepSeek核弹降世，但是等核弹的她不在了",
-   "up": "",
-   "play": 24,
-   "pub": "2026/10/10",
-   "bvid": "BV19apG6EEry"
-  },
-  {
-   "title": "所有面试都通过了，天才少年",
-   "up": "",
-   "play": 25,
-   "pub": "2026/10/10",
-   "bvid": "BV1DipG61EMN"
-  },
-  {
-   "title": "这个车也搭载豆包大模型啦。他是谁？他就是别克全新君越",
-   "up": "",
-   "play": 149,
-   "pub": "2026/10/10",
-   "bvid": "BV1GipG62Ew5"
-  },
-  {
-   "title": "Qwen3.6-35B-A3B Hits 220 TPS on M5 Max 91% Faster",
-   "up": "",
-   "play": 3,
-   "pub": "2026/10/10",
-   "bvid": "BV1T1pG66EZp"
-  },
-  {
-   "title": "AI+机器人+脑机接口，人类的下一个形态",
-   "up": "",
-   "play": 230,
-   "pub": "2026/10/10",
-   "bvid": "BV121pG6zELH"
-  },
-  {
-   "title": "程序员面试到底应该考什么？",
-   "up": "",
-   "play": 34,
-   "pub": "2026/10/10",
-   "bvid": "BV1rEHQ6qE9C"
-  },
-  {
-   "title": "被自己亲手养大的小崽子折辱算计",
-   "up": "",
-   "play": 113,
-   "pub": "2026/10/10",
-   "bvid": "BV12ypG6gE4p"
-  },
-  {
-   "title": "国产之光，可白嫖！deepseek，kimi豆包，quen,GLM等AI大模型全部免费用！",
-   "up": "",
-   "play": 1,
-   "pub": "2026/10/10",
-   "bvid": "BV1jWpG6REjX"
+   "bvid": "BV1uNp561ENq"
   }
  ]
 }

@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "mode": "diff",
-  "baselineDate": "2026-10-09",
+  "baselineDate": "2026-10-10",
   "events": [
     {
       "type": "news",
@@ -13,6 +13,19 @@
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-10-10",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
       "source": "Qwen",
       "external": true
     },
@@ -97,19 +110,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "date": "2026-10-09",
-      "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
@@ -125,11 +125,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "date": "2026-10-09",
       "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -138,11 +138,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "name": "cookbook · 仓库更新",
       "date": "2026-10-09",
       "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -209,71 +209,6 @@
       "text": "cli · 仓库更新",
       "href": "https://github.com/mistralai/cli/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "How Oracle turns days of work into minutes with ChatGPT and Codex",
-      "href": "https://openai.com/index/oracle",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "Pollo AI turns creative ideas into campaigns with OpenAI",
-      "href": "https://openai.com/index/pollo-ai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "LegalOn halves Codex costs while maintaining development speed",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "LegalOn halves Codex costs while maintaining development speed",
-      "href": "https://openai.com/index/legalon-halves-codex-costs",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Disrupting AI-enabled “false front” operations",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "Disrupting AI-enabled “false front” operations",
-      "href": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-08",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]
