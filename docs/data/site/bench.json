@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 116,
+  "count": 119,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -89,6 +89,18 @@
       },
       "rel": "2026-04-24",
       "name": "DeepSeek-V4-Pro"
+    },
+    "deepseek-v4-1-flash": {
+      "runs": 6,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 6,
+          "avg": 0.5992,
+          "best": 0.9833
+        }
+      },
+      "rel": "2026-09-09",
+      "name": "DeepSeek V4.1 Flash"
     },
     "glm-5": {
       "runs": 8,
@@ -425,6 +437,18 @@
       },
       "rel": "2025-10-15",
       "name": "Claude Haiku 4.5"
+    },
+    "claude-haiku-5-5": {
+      "runs": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.6356,
+          "best": 0.9889
+        }
+      },
+      "rel": "2026-10-07",
+      "name": "Claude Haiku 5.5"
     },
     "claude-opus-4-5": {
       "runs": 23,
@@ -941,6 +965,18 @@
       },
       "rel": "2024-10-16",
       "name": "Ministral 8B"
+    },
+    "mistral-large-4": {
+      "runs": 1,
+      "domains": {
+        "(未标注)": {
+          "n": 1,
+          "avg": 0.2,
+          "best": 0.2
+        }
+      },
+      "rel": "2026-10-06",
+      "name": "Mistral Large 4"
     },
     "mistral-large": {
       "runs": 3,

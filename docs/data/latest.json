@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 16,
+    "news": 17,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 10
+      "count": 5
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 3
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -81,6 +81,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-10",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
@@ -88,6 +101,19 @@
       "facts": {},
       "text": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
       "href": "https://openai.com/index/sophos",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "date": "2026-10-09",
+      "facts": {},
+      "text": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
+      "href": "https://openai.com/index/asana-browser-agent",
       "source": "OpenAI",
       "external": true
     },
@@ -107,19 +133,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "date": "2026-10-09",
-      "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
@@ -128,32 +141,6 @@
       "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
       "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
       "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-09",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-09",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
       "external": true
     },
     {
@@ -179,6 +166,19 @@
       "facts": {},
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-09",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -218,6 +218,19 @@
       "facts": {},
       "text": "client-python · Python client library for Mistral AI platform",
       "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-09",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
       "source": "Mistral AI",
       "external": true
     },
