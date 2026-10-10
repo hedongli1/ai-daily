@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 17,
+    "news": 21,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "QwenLM",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 4
     }
   ],
   "events": [
@@ -89,6 +89,45 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-10-10",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-10-10",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "date": "2026-10-10",
+      "facts": {},
+      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "href": "https://github.com/zai-org/GLM-V/releases",
+      "source": "智谱 AI",
       "external": true
     },
     {
@@ -133,6 +172,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-10-09",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
@@ -148,11 +200,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "name": "cookbook · 仓库更新",
       "date": "2026-10-09",
       "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -161,11 +213,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "date": "2026-10-09",
       "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
       "source": "Mistral AI",
       "external": true
     },

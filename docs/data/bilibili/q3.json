@@ -1,147 +1,287 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-10T00:13:08.919Z",
+ "fetchedAt": "2026-10-10T15:38:20.304Z",
  "rows": [
+  {
+   "title": "老显卡跑大模型的三个坑",
+   "up": "",
+   "play": 3,
+   "pub": "2026/10/10",
+   "bvid": "BV1ucpG66ENt"
+  },
+  {
+   "title": "老显卡跑大模型力压4090原理拆解",
+   "up": "",
+   "play": 6,
+   "pub": "2026/10/10",
+   "bvid": "BV1ucpG66EKR"
+  },
+  {
+   "title": "AI日报：Gemini 4 手感直追Opus5.5 ? 千问开源4倍提速",
+   "up": "",
+   "play": 330,
+   "pub": "2026/10/10",
+   "bvid": "BV1Vmpu6rEvg"
+  },
+  {
+   "title": "GitHub热门开源 编程Agent 上下文优化",
+   "up": "",
+   "play": 21,
+   "pub": "2026/10/10",
+   "bvid": "BV1ZEpg6JEEU"
+  },
+  {
+   "title": "让你用闲置设备跑大模型的开源项目 #ai #vibecoding #编程 #开源",
+   "up": "",
+   "play": 118,
+   "pub": "2026/10/10",
+   "bvid": "BV1BBpu6mEpr"
+  },
+  {
+   "title": "免费用小米大模型｜mimo",
+   "up": "",
+   "play": 138,
+   "pub": "2026/10/10",
+   "bvid": "BV1jBpu6mEDB"
+  },
+  {
+   "title": "给你一千亿，能买来一个顶级大模型吗？训练大模型要备齐什么？3 分钟动画讲透",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/10",
+   "bvid": "BV1ywHf6aE9N"
+  },
+  {
+   "title": "千问的这个开源大模型真的好强啊",
+   "up": "",
+   "play": 385,
+   "pub": "2026/10/10",
+   "bvid": "BV1Zjpg6DERy"
+  },
+  {
+   "title": "AI简史2：大语言模型的发展",
+   "up": "",
+   "play": 21,
+   "pub": "2026/10/10",
+   "bvid": "BV1HMph6mEFh"
+  },
+  {
+   "title": "美国终于有了自己的 DeepSeek：5010 亿参数硬刚中国四大开源模型",
+   "up": "",
+   "play": 73,
+   "pub": "2026/10/10",
+   "bvid": "BV1vPp36UE1t"
+  },
+  {
+   "title": "让 AI 全自动做视频，太爽了！开源 AI 视频制作器 + Skill",
+   "up": "",
+   "play": 24809,
+   "pub": "2026/10/10",
+   "bvid": "BV1eepv6jEJm"
+  },
+  {
+   "title": "量大管饱但干活不行？MiniMax M3.1 Flash 对比实测",
+   "up": "",
+   "play": 550,
+   "pub": "2026/10/10",
+   "bvid": "BV1K2pY68Ej7"
+  },
+  {
+   "title": "54GB压到7.89GB：270亿大模型塞进16G笔记本，调工具反超满血版",
+   "up": "",
+   "play": 145,
+   "pub": "2026/10/10",
+   "bvid": "BV1s2pY68EHp"
+  },
+  {
+   "title": "无卡野人这一块！字节团队发现dsv4正式版神鬼二象性的原因",
+   "up": "",
+   "play": 21521,
+   "pub": "2026/10/10",
+   "bvid": "BV16Bpe69EkN"
+  },
   {
    "title": "10月10日AI圈7件事：Anthropic推出OSS Scanner免费扫开源漏洞，Claude动态工作流最多并行1000个智能体",
    "up": "",
-   "play": 31,
+   "play": 159,
    "pub": "2026/10/9",
    "bvid": "BV1E7pY6JEGz"
   },
   {
    "title": "【双语】领先中国仅6个月！AI泡沫一破，谁先撑不住？",
    "up": "",
-   "play": 70,
+   "play": 355,
    "pub": "2026/10/9",
    "bvid": "BV14wpY68E2Y"
   },
   {
    "title": "通义千问Qwen-Image-2.1-Turbo开源 八步出图！7B模型速度质变，免费玩到爽！",
    "up": "",
-   "play": 1508,
+   "play": 3163,
    "pub": "2026/10/9",
    "bvid": "BV17Gpb6TEyv"
   },
   {
    "title": "OpenAI开源719篇数学手稿 AI挑战高难度数学题",
    "up": "",
-   "play": 41,
+   "play": 51,
    "pub": "2026/10/9",
    "bvid": "BV1w6p46gEJi"
   },
   {
    "title": "3块钱2小时从零训练64M参数语言模型",
    "up": "",
-   "play": 1,
+   "play": 3,
    "pub": "2026/10/9",
    "bvid": "BV1sopt6EEzA"
   },
   {
    "title": "【中字】海外博主炸了！Meta开源30B模型，单张24G显卡就能跑",
    "up": "",
-   "play": 21,
+   "play": 31,
    "pub": "2026/10/9",
    "bvid": "BV1hWpb6fERW"
   },
   {
-   "title": "强推神项目Qwen3.8越狱版！12G显卡跑Qwen3.8 Flash Next！速度93t/s！27B，生图生视频通通不在话下（附工作流模型教程等）",
+   "title": "微软要翻身？本地模型、智能路由与 RTX Spark",
    "up": "",
-   "play": 310,
+   "play": 118,
    "pub": "2026/10/9",
-   "bvid": "BV1Gxpb6tEgB"
+   "bvid": "BV15cp86eEy9"
   },
   {
    "title": "拆解DeepEP\\DeepGEMM开源库：MoE通信与大模型矩阵计算加速",
    "up": "",
-   "play": 711,
+   "play": 838,
    "pub": "2026/10/9",
    "bvid": "BV17Mp46wEHk"
   },
   {
+   "title": "【全100集】(允许白嫖) 2026最全最细的AI大模型零基础入门到精通，一周带你小白变大神！全程干货无废话！存下吧，少走99%的弯路！",
+   "up": "",
+   "play": 166,
+   "pub": "2026/10/9",
+   "bvid": "BV1Thp46jEus"
+  },
+  {
    "title": "日志一切正常，结论却错了？开源工具 Probe the Harness 一行命令自查 RL 实验",
    "up": "",
-   "play": 1415,
+   "play": 1937,
    "pub": "2026/10/9",
    "bvid": "BV18xp46SE14"
   },
   {
    "title": "大模型重排要 2 秒，它只要 28 毫秒：开源 AI 记忆重排器 ConvMemory",
    "up": "",
-   "play": 2617,
+   "play": 5732,
    "pub": "2026/10/9",
    "bvid": "BV17Xp46wEPu"
   },
   {
    "title": "【中字】欧洲AI逆袭！Mistral新模型吊打中美？油管博主实测震惊",
    "up": "",
-   "play": 30,
+   "play": 54,
    "pub": "2026/10/9",
    "bvid": "BV1Bbpt6iEap"
   },
   {
    "title": "开源大模型如何做到又快又省？Nebius 拆解生产级推理优化 | AI Engineer",
    "up": "",
-   "play": 86,
+   "play": 138,
    "pub": "2026/10/9",
    "bvid": "BV1xDHQ61Efr"
   },
   {
    "title": "【中字】老外小哥用游戏显卡跑1250亿模型，ChatGPT Pro瞬间不香了？",
    "up": "",
-   "play": 7,
+   "play": 10,
    "pub": "2026/10/9",
    "bvid": "BV1yGpx6zEHn"
   },
   {
    "title": "Mistral突然放大招！1万亿参数新王者Large 4杀疯了，开源后直接起飞？",
    "up": "",
-   "play": 951,
+   "play": 1049,
    "pub": "2026/10/9",
    "bvid": "BV18rpx6SESM"
   },
   {
    "title": "AI 总答不到点上？一个开源工具，把随口一句话变成真能用的提示词 | Prompt Optimizer",
    "up": "",
-   "play": 225,
+   "play": 267,
    "pub": "2026/10/9",
    "bvid": "BV1ibpx6ZEnK"
   },
   {
    "title": "小米把自家机器人大模型开源了，免费能玩",
    "up": "",
-   "play": 148,
+   "play": 152,
    "pub": "2026/10/9",
    "bvid": "BV125pT6xEor"
   },
   {
    "title": "【中配】Mistral强势回归，Le Chonk全新登场 - Matthew Berman Hu1JOK6aXsI",
    "up": "",
-   "play": 523,
+   "play": 543,
    "pub": "2026/10/8",
    "bvid": "BV1JFps6fEp7"
   },
   {
    "title": "【熟肉】Mistral强势回归，Le Chonk全新登场 - Matthew Berman Hu1JOK6aXsI",
    "up": "",
-   "play": 38,
+   "play": 40,
    "pub": "2026/10/8",
    "bvid": "BV1nFps6fEvJ"
   },
   {
    "title": "我为什么要用围棋测试大模型？从一手棋看懂七种能力",
    "up": "",
-   "play": 2037,
+   "play": 2393,
    "pub": "2026/10/8",
    "bvid": "BV1wqHX65EUB"
   },
   {
    "title": "不生成文本的AI模型？揭秘Jev如何以毫秒级延迟直接输出决策结果 | bycloud",
    "up": "",
-   "play": 52,
+   "play": 55,
    "pub": "2026/10/8",
    "bvid": "BV1xXHQ65EjG"
+  },
+  {
+   "title": "Mistral 回归了！（Le Chonk）",
+   "up": "",
+   "play": 92,
+   "pub": "2026/10/8",
+   "bvid": "BV1YBH96aEV7"
+  },
+  {
+   "title": "谷歌开源 EmbeddingGemma 2：小到普通电脑都能跑，干嘛的？",
+   "up": "",
+   "play": 740,
+   "pub": "2026/10/8",
+   "bvid": "BV1RDHD6dErd"
+  },
+  {
+   "title": "一张7900XTX跑出70tok/s，我可能不需要订阅API了",
+   "up": "",
+   "play": 71,
+   "pub": "2026/10/8",
+   "bvid": "BV1kEH96LEaL"
+  },
+  {
+   "title": "本地大模型救不了你的数据：没有社会契约一切都是空谈",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/8",
+   "bvid": "BV1vwHU6QE95"
+  },
+  {
+   "title": "大模型横评 20261008：12 款模型的调用量、能力指数与单价全对比",
+   "up": "",
+   "play": 129,
+   "pub": "2026/10/8",
+   "bvid": "BV1BbH96BEXp"
   }
  ]
 }
