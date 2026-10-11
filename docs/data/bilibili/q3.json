@@ -1,287 +1,287 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-10T15:38:20.304Z",
+ "fetchedAt": "2026-10-11T16:03:43.343Z",
  "rows": [
+  {
+   "title": "Underdog AI 开源 Saluki 27B：7.9GB 保留 96% 性能的端侧 Agent 旗舰",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/11",
+   "bvid": "BV1HmpJ6HEHQ"
+  },
+  {
+   "title": "1250亿参数大模型 塞进16G显卡",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/11",
+   "bvid": "BV1wapn6HEw7"
+  },
+  {
+   "title": "Minimax团队首次公开M3模型实现细节",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/11",
+   "bvid": "BV1cYpn6DE7J"
+  },
+  {
+   "title": "【开源】基于强化学习的Go2W四轮足调度导航系统",
+   "up": "",
+   "play": 119,
+   "pub": "2026/10/11",
+   "bvid": "BV1Mjpn6aEKe"
+  },
+  {
+   "title": "美国版DeepSeek来了：开源AI的新王者",
+   "up": "",
+   "play": 25,
+   "pub": "2026/10/11",
+   "bvid": "BV1yopj6mEF2"
+  },
+  {
+   "title": "我做了一个剪辑 SKILL，让 AI 剪出了 6 小时的手搓大模型系列视频",
+   "up": "",
+   "play": 42,
+   "pub": "2026/10/11",
+   "bvid": "BV1pCp76jEuU"
+  },
+  {
+   "title": "微软新 AI 的底子，竟然是阿里开源模型",
+   "up": "",
+   "play": 233,
+   "pub": "2026/10/11",
+   "bvid": "BV1SGpE64EJ8"
+  },
+  {
+   "title": "【本地大模型】12GB显卡跑1250亿参数，Strata装机实测全流程",
+   "up": "",
+   "play": 294,
+   "pub": "2026/10/11",
+   "bvid": "BV1vhp56ZEBH"
+  },
+  {
+   "title": "手把手部署 VLX-Seek，开源视觉模型本地实测",
+   "up": "",
+   "play": 172,
+   "pub": "2026/10/11",
+   "bvid": "BV1Q6p56DEPP"
+  },
+  {
+   "title": "[Agent工具调用] AAAI26-AutoTool：使用工具惯性图，减少大模型重复决策",
+   "up": "",
+   "play": 582,
+   "pub": "2026/10/11",
+   "bvid": "BV1X2pE6AE47"
+  },
+  {
+   "title": "米哈游的AI大模型能开源给其他二游厂商用吗？树海气笑了：有厂商用豆包都不去水印！你指望他们用开源大模型？【树海忆者】",
+   "up": "",
+   "play": 5950,
+   "pub": "2026/10/11",
+   "bvid": "BV1SDpE68E5c"
+  },
+  {
+   "title": "你家AI我来修是吧！字节团队发现DSv4正式版神鬼二象性的原因",
+   "up": "",
+   "play": 2992,
+   "pub": "2026/10/11",
+   "bvid": "BV1JapE6CE5W"
+  },
+  {
+   "title": "本地125B大战云端DeepSeek！能力几乎打平，速度却差了7倍？【真机实测】",
+   "up": "",
+   "play": 1119,
+   "pub": "2026/10/11",
+   "bvid": "BV1rupJ67E9k"
+  },
+  {
+   "title": "蚌埠住了！树海：米哈游的无用大模型，其他二游厂商能用来优化游戏吗？老米不会开源的！他们这帮人用豆包都舍不得开会员去水印的！变态啊！还有说GPT写文案要加水印了！",
+   "up": "",
+   "play": 15068,
+   "pub": "2026/10/11",
+   "bvid": "BV1scpJ6QE71"
+  },
+  {
+   "title": "【知识库搭建教程】企业级 AI 知识库搭建：从零基础到 RAG 优化实战，有手就会+零成本搭建，全程干货，小白也能轻松上手！AI大模型|LLM",
+   "up": "",
+   "play": 102,
+   "pub": "2026/10/11",
+   "bvid": "BV1cspj66EXv"
+  },
+  {
+   "title": "同一章小说让 5 个大模型各写一遍，朱雀测 AI 味：最便宜的档位并列第一",
+   "up": "",
+   "play": 464,
+   "pub": "2026/10/11",
+   "bvid": "BV1cspj66E1H"
+  },
+  {
+   "title": "大肥鱼 AI 桌宠使用教程｜Live2D 模型导入、DeepSeek 接入与互动",
+   "up": "",
+   "play": 137,
+   "pub": "2026/10/11",
+   "bvid": "BV12Xpj6nE2w"
+  },
+  {
+   "title": "【‌LangChain官方开源智能体框架】无需基础1小时掌握DeepAgents，开箱即用的生产级Agent开发套件实战教程！",
+   "up": "",
+   "play": 292,
+   "pub": "2026/10/11",
+   "bvid": "BV1KKpv6iE5C"
+  },
+  {
+   "title": "无需SFT！纯强化学习实现大模型领域自适应，华佗GPT更新开源医疗大模型 【大语言模型】【AI医疗】",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/11",
+   "bvid": "BV1eYp564Ei1"
+  },
+  {
+   "title": "我开源了一个能装插件的 LLM 网关:一个地址、一把 key 管所有模型",
+   "up": "",
+   "play": 352,
+   "pub": "2026/10/11",
+   "bvid": "BV1zwpL6iERi"
+  },
+  {
+   "title": "Mistral Large 4 Le Chonk：真胜过中国开源大模型？",
+   "up": "",
+   "play": 69,
+   "pub": "2026/10/11",
+   "bvid": "BV1xYpL6LEKC"
+  },
+  {
+   "title": "【GitHub飙升榜】今日上升最快的6个开源项目，全是AI智能体生态",
+   "up": "",
+   "play": 140,
+   "pub": "2026/10/11",
+   "bvid": "BV18HpL6XEet"
+  },
+  {
+   "title": "开源爆款diagram-design：一句话让AI画出编辑级架构图",
+   "up": "",
+   "play": 121,
+   "pub": "2026/10/11",
+   "bvid": "BV1xsp36NEFX"
+  },
+  {
+   "title": "英伟达250亿买下自己投的公司，开源AI要变天｜AI圈观察10月11日",
+   "up": "",
+   "play": 15,
+   "pub": "2026/10/10",
+   "bvid": "BV1jRpL6cEPx"
+  },
+  {
+   "title": "【中字】老外算账：花$20/月用ChatGPT？不如显卡跑1250亿模型",
+   "up": "",
+   "play": 161,
+   "pub": "2026/10/10",
+   "bvid": "BV1gApj6RERt"
+  },
+  {
+   "title": "开源全设备个人AIAgent来了！对标Meta闭源Muse可本地运行 【AI Agent论文解读】",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/10",
+   "bvid": "BV1Zxp56cELS"
+  },
+  {
+   "title": "同一模型在不同AI编程助手表现差异巨大？Hugging Face强化学习揭秘 | Cloud Codes",
+   "up": "",
+   "play": 455,
+   "pub": "2026/10/10",
+   "bvid": "BV14Kpv6vEHz"
+  },
+  {
+   "title": "MiniMax跌80%，智谱万亿到3000亿，DeepSeek融资千亿：大模型公司未来何去何从？",
+   "up": "",
+   "play": 3089,
+   "pub": "2026/10/10",
+   "bvid": "BV17zp36RE6R"
+  },
   {
    "title": "老显卡跑大模型的三个坑",
    "up": "",
-   "play": 3,
+   "play": 63,
    "pub": "2026/10/10",
    "bvid": "BV1ucpG66ENt"
   },
   {
    "title": "老显卡跑大模型力压4090原理拆解",
    "up": "",
-   "play": 6,
+   "play": 166,
    "pub": "2026/10/10",
    "bvid": "BV1ucpG66EKR"
   },
   {
+   "title": "2026-10-10-大模型神坛崩塌？AA智能指数10月榜单洗牌：Opus 5.5登顶，开源背刺，自建三层分流中枢避坑",
+   "up": "",
+   "play": 135,
+   "pub": "2026/10/10",
+   "bvid": "BV1QYpG6mEhi"
+  },
+  {
    "title": "AI日报：Gemini 4 手感直追Opus5.5 ? 千问开源4倍提速",
    "up": "",
-   "play": 330,
+   "play": 1593,
    "pub": "2026/10/10",
    "bvid": "BV1Vmpu6rEvg"
   },
   {
    "title": "GitHub热门开源 编程Agent 上下文优化",
    "up": "",
-   "play": 21,
+   "play": 69,
    "pub": "2026/10/10",
    "bvid": "BV1ZEpg6JEEU"
   },
   {
    "title": "让你用闲置设备跑大模型的开源项目 #ai #vibecoding #编程 #开源",
    "up": "",
-   "play": 118,
+   "play": 370,
    "pub": "2026/10/10",
    "bvid": "BV1BBpu6mEpr"
   },
   {
    "title": "免费用小米大模型｜mimo",
    "up": "",
-   "play": 138,
+   "play": 1176,
    "pub": "2026/10/10",
    "bvid": "BV1jBpu6mEDB"
   },
   {
    "title": "给你一千亿，能买来一个顶级大模型吗？训练大模型要备齐什么？3 分钟动画讲透",
    "up": "",
-   "play": 5,
+   "play": 39,
    "pub": "2026/10/10",
    "bvid": "BV1ywHf6aE9N"
   },
   {
    "title": "千问的这个开源大模型真的好强啊",
    "up": "",
-   "play": 385,
+   "play": 777,
    "pub": "2026/10/10",
    "bvid": "BV1Zjpg6DERy"
   },
   {
    "title": "AI简史2：大语言模型的发展",
    "up": "",
-   "play": 21,
+   "play": 39,
    "pub": "2026/10/10",
    "bvid": "BV1HMph6mEFh"
   },
   {
    "title": "美国终于有了自己的 DeepSeek：5010 亿参数硬刚中国四大开源模型",
    "up": "",
-   "play": 73,
+   "play": 145,
    "pub": "2026/10/10",
    "bvid": "BV1vPp36UE1t"
   },
   {
-   "title": "让 AI 全自动做视频，太爽了！开源 AI 视频制作器 + Skill",
-   "up": "",
-   "play": 24809,
-   "pub": "2026/10/10",
-   "bvid": "BV1eepv6jEJm"
-  },
-  {
-   "title": "量大管饱但干活不行？MiniMax M3.1 Flash 对比实测",
-   "up": "",
-   "play": 550,
-   "pub": "2026/10/10",
-   "bvid": "BV1K2pY68Ej7"
-  },
-  {
-   "title": "54GB压到7.89GB：270亿大模型塞进16G笔记本，调工具反超满血版",
-   "up": "",
-   "play": 145,
-   "pub": "2026/10/10",
-   "bvid": "BV1s2pY68EHp"
-  },
-  {
-   "title": "无卡野人这一块！字节团队发现dsv4正式版神鬼二象性的原因",
-   "up": "",
-   "play": 21521,
-   "pub": "2026/10/10",
-   "bvid": "BV16Bpe69EkN"
-  },
-  {
-   "title": "10月10日AI圈7件事：Anthropic推出OSS Scanner免费扫开源漏洞，Claude动态工作流最多并行1000个智能体",
-   "up": "",
-   "play": 159,
-   "pub": "2026/10/9",
-   "bvid": "BV1E7pY6JEGz"
-  },
-  {
-   "title": "【双语】领先中国仅6个月！AI泡沫一破，谁先撑不住？",
-   "up": "",
-   "play": 355,
-   "pub": "2026/10/9",
-   "bvid": "BV14wpY68E2Y"
-  },
-  {
-   "title": "通义千问Qwen-Image-2.1-Turbo开源 八步出图！7B模型速度质变，免费玩到爽！",
-   "up": "",
-   "play": 3163,
-   "pub": "2026/10/9",
-   "bvid": "BV17Gpb6TEyv"
-  },
-  {
-   "title": "OpenAI开源719篇数学手稿 AI挑战高难度数学题",
-   "up": "",
-   "play": 51,
-   "pub": "2026/10/9",
-   "bvid": "BV1w6p46gEJi"
-  },
-  {
-   "title": "3块钱2小时从零训练64M参数语言模型",
-   "up": "",
-   "play": 3,
-   "pub": "2026/10/9",
-   "bvid": "BV1sopt6EEzA"
-  },
-  {
-   "title": "【中字】海外博主炸了！Meta开源30B模型，单张24G显卡就能跑",
-   "up": "",
-   "play": 31,
-   "pub": "2026/10/9",
-   "bvid": "BV1hWpb6fERW"
-  },
-  {
-   "title": "微软要翻身？本地模型、智能路由与 RTX Spark",
-   "up": "",
-   "play": 118,
-   "pub": "2026/10/9",
-   "bvid": "BV15cp86eEy9"
-  },
-  {
-   "title": "拆解DeepEP\\DeepGEMM开源库：MoE通信与大模型矩阵计算加速",
-   "up": "",
-   "play": 838,
-   "pub": "2026/10/9",
-   "bvid": "BV17Mp46wEHk"
-  },
-  {
-   "title": "【全100集】(允许白嫖) 2026最全最细的AI大模型零基础入门到精通，一周带你小白变大神！全程干货无废话！存下吧，少走99%的弯路！",
-   "up": "",
-   "play": 166,
-   "pub": "2026/10/9",
-   "bvid": "BV1Thp46jEus"
-  },
-  {
-   "title": "日志一切正常，结论却错了？开源工具 Probe the Harness 一行命令自查 RL 实验",
-   "up": "",
-   "play": 1937,
-   "pub": "2026/10/9",
-   "bvid": "BV18xp46SE14"
-  },
-  {
-   "title": "大模型重排要 2 秒，它只要 28 毫秒：开源 AI 记忆重排器 ConvMemory",
-   "up": "",
-   "play": 5732,
-   "pub": "2026/10/9",
-   "bvid": "BV17Xp46wEPu"
-  },
-  {
-   "title": "【中字】欧洲AI逆袭！Mistral新模型吊打中美？油管博主实测震惊",
-   "up": "",
-   "play": 54,
-   "pub": "2026/10/9",
-   "bvid": "BV1Bbpt6iEap"
-  },
-  {
-   "title": "开源大模型如何做到又快又省？Nebius 拆解生产级推理优化 | AI Engineer",
-   "up": "",
-   "play": 138,
-   "pub": "2026/10/9",
-   "bvid": "BV1xDHQ61Efr"
-  },
-  {
-   "title": "【中字】老外小哥用游戏显卡跑1250亿模型，ChatGPT Pro瞬间不香了？",
-   "up": "",
-   "play": 10,
-   "pub": "2026/10/9",
-   "bvid": "BV1yGpx6zEHn"
-  },
-  {
-   "title": "Mistral突然放大招！1万亿参数新王者Large 4杀疯了，开源后直接起飞？",
-   "up": "",
-   "play": 1049,
-   "pub": "2026/10/9",
-   "bvid": "BV18rpx6SESM"
-  },
-  {
-   "title": "AI 总答不到点上？一个开源工具，把随口一句话变成真能用的提示词 | Prompt Optimizer",
-   "up": "",
-   "play": 267,
-   "pub": "2026/10/9",
-   "bvid": "BV1ibpx6ZEnK"
-  },
-  {
-   "title": "小米把自家机器人大模型开源了，免费能玩",
+   "title": "OpenAI 放 722 篇数学手稿，未发布模型黑进 HF 四天半，GPT-6 闭眼通关魔兽",
    "up": "",
    "play": 152,
-   "pub": "2026/10/9",
-   "bvid": "BV125pT6xEor"
-  },
-  {
-   "title": "【中配】Mistral强势回归，Le Chonk全新登场 - Matthew Berman Hu1JOK6aXsI",
-   "up": "",
-   "play": 543,
-   "pub": "2026/10/8",
-   "bvid": "BV1JFps6fEp7"
-  },
-  {
-   "title": "【熟肉】Mistral强势回归，Le Chonk全新登场 - Matthew Berman Hu1JOK6aXsI",
-   "up": "",
-   "play": 40,
-   "pub": "2026/10/8",
-   "bvid": "BV1nFps6fEvJ"
-  },
-  {
-   "title": "我为什么要用围棋测试大模型？从一手棋看懂七种能力",
-   "up": "",
-   "play": 2393,
-   "pub": "2026/10/8",
-   "bvid": "BV1wqHX65EUB"
-  },
-  {
-   "title": "不生成文本的AI模型？揭秘Jev如何以毫秒级延迟直接输出决策结果 | bycloud",
-   "up": "",
-   "play": 55,
-   "pub": "2026/10/8",
-   "bvid": "BV1xXHQ65EjG"
-  },
-  {
-   "title": "Mistral 回归了！（Le Chonk）",
-   "up": "",
-   "play": 92,
-   "pub": "2026/10/8",
-   "bvid": "BV1YBH96aEV7"
-  },
-  {
-   "title": "谷歌开源 EmbeddingGemma 2：小到普通电脑都能跑，干嘛的？",
-   "up": "",
-   "play": 740,
-   "pub": "2026/10/8",
-   "bvid": "BV1RDHD6dErd"
-  },
-  {
-   "title": "一张7900XTX跑出70tok/s，我可能不需要订阅API了",
-   "up": "",
-   "play": 71,
-   "pub": "2026/10/8",
-   "bvid": "BV1kEH96LEaL"
-  },
-  {
-   "title": "本地大模型救不了你的数据：没有社会契约一切都是空谈",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/8",
-   "bvid": "BV1vwHU6QE95"
-  },
-  {
-   "title": "大模型横评 20261008：12 款模型的调用量、能力指数与单价全对比",
-   "up": "",
-   "play": 129,
-   "pub": "2026/10/8",
-   "bvid": "BV1BbH96BEXp"
+   "pub": "2026/10/10",
+   "bvid": "BV1C3pv6wE8U"
   }
  ]
 }
