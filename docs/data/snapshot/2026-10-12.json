@@ -8,7 +8,7 @@
   "channelVendorCount": 185,
   "aliasVendorCount": 8,
   "originModelCount": 643,
-  "modelCount": 8469,
+  "modelCount": 8474,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -258,7 +258,7 @@
       "name": "NEAR AI Cloud",
       "rawName": "NEAR AI Cloud",
       "doc": "https://docs.near.ai/",
-      "modelCount": 51,
+      "modelCount": 56,
       "isChannel": true,
       "aliasOf": null
     },
@@ -2364,7 +2364,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "302ai/claude-opus-4-1-20250805": {
       "name": "claude-opus-4-1-20250805",
@@ -2603,7 +2603,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "302ai/claude-opus-5-thinking": {
       "name": "claude-opus-5-thinking",
@@ -2813,7 +2813,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "302ai/deepseek-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -2842,7 +2842,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "302ai/deepseek-v3.2": {
       "name": "deepseek-v3.2",
@@ -5002,7 +5002,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "302ai/kimi-k2-0905-preview": {
       "name": "kimi-k2-0905-preview",
@@ -9011,7 +9011,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "above/glm-5.2": {
       "name": "GLM 5.2",
@@ -9743,7 +9743,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aiand/google/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -10479,7 +10479,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "aihubmix/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -11054,7 +11054,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aihubmix/doubao-seed-2-0-code-preview": {
       "name": "Doubao Seed 2.0 Code Preview",
@@ -12675,7 +12675,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "aihubmix/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -14248,7 +14248,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aki-io/gemma4-26b": {
       "name": "Gemma 4 26B A4B IT",
@@ -14869,7 +14869,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "alibaba-cn/glm-5": {
       "name": "GLM-5",
@@ -17796,7 +17796,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "alibaba-token-plan-cn/glm-5": {
       "name": "GLM-5",
@@ -18602,7 +18602,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "alibaba-token-plan/glm-5": {
       "name": "GLM-5",
@@ -21175,7 +21175,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/anthropic.claude-opus-4-1-20250805-v1:0": {
       "name": "Claude Opus 4.1",
@@ -21385,7 +21385,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5",
@@ -21505,7 +21505,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/apac.amazon.nova-lite-v1:0": {
       "name": "Nova Lite (APAC)",
@@ -21685,7 +21685,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/au.anthropic.claude-opus-4-6-v1": {
       "name": "AU Anthropic Claude Opus 4.6",
@@ -21835,7 +21835,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/au.anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5 (AU)",
@@ -22251,7 +22251,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/eu.anthropic.claude-opus-4-5-20251101-v1:0": {
       "name": "Claude Opus 4.5 (EU)",
@@ -22431,7 +22431,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/eu.anthropic.claude-sonnet-4-20250514-v1:0": {
       "name": "Claude Sonnet 4 (EU)",
@@ -22581,7 +22581,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/eu.mistral.pixtral-large-2502-v1:0": {
       "name": "Pixtral Large (25.02) (EU)",
@@ -22761,7 +22761,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0": {
       "name": "Claude Opus 4.5 (Global)",
@@ -22941,7 +22941,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/global.anthropic.claude-sonnet-4-20250514-v1:0": {
       "name": "Claude Sonnet 4 (Global)",
@@ -23091,7 +23091,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/global.moonshotai.kimi-k3": {
       "name": "Kimi K3 (Global)",
@@ -23382,7 +23382,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "amazon-bedrock/global.zai.glm-5.3": {
       "name": "GLM-5.3 (Global)",
@@ -23829,7 +23829,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/jp.anthropic.claude-opus-4-7": {
       "name": "Claude Opus 4.7 (JP)",
@@ -23949,7 +23949,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/jp.anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5 (JP)",
@@ -25658,7 +25658,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/us.anthropic.claude-opus-4-1-20250805-v1:0": {
       "name": "Claude Opus 4.1 (US)",
@@ -25868,7 +25868,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/us.anthropic.claude-sonnet-4-20250514-v1:0": {
       "name": "Claude Sonnet 4 (US)",
@@ -26018,7 +26018,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "amazon-bedrock/us.deepseek.r1-v1:0": {
       "name": "DeepSeek-R1 (US)",
@@ -26564,7 +26564,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "amazon-bedrock/us.zai.glm-5.3": {
       "name": "GLM-5.3 (US)",
@@ -27277,7 +27277,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "amd/MiniCPM5-2B": {
       "name": "MiniCPM5-2B",
@@ -27512,7 +27512,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "anthropic/claude-opus-4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -27722,7 +27722,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "anthropic/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -27872,7 +27872,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "anyapi/anthropic/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -29664,7 +29664,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "azure-cognitive-services/claude-mythos-5": {
       "name": "Claude Mythos 5",
@@ -29904,7 +29904,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "azure-cognitive-services/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5",
@@ -30024,7 +30024,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "azure-cognitive-services/codestral-2501": {
       "name": "Codestral 25.01",
@@ -32201,7 +32201,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "azure/claude-mythos-5": {
       "name": "Claude Mythos 5",
@@ -32441,7 +32441,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "azure/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5",
@@ -32561,7 +32561,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "azure/codestral-2501": {
       "name": "Codestral 25.01",
@@ -32899,7 +32899,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "azure/gpt-3.5-turbo-0125": {
       "name": "GPT-3.5 Turbo 0125",
@@ -34248,7 +34248,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "azure/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -35130,7 +35130,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast": {
       "name": "DeepSeek V4.1 Flash Fast",
@@ -37207,7 +37207,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "cline-pass/cline-pass/glm-5.2": {
       "name": "GLM-5.2",
@@ -38214,7 +38214,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "cloudflare-ai-gateway/anthropic/claude-sonnet-4.5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -38334,7 +38334,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "cloudflare-ai-gateway/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -39338,7 +39338,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "cloudflare-workers-ai/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
       "name": "Gemma Sea Lion V4 27B It",
@@ -40610,7 +40610,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "coralbricks/deepseek-v4.1-flash-fast-fp4": {
       "name": "DeepSeek V4.1 Flash FP4",
@@ -40843,7 +40843,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "cortecs/claude-opus-5": {
       "name": "Claude Opus 5",
@@ -40903,7 +40903,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "cortecs/claude-opus4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -41113,7 +41113,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "cortecs/codestral-2508": {
       "name": "Codestral 25.08",
@@ -41282,7 +41282,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "cortecs/devstral-2512": {
       "name": "Devstral 2",
@@ -44594,7 +44594,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "crossmodel/anthropic/claude-opus-4-7": {
       "name": "Claude Opus 4.7",
@@ -44710,7 +44710,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "crossmodel/anthropic/claude-sonnet-4-6": {
       "name": "Claude Sonnet 4.6",
@@ -44797,7 +44797,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "crossmodel/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -44911,7 +44911,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "crossmodel/gemini/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -46157,7 +46157,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "crossmodel/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -49178,7 +49178,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "deepinfra/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -50104,7 +50104,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -51164,7 +51164,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "digitalocean/e5-large-v2": {
       "name": "E5 Large v2",
@@ -54346,7 +54346,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "edenai/anthropic/claude-opus-4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -54556,7 +54556,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "edenai/anthropic/claude-opus-latest": {
       "name": "Claude Opus Latest (Claude Opus 5.5)",
@@ -54676,7 +54676,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "edenai/anthropic/claude-sonnet-latest": {
       "name": "Claude Sonnet Latest (Claude Sonnet 5.5)",
@@ -55952,7 +55952,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/deepinfra/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT (Deep Infra)",
@@ -56836,7 +56836,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/flexai/Muse-Glimmer-30B": {
       "name": "Muse Glimmer 30B (FlexAI)",
@@ -57632,7 +57632,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/greenference/gpt-oss-20b": {
       "name": "GPT OSS 20B (Greenference)",
@@ -58604,7 +58604,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/nebius/google/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT (Nebius)",
@@ -60168,7 +60168,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/qwen/qwen-max": {
       "name": "Qwen Max",
@@ -60797,7 +60797,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/tensorx/moonshotai/kimi-k2.5": {
       "name": "Kimi K2.5 (TensorX)",
@@ -60911,7 +60911,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/together_ai/meta-models/Muse-Glimmer-30B": {
       "name": "Muse Glimmer 30B (Together AI)",
@@ -62028,7 +62028,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "edenai/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -62403,7 +62403,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "empiriolabs/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -64263,7 +64263,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "engy/glm-5.2": {
       "name": "GLM-5.2",
@@ -66293,7 +66293,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "fireworks-ai/accounts/fireworks/models/ember-1": {
       "name": "Ember-1",
@@ -68275,7 +68275,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "github-copilot/claude-opus-4.7": {
       "name": "Claude Opus 4.7",
@@ -68395,7 +68395,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "github-copilot/claude-sonnet-4.6": {
       "name": "Claude Sonnet 4.6",
@@ -68485,7 +68485,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "github-copilot/gemini-3.5-flash": {
       "name": "Gemini 3.5 Flash",
@@ -69080,7 +69080,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "github-copilot/kimi-k2.7-code": {
       "name": "Kimi K2.7 Code",
@@ -70697,7 +70697,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "google-vertex-anthropic/claude-opus-4-1@20250805": {
       "name": "Claude Opus 4.1",
@@ -70907,7 +70907,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "google-vertex-anthropic/claude-opus-5@default": {
       "name": "Claude Opus 5",
@@ -71057,7 +71057,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "google-vertex-anthropic/claude-sonnet-5@default": {
       "name": "Claude Sonnet 5",
@@ -71207,7 +71207,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "google-vertex/claude-opus-4-1@20250805": {
       "name": "Claude Opus 4.1",
@@ -71417,7 +71417,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "google-vertex/claude-opus-5@default": {
       "name": "Claude Opus 5",
@@ -71567,7 +71567,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "google-vertex/claude-sonnet-5@default": {
       "name": "Claude Sonnet 5",
@@ -72792,7 +72792,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "google-vertex/zai-org/glm-4.7-maas": {
       "name": "GLM-4.7",
@@ -74132,7 +74132,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "greenpt/devstral-2-123b-instruct-2512": {
       "name": "Devstral 2",
@@ -79861,7 +79861,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "huggingface/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -80945,7 +80945,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "hyper/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT",
@@ -84321,7 +84321,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "inco/glm-5.3": {
       "name": "GLM-5.3",
@@ -88664,7 +88664,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "kenari/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -90686,7 +90686,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "kilo/anthropic/claude-opus-4.1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -90896,7 +90896,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "kilo/anthropic/claude-sonnet-4": {
       "name": "Anthropic: Claude Sonnet 4",
@@ -91046,7 +91046,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "kilo/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -91874,7 +91874,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "kilo/dots-studio/dots-3-note-preview:free": {
       "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -99722,9 +99722,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.132,
-      "outCost": 0.528,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -99778,9 +99778,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -100344,7 +100344,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "kilo/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -101146,9 +101146,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.21912,
-      "outCost": 0.65736,
-      "cacheRead": 0.006972,
+      "in": 0.20988,
+      "outCost": 0.62964,
+      "cacheRead": 0.006678,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -101174,9 +101174,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.018,
-      "outCost": 0.64,
-      "cacheRead": 0.018,
+      "in": 0.0161,
+      "outCost": 0.9,
+      "cacheRead": 0.0161,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -101266,9 +101266,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.75,
-      "outCost": 14.9,
-      "cacheRead": 0.29,
+      "in": 0.72,
+      "outCost": 16.5,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -101506,9 +101506,9 @@
       "updated": "2026-08-19",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.07,
+      "in": 0.079,
       "outCost": 4.8,
-      "cacheRead": 0.05,
+      "cacheRead": 0.059,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -102299,7 +102299,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/alibaba/glm-5": {
       "name": "GLM-5 (Alibaba Cloud)",
@@ -103124,7 +103124,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/anthropic/claude-opus-4-5-20251101": {
       "name": "Claude Opus 4.5 (Anthropic)",
@@ -103304,7 +103304,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/anthropic/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (Anthropic)",
@@ -103454,7 +103454,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/atria/atria-dawn-preview": {
       "name": "Atria Dawn Preview (Atria)",
@@ -103632,7 +103632,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/aws-bedrock/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1 (AWS Bedrock)",
@@ -103842,7 +103842,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/aws-bedrock/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (AWS Bedrock)",
@@ -103992,7 +103992,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/aws-bedrock/grok-4-3": {
       "name": "Grok 4.3 (AWS Bedrock)",
@@ -104079,7 +104079,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "llmgateway-providers/aws-bedrock/kimi-k3": {
       "name": "Kimi K3 (AWS Bedrock)",
@@ -104611,7 +104611,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/azure-anthropic/claude-sonnet-5": {
       "name": "Claude Sonnet 5 (Azure Anthropic)",
@@ -104671,7 +104671,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway-providers/azure/gpt-4.1": {
       "name": "GPT-4.1 (Azure)",
@@ -105522,7 +105522,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/baidu/glm-5": {
       "name": "GLM-5 (Baidu)",
@@ -106435,7 +106435,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/consensusprotocol/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT (Consensus Protocol)",
@@ -106635,7 +106635,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/deepinfra/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT (DeepInfra)",
@@ -107006,7 +107006,9 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image",
+          "video"
         ],
         "output": [
           "text"
@@ -107097,7 +107099,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/embercloud/glm-4.5": {
       "name": "GLM-4.5 (EmberCloud)",
@@ -107378,7 +107380,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/entrim/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (entrim)",
@@ -107494,7 +107496,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/fireworks/glm-5.3": {
       "name": "GLM-5.3 (Fireworks AI)",
@@ -108601,7 +108603,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/meta-contributor/muse-spark-1.2-contributor": {
       "name": "Muse Spark 1.2 Contributor (Meta Contributor)",
@@ -109587,7 +109589,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/novita/ernie-4.5-vl-424b-a47b": {
       "name": "ERNIE 4.5 VL 424B A47B (NovitaAI)",
@@ -112369,7 +112371,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/runware/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT (Runware)",
@@ -112689,7 +112691,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/scx-ai-gp/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (SCX.ai)",
@@ -112717,7 +112719,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/scx-ai-gp/glm-5.2": {
       "name": "GLM-5.2 (SCX.ai)",
@@ -113665,7 +113667,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/together-ai/glm-4.7": {
       "name": "GLM-4.7 (Together AI)",
@@ -114619,7 +114621,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "llmgateway-providers/xai/grok-build-0-1": {
       "name": "Grok Build 0.1 (xAI)",
@@ -115460,7 +115462,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1",
@@ -115670,7 +115672,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -115819,7 +115821,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "llmgateway/codestral-2508": {
       "name": "Codestral",
@@ -115990,7 +115992,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway/devstral-2512": {
       "name": "Devstral 2",
@@ -118577,7 +118579,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "llmgateway/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -123574,7 +123576,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "melious/glm-5": {
       "name": "GLM-5",
@@ -123956,7 +123958,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "merge-gateway/anthropic/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1 (20250805)",
@@ -124196,7 +124198,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "merge-gateway/anthropic/claude-sonnet-4-20250514": {
       "name": "Claude Sonnet 4",
@@ -124346,7 +124348,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "merge-gateway/bytedance/dola-seed-2.0-code": {
       "name": "Seed 2.0 Code",
@@ -124964,7 +124966,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "merge-gateway/google/gemini-2.5-computer-use-preview-10-2025": {
       "name": "Gemini 2.5 Computer Use Preview (10-2025)",
@@ -129150,7 +129152,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "merge-gateway/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -133558,7 +133560,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nan/gemma4": {
       "name": "Gemma 4 26B A4B IT",
@@ -136687,7 +136689,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "nano-gpt/anthropic/claude-haiku-latest": {
       "name": "Claude Haiku Latest",
@@ -137257,7 +137259,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "nano-gpt/anthropic/claude-opus-latest": {
       "name": "Claude Opus Latest",
@@ -137647,7 +137649,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "nano-gpt/anthropic/claude-sonnet-5.5:thinking": {
       "name": "Claude Sonnet 5.5 Thinking",
@@ -139152,7 +139154,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nano-gpt/deepseek/deepseek-v4.1-flash:thinking": {
       "name": "DeepSeek V4.1 Flash Thinking",
@@ -149960,7 +149962,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "nano-gpt/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -151655,6 +151657,35 @@
       },
       "shared": 43
     },
+    "nearai/anthropic/claude-haiku-5-5": {
+      "name": "Claude Haiku 5.5",
+      "norm": "claude-haiku-5-5",
+      "vendor": "nearai",
+      "vendorRaw": "nearai",
+      "vendorName": "NEAR AI Cloud",
+      "isOrigin": false,
+      "release": "2026-10-07",
+      "releasePrecision": "day",
+      "updated": "2026-10-07",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 0.1,
+      "outCost": 0.5,
+      "cacheRead": 0.01,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 25
+    },
     "nearai/anthropic/claude-opus-4-6": {
       "name": "Claude Opus 4.6",
       "norm": "claude-opus-4-6",
@@ -151773,6 +151804,36 @@
       },
       "shared": 35
     },
+    "nearai/anthropic/claude-opus-5-5": {
+      "name": "Claude Opus 5.5",
+      "norm": "claude-opus-5-5",
+      "vendor": "nearai",
+      "vendorRaw": "nearai",
+      "vendorName": "NEAR AI Cloud",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 28
+    },
     "nearai/anthropic/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (latest)",
       "norm": "claude-sonnet-4-5",
@@ -151862,6 +151923,36 @@
       },
       "shared": 38
     },
+    "nearai/anthropic/claude-sonnet-5-5": {
+      "name": "Claude Sonnet 5.5",
+      "norm": "claude-sonnet-5-5",
+      "vendor": "nearai",
+      "vendorRaw": "nearai",
+      "vendorName": "NEAR AI Cloud",
+      "isOrigin": false,
+      "release": "2026-09-28",
+      "releasePrecision": "day",
+      "updated": "2026-09-28",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 25
+    },
     "nearai/black-forest-labs/FLUX.2-klein-4B": {
       "name": "FLUX.2 Klein 4B",
       "norm": "flux-2-klein-4b",
@@ -151917,6 +152008,35 @@
         ]
       },
       "shared": 35
+    },
+    "nearai/deepseek/deepseek-v4.1-flash": {
+      "name": "DeepSeek V4.1 Flash",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "nearai",
+      "vendorRaw": "nearai",
+      "vendorName": "NEAR AI Cloud",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1000000,
+      "out": 384000,
+      "in": 0.3,
+      "outCost": 1.2,
+      "cacheRead": 0.006,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 60
     },
     "nearai/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -152889,6 +153009,36 @@
       },
       "shared": 32
     },
+    "nearai/x-ai/grok-4.7": {
+      "name": "Grok 4.7",
+      "norm": "grok-4-7",
+      "vendor": "nearai",
+      "vendorRaw": "nearai",
+      "vendorName": "NEAR AI Cloud",
+      "isOrigin": false,
+      "release": "2026-09-21",
+      "releasePrecision": "day",
+      "updated": "2026-09-21",
+      "ctx": 500000,
+      "out": 500000,
+      "in": 2,
+      "outCost": 6,
+      "cacheRead": 0.5,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 24
+    },
     "nearai/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
       "norm": "glm-5-3-flash",
@@ -153225,7 +153375,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nebius/google/gemma-3-27b-it": {
       "name": "Gemma-3-27b-it",
@@ -153806,7 +153956,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "neon/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -155177,7 +155327,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "neuralwatt/deepseek-v4.1-flash-flex": {
       "name": "DeepSeek V4.1 Flash Flex",
@@ -156380,7 +156530,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "novita-ai/deepseek/deepseek_v3": {
       "name": "DeepSeek-V3",
@@ -158738,7 +158888,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nvidia/google/diffusiongemma-26b-a4b-it": {
       "name": "DiffusionGemma 26B A4B IT",
@@ -161803,7 +161953,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "ofox/anthropic/claude-opus-4.5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -161983,7 +162133,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "ofox/anthropic/claude-sonnet-4.5": {
       "name": "Claude Sonnet 4.5 (latest)",
@@ -162103,7 +162253,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "ofox/bailian/qwen-flash": {
       "name": "Qwen Flash",
@@ -163089,7 +163239,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "ofox/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -165844,7 +165994,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "ofox/z-ai/glm-4.6": {
       "name": "GLM-4.6",
@@ -166302,7 +166452,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "ollama-cloud/gemma4:31b": {
       "name": "gemma4:31b",
@@ -168461,7 +168611,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "opencode-go/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -168575,7 +168725,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "opencode-go/glm-5.2": {
       "name": "GLM-5.2",
@@ -168810,7 +168960,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "opencode-go/hy3": {
       "name": "Hy3",
@@ -169672,7 +169822,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "opencode/claude-opus-4-1": {
       "name": "Claude Opus 4.1",
@@ -169882,7 +170032,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "opencode/claude-sonnet-4": {
       "name": "Claude Sonnet 4",
@@ -170032,7 +170182,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "opencode/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -170174,7 +170324,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "opencode/exo-free": {
       "name": "Exo Free",
@@ -171541,7 +171691,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "opencode/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -173574,7 +173724,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "openrouter/anthropic/claude-opus-4.1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -173784,7 +173934,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "openrouter/anthropic/claude-sonnet-4": {
       "name": "Claude Sonnet 4",
@@ -173934,7 +174084,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "openrouter/apodex/apodex-1.1-mini:free": {
       "name": "Apodex 1.1 Mini (free)",
@@ -174662,9 +174812,9 @@
       "updated": "2026-07-31",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.018,
-      "outCost": 0.64,
-      "cacheRead": 0.018,
+      "in": 0.0161,
+      "outCost": 0.9,
+      "cacheRead": 0.0161,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -174790,7 +174940,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "openrouter/dots-studio/dots-3-note-preview:free": {
       "name": "Dots3-Note Preview (free)",
@@ -177684,8 +177834,8 @@
       "updated": "2026-07-16",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.8,
-      "outCost": 10,
+      "in": 0.73,
+      "outCost": 13.5,
       "cacheRead": 0.55,
       "open": true,
       "reasoning": true,
@@ -182355,9 +182505,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.132,
-      "outCost": 0.528,
-      "cacheRead": 0.033,
+      "in": 0.0825,
+      "outCost": 0.33,
+      "cacheRead": 0.020625,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -182411,9 +182561,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -183007,7 +183157,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "openrouter/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -183514,9 +183664,9 @@
       "updated": "2026-08-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.07,
+      "in": 0.079,
       "outCost": 4.8,
-      "cacheRead": 0.05,
+      "cacheRead": 0.059,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -183809,9 +183959,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.21912,
-      "outCost": 0.65736,
-      "cacheRead": 0.006972,
+      "in": 0.20988,
+      "outCost": 0.62964,
+      "cacheRead": 0.006678,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -183837,9 +183987,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.018,
-      "outCost": 0.64,
-      "cacheRead": 0.018,
+      "in": 0.0161,
+      "outCost": 0.9,
+      "cacheRead": 0.0161,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -183929,9 +184079,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.75,
-      "outCost": 14.9,
-      "cacheRead": 0.29,
+      "in": 0.72,
+      "outCost": 16.5,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -184169,9 +184319,9 @@
       "updated": "2026-08-19",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.07,
+      "in": 0.079,
       "outCost": 4.8,
-      "cacheRead": 0.05,
+      "cacheRead": 0.059,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -202292,7 +202442,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "requesty/claude-haiku-5-5@eu": {
       "name": "Claude Haiku 5.5 (EU)",
@@ -202322,7 +202472,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "requesty/claude-opus-4-1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -202652,7 +202802,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "requesty/claude-opus-5-5@eu": {
       "name": "Claude Opus 5.5 (EU)",
@@ -202682,7 +202832,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "requesty/claude-opus-5@eu": {
       "name": "Claude Opus 5 (EU)",
@@ -202922,7 +203072,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "requesty/claude-sonnet-5-5@eu": {
       "name": "Claude Sonnet 5.5 (EU)",
@@ -202952,7 +203102,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "requesty/claude-sonnet-5@eu": {
       "name": "Claude Sonnet 5 (EU)",
@@ -203207,7 +203357,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "requesty/deepseek-v4.1-flash@eu": {
       "name": "DeepSeek V4.1 Flash (EU)",
@@ -203236,7 +203386,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "requesty/devstral-latest": {
       "name": "devstral-latest",
@@ -205218,7 +205368,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "requesty/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -210066,7 +210216,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "scnet-token-plan/GLM-5": {
       "name": "GLM-5",
@@ -215755,7 +215905,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "synthetic/hf:moonshotai/Kimi-K2.7-Code": {
       "name": "Kimi K2.7 Code",
@@ -216488,7 +216638,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tempr/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -217768,7 +217918,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "tempr/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -218945,7 +219095,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tensorx/minimax/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -220043,7 +220193,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tinfoil/gemma4-31b": {
       "name": "Gemma 4 31B IT",
@@ -220750,7 +220900,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "togetherai/essentialai/Rnj-1-Instruct": {
       "name": "Rnj-1 Instruct",
@@ -221763,7 +221913,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "umans-ai-coding-plan/umans-flash": {
       "name": "Umans Flash",
@@ -221995,7 +222145,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "umans-ai/umans-flash": {
       "name": "Umans Flash",
@@ -222953,7 +223103,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "vancine/glm-5.3": {
       "name": "GLM-5.3",
@@ -223358,7 +223508,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "venice/claude-opus-4-5": {
       "name": "Claude Opus 4.5",
@@ -223561,7 +223711,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "venice/claude-opus-5-5-fast": {
       "name": "Claude Opus 5.5 Fast",
@@ -223735,7 +223885,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "venice/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -223792,7 +223942,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "venice/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash 0423",
@@ -224442,7 +224592,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "venice/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -228138,7 +228288,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "vercel/anthropic/claude-opus-4": {
       "name": "Claude Opus 4",
@@ -228408,7 +228558,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "vercel/anthropic/claude-opus-5.5-fast": {
       "name": "Claude Opus 5.5 (Fast)",
@@ -228438,7 +228588,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "vercel/anthropic/claude-sonnet-4": {
       "name": "Claude Sonnet 4",
@@ -228588,7 +228738,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "vercel/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -229857,7 +230007,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "vercel/fireworks/ember-1": {
       "name": "Ember-1",
@@ -236680,7 +236830,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "vercel/spacexai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -238538,7 +238688,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "vivgrid/claude-opus-5": {
       "name": "Claude Opus 5",
@@ -238598,7 +238748,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "vivgrid/claude-sonnet-5": {
       "name": "Claude Sonnet 5",
@@ -238658,7 +238808,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 25
     },
     "vivgrid/deepseek-v3.2": {
       "name": "DeepSeek-V3.2",
@@ -238799,7 +238949,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "vivgrid/gemini-3.1-flash-lite-preview": {
       "name": "Gemini 3.1 Flash Lite Preview",
@@ -240370,7 +240520,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "vultr/glm-5.2": {
       "name": "GLM-5.2",
@@ -241127,7 +241277,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "wandb/google/gemma-4-26B-A4B-it": {
       "name": "Gemma 4 26B A4B",
@@ -241848,7 +241998,7 @@
           "text"
         ]
       },
-      "shared": 23
+      "shared": 24
     },
     "xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -244592,7 +244742,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "zenmux/anthropic/claude-sonnet-4": {
       "name": "Claude Sonnet 4",
@@ -244940,7 +245090,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "zenmux/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
