@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -727,6 +727,18 @@
       }
     },
     {
+      "model": "Claude Haiku 5.5",
+      "release": "2026-10-07",
+      "nRuns": 9,
+      "domains": {
+        "Language,Vision": {
+          "n": 9,
+          "avg": 0.6137,
+          "best": 0.9889
+        }
+      }
+    },
+    {
       "model": "Muse Spark 1.3",
       "release": "2026-09-02",
       "nRuns": 9,
@@ -843,18 +855,6 @@
           "n": 9,
           "avg": 0.6737,
           "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Haiku 5.5",
-      "release": "2026-10-07",
-      "nRuns": 8,
-      "domains": {
-        "Language": {
-          "n": 8,
-          "avg": 0.6356,
-          "best": 0.9889
         }
       }
     },

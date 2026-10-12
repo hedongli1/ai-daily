@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -439,11 +439,11 @@
       "name": "Claude Haiku 4.5"
     },
     "claude-haiku-5-5": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
-        "Language": {
-          "n": 8,
-          "avg": 0.6356,
+        "Language,Vision": {
+          "n": 9,
+          "avg": 0.6137,
           "best": 0.9889
         }
       },

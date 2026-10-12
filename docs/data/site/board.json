@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "board": {
     "latest": [
       {
-        "n": "claude-haiku-5-5",
-        "name": "Claude Haiku 5.5",
-        "vn": "Anthropic",
-        "val": "2026-10-07",
+        "n": "muse-wonder",
+        "name": "Muse Wonder",
+        "vn": "Meta",
+        "val": "2026-10-12",
         "metric": "发布日期"
       }
     ],
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 53,
+      "models": 54,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
