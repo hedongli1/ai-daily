@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-13",
+  "generated": "2026-10-14",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 219,
+  "count": 220,
   "models": [
     {
       "model": "GPT-5.2",
@@ -991,6 +991,18 @@
       }
     },
     {
+      "model": "DeepSeek V4.1 Flash",
+      "release": "2026-09-09",
+      "nRuns": 7,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 7,
+          "avg": 0.5749,
+          "best": 0.9833
+        }
+      }
+    },
+    {
       "model": "Grok 4.5",
       "release": "2026-07-08",
       "nRuns": 7,
@@ -1155,18 +1167,6 @@
           "n": 7,
           "avg": 0.3198,
           "best": 0.8875
-        }
-      }
-    },
-    {
-      "model": "DeepSeek V4.1 Flash",
-      "release": "2026-09-09",
-      "nRuns": 6,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 6,
-          "avg": 0.5992,
-          "best": 0.9833
         }
       }
     },
@@ -2451,6 +2451,18 @@
           "n": 2,
           "avg": 0.197,
           "best": 0.29
+        }
+      }
+    },
+    {
+      "model": "Muse Wonder",
+      "release": "2026-10-12",
+      "nRuns": 1,
+      "domains": {
+        "Language,Vision,Video,Multimodal": {
+          "n": 1,
+          "avg": 0.3143,
+          "best": 0.3143
         }
       }
     },

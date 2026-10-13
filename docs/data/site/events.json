@@ -1,8 +1,82 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "mode": "diff",
-  "baselineDate": "2026-10-12",
+  "baselineDate": "2026-10-13",
   "events": [
+    {
+      "type": "new",
+      "key": "google/Gemini 4 Argon",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Gemini 4 Argon",
+      "date": "2026-10-13",
+      "facts": {
+        "ctx": 1048576,
+        "in": 2,
+        "outCost": 10,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Gemini 4 Argon · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/gemini-4-argon/",
+      "shared": 8,
+      "evidence": [
+        {
+          "title": "Gemini 4 Argon for Robotics",
+          "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+          "source": "Google DeepMind"
+        },
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+          "source": "Google DeepMind"
+        },
+        {
+          "title": "Gemini 4 Argon: Built to solve your hardest problems",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+          "source": "Google Blog · AI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 4 Argon for Robotics",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon for Robotics",
+      "href": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon: Built to solve your hardest problems",
+      "href": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon: Built to solve your hardest problems",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -17,41 +91,107 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "meta/Muse Wonder",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Muse Wonder",
-      "date": "2026-10-12",
-      "facts": {
-        "ctx": 1048576,
-        "in": null,
-        "outCost": null,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Muse Wonder · 闭源 · 1M 上下文 · 支持推理",
-      "href": "/models/muse-wonder/",
-      "shared": 6,
-      "evidence": [
-        {
-          "title": "PurpleLlama · Set of tools to assess and improve LLM security.",
-          "url": "https://github.com/meta-llama/PurpleLlama/releases",
-          "source": "Meta Llama"
-        }
-      ]
-    },
-    {
       "type": "news",
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
-      "date": "2026-10-12",
+      "date": "2026-10-13",
       "facts": {},
       "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
       "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "public-test · 仓库更新",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "public-test · 仓库更新",
+      "href": "https://github.com/mistralai/public-test/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "href": "https://github.com/zai-org/GLM-V/releases",
+      "source": "智谱 AI",
       "external": true
     },
     {
@@ -65,84 +205,6 @@
       "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
       "href": "https://github.com/meta-llama/PurpleLlama/releases",
       "source": "Meta Llama",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "CogAgent · An open-sourced end-to-end VLM-based GUI Agent",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "CogAgent · An open-sourced end-to-end VLM-based GUI Agent",
-      "href": "https://github.com/zai-org/CogAgent/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "date": "2026-10-11",
-      "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
       "external": true
     }
   ]

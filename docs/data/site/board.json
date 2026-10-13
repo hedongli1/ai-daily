@@ -1,12 +1,12 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "board": {
     "latest": [
       {
-        "n": "muse-wonder",
-        "name": "Muse Wonder",
-        "vn": "Meta",
-        "val": "2026-10-12",
+        "n": "gemini-4-argon",
+        "name": "Gemini 4 Argon",
+        "vn": "谷歌",
+        "val": "2026-10-13",
         "metric": "发布日期"
       }
     ],
@@ -60,7 +60,7 @@
         "n": "glm-5-2",
         "name": "GLM-5.2",
         "vn": "智谱 AI",
-        "val": 86,
+        "val": 87,
         "metric": "渠道数"
       }
     ]
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 116,
+      "models": 117,
       "n": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex",
       "vn": "OpenAI",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 57,
+      "models": 58,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 54,
+      "models": 55,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
@@ -98,7 +98,7 @@
     },
     {
       "tag": "Video",
-      "models": 11,
+      "models": 12,
       "n": "gemini-3-8-flash",
       "name": "Gemini 3.8 Flash",
       "vn": "谷歌",

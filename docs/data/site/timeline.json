@@ -1,6 +1,15 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "timeline": [
+    {
+      "n": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "vn": "谷歌",
+      "rel": "2026-10-13",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
     {
       "n": "muse-wonder",
       "name": "Muse Wonder",

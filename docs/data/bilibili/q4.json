@@ -1,147 +1,287 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-10-11T16:03:44.007Z",
+ "fetchedAt": "2026-10-13T17:14:55.948Z",
  "rows": [
+  {
+   "title": "Meta 全新 AI 模型 Muse Wonder 登场，基准测试霸榜却遭遇严重配额限制 | Matthew Berman",
+   "up": "",
+   "play": 15,
+   "pub": "2026/10/13",
+   "bvid": "BV1WEWw6gEZD"
+  },
+  {
+   "title": "Meta 全新 AI 模型 Muse Wonder 发布，两大特性解决智能体核心痛点 | Paul J Lipsky",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/13",
+   "bvid": "BV1CEWw63Ed4"
+  },
+  {
+   "title": "agent评测的核心指标有哪些",
+   "up": "",
+   "play": 21,
+   "pub": "2026/10/13",
+   "bvid": "BV1eBWw6tED8"
+  },
+  {
+   "title": "组装13.6万美元的终极AI主机，4张专业显卡本地运行超大模型体验 | The Stack",
+   "up": "",
+   "play": 131,
+   "pub": "2026/10/13",
+   "bvid": "BV1bSWF6GE7H"
+  },
+  {
+   "title": "【Minimax】经典回顾之最小最大! minimax-m3.1-flash-prev 「前端 工程」表现回顾",
+   "up": "",
+   "play": 781,
+   "pub": "2026/10/13",
+   "bvid": "BV1pjpq6iEtH"
+  },
+  {
+   "title": "agent评测和大模型评测的区别是什么",
+   "up": "",
+   "play": 114,
+   "pub": "2026/10/13",
+   "bvid": "BV1ieWw6cEyX"
+  },
+  {
+   "title": "“如果他们能推出一款质量达到这种水平的MG版本，那就太棒了”，国外胶佬评测MGSD刹帝利评论区精选",
+   "up": "",
+   "play": 1174,
+   "pub": "2026/10/13",
+   "bvid": "BV1RPpR6BEXb"
+  },
+  {
+   "title": "186个AI模型大排名！速度最快的竟然垫底",
+   "up": "",
+   "play": 24,
+   "pub": "2026/10/13",
+   "bvid": "BV1nFpf6oE3H"
+  },
+  {
+   "title": "【Meta】啊…是刷分王来了! MuseWonderFull-1.0 「前端 工程」表现速览",
+   "up": "",
+   "play": 2908,
+   "pub": "2026/10/13",
+   "bvid": "BV1gbWA6WE5q"
+  },
+  {
+   "title": "Sonnet 5.5 对决 GPT-6.1 Sol：更便宜的新一代模型还够用吗？逐项实测｜Arena AI",
+   "up": "",
+   "play": 399,
+   "pub": "2026/10/13",
+   "bvid": "BV1sxHq6iEiV"
+  },
+  {
+   "title": "【海尔Leader1300CVIA智能投影仪】品类推荐：家用办公两用，自动对焦+1080P/4K解码，AI大模型HP51B版靠谱吗？",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/12",
+   "bvid": "BV1fCpf64E4L"
+  },
+  {
+   "title": "石头 A30CE 洗地机 品类推荐 25KPa 大吸力+95℃ 除菌，吸拖一体还能自动清洗，谁说家务不能高大上？",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/12",
+   "bvid": "BV1PYpf6NEiU"
+  },
+  {
+   "title": "Meta最强新模型Muse Wonder实测：真能打过Claude？ | Bijan Bowen",
+   "up": "",
+   "play": 486,
+   "pub": "2026/10/12",
+   "bvid": "BV1sYpf6NEyo"
+  },
+  {
+   "title": "【Claude】多模型简测性能 Opus56|55|Fable55|Haiku55 黑洞测试例「前端」表现速览",
+   "up": "",
+   "play": 2794,
+   "pub": "2026/10/12",
+   "bvid": "BV1mMWF6gEc7"
+  },
+  {
+   "title": "【DeepSeek V41】灰测性能前瞻 四则测试例「前端 游戏设计」表现速览",
+   "up": "",
+   "play": 20830,
+   "pub": "2026/10/12",
+   "bvid": "BV1evWF6QE62"
+  },
+  {
+   "title": "29 个大模型考无人机决策考卷：最强只对 52%，开发集第一换张卷子直接掉出前三【PhysAI-Bench 精读】",
+   "up": "",
+   "play": 134,
+   "pub": "2026/10/12",
+   "bvid": "BV1eYpZ6LE2y"
+  },
+  {
+   "title": "【学而思学习机P4焕新款-平板电脑】 品类推荐：AI护眼大屏、九章大模型，6+6+128G，2548元性价比热销款",
+   "up": "",
+   "play": 15,
+   "pub": "2026/10/12",
+   "bvid": "BV1XepZ6yEr1"
+  },
+  {
+   "title": "【RL 监控】RL 训练奖励一路涨、评测分却不动？verifier 漏洞、NRFR 监控与同构扰动测试",
+   "up": "",
+   "play": 323,
+   "pub": "2026/10/12",
+   "bvid": "BV11WpF6KEtc"
+  },
+  {
+   "title": "便宜模型也能当裁判？JEV-as-a-Judge：自信时接受，不确定时升级",
+   "up": "",
+   "play": 514,
+   "pub": "2026/10/12",
+   "bvid": "BV19UpR6qEqW"
+  },
+  {
+   "title": "我在12个真实使用场景中测试了Opus 5.5与GPT-6 Astra",
+   "up": "",
+   "play": 33,
+   "pub": "2026/10/12",
+   "bvid": "BV1XYpd6qEap"
+  },
+  {
+   "title": "【四大图像模型评测 | AI照妖镜-11】宁静致远（AI选手+AI评委）",
+   "up": "",
+   "play": 336,
+   "pub": "2026/10/12",
+   "bvid": "BV1SbHC6ZEnU"
+  },
+  {
+   "title": "你的AI被调包了吗",
+   "up": "",
+   "play": 129,
+   "pub": "2026/10/12",
+   "bvid": "BV1fVp96kEZh"
+  },
+  {
+   "title": "【中字】海外博主：RTX5090停产传闻背后，本地AI选购真没那么简单",
+   "up": "",
+   "play": 75,
+   "pub": "2026/10/12",
+   "bvid": "BV1GupR6NEsf"
+  },
+  {
+   "title": "数学代码类大模型已近通关 医学法律化学等模糊地带 将被逐步啃下",
+   "up": "",
+   "play": 229,
+   "pub": "2026/10/12",
+   "bvid": "BV18fpe6gE4N"
+  },
+  {
+   "title": "斯坦福CME295大模型课 第8讲 大模型评测（中文配音）| Stanford CME295 Lecture 8 - LLM Evaluation",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/12",
+   "bvid": "BV1WbpR6HEjZ"
+  },
+  {
+   "title": "你的 LLM 裁判在撒谎：如何构建真正可靠的 Web Agent 验证器 | AI Engineer",
+   "up": "",
+   "play": 47,
+   "pub": "2026/10/12",
+   "bvid": "BV1nkps6cE6P"
+  },
+  {
+   "title": "claude 5.5代次模型评测：神神鬼鬼",
+   "up": "",
+   "play": 205,
+   "pub": "2026/10/12",
+   "bvid": "BV12opX6WEZi"
+  },
+  {
+   "title": "谁说大模型算力只能靠机房？华硕AscentGX10开箱，小小盒子里藏着能撬动大规模AI模型的算力核弹！#科技#开箱测评#英伟达@极能核计算机-758132509",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/12",
+   "bvid": "BV12ZpX6XEZ2"
+  },
+  {
+   "title": "【中字】国外博主实测阿联酋K2 Horizon开源模型，7B吊打4B！",
+   "up": "",
+   "play": 30,
+   "pub": "2026/10/12",
+   "bvid": "BV1DDpX6tExo"
+  },
+  {
+   "title": "【中字】老外硬刚AMD核显跑70B大模型，输出全是乱码？",
+   "up": "",
+   "play": 99,
+   "pub": "2026/10/12",
+   "bvid": "BV1NLpD6yEiK"
+  },
+  {
+   "title": "【Opus5.6】灰测性能前瞻 Claude Opus56 多则测试例「前端 工程」表现速览",
+   "up": "",
+   "play": 20325,
+   "pub": "2026/10/11",
+   "bvid": "BV1SmpD6QEuX"
+  },
+  {
+   "title": "Sonnet 5.5 这项分数比 Opus 5.5 高？12款大模型雷达图对比",
+   "up": "",
+   "play": 29,
+   "pub": "2026/10/11",
+   "bvid": "BV1eppJ6BEhz"
+  },
+  {
+   "title": "AI周报｜Claude越界，Anthropic切断内部评测外网；OpenAI数学手稿引争议",
+   "up": "",
+   "play": 141,
+   "pub": "2026/10/11",
+   "bvid": "BV1RHpJ6uETG"
+  },
   {
    "title": "本地大模型真需要 128GB 显存？揭秘高性价比的硬件平替方案 | Kai",
    "up": "",
-   "play": 69,
+   "play": 150,
    "pub": "2026/10/11",
    "bvid": "BV1j5p76TEMy"
   },
   {
    "title": "谁说大模型算力只能靠机房？华硕AscentGX10开箱，小小盒子里藏着能撬动大规模AI模型的算力核弹！#科技#开箱测评#英伟达@极能核计算机-758132509",
    "up": "",
-   "play": 4,
+   "play": 28,
    "pub": "2026/10/11",
    "bvid": "BV15fp76KEpg"
   },
   {
    "title": "大模型评测面试模拟",
    "up": "",
-   "play": 44,
+   "play": 240,
    "pub": "2026/10/11",
    "bvid": "BV1uupE6bE5F"
   },
   {
    "title": "Claude 内部评测暴露越权风险；小米开放 MiMo-V2.6【AI日报 2026-10-11】",
    "up": "",
-   "play": 45,
+   "play": 79,
    "pub": "2026/10/11",
    "bvid": "BV1AEpj6yEeX"
   },
   {
    "title": "Step-5-Preview 是否能打 看评测",
    "up": "",
-   "play": 100,
+   "play": 448,
    "pub": "2026/10/11",
    "bvid": "BV1Repj6YEU8"
   },
   {
    "title": "【中字】海外博主评测M6 Mac Mini 32GB本地AI性能",
    "up": "",
-   "play": 188,
+   "play": 938,
    "pub": "2026/10/11",
    "bvid": "BV1aHp76hEbh"
   },
   {
    "title": "大模型能生成真的可以造出来用的实体结构了？首个可建造功能结构评测基准来了 【LLM智能体】【3D生成】",
    "up": "",
-   "play": 5,
+   "play": 8,
    "pub": "2026/10/11",
    "bvid": "BV1dtp56fESs"
-  },
-  {
-   "title": "解决科学智能体评测难！自动生成适配能力演进的评测基准 【AI科学计算】【大模型智能体】",
-   "up": "",
-   "play": 6,
-   "pub": "2026/10/11",
-   "bvid": "BV1vGpL6fEqP"
-  },
-  {
-   "title": "DeepSeek V4.1 Flash 实际使用比V4F差 为何无人讨论",
-   "up": "",
-   "play": 310,
-   "pub": "2026/10/11",
-   "bvid": "BV1kLHQ6zEap"
-  },
-  {
-   "title": "10月11日AI圈6件事：Anthropic披露Claude评测越界并误提交警方线索，决策模型Jev估值75亿美元",
-   "up": "",
-   "play": 861,
-   "pub": "2026/10/10",
-   "bvid": "BV18JpV6jEsZ"
-  },
-  {
-   "title": "大模型真的会从经验中学习吗？全新基准测测看 【大模型智能体】【AGI评测】",
-   "up": "",
-   "play": 2,
-   "pub": "2026/10/10",
-   "bvid": "BV1HYp36fEKQ"
-  },
-  {
-   "title": "首个真实长时对话人类理解评测基准！AI真的能记住长期聊天内容吗？【大模型评测】【对话AI】",
-   "up": "",
-   "play": 180,
-   "pub": "2026/10/10",
-   "bvid": "BV1hRp36yE7B"
-  },
-  {
-   "title": "同一模型在不同AI编程助手表现差异巨大？Hugging Face强化学习揭秘 | Cloud Codes",
-   "up": "",
-   "play": 455,
-   "pub": "2026/10/10",
-   "bvid": "BV14Kpv6vEHz"
-  },
-  {
-   "title": "拆解Jason的2026新AI工具清单：Grok Bot、Cursor Origin、DeepSeek V4",
-   "up": "",
-   "play": 139,
-   "pub": "2026/10/10",
-   "bvid": "BV1Lypu6CEwL"
-  },
-  {
-   "title": "EP05 评测、目标投机与回滚：分数涨了，能力就涨了吗？",
-   "up": "",
-   "play": 28,
-   "pub": "2026/10/10",
-   "bvid": "BV1PwpM6WEdC"
-  },
-  {
-   "title": "AI大模型实测：Haiku 5.5 砍到 1 折优惠，省钱是真的，但长文本上下文反而贵 5 倍",
-   "up": "",
-   "play": 121,
-   "pub": "2026/10/10",
-   "bvid": "BV1mQpt6DE3A"
-  },
-  {
-   "title": "ZONOS2 TTS 评测：MoE架构你就说快不快吧！",
-   "up": "",
-   "play": 1379,
-   "pub": "2026/10/10",
-   "bvid": "BV1Gypt64EnQ"
-  },
-  {
-   "title": "MiniMax M3.1 Flash Preview 实测：后端赢了 DeepSeek，前端还差点意思？",
-   "up": "",
-   "play": 8645,
-   "pub": "2026/10/10",
-   "bvid": "BV1P9pv6YEPo"
-  },
-  {
-   "title": "大比例也能爽掰！！ 【橙桶简评】 52TOYS 信风 钢铁边域 评测",
-   "up": "",
-   "play": 7579,
-   "pub": "2026/10/10",
-   "bvid": "BV169pg6xEnH"
-  },
-  {
-   "title": "测评向：SuperGrok Heavy 能用了｜最新 Grok 节点怎么挑",
-   "up": "",
-   "play": 125,
-   "pub": "2026/10/10",
-   "bvid": "BV1NSpv6KEVz"
   }
  ]
 }
