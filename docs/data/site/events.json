@@ -4,6 +4,19 @@
   "baselineDate": "2026-10-12",
   "events": [
     {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
       "type": "new",
       "key": "meta/Muse Wonder",
       "vendor": "meta",
@@ -19,7 +32,7 @@
       },
       "text": "Muse Wonder · 闭源 · 1M 上下文 · 支持推理",
       "href": "/models/muse-wonder/",
-      "shared": 5,
+      "shared": 6,
       "evidence": [
         {
           "title": "PurpleLlama · Set of tools to assess and improve LLM security.",
@@ -27,19 +40,6 @@
           "source": "Meta Llama"
         }
       ]
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-12",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
     },
     {
       "type": "news",
