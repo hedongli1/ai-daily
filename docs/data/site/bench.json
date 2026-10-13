@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 120,
+  "count": 121,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -882,6 +882,18 @@
       "rel": "2026-09-02",
       "name": "Gemini 3.8 Flash"
     },
+    "gemini-4-argon": {
+      "runs": 3,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 3,
+          "avg": 0.8163,
+          "best": 0.964
+        }
+      },
+      "rel": "2026-09-30",
+      "name": "Gemini 4 Argon"
+    },
     "gemma-4-31b-it": {
       "runs": 4,
       "domains": {
@@ -979,12 +991,12 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 1,
+      "runs": 3,
       "domains": {
         "(未标注)": {
-          "n": 1,
-          "avg": 0.2,
-          "best": 0.2
+          "n": 3,
+          "avg": 0.688,
+          "best": 0.9833
         }
       },
       "rel": "2026-10-06",

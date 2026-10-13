@@ -8,14 +8,14 @@
   "channelVendorCount": 187,
   "aliasVendorCount": 8,
   "originModelCount": 645,
-  "modelCount": 8797,
+  "modelCount": 8814,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
       "name": "Deep Infra",
       "rawName": "Deep Infra",
       "doc": "https://deepinfra.com/models",
-      "modelCount": 73,
+      "modelCount": 74,
       "isChannel": true,
       "aliasOf": null
     },
@@ -167,7 +167,7 @@
       "id": "standardcompute",
       "name": "Standard Compute",
       "rawName": "Standard Compute",
-      "doc": "https://standardcompute.com/models",
+      "doc": "https://docs.standardcompute.com/models",
       "modelCount": 1,
       "isChannel": true,
       "aliasOf": null
@@ -402,7 +402,7 @@
       "name": "LLM Gateway",
       "rawName": "LLM Gateway",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 446,
+      "modelCount": 447,
       "isChannel": true,
       "aliasOf": null
     },
@@ -420,7 +420,7 @@
       "name": "Kilo Gateway",
       "rawName": "Kilo Gateway",
       "doc": "https://kilo.ai",
-      "modelCount": 390,
+      "modelCount": 389,
       "isChannel": true,
       "aliasOf": null
     },
@@ -564,7 +564,7 @@
       "name": "Novita AI",
       "rawName": "Novita AI",
       "doc": "https://novita.ai/docs/guides/introduction",
-      "modelCount": 84,
+      "modelCount": 85,
       "isChannel": true,
       "aliasOf": null
     },
@@ -582,7 +582,7 @@
       "name": "OpenRouter",
       "rawName": "OpenRouter",
       "doc": "https://openrouter.ai/models",
-      "modelCount": 383,
+      "modelCount": 382,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1122,7 +1122,7 @@
       "name": "Ambient",
       "rawName": "Ambient",
       "doc": "https://ambient.xyz",
-      "modelCount": 14,
+      "modelCount": 16,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1176,7 +1176,7 @@
       "name": "Vercel AI Gateway",
       "rawName": "Vercel AI Gateway",
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
-      "modelCount": 403,
+      "modelCount": 407,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1428,7 +1428,7 @@
       "name": "AIHubMix",
       "rawName": "AIHubMix",
       "doc": "https://docs.aihubmix.com",
-      "modelCount": 152,
+      "modelCount": 153,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1437,7 +1437,7 @@
       "name": "Merge Gateway",
       "rawName": "Merge Gateway",
       "doc": "https://docs.merge.dev/merge-gateway",
-      "modelCount": 202,
+      "modelCount": 203,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1500,7 +1500,7 @@
       "name": "GitHub Copilot",
       "rawName": "GitHub Copilot",
       "doc": "https://docs.github.com/en/copilot",
-      "modelCount": 35,
+      "modelCount": 36,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1590,7 +1590,7 @@
       "name": "Eden AI",
       "rawName": "Eden AI",
       "doc": "https://docs.edenai.co",
-      "modelCount": 321,
+      "modelCount": 325,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1653,7 +1653,7 @@
       "name": "OpenCode",
       "rawName": "OpenCode",
       "doc": "https://opencode.ai/v2/docs/console/models/",
-      "modelCount": 121,
+      "modelCount": 122,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1734,7 +1734,7 @@
       "name": "Requesty",
       "rawName": "Requesty",
       "doc": "https://requesty.ai/solution/llm-routing/models",
-      "modelCount": 173,
+      "modelCount": 175,
       "isChannel": true,
       "aliasOf": null
     },
@@ -2262,7 +2262,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "302ai/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -6008,7 +6008,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "abacus/claude-haiku-4-5-20251001": {
       "name": "Claude Haiku 4.5",
@@ -10170,7 +10170,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "aihubmix/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -11846,6 +11846,38 @@
         ]
       },
       "shared": 26
+    },
+    "aihubmix/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "aihubmix",
+      "vendorRaw": "aihubmix",
+      "vendorName": "AIHubMix",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "aihubmix/glm-4.5v": {
       "name": "GLM-4.5V",
@@ -14410,7 +14442,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "aihubmix/xiaomi-mimo-v2.5": {
       "name": "Xiaomi MiMo-V2.5",
@@ -15102,7 +15134,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "aimlapi/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -19080,7 +19112,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "aimlapi/tencent/hy-mt2-1.8b": {
       "name": "Hy-MT2-1.8B",
@@ -26936,7 +26968,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "amazon-bedrock/anthropic.claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -28042,7 +28074,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "amazon-bedrock/eu.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "name": "Claude Haiku 4.5 (EU)",
@@ -28522,7 +28554,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "amazon-bedrock/global.anthropic.claude-fable-5-1": {
       "name": "Claude Fable 5.1 (Global)",
@@ -31419,7 +31451,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "amazon-bedrock/us.anthropic.claude-fable-5-1": {
       "name": "Claude Fable 5.1 (US)",
@@ -32671,6 +32703,34 @@
       },
       "shared": 1
     },
+    "ambient/ambient/small": {
+      "name": "Ambient Small",
+      "norm": "ambient-small",
+      "vendor": "ambient",
+      "vendorRaw": "ambient",
+      "vendorName": "Ambient",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 101072,
+      "out": 101072,
+      "in": 0.001,
+      "outCost": 0.001,
+      "cacheRead": 0,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
     "ambient/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
       "norm": "deepseek-v4-flash",
@@ -32928,6 +32988,34 @@
         ]
       },
       "shared": 21
+    },
+    "ambient/unsloth/qwen3.8-27b-gguf": {
+      "name": "qwen3.8-27b-4q",
+      "norm": "qwen3-8-27b-4q",
+      "vendor": "ambient",
+      "vendorRaw": "ambient",
+      "vendorName": "Ambient",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 101072,
+      "out": 101072,
+      "in": 0.001,
+      "outCost": 0.001,
+      "cacheRead": 0,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
     },
     "ambient/xiaomi/mimo-v2.5": {
       "name": "MiMo-V2.5",
@@ -33243,7 +33331,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -35425,7 +35513,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "azure-cognitive-services/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -37962,7 +38050,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "azure/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -43825,7 +43913,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "cloudflare-ai-gateway/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -50515,7 +50603,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "crossmodel/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -54878,6 +54966,36 @@
       },
       "shared": 23
     },
+    "deepinfra/anthropic/claude-fable-5": {
+      "name": "Claude Fable 5",
+      "norm": "claude-fable-5",
+      "vendor": "deepinfra",
+      "vendorRaw": "deepinfra",
+      "vendorName": "Deep Infra",
+      "isOrigin": false,
+      "release": "2026-06-09",
+      "releasePrecision": "day",
+      "updated": "2026-06-09",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 10,
+      "outCost": 50,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 42
+    },
     "deepinfra/deepseek-ai/DeepSeek-R1-0528": {
       "name": "DeepSeek-R1-0528",
       "norm": "deepseek-r1-0528",
@@ -56526,9 +56644,9 @@
       "updated": "2026-10-07",
       "ctx": 1000000,
       "out": 128000,
-      "in": 0.1,
-      "outCost": 0.5,
-      "cacheRead": 0.01,
+      "in": 0.5,
+      "outCost": 2.5,
+      "cacheRead": 0.05,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60292,7 +60410,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "edenai/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -63689,6 +63807,38 @@
         ]
       },
       "shared": 26
+    },
+    "edenai/google/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "edenai/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash)",
@@ -68284,6 +68434,102 @@
       },
       "shared": 26
     },
+    "edenai/vertex/gemini-4-argon": {
+      "name": "Gemini 4 Argon (Vertex AI)",
+      "norm": "gemini-4-argon",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
+    },
+    "edenai/vertex/gemini-4-argon@eu": {
+      "name": "Gemini 4 Argon (Vertex AI, EU)",
+      "norm": "gemini-4-argon",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
+    },
+    "edenai/vertex/gemini-4-argon@us": {
+      "name": "Gemini 4 Argon (Vertex AI, US)",
+      "norm": "gemini-4-argon",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
+    },
     "edenai/vertex/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash, Vertex AI)",
       "norm": "gemini-flash-latest",
@@ -70787,7 +71033,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "engy/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -73503,7 +73749,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "freemodel/claude-haiku-4-5-20251001": {
       "name": "Claude Haiku 4.5",
@@ -74766,7 +75012,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "github-copilot/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -75187,6 +75433,38 @@
         ]
       },
       "shared": 26
+    },
+    "github-copilot/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "github-copilot",
+      "vendorRaw": "github-copilot",
+      "vendorName": "GitHub Copilot",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "github-copilot/gpt-5-mini": {
       "name": "GPT-5 Mini",
@@ -77218,7 +77496,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "google-vertex-anthropic/claude-haiku-4-5@20251001": {
       "name": "Claude Haiku 4.5",
@@ -77728,7 +78006,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "google-vertex/claude-haiku-4-5@20251001": {
       "name": "Claude Haiku 4.5",
@@ -78858,7 +79136,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "google-vertex/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -80360,7 +80638,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -88527,7 +88805,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "impossibl/anthropic/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -95130,7 +95408,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "kenari/claude-opus-4-7": {
       "name": "Claude Opus 4.7",
@@ -97364,7 +97642,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "kilo/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -99347,9 +99625,9 @@
       "updated": "2026-10-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 4,
-      "outCost": 20,
-      "cacheRead": 0.2,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -99365,7 +99643,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "kilo/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -99801,62 +100079,6 @@
       },
       "shared": 6
     },
-    "kilo/inclusionai/ling-3.0-flash-fin": {
-      "name": "inclusionAI: Ling 3.0 Flash Fin",
-      "norm": "ling-3-0-flash-fin",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2026-08-27",
-      "releasePrecision": "day",
-      "updated": "2026-08-27",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.075,
-      "outCost": 0.22,
-      "cacheRead": 0.015,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 4
-    },
-    "kilo/inclusionai/ling-3.0-flash-sante": {
-      "name": "inclusionAI: Ling 3.0 Flash Sante",
-      "norm": "ling-3-0-flash-sante",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2026-09-04",
-      "releasePrecision": "day",
-      "updated": "2026-09-04",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.075,
-      "outCost": 0.22,
-      "cacheRead": 0.015,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 4
-    },
     "kilo/inclusionai/ling-3.0-flash-vl": {
       "name": "inclusionAI: Ling 3.0 Flash VL",
       "norm": "ling-3-0-flash-vl",
@@ -99867,11 +100089,11 @@
       "release": "2026-09-10",
       "releasePrecision": "day",
       "updated": "2026-09-10",
-      "ctx": 262144,
+      "ctx": 131072,
       "out": 32768,
-      "in": 0.075,
-      "outCost": 0.22,
-      "cacheRead": 0.015,
+      "in": 0.06,
+      "outCost": 0.18,
+      "cacheRead": 0.012,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -99899,9 +100121,9 @@
       "updated": "2026-10-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
+      "in": 0.3,
+      "outCost": 0.9,
+      "cacheRead": 0.06,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -100131,6 +100353,34 @@
       "in": 0,
       "outCost": 0,
       "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "kilo/liquid/lfm-2.5-24b-a2b": {
+      "name": "LiquidAI: LFM2.5-24B-A2B",
+      "norm": "lfm2-5-24b-a2b",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 128000,
+      "out": 8192,
+      "in": 0.05,
+      "outCost": 0.7,
+      "cacheRead": 0.025,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -106459,7 +106709,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "kilo/stepfun/step-5-preview-free": {
       "name": "StepFun: Step 5 Preview (free)",
@@ -106488,7 +106738,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "kilo/tencent/hunyuan-a13b-instruct": {
       "name": "Tencent: Hunyuan A13B Instruct",
@@ -106890,7 +107140,7 @@
       "shared": 5
     },
     "kilo/unbiased/pareto-26.10-preview": {
-      "name": "Pareto 26.10 Preview",
+      "name": "Pareto 26.10 Preview (retires Oct 15)",
       "norm": "pareto-26-10-preview",
       "vendor": "kilo",
       "vendorRaw": "kilo",
@@ -108009,8 +108259,8 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0441,
-      "outCost": 0.63,
+      "in": 0.0405,
+      "outCost": 0.765,
       "cacheRead": 0.0054,
       "open": false,
       "reasoning": true,
@@ -108038,9 +108288,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.24948,
-      "outCost": 0.74844,
-      "cacheRead": 0.007938,
+      "in": 0.1452,
+      "outCost": 0.4356,
+      "cacheRead": 0.00462,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -108158,9 +108408,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.73,
-      "outCost": 10,
-      "cacheRead": 0.55,
+      "in": 0.72,
+      "outCost": 24,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -108368,7 +108618,7 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0261,
+      "in": 0.0333,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": false,
@@ -108397,10 +108647,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-19",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.055,
-      "outCost": 5,
-      "cacheRead": 0.06,
+      "out": 131072,
+      "in": 0.063,
+      "outCost": 4.4,
+      "cacheRead": 0.0586,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109896,7 +110146,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "llmgateway-providers/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1 (Anthropic)",
@@ -110404,7 +110654,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "llmgateway-providers/aws-bedrock/claude-fable-5-1": {
       "name": "Claude Fable 5.1 (AWS Bedrock)",
@@ -111323,7 +111573,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "llmgateway-providers/azure-anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1 (Azure Anthropic)",
@@ -114889,6 +115139,38 @@
       },
       "shared": 26
     },
+    "llmgateway-providers/google-ai-studio/gemini-4-argon": {
+      "name": "Gemini 4 Argon (Google AI Studio)",
+      "norm": "gemini-4-argon",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 1048576,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
+    },
     "llmgateway-providers/google-ai-studio/gemini-pro-latest": {
       "name": "Gemini Pro Latest (Google AI Studio)",
       "norm": "gemini-pro-latest",
@@ -115297,7 +115579,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "llmgateway-providers/groq/gpt-oss-120b": {
       "name": "GPT OSS 120B (Groq)",
@@ -122240,7 +122522,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "llmgateway/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -123414,7 +123696,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "llmgateway/gemini-pro-latest": {
       "name": "Gemini Pro Latest",
@@ -130940,7 +131222,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "merge-gateway/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -132597,6 +132879,38 @@
         ]
       },
       "shared": 26
+    },
+    "merge-gateway/google/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "merge-gateway",
+      "vendorRaw": "merge-gateway",
+      "vendorName": "Merge Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "merge-gateway/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -136908,9 +137222,9 @@
       "updated": "2026-10-12",
       "ctx": 1048576,
       "out": 131072,
-      "in": null,
-      "outCost": null,
-      "cacheRead": null,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -139579,7 +139893,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "model-oracle-ai/claude-haiku-4.5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -139991,7 +140305,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "modelis/claude-opus-4-8": {
       "name": "Claude Opus 4.8",
@@ -143785,7 +144099,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "nano-gpt/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -148659,9 +148973,9 @@
       "updated": "2026-10-13",
       "ctx": 1048576,
       "out": 65536,
-      "in": 4,
-      "outCost": 20,
-      "cacheRead": 0.2,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -148677,7 +148991,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "nano-gpt/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest",
@@ -156633,7 +156947,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "nano-gpt/tencent/hy3": {
       "name": "Tencent Hy3",
@@ -158987,7 +159301,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "nearai/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -161077,7 +161391,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "neon/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -163555,7 +163869,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 1
     },
     "novita-ai/baai/bge-m3": {
       "name": "BGE M3",
@@ -164149,7 +164463,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 2
     },
     "novita-ai/inclusionai/ling-3.0-flash-sante": {
       "name": "Ling 3.0 Flash Sante",
@@ -164177,7 +164491,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 2
     },
     "novita-ai/inclusionai/ling-3.0-flash-vl": {
       "name": "Ling 3.0 Flash VL",
@@ -165422,6 +165736,36 @@
         ]
       },
       "shared": 21
+    },
+    "novita-ai/stepfun/step-5-preview": {
+      "name": "Step 5 Preview",
+      "norm": "step-5-preview",
+      "vendor": "novita-ai",
+      "vendorRaw": "novita-ai",
+      "vendorName": "Novita AI",
+      "isOrigin": false,
+      "release": "2026-09-16",
+      "releasePrecision": "day",
+      "updated": "2026-09-20",
+      "ctx": 1000000,
+      "out": 64000,
+      "in": 1,
+      "outCost": 2.7,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
     },
     "novita-ai/tencent/hy3": {
       "name": "Hy3",
@@ -169254,7 +169598,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "ofox/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -177179,7 +177523,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "opencode/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -178086,6 +178430,38 @@
         ]
       },
       "shared": 26
+    },
+    "opencode/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "opencode/glm-4.6": {
       "name": "GLM-4.6",
@@ -180273,7 +180649,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 2
     },
     "opencode/north-mini-code-free": {
       "name": "North Mini Code Free",
@@ -181081,7 +181457,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "openrouter/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -181532,34 +181908,6 @@
         ]
       },
       "shared": 27
-    },
-    "openrouter/apodex/apodex-1.1-mini:free": {
-      "name": "Apodex 1.1 Mini (free)",
-      "norm": "apodex-1-1-mini",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2026-10-01",
-      "releasePrecision": "day",
-      "updated": "2026-10-01",
-      "ctx": 262144,
-      "out": 235929,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 2
     },
     "openrouter/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -182316,9 +182664,9 @@
       "updated": "2026-04-24",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.436044,
-      "outCost": 0.872088,
-      "cacheRead": 0.036337,
+      "in": 0.383496,
+      "outCost": 0.766992,
+      "cacheRead": 0.031958,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -182372,8 +182720,8 @@
       "updated": "2026-09-10",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0441,
-      "outCost": 0.63,
+      "in": 0.0405,
+      "outCost": 0.765,
       "cacheRead": 0.0054,
       "open": true,
       "reasoning": true,
@@ -183104,7 +183452,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "openrouter/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -183263,9 +183611,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.09,
-      "outCost": 0.3,
-      "cacheRead": 0.05,
+      "in": 0.0765,
+      "outCost": 0.255,
+      "cacheRead": 0.0425,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -183599,62 +183947,6 @@
       },
       "shared": 6
     },
-    "openrouter/inclusionai/ling-3.0-flash-fin": {
-      "name": "Ling 3.0 Flash Fin",
-      "norm": "ling-3-0-flash-fin",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2026-08-27",
-      "releasePrecision": "day",
-      "updated": "2026-08-27",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.042,
-      "outCost": 0.1232,
-      "cacheRead": 0.0084,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 4
-    },
-    "openrouter/inclusionai/ling-3.0-flash-sante": {
-      "name": "Ling 3.0 Flash Sante",
-      "norm": "ling-3-0-flash-sante",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2026-09-04",
-      "releasePrecision": "day",
-      "updated": "2026-09-04",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.042,
-      "outCost": 0.1232,
-      "cacheRead": 0.0084,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 4
-    },
     "openrouter/inclusionai/ling-3.0-flash-vl": {
       "name": "Ling 3.0 Flash VL",
       "norm": "ling-3-0-flash-vl",
@@ -183665,11 +183957,11 @@
       "release": "2026-09-10",
       "releasePrecision": "day",
       "updated": "2026-09-10",
-      "ctx": 262144,
+      "ctx": 131072,
       "out": 32768,
-      "in": 0.021,
-      "outCost": 0.0616,
-      "cacheRead": 0.0042,
+      "in": 0.06,
+      "outCost": 0.18,
+      "cacheRead": 0.012,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -183697,9 +183989,9 @@
       "updated": "2026-10-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
+      "in": 0.075,
+      "outCost": 0.225,
+      "cacheRead": 0.015,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -183784,6 +184076,34 @@
       "in": 0,
       "outCost": 0,
       "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "openrouter/liquid/lfm-2.5-24b-a2b": {
+      "name": "LFM2.5-24B-A2B",
+      "norm": "lfm2-5-24b-a2b",
+      "vendor": "openrouter",
+      "vendorRaw": "openrouter",
+      "vendorName": "OpenRouter",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 128000,
+      "out": 8192,
+      "in": 0.05,
+      "outCost": 0.7,
+      "cacheRead": 0.025,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -189950,7 +190270,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "openrouter/tencent/hunyuan-a13b-instruct": {
       "name": "Hunyuan A13B Instruct",
@@ -190409,6 +190729,35 @@
         ]
       },
       "shared": 3
+    },
+    "openrouter/unbiased/pareto-26.9": {
+      "name": "Pareto 26.9",
+      "norm": "pareto-26-9",
+      "vendor": "openrouter",
+      "vendorRaw": "openrouter",
+      "vendorName": "OpenRouter",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 262144,
+      "out": 131072,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.25,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
     },
     "openrouter/undi95/remm-slerp-l2-13b": {
       "name": "ReMM SLERP 13B",
@@ -191207,9 +191556,9 @@
       "updated": "2026-06-13",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.06,
+      "in": 0.08,
       "outCost": 7,
-      "cacheRead": 0.059,
+      "cacheRead": 0.07,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -191263,7 +191612,7 @@
       "updated": "2026-08-26",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0261,
+      "in": 0.0333,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": true,
@@ -191501,8 +191850,8 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0441,
-      "outCost": 0.63,
+      "in": 0.0405,
+      "outCost": 0.765,
       "cacheRead": 0.0054,
       "open": false,
       "reasoning": true,
@@ -191530,9 +191879,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.24948,
-      "outCost": 0.74844,
-      "cacheRead": 0.007938,
+      "in": 0.1452,
+      "outCost": 0.4356,
+      "cacheRead": 0.00462,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -191650,9 +191999,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.73,
-      "outCost": 10,
-      "cacheRead": 0.55,
+      "in": 0.72,
+      "outCost": 24,
+      "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -191860,7 +192209,7 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0261,
+      "in": 0.0333,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": false,
@@ -191889,10 +192238,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-19",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.055,
-      "outCost": 5,
-      "cacheRead": 0.06,
+      "out": 131072,
+      "in": 0.063,
+      "outCost": 4.4,
+      "cacheRead": 0.0586,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -191934,7 +192283,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "opper/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -193611,7 +193960,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "orcarouter/anthropic/claude-haiku-4.5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -198905,7 +199254,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "pioneer/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -205840,7 +206189,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "prime/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -206178,7 +206527,8 @@
       "toolCall": true,
       "modalities": {
         "input": [
-          "text"
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -211690,7 +212040,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "requesty/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -211780,7 +212130,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "requesty/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -213442,6 +213792,70 @@
         ]
       },
       "shared": 26
+    },
+    "requesty/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "requesty",
+      "vendorRaw": "requesty",
+      "vendorName": "Requesty",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
+    },
+    "requesty/gemini-4-argon@eu": {
+      "name": "Gemini 4 Argon (EU)",
+      "norm": "gemini-4-argon",
+      "vendor": "requesty",
+      "vendorRaw": "requesty",
+      "vendorName": "Requesty",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2.2,
+      "outCost": 11,
+      "cacheRead": 0.11,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 14
     },
     "requesty/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT",
@@ -223413,7 +223827,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "snowflake-cortex/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -224363,9 +224777,9 @@
       "isOrigin": false,
       "release": "2026-03-01",
       "releasePrecision": "day",
-      "updated": "2026-08-24",
+      "updated": "2026-10-13",
       "ctx": 1000000,
-      "out": 24576,
+      "out": 50000,
       "in": 0,
       "outCost": 0,
       "cacheRead": null,
@@ -224497,7 +224911,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "stepfun-ai/step-1-32k": {
       "name": "Step 1 (32K)",
@@ -224669,7 +225083,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "stepfun-ai/step-tts-2": {
       "name": "Step TTS 2",
@@ -224869,7 +225283,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "stepfun-step-plan/step-router-v1": {
       "name": "Step Router v1",
@@ -225069,7 +225483,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "stepfun/step-tts-2": {
       "name": "Step TTS 2",
@@ -225806,7 +226220,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "tempr/anthropic/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -233094,7 +233508,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "venice/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -237612,7 +238026,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "vercel/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",
@@ -239451,6 +239865,34 @@
       },
       "shared": 4
     },
+    "vercel/fish-audio/drama-3": {
+      "name": "Drama 3",
+      "norm": "drama-3",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 0,
+      "out": 0,
+      "in": null,
+      "outCost": null,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "audio"
+        ]
+      },
+      "shared": 1
+    },
     "vercel/fish-audio/s1": {
       "name": "S1",
       "norm": "s1",
@@ -240247,7 +240689,7 @@
           "text"
         ]
       },
-      "shared": 8
+      "shared": 14
     },
     "vercel/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -240788,7 +241230,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 2
     },
     "vercel/inclusionai/ling-3.0-flash-sante": {
       "name": "Ling 3.0 Flash Sante",
@@ -240816,7 +241258,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 2
     },
     "vercel/inclusionai/ling-3.0-flash-vl": {
       "name": "Ling 3.0 Flash VL",
@@ -240859,37 +241301,9 @@
       "updated": "2026-09-29",
       "ctx": 262144,
       "out": 32768,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 7
-    },
-    "vercel/inclusionai/ling-3.1-flash-free": {
-      "name": "Ling 3.1 Flash (Free)",
-      "norm": "ling-3-1-flash",
-      "vendor": "vercel",
-      "vendorRaw": "vercel",
-      "vendorName": "Vercel AI Gateway",
-      "isOrigin": false,
-      "release": "2026-09-29",
-      "releasePrecision": "day",
-      "updated": "2026-09-29",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0,
-      "outCost": 0,
-      "cacheRead": null,
+      "in": 0.3,
+      "outCost": 0.9,
+      "cacheRead": 0.06,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -241212,6 +241626,34 @@
         ]
       },
       "shared": 1
+    },
+    "vercel/liquid/lfm2.5-24b-a2b": {
+      "name": "LFM2.5-24B-A2B",
+      "norm": "lfm2-5-24b-a2b",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 128000,
+      "out": 8200,
+      "in": 0.05,
+      "outCost": 0.7,
+      "cacheRead": 0.025,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
     },
     "vercel/meituan/longcat-2.5-preview": {
       "name": "LongCat 2.5 Preview",
@@ -241621,6 +242063,62 @@
         ]
       },
       "shared": 7
+    },
+    "vercel/microsoft/mai-image-2.6": {
+      "name": "MAI-Image-2.6",
+      "norm": "mai-image-2-6",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 0,
+      "out": 0,
+      "in": 5,
+      "outCost": 38,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "shared": 1
+    },
+    "vercel/microsoft/mai-image-2.6-flash": {
+      "name": "MAI-Image-2.6-Flash",
+      "norm": "mai-image-2-6-flash",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 0,
+      "out": 0,
+      "in": 1.75,
+      "outCost": 19,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": false,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "image"
+        ]
+      },
+      "shared": 1
     },
     "vercel/microsoft/mai-transcribe-2": {
       "name": "MAI-Transcribe 2",
@@ -242791,6 +243289,34 @@
         ]
       },
       "shared": 1
+    },
+    "vercel/nvidia/nemotron-3.5-lightning-free": {
+      "name": "Nemotron 3.5 Lightning Free",
+      "norm": "nemotron-3-5-lightning-free",
+      "vendor": "vercel",
+      "vendorRaw": "vercel",
+      "vendorName": "Vercel AI Gateway",
+      "isOrigin": false,
+      "release": "2026-08-11",
+      "releasePrecision": "day",
+      "updated": "2026-08-11",
+      "ctx": 1000000,
+      "out": 65000,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
     },
     "vercel/nvidia/nemotron-nano-12b-v2-vl": {
       "name": "Nvidia Nemotron Nano 12B V2 VL",
@@ -246674,7 +247200,7 @@
           "text"
         ]
       },
-      "shared": 11
+      "shared": 12
     },
     "vercel/tencent/hy-mt2-lite": {
       "name": "Tencent Hy-MT2-Lite",
@@ -248101,7 +248627,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "vivgrid/claude-fable-5-1": {
       "name": "Claude Fable 5.1",
@@ -250737,7 +251263,7 @@
       "out": 1048576,
       "in": 0.2,
       "outCost": 0.65,
-      "cacheRead": 0.03,
+      "cacheRead": 0.02,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -252735,7 +253261,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "xpersona/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -253947,7 +254473,7 @@
           "text"
         ]
       },
-      "shared": 41
+      "shared": 42
     },
     "zenmux/anthropic/claude-fable-5.1": {
       "name": "Claude Fable 5.1",

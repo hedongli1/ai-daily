@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 220,
+  "count": 221,
   "models": [
     {
       "model": "GPT-5.2",
@@ -1783,6 +1783,30 @@
       }
     },
     {
+      "model": "Gemini 4 Argon",
+      "release": "2026-09-30",
+      "nRuns": 3,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 3,
+          "avg": 0.8163,
+          "best": 0.964
+        }
+      }
+    },
+    {
+      "model": "Mistral Large 4",
+      "release": "2026-10-06",
+      "nRuns": 3,
+      "domains": {
+        "(未标注)": {
+          "n": 3,
+          "avg": 0.688,
+          "best": 0.9833
+        }
+      }
+    },
+    {
       "model": "Qwen2.5-7B",
       "release": "2024-09-19",
       "nRuns": 3,
@@ -2463,18 +2487,6 @@
           "n": 1,
           "avg": 0.3143,
           "best": 0.3143
-        }
-      }
-    },
-    {
-      "model": "Mistral Large 4",
-      "release": "2026-10-06",
-      "nRuns": 1,
-      "domains": {
-        "(未标注)": {
-          "n": 1,
-          "avg": 0.2,
-          "best": 0.2
         }
       }
     },

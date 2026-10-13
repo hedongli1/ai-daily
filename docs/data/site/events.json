@@ -4,6 +4,26 @@
   "baselineDate": "2026-10-13",
   "events": [
     {
+      "type": "price",
+      "key": "meta/Muse Wonder",
+      "vendor": "meta",
+      "vendorName": "Meta",
+      "name": "Muse Wonder",
+      "date": "2026-10-14",
+      "facts": {
+        "before": {
+          "in": null,
+          "outCost": null
+        },
+        "after": {
+          "in": 4,
+          "outCost": 20
+        }
+      },
+      "text": "输入 未知 → $4 · 输出 未知 → $20",
+      "href": "/models/muse-wonder/"
+    },
+    {
       "type": "new",
       "key": "google/Gemini 4 Argon",
       "vendor": "google",
@@ -19,8 +39,13 @@
       },
       "text": "Gemini 4 Argon · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
       "href": "/models/gemini-4-argon/",
-      "shared": 8,
+      "shared": 14,
       "evidence": [
+        {
+          "title": "Developing Gemini 4 Argon responsibly and safely",
+          "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+          "source": "Google DeepMind"
+        },
         {
           "title": "Gemini 4 Argon for Robotics",
           "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
@@ -37,6 +62,32 @@
           "source": "Google Blog · AI"
         }
       ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Higgsfield takes AI video from 1 minute to over 10",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Higgsfield takes AI video from 1 minute to over 10",
+      "href": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Developing Gemini 4 Argon responsibly and safely",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Developing Gemini 4 Argon responsibly and safely",
+      "href": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "external": true
     },
     {
       "type": "news",
@@ -173,11 +224,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
       "date": "2026-10-13",
       "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "href": "https://github.com/zai-org/GLM-V/releases",
       "source": "智谱 AI",
       "external": true
     },
@@ -186,11 +237,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "date": "2026-10-13",
       "facts": {},
-      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "href": "https://github.com/zai-org/GLM-V/releases",
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
       "external": true
     },

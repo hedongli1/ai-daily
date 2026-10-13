@@ -68,33 +68,33 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 117,
-      "n": "gpt-5-3-codex",
-      "name": "GPT-5.3 Codex",
-      "vn": "OpenAI",
-      "avg": 0.7479,
-      "best": 0.7479,
-      "runs": 1
+      "models": 118,
+      "n": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "vn": "谷歌",
+      "avg": 0.8163,
+      "best": 0.964,
+      "runs": 3
     },
     {
       "tag": "Multimodal",
-      "models": 58,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "vn": "OpenAI",
-      "avg": 0.7441,
-      "best": 1,
-      "runs": 18
+      "models": 59,
+      "n": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "vn": "谷歌",
+      "avg": 0.8163,
+      "best": 0.964,
+      "runs": 3
     },
     {
       "tag": "Vision",
-      "models": 55,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "vn": "OpenAI",
-      "avg": 0.7441,
-      "best": 1,
-      "runs": 18
+      "models": 56,
+      "n": "gemini-4-argon",
+      "name": "Gemini 4 Argon",
+      "vn": "谷歌",
+      "avg": 0.8163,
+      "best": 0.964,
+      "runs": 3
     },
     {
       "tag": "Video",

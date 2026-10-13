@@ -5,10 +5,10 @@
   "counts": {
     "new": 1,
     "retired": 0,
-    "price": 0,
+    "price": 1,
     "context": 0,
-    "news": 13,
-    "facts": 1,
+    "news": 15,
+    "facts": 2,
     "newsAttached": 0
   },
   "degraded": [
@@ -49,7 +49,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 7
+      "count": 3
     },
     {
       "id": "QwenLM",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 645,
     "channels": 187,
-    "allEntries": 8797
+    "allEntries": 8814
   }
 }
