@@ -1,6 +1,15 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "timeline": [
+    {
+      "n": "nemotron-3-5-super-vl-120b-a12b",
+      "name": "Nemotron 3.5 Super VL 120B A12B",
+      "vn": "英伟达",
+      "rel": "2026-10-15",
+      "ctx": 1048576,
+      "in": 0,
+      "open": 1
+    },
     {
       "n": "gemini-4-argon",
       "name": "Gemini 4 Argon",
@@ -1367,15 +1376,6 @@
       "rel": "2026-03-16",
       "ctx": 262144,
       "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "nemotron-3-super",
-      "name": "Nemotron 3 Super",
-      "vn": "英伟达",
-      "rel": "2026-03-11",
-      "ctx": 262144,
-      "in": 0.2,
       "open": 1
     },
     {

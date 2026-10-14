@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -83,7 +83,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5157,
+          "avg": 0.5143,
           "best": 0.9667
         }
       },
@@ -91,11 +91,11 @@
       "name": "DeepSeek-V4-Pro"
     },
     "deepseek-v4-1-flash": {
-      "runs": 7,
+      "runs": 8,
       "domains": {
         "Language,Vision,Multimodal": {
-          "n": 7,
-          "avg": 0.5749,
+          "n": 8,
+          "avg": 0.563,
           "best": 0.9833
         }
       },
@@ -119,7 +119,7 @@
       "domains": {
         "Language": {
           "n": 11,
-          "avg": 0.4528,
+          "avg": 0.4537,
           "best": 0.9333
         }
       },
@@ -131,7 +131,7 @@
       "domains": {
         "Language": {
           "n": 20,
-          "avg": 0.4304,
+          "avg": 0.4394,
           "best": 0.9186
         }
       },
@@ -143,7 +143,7 @@
       "domains": {
         "Language": {
           "n": 7,
-          "avg": 0.5358,
+          "avg": 0.5587,
           "best": 0.9111
         }
       },
@@ -155,7 +155,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 15,
-          "avg": 0.5649,
+          "avg": 0.5695,
           "best": 0.9722
         }
       },
@@ -287,7 +287,7 @@
       "domains": {
         "Language": {
           "n": 10,
-          "avg": 0.5047,
+          "avg": 0.5117,
           "best": 0.9556
         }
       },
@@ -311,7 +311,7 @@
       "domains": {
         "Language,Vision": {
           "n": 7,
-          "avg": 0.5705,
+          "avg": 0.5662,
           "best": 1
         }
       },
@@ -359,7 +359,7 @@
       "domains": {
         "Language": {
           "n": 7,
-          "avg": 0.5258,
+          "avg": 0.5244,
           "best": 0.9444
         }
       },
@@ -407,7 +407,7 @@
       "domains": {
         "Language,Multimodal": {
           "n": 20,
-          "avg": 0.6693,
+          "avg": 0.6758,
           "best": 1
         }
       },
@@ -415,11 +415,11 @@
       "name": "Claude Fable 5"
     },
     "claude-fable-5-1": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5485,
+          "n": 13,
+          "avg": 0.5086,
           "best": 1
         }
       },
@@ -427,11 +427,11 @@
       "name": "Claude Fable 5.1"
     },
     "claude-haiku-4-5": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Language": {
-          "n": 13,
-          "avg": 0.3565,
+          "n": 14,
+          "avg": 0.3339,
           "best": 0.9636
         }
       },
@@ -439,11 +439,11 @@
       "name": "Claude Haiku 4.5"
     },
     "claude-haiku-5-5": {
-      "runs": 9,
+      "runs": 11,
       "domains": {
         "Language,Vision": {
-          "n": 9,
-          "avg": 0.6137,
+          "n": 11,
+          "avg": 0.5739,
           "best": 0.9889
         }
       },
@@ -451,11 +451,11 @@
       "name": "Claude Haiku 5.5"
     },
     "claude-opus-4-5": {
-      "runs": 23,
+      "runs": 24,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 23,
-          "avg": 0.3663,
+          "n": 24,
+          "avg": 0.3543,
           "best": 0.8611
         }
       },
@@ -467,7 +467,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 34,
-          "avg": 0.4354,
+          "avg": 0.4374,
           "best": 0.9444
         }
       },
@@ -479,7 +479,7 @@
       "domains": {
         "Language": {
           "n": 20,
-          "avg": 0.4681,
+          "avg": 0.4911,
           "best": 0.978
         }
       },
@@ -491,7 +491,7 @@
       "domains": {
         "Language": {
           "n": 20,
-          "avg": 0.5479,
+          "avg": 0.5599,
           "best": 0.9833
         }
       },
@@ -503,7 +503,7 @@
       "domains": {
         "Language,Vision,Multimodal": {
           "n": 16,
-          "avg": 0.6756,
+          "avg": 0.6806,
           "best": 0.9889
         }
       },
@@ -511,11 +511,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 12,
+      "runs": 14,
       "domains": {
         "Language": {
-          "n": 12,
-          "avg": 0.6348,
+          "n": 14,
+          "avg": 0.5944,
           "best": 1
         }
       },
@@ -523,11 +523,11 @@
       "name": "Claude Opus 5.5"
     },
     "claude-sonnet-4-5": {
-      "runs": 25,
+      "runs": 26,
       "domains": {
         "Language,Vision,Multimodal": {
-          "n": 25,
-          "avg": 0.3633,
+          "n": 26,
+          "avg": 0.3531,
           "best": 0.9773
         }
       },
@@ -539,7 +539,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 21,
-          "avg": 0.4622,
+          "avg": 0.4822,
           "best": 0.8737
         }
       },
@@ -551,7 +551,7 @@
       "domains": {
         "Language,Multimodal": {
           "n": 12,
-          "avg": 0.5075,
+          "avg": 0.5309,
           "best": 0.9472
         }
       },
@@ -559,11 +559,11 @@
       "name": "Claude Sonnet 5"
     },
     "claude-sonnet-5-5": {
-      "runs": 10,
+      "runs": 12,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.5569,
+          "n": 12,
+          "avg": 0.5144,
           "best": 1
         }
       },
@@ -575,7 +575,7 @@
       "domains": {
         "Language": {
           "n": 7,
-          "avg": 0.6065,
+          "avg": 0.6051,
           "best": 0.9861
         }
       },
@@ -647,7 +647,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 32,
-          "avg": 0.4336,
+          "avg": 0.433,
           "best": 0.9813
         }
       },
@@ -659,7 +659,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 22,
-          "avg": 0.4109,
+          "avg": 0.4132,
           "best": 0.8861
         }
       },
@@ -671,7 +671,7 @@
       "domains": {
         "(未标注)": {
           "n": 42,
-          "avg": 0.4314,
+          "avg": 0.4316,
           "best": 0.9611
         }
       },
@@ -683,7 +683,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 31,
-          "avg": 0.5446,
+          "avg": 0.5459,
           "best": 0.9778
         }
       },
@@ -695,7 +695,7 @@
       "domains": {
         "Language": {
           "n": 20,
-          "avg": 0.3604,
+          "avg": 0.3589,
           "best": 0.8889
         }
       },
@@ -703,11 +703,11 @@
       "name": "GPT-5.4 Mini"
     },
     "gpt-5-4-nano": {
-      "runs": 21,
+      "runs": 22,
       "domains": {
         "Language": {
-          "n": 21,
-          "avg": 0.3183,
+          "n": 22,
+          "avg": 0.3279,
           "best": 0.8778
         }
       },
@@ -715,11 +715,11 @@
       "name": "GPT-5.4 Nano"
     },
     "gpt-5-5": {
-      "runs": 25,
+      "runs": 26,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 25,
-          "avg": 0.5149,
+          "n": 26,
+          "avg": 0.5205,
           "best": 1
         }
       },
@@ -743,7 +743,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 22,
-          "avg": 0.5852,
+          "avg": 0.5906,
           "best": 1
         }
       },
@@ -755,7 +755,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 17,
-          "avg": 0.537,
+          "avg": 0.5359,
           "best": 0.9972
         }
       },
@@ -767,7 +767,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 28,
-          "avg": 0.3568,
+          "avg": 0.3535,
           "best": 0.9785
         }
       },
@@ -779,7 +779,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 30,
-          "avg": 0.278,
+          "avg": 0.2767,
           "best": 0.9524
         }
       },
@@ -803,7 +803,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 6,
-          "avg": 0.5119,
+          "avg": 0.5003,
           "best": 0.9556
         }
       },
@@ -827,7 +827,7 @@
       "domains": {
         "Language,Multimodal,Audio,Video,Vision": {
           "n": 22,
-          "avg": 0.5251,
+          "avg": 0.5142,
           "best": 0.9556
         }
       },
@@ -839,7 +839,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 13,
-          "avg": 0.4104,
+          "avg": 0.3973,
           "best": 0.8333
         }
       },
@@ -851,7 +851,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 16,
-          "avg": 0.5557,
+          "avg": 0.5514,
           "best": 0.9417
         }
       },
@@ -875,7 +875,7 @@
       "domains": {
         "Language,Multimodal,Image generation,Video,Audio": {
           "n": 8,
-          "avg": 0.6175,
+          "avg": 0.6138,
           "best": 0.9889
         }
       },
@@ -883,12 +883,12 @@
       "name": "Gemini 3.8 Flash"
     },
     "gemini-4-argon": {
-      "runs": 3,
+      "runs": 8,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 3,
-          "avg": 0.8163,
-          "best": 0.964
+          "n": 8,
+          "avg": 0.7899,
+          "best": 1
         }
       },
       "rel": "2026-09-30",
@@ -935,7 +935,7 @@
       "domains": {
         "Language": {
           "n": 9,
-          "avg": 0.4973,
+          "avg": 0.495,
           "best": 0.9917
         }
       },
@@ -943,12 +943,12 @@
       "name": "Muse Spark 1.3"
     },
     "muse-wonder": {
-      "runs": 1,
+      "runs": 2,
       "domains": {
         "Language,Vision,Video,Multimodal": {
-          "n": 1,
-          "avg": 0.3143,
-          "best": 0.3143
+          "n": 2,
+          "avg": 0.6544,
+          "best": 0.9944
         }
       },
       "rel": "2026-10-12",
@@ -959,7 +959,7 @@
       "domains": {
         "Language,Multimodal,Vision,Video": {
           "n": 8,
-          "avg": 0.3788,
+          "avg": 0.3813,
           "best": 0.9091
         }
       },
@@ -991,11 +991,11 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 4,
+      "runs": 5,
       "domains": {
         "(未标注)": {
-          "n": 4,
-          "avg": 0.5681,
+          "n": 5,
+          "avg": 0.4885,
           "best": 0.9833
         }
       },
@@ -1091,7 +1091,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.4321,
+          "avg": 0.4278,
           "best": 0.9611
         }
       },
@@ -1115,7 +1115,7 @@
       "domains": {
         "Language,Vision,Multimodal": {
           "n": 6,
-          "avg": 0.4648,
+          "avg": 0.4765,
           "best": 0.9389
         }
       },
@@ -1163,7 +1163,7 @@
       "domains": {
         "Multimodal,Language,Vision,Video": {
           "n": 11,
-          "avg": 0.2594,
+          "avg": 0.2567,
           "best": 0.8301
         }
       },
@@ -1175,7 +1175,7 @@
       "domains": {
         "Multimodal,Language,Vision,Video": {
           "n": 9,
-          "avg": 0.273,
+          "avg": 0.2663,
           "best": 0.8729
         }
       },
@@ -1183,11 +1183,11 @@
       "name": "GPT-4.1 mini"
     },
     "gpt-4-1-nano": {
-      "runs": 6,
+      "runs": 7,
       "domains": {
         "Multimodal,Language,Vision,Video": {
-          "n": 6,
-          "avg": 0.2581,
+          "n": 7,
+          "avg": 0.2212,
           "best": 0.7
         }
       },
@@ -1199,7 +1199,7 @@
       "domains": {
         "Multimodal,Language,Audio,Speech,Vision": {
           "n": 17,
-          "avg": 0.2294,
+          "avg": 0.2253,
           "best": 0.5328
         }
       },
@@ -1211,7 +1211,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 7,
-          "avg": 0.169,
+          "avg": 0.1733,
           "best": 0.5263
         }
       },
@@ -1219,11 +1219,11 @@
       "name": "GPT-4o mini"
     },
     "gpt-5-pro": {
-      "runs": 4,
+      "runs": 5,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 4,
-          "avg": 0.3748,
+          "n": 5,
+          "avg": 0.3958,
           "best": 0.6
         }
       },
@@ -1231,11 +1231,11 @@
       "name": "GPT-5 Pro"
     },
     "gpt-5-2-pro": {
-      "runs": 3,
+      "runs": 4,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 3,
-          "avg": 0.5043,
+          "n": 4,
+          "avg": 0.5282,
           "best": 0.74
         }
       },
@@ -1259,7 +1259,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 7,
-          "avg": 0.6114,
+          "avg": 0.612,
           "best": 0.946
         }
       },
@@ -1267,11 +1267,11 @@
       "name": "GPT-5.4 Pro"
     },
     "gpt-5-5-pro": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 9,
-          "avg": 0.6737,
+          "n": 10,
+          "avg": 0.6683,
           "best": 1
         }
       },
@@ -1279,11 +1279,11 @@
       "name": "GPT-5.5 Pro"
     },
     "gpt-6-astra": {
-      "runs": 18,
+      "runs": 19,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 18,
-          "avg": 0.7441,
+          "n": 19,
+          "avg": 0.7195,
           "best": 1
         }
       },
@@ -1291,11 +1291,11 @@
       "name": "GPT-6 Astra"
     },
     "gpt-6-luna": {
-      "runs": 10,
+      "runs": 11,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 10,
-          "avg": 0.448,
+          "n": 11,
+          "avg": 0.4118,
           "best": 0.9889
         }
       },
@@ -1303,11 +1303,11 @@
       "name": "GPT-6 Luna"
     },
     "gpt-6-sol": {
-      "runs": 10,
+      "runs": 12,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 10,
-          "avg": 0.6175,
+          "n": 12,
+          "avg": 0.5675,
           "best": 1
         }
       },
@@ -1315,11 +1315,11 @@
       "name": "GPT-6 Sol"
     },
     "gpt-6-1-sol": {
-      "runs": 11,
+      "runs": 12,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 11,
-          "avg": 0.716,
+          "n": 12,
+          "avg": 0.6827,
           "best": 1
         }
       },
@@ -1331,7 +1331,7 @@
       "domains": {
         "Language,Mathematics,Multimodal": {
           "n": 17,
-          "avg": 0.4316,
+          "avg": 0.4274,
           "best": 0.9471
         }
       },
@@ -1343,7 +1343,7 @@
       "domains": {
         "Language,Vision,Multimodal": {
           "n": 25,
-          "avg": 0.3924,
+          "avg": 0.3964,
           "best": 0.9777
         }
       },
@@ -1367,7 +1367,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 27,
-          "avg": 0.3242,
+          "avg": 0.3205,
           "best": 0.9783
         }
       },
@@ -1379,7 +1379,7 @@
       "domains": {
         "Language": {
           "n": 6,
-          "avg": 0.4962,
+          "avg": 0.5046,
           "best": 0.9222
         }
       },
@@ -1391,7 +1391,7 @@
       "domains": {
         "Language": {
           "n": 7,
-          "avg": 0.5423,
+          "avg": 0.5409,
           "best": 0.9778
         }
       },
@@ -1403,7 +1403,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 13,
-          "avg": 0.5811,
+          "avg": 0.5773,
           "best": 0.9917
         }
       },
@@ -1415,7 +1415,7 @@
       "domains": {
         "Language": {
           "n": 8,
-          "avg": 0.5059,
+          "avg": 0.5096,
           "best": 0.9806
         }
       },
@@ -1451,7 +1451,7 @@
       "domains": {
         "Language": {
           "n": 6,
-          "avg": 0.3455,
+          "avg": 0.3705,
           "best": 0.8333
         }
       },

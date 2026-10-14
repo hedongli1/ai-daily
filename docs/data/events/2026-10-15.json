@@ -1,0 +1,462 @@
+{
+  "schema": 1,
+  "date": "2026-10-15",
+  "mode": "diff",
+  "baselineDate": "2026-10-14",
+  "counts": {
+    "new": 1,
+    "retired": 1,
+    "price": 0,
+    "context": 0,
+    "news": 27,
+    "facts": 2,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 4
+    }
+  ],
+  "events": [
+    {
+      "type": "new",
+      "key": "nvidia/Nemotron 3.5 Super VL 120B A12B",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Nemotron 3.5 Super VL 120B A12B",
+      "date": "2026-10-15",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0,
+        "outCost": 0,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Nemotron 3.5 Super VL 120B A12B · 开源 · 1M 上下文 · 输入 免费/M · 支持推理",
+      "href": "/models/nemotron-3-5-super-vl-120b-a12b/",
+      "shared": 1
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Nemotron 3 Super",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Nemotron 3 Super",
+      "date": "2026-10-15",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Amp puts AI agents to work beyond code with OpenAI models",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "Amp puts AI agents to work beyond code with OpenAI models",
+      "href": "https://openai.com/index/amp-beyond-coding",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "SentinelOne cuts malware analysis from weeks to hours",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "SentinelOne cuts malware analysis from weeks to hours",
+      "href": "https://openai.com/index/sentinelone",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "How Third Moment Research runs 10,000 agents for 36+ hours",
+      "href": "https://openai.com/index/third-moment-research",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Block is building AI-powered security with OpenAI technology",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "How Block is building AI-powered security with OpenAI technology",
+      "href": "https://openai.com/index/block-ai-powered-security",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The EU’s next chapter in AI is agentic",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "The EU’s next chapter in AI is agentic",
+      "href": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
+      "href": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "href": "https://github.com/deepseek-ai/DeepGEMM-Ascend/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "TileKernels · A kernel library written in tilelang",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "TileKernels · A kernel library written in tilelang",
+      "href": "https://github.com/deepseek-ai/TileKernels/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "Qwen-Image-2.1 · Qwen's most powerful open-source image generation model",
+      "href": "https://github.com/QwenLM/Qwen-Image-2.1/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "BlenderWorld · 仓库更新",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "BlenderWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/BlenderWorld/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "GLM-OCR · GLM-OCR: Accurate ×  Fast × Comprehensive",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "GLM-OCR · GLM-OCR: Accurate ×  Fast × Comprehensive",
+      "href": "https://github.com/zai-org/GLM-OCR/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Higgsfield takes AI video from 1 minute to over 10",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Higgsfield takes AI video from 1 minute to over 10",
+      "href": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Developing Gemini 4 Argon responsibly and safely",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Developing Gemini 4 Argon responsibly and safely",
+      "href": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 4 Argon for Robotics",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon for Robotics",
+      "href": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon: Built to solve your hardest problems",
+      "href": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "Gemini 4 Argon: Built to solve your hardest problems",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "public-test · 仓库更新",
+      "date": "2026-10-13",
+      "facts": {},
+      "text": "public-test · 仓库更新",
+      "href": "https://github.com/mistralai/public-test/releases",
+      "source": "Mistral AI",
+      "external": true
+    }
+  ]
+}

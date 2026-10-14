@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "count": 457,
   "models": [
     {
@@ -1800,7 +1800,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 8,
+      "ch": 7,
       "cap": [
         "推理",
         "工具调用"
@@ -4224,7 +4224,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 14,
+      "ch": 16,
       "cap": [
         "多模态",
         "视觉",
@@ -7261,29 +7261,6 @@
       "rel_ts": 1777334400000
     },
     {
-      "n": "nemotron-3-super",
-      "name": "Nemotron 3 Super",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2026-03-11",
-      "relP": "day",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.2,
-      "oc": 0.8,
-      "cr": null,
-      "open": 1,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 4,
-      "cap": [
-        "开源",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1773187200000
-    },
-    {
       "n": "nemotron-3-ultra-550b-a55b",
       "name": "Nemotron 3 Ultra 550B A55B",
       "v": "nvidia",
@@ -7352,6 +7329,32 @@
         "工具调用"
       ],
       "rel_ts": 1786406400000
+    },
+    {
+      "n": "nemotron-3-5-super-vl-120b-a12b",
+      "name": "Nemotron 3.5 Super VL 120B A12B",
+      "v": "nvidia",
+      "vn": "英伟达",
+      "rel": "2026-10-15",
+      "relP": "day",
+      "ctx": 1048576,
+      "out": 8192,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 1,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "多模态",
+        "视觉",
+        "视频理解",
+        "开源",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1792022400000
     },
     {
       "n": "nemotron-content-safety-reasoning-4b",
