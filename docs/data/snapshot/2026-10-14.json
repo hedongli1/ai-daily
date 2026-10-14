@@ -3,12 +3,12 @@
   "date": "2026-10-14",
   "source": "https://models.dev/api.json",
   "registrySize": 33,
-  "vendorCount": 228,
+  "vendorCount": 229,
   "originVendorCount": 33,
-  "channelVendorCount": 187,
+  "channelVendorCount": 188,
   "aliasVendorCount": 8,
   "originModelCount": 645,
-  "modelCount": 8814,
+  "modelCount": 8831,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -141,7 +141,7 @@
       "name": "NanoGPT",
       "rawName": "NanoGPT",
       "doc": "https://docs.nano-gpt.com",
-      "modelCount": 617,
+      "modelCount": 618,
       "isChannel": true,
       "aliasOf": null
     },
@@ -402,7 +402,7 @@
       "name": "LLM Gateway",
       "rawName": "LLM Gateway",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 447,
+      "modelCount": 445,
       "isChannel": true,
       "aliasOf": null
     },
@@ -420,7 +420,7 @@
       "name": "Kilo Gateway",
       "rawName": "Kilo Gateway",
       "doc": "https://kilo.ai",
-      "modelCount": 389,
+      "modelCount": 390,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1419,7 +1419,7 @@
       "name": "Neon",
       "rawName": "Neon",
       "doc": "https://neon.com/docs",
-      "modelCount": 47,
+      "modelCount": 57,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1518,7 +1518,7 @@
       "name": "OpenCode Go",
       "rawName": "OpenCode Go",
       "doc": "https://opencode.ai/v2/docs/console/go/",
-      "modelCount": 37,
+      "modelCount": 38,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1590,7 +1590,7 @@
       "name": "Eden AI",
       "rawName": "Eden AI",
       "doc": "https://docs.edenai.co",
-      "modelCount": 325,
+      "modelCount": 326,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1620,6 +1620,15 @@
       "modelCount": 8,
       "isChannel": false,
       "aliasOf": "tencent-tokenhub"
+    },
+    "sambanova": {
+      "id": "sambanova",
+      "name": "SambaNova",
+      "rawName": "SambaNova",
+      "doc": "https://docs.sambanova.ai/cloud/docs/get-started/supported-models",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
     },
     "tempr": {
       "id": "tempr",
@@ -1725,7 +1734,7 @@
       "name": "OVHcloud AI Endpoints",
       "rawName": "OVHcloud AI Endpoints",
       "doc": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
-      "modelCount": 13,
+      "modelCount": 12,
       "isChannel": true,
       "aliasOf": null
     },
@@ -2232,7 +2241,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "302ai/claude-fable-5": {
       "name": "Claude Fable 5",
@@ -2382,7 +2391,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "302ai/claude-opus-4-1-20250805": {
       "name": "claude-opus-4-1-20250805",
@@ -2831,7 +2840,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "302ai/deepseek-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -2860,7 +2869,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "302ai/deepseek-v3.2": {
       "name": "deepseek-v3.2",
@@ -2888,7 +2897,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "302ai/deepseek-v3.2-thinking": {
       "name": "DeepSeek-V3.2-Thinking",
@@ -3580,7 +3589,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "302ai/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -3612,7 +3621,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "302ai/glm-4.5": {
       "name": "GLM-4.5",
@@ -3896,7 +3905,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "302ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -4697,7 +4706,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "302ai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -4727,7 +4736,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "302ai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -4757,7 +4766,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "302ai/grok-4-1-fast-reasoning": {
       "name": "grok-4-1-fast-reasoning",
@@ -5020,7 +5029,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "302ai/kimi-k2-0905-preview": {
       "name": "kimi-k2-0905-preview",
@@ -5781,7 +5790,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "abacus/Qwen/QwQ-32B": {
       "name": "QwQ 32B",
@@ -6443,7 +6452,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "abacus/deepseek-ai/DeepSeek-V4-Flash": {
       "name": "DeepSeek V4 Flash",
@@ -6527,7 +6536,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "abacus/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -6980,7 +6989,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "abacus/google/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -7009,7 +7018,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "abacus/gpt-4.1": {
       "name": "GPT-4.1",
@@ -8196,7 +8205,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "abacus/mimo-v2-pro": {
       "name": "MiMo-V2-Pro",
@@ -8518,7 +8527,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "abacus/qwen-2.5-coder-32b": {
       "name": "Qwen 2.5 Coder 32B",
@@ -9029,7 +9038,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "above/glm-5.2": {
       "name": "GLM 5.2",
@@ -9352,7 +9361,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "agentrouter/gpt-5.6-sol": {
       "name": "GPT-5.6 Sol",
@@ -9761,7 +9770,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "aiand/google/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -9792,7 +9801,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "aiand/moonshotai/kimi-k2.7-code": {
       "name": "Kimi K2.7 Code",
@@ -9908,7 +9917,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aiand/qwen/qwen3.6-27b": {
       "name": "Qwen3.6 27B",
@@ -10026,7 +10035,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "aiand/zai-org/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -10260,7 +10269,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aihubmix/claude-opus-4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -10736,7 +10745,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "aihubmix/coding-glm-5.1": {
       "name": "Coding GLM 5.1",
@@ -10879,7 +10888,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "aihubmix/coding-minimax-m2.7": {
       "name": "Coding MiniMax M2.7",
@@ -11220,7 +11229,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "aihubmix/doubao-seed-2-0-code-preview": {
       "name": "Doubao Seed 2.0 Code Preview",
@@ -11813,7 +11822,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "aihubmix/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -11845,7 +11854,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "aihubmix/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -12077,7 +12086,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "aihubmix/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -12637,7 +12646,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "aihubmix/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -12667,7 +12676,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aihubmix/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -12697,7 +12706,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aihubmix/gpt-image-1.5": {
       "name": "GPT-Image-1.5",
@@ -12931,7 +12940,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "aihubmix/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -13460,7 +13469,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "aihubmix/muse-spark-1.1": {
       "name": "Muse Spark 1.1",
@@ -15224,7 +15233,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aimlapi/anthropic/claude-opus-4.5": {
       "name": "Claude 4.5 Opus",
@@ -15494,7 +15503,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "aimlapi/bytedance-seed/seed-1.6-flash": {
       "name": "Seed 1.6 Flash",
@@ -15951,7 +15960,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "aimlapi/google/gemini-3-8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -15983,7 +15992,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "aimlapi/google/gemini-3.1-flash-lite-preview": {
       "name": "Gemini 3.1 Flash Lite Preview",
@@ -16143,7 +16152,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "aimlapi/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -16175,7 +16184,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "aimlapi/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest",
@@ -18506,7 +18515,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "aimlapi/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -18536,7 +18545,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aimlapi/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -18566,7 +18575,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aimlapi/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -18594,7 +18603,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aimlapi/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -19425,7 +19434,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 2
     },
     "aimlapi/undi95/remm-slerp-l2-13b": {
       "name": "ReMM SLERP 13B",
@@ -19863,7 +19872,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "ainetcafe/Kimi-K3": {
       "name": "Kimi K3",
@@ -20042,7 +20051,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "aixy/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -20072,7 +20081,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aixy/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -20102,7 +20111,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "aki-io/deepseek-v4.1-flash-552b": {
       "name": "DeepSeek V4.1 Flash",
@@ -20131,7 +20140,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "aki-io/gemma4-26b": {
       "name": "Gemma 4 26B A4B IT",
@@ -20188,7 +20197,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "aki-io/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -20216,7 +20225,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "aki-io/mistral4-119b": {
       "name": "Mistral Small 4",
@@ -20639,7 +20648,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "alibaba-cn/deepseek-v3-2-exp": {
       "name": "DeepSeek V3.2 Exp",
@@ -20752,7 +20761,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "alibaba-cn/glm-5": {
       "name": "GLM-5",
@@ -20864,7 +20873,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "alibaba-cn/kimi-k2-thinking": {
       "name": "Moonshot Kimi K2 Thinking",
@@ -22880,7 +22889,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "alibaba-cn/tongyi-intent-detect-v3": {
       "name": "Tongyi Intent Detect V3",
@@ -23538,7 +23547,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "alibaba-token-plan-cn/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -23679,7 +23688,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "alibaba-token-plan-cn/glm-5": {
       "name": "GLM-5",
@@ -23791,7 +23800,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "alibaba-token-plan-cn/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -24344,7 +24353,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "alibaba-token-plan/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -24485,7 +24494,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "alibaba-token-plan/glm-5": {
       "name": "GLM-5",
@@ -24597,7 +24606,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "alibaba-token-plan/happyhorse-1.1-i2v": {
       "name": "HappyHorse 1.1 Image-to-Video",
@@ -27058,7 +27067,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/anthropic.claude-opus-4-1-20250805-v1:0": {
       "name": "Claude Opus 4.1",
@@ -27388,7 +27397,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/apac.amazon.nova-lite-v1:0": {
       "name": "Nova Lite (APAC)",
@@ -27568,7 +27577,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/au.anthropic.claude-opus-4-6-v1": {
       "name": "AU Anthropic Claude Opus 4.6",
@@ -27895,7 +27904,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "amazon-bedrock/deepseek.v3.2": {
       "name": "DeepSeek V3.2",
@@ -27923,7 +27932,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "amazon-bedrock/eu.amazon.nova-2-lite-v1:0": {
       "name": "Nova 2 Lite (EU)",
@@ -28134,7 +28143,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/eu.anthropic.claude-opus-4-5-20251101-v1:0": {
       "name": "Claude Opus 4.5 (EU)",
@@ -28464,7 +28473,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/eu.mistral.pixtral-large-2502-v1:0": {
       "name": "Pixtral Large (25.02) (EU)",
@@ -28644,7 +28653,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/global.anthropic.claude-opus-4-5-20251101-v1:0": {
       "name": "Claude Opus 4.5 (Global)",
@@ -28974,7 +28983,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/global.moonshotai.kimi-k3": {
       "name": "Kimi K3 (Global)",
@@ -29148,7 +29157,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "amazon-bedrock/global.openai.gpt-6-sol": {
       "name": "GPT-6 Sol (Global)",
@@ -29177,7 +29186,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/global.openai.gpt-6.1-sol": {
       "name": "GPT-6.1 Sol (Global)",
@@ -29206,7 +29215,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/global.xai.grok-4.6": {
       "name": "Grok 4.6 (Global)",
@@ -29265,7 +29274,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "amazon-bedrock/global.zai.glm-5.3": {
       "name": "GLM-5.3 (Global)",
@@ -29293,7 +29302,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "amazon-bedrock/google.gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -29440,7 +29449,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "amazon-bedrock/google.gemma-4-e2b": {
       "name": "Gemma 4 E2B IT",
@@ -29712,7 +29721,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/jp.anthropic.claude-opus-4-7": {
       "name": "Claude Opus 4.7 (JP)",
@@ -30006,7 +30015,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "amazon-bedrock/meta.llama4-maverick-17b-instruct-v1:0": {
       "name": "Llama 4 Maverick 17B Instruct",
@@ -30788,7 +30797,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "amazon-bedrock/openai.gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -30818,7 +30827,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/openai.gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -30848,7 +30857,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/openai.gpt-oss-120b": {
       "name": "gpt-oss-120b",
@@ -30876,7 +30885,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "amazon-bedrock/openai.gpt-oss-120b-1:0": {
       "name": "gpt-oss-120b",
@@ -30904,7 +30913,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "amazon-bedrock/openai.gpt-oss-20b": {
       "name": "gpt-oss-20b",
@@ -31241,7 +31250,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "amazon-bedrock/us-gov.openai.gpt-oss-20b-1:0": {
       "name": "gpt-oss-20b (GovCloud)",
@@ -31541,7 +31550,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/us.anthropic.claude-opus-4-1-20250805-v1:0": {
       "name": "Claude Opus 4.1 (US)",
@@ -31901,7 +31910,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "amazon-bedrock/us.deepseek.r1-v1:0": {
       "name": "DeepSeek-R1 (US)",
@@ -32013,7 +32022,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "amazon-bedrock/us.meta.llama4-maverick-17b-instruct-v1:0": {
       "name": "Llama 4 Maverick 17B Instruct (US)",
@@ -32274,7 +32283,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "amazon-bedrock/us.openai.gpt-6-sol": {
       "name": "GPT-6 Sol (US)",
@@ -32303,7 +32312,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/us.openai.gpt-6.1-sol": {
       "name": "GPT-6.1 Sol (US)",
@@ -32332,7 +32341,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "amazon-bedrock/us.writer.palmyra-x4-v1:0": {
       "name": "Palmyra X4 (US)",
@@ -32447,7 +32456,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "amazon-bedrock/us.zai.glm-5.3": {
       "name": "GLM-5.3 (US)",
@@ -32475,7 +32484,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "amazon-bedrock/writer.palmyra-x4-v1:0": {
       "name": "Palmyra X4",
@@ -32718,7 +32727,7 @@
       "in": 0.001,
       "outCost": 0.001,
       "cacheRead": 0,
-      "open": false,
+      "open": true,
       "reasoning": false,
       "toolCall": true,
       "modalities": {
@@ -33004,7 +33013,7 @@
       "in": 0.001,
       "outCost": 0.001,
       "cacheRead": 0,
-      "open": false,
+      "open": true,
       "reasoning": false,
       "toolCall": true,
       "modalities": {
@@ -33216,7 +33225,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "amd/MiniCPM5-2B": {
       "name": "MiniCPM5-2B",
@@ -33451,7 +33460,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "anthropic/claude-opus-4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -33811,7 +33820,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "anyapi/anthropic/claude-haiku-4-5": {
       "name": "Claude Haiku 4.5 (latest)",
@@ -35603,7 +35612,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure-cognitive-services/claude-mythos-5": {
       "name": "Claude Mythos 5",
@@ -35963,7 +35972,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "azure-cognitive-services/codestral-2501": {
       "name": "Codestral 25.01",
@@ -36188,7 +36197,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "azure-cognitive-services/deepseek-v3.2-speciale": {
       "name": "DeepSeek-V3.2-Speciale",
@@ -37156,7 +37165,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "azure-cognitive-services/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -37186,7 +37195,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure-cognitive-services/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -37216,7 +37225,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure-cognitive-services/gpt-chat-latest": {
       "name": "GPT Chat Latest",
@@ -37478,7 +37487,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "azure-cognitive-services/llama-4-maverick-17b-128e-instruct-fp8": {
       "name": "Llama 4 Maverick 17B 128E Instruct FP8",
@@ -38140,7 +38149,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure/claude-mythos-5": {
       "name": "Claude Mythos 5",
@@ -38500,7 +38509,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "azure/codestral-2501": {
       "name": "Codestral 25.01",
@@ -38725,7 +38734,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "azure/deepseek-v3.2-speciale": {
       "name": "DeepSeek-V3.2-Speciale",
@@ -38838,7 +38847,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "azure/gpt-3.5-turbo-0125": {
       "name": "GPT-3.5 Turbo 0125",
@@ -39778,7 +39787,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "azure/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -39808,7 +39817,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -39838,7 +39847,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "azure/gpt-chat-latest": {
       "name": "GPT Chat Latest",
@@ -40187,7 +40196,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "azure/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -40302,7 +40311,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "azure/llama-4-maverick-17b-128e-instruct-fp8": {
       "name": "Llama 4 Maverick 17B 128E Instruct FP8",
@@ -40956,7 +40965,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "baseten/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -41069,7 +41078,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "baseten/deepseek-ai/DeepSeek-V4.1-Flash-Fast": {
       "name": "DeepSeek V4.1 Flash Fast",
@@ -41527,7 +41536,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "baseten/zai-org/GLM-5.3-Fast": {
       "name": "GLM 5.3 Fast",
@@ -42051,7 +42060,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "bothub/glm-5.3": {
       "name": "GLM-5.3",
@@ -42079,7 +42088,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "bothub/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -42228,7 +42237,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "cerebras/qwen-3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -43146,7 +43155,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "cline-pass/cline-pass/glm-5.2": {
       "name": "GLM-5.2",
@@ -43202,7 +43211,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "cline-pass/cline-pass/glm-5.3-flash": {
       "name": "cline-pass/glm-5.3-flash",
@@ -43474,7 +43483,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "cline-pass/cline-pass/muse-spark-1.3-contributor": {
       "name": "Muse Spark 1.3 Contributor",
@@ -43651,7 +43660,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "cloudferro-sherlock/openai/gpt-oss-120b": {
       "name": "OpenAI GPT OSS 120B",
@@ -43735,7 +43744,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "cloudflare-ai-gateway/alibaba/qwen3-max": {
       "name": "Qwen3 Max",
@@ -44003,7 +44012,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cloudflare-ai-gateway/anthropic/claude-opus-4.5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -44303,7 +44312,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "cloudflare-ai-gateway/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -45080,7 +45089,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "cloudflare-ai-gateway/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -45110,7 +45119,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cloudflare-ai-gateway/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -45140,7 +45149,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cloudflare-ai-gateway/openai/o3": {
       "name": "o3",
@@ -45256,7 +45265,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 2
     },
     "cloudflare-ai-gateway/xai/grok-4.20-0309-non-reasoning": {
       "name": "Grok 4.20 (Non-Reasoning)",
@@ -45434,7 +45443,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "cloudflare-workers-ai/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
       "name": "Gemma Sea Lion V4 27B It",
@@ -45944,7 +45953,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "cloudflare-workers-ai/@cf/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -46169,7 +46178,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "cloudflare-workers-ai/@cf/zai-org/glm-5.3-flash": {
       "name": "Glm 5.3 Flash",
@@ -46706,7 +46715,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "coralbricks/deepseek-v4.1-flash-fast-fp4": {
       "name": "DeepSeek V4.1 Flash FP4",
@@ -46763,7 +46772,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "coralbricks/glm-5.3-fp4": {
       "name": "GLM 5.3 FP4",
@@ -46939,7 +46948,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cortecs/claude-opus-5": {
       "name": "Claude Opus 5",
@@ -47209,7 +47218,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "cortecs/codestral-2508": {
       "name": "Codestral 25.08",
@@ -47265,7 +47274,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "cortecs/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -47378,7 +47387,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "cortecs/devstral-2512": {
       "name": "Devstral 2",
@@ -47620,7 +47629,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "cortecs/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -47651,7 +47660,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "cortecs/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT",
@@ -47738,7 +47747,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "cortecs/glm-4.7-flash": {
       "name": "GLM-4.7-Flash",
@@ -47850,7 +47859,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "cortecs/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -48296,7 +48305,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "cortecs/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -48326,7 +48335,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cortecs/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -48356,7 +48365,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "cortecs/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -48384,7 +48393,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "cortecs/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -48613,7 +48622,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "cortecs/minicpm-v-4.5": {
       "name": "minicpm-v-4.5",
@@ -48754,7 +48763,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "cortecs/ministral-14b-2512": {
       "name": "Ministral 3 14B 2512",
@@ -48898,7 +48907,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 4
     },
     "cortecs/mistral-large-2402": {
       "name": "mistral-large-2402",
@@ -49905,7 +49914,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "crof/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -50075,7 +50084,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "crof/glm-5.1": {
       "name": "GLM-5.1",
@@ -50159,7 +50168,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "crof/glm-5.3-flash": {
       "name": "GLM 5.3-Flash",
@@ -50690,7 +50699,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "crossmodel/anthropic/claude-opus-4-7": {
       "name": "Claude Opus 4.7",
@@ -50893,7 +50902,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "crossmodel/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -51007,7 +51016,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "crossmodel/gemini/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -51286,7 +51295,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "crossmodel/gemini/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -51317,7 +51326,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "crossmodel/minimax/minimax-m2.7": {
       "name": "MiniMax-M2.7",
@@ -51375,7 +51384,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "crossmodel/moonshot/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -51784,7 +51793,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "crossmodel/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -51813,7 +51822,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "crossmodel/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -51842,7 +51851,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "crossmodel/qwen/qwen3.6-flash": {
       "name": "Qwen3.6 Flash",
@@ -52253,7 +52262,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "crossmodel/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -52569,7 +52578,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "crossmodel/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -52684,7 +52693,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "crusoe/meta-llama/Llama-3.3-70B-Instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -52712,7 +52721,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "crusoe/moonshotai/Kimi-K2.6": {
       "name": "Kimi K2.6",
@@ -52857,7 +52866,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "crusoe/zai/GLM-5.1": {
       "name": "GLM-5.1",
@@ -54025,7 +54034,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "databricks/databricks-gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -54256,7 +54265,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507": {
       "name": "Qwen3 235B-A22B Instruct 2507",
@@ -55106,7 +55115,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "deepinfra/deepseek-ai/DeepSeek-V3.2": {
       "name": "DeepSeek-V3.2",
@@ -55134,7 +55143,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "deepinfra/deepseek-ai/DeepSeek-V4-Flash": {
       "name": "DeepSeek V4 Flash",
@@ -55304,7 +55313,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "deepinfra/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -55450,7 +55459,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "deepinfra/google/gemma-4-E4B-it": {
       "name": "Gemma 4 E4B IT",
@@ -55828,7 +55837,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "deepinfra/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -56198,7 +56207,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "deepinfra/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -56258,7 +56267,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -57318,7 +57327,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "digitalocean/e5-large-v2": {
       "name": "E5 Large v2",
@@ -57971,7 +57980,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 4
     },
     "digitalocean/mistral-nemo-instruct-2407": {
       "name": "Mistral Nemo Instruct",
@@ -59409,7 +59418,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "dinference/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -60500,7 +60509,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "edenai/anthropic/claude-opus-4-5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -60830,7 +60839,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "edenai/anthropic/claude-sonnet-latest": {
       "name": "Claude Sonnet Latest (Claude Sonnet 5.5)",
@@ -61008,7 +61017,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/cloudflare/@cf/aisingapore/gemma-sea-lion-v4-27b-it": {
       "name": "Gemma-SEA-LION-v4-27B-IT (Cloudflare)",
@@ -61205,7 +61214,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/cloudflare/@cf/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B (Cloudflare)",
@@ -61513,7 +61522,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/databricks/databricks-gpt-oss-120b@eu": {
       "name": "GPT OSS 120B (Databricks, EU)",
@@ -61541,7 +61550,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/databricks/databricks-gpt-oss-20b": {
       "name": "GPT OSS 20B (Databricks)",
@@ -62191,7 +62200,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/deepinfra/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT (Deep Infra)",
@@ -62335,7 +62344,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "edenai/deepinfra/meta-llama/Llama-Guard-3-8B": {
       "name": "Llama-Guard-3-8B (Deep Infra)",
@@ -62617,7 +62626,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/deepinfra/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B (Deep Infra)",
@@ -63018,7 +63027,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/fireworks_ai/accounts/fireworks/models/inkling": {
       "name": "Inkling (Fireworks AI)",
@@ -63075,7 +63084,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/flexai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731 (FlexAI)",
@@ -63132,7 +63141,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/flexai/Muse-Glimmer-30B": {
       "name": "Muse Glimmer 30B (FlexAI)",
@@ -63218,7 +63227,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/flexai/gpt-oss-20b": {
       "name": "GPT OSS 20B (FlexAI)",
@@ -63774,7 +63783,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -63806,7 +63815,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -63960,7 +63969,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/greenference/gpt-oss-20b": {
       "name": "GPT OSS 20B (Greenference)",
@@ -64045,7 +64054,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/greenpt/gpt-oss-120b": {
       "name": "GPT OSS 120B (Greenpt)",
@@ -64073,7 +64082,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/greenpt/llama-3.3-70b-instruct": {
       "name": "Llama-3.3-70B-Instruct (Greenpt)",
@@ -64101,7 +64110,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "edenai/greenpt/qwen3-235b-a22b-instruct-2507": {
       "name": "Qwen3 235B-A22B Instruct 2507 (Greenpt)",
@@ -64157,7 +64166,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/groq/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B (Groq)",
@@ -64297,7 +64306,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "edenai/ionos/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B (IONOS)",
@@ -64325,7 +64334,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/minimax/MiniMax-M2": {
       "name": "MiniMax-M2",
@@ -64467,7 +64476,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "edenai/mistral/codestral-2508": {
       "name": "Codestral 25.08",
@@ -65249,7 +65258,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/nebius/google/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT (Nebius)",
@@ -65362,7 +65371,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/openai/gpt-3.5-turbo": {
       "name": "GPT-3.5-turbo",
@@ -66228,7 +66237,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "edenai/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -66258,7 +66267,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "edenai/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -66288,7 +66297,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "edenai/openai/gpt-latest": {
       "name": "GPT Latest (GPT-6 Astra)",
@@ -66585,7 +66594,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/ovhcloud/gpt-oss-20b": {
       "name": "GPT OSS 20B (OVHcloud)",
@@ -66813,7 +66822,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/qwen/qwen-max": {
       "name": "Qwen Max",
@@ -67133,7 +67142,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/scaleway/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT (Scaleway)",
@@ -67190,7 +67199,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/scaleway/llama-3.3-70b-instruct": {
       "name": "Llama-3.3-70B-Instruct (Scaleway)",
@@ -67218,7 +67227,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "edenai/scaleway/qwen3-235b-a22b-instruct-2507": {
       "name": "Qwen3 235B-A22B Instruct 2507 (Scaleway)",
@@ -67293,7 +67302,7 @@
       "cacheRead": 0.022,
       "open": true,
       "reasoning": true,
-      "toolCall": false,
+      "toolCall": true,
       "modalities": {
         "input": [
           "text"
@@ -67303,6 +67312,35 @@
         ]
       },
       "shared": 37
+    },
+    "edenai/tencent/deepseek-v4.1-flash": {
+      "name": "DeepSeek V4.1 Flash (Tencent)",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1000000,
+      "out": 384000,
+      "in": 0.15,
+      "outCost": 0.6,
+      "cacheRead": 0.003,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 63
     },
     "edenai/tencent/hy3": {
       "name": "Hy3 (Tencent)",
@@ -67471,7 +67509,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/tensorx/moonshotai/kimi-k2.5": {
       "name": "Kimi K2.5 (TensorX)",
@@ -67585,7 +67623,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "edenai/together_ai/meta-models/Muse-Glimmer-30B": {
       "name": "Muse Glimmer 30B (Together AI)",
@@ -67642,7 +67680,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "edenai/together_ai/thinkingmachines/Inkling": {
       "name": "Inkling (Together AI)",
@@ -68272,7 +68310,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-3.7-flash@eu": {
       "name": "Gemini 3.7 Flash (Vertex AI, EU)",
@@ -68304,7 +68342,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-3.7-flash@us": {
       "name": "Gemini 3.7 Flash (Vertex AI, US)",
@@ -68336,7 +68374,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash (Vertex AI)",
@@ -68368,7 +68406,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-3.8-flash@eu": {
       "name": "Gemini 3.8 Flash (Vertex AI, EU)",
@@ -68400,7 +68438,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-3.8-flash@us": {
       "name": "Gemini 3.8 Flash (Vertex AI, US)",
@@ -68432,7 +68470,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "edenai/vertex/gemini-4-argon": {
       "name": "Gemini 4 Argon (Vertex AI)",
@@ -68826,7 +68864,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "edenai/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -69112,7 +69150,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "edenai/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -69201,7 +69239,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "empiriolabs/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -69631,7 +69669,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "empiriolabs/glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -70020,7 +70058,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "empiriolabs/mistral-small-4": {
       "name": "Mistral Small 4",
@@ -71090,7 +71128,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "engy/glm-5.2": {
       "name": "GLM-5.2",
@@ -71146,7 +71184,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "engy/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -71608,7 +71646,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "evroc/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -71636,7 +71674,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "evroc/openai/whisper-large-v3": {
       "name": "Whisper 3 Large",
@@ -72139,7 +72177,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "fastrouter/google/imagen-4.0-fast": {
       "name": "Imagen 4 Fast",
@@ -72775,7 +72813,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "fastrouter/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -73120,7 +73158,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "fireworks-ai/accounts/fireworks/models/ember-1": {
       "name": "Ember-1",
@@ -73177,7 +73215,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "fireworks-ai/accounts/fireworks/models/glm-5p3-flash": {
       "name": "GLM 5.3 Flash",
@@ -73234,7 +73272,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "fireworks-ai/accounts/fireworks/models/inkling": {
       "name": "Inkling",
@@ -73320,7 +73358,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4": {
       "name": "Nemotron 3 Ultra 550B A55B",
@@ -74074,7 +74112,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "friendli/google/gemma-4-31B-it": {
       "name": "Gemma 4 31B IT",
@@ -74103,7 +74141,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "friendli/zai-org/GLM-5.1": {
       "name": "GLM-5.1",
@@ -74187,7 +74225,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "friendli/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -74666,7 +74704,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "frogbot/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -75102,7 +75140,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "github-copilot/claude-opus-4.7": {
       "name": "Claude Opus 4.7",
@@ -75312,7 +75350,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "github-copilot/gemini-3.5-flash": {
       "name": "Gemini 3.5 Flash",
@@ -75403,7 +75441,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "github-copilot/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -75432,7 +75470,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "github-copilot/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -75791,7 +75829,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "github-copilot/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -75821,7 +75859,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "github-copilot/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -75851,7 +75889,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "github-copilot/grok-4.5": {
       "name": "Grok 4.5",
@@ -75939,7 +75977,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "github-copilot/kimi-k2.7-code": {
       "name": "Kimi K2.7 Code",
@@ -77007,7 +77045,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "gmicloud/Qwen/Qwen3.7-Max": {
       "name": "Qwen3.7 Max",
@@ -77556,7 +77594,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "google-vertex-anthropic/claude-opus-4-1@20250805": {
       "name": "Claude Opus 4.1",
@@ -77916,7 +77954,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "google-vertex-anthropic/claude-sonnet-5@default": {
       "name": "Claude Sonnet 5",
@@ -78066,7 +78104,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "google-vertex/claude-opus-4-1@20250805": {
       "name": "Claude Opus 4.1",
@@ -78426,7 +78464,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "google-vertex/claude-sonnet-5@default": {
       "name": "Claude Sonnet 5",
@@ -78512,7 +78550,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "google-vertex/deepseek-ai/deepseek-v3.2-maas": {
       "name": "DeepSeek V3.2",
@@ -78540,7 +78578,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "google-vertex/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -79072,7 +79110,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "google-vertex/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -79104,7 +79142,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "google-vertex/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -79252,7 +79290,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "google-vertex/meta/llama-4-maverick-17b-128e-instruct-maas": {
       "name": "Llama 4 Maverick 17B 128E Instruct",
@@ -79424,7 +79462,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "google-vertex/openai/gpt-oss-20b-maas": {
       "name": "GPT OSS 20B",
@@ -79683,7 +79721,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "google-vertex/zai-org/glm-4.7-maas": {
       "name": "GLM-4.7",
@@ -80574,7 +80612,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -80606,7 +80644,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -80850,7 +80888,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "google/lyria-3-clip-preview": {
       "name": "Lyria 3 Clip Preview",
@@ -81055,7 +81093,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "greenpt/devstral-2-123b-instruct-2512": {
       "name": "Devstral 2",
@@ -81477,7 +81515,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "greenpt/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -81534,7 +81572,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "greenpt/green-l": {
       "name": "Green L",
@@ -81878,7 +81916,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "greenpt/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -82415,7 +82453,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "groq/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -83159,7 +83197,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "helicone/ernie-4.5-21b-a3b-thinking": {
       "name": "Baidu Ernie 4.5 21B A3B Thinking",
@@ -85651,7 +85689,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "huggingface/Qwen/Qwen2.5-Coder-32B-Instruct": {
       "name": "Qwen2.5-Coder-32B-Instruct",
@@ -86586,7 +86624,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "huggingface/deepseek-ai/DeepSeek-V3.2": {
       "name": "DeepSeek-V3.2",
@@ -86614,7 +86652,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "huggingface/deepseek-ai/DeepSeek-V4-Flash": {
       "name": "DeepSeek V4 Flash",
@@ -86784,7 +86822,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "huggingface/google/gemma-3-12b-it": {
       "name": "Gemma 3 12B IT",
@@ -86929,7 +86967,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "huggingface/meta-llama/Llama-3.1-8B-Instruct": {
       "name": "Llama-3.1-8B-Instruct",
@@ -86985,7 +87023,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "huggingface/moonshotai/Kimi-K2-Instruct": {
       "name": "Kimi-K2-Instruct",
@@ -87215,7 +87253,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "huggingface/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -87754,7 +87792,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "huggingface/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -87868,7 +87906,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "hyper/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT",
@@ -87952,7 +87990,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "hyper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -88009,7 +88047,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "hyper/inkling": {
       "name": "Inkling",
@@ -88181,7 +88219,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "hyper/qwen3.7-flash": {
       "name": "Qwen3.7 Flash",
@@ -89073,7 +89111,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "impossibl/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -89185,7 +89223,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "impossibl/fireworks/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -89497,7 +89535,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "impossibl/groq/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -91244,7 +91282,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "inco/glm-5.3": {
       "name": "GLM-5.3",
@@ -91272,7 +91310,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "inco/glm-5.3-flash:fast": {
       "name": "GLM-5.3-Flash",
@@ -91391,7 +91429,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "inco/minimax-m3:fast": {
       "name": "MiniMax M3 Fast",
@@ -92201,7 +92239,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "infomaniak/mini_lm_l12_v2": {
       "name": "All-MiniLM-L12-v2",
@@ -92572,7 +92610,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "io-net/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8": {
       "name": "Llama 4 Maverick 17B 128E Instruct",
@@ -92798,7 +92836,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "io-net/openai/gpt-oss-20b": {
       "name": "GPT-OSS 20B",
@@ -92939,7 +92977,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "iteracompute/moonshotai/kimi-k3": {
       "name": "Kimi K3",
@@ -93083,7 +93121,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "iteracompute/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -93372,7 +93410,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "jalapeno/Qwen3-Next-80B-A3B-Instruct": {
       "name": "Qwen3-Next 80B-A3B Instruct",
@@ -93954,7 +93992,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "jiekou/gemini-2.5-flash": {
       "name": "gemini-2.5-flash",
@@ -95587,7 +95625,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "kenari/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -95923,7 +95961,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "kenari/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -95952,7 +95990,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "kenari/glm-4-7-flash:free": {
       "name": "GLM-4.7-Flash (Free)",
@@ -96064,7 +96102,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "kenari/glm-5-3-flash": {
       "name": "GLM-5.3-Flash",
@@ -96301,7 +96339,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "kenari/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -96859,7 +96897,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "kenari/mistral-large:free": {
       "name": "Mistral Large (Free)",
@@ -97732,7 +97770,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "kilo/anthropic/claude-opus-4.1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -98092,7 +98130,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "kilo/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -98610,7 +98648,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "kilo/deepseek/deepseek-r1": {
       "name": "DeepSeek-R1",
@@ -98722,7 +98760,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "kilo/deepseek/deepseek-v3.2-exp": {
       "name": "DeepSeek: DeepSeek V3.2 Exp",
@@ -98920,7 +98958,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "kilo/dots-studio/dots-3-note-preview:free": {
       "name": "Dots Studio: Dots3-Note Preview (free)",
@@ -99579,7 +99617,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "kilo/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -99611,7 +99649,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "kilo/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -99745,9 +99783,9 @@
       "updated": "2025-03-12",
       "ctx": 131072,
       "out": 117964,
-      "in": 0.07,
-      "outCost": 0.275,
-      "cacheRead": 0.04,
+      "in": 0.08,
+      "outCost": 0.16,
+      "cacheRead": null,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -99849,7 +99887,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "kilo/google/lyria-3-clip-preview": {
       "name": "Lyria 3 Clip Preview",
@@ -100392,7 +100430,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "kilo/mancer/weaver": {
       "name": "Mancer: Weaver (alpha)",
@@ -100588,7 +100626,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "kilo/meta-llama/llama-4-maverick": {
       "name": "Meta: Llama 4 Maverick",
@@ -101017,8 +101055,8 @@
       "release": "2025-10-27",
       "releasePrecision": "day",
       "updated": "2025-10-27",
-      "ctx": 196608,
-      "out": 176947,
+      "ctx": 204800,
+      "out": 131072,
       "in": 0.3,
       "outCost": 1.2,
       "cacheRead": null,
@@ -101175,7 +101213,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "kilo/mistralai/codestral-2508": {
       "name": "Codestral 25.08",
@@ -103820,7 +103858,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "kilo/openai/gpt-6-luna-pro": {
       "name": "OpenAI: GPT-6 Luna Pro",
@@ -103880,7 +103918,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "kilo/openai/gpt-6-sol-pro": {
       "name": "OpenAI: GPT-6 Sol Pro",
@@ -103940,7 +103978,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "kilo/openai/gpt-6.1-sol-pro": {
       "name": "OpenAI: GPT-6.1 Sol Pro",
@@ -104075,7 +104113,7 @@
       "releasePrecision": "day",
       "updated": "2025-08-05",
       "ctx": 131072,
-      "out": 65536,
+      "out": 117964,
       "in": 0.03,
       "outCost": 0.15,
       "cacheRead": 0.03,
@@ -104090,7 +104128,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "kilo/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -105900,7 +105938,7 @@
       "release": "2026-08-12",
       "releasePrecision": "day",
       "updated": "2026-08-12",
-      "ctx": 1048576,
+      "ctx": 1000000,
       "out": 131072,
       "in": 2,
       "outCost": 6,
@@ -106864,9 +106902,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -106920,9 +106958,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.83,
+      "outCost": 2.501,
+      "cacheRead": 0.041,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -107110,35 +107148,6 @@
       },
       "shared": 1
     },
-    "kilo/unbiased/pareto": {
-      "name": "Pareto",
-      "norm": "pareto",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2026-09-17",
-      "releasePrecision": "day",
-      "updated": "2026-09-17",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 2.5,
-      "outCost": 7.5,
-      "cacheRead": 0.25,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 5
-    },
     "kilo/unbiased/pareto-26.10-preview": {
       "name": "Pareto 26.10 Preview (retires Oct 15)",
       "norm": "pareto-26-10-preview",
@@ -107154,6 +107163,35 @@
       "in": 0.8,
       "outCost": 3.2,
       "cacheRead": 0.03,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "kilo/unbiased/pareto-26.9": {
+      "name": "Pareto 26.9",
+      "norm": "pareto-26-9",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 262144,
+      "out": 131072,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.25,
       "open": false,
       "reasoning": false,
       "toolCall": true,
@@ -107486,7 +107524,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "kilo/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -107935,8 +107973,8 @@
       "release": "2026-04-07",
       "releasePrecision": "day",
       "updated": "2026-04-07",
-      "ctx": 200000,
-      "out": 128000,
+      "ctx": 202745,
+      "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
       "cacheRead": 0.26,
@@ -108007,7 +108045,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "kilo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -108259,8 +108297,8 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0405,
-      "outCost": 0.765,
+      "in": 0.02016,
+      "outCost": 0.891,
       "cacheRead": 0.0054,
       "open": false,
       "reasoning": true,
@@ -108288,9 +108326,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1452,
-      "outCost": 0.4356,
-      "cacheRead": 0.00462,
+      "in": 0.1461,
+      "outCost": 8,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -108408,8 +108446,8 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.72,
-      "outCost": 24,
+      "in": 0.536,
+      "outCost": 14,
       "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
@@ -108576,6 +108614,35 @@
       },
       "shared": 3
     },
+    "kilo/~unbiased/pareto-latest": {
+      "name": "Pareto Latest",
+      "norm": "pareto-latest",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 262144,
+      "out": 131072,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.25,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "kilo/~x-ai/grok-latest": {
       "name": "xAI: Grok Latest",
       "norm": "grok-latest",
@@ -108618,7 +108685,7 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0333,
+      "in": 0.036,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": false,
@@ -108648,9 +108715,9 @@
       "updated": "2026-08-19",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.063,
+      "in": 0.0576,
       "outCost": 4.4,
-      "cacheRead": 0.0586,
+      "cacheRead": 0.0536,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109071,7 +109138,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "lilac/minimaxai/minimax-m3": {
       "name": "MiniMax M3",
@@ -109101,7 +109168,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "lilac/moonshotai/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -109270,7 +109337,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "llama/llama-3.3-8b-instruct": {
       "name": "Llama-3.3-8B-Instruct",
@@ -109441,7 +109508,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/alibaba/glm-5": {
       "name": "GLM-5 (Alibaba Cloud)",
@@ -109525,7 +109592,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/alibaba/kimi-k2.5": {
       "name": "Kimi K2.5 (Alibaba Cloud)",
@@ -110266,7 +110333,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/anthropic/claude-opus-4-5-20251101": {
       "name": "Claude Opus 4.5 (Anthropic)",
@@ -110596,7 +110663,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/atria/atria-dawn-preview": {
       "name": "Atria Dawn Preview (Atria)",
@@ -110774,7 +110841,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/aws-bedrock/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1 (AWS Bedrock)",
@@ -111134,7 +111201,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/aws-bedrock/grok-4-3": {
       "name": "Grok 4.3 (AWS Bedrock)",
@@ -111221,7 +111288,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "llmgateway-providers/aws-bedrock/kimi-k3": {
       "name": "Kimi K3 (AWS Bedrock)",
@@ -111813,7 +111880,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway-providers/azure/gpt-4.1": {
       "name": "GPT-4.1 (Azure)",
@@ -111874,35 +111941,6 @@
         ]
       },
       "shared": 27
-    },
-    "llmgateway-providers/azure/gpt-4.1-nano": {
-      "name": "GPT-4.1 Nano (Azure)",
-      "norm": "gpt-4-1-nano",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-04-14",
-      "releasePrecision": "day",
-      "updated": "2025-04-14",
-      "ctx": 1000000,
-      "out": 32768,
-      "in": 0.1,
-      "outCost": 0.4,
-      "cacheRead": 0.025,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 24
     },
     "llmgateway-providers/azure/gpt-4o": {
       "name": "GPT-4o (Azure)",
@@ -112491,7 +112529,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "llmgateway-providers/azure/gpt-6-sol": {
       "name": "GPT-6 Sol (Azure)",
@@ -112521,7 +112559,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/azure/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol (Azure)",
@@ -112551,7 +112589,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/azure/gpt-oss-120b": {
       "name": "GPT OSS 120B (Azure)",
@@ -112579,7 +112617,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/baidu/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (Baidu)",
@@ -112664,7 +112702,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/baidu/glm-5": {
       "name": "GLM-5 (Baidu)",
@@ -112776,7 +112814,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/baidu/kimi-k2.6": {
       "name": "Kimi K2.6 (Baidu)",
@@ -112834,7 +112872,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "llmgateway-providers/bytedance/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (ByteDance)",
@@ -112974,7 +113012,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/bytedance/seed-1-6-250615": {
       "name": "Seed 1.6 (250615) (ByteDance)",
@@ -113379,7 +113417,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/cerebras/glm-4.7": {
       "name": "GLM-4.7 (Cerebras)",
@@ -113435,7 +113473,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/cerebras/llama-3.3-70b-instruct": {
       "name": "Llama 3.3 70B Instruct (Cerebras)",
@@ -113463,7 +113501,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "llmgateway-providers/cerebras/qwen3-235b-a22b-instruct-2507": {
       "name": "Qwen3 235B A22B Instruct 2507 (Cerebras)",
@@ -113577,7 +113615,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/consensusprotocol/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT (Consensus Protocol)",
@@ -113605,7 +113643,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/consensusprotocol/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Consensus Protocol)",
@@ -113666,6 +113704,34 @@
       },
       "shared": 39
     },
+    "llmgateway-providers/consensusprotocol/mimo-v2.6-flash": {
+      "name": "MiMo V2.6 Flash (Consensus Protocol)",
+      "norm": "mimo-v2-6-flash",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0.12,
+      "outCost": 0.25,
+      "cacheRead": 0.0025,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 23
+    },
     "llmgateway-providers/deepinfra/deepseek-v3.2": {
       "name": "DeepSeek V3.2 (DeepInfra)",
       "norm": "deepseek-v3-2",
@@ -113692,7 +113758,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "llmgateway-providers/deepinfra/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (DeepInfra)",
@@ -113777,7 +113843,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/deepinfra/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT (DeepInfra)",
@@ -113833,7 +113899,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/deepinfra/granite-4.2-8b": {
       "name": "Granite 4.2 8B (DeepInfra)",
@@ -114213,7 +114279,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/embercloud/glm-4.5": {
       "name": "GLM-4.5 (EmberCloud)",
@@ -114494,7 +114560,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/entrim/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (entrim)",
@@ -114582,7 +114648,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/fireworks/glm-5.3": {
       "name": "GLM-5.3 (Fireworks AI)",
@@ -114610,7 +114676,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/fireworks/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Fireworks AI)",
@@ -115105,7 +115171,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway-providers/google-ai-studio/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash (Google AI Studio)",
@@ -115137,7 +115203,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway-providers/google-ai-studio/gemini-4-argon": {
       "name": "Gemini 4 Argon (Google AI Studio)",
@@ -115519,7 +115585,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway-providers/google-vertex/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash (Google Vertex AI)",
@@ -115549,7 +115615,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway-providers/google-vertex/gemini-4-argon": {
       "name": "Gemini 4 Argon (Google Vertex AI)",
@@ -115607,7 +115673,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/groq/gpt-oss-20b": {
       "name": "GPT OSS 20B (Groq)",
@@ -115663,7 +115729,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/inference.net/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Inference.net)",
@@ -115751,7 +115817,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/meta-contributor/muse-spark-1.2-contributor": {
       "name": "Muse Spark 1.2 Contributor (Meta Contributor)",
@@ -116162,7 +116228,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "llmgateway-providers/minimax/minimax-text-01": {
       "name": "MiniMax Text 01 (MiniMax)",
@@ -116274,7 +116340,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/mistral/ministral-14b-2512": {
       "name": "Ministral 14B (Mistral AI)",
@@ -116712,7 +116778,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "llmgateway-providers/novita/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (NovitaAI)",
@@ -116769,7 +116835,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/novita/ernie-4.5-vl-424b-a47b": {
       "name": "ERNIE 4.5 VL 424B A47B (NovitaAI)",
@@ -116854,7 +116920,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/novita/glm-4.5v": {
       "name": "GLM-4.5V (NovitaAI)",
@@ -117082,7 +117148,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/novita/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (NovitaAI)",
@@ -117399,7 +117465,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "llmgateway-providers/novita/llama-4-maverick-17b-instruct": {
       "name": "Llama 4 Maverick 17B Instruct (NovitaAI)",
@@ -118997,7 +119063,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "llmgateway-providers/openai/gpt-6-sol": {
       "name": "GPT-6 Sol (OpenAI)",
@@ -119027,7 +119093,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol (OpenAI)",
@@ -119057,7 +119123,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway-providers/openai/o1": {
       "name": "o1 (OpenAI)",
@@ -119346,7 +119412,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/reka-ai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (reka-ai)",
@@ -119551,7 +119617,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/runware/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT (Runware)",
@@ -119580,7 +119646,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/runware/glm-5.2": {
       "name": "GLM-5.2 (Runware)",
@@ -119636,7 +119702,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/runware/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Runware)",
@@ -119695,7 +119761,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/runware/kimi-k2.6": {
       "name": "Kimi K2.6 (Runware)",
@@ -119871,7 +119937,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/scx-ai-gp/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash (SCX.ai)",
@@ -119899,7 +119965,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/scx-ai-gp/glm-5.2": {
       "name": "GLM-5.2 (SCX.ai)",
@@ -119941,7 +120007,7 @@
       "updated": "2026-06-13",
       "ctx": 1000000,
       "out": 131072,
-      "in": 2.1256,
+      "in": 2.156,
       "outCost": 6.776,
       "cacheRead": 0.429,
       "open": true,
@@ -119983,7 +120049,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/scx-ai-gp/glm-5.3-fast": {
       "name": "GLM 5.3 Fast (SCX.ai)",
@@ -120161,7 +120227,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway-providers/scx-ai/gpt-oss-120b": {
       "name": "GPT OSS 120B (SCX.ai (Turbo))",
@@ -120189,7 +120255,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/scx-ai/llama-4-maverick-17b-instruct": {
       "name": "Llama 4 Maverick 17B Instruct (SCX.ai (Turbo))",
@@ -120762,7 +120828,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "llmgateway-providers/together-ai/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (Together AI)",
@@ -120847,7 +120913,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway-providers/together-ai/glm-4.7": {
       "name": "GLM-4.7 (Together AI)",
@@ -120903,7 +120969,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/together-ai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Together AI)",
@@ -120962,7 +121028,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway-providers/together-ai/kimi-k3": {
       "name": "Kimi K3 (Together AI)",
@@ -121020,7 +121086,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "llmgateway-providers/together-ai/muse-glimmer-30b": {
       "name": "Muse Glimmer 30B (Together AI)",
@@ -121315,7 +121381,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "llmgateway-providers/vertex-openai/glm-4.7": {
       "name": "GLM-4.7 (Vertex AI (OpenAI-compatible))",
@@ -121801,7 +121867,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "llmgateway-providers/xai/grok-build-0-1": {
       "name": "Grok Build 0.1 (xAI)",
@@ -121831,65 +121897,6 @@
         ]
       },
       "shared": 20
-    },
-    "llmgateway-providers/xiaomi/mimo-v2.5": {
-      "name": "MiMo V2.5 (Xiaomi)",
-      "norm": "mimo-v2-5",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2026-04-22",
-      "releasePrecision": "day",
-      "updated": "2026-04-22",
-      "ctx": 1000000,
-      "out": 131072,
-      "in": 0.14,
-      "outCost": 0.28,
-      "cacheRead": 0.0028,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 26
-    },
-    "llmgateway-providers/xiaomi/mimo-v2.5-pro": {
-      "name": "MiMo V2.5 Pro (Xiaomi)",
-      "norm": "mimo-v2-5-pro",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2026-04-22",
-      "releasePrecision": "day",
-      "updated": "2026-04-22",
-      "ctx": 1000000,
-      "out": 131072,
-      "in": 0.435,
-      "outCost": 0.87,
-      "cacheRead": 0.0036,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 26
     },
     "llmgateway-providers/xiaomi/mimo-v2.6-flash": {
       "name": "MiMo V2.6 Flash (Xiaomi)",
@@ -122376,7 +122383,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway-providers/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (Z AI)",
@@ -122642,7 +122649,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1",
@@ -123001,7 +123008,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "llmgateway/codestral-2508": {
       "name": "Codestral",
@@ -123087,7 +123094,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "llmgateway/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -123172,7 +123179,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "llmgateway/devstral-2512": {
       "name": "Devstral 2",
@@ -123636,7 +123643,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -123666,7 +123673,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "llmgateway/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -123783,7 +123790,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "llmgateway/glm-4-32b-0414-128k": {
       "name": "GLM-4 32B (0414-128k)",
@@ -124250,7 +124257,7 @@
       "updated": "2026-06-13",
       "ctx": 1000000,
       "out": 131072,
-      "in": 2.1256,
+      "in": 2.156,
       "outCost": 6.776,
       "cacheRead": 0.429,
       "open": true,
@@ -124292,7 +124299,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway/glm-5.3-fast": {
       "name": "GLM-5.3",
@@ -124320,7 +124327,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "llmgateway/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -125321,7 +125328,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "llmgateway/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -125351,7 +125358,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -125381,7 +125388,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "llmgateway/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -125409,7 +125416,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "llmgateway/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -125789,7 +125796,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "llmgateway/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -126394,7 +126401,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "llmgateway/llama-4-maverick-17b-instruct": {
       "name": "Llama 4 Maverick 17B Instruct",
@@ -126525,9 +126532,9 @@
       "updated": "2026-09-22",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.14,
-      "outCost": 0.28,
-      "cacheRead": 0.0028,
+      "in": 0.12,
+      "outCost": 0.25,
+      "cacheRead": 0.0025,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -126799,7 +126806,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "llmgateway/minimax-text-01": {
       "name": "MiniMax Text 01",
@@ -130054,7 +130061,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "lowrouter/auto/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -130535,7 +130542,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "meganova/deepseek-ai/DeepSeek-V3.2": {
       "name": "DeepSeek V3.2",
@@ -130563,7 +130570,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "meganova/deepseek-ai/DeepSeek-V3.2-Exp": {
       "name": "DeepSeek V3.2 Exp",
@@ -130619,7 +130626,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "meganova/mistralai/Mistral-Nemo-Instruct-2407": {
       "name": "Mistral Nemo Instruct 2407",
@@ -130873,7 +130880,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "melious/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -130930,7 +130937,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "melious/glm-5": {
       "name": "GLM-5",
@@ -131014,7 +131021,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "melious/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -131312,7 +131319,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "merge-gateway/anthropic/claude-opus-4-1-20250805": {
       "name": "Claude Opus 4.1 (20250805)",
@@ -131702,7 +131709,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "merge-gateway/bytedance/dola-seed-2.0-code": {
       "name": "Seed 2.0 Code",
@@ -132067,7 +132074,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "merge-gateway/deepseek/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -132095,7 +132102,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "merge-gateway/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -132320,7 +132327,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "merge-gateway/google/gemini-2.5-computer-use-preview-10-2025": {
       "name": "Gemini 2.5 Computer Use Preview (10-2025)",
@@ -132846,7 +132853,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "merge-gateway/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -132878,7 +132885,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "merge-gateway/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -133172,7 +133179,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "merge-gateway/meta/llama-3.1-70b-instruct": {
       "name": "Llama 3.1 70B",
@@ -133256,7 +133263,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "merge-gateway/meta/muse-spark-1.1": {
       "name": "Muse Spark 1.1",
@@ -133511,7 +133518,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "merge-gateway/mistral/codestral-latest": {
       "name": "Codestral (latest)",
@@ -135002,7 +135009,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "merge-gateway/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -135031,7 +135038,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "merge-gateway/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -135060,7 +135067,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "merge-gateway/openai/gpt-oss-120b": {
       "name": "GPT-OSS 120B",
@@ -135088,7 +135095,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "merge-gateway/openai/gpt-oss-20b": {
       "name": "GPT-OSS 20B",
@@ -136652,7 +136659,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "merge-gateway/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -137018,7 +137025,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "merge-gateway/zai/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -137438,7 +137445,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "minimax-cn-coding-plan/MiniMax-M3.1-Flash-Preview": {
       "name": "MiniMax-M3.1-Flash-Preview",
@@ -137666,7 +137673,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "minimax-coding-plan/MiniMax-M2": {
       "name": "MiniMax-M2",
@@ -137864,7 +137871,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "minimax-coding-plan/MiniMax-M3.1-Flash-Preview": {
       "name": "MiniMax-M3.1-Flash-Preview",
@@ -138092,7 +138099,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "mistral/codestral-2508": {
       "name": "Codestral 25.08",
@@ -139290,7 +139297,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "mixlayer/qwen/qwen3.5-122b-a10b": {
       "name": "Qwen3.5 122B A10B",
@@ -139542,7 +139549,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "moark/Kimi-K2.6": {
       "name": "Kimi K2.6",
@@ -141092,7 +141099,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "nan/gemma4": {
       "name": "Gemma 4 26B A4B IT",
@@ -141149,7 +141156,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "nan/glm5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -144249,7 +144256,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nano-gpt/anthropic/claude-haiku-latest": {
       "name": "Claude Haiku Latest",
@@ -145209,7 +145216,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "nano-gpt/anthropic/claude-sonnet-5.5:thinking": {
       "name": "Claude Sonnet 5.5 Thinking",
@@ -145374,7 +145381,7 @@
       "outCost": 0.45,
       "cacheRead": 0.05,
       "open": true,
-      "reasoning": false,
+      "reasoning": true,
       "toolCall": false,
       "modalities": {
         "input": [
@@ -145952,7 +145959,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "nano-gpt/deepseek-ai/DeepSeek-V3.1-Terminus": {
       "name": "DeepSeek V3.1 Terminus",
@@ -146347,7 +146354,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "nano-gpt/deepseek/deepseek-v3.2:thinking": {
       "name": "DeepSeek V3.2 Thinking",
@@ -146771,7 +146778,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "nano-gpt/deepseek/deepseek-v4.1-flash:thinking": {
       "name": "DeepSeek V4.1 Flash Thinking",
@@ -148927,7 +148934,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "nano-gpt/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -148959,7 +148966,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "nano-gpt/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -149887,6 +149894,34 @@
       },
       "shared": 3
     },
+    "nano-gpt/liquid/lfm-2.5-24b-a2b": {
+      "name": "LFM2.5 24B A2B",
+      "norm": "lfm2-5-24b-a2b",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-14",
+      "releasePrecision": "day",
+      "updated": "2026-10-14",
+      "ctx": 128000,
+      "out": 8192,
+      "in": 0.05,
+      "outCost": 0.7,
+      "cacheRead": 0.025,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 4
+    },
     "nano-gpt/longcat-2.0": {
       "name": "LongCat 2.0",
       "norm": "longcat-2-0",
@@ -150195,7 +150230,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "nano-gpt/meta-llama/llama-4-maverick": {
       "name": "Llama 4 Maverick",
@@ -150725,7 +150760,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "nano-gpt/minimax/minimax-m3:thinking": {
       "name": "MiniMax M3 Thinking",
@@ -151994,7 +152029,7 @@
       "outCost": 0.45,
       "cacheRead": 0.05,
       "open": true,
-      "reasoning": false,
+      "reasoning": true,
       "toolCall": false,
       "modalities": {
         "input": [
@@ -152022,7 +152057,7 @@
       "outCost": 0.45,
       "cacheRead": 0.05,
       "open": true,
-      "reasoning": false,
+      "reasoning": true,
       "toolCall": false,
       "modalities": {
         "input": [
@@ -153345,7 +153380,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "nano-gpt/openai/gpt-6-luna-pro": {
       "name": "GPT 6 Luna Pro",
@@ -153405,7 +153440,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nano-gpt/openai/gpt-6-sol-pro": {
       "name": "GPT 6 Sol Pro",
@@ -153465,7 +153500,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nano-gpt/openai/gpt-6.1-sol-pro": {
       "name": "GPT 6.1 Sol Pro",
@@ -153643,7 +153678,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nano-gpt/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -157125,35 +157160,6 @@
       },
       "shared": 1
     },
-    "nano-gpt/unbiased/pareto": {
-      "name": "Pareto",
-      "norm": "pareto",
-      "vendor": "nano-gpt",
-      "vendorRaw": "nano-gpt",
-      "vendorName": "NanoGPT",
-      "isOrigin": false,
-      "release": "2026-09-17",
-      "releasePrecision": "day",
-      "updated": "2026-09-17",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 2.5,
-      "outCost": 7.5,
-      "cacheRead": 0.25,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 5
-    },
     "nano-gpt/unbiased/pareto-26.10-preview": {
       "name": "Pareto 26.10 Preview",
       "norm": "pareto-26-10-preview",
@@ -157169,6 +157175,35 @@
       "in": 0.8,
       "outCost": 3.2,
       "cacheRead": 0.03,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "nano-gpt/unbiased/pareto-26.9": {
+      "name": "Pareto 26.9",
+      "norm": "pareto-26-9",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-09-18",
+      "releasePrecision": "day",
+      "updated": "2026-09-18",
+      "ctx": 262144,
+      "out": 131072,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.25,
       "open": false,
       "reasoning": false,
       "toolCall": true,
@@ -157667,7 +157702,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "nano-gpt/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -158812,7 +158847,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "nano-gpt/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -159389,7 +159424,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nearai/anthropic/claude-opus-4-6": {
       "name": "Claude Opus 4.6",
@@ -159656,7 +159691,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "nearai/black-forest-labs/FLUX.2-klein-4B": {
       "name": "FLUX.2 Klein 4B",
@@ -159712,7 +159747,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "nearai/deepseek/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -159741,7 +159776,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "nearai/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -159930,7 +159965,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "nearai/moonshotai/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -160454,7 +160489,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "nearai/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -160483,7 +160518,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nearai/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -160512,7 +160547,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "nearai/openai/o3": {
       "name": "o3",
@@ -160742,7 +160777,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "nearai/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -160799,7 +160834,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "nebius/NousResearch/Hermes-4-405B": {
       "name": "Hermes-4-405B",
@@ -161080,7 +161115,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "nebius/google/gemma-3-27b-it": {
       "name": "Gemma-3-27b-it",
@@ -161277,7 +161312,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "nebius/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -161333,7 +161368,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "nebius/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -161452,6 +161487,36 @@
         ]
       },
       "shared": 43
+    },
+    "neon/claude-haiku-5-5": {
+      "name": "Claude Haiku 5.5",
+      "norm": "claude-haiku-5-5",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-10-07",
+      "releasePrecision": "day",
+      "updated": "2026-10-07",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 0.1,
+      "outCost": 0.5,
+      "cacheRead": 0.01,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 29
     },
     "neon/claude-opus-4-1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -161753,6 +161818,65 @@
       },
       "shared": 40
     },
+    "neon/claude-sonnet-5-5": {
+      "name": "Claude Sonnet 5.5",
+      "norm": "claude-sonnet-5-5",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-28",
+      "releasePrecision": "day",
+      "updated": "2026-09-28",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 28
+    },
+    "neon/deepseek-v4-1-flash": {
+      "name": "DeepSeek V4.1 Flash",
+      "norm": "deepseek-v4-1-flash",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-10",
+      "releasePrecision": "day",
+      "updated": "2026-09-10",
+      "ctx": 1000000,
+      "out": 384000,
+      "in": 0.3,
+      "outCost": 1.2,
+      "cacheRead": 0.03,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 63
+    },
     "neon/gemini-3-1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite Preview",
       "norm": "gemini-3-1-flash-lite-preview",
@@ -161913,6 +162037,70 @@
       },
       "shared": 29
     },
+    "neon/gemini-3-7-flash": {
+      "name": "Gemini 3.7 Flash",
+      "norm": "gemini-3-7-flash",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-08-13",
+      "releasePrecision": "day",
+      "updated": "2026-08-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 27
+    },
+    "neon/gemini-3-8-flash": {
+      "name": "Gemini 3.8 Flash",
+      "norm": "gemini-3-8-flash",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-02",
+      "releasePrecision": "day",
+      "updated": "2026-09-02",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 1.5,
+      "outCost": 7.5,
+      "cacheRead": 0.15,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 27
+    },
     "neon/gemini-3-flash": {
       "name": "Gemini 3 Flash Preview",
       "norm": "gemini-3-flash-preview",
@@ -162001,6 +162189,34 @@
         ]
       },
       "shared": 87
+    },
+    "neon/glm-5-3": {
+      "name": "GLM-5.3",
+      "norm": "glm-5-3",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 1.4,
+      "outCost": 4.4,
+      "cacheRead": 0.26,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 77
     },
     "neon/glm-5-3-flash": {
       "name": "GLM-5.3 Flash",
@@ -162460,6 +162676,36 @@
       },
       "shared": 30
     },
+    "neon/gpt-6-1-sol": {
+      "name": "GPT-6.1 Sol",
+      "norm": "gpt-6-1-sol",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-29",
+      "releasePrecision": "day",
+      "updated": "2026-09-29",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 29
+    },
     "neon/gpt-6-astra": {
       "name": "GPT-6 Astra",
       "norm": "gpt-6-astra",
@@ -162491,6 +162737,66 @@
       },
       "shared": 31
     },
+    "neon/gpt-6-luna": {
+      "name": "GPT-6 Luna",
+      "norm": "gpt-6-luna",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 0.1,
+      "outCost": 0.5,
+      "cacheRead": 0.01,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 30
+    },
+    "neon/gpt-6-sol": {
+      "name": "GPT-6 Sol",
+      "norm": "gpt-6-sol",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 29
+    },
     "neon/gpt-oss-120b": {
       "name": "GPT OSS 120B",
       "norm": "gpt-oss-120b",
@@ -162517,7 +162823,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "neon/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -162575,6 +162881,36 @@
         ]
       },
       "shared": 33
+    },
+    "neon/grok-4-7": {
+      "name": "Grok 4.7",
+      "norm": "grok-4-7",
+      "vendor": "neon",
+      "vendorRaw": "neon",
+      "vendorName": "Neon",
+      "isOrigin": false,
+      "release": "2026-09-21",
+      "releasePrecision": "day",
+      "updated": "2026-09-21",
+      "ctx": 500000,
+      "out": 500000,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.5,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 26
     },
     "neon/inkling": {
       "name": "Inkling",
@@ -162719,7 +163055,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "neon/qwen3-next-80b-a3b-instruct": {
       "name": "Qwen3-Next 80B-A3B Instruct",
@@ -163032,7 +163368,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "neuralwatt/deepseek-v4.1-flash-flex": {
       "name": "DeepSeek V4.1 Flash Flex",
@@ -163314,7 +163650,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "neuralwatt/glm-5.3-flash": {
       "name": "GLM-5.3 Flash",
@@ -164235,7 +164571,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "novita-ai/deepseek/deepseek_v3": {
       "name": "DeepSeek-V3",
@@ -164379,7 +164715,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "novita-ai/gryphe/mythomax-l2-13b": {
       "name": "MythoMax L2 13B",
@@ -164633,7 +164969,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "novita-ai/meta-llama/llama-4-maverick-17b-128e-instruct-fp8": {
       "name": "Llama 4 Maverick 17B Instruct",
@@ -164889,7 +165225,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "novita-ai/minimaxai/minimax-m1-80k": {
       "name": "MiniMax M1 80K",
@@ -165205,7 +165541,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "novita-ai/paddlepaddle/paddleocr-vl": {
       "name": "PaddleOCR VL",
@@ -166254,7 +166590,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "novita-ai/zai-org/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -166623,7 +166959,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "nvidia/google/diffusiongemma-26b-a4b-it": {
       "name": "DiffusionGemma 26B A4B IT",
@@ -166826,7 +167162,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "nvidia/google/google-paligemma": {
       "name": "paligemma",
@@ -167109,7 +167445,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "nvidia/meta/llama-4-maverick-17b-128e-instruct": {
       "name": "Llama 4 Maverick 17b 128e Instruct",
@@ -167310,7 +167646,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "nvidia/mistralai/magistral-small-2506": {
       "name": "Magistral Small 2506",
@@ -167395,7 +167731,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 4
     },
     "nvidia/mistralai/mistral-large-3-675b-instruct-2512": {
       "name": "Mistral Large 3 675B Instruct 2512",
@@ -169279,7 +169615,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "nvidia/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -169338,7 +169674,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "oci/meta.llama-4-maverick-17b-128e-instruct-fp8": {
       "name": "Llama 4 Maverick 17B Instruct",
@@ -169424,7 +169760,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "oci/openai.gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -169688,7 +170024,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "ofox/anthropic/claude-opus-4.5": {
       "name": "Claude Opus 4.5 (latest)",
@@ -169988,7 +170324,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "ofox/bailian/qwen-flash": {
       "name": "Qwen Flash",
@@ -170748,7 +171084,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "ofox/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -170974,7 +171310,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "ofox/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -171294,7 +171630,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "ofox/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -171325,7 +171661,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "ofox/minimax/m2-her": {
       "name": "MiniMax-M2 Her",
@@ -171579,7 +171915,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "ofox/moonshotai/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -172409,7 +172745,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "ofox/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -172439,7 +172775,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "ofox/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -172469,7 +172805,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "ofox/qwen/qwen-flash": {
       "name": "Qwen Flash",
@@ -173729,7 +174065,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "ofox/z-ai/glm-4.6": {
       "name": "GLM-4.6",
@@ -173953,7 +174289,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "ofox/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -174187,7 +174523,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "ollama-cloud/gemma4:31b": {
       "name": "gemma4:31b",
@@ -174300,7 +174636,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "ollama-cloud/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -174589,7 +174925,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "ollama-cloud/mistral-large-3:675b": {
       "name": "mistral-large-3:675b",
@@ -175789,7 +176125,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -175819,7 +176155,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -175849,7 +176185,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "openai/gpt-daybreak-blue-latest": {
       "name": "Daybreak Blue",
@@ -176374,7 +176710,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "opencode-go/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -176488,7 +176824,39 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
+    },
+    "opencode-go/gemini-4-argon-contributor": {
+      "name": "Gemini 4 Argon Contributor",
+      "norm": "gemini-4-argon-contributor",
+      "vendor": "opencode-go",
+      "vendorRaw": "opencode-go",
+      "vendorName": "OpenCode Go",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
     },
     "opencode-go/glm-5.2": {
       "name": "GLM-5.2",
@@ -176544,7 +176912,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "opencode-go/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -176635,7 +177003,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "opencode-go/grok-4.5": {
       "name": "Grok 4.5",
@@ -176723,7 +177091,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "opencode-go/hy3": {
       "name": "Hy3",
@@ -177105,7 +177473,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "opencode-go/muse-spark-1.2-contributor": {
       "name": "Muse Spark 1.2 Contributor",
@@ -177613,7 +177981,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "opencode/claude-opus-4-1": {
       "name": "Claude Opus 4.1",
@@ -177973,7 +178341,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "opencode/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -178115,7 +178483,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "opencode/exo-free": {
       "name": "Exo Free",
@@ -178397,7 +178765,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "opencode/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -178429,7 +178797,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "opencode/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -178685,7 +179053,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "opencode/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -179366,7 +179734,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "opencode/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -179396,7 +179764,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "opencode/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -179426,7 +179794,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "opencode/grok-4.5": {
       "name": "Grok 4.5",
@@ -179514,7 +179882,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "opencode/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -180378,7 +180746,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "opencode/minimax-m3-free": {
       "name": "MiniMax-M3 Free",
@@ -181085,7 +181453,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "openrouter/aion-labs/aion-2.0": {
       "name": "Aion-2.0",
@@ -181547,7 +181915,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "openrouter/anthropic/claude-opus-4.1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -181907,7 +182275,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "openrouter/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -182425,7 +182793,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "openrouter/deepseek/deepseek-r1": {
       "name": "DeepSeek-R1",
@@ -182537,7 +182905,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "openrouter/deepseek/deepseek-v3.2-exp": {
       "name": "DeepSeek V3.2 Exp",
@@ -182664,9 +183032,9 @@
       "updated": "2026-04-24",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.383496,
-      "outCost": 0.766992,
-      "cacheRead": 0.031958,
+      "in": 0.434304,
+      "outCost": 0.868608,
+      "cacheRead": 0.036192,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -182720,8 +183088,8 @@
       "updated": "2026-09-10",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0405,
-      "outCost": 0.765,
+      "in": 0.02016,
+      "outCost": 0.891,
       "cacheRead": 0.0054,
       "open": true,
       "reasoning": true,
@@ -182735,7 +183103,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "openrouter/dots-studio/dots-3-note-preview:free": {
       "name": "Dots3-Note Preview (free)",
@@ -183388,7 +183756,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "openrouter/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -183420,7 +183788,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "openrouter/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -183611,9 +183979,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.0765,
-      "outCost": 0.255,
-      "cacheRead": 0.0425,
+      "in": 0.09,
+      "outCost": 0.3,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -183687,7 +184055,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "openrouter/google/gemma-4-31b-it:free": {
       "name": "Gemma 4 31B (free)",
@@ -184115,7 +184483,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "openrouter/mancer/weaver": {
       "name": "Weaver (alpha)",
@@ -184311,7 +184679,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "openrouter/meta-llama/llama-4-maverick": {
       "name": "Llama 4 Maverick",
@@ -184740,9 +185108,9 @@
       "releasePrecision": "day",
       "updated": "2025-10-27",
       "ctx": 204800,
-      "out": 176947,
-      "in": 0.3,
-      "outCost": 1.2,
+      "out": 131072,
+      "in": 0.255,
+      "outCost": 1.02,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
@@ -184897,7 +185265,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "openrouter/mistralai/codestral-2508": {
       "name": "Codestral 25.08",
@@ -185665,9 +186033,9 @@
       "updated": "2026-07-16",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.73,
-      "outCost": 10,
-      "cacheRead": 0.55,
+      "in": 0.7,
+      "outCost": 15,
+      "cacheRead": 0.32,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -187532,7 +187900,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "openrouter/openai/gpt-6-luna-pro": {
       "name": "GPT-6 Luna Pro",
@@ -187592,7 +187960,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "openrouter/openai/gpt-6-sol-pro": {
       "name": "GPT-6 Sol Pro",
@@ -187652,7 +188020,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "openrouter/openai/gpt-6.1-sol-pro": {
       "name": "GPT-6.1 Sol Pro",
@@ -187785,10 +188153,10 @@
       "releasePrecision": "day",
       "updated": "2025-08-05",
       "ctx": 131072,
-      "out": 65536,
-      "in": 0.15,
-      "outCost": 0.6,
-      "cacheRead": 0.075,
+      "out": 117964,
+      "in": 0.037,
+      "outCost": 0.17,
+      "cacheRead": null,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -187800,7 +188168,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "openrouter/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -189283,9 +189651,9 @@
       "updated": "2026-02-15",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.55,
-      "outCost": 3.5,
-      "cacheRead": 0.225,
+      "in": 0.5,
+      "outCost": 3.6,
+      "cacheRead": 0.3,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -190396,9 +190764,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -190452,9 +190820,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -190672,35 +191040,6 @@
       },
       "shared": 24
     },
-    "openrouter/unbiased/pareto": {
-      "name": "Pareto",
-      "norm": "pareto",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2026-09-17",
-      "releasePrecision": "day",
-      "updated": "2026-09-17",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 2.5,
-      "outCost": 7.5,
-      "cacheRead": 0.25,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 5
-    },
     "openrouter/unbiased/pareto-26.10-preview": {
       "name": "Pareto 26.10 Preview",
       "norm": "pareto-26-10-preview",
@@ -190757,7 +191096,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 3
     },
     "openrouter/undi95/remm-slerp-l2-13b": {
       "name": "ReMM SLERP 13B",
@@ -191077,7 +191416,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "openrouter/x-ai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -191527,10 +191866,10 @@
       "releasePrecision": "day",
       "updated": "2026-04-07",
       "ctx": 204800,
-      "out": 128000,
-      "in": 0.966,
-      "outCost": 3.036,
-      "cacheRead": 0.1794,
+      "out": 131072,
+      "in": 1.33,
+      "outCost": 4.18,
+      "cacheRead": 0.247,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -191556,9 +191895,9 @@
       "updated": "2026-06-13",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.08,
+      "in": 0.05,
       "outCost": 7,
-      "cacheRead": 0.07,
+      "cacheRead": 0.049,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -191598,7 +191937,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "openrouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -191612,7 +191951,7 @@
       "updated": "2026-08-26",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0333,
+      "in": 0.0342,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": true,
@@ -191850,8 +192189,8 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0405,
-      "outCost": 0.765,
+      "in": 0.02016,
+      "outCost": 0.891,
       "cacheRead": 0.0054,
       "open": false,
       "reasoning": true,
@@ -191879,9 +192218,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1452,
-      "outCost": 0.4356,
-      "cacheRead": 0.00462,
+      "in": 0.1461,
+      "outCost": 8,
+      "cacheRead": 0.15,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -191999,8 +192338,8 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.72,
-      "outCost": 24,
+      "in": 0.536,
+      "outCost": 14,
       "cacheRead": 0.3,
       "open": false,
       "reasoning": true,
@@ -192167,6 +192506,35 @@
       },
       "shared": 3
     },
+    "openrouter/~unbiased/pareto-latest": {
+      "name": "Pareto Latest",
+      "norm": "pareto-latest",
+      "vendor": "openrouter",
+      "vendorRaw": "openrouter",
+      "vendorName": "OpenRouter",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 262144,
+      "out": 131072,
+      "in": 2.5,
+      "outCost": 7.5,
+      "cacheRead": 0.25,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "openrouter/~x-ai/grok-latest": {
       "name": "Grok Latest",
       "norm": "grok-latest",
@@ -192209,7 +192577,7 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.0333,
+      "in": 0.0342,
       "outCost": 0.9,
       "cacheRead": 0.0108,
       "open": false,
@@ -192239,9 +192607,9 @@
       "updated": "2026-08-19",
       "ctx": 1048576,
       "out": 131072,
-      "in": 0.063,
+      "in": 0.0576,
       "outCost": 4.4,
-      "cacheRead": 0.0586,
+      "cacheRead": 0.0536,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -192826,7 +193194,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "opper/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -192858,7 +193226,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "opper/gemma-4-31b-it": {
       "name": "Gemma 4 31B IT",
@@ -192887,7 +193255,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "opper/glm-5.2": {
       "name": "GLM-5.2",
@@ -192943,7 +193311,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "opper/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -193352,7 +193720,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "opper/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -193582,7 +193950,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "opper/mistral-large-2512": {
       "name": "Mistral Large 3",
@@ -194960,7 +195328,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "orcarouter/grok/grok-4.3": {
       "name": "Grok 4.3",
@@ -195373,7 +195741,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "orcarouter/openai/gpt-3.5-turbo": {
       "name": "GPT-3.5-turbo",
@@ -196397,7 +196765,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "orcarouter/orcarouter/auto": {
       "name": "OrcaRouter Auto",
@@ -197332,7 +197700,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "orcarouter/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -197422,7 +197790,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "ovhcloud/gpt-oss-20b": {
       "name": "gpt-oss-20b",
@@ -197479,34 +197847,6 @@
         ]
       },
       "shared": 2
-    },
-    "ovhcloud/mistral-7b-instruct-v0.3": {
-      "name": "Mistral-7B-Instruct-v0.3",
-      "norm": "mistral-7b-instruct-v0-3",
-      "vendor": "ovhcloud",
-      "vendorRaw": "ovhcloud",
-      "vendorName": "OVHcloud AI Endpoints",
-      "isOrigin": false,
-      "release": "2025-04-01",
-      "releasePrecision": "day",
-      "updated": "2025-04-01",
-      "ctx": 65536,
-      "out": 65536,
-      "in": 0.11,
-      "outCost": 0.11,
-      "cacheRead": null,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 5
     },
     "ovhcloud/mistral-nemo-instruct-2407": {
       "name": "Mistral-Nemo-Instruct-2407",
@@ -197878,7 +198218,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "pendra/llama3.3:70b": {
       "name": "Llama-3.3-70B-Instruct",
@@ -197906,7 +198246,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "pendra/qwen3-coder:30b": {
       "name": "Qwen3-Coder 30B-A3B Instruct",
@@ -198847,7 +199187,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "pioneer/Qwen/Qwen2.5-Coder-0.5B": {
       "name": "Qwen2.5-Coder-0.5B",
@@ -199640,7 +199980,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "pioneer/deepseek-ai/DeepSeek-V4-Flash": {
       "name": "DeepSeek V4 Flash",
@@ -200338,7 +200678,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "pioneer/google/gemma-4-E2B-it": {
       "name": "Gemma 4 E2B IT",
@@ -201097,7 +201437,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "pioneer/meta/muse-spark-1.1": {
       "name": "Muse Spark 1.1",
@@ -201384,7 +201724,7 @@
           "text"
         ]
       },
-      "shared": 5
+      "shared": 4
     },
     "pioneer/mistralai/Mistral-Nemo-Instruct-2407": {
       "name": "Mistral Nemo",
@@ -201730,7 +202070,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "pioneer/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -203771,7 +204111,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "poe/novita/glm-4.6": {
       "name": "GLM-4.6",
@@ -206534,7 +206874,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "prime/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -206689,7 +207029,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "prime/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -206720,7 +207060,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "prime/google/gemma-3-27b-it": {
       "name": "Gemma 3 27B",
@@ -206777,7 +207117,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "prime/mistralai/mistral-large-2512": {
       "name": "Mistral Large 3 2512",
@@ -207674,7 +208014,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "prime/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -207703,7 +208043,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "prime/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -207732,7 +208072,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "prime/openai/gpt-oss-120b": {
       "name": "gpt-oss-120b",
@@ -207745,7 +208085,7 @@
       "releasePrecision": "day",
       "updated": "2025-08-05",
       "ctx": 131072,
-      "out": 65536,
+      "out": 117964,
       "in": 0.35,
       "outCost": 0.75,
       "cacheRead": null,
@@ -207760,7 +208100,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "prime/openai/gpt-oss-20b": {
       "name": "gpt-oss-20b",
@@ -207932,7 +208272,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "prime/z-ai/glm-5.2": {
       "name": "GLM 5.2",
@@ -207988,7 +208328,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "prime/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -208075,7 +208415,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "privatemode-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -208189,7 +208529,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "privatemode-ai/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -209031,7 +209371,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "qiniu-ai/deepseek/deepseek-math-v2": {
       "name": "Deepseek/Deepseek-Math-V2",
@@ -209143,7 +209483,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "qiniu-ai/deepseek/deepseek-v3.2-exp": {
       "name": "DeepSeek/DeepSeek-V3.2-Exp",
@@ -209857,7 +210197,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "qiniu-ai/gpt-oss-20b": {
       "name": "gpt-oss-20b",
@@ -211265,7 +211605,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "qvac/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -211293,7 +211633,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "qvac/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -211669,7 +212009,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "regolo-ai/glm5.2": {
       "name": "GLM-5.2",
@@ -211725,7 +212065,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "regolo-ai/gpt-oss-20b": {
       "name": "GPT-OSS-20B",
@@ -211781,7 +212121,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "regolo-ai/mistral-small-4-119b": {
       "name": "Mistral Small 4 119B",
@@ -212220,7 +212560,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/claude-haiku-5-5@eu": {
       "name": "Claude Haiku 5.5 (EU)",
@@ -212250,7 +212590,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/claude-opus-4-1": {
       "name": "Claude Opus 4.1 (latest)",
@@ -212850,7 +213190,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "requesty/claude-sonnet-5-5@eu": {
       "name": "Claude Sonnet 5.5 (EU)",
@@ -212880,7 +213220,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "requesty/claude-sonnet-5@eu": {
       "name": "Claude Sonnet 5 (EU)",
@@ -213135,7 +213475,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "requesty/deepseek-v4.1-flash@eu": {
       "name": "DeepSeek V4.1 Flash (EU)",
@@ -213164,7 +213504,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "requesty/devstral-latest": {
       "name": "devstral-latest",
@@ -213695,7 +214035,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "requesty/gemini-3.7-flash@eu": {
       "name": "Gemini 3.7 Flash (EU)",
@@ -213727,7 +214067,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "requesty/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -213759,7 +214099,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "requesty/gemini-3.8-flash@eu": {
       "name": "Gemini 3.8 Flash (EU)",
@@ -213791,7 +214131,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "requesty/gemini-4-argon": {
       "name": "Gemini 4 Argon",
@@ -213913,7 +214253,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "requesty/glm-5.1": {
       "name": "GLM-5.1",
@@ -214081,7 +214421,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "requesty/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -214171,7 +214511,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "requesty/gpt-4.1-mini@eu": {
       "name": "GPT-4.1 mini (EU)",
@@ -214913,7 +215253,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "requesty/gpt-6-luna@eu": {
       "name": "GPT-6 Luna (EU)",
@@ -214943,7 +215283,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "requesty/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -214973,7 +215313,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/gpt-6-sol@eu": {
       "name": "GPT-6 Sol (EU)",
@@ -215003,7 +215343,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -215033,7 +215373,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/gpt-6.1-sol@eu": {
       "name": "GPT-6.1 Sol (EU)",
@@ -215063,7 +215403,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "requesty/grok-4.2-beta": {
       "name": "grok-4.2-beta",
@@ -215210,7 +215550,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "requesty/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -215968,7 +216308,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "requesty/minimax-m3@eu": {
       "name": "MiniMax-M3 (EU)",
@@ -215998,7 +216338,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "requesty/mistral-large-4": {
       "name": "Mistral Large 4",
@@ -217986,6 +218326,176 @@
       },
       "shared": 32
     },
+    "sambanova/DeepSeek-V3.1": {
+      "name": "DeepSeek-V3.1",
+      "norm": "deepseek-v3-1",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2025-08-21",
+      "releasePrecision": "day",
+      "updated": "2025-08-21",
+      "ctx": 131072,
+      "out": 7168,
+      "in": 3,
+      "outCost": 4.5,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 22
+    },
+    "sambanova/DeepSeek-V3.2": {
+      "name": "DeepSeek V3.2",
+      "norm": "deepseek-v3-2",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2025-12-01",
+      "releasePrecision": "day",
+      "updated": "2025-12-01",
+      "ctx": 32768,
+      "out": 7168,
+      "in": 3,
+      "outCost": 4.5,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 36
+    },
+    "sambanova/Meta-Llama-3.3-70B-Instruct": {
+      "name": "Llama-3.3-70B-Instruct",
+      "norm": "llama-3-3-70b-instruct",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2024-12-06",
+      "releasePrecision": "day",
+      "updated": "2024-12-06",
+      "ctx": 131072,
+      "out": 3072,
+      "in": 0.6,
+      "outCost": 1.2,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 35
+    },
+    "sambanova/MiniMax-M3": {
+      "name": "MiniMax-M3",
+      "norm": "minimax-m3",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2026-06-01",
+      "releasePrecision": "day",
+      "updated": "2026-06-01",
+      "ctx": 1048576,
+      "out": 1048576,
+      "in": 0.6,
+      "outCost": 2.4,
+      "cacheRead": 0.06,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 53
+    },
+    "sambanova/gemma-4-31B-it": {
+      "name": "Gemma 4 31B IT",
+      "norm": "gemma-4-31b-it",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2026-04-02",
+      "releasePrecision": "day",
+      "updated": "2026-04-02",
+      "ctx": 131072,
+      "out": 131072,
+      "in": 0.38,
+      "outCost": 1.15,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 34
+    },
+    "sambanova/gpt-oss-120b": {
+      "name": "GPT OSS 120B",
+      "norm": "gpt-oss-120b",
+      "vendor": "sambanova",
+      "vendorRaw": "sambanova",
+      "vendorName": "SambaNova",
+      "isOrigin": false,
+      "release": "2025-08-05",
+      "releasePrecision": "day",
+      "updated": "2025-08-05",
+      "ctx": 131072,
+      "out": 131072,
+      "in": 0.22,
+      "outCost": 0.59,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 60
+    },
     "sap-ai-core/amazon--nova-lite": {
       "name": "amazon--nova-lite",
       "norm": "amazon-nova-lite",
@@ -218804,7 +219314,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "sap-ai-core/gemini-embedding": {
       "name": "Gemini Embedding 001",
@@ -219279,7 +219789,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "sap-ai-core/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -219309,7 +219819,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "sap-ai-core/mistralai--mistral-medium": {
       "name": "Mistral Medium 3.5",
@@ -219818,7 +220328,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "scaleway/llama-3.3-70b-instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -219846,7 +220356,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "scaleway/mistral-medium-3.5-128b": {
       "name": "Mistral Medium 3.5 128B",
@@ -220274,7 +220784,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "scnet-token-plan/GLM-5": {
       "name": "GLM-5",
@@ -220386,7 +220896,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "scnet-token-plan/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -220615,7 +221125,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "scnet-token-plan/Qwen3.8-Flash": {
       "name": "Qwen3.8 Flash",
@@ -220790,7 +221300,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "sensenova/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -221991,7 +222501,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "siliconflow-cn/deepseek-ai/DeepSeek-V4-Flash": {
       "name": "DeepSeek V4 Flash",
@@ -222272,7 +222782,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "siliconflow/Qwen/Qwen2.5-72B-Instruct": {
       "name": "Qwen/Qwen2.5-72B-Instruct",
@@ -222949,7 +223459,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "siliconflow/deepseek-ai/DeepSeek-V3.1-Terminus": {
       "name": "deepseek-ai/DeepSeek-V3.1-Terminus",
@@ -223005,7 +223515,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "siliconflow/deepseek-ai/DeepSeek-V3.2-Exp": {
       "name": "deepseek-ai/DeepSeek-V3.2-Exp",
@@ -223258,7 +223768,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "siliconflow/inclusionAI/Ling-flash-2.0": {
       "name": "inclusionAI/Ling-flash-2.0",
@@ -223487,7 +223997,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "siliconflow/openai/gpt-oss-20b": {
       "name": "openai/gpt-oss-20b",
@@ -223739,7 +224249,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "siliconflow/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -224539,7 +225049,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "stackit/Qwen/Qwen3-VL-235B-A22B-Instruct-FP8": {
       "name": "Qwen3-VL 235B",
@@ -224738,7 +225248,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "stackit/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -225792,7 +226302,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "submodel/openai/gpt-oss-120b": {
       "name": "GPT OSS 120B",
@@ -225820,7 +226330,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "submodel/zai-org/GLM-4.5-Air": {
       "name": "GLM 4.5 Air",
@@ -225905,7 +226415,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "synthetic/hf:Qwen/Qwen3.6-27B": {
       "name": "Qwen3.6 27B",
@@ -225963,7 +226473,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "synthetic/hf:moonshotai/Kimi-K2.7-Code": {
       "name": "Kimi K2.7 Code",
@@ -226077,7 +226587,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "synthetic/hf:zai-org/GLM-4.7-Flash": {
       "name": "GLM-4.7-Flash",
@@ -226161,7 +226671,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "synthetic/hf:zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -226638,7 +227148,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tempr/cerebras/qwen-3.8-27b": {
       "name": "Qwen3.8 27B",
@@ -226696,7 +227206,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "tempr/deepseek/deepseek-v4-pro": {
       "name": "DeepSeek V4 Pro",
@@ -226980,7 +227490,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "tempr/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -227012,7 +227522,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "tempr/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -227190,7 +227700,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "tempr/groq/allam-2-7b": {
       "name": "ALLaM-2-7b",
@@ -227246,7 +227756,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tempr/groq/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -227389,7 +227899,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "tempr/mistral/mistral-embed": {
       "name": "Mistral Embed",
@@ -227676,7 +228186,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "tempr/moonshot/kimi-k2.6": {
       "name": "Kimi K2.6",
@@ -227976,7 +228486,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "tempr/xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -228525,7 +229035,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "tempr/zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -229040,7 +229550,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "tensorx/deepseek/deepseek-v4-flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -229153,7 +229663,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "tensorx/minimax/minimax-m2.5": {
       "name": "MiniMax-M2.5",
@@ -229211,7 +229721,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "tensorx/moonshotai/kimi-k2.5": {
       "name": "Kimi K2.5",
@@ -229648,7 +230158,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "tensorx/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -230251,7 +230761,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "tinfoil/gemma4-31b": {
       "name": "Gemma 4 31B IT",
@@ -230280,7 +230790,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "tinfoil/glm-5-3": {
       "name": "GLM-5.3",
@@ -230308,7 +230818,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "tinfoil/gpt-oss-120b": {
       "name": "gpt-oss-120b",
@@ -230336,7 +230846,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "tinfoil/gpt-oss-safeguard-120b": {
       "name": "gpt-oss-safeguard-120b",
@@ -230422,7 +230932,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "tinfoil/nomic-embed-text": {
       "name": "Nomic Embed Text v1.5",
@@ -230563,7 +231073,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "togetherai/Qwen/Qwen2.5-7B-Instruct-Turbo": {
       "name": "Qwen 2.5 7B Instruct Turbo",
@@ -230873,7 +231383,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "togetherai/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -230958,7 +231468,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "togetherai/essentialai/Rnj-1-Instruct": {
       "name": "Rnj-1 Instruct",
@@ -231100,7 +231610,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "togetherai/thinkingmachines/Inkling": {
       "name": "Inkling",
@@ -231242,7 +231752,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "togetherai/zai-org/GLM-5.3-Flash": {
       "name": "GLM-5.3-Flash",
@@ -231300,7 +231810,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "tokengo/deepseek/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -231328,7 +231838,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "tokengo/deepseek/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -231615,7 +232125,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "tokengo/z-ai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -231674,7 +232184,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "trustedrouter/trustedrouter/auto": {
       "name": "Auto",
@@ -231971,7 +232481,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "umans-ai-coding-plan/umans-flash": {
       "name": "Umans Flash",
@@ -232028,7 +232538,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "umans-ai-coding-plan/umans-glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -232203,7 +232713,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "umans-ai/umans-flash": {
       "name": "Umans Flash",
@@ -232260,7 +232770,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "umans-ai/umans-glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -232582,7 +233092,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "unorouter/glm-4.5-flash:free": {
       "name": "GLM-4.5-Flash",
@@ -233132,7 +233642,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "vancine/deepseek-v4.1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -233161,7 +233671,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "vancine/glm-5.3": {
       "name": "GLM-5.3",
@@ -233189,7 +233699,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "vancine/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -233566,7 +234076,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "venice/claude-opus-4-5": {
       "name": "Claude Opus 4.5",
@@ -233943,7 +234453,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "venice/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -233971,7 +234481,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "venice/deepseek-v4-1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -234000,7 +234510,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "venice/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash 0423",
@@ -234295,7 +234805,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "venice/gemini-3-8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -234326,7 +234836,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "venice/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -234650,7 +235160,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "venice/grok-build-0-1": {
       "name": "Grok Build 0.1",
@@ -235714,7 +236224,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "venice/openai-gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -235743,7 +236253,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "venice/openai-gpt-61-sol": {
       "name": "GPT-6.1 Sol",
@@ -235772,7 +236282,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "venice/openai-gpt-61-sol-ultrafast": {
       "name": "GPT-6.1 Sol Ultrafast",
@@ -236504,7 +237014,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "venice/z-ai-glm-5-3-flash": {
       "name": "GLM 5.3 Flash",
@@ -238116,7 +238626,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vercel/anthropic/claude-opus-4.5": {
       "name": "Claude Opus 4.5",
@@ -238536,7 +239046,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "vercel/arcee-ai/trinity-large-thinking": {
       "name": "Trinity Large Thinking",
@@ -239579,7 +240089,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "vercel/deepseek/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -239607,7 +240117,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "vercel/deepseek/deepseek-v3.2-thinking": {
       "name": "DeepSeek V3.2 Thinking",
@@ -239805,7 +240315,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "vercel/deepseek/deepseek-v4.1-flash-fast": {
       "name": "DeepSeek V4.1 Flash Fast",
@@ -240513,7 +241023,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "vercel/google/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -240543,7 +241053,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "vercel/google/gemini-3.8-flash-lite-tts": {
       "name": "Gemini 3.8 Flash-Lite TTS",
@@ -240865,7 +241375,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 34
     },
     "vercel/google/text-embedding-005": {
       "name": "Text Embedding 005",
@@ -241653,7 +242163,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 4
     },
     "vercel/meituan/longcat-2.5-preview": {
       "name": "LongCat 2.5 Preview",
@@ -241766,7 +242276,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "vercel/meta/llama-4-maverick": {
       "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
@@ -242570,7 +243080,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "vercel/mistral/codestral": {
       "name": "Codestral (latest)",
@@ -244862,7 +245372,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "vercel/openai/gpt-6-luna-fast": {
       "name": "GPT-6 Luna (Fast)",
@@ -244892,7 +245402,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "vercel/openai/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -244922,7 +245432,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vercel/openai/gpt-6-sol-fast": {
       "name": "GPT-6 Sol (Fast)",
@@ -244952,7 +245462,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vercel/openai/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -244982,7 +245492,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vercel/openai/gpt-6.1-sol-fast": {
       "name": "GPT-6.1 Sol (Fast)",
@@ -245012,7 +245522,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vercel/openai/gpt-image-1": {
       "name": "GPT Image 1",
@@ -245238,7 +245748,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "vercel/openai/gpt-oss-20b": {
       "name": "GPT OSS 20B",
@@ -246829,7 +247339,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "vercel/spacexai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -248385,7 +248895,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "vercel/zai/glm-5.3-fast": {
       "name": "GLM 5.3 Fast",
@@ -248687,7 +249197,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vivgrid/claude-opus-5": {
       "name": "Claude Opus 5",
@@ -248807,7 +249317,7 @@
           "text"
         ]
       },
-      "shared": 27
+      "shared": 28
     },
     "vivgrid/deepseek-v3.2": {
       "name": "DeepSeek-V3.2",
@@ -248835,7 +249345,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "vivgrid/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash",
@@ -248948,7 +249458,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "vivgrid/gemini-3.1-flash-lite-preview": {
       "name": "Gemini 3.1 Flash Lite Preview",
@@ -249044,7 +249554,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "vivgrid/gemini-3.8-flash": {
       "name": "Gemini 3.8 Flash",
@@ -249076,7 +249586,7 @@
           "text"
         ]
       },
-      "shared": 26
+      "shared": 27
     },
     "vivgrid/glm-5.2": {
       "name": "GLM-5.2",
@@ -249132,7 +249642,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "vivgrid/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -249578,7 +250088,7 @@
           "text"
         ]
       },
-      "shared": 29
+      "shared": 30
     },
     "vivgrid/gpt-6-sol": {
       "name": "GPT-6 Sol",
@@ -249608,7 +250118,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vivgrid/gpt-6.1-sol": {
       "name": "GPT-6.1 Sol",
@@ -249638,7 +250148,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "vivgrid/kimi-k3": {
       "name": "Kimi K3",
@@ -249871,7 +250381,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "volcengine-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -249992,7 +250502,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "volcengine/deepseek-v4-flash-ga-260731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -250519,7 +251029,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "vultr/glm-5.2": {
       "name": "GLM-5.2",
@@ -250575,7 +251085,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "vultr/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -250753,7 +251263,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "vultr/muse-glimmer-30b": {
       "name": "Muse Glimmer 30B",
@@ -251018,7 +251528,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "wafer.ai/glm5.2-fast": {
       "name": "GLM5.2-Fast",
@@ -251105,7 +251615,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "wandb/Qwen/Qwen3.6-35B-A3B": {
       "name": "Qwen3.6 35B A3B",
@@ -251191,7 +251701,7 @@
           "text"
         ]
       },
-      "shared": 21
+      "shared": 22
     },
     "wandb/deepseek-ai/DeepSeek-V4-Flash-0731": {
       "name": "DeepSeek V4 Flash 0731",
@@ -251276,7 +251786,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "wandb/google/gemma-4-26B-A4B-it": {
       "name": "Gemma 4 26B A4B",
@@ -251560,7 +252070,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "wandb/openai/gpt-oss-20b": {
       "name": "gpt-oss-20b",
@@ -251701,7 +252211,7 @@
           "text"
         ]
       },
-      "shared": 34
+      "shared": 35
     },
     "watsonx/meta-llama/llama-4-maverick-17b-128e-instruct-fp8": {
       "name": "Llama 4 Maverick 17B 128E Instruct FP8",
@@ -251787,7 +252297,7 @@
           "text"
         ]
       },
-      "shared": 59
+      "shared": 60
     },
     "xai/grok-4.20-0309-non-reasoning": {
       "name": "Grok 4.20 (Non-Reasoning)",
@@ -251997,7 +252507,7 @@
           "text"
         ]
       },
-      "shared": 25
+      "shared": 26
     },
     "xai/grok-build-0.1": {
       "name": "Grok Build 0.1",
@@ -253749,7 +254259,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "zai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -254234,7 +254744,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "zai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -254948,7 +255458,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "zenmux/deepseek/deepseek-v3.2": {
       "name": "DeepSeek V3.2",
@@ -254976,7 +255486,7 @@
           "text"
         ]
       },
-      "shared": 35
+      "shared": 36
     },
     "zenmux/deepseek/deepseek-v3.2-exp": {
       "name": "DeepSeek-V3.2-Exp",
@@ -255089,7 +255599,7 @@
           "text"
         ]
       },
-      "shared": 62
+      "shared": 63
     },
     "zenmux/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -255651,7 +256161,7 @@
           "text"
         ]
       },
-      "shared": 52
+      "shared": 53
     },
     "zenmux/moonshotai/kimi-k2-0905": {
       "name": "Kimi K2 0905",
@@ -256622,7 +257132,7 @@
           "text"
         ]
       },
-      "shared": 28
+      "shared": 29
     },
     "zenmux/qwen/qwen3-coder-plus": {
       "name": "Qwen3-Coder-Plus",
@@ -258039,7 +258549,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "zenmux/z-ai/glm-5.3-flash": {
       "name": "GLM 5.3 Flash",
@@ -258218,7 +258728,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "zhipuai-coding-plan/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",
@@ -258675,7 +259185,7 @@
           "text"
         ]
       },
-      "shared": 76
+      "shared": 77
     },
     "zhipuai/glm-5.3-flash": {
       "name": "GLM-5.3-Flash",

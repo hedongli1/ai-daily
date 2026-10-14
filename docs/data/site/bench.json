@@ -991,11 +991,11 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 3,
+      "runs": 4,
       "domains": {
         "(未标注)": {
-          "n": 3,
-          "avg": 0.688,
+          "n": 4,
+          "avg": 0.5681,
           "best": 0.9833
         }
       },

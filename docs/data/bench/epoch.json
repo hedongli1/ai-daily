@@ -1567,6 +1567,18 @@
       }
     },
     {
+      "model": "Mistral Large 4",
+      "release": "2026-10-06",
+      "nRuns": 4,
+      "domains": {
+        "(未标注)": {
+          "n": 4,
+          "avg": 0.5681,
+          "best": 0.9833
+        }
+      }
+    },
+    {
       "model": "Qwen2.5-32B",
       "release": "2024-09-17",
       "nRuns": 4,
@@ -1791,18 +1803,6 @@
           "n": 3,
           "avg": 0.8163,
           "best": 0.964
-        }
-      }
-    },
-    {
-      "model": "Mistral Large 4",
-      "release": "2026-10-06",
-      "nRuns": 3,
-      "domains": {
-        "(未标注)": {
-          "n": 3,
-          "avg": 0.688,
-          "best": 0.9833
         }
       }
     },
