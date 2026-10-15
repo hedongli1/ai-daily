@@ -60,7 +60,7 @@
         "n": "glm-5-2",
         "name": "GLM-5.2",
         "vn": "智谱 AI",
-        "val": 87,
+        "val": 88,
         "metric": "渠道数"
       }
     ]
@@ -109,11 +109,11 @@
     {
       "tag": "Audio",
       "models": 6,
-      "n": "gemini-3-8-flash",
-      "name": "Gemini 3.8 Flash",
+      "n": "gemini-3-7-flash",
+      "name": "Gemini 3.7 Flash",
       "vn": "谷歌",
-      "avg": 0.6138,
-      "best": 0.9889,
+      "avg": 0.6238,
+      "best": 0.9722,
       "runs": 8
     },
     {

@@ -863,7 +863,7 @@
       "domains": {
         "Language,Audio,Video,Multimodal": {
           "n": 8,
-          "avg": 0.6001,
+          "avg": 0.6238,
           "best": 0.9722
         }
       },
@@ -907,11 +907,11 @@
       "name": "Gemma 4 31B IT"
     },
     "muse-spark-1-1": {
-      "runs": 1,
+      "runs": 2,
       "domains": {
         "Language": {
-          "n": 1,
-          "avg": 0.5779,
+          "n": 2,
+          "avg": 0.4589,
           "best": 0.5779
         }
       },
@@ -919,11 +919,11 @@
       "name": "Muse Spark 1.1"
     },
     "muse-spark-1-2": {
-      "runs": 1,
+      "runs": 2,
       "domains": {
         "Language": {
-          "n": 1,
-          "avg": 0.603,
+          "n": 2,
+          "avg": 0.4365,
           "best": 0.603
         }
       },

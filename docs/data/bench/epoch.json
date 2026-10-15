@@ -883,6 +883,18 @@
       }
     },
     {
+      "model": "Gemini 3.7 Flash",
+      "release": "2026-08-13",
+      "nRuns": 8,
+      "domains": {
+        "Language,Audio,Video,Multimodal": {
+          "n": 8,
+          "avg": 0.6238,
+          "best": 0.9722
+        }
+      }
+    },
+    {
       "model": "DeepSeek V4.1 Flash",
       "release": "2026-09-09",
       "nRuns": 8,
@@ -915,18 +927,6 @@
           "n": 8,
           "avg": 0.6138,
           "best": 0.9889
-        }
-      }
-    },
-    {
-      "model": "Gemini 3.7 Flash",
-      "release": "2026-08-13",
-      "nRuns": 8,
-      "domains": {
-        "Language,Audio,Video,Multimodal": {
-          "n": 8,
-          "avg": 0.6001,
-          "best": 0.9722
         }
       }
     },
@@ -2251,6 +2251,30 @@
       }
     },
     {
+      "model": "Muse Spark 1.1",
+      "release": "2026-07-09",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.4589,
+          "best": 0.5779
+        }
+      }
+    },
+    {
+      "model": "Muse Spark 1.2",
+      "release": "2026-08-05",
+      "nRuns": 2,
+      "domains": {
+        "Language": {
+          "n": 2,
+          "avg": 0.4365,
+          "best": 0.603
+        }
+      }
+    },
+    {
       "model": "Muse Wonder",
       "release": "2026-10-12",
       "nRuns": 2,
@@ -2491,18 +2515,6 @@
       }
     },
     {
-      "model": "Muse Spark 1.1",
-      "release": "2026-07-09",
-      "nRuns": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.5779,
-          "best": 0.5779
-        }
-      }
-    },
-    {
       "model": "phi-3-mini 3.8B",
       "release": "2024-04-23",
       "nRuns": 1,
@@ -2559,18 +2571,6 @@
           "n": 1,
           "avg": 0,
           "best": 0
-        }
-      }
-    },
-    {
-      "model": "Muse Spark 1.2",
-      "release": "2026-08-05",
-      "nRuns": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.603,
-          "best": 0.603
         }
       }
     },
