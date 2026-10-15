@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "board": {
     "latest": [
       {
@@ -72,9 +72,9 @@
       "n": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "vn": "谷歌",
-      "avg": 0.7899,
+      "avg": 0.7741,
       "best": 1,
-      "runs": 8
+      "runs": 9
     },
     {
       "tag": "Multimodal",
@@ -82,9 +82,9 @@
       "n": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "vn": "谷歌",
-      "avg": 0.7899,
+      "avg": 0.7741,
       "best": 1,
-      "runs": 8
+      "runs": 9
     },
     {
       "tag": "Vision",
@@ -92,9 +92,9 @@
       "n": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "vn": "谷歌",
-      "avg": 0.7899,
+      "avg": 0.7741,
       "best": 1,
-      "runs": 8
+      "runs": 9
     },
     {
       "tag": "Video",
@@ -102,9 +102,9 @@
       "n": "muse-wonder",
       "name": "Muse Wonder",
       "vn": "Meta",
-      "avg": 0.6544,
+      "avg": 0.7093,
       "best": 0.9944,
-      "runs": 2
+      "runs": 4
     },
     {
       "tag": "Audio",

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15",
+  "generated": "2026-10-16",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -751,6 +751,18 @@
       }
     },
     {
+      "model": "Gemini 4 Argon",
+      "release": "2026-09-30",
+      "nRuns": 9,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 9,
+          "avg": 0.7741,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GPT-4.1 mini",
       "release": "2025-04-14",
       "nRuns": 9,
@@ -855,18 +867,6 @@
           "n": 9,
           "avg": 0.3581,
           "best": 0.6528
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Argon",
-      "release": "2026-09-30",
-      "nRuns": 8,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 8,
-          "avg": 0.7899,
-          "best": 1
         }
       }
     },
@@ -1615,6 +1615,18 @@
       }
     },
     {
+      "model": "Muse Wonder",
+      "release": "2026-10-12",
+      "nRuns": 4,
+      "domains": {
+        "Language,Vision,Video,Multimodal": {
+          "n": 4,
+          "avg": 0.7093,
+          "best": 0.9944
+        }
+      }
+    },
+    {
       "model": "Qwen2.5-32B",
       "release": "2024-09-17",
       "nRuns": 4,
@@ -2271,18 +2283,6 @@
           "n": 2,
           "avg": 0.4365,
           "best": 0.603
-        }
-      }
-    },
-    {
-      "model": "Muse Wonder",
-      "release": "2026-10-12",
-      "nRuns": 2,
-      "domains": {
-        "Language,Vision,Video,Multimodal": {
-          "n": 2,
-          "avg": 0.6544,
-          "best": 0.9944
         }
       }
     },
