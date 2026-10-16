@@ -3,12 +3,12 @@
   "date": "2026-10-16",
   "source": "https://models.dev/api.json",
   "registrySize": 33,
-  "vendorCount": 230,
+  "vendorCount": 231,
   "originVendorCount": 33,
-  "channelVendorCount": 189,
+  "channelVendorCount": 190,
   "aliasVendorCount": 8,
   "originModelCount": 646,
-  "modelCount": 8894,
+  "modelCount": 8900,
   "vendors": {
     "deepinfra": {
       "id": "deepinfra",
@@ -141,7 +141,7 @@
       "name": "NanoGPT",
       "rawName": "NanoGPT",
       "doc": "https://docs.nano-gpt.com",
-      "modelCount": 615,
+      "modelCount": 620,
       "isChannel": true,
       "aliasOf": null
     },
@@ -402,7 +402,7 @@
       "name": "LLM Gateway",
       "rawName": "LLM Gateway",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 439,
+      "modelCount": 433,
       "isChannel": true,
       "aliasOf": null
     },
@@ -420,7 +420,7 @@
       "name": "Kilo Gateway",
       "rawName": "Kilo Gateway",
       "doc": "https://kilo.ai",
-      "modelCount": 391,
+      "modelCount": 393,
       "isChannel": true,
       "aliasOf": null
     },
@@ -429,7 +429,7 @@
       "name": "Venice AI",
       "rawName": "Venice AI",
       "doc": "https://docs.venice.ai",
-      "modelCount": 122,
+      "modelCount": 123,
       "isChannel": true,
       "aliasOf": null
     },
@@ -457,6 +457,15 @@
       "rawName": "LowRouter",
       "doc": "https://lowrouter.ai/docs/models/available",
       "modelCount": 31,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "reflection": {
+      "id": "reflection",
+      "name": "Reflection",
+      "rawName": "Reflection",
+      "doc": "https://developers.reflection.ai/models",
+      "modelCount": 1,
       "isChannel": true,
       "aliasOf": null
     },
@@ -573,7 +582,7 @@
       "name": "302.AI",
       "rawName": "302.AI",
       "doc": "https://doc.302.ai",
-      "modelCount": 124,
+      "modelCount": 125,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1005,7 +1014,7 @@
       "name": "Cloudflare AI Gateway",
       "rawName": "Cloudflare AI Gateway",
       "doc": "https://developers.cloudflare.com/ai-gateway/",
-      "modelCount": 58,
+      "modelCount": 59,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1176,7 +1185,7 @@
       "name": "Vercel AI Gateway",
       "rawName": "Vercel AI Gateway",
       "doc": "https://github.com/vercel/ai/tree/5eb85cc45a259553501f535b8ac79a77d0e79223/packages/gateway",
-      "modelCount": 410,
+      "modelCount": 408,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1518,7 +1527,7 @@
       "name": "OpenCode Go",
       "rawName": "OpenCode Go",
       "doc": "https://opencode.ai/v2/docs/console/go/",
-      "modelCount": 31,
+      "modelCount": 32,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1590,7 +1599,7 @@
       "name": "Eden AI",
       "rawName": "Eden AI",
       "doc": "https://docs.edenai.co",
-      "modelCount": 329,
+      "modelCount": 331,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1662,7 +1671,7 @@
       "name": "OpenCode",
       "rawName": "OpenCode",
       "doc": "https://opencode.ai/v2/docs/console/models/",
-      "modelCount": 124,
+      "modelCount": 127,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1779,7 +1788,7 @@
       "name": "DevPass (LLM Gateway)",
       "rawName": "DevPass (LLM Gateway)",
       "doc": "https://llmgateway.io/docs",
-      "modelCount": 215,
+      "modelCount": 212,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1806,7 +1815,7 @@
       "name": "Prime Inference",
       "rawName": "Prime Inference",
       "doc": "https://docs.primeintellect.ai/inference/overview",
-      "modelCount": 65,
+      "modelCount": 66,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1896,7 +1905,7 @@
       "name": "Cortecs",
       "rawName": "Cortecs",
       "doc": "https://api.cortecs.ai/v1/models",
-      "modelCount": 107,
+      "modelCount": 106,
       "isChannel": true,
       "aliasOf": null
     },
@@ -3079,7 +3088,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "302ai/gemini-2.5-flash-image": {
       "name": "gemini-2.5-flash-image",
@@ -3224,7 +3233,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "302ai/gemini-3-flash-preview": {
       "name": "gemini-3-flash-preview",
@@ -3631,6 +3640,38 @@
         ]
       },
       "shared": 28
+    },
+    "302ai/gemini-4-argon": {
+      "name": "Gemini 4 Argon",
+      "norm": "gemini-4-argon",
+      "vendor": "302ai",
+      "vendorRaw": "302ai",
+      "vendorName": "302.AI",
+      "isOrigin": false,
+      "release": "2026-10-13",
+      "releasePrecision": "day",
+      "updated": "2026-10-13",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 4,
+      "outCost": 10,
+      "cacheRead": 0.2,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 21
     },
     "302ai/glm-4.5": {
       "name": "GLM-4.5",
@@ -6290,7 +6331,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "abacus/claude-sonnet-4-5-20250929": {
       "name": "Claude Sonnet 4.5",
@@ -6575,7 +6616,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "abacus/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -6635,7 +6676,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "abacus/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -8186,7 +8227,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "abacus/meta-llama/Meta-Llama-3.3-70B-Instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -11419,7 +11460,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "aihubmix/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -11481,7 +11522,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "aihubmix/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -11513,7 +11554,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "aihubmix/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -11924,7 +11965,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "aihubmix/glm-4.5v": {
       "name": "GLM-4.5V",
@@ -27562,7 +27603,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "amazon-bedrock/au.anthropic.claude-haiku-4-5-20251001-v1:0": {
       "name": "Claude Haiku 4.5 (AU)",
@@ -28398,7 +28439,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "amazon-bedrock/eu.anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5 (EU)",
@@ -28908,7 +28949,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "amazon-bedrock/global.anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5 (Global)",
@@ -30032,7 +30073,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "amazon-bedrock/meta.llama3-3-70b-instruct-v1:0": {
       "name": "Llama 3.3 70B Instruct",
@@ -31835,7 +31876,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "amazon-bedrock/us.anthropic.claude-sonnet-4-5-20250929-v1:0": {
       "name": "Claude Sonnet 4.5 (US)",
@@ -32039,7 +32080,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "amazon-bedrock/us.meta.llama3-3-70b-instruct-v1:0": {
       "name": "Llama 3.3 70B Instruct (US)",
@@ -34215,7 +34256,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "anyapi/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -34247,7 +34288,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "anyapi/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -34279,7 +34320,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "anyapi/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -35297,7 +35338,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "auriko/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -35329,7 +35370,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "auriko/gemini-3.1-pro-preview": {
       "name": "Gemini 3.1 Pro Preview",
@@ -44992,6 +45033,35 @@
       },
       "shared": 67
     },
+    "cloudflare-ai-gateway/fireworks/ember-1": {
+      "name": "Ember-1",
+      "norm": "ember-1",
+      "vendor": "cloudflare-ai-gateway",
+      "vendorRaw": "cloudflare-ai-gateway",
+      "vendorName": "Cloudflare AI Gateway",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1040000,
+      "out": 131072,
+      "in": 3,
+      "outCost": 15,
+      "cacheRead": 0.3,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 6
+    },
     "cloudflare-ai-gateway/google/gemini-4-argon": {
       "name": "Gemini 4 Argon",
       "norm": "gemini-4-argon",
@@ -45022,7 +45092,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "cloudflare-ai-gateway/meta/muse-spark-1.1": {
       "name": "Muse Spark 1.1",
@@ -47840,7 +47910,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "cortecs/claude-sonnet-5": {
       "name": "Claude Sonnet 5",
@@ -48128,7 +48198,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "cortecs/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -48158,7 +48228,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "cortecs/gemini-3.1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite",
@@ -48373,7 +48443,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "cortecs/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT",
@@ -49280,34 +49350,6 @@
         ]
       },
       "shared": 80
-    },
-    "cortecs/llama-3.1-8b-instruct": {
-      "name": "Llama-3.1-8B-Instruct",
-      "norm": "llama-3-1-8b-instruct",
-      "vendor": "cortecs",
-      "vendorRaw": "cortecs",
-      "vendorName": "Cortecs",
-      "isOrigin": false,
-      "release": "2024-07-23",
-      "releasePrecision": "day",
-      "updated": "2024-07-23",
-      "ctx": 128000,
-      "out": 128000,
-      "in": 0.167,
-      "outCost": 0.167,
-      "cacheRead": null,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 13
     },
     "cortecs/llama-3.3-70b-instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -51760,7 +51802,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "crossmodel/gemini/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -51791,7 +51833,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "crossmodel/gemini/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -51822,7 +51864,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "crossmodel/gemini/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -52070,7 +52112,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "crossmodel/minimax/minimax-m2.7": {
       "name": "MiniMax-M2.7",
@@ -54209,7 +54251,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "databricks/databricks-gemini-2-5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -54241,7 +54283,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "databricks/databricks-gemini-3-1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite Preview",
@@ -57763,7 +57805,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "digitalocean/anthropic-claude-sonnet-5.5": {
       "name": "Anthropic Claude Sonnet 5.5",
@@ -63921,6 +63963,38 @@
       },
       "shared": 24
     },
+    "edenai/fireworks_ai/accounts/fireworks/models/muse-spark-open": {
+      "name": "Muse Spark Open (Fireworks AI)",
+      "norm": "muse-spark-open",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 1.25,
+      "outCost": 4.25,
+      "cacheRead": 0.15,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
+    },
     "edenai/fireworks_ai/gpt-oss-120b": {
       "name": "GPT OSS 120B (Fireworks AI)",
       "norm": "gpt-oss-120b",
@@ -64738,7 +64812,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "edenai/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash)",
@@ -66180,6 +66254,38 @@
         ]
       },
       "shared": 11
+    },
+    "edenai/nebius/meta-models/muse-spark-open": {
+      "name": "Muse Spark Open (Nebius)",
+      "norm": "muse-spark-open",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 1.25,
+      "outCost": 4.25,
+      "cacheRead": 1.25,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
     },
     "edenai/nebius/nvidia/Nemotron-3-Ultra-550b-a55b": {
       "name": "Nemotron 3 Ultra 550B A55B (Nebius)",
@@ -69394,7 +69500,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "edenai/vertex/gemini-4-argon@eu": {
       "name": "Gemini 4 Argon (Vertex AI, EU)",
@@ -69426,7 +69532,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "edenai/vertex/gemini-4-argon@us": {
       "name": "Gemini 4 Argon (Vertex AI, US)",
@@ -69458,7 +69564,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "edenai/vertex/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash, Vertex AI)",
@@ -72003,7 +72109,7 @@
       "release": "2026-09-10",
       "releasePrecision": "day",
       "updated": "2026-09-10",
-      "ctx": 327680,
+      "ctx": 1048576,
       "out": 65536,
       "in": 0.04,
       "outCost": 0.08,
@@ -72088,7 +72194,7 @@
       "release": "2026-08-26",
       "releasePrecision": "day",
       "updated": "2026-08-26",
-      "ctx": 262144,
+      "ctx": 327680,
       "out": 32768,
       "in": 0.135,
       "outCost": 0.45,
@@ -72740,7 +72846,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "fastrouter/anthropic/claude-sonnet-4.6": {
       "name": "Claude Sonnet 4.6",
@@ -72885,7 +72991,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "fastrouter/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -72915,7 +73021,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "fastrouter/google/gemini-3-pro-image-preview": {
       "name": "Nano Banana Pro Preview",
@@ -74079,7 +74185,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 6
     },
     "fireworks-ai/accounts/fireworks/models/glm-5p3": {
       "name": "GLM 5.3",
@@ -74279,7 +74385,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "fireworks-ai/accounts/fireworks/models/nemotron-3-ultra-nvfp4": {
       "name": "Nemotron 3 Ultra 550B A55B",
@@ -75356,7 +75462,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "frogbot/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -75388,7 +75494,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "frogbot/gemini-3-1-pro-preview": {
       "name": "Gemini 3.1 Pro Preview",
@@ -76423,7 +76529,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "github-copilot/gpt-5-mini": {
       "name": "GPT-5 Mini",
@@ -78845,7 +78951,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "google-vertex-anthropic/claude-sonnet-5-5@default": {
       "name": "Claude Sonnet 5.5",
@@ -79355,7 +79461,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "google-vertex/claude-sonnet-5-5@default": {
       "name": "Claude Sonnet 5.5",
@@ -79531,7 +79637,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "google-vertex/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -79594,7 +79700,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "google-vertex/gemini-2.5-flash-tts": {
       "name": "Gemini 2.5 Flash TTS",
@@ -79654,7 +79760,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "google-vertex/gemini-2.5-pro-tts": {
       "name": "Gemini 2.5 Pro TTS",
@@ -80095,7 +80201,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "google-vertex/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -80853,7 +80959,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "google/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -80915,7 +81021,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "google/gemini-2.5-flash-preview-tts": {
       "name": "Gemini 2.5 Flash Preview TTS",
@@ -80975,7 +81081,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "google/gemini-2.5-pro-preview-tts": {
       "name": "Gemini 2.5 Pro Preview TTS",
@@ -81597,7 +81703,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -83921,7 +84027,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "helicone/claude-sonnet-4-5-20250929": {
       "name": "Anthropic: Claude Sonnet 4.5 (20250929)",
@@ -87916,7 +88022,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "huggingface/meta-llama/Llama-3.3-70B-Instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -90233,7 +90339,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "impossibl/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -90265,7 +90371,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "impossibl/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -90297,7 +90403,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "impossibl/google/gemini-3.1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite",
@@ -92526,7 +92632,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "inference/meta/llama-3.2-11b-vision-instruct": {
       "name": "Llama 3.2 11B Vision Instruct",
@@ -95000,7 +95106,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "jiekou/gemini-2.5-flash-lite": {
       "name": "gemini-2.5-flash-lite",
@@ -95031,7 +95137,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "jiekou/gemini-2.5-flash-lite-preview-06-17": {
       "name": "gemini-2.5-flash-lite-preview-06-17",
@@ -95155,7 +95261,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "jiekou/gemini-2.5-pro-preview-06-05": {
       "name": "gemini-2.5-pro-preview-06-05",
@@ -96718,7 +96824,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "kenari/gemini-2-5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -96750,7 +96856,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "kenari/gemini-3-1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite",
@@ -99963,7 +100069,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 6
     },
     "kilo/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -99995,7 +100101,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "kilo/google/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -100058,7 +100164,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "kilo/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -100090,7 +100196,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "kilo/google/gemini-2.5-pro-preview": {
       "name": "Gemini 2.5 Pro Preview 06-05",
@@ -100628,7 +100734,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "kilo/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -100701,8 +100807,8 @@
       "updated": "2025-03-12",
       "ctx": 131072,
       "out": 16384,
-      "in": 0.05,
-      "outCost": 0.15,
+      "in": 0.04,
+      "outCost": 0.12,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -100818,9 +100924,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 16384,
-      "in": 0.09,
+      "in": 0.1,
       "outCost": 0.34,
-      "cacheRead": 0.05,
+      "cacheRead": 0.1,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -101489,7 +101595,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "kilo/meta-llama/llama-3.2-1b-instruct": {
       "name": "Llama 3.2 1B Instruct",
@@ -101558,7 +101664,7 @@
       "releasePrecision": "day",
       "updated": "2024-12-06",
       "ctx": 131072,
-      "out": 32768,
+      "out": 16384,
       "in": 0.1,
       "outCost": 0.32,
       "cacheRead": null,
@@ -101614,10 +101720,10 @@
       "release": "2025-04-05",
       "releasePrecision": "day",
       "updated": "2025-04-05",
-      "ctx": 131072,
-      "out": 117964,
-      "in": 0.1,
-      "outCost": 0.3,
+      "ctx": 327680,
+      "out": 16384,
+      "in": 0.08,
+      "outCost": 0.24,
       "cacheRead": null,
       "open": false,
       "reasoning": false,
@@ -101645,8 +101751,8 @@
       "updated": "2025-04-30",
       "ctx": 163840,
       "out": 16384,
-      "in": 0.18,
-      "outCost": 0.18,
+      "in": 0.144,
+      "outCost": 0.144,
       "cacheRead": null,
       "open": false,
       "reasoning": false,
@@ -101877,7 +101983,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "kilo/meta/muse-wonder": {
       "name": "Meta: Muse Wonder",
@@ -101923,8 +102029,8 @@
       "updated": "2025-01-10",
       "ctx": 16384,
       "out": 14745,
-      "in": 0.07,
-      "outCost": 0.14,
+      "in": 0.056,
+      "outCost": 0.112,
       "cacheRead": null,
       "open": false,
       "reasoning": false,
@@ -102777,6 +102883,35 @@
       },
       "shared": 5
     },
+    "kilo/moondream/moondream3-preview": {
+      "name": "Moondream: Moondream 3 Preview",
+      "norm": "moondream-3-preview",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 32000,
+      "out": 4096,
+      "in": 0.3,
+      "outCost": 2.5,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
     "kilo/moondream/moondream3.1-9b-a2b": {
       "name": "Moondream: Moondream 3.1",
       "norm": "moondream-3-1",
@@ -103332,9 +103467,9 @@
       "updated": "2026-06-04",
       "ctx": 202800,
       "out": 182520,
-      "in": 0.5,
-      "outCost": 2.2,
-      "cacheRead": 0.1,
+      "in": 0.4,
+      "outCost": 1.76,
+      "cacheRead": 0.08,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -105184,7 +105319,7 @@
       "out": 65536,
       "in": 0.03,
       "outCost": 0.15,
-      "cacheRead": 0.03,
+      "cacheRead": 0.015,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -106388,10 +106523,10 @@
       "releasePrecision": "month",
       "updated": "2025-09-01",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.1,
+      "out": 16384,
+      "in": 0.09,
       "outCost": 1.1,
-      "cacheRead": 0.07,
+      "cacheRead": null,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -107552,6 +107687,34 @@
       },
       "shared": 2
     },
+    "kilo/stealth/cat-jam": {
+      "name": "Stealth: Cat Jam (free)",
+      "norm": "cat-jam",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2025-08-26",
+      "releasePrecision": "day",
+      "updated": "2025-08-26",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "kilo/stealth/claude-opus-4.6": {
       "name": "Stealth: Claude Opus 4.6 (20% off)",
       "norm": "claude-opus-4-6",
@@ -107941,9 +108104,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -107997,9 +108160,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -109068,7 +109231,7 @@
       "releasePrecision": "day",
       "updated": "2026-08-26",
       "ctx": 1048576,
-      "out": 943718,
+      "out": 131072,
       "in": 0.15,
       "outCost": 0.5,
       "cacheRead": 0.03,
@@ -109306,10 +109469,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.0216,
-      "outCost": 0.72,
-      "cacheRead": 0.0054,
+      "out": 393216,
+      "in": 0.0357,
+      "outCost": 0.1428,
+      "cacheRead": 0.000714,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109336,9 +109499,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1307,
-      "outCost": 8,
-      "cacheRead": 0.13,
+      "in": 0.24948,
+      "outCost": 0.74844,
+      "cacheRead": 0.007938,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109364,9 +109527,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.00459,
-      "outCost": 0.576,
-      "cacheRead": 0.00459,
+      "in": 0.01179,
+      "outCost": 1.152,
+      "cacheRead": 0.0108,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109456,9 +109619,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.33,
-      "outCost": 14,
-      "cacheRead": 0.3,
+      "in": 0.294,
+      "outCost": 28,
+      "cacheRead": 0.284,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -109694,10 +109857,10 @@
       "releasePrecision": "day",
       "updated": "2026-08-27",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.01404,
-      "outCost": 0.9,
-      "cacheRead": 0.01125,
+      "out": 131072,
+      "in": 0.0227,
+      "outCost": 0.7076,
+      "cacheRead": 0.0125,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -115835,102 +115998,6 @@
       },
       "shared": 44
     },
-    "llmgateway-providers/google-ai-studio/gemini-2.5-flash": {
-      "name": "Gemini 2.5 Flash (Google AI Studio)",
-      "norm": "gemini-2-5-flash",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65535,
-      "in": 0.3,
-      "outCost": 2.5,
-      "cacheRead": 0.03,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 33
-    },
-    "llmgateway-providers/google-ai-studio/gemini-2.5-flash-lite": {
-      "name": "Gemini 2.5 Flash Lite (Google AI Studio)",
-      "norm": "gemini-2-5-flash-lite",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65535,
-      "in": 0.1,
-      "outCost": 0.4,
-      "cacheRead": 0.01,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 24
-    },
-    "llmgateway-providers/google-ai-studio/gemini-2.5-pro": {
-      "name": "Gemini 2.5 Pro (Google AI Studio)",
-      "norm": "gemini-2-5-pro",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65536,
-      "in": 1.25,
-      "outCost": 10,
-      "cacheRead": 0.125,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 31
-    },
     "llmgateway-providers/google-ai-studio/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash (Preview) (Google AI Studio)",
       "norm": "gemini-3-flash",
@@ -116217,7 +116284,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "llmgateway-providers/google-ai-studio/gemini-pro-latest": {
       "name": "Gemini Pro Latest (Google AI Studio)",
@@ -116248,102 +116315,6 @@
         ]
       },
       "shared": 7
-    },
-    "llmgateway-providers/google-vertex/gemini-2.5-flash": {
-      "name": "Gemini 2.5 Flash (Google Vertex AI)",
-      "norm": "gemini-2-5-flash",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65535,
-      "in": 0.3,
-      "outCost": 2.5,
-      "cacheRead": 0.03,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 33
-    },
-    "llmgateway-providers/google-vertex/gemini-2.5-flash-lite": {
-      "name": "Gemini 2.5 Flash Lite (Google Vertex AI)",
-      "norm": "gemini-2-5-flash-lite",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65535,
-      "in": 0.1,
-      "outCost": 0.4,
-      "cacheRead": 0.01,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 24
-    },
-    "llmgateway-providers/google-vertex/gemini-2.5-pro": {
-      "name": "Gemini 2.5 Pro (Google Vertex AI)",
-      "norm": "gemini-2-5-pro",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65536,
-      "in": 1.25,
-      "outCost": 10,
-      "cacheRead": 0.125,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 31
     },
     "llmgateway-providers/google-vertex/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash (Preview) (Google Vertex AI)",
@@ -116627,7 +116598,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "llmgateway-providers/groq/gpt-oss-120b": {
       "name": "GPT OSS 120B (Groq)",
@@ -124134,102 +124105,6 @@
       },
       "shared": 3
     },
-    "llmgateway/gemini-2.5-flash": {
-      "name": "Gemini 2.5 Flash",
-      "norm": "gemini-2-5-flash",
-      "vendor": "llmgateway",
-      "vendorRaw": "llmgateway",
-      "vendorName": "DevPass (LLM Gateway)",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65536,
-      "in": 0.3,
-      "outCost": 2.5,
-      "cacheRead": 0.03,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 33
-    },
-    "llmgateway/gemini-2.5-flash-lite": {
-      "name": "Gemini 2.5 Flash-Lite",
-      "norm": "gemini-2-5-flash-lite",
-      "vendor": "llmgateway",
-      "vendorRaw": "llmgateway",
-      "vendorName": "DevPass (LLM Gateway)",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65536,
-      "in": 0.1,
-      "outCost": 0.4,
-      "cacheRead": 0.01,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 24
-    },
-    "llmgateway/gemini-2.5-pro": {
-      "name": "Gemini 2.5 Pro",
-      "norm": "gemini-2-5-pro",
-      "vendor": "llmgateway",
-      "vendorRaw": "llmgateway",
-      "vendorName": "DevPass (LLM Gateway)",
-      "isOrigin": false,
-      "release": "2025-06-17",
-      "releasePrecision": "day",
-      "updated": "2025-06-17",
-      "ctx": 1048576,
-      "out": 65536,
-      "in": 1.25,
-      "outCost": 10,
-      "cacheRead": 0.125,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "audio",
-          "video",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 31
-    },
     "llmgateway/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
       "norm": "gemini-3-flash-preview",
@@ -124512,7 +124387,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "llmgateway/gemini-pro-latest": {
       "name": "Gemini Pro Latest",
@@ -129628,7 +129503,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "llmtr/magibu-11b-v8": {
       "name": "Magibu 11B v8",
@@ -132963,7 +132838,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "merge-gateway/anthropic/claude-sonnet-4-5-20250929": {
       "name": "Claude Sonnet 4.5 (20250929)",
@@ -133761,7 +133636,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "merge-gateway/google/gemini-2.5-flash-image": {
       "name": "Gemini 2.5 Flash Image",
@@ -133822,7 +133697,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "merge-gateway/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -133853,7 +133728,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "merge-gateway/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -134291,7 +134166,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "merge-gateway/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -134724,7 +134599,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "merge-gateway/minimax/minimax-m2": {
       "name": "MiniMax M2",
@@ -141863,7 +141738,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "modelis/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -141895,7 +141770,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "modelis/qwen/qwen3.7-max": {
       "name": "Qwen3.7 Max",
@@ -144938,6 +144813,34 @@
         "input": [
           "text",
           "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "nano-gpt/TheDrummer/orion-26b-a4b-v1.1": {
+      "name": "Orion 26B A4B v1.1",
+      "norm": "orion-26b-a4b-v1-1",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-16",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 65536,
+      "out": 8192,
+      "in": 0.1,
+      "outCost": 0.45,
+      "cacheRead": 0.05,
+      "open": true,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text"
         ],
         "output": [
           "text"
@@ -148521,6 +148424,35 @@
       },
       "shared": 1
     },
+    "nano-gpt/fireworks/ember-1": {
+      "name": "Ember 1",
+      "norm": "ember-1",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-09-22",
+      "releasePrecision": "day",
+      "updated": "2026-09-22",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 3,
+      "outCost": 15,
+      "cacheRead": 0.3,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 6
+    },
     "nano-gpt/gemini-2.0-pro-exp-02-05": {
       "name": "Gemini 2.0 Pro 0205",
       "norm": "gemini-2-0-pro-0205",
@@ -148609,7 +148541,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "nano-gpt/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash Lite",
@@ -148640,7 +148572,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "nano-gpt/gemini-2.5-flash-lite-preview-06-17": {
       "name": "Gemini 2.5 Flash Lite Preview",
@@ -148764,7 +148696,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "nano-gpt/gemini-2.5-flash-preview-04-17": {
       "name": "Gemini 2.5 Flash Preview",
@@ -148975,7 +148907,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "nano-gpt/gemini-2.5-pro-exp-03-25": {
       "name": "Gemini 2.5 Pro Experimental 0325",
@@ -150342,7 +150274,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "nano-gpt/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest",
@@ -151517,7 +151449,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "nano-gpt/meta-llama/llama-3.2-3b-instruct": {
       "name": "Llama 3.2 3b Instruct",
@@ -151821,6 +151753,35 @@
         ]
       },
       "shared": 10
+    },
+    "nano-gpt/meta/muse-spark-open": {
+      "name": "Muse Spark Open",
+      "norm": "muse-spark-open",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 1.25,
+      "outCost": 4.25,
+      "cacheRead": 0.15,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
     },
     "nano-gpt/microsoft/wizardlm-2-8x22b": {
       "name": "WizardLM-2 8x22B",
@@ -152808,6 +152769,64 @@
       "modalities": {
         "input": [
           "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "nano-gpt/moondream/moondream3-preview": {
+      "name": "Moondream 3 Preview",
+      "norm": "moondream-3-preview",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-16",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 32000,
+      "out": 4096,
+      "in": 0.3,
+      "outCost": 2.5,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 3
+    },
+    "nano-gpt/moondream/moondream3.1-9b-a2b": {
+      "name": "Moondream 3.1 9B A2B",
+      "norm": "moondream-3-1-9b-a2b",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-16",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 32000,
+      "out": 4096,
+      "in": 0.3,
+      "outCost": 2.5,
+      "cacheRead": null,
+      "open": false,
+      "reasoning": true,
+      "toolCall": false,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
         ],
         "output": [
           "text"
@@ -156232,9 +156251,9 @@
       "updated": "2025-09-01",
       "ctx": 262144,
       "out": 32768,
-      "in": 0.09,
+      "in": 0.1,
       "outCost": 1.1,
-      "cacheRead": 0.075,
+      "cacheRead": 0.07,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -161127,7 +161146,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "nearai/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -161159,7 +161178,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "nearai/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -161191,7 +161210,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "nearai/google/gemini-3.1-flash-lite": {
       "name": "Gemini 3.1 Flash Lite",
@@ -162493,7 +162512,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "nebius/moonshotai/Kimi-K2.7-Code": {
       "name": "Kimi K2.7 Code",
@@ -164406,7 +164425,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "neon/meta-llama-3-3-70b-instruct": {
       "name": "Llama-3.3-70B-Instruct",
@@ -166292,7 +166311,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "novita-ai/meta-llama/llama-3.2-1b-instruct": {
       "name": "Llama 3.2 1B Instruct",
@@ -168682,7 +168701,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "nvidia/meta/llama-3.2-11b-vision-instruct": {
       "name": "Llama 3.2 11b Vision Instruct",
@@ -172723,7 +172742,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "ofox/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -172755,7 +172774,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "ofox/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -172787,7 +172806,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "ofox/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -173074,7 +173093,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "ofox/minimax/m2-her": {
       "name": "MiniMax-M2 Her",
@@ -176425,7 +176444,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "ollama-cloud/nemotron-3-nano:30b": {
       "name": "nemotron-3-nano:30b",
@@ -178096,6 +178115,34 @@
       },
       "shared": 4
     },
+    "opencode-go/beam-free": {
+      "name": "Beam Free",
+      "norm": "beam-free",
+      "vendor": "opencode-go",
+      "vendorRaw": "opencode-go",
+      "vendorName": "OpenCode Go",
+      "isOrigin": false,
+      "release": "2026-10-05",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "opencode-go/cat-jam-free": {
       "name": "Cat Jam Free",
       "norm": "cat-jam-free",
@@ -179016,6 +179063,34 @@
       },
       "shared": 2
     },
+    "opencode/beam-free": {
+      "name": "Beam Free",
+      "norm": "beam-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode",
+      "isOrigin": false,
+      "release": "2026-10-05",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "opencode/big-pickle": {
       "name": "Big Pickle",
       "norm": "big-pickle",
@@ -179460,7 +179535,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "opencode/claude-sonnet-4-5": {
       "name": "Claude Sonnet 4.5",
@@ -180097,7 +180172,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "opencode/glm-4.6": {
       "name": "GLM-4.6",
@@ -180353,6 +180428,37 @@
         ]
       },
       "shared": 74
+    },
+    "opencode/glm-5.3-flash-free": {
+      "name": "GLM-5.3-Flash Free",
+      "norm": "glm-5-3-flash-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode",
+      "isOrigin": false,
+      "release": "2026-08-26",
+      "releasePrecision": "day",
+      "updated": "2026-08-26",
+      "ctx": 200000,
+      "out": 32000,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
     },
     "opencode/gpt-5": {
       "name": "GPT-5",
@@ -181628,6 +181734,34 @@
       "outCost": 0,
       "cacheRead": 0,
       "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "opencode/ll-alpha-free": {
+      "name": "LL Alpha Free",
+      "norm": "ll-alpha-free",
+      "vendor": "opencode",
+      "vendorRaw": "opencode",
+      "vendorName": "OpenCode",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 262144,
+      "out": 65536,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": true,
       "reasoning": true,
       "toolCall": true,
       "modalities": {
@@ -184242,9 +184376,9 @@
       "updated": "2026-07-31",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.018,
-      "outCost": 0.64,
-      "cacheRead": 0.018,
+      "in": 0.0111,
+      "outCost": 1.28,
+      "cacheRead": 0.0111,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -184299,9 +184433,9 @@
       "updated": "2026-04-24",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.354786,
-      "outCost": 0.709572,
-      "cacheRead": 0.029566,
+      "in": 0.43935,
+      "outCost": 0.8787,
+      "cacheRead": 0.036613,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -184428,7 +184562,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 6
     },
     "openrouter/google/gemini-2.5-flash": {
       "name": "Gemini 2.5 Flash",
@@ -184460,7 +184594,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "openrouter/google/gemini-2.5-flash-image": {
       "name": "Nano Banana",
@@ -184522,7 +184656,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "openrouter/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -184554,7 +184688,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "openrouter/google/gemini-2.5-pro-preview": {
       "name": "Gemini 2.5 Pro Preview 06-05",
@@ -185087,7 +185221,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "openrouter/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -185246,9 +185380,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 235929,
-      "in": 0.0765,
-      "outCost": 0.255,
-      "cacheRead": 0.0425,
+      "in": 0.09,
+      "outCost": 0.3,
+      "cacheRead": 0.05,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -185862,7 +185996,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "openrouter/meta-llama/llama-3.2-1b-instruct": {
       "name": "Llama 3.2 1B Instruct",
@@ -185931,10 +186065,10 @@
       "releasePrecision": "day",
       "updated": "2024-12-06",
       "ctx": 131072,
-      "out": 32768,
-      "in": 0.59,
-      "outCost": 0.79,
-      "cacheRead": 0.295,
+      "out": 16384,
+      "in": 0.1,
+      "outCost": 0.32,
+      "cacheRead": null,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -185988,9 +186122,9 @@
       "releasePrecision": "day",
       "updated": "2025-04-05",
       "ctx": 1310720,
-      "out": 117964,
-      "in": 0.18,
-      "outCost": 0.59,
+      "out": 16384,
+      "in": 0.1,
+      "outCost": 0.3,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -186249,7 +186383,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "openrouter/meta/muse-wonder": {
       "name": "Muse Wonder",
@@ -187176,7 +187310,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 3
     },
     "openrouter/moondream/moondream3.1-9b-a2b": {
       "name": "Moondream 3.1",
@@ -187390,9 +187524,9 @@
       "updated": "2026-07-16",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.405,
-      "outCost": 15,
-      "cacheRead": 0.28,
+      "in": 0.304,
+      "outCost": 12.533,
+      "cacheRead": 0.21,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -190805,10 +190939,10 @@
       "releasePrecision": "month",
       "updated": "2025-09-01",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.1,
+      "out": 16384,
+      "in": 0.09,
       "outCost": 1.1,
-      "cacheRead": 0.07,
+      "cacheRead": null,
       "open": true,
       "reasoning": false,
       "toolCall": true,
@@ -192181,9 +192315,9 @@
       "updated": "2026-07-06",
       "ctx": 262144,
       "out": 128000,
-      "in": 0.0825,
-      "outCost": 0.33,
-      "cacheRead": 0.020625,
+      "in": 0.132,
+      "outCost": 0.528,
+      "cacheRead": 0.033,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -192237,9 +192371,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.7506,
-      "outCost": 2.2509,
-      "cacheRead": 0.0378,
+      "in": 0.834,
+      "outCost": 2.501,
+      "cacheRead": 0.042,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -193284,7 +193418,7 @@
       "ctx": 1048576,
       "out": 943718,
       "in": 0.037,
-      "outCost": 7,
+      "outCost": 9,
       "cacheRead": 0.036,
       "open": true,
       "reasoning": true,
@@ -193339,7 +193473,7 @@
       "updated": "2026-08-26",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.01404,
+      "in": 0.02043,
       "outCost": 0.9,
       "cacheRead": 0.01125,
       "open": true,
@@ -193576,10 +193710,10 @@
       "releasePrecision": "day",
       "updated": "2026-09-14",
       "ctx": 1048576,
-      "out": 943718,
-      "in": 0.0216,
-      "outCost": 0.72,
-      "cacheRead": 0.0054,
+      "out": 393216,
+      "in": 0.0357,
+      "outCost": 0.1428,
+      "cacheRead": 0.000714,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -193606,9 +193740,9 @@
       "updated": "2026-09-14",
       "ctx": 1048576,
       "out": 393216,
-      "in": 0.1307,
-      "outCost": 8,
-      "cacheRead": 0.13,
+      "in": 0.24948,
+      "outCost": 0.74844,
+      "cacheRead": 0.007938,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -193634,9 +193768,9 @@
       "updated": "2026-08-01",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.00459,
-      "outCost": 0.576,
-      "cacheRead": 0.00459,
+      "in": 0.0111,
+      "outCost": 1.28,
+      "cacheRead": 0.0111,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -193726,9 +193860,9 @@
       "updated": "2026-04-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.33,
-      "outCost": 14,
-      "cacheRead": 0.3,
+      "in": 0.294,
+      "outCost": 28,
+      "cacheRead": 0.284,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -193965,7 +194099,7 @@
       "updated": "2026-08-27",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.01404,
+      "in": 0.02043,
       "outCost": 0.9,
       "cacheRead": 0.01125,
       "open": false,
@@ -196243,7 +196377,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "orcarouter/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash-Lite",
@@ -196275,7 +196409,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "orcarouter/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -196307,7 +196441,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "orcarouter/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -199931,7 +200065,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "perplexity-agent/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -199963,7 +200097,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "perplexity-agent/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -202685,7 +202819,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "pioneer/meta-llama/Llama-3.2-1B": {
       "name": "Llama-3.2-1B",
@@ -204223,7 +204357,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "poe/anthropic/claude-sonnet-4.5": {
       "name": "Claude-Sonnet-4.5",
@@ -204685,7 +204819,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "poe/google/gemini-2.5-flash-lite": {
       "name": "Gemini-2.5-Flash-Lite",
@@ -204716,7 +204850,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "poe/google/gemini-2.5-pro": {
       "name": "Gemini-2.5-Pro",
@@ -204747,7 +204881,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "poe/google/gemini-3-flash": {
       "name": "Gemini-3-Flash",
@@ -208662,7 +208796,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "prime/google/gemma-3-27b-it": {
       "name": "Gemma 3 27B",
@@ -208704,7 +208838,7 @@
       "releasePrecision": "day",
       "updated": "2024-12-06",
       "ctx": 131072,
-      "out": 32768,
+      "out": 16384,
       "in": 1.04,
       "outCost": 2.253,
       "cacheRead": null,
@@ -208720,6 +208854,37 @@
         ]
       },
       "shared": 35
+    },
+    "prime/meta/muse-spark-open": {
+      "name": "Muse Spark Open",
+      "norm": "muse-spark-open",
+      "vendor": "prime",
+      "vendorRaw": "prime",
+      "vendorName": "Prime Inference",
+      "isOrigin": false,
+      "release": "2026-10-15",
+      "releasePrecision": "day",
+      "updated": "2026-10-15",
+      "ctx": 1048576,
+      "out": 943718,
+      "in": 1.25,
+      "outCost": 4.25,
+      "cacheRead": null,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 12
     },
     "prime/mistralai/mistral-large-2512": {
       "name": "Mistral Large 3 2512",
@@ -210365,7 +210530,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "qihang-ai/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",
@@ -211501,7 +211666,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "qiniu-ai/gemini-2.5-flash-image": {
       "name": "Gemini 2.5 Flash Image",
@@ -211561,7 +211726,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "qiniu-ai/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -211592,7 +211757,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "qiniu-ai/gemini-3.0-flash-preview": {
       "name": "Gemini 3.0 Flash Preview",
@@ -213412,6 +213577,34 @@
       },
       "shared": 33
     },
+    "reflection/Beam-1.0-501B-A23B": {
+      "name": "Beam 1.0 501B A23B",
+      "norm": "beam-1-0-501b-a23b",
+      "vendor": "reflection",
+      "vendorRaw": "reflection",
+      "vendorName": "Reflection",
+      "isOrigin": false,
+      "release": "2026-10-05",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0,
+      "outCost": 0,
+      "cacheRead": 0,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
     "regolo-ai/apertus-70b": {
       "name": "Apertus 70B",
       "norm": "apertus-70b",
@@ -214703,7 +214896,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "requesty/claude-sonnet-5": {
       "name": "Claude Sonnet 5",
@@ -215194,7 +215387,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "requesty/gemini-2.5-flash@eu": {
       "name": "Gemini 2.5 Flash (EU)",
@@ -215226,7 +215419,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "requesty/gemini-2.5-pro@eu": {
       "name": "Gemini 2.5 Pro (EU)",
@@ -215258,7 +215451,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "requesty/gemini-3-pro-image": {
       "name": "Nano Banana Pro",
@@ -215736,7 +215929,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "requesty/gemini-4-argon@eu": {
       "name": "Gemini 4 Argon (EU)",
@@ -215768,7 +215961,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "requesty/gemma-4-26b-a4b-it": {
       "name": "Gemma 4 26B A4B IT",
@@ -218237,7 +218430,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "requesty/muse-wonder-1.0": {
       "name": "Muse Wonder",
@@ -220694,7 +220887,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "sap-ai-core/gemini-2.5-flash-lite": {
       "name": "gemini-2.5-flash-lite",
@@ -220726,7 +220919,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "sap-ai-core/gemini-2.5-pro": {
       "name": "gemini-2.5-pro",
@@ -220758,7 +220951,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "sap-ai-core/gemini-3.1-flash-lite": {
       "name": "gemini-3.1-flash-lite",
@@ -236560,7 +236753,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "venice/gemma-4-uncensored": {
       "name": "Gemma 4 Uncensored",
@@ -237368,7 +237561,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "venice/muse-wonder": {
       "name": "Muse Wonder",
@@ -237400,6 +237593,36 @@
         ]
       },
       "shared": 8
+    },
+    "venice/nvidia-nemotron-3-5-super-vl-120b-a12b": {
+      "name": "NVIDIA Nemotron 3.5 Super VL 120B",
+      "norm": "nvidia-nemotron-3-5-super-vl-120b",
+      "vendor": "venice",
+      "vendorRaw": "venice",
+      "vendorName": "Venice AI",
+      "isOrigin": false,
+      "release": "2026-10-16",
+      "releasePrecision": "day",
+      "updated": "2026-10-16",
+      "ctx": 262144,
+      "out": 32768,
+      "in": 0.25,
+      "outCost": 1.25,
+      "cacheRead": 0.125,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
     },
     "venice/nvidia-nemotron-3-nano-30b-a3b": {
       "name": "NVIDIA Nemotron 3 Nano 30B",
@@ -237497,9 +237720,9 @@
       "updated": "2026-06-11",
       "ctx": 128000,
       "out": 16384,
-      "in": 3.125,
-      "outCost": 12.5,
-      "cacheRead": null,
+      "in": 2.5,
+      "outCost": 10,
+      "cacheRead": 1.25,
       "open": false,
       "reasoning": false,
       "toolCall": true,
@@ -237526,9 +237749,9 @@
       "updated": "2026-06-11",
       "ctx": 128000,
       "out": 16384,
-      "in": 0.1875,
-      "outCost": 0.75,
-      "cacheRead": 0.09375,
+      "in": 0.15,
+      "outCost": 0.6,
+      "cacheRead": 0.075,
       "open": false,
       "reasoning": false,
       "toolCall": true,
@@ -237555,9 +237778,9 @@
       "updated": "2026-06-11",
       "ctx": 256000,
       "out": 65536,
-      "in": 2.19,
-      "outCost": 17.5,
-      "cacheRead": 0.219,
+      "in": 1.75,
+      "outCost": 14,
+      "cacheRead": 0.175,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237583,9 +237806,9 @@
       "updated": "2026-06-11",
       "ctx": 400000,
       "out": 128000,
-      "in": 2.19,
-      "outCost": 17.5,
-      "cacheRead": 0.219,
+      "in": 1.75,
+      "outCost": 14,
+      "cacheRead": 0.175,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237612,9 +237835,9 @@
       "updated": "2026-06-11",
       "ctx": 1000000,
       "out": 131072,
-      "in": 3.13,
-      "outCost": 18.8,
-      "cacheRead": 0.313,
+      "in": 2.5,
+      "outCost": 15,
+      "cacheRead": 0.25,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237641,9 +237864,9 @@
       "updated": "2026-06-11",
       "ctx": 400000,
       "out": 128000,
-      "in": 0.9375,
-      "outCost": 5.625,
-      "cacheRead": 0.09375,
+      "in": 0.75,
+      "outCost": 4.5,
+      "cacheRead": 0.075,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237670,8 +237893,8 @@
       "updated": "2026-06-11",
       "ctx": 1000000,
       "out": 128000,
-      "in": 37.5,
-      "outCost": 225,
+      "in": 30,
+      "outCost": 180,
       "cacheRead": null,
       "open": false,
       "reasoning": true,
@@ -237699,9 +237922,9 @@
       "updated": "2026-06-11",
       "ctx": 1000000,
       "out": 131072,
-      "in": 6.25,
-      "outCost": 37.5,
-      "cacheRead": 0.625,
+      "in": 5,
+      "outCost": 30,
+      "cacheRead": 0.5,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237728,8 +237951,8 @@
       "updated": "2026-06-11",
       "ctx": 1000000,
       "out": 128000,
-      "in": 37.5,
-      "outCost": 225,
+      "in": 30,
+      "outCost": 180,
       "cacheRead": null,
       "open": false,
       "reasoning": true,
@@ -237757,9 +237980,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.025,
+      "in": 0.2,
+      "outCost": 1.2,
+      "cacheRead": 0.02,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237786,9 +238009,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.025,
+      "in": 0.2,
+      "outCost": 1.2,
+      "cacheRead": 0.02,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237815,9 +238038,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 5,
-      "outCost": 25,
-      "cacheRead": 0.5,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.4,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237844,9 +238067,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 5,
-      "outCost": 25,
-      "cacheRead": 0.5,
+      "in": 4,
+      "outCost": 20,
+      "cacheRead": 0.4,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237873,9 +238096,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 2.5,
-      "outCost": 15,
-      "cacheRead": 0.25,
+      "in": 2,
+      "outCost": 12,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237902,9 +238125,9 @@
       "updated": "2026-07-09",
       "ctx": 1000000,
       "out": 128000,
-      "in": 2.5,
-      "outCost": 15,
-      "cacheRead": 0.25,
+      "in": 2,
+      "outCost": 12,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237960,9 +238183,9 @@
       "updated": "2026-09-05",
       "ctx": 1050000,
       "out": 128000,
-      "in": 12.5,
-      "outCost": 62.5,
-      "cacheRead": 1.25,
+      "in": 10,
+      "outCost": 50,
+      "cacheRead": 1,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -237989,9 +238212,9 @@
       "updated": "2026-09-22",
       "ctx": 1050000,
       "out": 128000,
-      "in": 0.125,
-      "outCost": 0.625,
-      "cacheRead": 0.0125,
+      "in": 0.1,
+      "outCost": 0.5,
+      "cacheRead": 0.01,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -238018,9 +238241,9 @@
       "updated": "2026-09-22",
       "ctx": 1050000,
       "out": 128000,
-      "in": 2.5,
-      "outCost": 12.5,
-      "cacheRead": 0.25,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -238047,9 +238270,9 @@
       "updated": "2026-09-29",
       "ctx": 1050000,
       "out": 128000,
-      "in": 2.5,
-      "outCost": 12.5,
-      "cacheRead": 0.125,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -238076,9 +238299,9 @@
       "updated": "2026-10-10",
       "ctx": 1050000,
       "out": 128000,
-      "in": 15,
-      "outCost": 75,
-      "cacheRead": 0.75,
+      "in": 12,
+      "outCost": 60,
+      "cacheRead": 0.6,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -240678,36 +240901,6 @@
       },
       "shared": 32
     },
-    "vercel/anthropic/claude-sonnet-4": {
-      "name": "Claude Sonnet 4",
-      "norm": "claude-sonnet-4",
-      "vendor": "vercel",
-      "vendorRaw": "vercel",
-      "vendorName": "Vercel AI Gateway",
-      "isOrigin": false,
-      "release": "2025-05-22",
-      "releasePrecision": "day",
-      "updated": "2025-05-22",
-      "ctx": 1000000,
-      "out": 64000,
-      "in": 3,
-      "outCost": 15,
-      "cacheRead": 0.3,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "pdf"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 14
-    },
     "vercel/anthropic/claude-sonnet-4.5": {
       "name": "Claude Sonnet 4.5",
       "norm": "claude-sonnet-4-5",
@@ -242153,7 +242346,7 @@
           "text"
         ]
       },
-      "shared": 4
+      "shared": 6
     },
     "vercel/fish-audio/drama-3": {
       "name": "Drama 3",
@@ -242325,7 +242518,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "vercel/google/gemini-2.5-flash-image": {
       "name": "Nano Banana (Gemini 2.5 Flash Image)",
@@ -242385,7 +242578,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "vercel/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -242417,7 +242610,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "vercel/google/gemini-3-flash": {
       "name": "Gemini 3 Flash",
@@ -242979,7 +243172,7 @@
           "text"
         ]
       },
-      "shared": 20
+      "shared": 21
     },
     "vercel/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -244028,7 +244221,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 12
     },
     "vercel/meta/llama-3.3-70b": {
       "name": "Llama-3.3-70B-Instruct",
@@ -244351,7 +244544,7 @@
           "text"
         ]
       },
-      "shared": 9
+      "shared": 12
     },
     "vercel/meta/muse-wonder-1.0": {
       "name": "Muse Wonder",
@@ -248364,34 +248557,6 @@
       },
       "shared": 1
     },
-    "vercel/quiverai/arrow-1.1": {
-      "name": "Arrow 1.1",
-      "norm": "arrow-1-1",
-      "vendor": "vercel",
-      "vendorRaw": "vercel",
-      "vendorName": "Vercel AI Gateway",
-      "isOrigin": false,
-      "release": "2026-04-16",
-      "releasePrecision": "day",
-      "updated": "2026-04-16",
-      "ctx": 131072,
-      "out": 131072,
-      "in": null,
-      "outCost": null,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": false,
-      "toolCall": false,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "image"
-        ]
-      },
-      "shared": 1
-    },
     "vercel/quiverai/arrow-2": {
       "name": "Arrow 2",
       "norm": "arrow-2",
@@ -249490,7 +249655,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 2
     },
     "vercel/stealth/glyph-cluster": {
       "name": "Glyph Cluster",
@@ -249561,9 +249726,9 @@
       "updated": "2026-09-20",
       "ctx": 1048576,
       "out": 1048576,
-      "in": 1,
-      "outCost": 2.7,
-      "cacheRead": 0.05,
+      "in": 0.95,
+      "outCost": 2.565,
+      "cacheRead": 0.0475,
       "open": false,
       "reasoning": false,
       "toolCall": false,
@@ -253922,9 +254087,9 @@
       "updated": "2026-10-15",
       "ctx": 1048576,
       "out": 1048576,
-      "in": 0.25,
-      "outCost": 1.5,
-      "cacheRead": 0.05,
+      "in": 0.15,
+      "outCost": 0.75,
+      "cacheRead": 0.02,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -257176,7 +257341,7 @@
           "text"
         ]
       },
-      "shared": 14
+      "shared": 13
     },
     "zenmux/anthropic/claude-sonnet-4.5": {
       "name": "Claude Sonnet 4.5",
@@ -257525,7 +257690,7 @@
           "text"
         ]
       },
-      "shared": 33
+      "shared": 31
     },
     "zenmux/google/gemini-2.5-flash-lite": {
       "name": "Gemini 2.5 Flash Lite",
@@ -257556,7 +257721,7 @@
           "text"
         ]
       },
-      "shared": 24
+      "shared": 22
     },
     "zenmux/google/gemini-2.5-pro": {
       "name": "Gemini 2.5 Pro",
@@ -257588,7 +257753,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 29
     },
     "zenmux/google/gemini-3-flash-preview": {
       "name": "Gemini 3 Flash Preview",

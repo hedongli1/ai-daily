@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 4
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "meta-llama",
@@ -74,10 +74,75 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 4
+      "count": 5
     }
   ],
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "BlenderWorld · 仓库更新",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "BlenderWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/BlenderWorld/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -107,6 +172,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "date": "2026-10-15",
+      "facts": {},
+      "text": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "href": "https://openai.com/index/sullivan-cromwell",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "google",
       "vendorName": "Google DeepMind",
       "name": "Accelerating the search for antimicrobial peptides with Google Antigravity",
@@ -115,32 +193,6 @@
       "text": "Accelerating the search for antimicrobial peptides with Google Antigravity",
       "href": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
       "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "href": "https://github.com/deepseek-ai/DeepEP/releases",
-      "source": "DeepSeek",
       "external": true
     },
     {
@@ -159,45 +211,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "BlenderWorld · 仓库更新",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "BlenderWorld · 仓库更新",
-      "href": "https://github.com/QwenLM/BlenderWorld/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "timestral · 仓库更新",
@@ -205,19 +218,6 @@
       "facts": {},
       "text": "timestral · 仓库更新",
       "href": "https://github.com/mistralai/timestral/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -257,19 +257,6 @@
       "facts": {},
       "text": "GLM-5 · GLM-5: From Vibe Coding to Agentic Engineering",
       "href": "https://github.com/zai-org/GLM-5/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-15",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
       "external": true
     },
@@ -356,6 +343,19 @@
       "key": null,
       "vendor": "deepseek",
       "vendorName": "DeepSeek",
+      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "date": "2026-10-14",
+      "facts": {},
+      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
       "name": "TileKernels · A kernel library written in tilelang",
       "date": "2026-10-14",
       "facts": {},
@@ -367,14 +367,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
       "date": "2026-10-14",
       "facts": {},
-      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
-      "source": "DeepSeek",
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
       "external": true
     },
     {
