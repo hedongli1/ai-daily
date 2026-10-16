@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -642,6 +642,18 @@
       "rel": "2025-06-17",
       "name": "Gemini 2.5 Pro (Jun 2025)"
     },
+    "gemini-3-5-flash": {
+      "runs": 22,
+      "domains": {
+        "Language,Multimodal,Audio,Video,Vision": {
+          "n": 22,
+          "avg": 0.5142,
+          "best": 0.9556
+        }
+      },
+      "rel": "2026-05-19",
+      "name": "Gemini 3.5 Flash"
+    },
     "gpt-5": {
       "runs": 32,
       "domains": {
@@ -821,18 +833,6 @@
       },
       "rel": "2026-03-03",
       "name": "Gemini 3.1 Flash-Lite"
-    },
-    "gemini-3-5-flash": {
-      "runs": 22,
-      "domains": {
-        "Language,Multimodal,Audio,Video,Vision": {
-          "n": 22,
-          "avg": 0.5142,
-          "best": 0.9556
-        }
-      },
-      "rel": "2026-05-19",
-      "name": "Gemini 3.5 Flash"
     },
     "gemini-3-5-flash-lite": {
       "runs": 13,
@@ -1279,11 +1279,11 @@
       "name": "GPT-5.5 Pro"
     },
     "gpt-6-astra": {
-      "runs": 19,
+      "runs": 20,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 19,
-          "avg": 0.7195,
+          "n": 20,
+          "avg": 0.7215,
           "best": 1
         }
       },

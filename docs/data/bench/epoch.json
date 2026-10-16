@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -211,6 +211,18 @@
       }
     },
     {
+      "model": "GPT-6 Astra",
+      "release": "2026-09-03",
+      "nRuns": 20,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 20,
+          "avg": 0.7215,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GLM-5.2",
       "release": "2026-06-16",
       "nRuns": 20,
@@ -291,18 +303,6 @@
           "n": 19,
           "avg": 0.4648,
           "best": 0.9833
-        }
-      }
-    },
-    {
-      "model": "GPT-6 Astra",
-      "release": "2026-09-03",
-      "nRuns": 19,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 19,
-          "avg": 0.7195,
-          "best": 1
         }
       }
     },
