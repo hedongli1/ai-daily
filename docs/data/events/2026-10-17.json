@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 16,
+    "news": 20,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "id": "QwenLM",
@@ -81,6 +81,71 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-17",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-17",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-10-17",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "date": "2026-10-17",
+      "facts": {},
+      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "href": "https://github.com/zai-org/GLM-V/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Itaú is building generative AI for its entire customer base",
+      "date": "2026-10-16",
+      "facts": {},
+      "text": "How Itaú is building generative AI for its entire customer base",
+      "href": "https://openai.com/index/itau-generative-ai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Stack Overflow for Agents triples signups with ChatGPT plugin",
@@ -94,14 +159,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Benefit Street Partners answers questions faster with Codex",
       "date": "2026-10-16",
       "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
+      "text": "Benefit Street Partners answers questions faster with Codex",
+      "href": "https://openai.com/index/benefit-street-partners",
+      "source": "OpenAI",
       "external": true
     },
     {
@@ -127,19 +192,6 @@
       "facts": {},
       "text": "BlenderWorld · 仓库更新",
       "href": "https://github.com/QwenLM/BlenderWorld/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
       "external": true
     },
@@ -237,14 +289,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "date": "2026-10-15",
       "facts": {},
-      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
-      "source": "DeepSeek",
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
       "external": true
     },
     {
