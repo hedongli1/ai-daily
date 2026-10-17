@@ -1,287 +1,147 @@
 {
  "query": "多模态大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-13T17:14:54.813Z",
+ "fetchedAt": "2026-10-17T22:31:36.307Z",
  "rows": [
   {
-   "title": "AI大模型满天飞？说破天就4类｜零基础 AI 入门 02",
-   "up": "",
-   "play": 232,
-   "pub": "2026/10/13",
-   "bvid": "BV16KpB6AEPH"
-  },
-  {
-   "title": "Qwen3-VL 多模态大模型微调实战｜手把手完成数据集构建、训练调优与上线落地【码士集团】",
-   "up": "",
-   "play": 13,
-   "pub": "2026/10/13",
-   "bvid": "BV1MUpq6yEzt"
-  },
-  {
-   "title": "2026最新｜Qwen3-VL多模态微调项目实战，带你吃透LoRA 参数高效微调与训练链路",
-   "up": "",
-   "play": 150,
-   "pub": "2026/10/13",
-   "bvid": "BV1a1Ww6XEK5"
-  },
-  {
-   "title": "350亿参数的识图AI装进iPhone：拍张照离线就懂，国产模型免费开源了",
-   "up": "",
-   "play": 34,
-   "pub": "2026/10/13",
-   "bvid": "BV18CWF6jEUF"
-  },
-  {
-   "title": "YOLO 的&quot;大模型思维&quot;：2026、2027 年你必须认识的最新发文思路:混合专家网络（MoE）与专家剪枝",
-   "up": "",
-   "play": 1351,
-   "pub": "2026/10/12",
-   "bvid": "BV1Uzpd6YEe7"
-  },
-  {
-   "title": "带你回顾 DeepSeek 历代的正式版更新，看看这三年来都更新了啥~",
-   "up": "",
-   "play": 1751,
-   "pub": "2026/10/12",
-   "bvid": "BV1EdpQ6KEu8"
-  },
-  {
-   "title": "【中英双语】麻省理工-如何用人工智能处理几乎任何事物/多模态人工智能-2026年最新｜Multimodal AI",
-   "up": "",
-   "play": 1008,
-   "pub": "2026/10/12",
-   "bvid": "BV1espJ6TECU"
-  },
-  {
-   "title": "【大模型应用开发】【阿里AgentScope框架】深入源码：Msg是如何转变成模型需要的Prompt形式的？多模态Prompt如何构建？",
-   "up": "",
-   "play": 97,
-   "pub": "2026/10/12",
-   "bvid": "BV1SMpD6JENg"
-  },
-  {
-   "title": "EmbeddingGemma2开源多模态嵌入模型",
-   "up": "",
-   "play": 433,
-   "pub": "2026/10/12",
-   "bvid": "BV16mHC61ExH"
-  },
-  {
-   "title": "Strata-Qwen3.8-Flash-Next-Uncensored,8G显存可用,125B参数,AI女友,多模态大模型,图像解析,接口API调用",
-   "up": "",
-   "play": 7532,
-   "pub": "2026/10/11",
-   "bvid": "BV1Zzpn61E7V"
-  },
-  {
-   "title": "多模态的作用",
-   "up": "",
-   "play": 111,
-   "pub": "2026/10/11",
-   "bvid": "BV1drpn65Ebr"
-  },
-  {
-   "title": "突破音视觉联合推理极限！北大+达摩院推出真多模态推理基准与训练框架 【多模态大模型】【AI论文解读】",
-   "up": "",
-   "play": 20,
-   "pub": "2026/10/11",
-   "bvid": "BV1eFpE6vEBH"
-  },
-  {
-   "title": "手把手部署 VLX-Seek，开源视觉模型本地实测",
-   "up": "",
-   "play": 813,
-   "pub": "2026/10/11",
-   "bvid": "BV1Q6p56DEPP"
-  },
-  {
-   "title": "首个覆盖多形态机器人多任务的通用多模态智能体基准！测出现有模型真实短板 【机器人智能体】",
-   "up": "",
-   "play": 12,
-   "pub": "2026/10/11",
-   "bvid": "BV1kHpj6kEVr"
-  },
-  {
-   "title": "三个随机种子未必能证明模型稳定",
-   "up": "",
-   "play": 140,
-   "pub": "2026/10/11",
-   "bvid": "BV1z3p76METo"
-  },
-  {
-   "title": "&quot;还有多久到？&quot;——这句灵魂拷问，导航到底是怎么答的？",
-   "up": "",
-   "play": 1345,
-   "pub": "2026/10/11",
-   "bvid": "BV1iGp76qEZn"
-  },
-  {
-   "title": "【2027最新】多模态大模型保姆级全套教程！整整100集！一口气带你吃透SAM、CLIP、BLIP、对比学习、DALLE2、BERT等！附源码！AI/AI大模型",
-   "up": "",
-   "play": 837,
-   "pub": "2026/10/11",
-   "bvid": "BV1m6pg6NETB"
-  },
-  {
-   "title": "首个面向物理信息的视频嵌入基准！现有多模态模型居然藏着物理知识但用不了？【AI基准测试】【多模态大模型】",
+   "title": "【AI 入门 299】多模态前半程复习｜输入输出风险一张图",
    "up": "",
    "play": 5,
-   "pub": "2026/10/10",
-   "bvid": "BV1gApj6REJY"
+   "pub": "2026/10/17",
+   "bvid": "BV1JAJ66wEYs"
   },
   {
-   "title": "准确率暴涨22个百分点！解决MLLM视频事件预测三大痛点 工具增强强化学习新思路 【多模态大模型】",
+   "title": "【AI 入门 298】多模态能力边界｜能做会做和该做分开",
    "up": "",
-   "play": 6,
-   "pub": "2026/10/10",
-   "bvid": "BV1qSpL6eENj"
+   "play": 1,
+   "pub": "2026/10/17",
+   "bvid": "BV1HZJz6vE8F"
   },
   {
-   "title": "给世界模型装上理解驱动的长时空间记忆！83%压缩率还能提升生成一致性 【世界模型】【AI论文解读】",
+   "title": "【AI 入门 297】按场景选多模态工具｜别追最热闹的那个",
    "up": "",
-   "play": 20,
-   "pub": "2026/10/10",
-   "bvid": "BV1zcpV6bEuZ"
+   "play": 1,
+   "pub": "2026/10/17",
+   "bvid": "BV1rFJ66PEvr"
   },
   {
-   "title": "零token用多模态大模型",
+   "title": "发现 CLAUDE OPUS 6 EAP？！MUSE SPARK 开源版、GPT-6.1 ASTRA、MAI-BASE-2 与 FABLE 5.5 泄露！AI",
    "up": "",
-   "play": 145,
-   "pub": "2026/10/10",
-   "bvid": "BV1LCpu65Ems"
+   "play": 64,
+   "pub": "2026/10/17",
+   "bvid": "BV1iZJY63E1d"
   },
   {
-   "title": "ICLR 2026高分论文 | Puffin：统一多模态空间智能大模型",
+   "title": "【AI 入门 251】什么是多模态｜不止会读字",
    "up": "",
-   "play": 886,
-   "pub": "2026/10/10",
-   "bvid": "BV1vtpY6kEFh"
+   "play": 15,
+   "pub": "2026/10/17",
+   "bvid": "BV1cxJa65EEd"
   },
   {
-   "title": "一个模型吃下文字 / 代码 / 图片 / 视频 / 音频：EmbeddingGemma 2 逐项拆解",
+   "title": "4GB 显卡就能装，速度贼快！Bonsai2 9B 超轻量多模态 AI 大模型本地部署教程｜图片识别、262K上下文",
    "up": "",
-   "play": 636,
-   "pub": "2026/10/9",
-   "bvid": "BV1g8ph6YEyh"
+   "play": 3566,
+   "pub": "2026/10/17",
+   "bvid": "BV1RBJ864EMo"
   },
   {
-   "title": "128.第二十章 AIGC生成式大模型算法八股_多模态_03",
+   "title": "B站最细AgentScope 2.0全套教程，从零基础到实战：模型接入/多模态/事件流式/工具调用/权限+HiTL，手把手做出能上线的Agent",
    "up": "",
-   "play": 110,
-   "pub": "2026/10/9",
-   "bvid": "BV1bDpt6HEQk"
+   "play": 761,
+   "pub": "2026/10/16",
+   "bvid": "BV1YoJ46mEFs"
   },
   {
-   "title": "AgentScope 2.0保姆级实战教程：从零构建多模态AI智能体，深入解析事件机制、流式输出、工具调用与HITL全流程",
+   "title": "AI 大模型周报 2026年10月 b",
    "up": "",
-   "play": 1587,
-   "pub": "2026/10/9",
-   "bvid": "BV1dqpt6cESp"
+   "play": 1651,
+   "pub": "2026/10/16",
+   "bvid": "BV1hAJX6SEr1"
   },
   {
-   "title": "7亿参数跑在手机上：Embedding Gemma 2 多模态搜索与 RAG 实战 | Prompt Engineering",
+   "title": "KDD2026｜MoST登顶多模态时空交通预测！SNR自适应模态筛选+空间专家混合路由，零样本跨城碾压端到端模型",
    "up": "",
-   "play": 90,
-   "pub": "2026/10/9",
-   "bvid": "BV1UxHX6QEwW"
+   "play": 174,
+   "pub": "2026/10/16",
+   "bvid": "BV12SJt63ELB"
   },
   {
-   "title": "[187]. Gemini 2.5：谷歌经典模型，长上下文 + 多模态撬动 Agent 工作流，论文精读【每天一个宝藏论文】",
+   "title": "【深度学习+多模态】不愧是2026最好中稿的科研赛道！论文精读+代码复现，AI大佬带你手把手搞定大小论文，全篇通俗易懂！看完论文随便发！AI/深度学习/科研论文",
    "up": "",
-   "play": 692,
-   "pub": "2026/10/9",
-   "bvid": "BV183Hv6ME7a"
+   "play": 473,
+   "pub": "2026/10/16",
+   "bvid": "BV1WLJX6rEfV"
   },
   {
-   "title": "【双语+纯享】GPT-6 Astra大战Gemini/Qwen/Claude🔥4000图实测AI视觉王者",
+   "title": "看清漫画细节，就真的理解故事了吗？ComicVQA揭示多模态大模型的视觉推理短板",
    "up": "",
-   "play": 407,
-   "pub": "2026/10/9",
-   "bvid": "BV1NXaB6PEmj"
+   "play": 15,
+   "pub": "2026/10/16",
+   "bvid": "BV15EWc6pExH"
   },
   {
-   "title": "一次性讲清Qwen3-VL部署与微调：从环境搭建、多模态数据处理到LoRA微调与效果评估，附大模型微调面试高频考点与学习路线规划以及职业发展前景",
+   "title": "突破长视频理解内存瓶颈！无需训练的FramePack-U实现任意长度视频O(1)恒定内存占用 【多模态大模型】【长视频理解】",
    "up": "",
-   "play": 1306,
-   "pub": "2026/10/9",
-   "bvid": "BV1Gppb68EAT"
+   "play": 16,
+   "pub": "2026/10/16",
+   "bvid": "BV1jYJX6FEe6"
   },
   {
-   "title": "PartLLM：太原理工大学、腾讯Visvise 等提出面向3D部件分割的多模态大模型，以文本化的输入输出统一全形状拆分、交互式和文本引导分割等任务",
+   "title": "突破固定上下文局限！让AI自主搜寻临床证据完成纵向医疗推理，小模型性能反超前沿大模型 【医疗AI】【智能体学习】【多模态医学】",
    "up": "",
-   "play": 480,
-   "pub": "2026/10/9",
-   "bvid": "BV1ZRpb6qE3x"
+   "play": 18,
+   "pub": "2026/10/16",
+   "bvid": "BV1HAJ96zEg6"
   },
   {
-   "title": "【手把手敲】大模型应用开发-全集版，从零开始写一个超大型AI全栈项目，FastAPI+Vue3+LangChain+RAG+Agent+Harness",
+   "title": "北大复旦等多校联合推出Open-o3-Video-v2！实现主动时空证据检索+可验证视频推理 【多模态大模型】【视频理解】",
    "up": "",
-   "play": 2279,
-   "pub": "2026/10/9",
-   "bvid": "BV14ap461EXQ"
+   "play": 17,
+   "pub": "2026/10/16",
+   "bvid": "BV19EJ96tEdt"
   },
   {
-   "title": "你发来一张猫的照片，我看到的是 64 块小方块 | Claude 用纸片讲&quot;多模态&quot;",
+   "title": "多模态智能体能力新突破！ViewCraft同步进化视觉输入与解读逻辑，8项基准平均提升6.1个点 【多模态智能体前沿】",
    "up": "",
-   "play": 136,
-   "pub": "2026/10/9",
-   "bvid": "BV1MWps6VEMy"
+   "play": 13,
+   "pub": "2026/10/16",
+   "bvid": "BV11hJQ6rESa"
   },
   {
-   "title": "「大模型为什么学 LaTeX 这么难？」",
+   "title": "多模态大模型原理（2）AI理解声音",
    "up": "",
-   "play": 212,
-   "pub": "2026/10/9",
-   "bvid": "BV1RDps69ENh"
+   "play": 240,
+   "pub": "2026/10/16",
+   "bvid": "BV1e5JQ6WEev"
   },
   {
-   "title": "多模态大模型",
+   "title": "让大视觉语言模型学会主动&quot;脑补&quot;空间场景！SpatialASM无需外部工具就能实现端内空间推理能力跃升 【多模态大模型】【空间推理】",
    "up": "",
-   "play": 45,
-   "pub": "2026/10/9",
-   "bvid": "BV1rHpx6YEEM"
+   "play": 12,
+   "pub": "2026/10/16",
+   "bvid": "BV13HJQ6UELD"
   },
   {
-   "title": "2026别再死磕大模型！90%地质人学AI都踩的致命误区，真正的红利根本不在代码",
+   "title": "【中字】国外小哥实测6000亿参数Step5！多模态AI直接看懂视频",
    "up": "",
-   "play": 436,
-   "pub": "2026/10/9",
-   "bvid": "BV1evpx69EBi"
+   "play": 11,
+   "pub": "2026/10/16",
+   "bvid": "BV1kzJQ6KEnJ"
   },
   {
-   "title": "小样本多模态改了借法，这套在今年顶会很吃香：手写只带八百万参数!",
+   "title": "【中字】国外博主实测6000亿参数Step5！多模态AI直接看懂视频",
    "up": "",
-   "play": 134,
-   "pub": "2026/10/8",
-   "bvid": "BV1byHQ6SE6r"
+   "play": 3,
+   "pub": "2026/10/16",
+   "bvid": "BV1kzJQ6KEGS"
   },
   {
-   "title": "AI 大模型周报 2026年10月 a",
+   "title": "Gemini 4 Argon 10月13日正式推出",
    "up": "",
-   "play": 3191,
-   "pub": "2026/10/8",
-   "bvid": "BV19ZHX6fE32"
-  },
-  {
-   "title": "127.第二十章 AIGC生成式大模型算法八股_多模态_02",
-   "up": "",
-   "play": 117,
-   "pub": "2026/10/8",
-   "bvid": "BV15dHX6wECY"
-  },
-  {
-   "title": "RSJEV：JEV用于遥感！武大提出基于多模态大语言模型的判别式遥感场景分类",
-   "up": "",
-   "play": 162,
-   "pub": "2026/10/8",
-   "bvid": "BV1ZhH96TEry"
-  },
-  {
-   "title": "手机能跑本地多模态AI了？谷歌新模型Embedding-2！",
-   "up": "",
-   "play": 931,
-   "pub": "2026/10/8",
-   "bvid": "BV15XHD6xED3"
+   "play": 91,
+   "pub": "2026/10/16",
+   "bvid": "BV1wSpk6JEcQ"
   }
  ]
 }
