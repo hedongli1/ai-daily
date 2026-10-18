@@ -1,82 +1,8 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "mode": "diff",
-  "baselineDate": "2026-10-17",
+  "baselineDate": "2026-10-18",
   "events": [
-    {
-      "type": "price",
-      "key": "sensenova/DeepSeek V4.1 Flash",
-      "vendor": "sensenova",
-      "vendorName": "商汤科技",
-      "name": "DeepSeek V4.1 Flash",
-      "date": "2026-10-18",
-      "facts": {
-        "before": {
-          "in": 0.15,
-          "outCost": 0.6
-        },
-        "after": {
-          "in": 0,
-          "outCost": 0
-        }
-      },
-      "text": "输入 $0.15 → 免费 · 输出 $0.6 → 免费",
-      "href": "/models/deepseek-v4-1-flash/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.5V",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.5V",
-      "date": "2026-10-18",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 1.8
-        },
-        "after": {
-          "in": 0.6,
-          "outCost": 1.8
-        }
-      },
-      "text": "",
-      "href": "/models/glm-4-5v/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.6V",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.6V",
-      "date": "2026-10-18",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 0.9
-        },
-        "after": {
-          "in": 0.3,
-          "outCost": 0.9
-        }
-      },
-      "text": "",
-      "href": "/models/glm-4-6v/"
-    },
-    {
-      "type": "context",
-      "key": "sensenova/DeepSeek V4.1 Flash",
-      "vendor": "sensenova",
-      "vendorName": "商汤科技",
-      "name": "DeepSeek V4.1 Flash",
-      "date": "2026-10-18",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/deepseek-v4-1-flash/"
-    },
     {
       "type": "news",
       "key": null,
@@ -104,36 +30,6 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "deepseek/DeepSeek V4.1 Flash 1017",
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepSeek V4.1 Flash 1017",
-      "date": "2026-10-17",
-      "facts": {
-        "ctx": 1000000,
-        "in": 0.15,
-        "outCost": 0.6,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "DeepSeek V4.1 Flash 1017 · 开源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
-      "href": "/models/deepseek-v4-1-flash-1017/",
-      "shared": 15,
-      "evidence": [
-        {
-          "title": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-          "url": "https://github.com/deepseek-ai/deepseek-harness/releases",
-          "source": "DeepSeek"
-        },
-        {
-          "title": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-          "url": "https://github.com/deepseek-ai/DeepEP/releases",
-          "source": "DeepSeek"
-        }
-      ]
-    },
-    {
       "type": "news",
       "key": null,
       "vendor": "deepseek",
@@ -144,97 +40,6 @@
       "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
       "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Itaú is building generative AI for its entire customer base",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "How Itaú is building generative AI for its entire customer base",
-      "href": "https://openai.com/index/itau-generative-ai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Benefit Street Partners answers questions faster with Codex",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "Benefit Street Partners answers questions faster with Codex",
-      "href": "https://openai.com/index/benefit-street-partners",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "Stack Overflow for Agents triples signups with ChatGPT plugin",
-      "href": "https://openai.com/index/stack-overflow-chatgpt-plugin",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "href": "https://github.com/deepseek-ai/DeepEP/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "BlenderWorld · 仓库更新",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "BlenderWorld · 仓库更新",
-      "href": "https://github.com/QwenLM/BlenderWorld/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
       "external": true
     }
   ]
