@@ -4,6 +4,136 @@
   "baselineDate": "2026-10-17",
   "events": [
     {
+      "type": "price",
+      "key": "sensenova/DeepSeek V4.1 Flash",
+      "vendor": "sensenova",
+      "vendorName": "商汤科技",
+      "name": "DeepSeek V4.1 Flash",
+      "date": "2026-10-18",
+      "facts": {
+        "before": {
+          "in": 0.15,
+          "outCost": 0.6
+        },
+        "after": {
+          "in": 0,
+          "outCost": 0
+        }
+      },
+      "text": "输入 $0.15 → 免费 · 输出 $0.6 → 免费",
+      "href": "/models/deepseek-v4-1-flash/"
+    },
+    {
+      "type": "price",
+      "key": "zhipuai/GLM-4.5V",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-4.5V",
+      "date": "2026-10-18",
+      "facts": {
+        "before": {
+          "in": 0.6,
+          "outCost": 1.8
+        },
+        "after": {
+          "in": 0.6,
+          "outCost": 1.8
+        }
+      },
+      "text": "",
+      "href": "/models/glm-4-5v/"
+    },
+    {
+      "type": "price",
+      "key": "zhipuai/GLM-4.6V",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-4.6V",
+      "date": "2026-10-18",
+      "facts": {
+        "before": {
+          "in": 0.3,
+          "outCost": 0.9
+        },
+        "after": {
+          "in": 0.3,
+          "outCost": 0.9
+        }
+      },
+      "text": "",
+      "href": "/models/glm-4-6v/"
+    },
+    {
+      "type": "context",
+      "key": "sensenova/DeepSeek V4.1 Flash",
+      "vendor": "sensenova",
+      "vendorName": "商汤科技",
+      "name": "DeepSeek V4.1 Flash",
+      "date": "2026-10-18",
+      "facts": {
+        "before": 1000000,
+        "after": 1048576
+      },
+      "text": "上下文 1M → 1.05M",
+      "href": "/models/deepseek-v4-1-flash/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-18",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-18",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "deepseek/DeepSeek V4.1 Flash 1017",
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepSeek V4.1 Flash 1017",
+      "date": "2026-10-17",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.15,
+        "outCost": 0.6,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "DeepSeek V4.1 Flash 1017 · 开源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
+      "href": "/models/deepseek-v4-1-flash-1017/",
+      "shared": 15,
+      "evidence": [
+        {
+          "title": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+          "url": "https://github.com/deepseek-ai/deepseek-harness/releases",
+          "source": "DeepSeek"
+        },
+        {
+          "title": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+          "url": "https://github.com/deepseek-ai/DeepEP/releases",
+          "source": "DeepSeek"
+        }
+      ]
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "deepseek",
@@ -14,45 +144,6 @@
       "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
       "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-17",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "date": "2026-10-17",
-      "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "date": "2026-10-17",
-      "facts": {},
-      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "href": "https://github.com/zai-org/GLM-V/releases",
-      "source": "智谱 AI",
       "external": true
     },
     {
@@ -144,19 +235,6 @@
       "text": "llm-d-router-public · Inference scheduler for llm-d",
       "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-16",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]
