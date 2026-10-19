@@ -20,7 +20,7 @@
     {
       "id": "openai",
       "name": "OpenAI",
-      "n": 50,
+      "n": 48,
       "cheapest": 0.02,
       "latest": "2026-09-29",
       "country": "intl"
@@ -50,14 +50,6 @@
       "country": "intl"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
-      "country": "intl"
-    },
-    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
@@ -71,6 +63,14 @@
       "n": 14,
       "cheapest": 0.1,
       "latest": "2026-10-07",
+      "country": "intl"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
       "country": "intl"
     },
     {
@@ -146,12 +146,12 @@
       "country": "intl"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
+      "country": "intl"
     },
     {
       "id": "moonshotai",
@@ -159,6 +159,14 @@
       "n": 4,
       "cheapest": 0.95,
       "latest": "2026-07-16",
+      "country": "cn"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
       "country": "cn"
     },
     {
@@ -170,43 +178,11 @@
       "country": "intl"
     },
     {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
-      "cheapest": 0,
-      "latest": "2026-08-28",
-      "country": "cn"
-    },
-    {
       "id": "morph",
       "name": "Morph",
       "n": 3,
       "cheapest": 0.8,
       "latest": "2024-08-15",
-      "country": "intl"
-    },
-    {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
-      "id": "inception",
-      "name": "Inception",
-      "n": 3,
-      "cheapest": 0.04,
-      "latest": "2026-09-08",
       "country": "intl"
     },
     {
@@ -218,6 +194,30 @@
       "country": "intl"
     },
     {
+      "id": "inception",
+      "name": "Inception",
+      "n": 3,
+      "cheapest": 0.04,
+      "latest": "2026-09-08",
+      "country": "intl"
+    },
+    {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
+      "cheapest": 0,
+      "latest": "2026-08-28",
+      "country": "cn"
+    },
+    {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
+    },
+    {
       "id": "bailing",
       "name": "蚂蚁百灵",
       "n": 2,
@@ -226,19 +226,19 @@
       "country": "cn"
     },
     {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": null,
+      "latest": "2026-02-18",
+      "country": "intl"
+    },
+    {
       "id": "cerebras",
       "name": "Cerebras",
       "n": 2,
       "cheapest": 0.35,
       "latest": "2026-08-14",
-      "country": "intl"
-    },
-    {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-01",
       "country": "intl"
     },
     {
@@ -250,11 +250,11 @@
       "country": "intl"
     },
     {
-      "id": "sarvam",
-      "name": "Sarvam AI",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": null,
-      "latest": "2026-02-18",
+      "cheapest": 0.2,
+      "latest": "2026-01-01",
       "country": "intl"
     },
     {

@@ -5,11 +5,11 @@
   "baselineDate": "2026-10-19",
   "counts": {
     "new": 2,
-    "retired": 0,
+    "retired": 2,
     "price": 0,
     "context": 0,
-    "news": 11,
-    "facts": 2,
+    "news": 12,
+    "facts": 4,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 8
+      "count": 7
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -79,6 +79,35 @@
   ],
   "events": [
     {
+      "type": "retired",
+      "key": "openai/GPT-5.3 Chat (latest)",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-5.3 Chat (latest)",
+      "date": "2026-10-20",
+      "facts": {},
+      "text": "已从 OpenAI 下架",
+      "href": "/vendors/openai/",
+      "evidence": [
+        {
+          "title": "Advancing coding in low‑resource programming languages",
+          "url": "https://openai.com/index/low-resource-programming-languages",
+          "source": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "retired",
+      "key": "openai/GPT-5.2 Chat",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-5.2 Chat",
+      "date": "2026-10-20",
+      "facts": {},
+      "text": "已从 OpenAI 下架",
+      "href": "/vendors/openai/"
+    },
+    {
       "type": "new",
       "key": "minimax-cn/MiniMax-M3.1-Flash",
       "vendor": "minimax",
@@ -94,7 +123,20 @@
       },
       "text": "MiniMax-M3.1-Flash · 开源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
       "href": "/models/minimax-m3-1-flash/",
-      "shared": 14
+      "shared": 17
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advancing coding in low‑resource programming languages",
+      "date": "2026-10-19",
+      "facts": {},
+      "text": "Advancing coding in low‑resource programming languages",
+      "href": "https://openai.com/index/low-resource-programming-languages",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
