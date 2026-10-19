@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "mode": "diff",
-  "baselineDate": "2026-10-18",
+  "baselineDate": "2026-10-19",
   "counts": {
-    "new": 0,
+    "new": 2,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 3,
-    "facts": 0,
+    "news": 11,
+    "facts": 2,
     "newsAttached": 0
   },
   "degraded": [
@@ -49,13 +49,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 8
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "meta-llama",
@@ -78,8 +78,8 @@
   ],
   "totals": {
     "originVendors": 33,
-    "originModels": 647,
+    "originModels": 651,
     "channels": 191,
-    "allEntries": 9050
+    "allEntries": 9071
   }
 }

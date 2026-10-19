@@ -1,6 +1,15 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "timeline": [
+    {
+      "n": "minimax-m3-1-flash",
+      "name": "MiniMax-M3.1-Flash",
+      "vn": "MiniMax",
+      "rel": "2026-10-19",
+      "ctx": 1000000,
+      "in": 0.15,
+      "open": 1
+    },
     {
       "n": "deepseek-v4-flash-vision-exp",
       "name": "DeepSeek V4 Flash Vision Exp",
@@ -119,6 +128,15 @@
       "open": 1
     },
     {
+      "n": "solar-mini-4",
+      "name": "Solar Mini 4",
+      "vn": "Upstage",
+      "rel": "2026-09-22",
+      "ctx": 524288,
+      "in": 0.1,
+      "open": 0
+    },
+    {
       "n": "gpt-6-sol",
       "name": "GPT-6 Sol",
       "vn": "OpenAI",
@@ -188,7 +206,7 @@
       "rel": "2026-09-16",
       "ctx": 1024000,
       "in": 1,
-      "open": 0
+      "open": 1
     },
     {
       "n": "deepseek-v4-1-flash",

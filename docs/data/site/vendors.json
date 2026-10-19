@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "vendors": [
     {
       "id": "nvidia",
@@ -50,14 +50,6 @@
       "country": "intl"
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 14,
-      "cheapest": 0.1,
-      "latest": "2026-10-07",
-      "country": "intl"
-    },
-    {
       "id": "cohere",
       "name": "Cohere",
       "n": 16,
@@ -72,6 +64,14 @@
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 14,
+      "cheapest": 0.1,
+      "latest": "2026-10-07",
+      "country": "intl"
     },
     {
       "id": "volcengine",
@@ -108,9 +108,9 @@
     {
       "id": "minimax",
       "name": "MiniMax",
-      "n": 7,
-      "cheapest": 0.3,
-      "latest": "2026-06-01",
+      "n": 8,
+      "cheapest": 0.15,
+      "latest": "2026-10-19",
       "country": "cn"
     },
     {
@@ -122,6 +122,14 @@
       "country": "intl"
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "n": 13,
+      "cheapest": 0,
+      "latest": "2026-10-12",
+      "country": "intl"
+    },
+    {
       "id": "sensenova",
       "name": "商汤科技",
       "n": 1,
@@ -130,11 +138,11 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 13,
-      "cheapest": 0,
-      "latest": "2026-10-12",
+      "id": "upstage",
+      "name": "Upstage",
+      "n": 5,
+      "cheapest": 0.1,
+      "latest": "2026-09-22",
       "country": "intl"
     },
     {
@@ -146,19 +154,19 @@
       "country": "cn"
     },
     {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 4,
+      "cheapest": 0.95,
+      "latest": "2026-07-16",
+      "country": "cn"
+    },
+    {
       "id": "perplexity",
       "name": "Perplexity",
       "n": 4,
       "cheapest": 1,
       "latest": "2025-02-01",
-      "country": "intl"
-    },
-    {
-      "id": "upstage",
-      "name": "Upstage",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-08-06",
       "country": "intl"
     },
     {
@@ -170,19 +178,19 @@
       "country": "intl"
     },
     {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "n": 4,
-      "cheapest": 0.95,
-      "latest": "2026-07-16",
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
+      "cheapest": 0,
+      "latest": "2026-08-28",
       "country": "cn"
     },
     {
-      "id": "poolside",
-      "name": "Poolside",
+      "id": "morph",
+      "name": "Morph",
       "n": 3,
-      "cheapest": 0,
-      "latest": "2026-07-21",
+      "cheapest": 0.8,
+      "latest": "2024-08-15",
       "country": "intl"
     },
     {
@@ -194,14 +202,6 @@
       "country": "intl"
     },
     {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
-      "cheapest": 0,
-      "latest": "2026-08-28",
-      "country": "cn"
-    },
-    {
       "id": "inception",
       "name": "Inception",
       "n": 3,
@@ -210,11 +210,11 @@
       "country": "intl"
     },
     {
-      "id": "morph",
-      "name": "Morph",
+      "id": "poolside",
+      "name": "Poolside",
       "n": 3,
-      "cheapest": 0.8,
-      "latest": "2024-08-15",
+      "cheapest": 0,
+      "latest": "2026-07-21",
       "country": "intl"
     },
     {
