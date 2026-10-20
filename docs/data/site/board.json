@@ -48,9 +48,9 @@
     ],
     "openStrongest": [
       {
-        "n": "kimi-k3",
-        "name": "Kimi K3",
-        "vn": "月之暗面",
+        "n": "deepseek-v4-flash",
+        "name": "DeepSeek V4 Flash",
+        "vn": "DeepSeek",
         "val": 1048576,
         "metric": "上下文"
       }
@@ -60,7 +60,7 @@
         "n": "glm-5-2",
         "name": "GLM-5.2",
         "vn": "智谱 AI",
-        "val": 90,
+        "val": 89,
         "metric": "渠道数"
       }
     ]
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 118,
+      "models": 115,
       "n": "gemini-4-argon",
       "name": "Gemini 4 Argon",
       "vn": "谷歌",

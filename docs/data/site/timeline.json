@@ -7,15 +7,15 @@
       "vn": "MiniMax",
       "rel": "2026-10-19",
       "ctx": 1000000,
-      "in": 0.15,
-      "open": 1
+      "in": 0.1494,
+      "open": 0
     },
     {
       "n": "deepseek-v4-flash-vision-exp",
       "name": "DeepSeek V4 Flash Vision Exp",
       "vn": "DeepSeek",
       "rel": "2026-10-17",
-      "ctx": 1000000,
+      "ctx": 1048576,
       "in": 0.15,
       "open": 1
     },
@@ -24,7 +24,7 @@
       "name": "DeepSeek V4.1 Flash 1017",
       "vn": "DeepSeek",
       "rel": "2026-10-17",
-      "ctx": 1000000,
+      "ctx": 1048576,
       "in": 0.15,
       "open": 1
     },
@@ -33,9 +33,18 @@
       "name": "DeepSeek V4 Flash",
       "vn": "DeepSeek",
       "rel": "2026-10-17",
-      "ctx": 1000000,
+      "ctx": 1048576,
       "in": 0.15,
       "open": 1
+    },
+    {
+      "n": "mercury-3",
+      "name": "Mercury 3",
+      "vn": "Inception",
+      "rel": "2026-10-16",
+      "ctx": 1000000,
+      "in": 0.1,
+      "open": 0
     },
     {
       "n": "nemotron-3-5-super-vl-120b-a12b",
@@ -344,19 +353,10 @@
       "open": 0
     },
     {
-      "n": "grok-4-6",
-      "name": "Grok 4.6",
-      "vn": "xAI",
-      "rel": "2026-08-12",
-      "ctx": 500000,
-      "in": 2,
-      "open": 0
-    },
-    {
       "n": "deepseek-v4-pro-0813",
       "name": "DeepSeek V4 Pro 0813",
       "vn": "Arcee AI",
-      "rel": "2026-08-12",
+      "rel": "2026-08-13",
       "ctx": 1048576,
       "in": 1.32,
       "open": 1
@@ -365,10 +365,19 @@
       "n": "deepseek-v4-pro",
       "name": "DeepSeek V4 Pro",
       "vn": "DeepSeek",
-      "rel": "2026-08-12",
-      "ctx": 1000000,
+      "rel": "2026-08-13",
+      "ctx": 1048576,
       "in": 0.66,
       "open": 1
+    },
+    {
+      "n": "grok-4-6",
+      "name": "Grok 4.6",
+      "vn": "xAI",
+      "rel": "2026-08-12",
+      "ctx": 500000,
+      "in": 2,
+      "open": 0
     },
     {
       "n": "sensenova-6-8-flash-lite",
@@ -475,7 +484,7 @@
       "vn": "阿里云",
       "rel": "2026-07-31",
       "ctx": 1000000,
-      "in": 0.2,
+      "in": 0.44,
       "open": 1
     },
     {
@@ -538,7 +547,7 @@
       "vn": "月之暗面",
       "rel": "2026-07-16",
       "ctx": 1048576,
-      "in": 3,
+      "in": 2.9879,
       "open": 1
     },
     {
@@ -647,7 +656,7 @@
       "rel": "2026-06-30",
       "ctx": 1000000,
       "in": 0.75,
-      "open": 0
+      "open": 1
     },
     {
       "n": "gemini-omni-flash-preview",
@@ -745,7 +754,7 @@
       "vn": "月之暗面",
       "rel": "2026-06-12",
       "ctx": 262144,
-      "in": 1.9,
+      "in": 1.9421,
       "open": 1
     },
     {
@@ -754,7 +763,7 @@
       "vn": "月之暗面",
       "rel": "2026-06-12",
       "ctx": 262144,
-      "in": 0.95,
+      "in": 0.9711,
       "open": 1
     },
     {
@@ -803,15 +812,6 @@
       "open": 0
     },
     {
-      "n": "nemotron-3-5-content-safety",
-      "name": "Nemotron 3.5 Content Safety",
-      "vn": "英伟达",
-      "rel": "2026-06-04",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "nemotron-3-ultra-550b-a55b",
       "name": "Nemotron 3 Ultra 550B A55B",
       "vn": "英伟达",
@@ -821,12 +821,21 @@
       "open": 1
     },
     {
+      "n": "nemotron-3-5-content-safety",
+      "name": "Nemotron 3.5 Content Safety",
+      "vn": "英伟达",
+      "rel": "2026-06-02",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "qwen3-7-plus",
       "name": "Qwen3.7 Plus",
       "vn": "阿里云",
       "rel": "2026-06-02",
       "ctx": 1000000,
-      "in": 0.5,
+      "in": 0.276,
       "open": 0
     },
     {
@@ -835,7 +844,7 @@
       "vn": "MiniMax",
       "rel": "2026-06-01",
       "ctx": 1000000,
-      "in": 0.3,
+      "in": 0.3137,
       "open": 1
     },
     {
@@ -889,7 +898,7 @@
       "vn": "阿里云",
       "rel": "2026-05-21",
       "ctx": 1000000,
-      "in": 2.5,
+      "in": 1.65,
       "open": 0
     },
     {
@@ -961,7 +970,7 @@
       "vn": "阿里云",
       "rel": "2026-04-27",
       "ctx": 1000000,
-      "in": 0.1875,
+      "in": 0.165,
       "open": 0
     },
     {
@@ -1037,15 +1046,6 @@
       "open": 0
     },
     {
-      "n": "kimi-k2-6",
-      "name": "Kimi K2.6",
-      "vn": "月之暗面",
-      "rel": "2026-04-21",
-      "ctx": 262144,
-      "in": 0.95,
-      "open": 1
-    },
-    {
       "n": "deep-research-preview",
       "name": "Deep Research Preview (Apr-21-2026)",
       "vn": "谷歌",
@@ -1082,6 +1082,15 @@
       "open": 1
     },
     {
+      "n": "kimi-k2-6",
+      "name": "Kimi K2.6",
+      "vn": "月之暗面",
+      "rel": "2026-04-20",
+      "ctx": 262144,
+      "in": 0.9711,
+      "open": 1
+    },
+    {
       "n": "qwen3-6-max-preview",
       "name": "Qwen3.6 Max Preview",
       "vn": "阿里云",
@@ -1105,7 +1114,7 @@
       "vn": "阿里云",
       "rel": "2026-04-17",
       "ctx": 262144,
-      "in": 0.248,
+      "in": 0.375,
       "open": 1
     },
     {
@@ -1231,7 +1240,7 @@
       "vn": "阿里云",
       "rel": "2026-04-02",
       "ctx": 1000000,
-      "in": 0.5,
+      "in": 0.276,
       "open": 0
     },
     {
@@ -1307,6 +1316,15 @@
       "open": 0
     },
     {
+      "n": "voxtral-mini-tts",
+      "name": "Voxtral Mini TTS (latest)",
+      "vn": "Mistral",
+      "rel": "2026-03-23",
+      "ctx": 0,
+      "in": null,
+      "open": 1
+    },
+    {
       "n": "mimo-v2-pro",
       "name": "MiMo-V2-Pro",
       "vn": "小米",
@@ -1330,7 +1348,7 @@
       "vn": "MiniMax",
       "rel": "2026-03-18",
       "ctx": 204800,
-      "in": 0.6,
+      "in": 0.6275,
       "open": 1
     },
     {
@@ -1339,7 +1357,7 @@
       "vn": "MiniMax",
       "rel": "2026-03-18",
       "ctx": 204800,
-      "in": 0.3,
+      "in": 0.3137,
       "open": 1
     },
     {
@@ -1499,15 +1517,6 @@
       "n": "step-tts-2",
       "name": "Step TTS 2",
       "vn": "阶跃星辰",
-      "rel": "2026-03-01",
-      "ctx": 0,
-      "in": null,
-      "open": 0
-    },
-    {
-      "n": "voxtral-mini-tts",
-      "name": "Voxtral Mini TTS (latest)",
-      "vn": "Mistral",
       "rel": "2026-03-01",
       "ctx": 0,
       "in": null,
@@ -1708,7 +1717,7 @@
       "vn": "MiniMax",
       "rel": "2026-02-13",
       "ctx": 204800,
-      "in": 0.6,
+      "in": 0.6275,
       "open": 1
     },
     {
@@ -1726,7 +1735,7 @@
       "vn": "MiniMax",
       "rel": "2026-02-12",
       "ctx": 204800,
-      "in": 0.3,
+      "in": 0.3137,
       "open": 1
     },
     {
@@ -1757,21 +1766,21 @@
       "open": 0
     },
     {
+      "n": "voxtral-mini",
+      "name": "Voxtral Mini (latest)",
+      "vn": "Mistral",
+      "rel": "2026-02-04",
+      "ctx": 0,
+      "in": null,
+      "open": 0
+    },
+    {
       "n": "claude-opus-4-6",
       "name": "Claude Opus 4.6",
       "vn": "Anthropic",
       "rel": "2026-02-04",
       "ctx": 1000000,
       "in": 5,
-      "open": 0
-    },
-    {
-      "n": "voxtral-mini",
-      "name": "Voxtral Mini (latest)",
-      "vn": "Mistral",
-      "rel": "2026-02-01",
-      "ctx": 0,
-      "in": null,
       "open": 0
     },
     {
@@ -1865,6 +1874,15 @@
       "open": 1
     },
     {
+      "n": "jamba-mini",
+      "name": "Jamba Mini",
+      "vn": "AI21 Labs",
+      "rel": "2026-01-08",
+      "ctx": 256000,
+      "in": 0.2,
+      "open": 1
+    },
+    {
       "n": "solar-pro3",
       "name": "solar-pro3",
       "vn": "Upstage",
@@ -1883,15 +1901,6 @@
       "open": 0
     },
     {
-      "n": "jamba-mini",
-      "name": "Jamba Mini",
-      "vn": "AI21 Labs",
-      "rel": "2026-01-01",
-      "ctx": 256000,
-      "in": 0.2,
-      "open": 1
-    },
-    {
       "n": "seed-1-8",
       "name": "Seed 1.8",
       "vn": "字节跳动",
@@ -1906,7 +1915,7 @@
       "vn": "MiniMax",
       "rel": "2025-12-23",
       "ctx": 204800,
-      "in": 0.3,
+      "in": 0.3137,
       "open": 1
     },
     {
@@ -2149,7 +2158,7 @@
       "vn": "MiniMax",
       "rel": "2025-10-27",
       "ctx": 204800,
-      "in": 0.3,
+      "in": 0.3137,
       "open": 1
     },
     {
@@ -2302,7 +2311,7 @@
       "vn": "阿里云",
       "rel": "2025-09-15",
       "ctx": 65536,
-      "in": 0.058,
+      "in": 0.258,
       "open": 0
     },
     {
@@ -2519,7 +2528,7 @@
       "rel": "2025-07-28",
       "ctx": 131072,
       "in": 0,
-      "open": 1
+      "open": 0
     },
     {
       "n": "glm-4-5-air",
@@ -2633,7 +2642,7 @@
       "n": "jamba-large",
       "name": "Jamba Large",
       "vn": "AI21 Labs",
-      "rel": "2025-07-01",
+      "rel": "2025-07-03",
       "ctx": 256000,
       "in": 2,
       "open": 1
@@ -2873,15 +2882,6 @@
       "open": 1
     },
     {
-      "n": "llama-3-3-nemotron-super-49b-v1",
-      "name": "Llama 3.3 Nemotron Super 49B v1",
-      "vn": "英伟达",
-      "rel": "2025-04-07",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "llama-3-1-nemotron-ultra-253b",
       "name": "Llama 3.1 Nemotron Ultra 253B",
       "vn": "英伟达",
@@ -3058,6 +3058,15 @@
       "vn": "英伟达",
       "rel": "2025-03-18",
       "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-3-nemotron-super-49b-v1",
+      "name": "Llama 3.3 Nemotron Super 49B v1",
+      "vn": "英伟达",
+      "rel": "2025-03-18",
+      "ctx": 131072,
       "in": 0,
       "open": 1
     },
@@ -3341,6 +3350,15 @@
       "open": 0
     },
     {
+      "n": "command-r7b",
+      "name": "Command R7B",
+      "vn": "Cohere",
+      "rel": "2024-12-13",
+      "ctx": 128000,
+      "in": 0.0375,
+      "open": 1
+    },
+    {
       "n": "llama-3-3-8b-instruct",
       "name": "Llama-3.3-8B-Instruct",
       "vn": "Meta",
@@ -3366,15 +3384,6 @@
       "ctx": 200000,
       "in": 15,
       "open": 0
-    },
-    {
-      "n": "command-r7b",
-      "name": "Command R7B",
-      "vn": "Cohere",
-      "rel": "2024-12-02",
-      "ctx": 128000,
-      "in": 0.0375,
-      "open": 1
     },
     {
       "n": "nemotron-3-nano-30b-a3b",
@@ -3499,7 +3508,7 @@
       "vn": "Cohere",
       "rel": "2024-10-24",
       "ctx": 128000,
-      "in": null,
+      "in": 0.5,
       "open": 1
     },
     {
@@ -3517,7 +3526,7 @@
       "vn": "Mistral",
       "rel": "2024-10-01",
       "ctx": 262144,
-      "in": 0.1,
+      "in": 0.15,
       "open": 1
     },
     {
@@ -3526,7 +3535,7 @@
       "vn": "Mistral",
       "rel": "2024-10-01",
       "ctx": 131072,
-      "in": 0.04,
+      "in": 0.1,
       "open": 1
     },
     {
@@ -3890,15 +3899,6 @@
       "open": 1
     },
     {
-      "n": "mixtral-8x22b",
-      "name": "Mixtral 8x22B",
-      "vn": "Mistral",
-      "rel": "2024-04-17",
-      "ctx": 64000,
-      "in": 2,
-      "open": 1
-    },
-    {
       "n": "qwen-vl-max",
       "name": "Qwen-VL Max",
       "vn": "阿里云",
@@ -4043,15 +4043,6 @@
       "open": 0
     },
     {
-      "n": "mixtral-8x7b",
-      "name": "Mixtral 8x7B",
-      "vn": "Mistral",
-      "rel": "2023-12-11",
-      "ctx": 32000,
-      "in": 0.7,
-      "open": 1
-    },
-    {
       "n": "mistral-embed",
       "name": "Mistral Embed",
       "vn": "Mistral",
@@ -4086,15 +4077,6 @@
       "ctx": 8192,
       "in": 30,
       "open": 0
-    },
-    {
-      "n": "mistral-7b",
-      "name": "Mistral 7B",
-      "vn": "Mistral",
-      "rel": "2023-09-27",
-      "ctx": 8000,
-      "in": 0.25,
-      "open": 1
     },
     {
       "n": "whisper-large-v3",

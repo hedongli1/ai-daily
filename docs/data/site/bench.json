@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 121,
+  "count": 118,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -1049,42 +1049,6 @@
       },
       "rel": "2025-06-20",
       "name": "Mistral Small 3.2"
-    },
-    "mistral-7b": {
-      "runs": 5,
-      "domains": {
-        "Language": {
-          "n": 5,
-          "avg": 0.0719,
-          "best": 0.1518
-        }
-      },
-      "rel": "2024-05-27",
-      "name": "Mistral 7B"
-    },
-    "mixtral-8x22b": {
-      "runs": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.2915,
-          "best": 0.3406
-        }
-      },
-      "rel": "2024-04-17",
-      "name": "Mixtral 8x22B"
-    },
-    "mixtral-8x7b": {
-      "runs": 4,
-      "domains": {
-        "Language": {
-          "n": 4,
-          "avg": 0.1991,
-          "best": 0.3059
-        }
-      },
-      "rel": "2023-12-11",
-      "name": "Mixtral 8x7B"
     },
     "kimi-k2-6": {
       "runs": 14,
