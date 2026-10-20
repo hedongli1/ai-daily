@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20",
+  "generated": "2026-10-21",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -367,6 +367,18 @@
       }
     },
     {
+      "model": "Kimi K3",
+      "release": "2026-07-16",
+      "nRuns": 16,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 16,
+          "avg": 0.5339,
+          "best": 0.9722
+        }
+      }
+    },
+    {
       "model": "Gemini 3 Flash",
       "release": "2025-12-17",
       "nRuns": 16,
@@ -379,6 +391,18 @@
       }
     },
     {
+      "model": "Claude Opus 5",
+      "release": "2026-07-24",
+      "nRuns": 16,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 16,
+          "avg": 0.6599,
+          "best": 0.9889
+        }
+      }
+    },
+    {
       "model": "Gemini 3.6 Flash",
       "release": "2026-07-21",
       "nRuns": 16,
@@ -387,30 +411,6 @@
           "n": 16,
           "avg": 0.5514,
           "best": 0.9417
-        }
-      }
-    },
-    {
-      "model": "Kimi K3",
-      "release": "2026-07-16",
-      "nRuns": 15,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 15,
-          "avg": 0.5695,
-          "best": 0.9722
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5",
-      "release": "2026-07-24",
-      "nRuns": 15,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 15,
-          "avg": 0.7039,
-          "best": 0.9889
         }
       }
     },
@@ -499,6 +499,18 @@
       }
     },
     {
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
+      "nRuns": 13,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 13,
+          "avg": 0.525,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Gemini 3.5 Flash-Lite",
       "release": "2026-07-21",
       "nRuns": 13,
@@ -535,13 +547,13 @@
       }
     },
     {
-      "model": "GPT-6 Sol",
-      "release": "2026-09-22",
-      "nRuns": 12,
+      "model": "GPT-6.1 Sol",
+      "release": "2026-09-29",
+      "nRuns": 13,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 12,
-          "avg": 0.5675,
+          "n": 13,
+          "avg": 0.6336,
           "best": 1
         }
       }
@@ -578,18 +590,6 @@
         "Language,Multimodal,Vision": {
           "n": 12,
           "avg": 0.5144,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "GPT-6.1 Sol",
-      "release": "2026-09-29",
-      "nRuns": 12,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 12,
-          "avg": 0.6827,
           "best": 1
         }
       }
@@ -763,6 +763,30 @@
       }
     },
     {
+      "model": "Grok 4.7",
+      "release": "2026-09-21",
+      "nRuns": 9,
+      "domains": {
+        "Language": {
+          "n": 9,
+          "avg": 0.453,
+          "best": 0.9806
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.8 Flash",
+      "release": "2026-09-02",
+      "nRuns": 9,
+      "domains": {
+        "Language,Multimodal,Image generation,Video,Audio": {
+          "n": 9,
+          "avg": 0.5456,
+          "best": 0.9889
+        }
+      }
+    },
+    {
       "model": "Gemini 3.1 Flash-Lite",
       "release": "2026-03-03",
       "nRuns": 9,
@@ -831,30 +855,6 @@
           "n": 8,
           "avg": 0.563,
           "best": 0.9833
-        }
-      }
-    },
-    {
-      "model": "Grok 4.7",
-      "release": "2026-09-21",
-      "nRuns": 8,
-      "domains": {
-        "Language": {
-          "n": 8,
-          "avg": 0.5096,
-          "best": 0.9806
-        }
-      }
-    },
-    {
-      "model": "Gemini 3.8 Flash",
-      "release": "2026-09-02",
-      "nRuns": 8,
-      "domains": {
-        "Language,Multimodal,Image generation,Video,Audio": {
-          "n": 8,
-          "avg": 0.6138,
-          "best": 0.9889
         }
       }
     },

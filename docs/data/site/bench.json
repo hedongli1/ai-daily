@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -151,11 +151,11 @@
       "name": "GLM-5.3"
     },
     "kimi-k3": {
-      "runs": 15,
+      "runs": 16,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 15,
-          "avg": 0.5695,
+          "n": 16,
+          "avg": 0.5339,
           "best": 0.9722
         }
       },
@@ -499,11 +499,11 @@
       "name": "Claude Opus 4.8"
     },
     "claude-opus-5": {
-      "runs": 15,
+      "runs": 16,
       "domains": {
         "Language,Vision,Multimodal": {
-          "n": 15,
-          "avg": 0.7039,
+          "n": 16,
+          "avg": 0.6599,
           "best": 0.9889
         }
       },
@@ -871,11 +871,11 @@
       "name": "Gemini 3.7 Flash"
     },
     "gemini-3-8-flash": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language,Multimodal,Image generation,Video,Audio": {
-          "n": 8,
-          "avg": 0.6138,
+          "n": 9,
+          "avg": 0.5456,
           "best": 0.9889
         }
       },
@@ -1267,11 +1267,11 @@
       "name": "GPT-6 Luna"
     },
     "gpt-6-sol": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 12,
-          "avg": 0.5675,
+          "n": 13,
+          "avg": 0.525,
           "best": 1
         }
       },
@@ -1279,11 +1279,11 @@
       "name": "GPT-6 Sol"
     },
     "gpt-6-1-sol": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 12,
-          "avg": 0.6827,
+          "n": 13,
+          "avg": 0.6336,
           "best": 1
         }
       },
@@ -1375,11 +1375,11 @@
       "name": "Grok 4.6"
     },
     "grok-4-7": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language": {
-          "n": 8,
-          "avg": 0.5096,
+          "n": 9,
+          "avg": 0.453,
           "best": 0.9806
         }
       },

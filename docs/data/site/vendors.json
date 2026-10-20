@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "vendors": [
     {
       "id": "nvidia",
@@ -28,7 +28,7 @@
     {
       "id": "google",
       "name": "谷歌",
-      "n": 38,
+      "n": 39,
       "cheapest": 0,
       "latest": "2026-10-13",
       "country": "intl"
@@ -122,20 +122,20 @@
       "country": "intl"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 13,
-      "cheapest": 0,
-      "latest": "2026-10-12",
-      "country": "intl"
-    },
-    {
       "id": "sensenova",
       "name": "商汤科技",
       "n": 1,
       "cheapest": 0,
       "latest": "2026-08-11",
       "country": "cn"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "n": 13,
+      "cheapest": 0,
+      "latest": "2026-10-12",
+      "country": "intl"
     },
     {
       "id": "upstage",
@@ -146,11 +146,11 @@
       "country": "intl"
     },
     {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "n": 4,
-      "cheapest": 1,
-      "latest": "2025-02-01",
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
       "country": "intl"
     },
     {
@@ -170,14 +170,6 @@
       "country": "intl"
     },
     {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
       "id": "deepseek",
       "name": "DeepSeek",
       "n": 4,
@@ -186,11 +178,19 @@
       "country": "cn"
     },
     {
-      "id": "morph",
-      "name": "Morph",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "n": 4,
+      "cheapest": 1,
+      "latest": "2025-02-01",
+      "country": "intl"
+    },
+    {
+      "id": "poolside",
+      "name": "Poolside",
       "n": 3,
-      "cheapest": 0.8,
-      "latest": "2024-08-15",
+      "cheapest": 0,
+      "latest": "2026-07-21",
       "country": "intl"
     },
     {
@@ -202,11 +202,11 @@
       "country": "cn"
     },
     {
-      "id": "poolside",
-      "name": "Poolside",
+      "id": "morph",
+      "name": "Morph",
       "n": 3,
-      "cheapest": 0,
-      "latest": "2026-07-21",
+      "cheapest": 0.8,
+      "latest": "2024-08-15",
       "country": "intl"
     },
     {
@@ -218,27 +218,19 @@
       "country": "intl"
     },
     {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
-      "country": "intl"
-    },
-    {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
-      "country": "cn"
-    },
-    {
       "id": "thinkingmachines",
       "name": "Thinking Machines",
       "n": 1,
       "cheapest": 1.87,
       "latest": "2026-07-15",
+      "country": "intl"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
       "country": "intl"
     },
     {
@@ -248,6 +240,14 @@
       "cheapest": null,
       "latest": "2026-02-18",
       "country": "intl"
+    },
+    {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
+      "country": "cn"
     },
     {
       "id": "ai21",

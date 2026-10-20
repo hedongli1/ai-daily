@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "timeline": [
     {
       "n": "minimax-m3-1-flash",
@@ -1574,6 +1574,15 @@
       "rel": "2026-02-23",
       "ctx": 1000000,
       "in": 0.029,
+      "open": 0
+    },
+    {
+      "n": "gemini-pro-latest",
+      "name": "Gemini Pro Latest",
+      "vn": "谷歌",
+      "rel": "2026-02-19",
+      "ctx": 1048576,
+      "in": 2,
       "open": 0
     },
     {

@@ -1,716 +1,33 @@
 {
-  "date": "2026-10-20",
+  "date": "2026-10-21",
   "mode": "diff",
-  "baselineDate": "2026-10-19",
+  "baselineDate": "2026-10-20",
   "events": [
     {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.3137,
-          "outCost": 1.2549
-        }
-      },
-      "text": "输入 $0.3 → $0.31 · 输出 $1.2 → $1.25",
-      "href": "/models/minimax-m2/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2.1",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2.1",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.3137,
-          "outCost": 1.2549
-        }
-      },
-      "text": "输入 $0.3 → $0.31 · 输出 $1.2 → $1.25",
-      "href": "/models/minimax-m2-1/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2.5",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2.5",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.3137,
-          "outCost": 1.2549
-        }
-      },
-      "text": "输入 $0.3 → $0.31 · 输出 $1.2 → $1.25",
-      "href": "/models/minimax-m2-5/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2.7",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2.7",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.3137,
-          "outCost": 1.2549
-        }
-      },
-      "text": "输入 $0.3 → $0.31 · 输出 $1.2 → $1.25",
-      "href": "/models/minimax-m2-7/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M3",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M3",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.3137,
-          "outCost": 1.2549
-        }
-      },
-      "text": "输入 $0.3 → $0.31 · 输出 $1.2 → $1.25",
-      "href": "/models/minimax-m3/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.5V",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.5V",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 1.8
-        },
-        "after": {
-          "in": 0.29879,
-          "outCost": 0.89637
-        }
-      },
-      "text": "输入 $0.6 → $0.3 · 输出 $1.8 → $0.9",
-      "href": "/models/glm-4-5v/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.6V",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.6V",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 0.9
-        },
-        "after": {
-          "in": 0.1494,
-          "outCost": 0.44819
-        }
-      },
-      "text": "输入 $0.3 → $0.15 · 输出 $0.9 → $0.45",
-      "href": "/models/glm-4-6v/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.7",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.7",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 2.2
-        },
-        "after": {
-          "in": 0.44819,
-          "outCost": 2.09153
-        }
-      },
-      "text": "输入 $0.6 → $0.45 · 输出 $2.2 → $2.09",
-      "href": "/models/glm-4-7/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-5.1",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-5.1",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 1.4,
-          "outCost": 4.4
-        },
-        "after": {
-          "in": 0.89637,
-          "outCost": 3.58548
-        }
-      },
-      "text": "输入 $1.4 → $0.9 · 输出 $4.4 → $3.59",
-      "href": "/models/glm-5-1/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-5.3",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-5.3",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 1.4,
-          "outCost": 4.4
-        },
-        "after": {
-          "in": 1.19516,
-          "outCost": 4.18306
-        }
-      },
-      "text": "输入 $1.4 → $1.2 · 输出 $4.4 → $4.18",
-      "href": "/models/glm-5-3/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-5V-Turbo",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-5V-Turbo",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 5,
-          "outCost": 22
-        },
-        "after": {
-          "in": 0.74698,
-          "outCost": 3.28669
-        }
-      },
-      "text": "输入 $5 → $0.75 · 输出 $22 → $3.29",
-      "href": "/models/glm-5v-turbo/"
-    },
-    {
-      "type": "price",
-      "key": "moonshotai-cn/Kimi K2.6",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K2.6",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.95,
-          "outCost": 4
-        },
-        "after": {
-          "in": 0.9711,
-          "outCost": 4.0337
-        }
-      },
-      "text": "输入 $0.95 → $0.97 · 输出 $4 → $4.03",
-      "href": "/models/kimi-k2-6/"
-    },
-    {
-      "type": "price",
-      "key": "moonshotai-cn/Kimi K2.7 Code",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K2.7 Code",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.95,
-          "outCost": 4
-        },
-        "after": {
-          "in": 0.9711,
-          "outCost": 4.0337
-        }
-      },
-      "text": "输入 $0.95 → $0.97 · 输出 $4 → $4.03",
-      "href": "/models/kimi-k2-7-code/"
-    },
-    {
-      "type": "price",
-      "key": "moonshotai-cn/Kimi K3",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K3",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 3,
-          "outCost": 15
-        },
-        "after": {
-          "in": 2.9879,
-          "outCost": 14.9395
-        }
-      },
-      "text": "输入 $3 → $2.99 · 输出 $15 → $14.94",
-      "href": "/models/kimi-k3/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen3.6 35B-A3B",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.6 35B-A3B",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.248,
-          "outCost": 1.485
-        },
-        "after": {
-          "in": 0.375,
-          "outCost": 2.25
-        }
-      },
-      "text": "输入 $0.25 → $0.38 · 输出 $1.49 → $2.25",
-      "href": "/models/qwen3-6-35b-a3b/",
-      "evidence": [
-        {
-          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-          "url": "https://github.com/QwenLM/qwen-code/releases",
-          "source": "Qwen"
-        },
-        {
-          "title": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-          "url": "https://github.com/QwenLM/qwen-code-docs/releases",
-          "source": "Qwen"
-        },
-        {
-          "title": "BlenderWorld · 仓库更新",
-          "url": "https://github.com/QwenLM/BlenderWorld/releases",
-          "source": "Qwen"
-        }
-      ]
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen3.6 Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.6 Flash",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.1875,
-          "outCost": 1.125
-        },
-        "after": {
-          "in": 0.25,
-          "outCost": 1.5
-        }
-      },
-      "text": "输入 $0.19 → $0.25 · 输出 $1.13 → $1.5",
-      "href": "/models/qwen3-6-flash/"
-    },
-    {
-      "type": "price",
-      "key": "moonshotai-cn/Kimi K2.7 Code HighSpeed",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K2.7 Code HighSpeed",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 1.9,
-          "outCost": 8
-        },
-        "after": {
-          "in": 1.9421,
-          "outCost": 8.0673
-        }
-      },
-      "text": "输入 $1.9 → $1.94 · 输出 $8 → $8.07",
-      "href": "/models/kimi-k2-7-code-highspeed/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba-cn/Moonshot Kimi K2.5",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Moonshot Kimi K2.5",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.574,
-          "outCost": 2.411
-        },
-        "after": {
-          "in": 0.574,
-          "outCost": 3.011
-        }
-      },
-      "text": "输出 $2.41 → $3.01",
-      "href": "/models/moonshot-kimi-k2-5/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2.7-highspeed",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2.7-highspeed",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 2.4
-        },
-        "after": {
-          "in": 0.6275,
-          "outCost": 2.5098
-        }
-      },
-      "text": "输入 $0.6 → $0.63 · 输出 $2.4 → $2.51",
-      "href": "/models/minimax-m2-7-highspeed/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Ministral 3B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3B (latest)",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.04,
-          "outCost": 0.04
-        },
-        "after": {
-          "in": 0.1,
-          "outCost": 0.1
-        }
-      },
-      "text": "输入 $0.04 → $0.1 · 输出 $0.04 → $0.1",
-      "href": "/models/ministral-3b/",
-      "evidence": [
-        {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "platform-docs-public · 仓库更新",
-          "url": "https://github.com/mistralai/platform-docs-public/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "llm-d-router-public · Inference scheduler for llm-d",
-          "url": "https://github.com/mistralai/llm-d-router-public/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "cli · 仓库更新",
-          "url": "https://github.com/mistralai/cli/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "client-python · Python client library for Mistral AI platform",
-          "url": "https://github.com/mistralai/client-python/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "client-ts ·  TS Client library for Mistral AI platform ",
-          "url": "https://github.com/mistralai/client-ts/releases",
-          "source": "Mistral AI"
-        }
-      ]
-    },
-    {
-      "type": "price",
-      "key": "cohere/Aya Expanse 32B",
-      "vendor": "cohere",
-      "vendorName": "Cohere",
-      "name": "Aya Expanse 32B",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": null,
-          "outCost": null
-        },
-        "after": {
-          "in": 0.5,
-          "outCost": 1.5
-        }
-      },
-      "text": "输入 未知 → $0.5 · 输出 未知 → $1.5",
-      "href": "/models/aya-expanse-32b/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-5.3-FlashX",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-5.3-FlashX",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.37,
-          "outCost": 1.25
-        },
-        "after": {
-          "in": 0.29879,
-          "outCost": 1.04577
-        }
-      },
-      "text": "输入 $0.37 → $0.3 · 输出 $1.25 → $1.05",
-      "href": "/models/glm-5-3-flashx/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.5-Air",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.5-Air",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.2,
-          "outCost": 1.1
-        },
-        "after": {
-          "in": 0.11952,
-          "outCost": 0.89637
-        }
-      },
-      "text": "输入 $0.2 → $0.12 · 输出 $1.1 → $0.9",
-      "href": "/models/glm-4-5-air/"
-    },
-    {
-      "type": "price",
-      "key": "minimax-cn/MiniMax-M2.5-highspeed",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M2.5-highspeed",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 2.4
-        },
-        "after": {
-          "in": 0.6275,
-          "outCost": 2.5098
-        }
-      },
-      "text": "输入 $0.6 → $0.63 · 输出 $2.4 → $2.51",
-      "href": "/models/minimax-m2-5-highspeed/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Ministral 8B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 8B (latest)",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.1,
-          "outCost": 0.1
-        },
-        "after": {
-          "in": 0.15,
-          "outCost": 0.15
-        }
-      },
-      "text": "输入 $0.1 → $0.15 · 输出 $0.1 → $0.15",
-      "href": "/models/ministral-8b/"
-    },
-    {
-      "type": "price",
-      "key": "zhipuai/GLM-4.7-FlashX",
-      "vendor": "zhipuai",
-      "vendorName": "智谱 AI",
-      "name": "GLM-4.7-FlashX",
-      "date": "2026-10-20",
-      "facts": {
-        "before": {
-          "in": 0.07,
-          "outCost": 0.4
-        },
-        "after": {
-          "in": 0.0747,
-          "outCost": 0.44819
-        }
-      },
-      "text": "输入 $0.07 → $0.07 · 输出 $0.4 → $0.45",
-      "href": "/models/glm-4-7-flashx/"
-    },
-    {
-      "type": "context",
-      "key": "deepseek/DeepSeek V4 Flash",
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepSeek V4 Flash",
-      "date": "2026-10-20",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/deepseek-v4-flash/",
-      "evidence": [
-        {
-          "title": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-          "url": "https://github.com/deepseek-ai/DeepInfer/releases",
-          "source": "DeepSeek"
-        },
-        {
-          "title": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-          "url": "https://github.com/deepseek-ai/DeepGEMM/releases",
-          "source": "DeepSeek"
-        },
-        {
-          "title": "deepseek-recipe · 仓库更新",
-          "url": "https://github.com/deepseek-ai/deepseek-recipe/releases",
-          "source": "DeepSeek"
-        }
-      ]
-    },
-    {
-      "type": "context",
-      "key": "deepseek/DeepSeek V4 Pro",
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepSeek V4 Pro",
-      "date": "2026-10-20",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/deepseek-v4-pro/"
-    },
-    {
-      "type": "context",
-      "key": "deepseek/DeepSeek V4 Flash Vision Exp",
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepSeek V4 Flash Vision Exp",
-      "date": "2026-10-20",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/deepseek-v4-flash-vision-exp/"
-    },
-    {
-      "type": "context",
-      "key": "deepseek/DeepSeek V4.1 Flash 1017",
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepSeek V4.1 Flash 1017",
-      "date": "2026-10-20",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/deepseek-v4-1-flash-1017/"
-    },
-    {
-      "type": "retired",
-      "key": "openai/GPT-5.3 Chat (latest)",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "GPT-5.3 Chat (latest)",
+      "name": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
       "date": "2026-10-20",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/",
-      "evidence": [
-        {
-          "title": "Advancing coding in low‑resource programming languages",
-          "url": "https://openai.com/index/low-resource-programming-languages",
-          "source": "OpenAI"
-        }
-      ]
+      "text": "Franchisee reconciles cash in 94% less time with ChatGPT Work",
+      "href": "https://openai.com/index/ted-taylor-restaurant",
+      "source": "OpenAI",
+      "external": true
     },
     {
-      "type": "retired",
-      "key": "openai/GPT-5.2 Chat",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "GPT-5.2 Chat",
+      "name": "OpenAI acquires Orchestra Bio",
       "date": "2026-10-20",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mistral 7B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral 7B",
-      "date": "2026-10-20",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mixtral 8x22B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mixtral 8x22B",
-      "date": "2026-10-20",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mixtral 8x7B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mixtral 8x7B",
-      "date": "2026-10-20",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
+      "text": "OpenAI acquires Orchestra Bio",
+      "href": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -756,6 +73,19 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
+      "name": "BlenderWorld · 仓库更新",
+      "date": "2026-10-20",
+      "facts": {},
+      "text": "BlenderWorld · 仓库更新",
+      "href": "https://github.com/QwenLM/BlenderWorld/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
       "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
       "date": "2026-10-20",
       "facts": {},
@@ -767,14 +97,27 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "BlenderWorld · 仓库更新",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
       "date": "2026-10-20",
       "facts": {},
-      "text": "BlenderWorld · 仓库更新",
-      "href": "https://github.com/QwenLM/BlenderWorld/releases",
-      "source": "Qwen",
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-20",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -795,11 +138,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
+      "name": "client-python · Python client library for Mistral AI platform",
       "date": "2026-10-20",
       "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -856,24 +199,6 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "minimax-cn/MiniMax-M3.1-Flash",
-      "vendor": "minimax",
-      "vendorName": "MiniMax",
-      "name": "MiniMax-M3.1-Flash",
-      "date": "2026-10-19",
-      "facts": {
-        "ctx": 1000000,
-        "in": 0.1494,
-        "outCost": 0.5976,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "MiniMax-M3.1-Flash · 闭源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
-      "href": "/models/minimax-m3-1-flash/",
-      "shared": 17
-    },
-    {
       "type": "news",
       "key": null,
       "vendor": "openai",
@@ -902,6 +227,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-10-19",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "mistral-common · Official inference library for pre-processing of Mistral models",
@@ -913,66 +251,22 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-10-19",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-ts ·  TS Client library for Mistral AI platform ",
-      "date": "2026-10-19",
-      "facts": {},
-      "text": "client-ts ·  TS Client library for Mistral AI platform ",
-      "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
       "type": "new",
-      "key": "inception/Mercury 3",
-      "vendor": "inception",
-      "vendorName": "Inception",
-      "name": "Mercury 3",
-      "date": "2026-10-16",
+      "key": "google/Gemini Pro Latest",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Gemini Pro Latest",
+      "date": "2026-02-19",
       "facts": {
-        "ctx": 1000000,
-        "in": 0.1,
-        "outCost": 0.35,
+        "ctx": 1048576,
+        "in": 2,
+        "outCost": 12,
         "open": false,
         "reasoning": true
       },
-      "text": "Mercury 3 · 闭源 · 1M 上下文 · 输入 $0.1/M · 支持推理",
-      "href": "/models/mercury-3/",
-      "shared": 6
-    },
-    {
-      "type": "new",
-      "key": "upstage/Solar Mini 4",
-      "vendor": "upstage",
-      "vendorName": "Upstage",
-      "name": "Solar Mini 4",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 524288,
-        "in": 0.1,
-        "outCost": 0.4,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Solar Mini 4 · 闭源 · 524K 上下文 · 输入 $0.1/M · 支持推理",
-      "href": "/models/solar-mini-4/",
-      "shared": 4
+      "text": "Gemini Pro Latest · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/gemini-pro-latest/",
+      "shared": 8
     }
   ]
 }
