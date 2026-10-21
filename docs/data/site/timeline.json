@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "timeline": [
     {
       "n": "minimax-m3-1-flash",
@@ -826,7 +826,7 @@
       "vn": "英伟达",
       "rel": "2026-06-04",
       "ctx": 1000000,
-      "in": 0.5,
+      "in": 0,
       "open": 1
     },
     {
@@ -1154,15 +1154,6 @@
       "open": 1
     },
     {
-      "n": "nemotron-3-content-safety",
-      "name": "nemotron-3-content-safety",
-      "vn": "英伟达",
-      "rel": "2026-04-16",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "active-speaker-detection",
       "name": "Active Speaker Detection",
       "vn": "英伟达",
@@ -1268,15 +1259,6 @@
       "rel": "2026-04-01",
       "ctx": 262144,
       "in": 0.25,
-      "open": 1
-    },
-    {
-      "n": "llama-nemotron-rerank-vl-1b-v2",
-      "name": "llama-nemotron-rerank-vl-1b-v2",
-      "vn": "英伟达",
-      "rel": "2026-03-31",
-      "ctx": 128000,
-      "in": 0,
       "open": 1
     },
     {
@@ -1399,6 +1381,15 @@
     {
       "n": "nemotron-voicechat",
       "name": "nemotron-voicechat",
+      "vn": "英伟达",
+      "rel": "2026-03-16",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "nemotron-3-content-safety",
+      "name": "nemotron-3-content-safety",
       "vn": "英伟达",
       "rel": "2026-03-16",
       "ctx": 128000,
@@ -1672,7 +1663,7 @@
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
       "ctx": 131072,
-      "in": null,
+      "in": 0.15790269,
       "open": 1
     },
     {
@@ -1802,15 +1793,6 @@
       "open": 1
     },
     {
-      "n": "llama-nemotron-embed-vl-1b-v2",
-      "name": "llama-nemotron-embed-vl-1b-v2",
-      "vn": "英伟达",
-      "rel": "2026-02-10",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "gpt-5-3-codex-spark",
       "name": "GPT-5.3 Codex Spark",
       "vn": "OpenAI",
@@ -1892,6 +1874,15 @@
       "open": 1
     },
     {
+      "n": "solar-pro3",
+      "name": "solar-pro3",
+      "vn": "Upstage",
+      "rel": "2026-01-26",
+      "ctx": 131072,
+      "in": 0.25,
+      "open": 0
+    },
+    {
       "n": "qwen3-max",
       "name": "Qwen3 Max",
       "vn": "阿里云",
@@ -1931,8 +1922,8 @@
       "n": "flux-2-klein-4b",
       "name": "FLUX.2 Klein 4B",
       "vn": "英伟达",
-      "rel": "2026-01-14",
-      "ctx": 40960,
+      "rel": "2026-01-15",
+      "ctx": 0,
       "in": 0,
       "open": 1
     },
@@ -1944,15 +1935,6 @@
       "ctx": 256000,
       "in": 0.2,
       "open": 1
-    },
-    {
-      "n": "solar-pro3",
-      "name": "solar-pro3",
-      "vn": "Upstage",
-      "rel": "2026-01-01",
-      "ctx": 131072,
-      "in": 0.25,
-      "open": 0
     },
     {
       "n": "usdcode",
@@ -1991,6 +1973,24 @@
       "open": 1
     },
     {
+      "n": "llama-nemotron-rerank-vl-1b-v2",
+      "name": "llama-nemotron-rerank-vl-1b-v2",
+      "vn": "英伟达",
+      "rel": "2025-12-18",
+      "ctx": 10240,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-nemotron-embed-vl-1b-v2",
+      "name": "llama-nemotron-embed-vl-1b-v2",
+      "vn": "英伟达",
+      "rel": "2025-12-18",
+      "ctx": 8192,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "gemini-3-flash-preview",
       "name": "Gemini 3 Flash Preview",
       "vn": "谷歌",
@@ -2016,6 +2016,15 @@
       "ctx": 0,
       "in": null,
       "open": 0
+    },
+    {
+      "n": "nemotron-3-nano-30b-a3b",
+      "name": "nemotron-3-nano-30b-a3b",
+      "vn": "英伟达",
+      "rel": "2025-12-15",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
     },
     {
       "n": "riva-translate-4b-instruct-v1-1",
@@ -2333,15 +2342,6 @@
       "open": 0
     },
     {
-      "n": "magistral-small-2506",
-      "name": "Magistral Small 2506",
-      "vn": "英伟达",
-      "rel": "2025-09-25",
-      "ctx": 32768,
-      "in": 0,
-      "open": 0
-    },
-    {
       "n": "qwen3-vl-plus",
       "name": "Qwen3-VL Plus",
       "vn": "阿里云",
@@ -2383,16 +2383,7 @@
       "vn": "阿里云",
       "rel": "2025-09-08",
       "ctx": 53248,
-      "in": 0.032,
-      "open": 0
-    },
-    {
-      "n": "seed-oss-36b-instruct",
-      "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-      "vn": "英伟达",
-      "rel": "2025-09-04",
-      "ctx": 262000,
-      "in": 0,
+      "in": null,
       "open": 0
     },
     {
@@ -2450,6 +2441,15 @@
       "open": 1
     },
     {
+      "n": "seed-oss-36b-instruct",
+      "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
+      "vn": "英伟达",
+      "rel": "2025-08-20",
+      "ctx": 262000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "qwen-image-edit",
       "name": "Qwen Image Edit",
       "vn": "英伟达",
@@ -2475,15 +2475,6 @@
       "ctx": 256000,
       "in": 0.11875,
       "open": 0
-    },
-    {
-      "n": "flux-1-kontext-dev",
-      "name": "FLUX.1-Kontext-dev",
-      "vn": "英伟达",
-      "rel": "2025-08-12",
-      "ctx": 40960,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "mistral-medium-3-1",
@@ -2630,24 +2621,6 @@
       "open": 0
     },
     {
-      "n": "phi-4-multimodal",
-      "name": "Phi 4 Multimodal",
-      "vn": "英伟达",
-      "rel": "2025-07-26",
-      "ctx": 128000,
-      "in": 0,
-      "open": 0
-    },
-    {
-      "n": "sarvam-m",
-      "name": "sarvam-m",
-      "vn": "英伟达",
-      "rel": "2025-07-25",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "llama-3-3-nemotron-super-49b-v1-5",
       "name": "Llama 3.3 Nemotron Super 49B v1.5",
       "vn": "英伟达",
@@ -2711,6 +2684,24 @@
       "open": 1
     },
     {
+      "n": "gemma-3n-e4b-it",
+      "name": "Gemma 3n E4b It",
+      "vn": "英伟达",
+      "rel": "2025-06-26",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "gemma-3n-e2b-it",
+      "name": "Gemma 3n E2b It",
+      "vn": "英伟达",
+      "rel": "2025-06-26",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "mistral-small-3-2",
       "name": "Mistral Small 3.2",
       "vn": "Mistral",
@@ -2756,22 +2747,13 @@
       "open": 1
     },
     {
-      "n": "gemma-3n-e2b-it",
-      "name": "Gemma 3n E2b It",
-      "vn": "英伟达",
-      "rel": "2025-06-12",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "mistral-nemotron",
       "name": "mistral-nemotron",
       "vn": "英伟达",
       "rel": "2025-06-11",
       "ctx": 128000,
       "in": 0,
-      "open": 1
+      "open": 0
     },
     {
       "n": "o3-pro",
@@ -2783,11 +2765,20 @@
       "open": 0
     },
     {
-      "n": "gemma-3n-e4b-it",
-      "name": "Gemma 3n E4b It",
+      "n": "magistral-small-2506",
+      "name": "Magistral Small 2506",
       "vn": "英伟达",
-      "rel": "2025-06-03",
-      "ctx": 128000,
+      "rel": "2025-06-10",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "flux-1-kontext-dev",
+      "name": "FLUX.1-Kontext-dev",
+      "vn": "英伟达",
+      "rel": "2025-05-29",
+      "ctx": 0,
       "in": 0,
       "open": 1
     },
@@ -2826,6 +2817,15 @@
       "ctx": 65536,
       "in": 0.25,
       "open": 0
+    },
+    {
+      "n": "sarvam-m",
+      "name": "sarvam-m",
+      "vn": "英伟达",
+      "rel": "2025-05-20",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
     },
     {
       "n": "gemini-embedding-001",
@@ -2880,6 +2880,15 @@
       "ctx": 8192,
       "in": 0.5,
       "open": 0
+    },
+    {
+      "n": "llama-guard-4-12b",
+      "name": "Llama Guard 4 12B",
+      "vn": "英伟达",
+      "rel": "2025-04-29",
+      "ctx": 163840,
+      "in": 0,
+      "open": 1
     },
     {
       "n": "gpt-image-1",
@@ -2963,8 +2972,8 @@
       "open": 1
     },
     {
-      "n": "llama-guard-4-12b",
-      "name": "Llama Guard 4 12B",
+      "n": "llama-4-maverick-17b-128e-instruct",
+      "name": "Llama 4 Maverick 17b 128e Instruct",
       "vn": "英伟达",
       "rel": "2025-04-05",
       "ctx": 128000,
@@ -3012,24 +3021,6 @@
       "name": "Cerebras-Llama-4-Maverick-17B-128E-Instruct",
       "vn": "Meta",
       "rel": "2025-04-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "mistral-7b-instruct-v0-3",
-      "name": "Mistral-7B-Instruct-v0.3",
-      "vn": "英伟达",
-      "rel": "2025-04-01",
-      "ctx": 65536,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-4-maverick-17b-128e-instruct",
-      "name": "Llama 4 Maverick 17b 128e Instruct",
-      "vn": "英伟达",
-      "rel": "2025-04-01",
       "ctx": 128000,
       "in": 0,
       "open": 1
@@ -3242,6 +3233,24 @@
       "open": 1
     },
     {
+      "n": "phi-4-multimodal",
+      "name": "Phi 4 Multimodal",
+      "vn": "英伟达",
+      "rel": "2025-02-26",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "phi-4-mini",
+      "name": "Phi-4-Mini",
+      "vn": "英伟达",
+      "rel": "2025-02-26",
+      "ctx": 131072,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "perplexity-sonar-deep-research",
       "name": "Perplexity Sonar Deep Research",
       "vn": "Perplexity",
@@ -3285,15 +3294,6 @@
       "ctx": 32768,
       "in": 2.05,
       "open": 0
-    },
-    {
-      "n": "llama-3-1-8b-instruct",
-      "name": "Llama 3.1 8B Instruct",
-      "vn": "英伟达",
-      "rel": "2025-01-01",
-      "ctx": 16000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "qwen-mt-turbo",
@@ -3458,24 +3458,6 @@
       "open": 0
     },
     {
-      "n": "nemotron-3-nano-30b-a3b",
-      "name": "nemotron-3-nano-30b-a3b",
-      "vn": "英伟达",
-      "rel": "2024-12-01",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "phi-4-mini",
-      "name": "Phi-4-Mini",
-      "vn": "英伟达",
-      "rel": "2024-12-01",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwq-32b",
       "name": "QwQ 32B",
       "vn": "阿里云",
@@ -3588,7 +3570,7 @@
       "name": "studiovoice",
       "vn": "英伟达",
       "rel": "2024-10-03",
-      "ctx": 128000,
+      "ctx": 0,
       "in": 0,
       "open": 1
     },
@@ -3620,20 +3602,11 @@
       "open": 1
     },
     {
-      "n": "qwen-math-turbo",
-      "name": "Qwen Math Turbo",
-      "vn": "阿里云",
-      "rel": "2024-09-19",
-      "ctx": 4096,
-      "in": 0.287,
-      "open": 0
-    },
-    {
       "n": "llama-3-2-3b-instruct",
       "name": "Llama 3.2 3B Instruct",
       "vn": "英伟达",
-      "rel": "2024-09-18",
-      "ctx": 32768,
+      "rel": "2024-09-25",
+      "ctx": 131072,
       "in": 0,
       "open": 1
     },
@@ -3641,7 +3614,7 @@
       "n": "llama-3-2-1b-instruct",
       "name": "Llama 3.2 1b Instruct",
       "vn": "英伟达",
-      "rel": "2024-09-18",
+      "rel": "2024-09-25",
       "ctx": 128000,
       "in": 0,
       "open": 1
@@ -3650,19 +3623,19 @@
       "n": "llama-3-2-11b-vision-instruct",
       "name": "Llama 3.2 11b Vision Instruct",
       "vn": "英伟达",
-      "rel": "2024-09-18",
+      "rel": "2024-09-25",
       "ctx": 128000,
       "in": 0,
       "open": 1
     },
     {
-      "n": "dracarys-llama-3-1-70b-instruct",
-      "name": "dracarys-llama-3.1-70b-instruct",
-      "vn": "英伟达",
-      "rel": "2024-09-11",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
+      "n": "qwen-math-turbo",
+      "name": "Qwen Math Turbo",
+      "vn": "阿里云",
+      "rel": "2024-09-19",
+      "ctx": 4096,
+      "in": 0.287,
+      "open": 0
     },
     {
       "n": "pixtral-12b",
@@ -3800,11 +3773,20 @@
       "open": 0
     },
     {
+      "n": "dracarys-llama-3-1-70b-instruct",
+      "name": "dracarys-llama-3.1-70b-instruct",
+      "vn": "英伟达",
+      "rel": "2024-08-14",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "flux-1-schnell",
       "name": "FLUX.1-schnell",
       "vn": "英伟达",
       "rel": "2024-08-01",
-      "ctx": 77,
+      "ctx": 0,
       "in": 0,
       "open": 1
     },
@@ -3813,9 +3795,18 @@
       "name": "FLUX.1-dev",
       "vn": "英伟达",
       "rel": "2024-08-01",
-      "ctx": 4096,
+      "ctx": 0,
       "in": 0,
-      "open": 0
+      "open": 1
+    },
+    {
+      "n": "gemma-2-2b-it",
+      "name": "Gemma 2 2b It",
+      "vn": "英伟达",
+      "rel": "2024-07-31",
+      "ctx": 8192,
+      "in": 0,
+      "open": 1
     },
     {
       "n": "usdvalidate",
@@ -3827,6 +3818,24 @@
       "open": 1
     },
     {
+      "n": "llama-3-1-8b-instruct",
+      "name": "Llama 3.1 8B Instruct",
+      "vn": "英伟达",
+      "rel": "2024-07-23",
+      "ctx": 16000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "llama-3-1-70b-instruct",
+      "name": "Llama 3.1 70b Instruct",
+      "vn": "英伟达",
+      "rel": "2024-07-23",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "gpt-4o-mini",
       "name": "GPT-4o mini",
       "vn": "OpenAI",
@@ -3834,24 +3843,6 @@
       "ctx": 128000,
       "in": 0.15,
       "open": 0
-    },
-    {
-      "n": "llama-3-1-70b-instruct",
-      "name": "Llama 3.1 70b Instruct",
-      "vn": "英伟达",
-      "rel": "2024-07-16",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "gemma-2-2b-it",
-      "name": "Gemma 2 2b It",
-      "vn": "英伟达",
-      "rel": "2024-07-16",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "open-mistral-nemo",
@@ -3890,15 +3881,6 @@
       "open": 1
     },
     {
-      "n": "solar-10-7b-instruct",
-      "name": "solar-10.7b-instruct",
-      "vn": "英伟达",
-      "rel": "2024-06-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "auto",
       "name": "Auto",
       "vn": "Morph",
@@ -3914,6 +3896,15 @@
       "rel": "2024-05-29",
       "ctx": 256000,
       "in": 0.3,
+      "open": 1
+    },
+    {
+      "n": "mistral-7b-instruct-v0-3",
+      "name": "Mistral-7B-Instruct-v0.3",
+      "vn": "英伟达",
+      "rel": "2024-05-22",
+      "ctx": 65536,
+      "in": 0,
       "open": 1
     },
     {
@@ -4115,6 +4106,24 @@
       "open": 0
     },
     {
+      "n": "solar-10-7b-instruct",
+      "name": "solar-10.7b-instruct",
+      "vn": "英伟达",
+      "rel": "2023-12-12",
+      "ctx": 128000,
+      "in": 0,
+      "open": 1
+    },
+    {
+      "n": "mixtral-8x7b-instruct",
+      "name": "Mistral: Mixtral 8x7B Instruct",
+      "vn": "英伟达",
+      "rel": "2023-12-11",
+      "ctx": 32768,
+      "in": 0,
+      "open": 1
+    },
+    {
       "n": "mistral-embed",
       "name": "Mistral Embed",
       "vn": "Mistral",
@@ -4122,15 +4131,6 @@
       "ctx": 8000,
       "in": 0.1,
       "open": 0
-    },
-    {
-      "n": "mixtral-8x7b-instruct",
-      "name": "Mistral: Mixtral 8x7B Instruct",
-      "vn": "英伟达",
-      "rel": "2023-12-10",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "gpt-4-turbo",
@@ -4154,8 +4154,8 @@
       "n": "whisper-large-v3",
       "name": "Whisper Large v3",
       "vn": "英伟达",
-      "rel": "2023-09-01",
-      "ctx": 0,
+      "rel": "2023-11-06",
+      "ctx": 448,
       "in": 0,
       "open": 1
     },

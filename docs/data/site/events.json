@@ -1,561 +1,239 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "mode": "diff",
-  "baselineDate": "2026-10-20",
+  "baselineDate": "2026-10-21",
   "events": [
     {
       "type": "price",
-      "key": "arcee/GLM-5.3",
-      "vendor": "arcee",
-      "vendorName": "Arcee AI",
-      "name": "GLM-5.3",
-      "date": "2026-10-21",
+      "key": "alibaba/Qwen3-ASR Flash",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-ASR Flash",
+      "date": "2026-10-22",
       "facts": {
         "before": {
-          "in": 1.19516,
-          "outCost": 4.18306
+          "in": 0.035,
+          "outCost": 0.035
         },
         "after": {
-          "in": 1.4,
-          "outCost": 4.4
+          "in": null,
+          "outCost": null
         }
       },
-      "text": "输入 $1.2 → $1.4 · 输出 $4.18 → $4.4",
-      "href": "/models/glm-5-3/"
+      "text": "输入 $0.04 → 未知 · 输出 $0.04 → 未知",
+      "href": "/models/qwen3-asr-flash/",
+      "evidence": [
+        {
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+          "url": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+          "source": "Qwen"
+        }
+      ]
     },
     {
       "type": "price",
-      "key": "arcee/GLM-5.3-Flash",
-      "vendor": "arcee",
-      "vendorName": "Arcee AI",
-      "name": "GLM-5.3-Flash",
-      "date": "2026-10-21",
+      "key": "sarvam/Sarvam-105B",
+      "vendor": "sarvam",
+      "vendorName": "Sarvam AI",
+      "name": "Sarvam-105B",
+      "date": "2026-10-22",
       "facts": {
         "before": {
-          "in": 0.11875,
-          "outCost": 0.41563
+          "in": null,
+          "outCost": null
         },
         "after": {
-          "in": 0.15,
-          "outCost": 0.5
+          "in": 0.15790269,
+          "outCost": 0.63161075
         }
       },
-      "text": "输入 $0.12 → $0.15 · 输出 $0.42 → $0.5",
-      "href": "/models/glm-5-3-flash/"
-    },
-    {
-      "type": "price",
-      "key": "databricks/GPT-5.6 Luna",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "GPT-5.6 Luna",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 1,
-          "outCost": 6
-        },
-        "after": {
-          "in": 0.2,
-          "outCost": 1.2
-        }
-      },
-      "text": "输入 $1 → $0.2 · 输出 $6 → $1.2",
-      "href": "/models/gpt-5-6-luna/"
-    },
-    {
-      "type": "price",
-      "key": "databricks/GPT-5.6 Sol",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "GPT-5.6 Sol",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 5,
-          "outCost": 30
-        },
-        "after": {
-          "in": 4,
-          "outCost": 20
-        }
-      },
-      "text": "输入 $5 → $4 · 输出 $30 → $20",
-      "href": "/models/gpt-5-6-sol/"
-    },
-    {
-      "type": "price",
-      "key": "databricks/GPT-5.6 Terra",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "GPT-5.6 Terra",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 2.5,
-          "outCost": 15
-        },
-        "after": {
-          "in": 2,
-          "outCost": 12
-        }
-      },
-      "text": "输入 $2.5 → $2 · 输出 $15 → $12",
-      "href": "/models/gpt-5-6-terra/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Qwen3.6 35B-A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.6 35B-A3B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.375,
-          "outCost": 2.25
-        },
-        "after": {
-          "in": 0.45,
-          "outCost": 1.335
-        }
-      },
-      "text": "输入 $0.38 → $0.45 · 输出 $2.25 → $1.33",
-      "href": "/models/qwen3-6-35b-a3b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Qwen3.6 27B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.6 27B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 3.6
-        },
-        "after": {
-          "in": 1.86,
-          "outCost": 5.595
-        }
-      },
-      "text": "输入 $0.6 → $1.86 · 输出 $3.6 → $5.59",
-      "href": "/models/qwen3-6-27b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/DeepSeek-V3.1",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "DeepSeek-V3.1",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.574,
-          "outCost": 1.721
-        },
-        "after": {
-          "in": 1.695,
-          "outCost": 4.215
-        }
-      },
-      "text": "输入 $0.57 → $1.7 · 输出 $1.72 → $4.21",
-      "href": "/models/deepseek-v3-1/"
-    },
-    {
-      "type": "price",
-      "key": "cerebras/GPT OSS 120B",
-      "vendor": "cerebras",
-      "vendorName": "Cerebras",
-      "name": "GPT OSS 120B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.35,
-          "outCost": 0.75
-        },
-        "after": {
-          "in": 0.35,
-          "outCost": 0.75
-        }
-      },
-      "text": "",
-      "href": "/models/gpt-oss-120b/"
-    },
-    {
-      "type": "price",
-      "key": "longcat/LongCat-2.0",
-      "vendor": "longcat",
-      "vendorName": "美团 LongCat",
-      "name": "LongCat-2.0",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.75,
-          "outCost": 2.95
-        },
-        "after": {
-          "in": 0.3,
-          "outCost": 1.2
-        }
-      },
-      "text": "输入 $0.75 → $0.3 · 输出 $2.95 → $1.2",
-      "href": "/models/longcat-2-0/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Nemotron 3 Ultra 550B A55B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3 Ultra 550B A55B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.5,
-          "outCost": 2.5
-        },
-        "after": {
-          "in": 1.8,
-          "outCost": 6.225
-        }
-      },
-      "text": "输入 $0.5 → $1.8 · 输出 $2.5 → $6.22",
-      "href": "/models/nemotron-3-ultra-550b-a55b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Nemotron 3.5 Lightning 30B A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3.5 Lightning 30B A3B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0,
-          "outCost": 0
-        },
-        "after": {
-          "in": 0.184,
-          "outCost": 0.495
-        }
-      },
-      "text": "输入 免费 → $0.18 · 输出 免费 → $0.49",
-      "href": "/models/nemotron-3-5-lightning-30b-a3b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Qwen3.5 397B-A17B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 397B-A17B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.6,
-          "outCost": 3.6
-        },
-        "after": {
-          "in": 1.65,
-          "outCost": 7.5
-        }
-      },
-      "text": "输入 $0.6 → $1.65 · 输出 $3.6 → $7.5",
-      "href": "/models/qwen3-5-397b-a17b/"
-    },
-    {
-      "type": "price",
-      "key": "stepfun-ai/Step 3.7 Flash",
-      "vendor": "stepfun",
-      "vendorName": "阶跃星辰",
-      "name": "Step 3.7 Flash",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.185,
-          "outCost": 1.11
-        },
-        "after": {
-          "in": 0.2,
-          "outCost": 1.15
-        }
-      },
-      "text": "输入 $0.18 → $0.2 · 输出 $1.11 → $1.15",
-      "href": "/models/step-3-7-flash/"
-    },
-    {
-      "type": "price",
-      "key": "stepfun-ai/Step 5 Preview",
-      "vendor": "stepfun",
-      "vendorName": "阶跃星辰",
-      "name": "Step 5 Preview",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 1,
-          "outCost": 2.7
-        },
-        "after": {
-          "in": 1,
-          "outCost": 2.7
-        }
-      },
-      "text": "",
-      "href": "/models/step-5-preview/"
-    },
-    {
-      "type": "price",
-      "key": "inception/Mercury 2.5",
-      "vendor": "inception",
-      "vendorName": "Inception",
-      "name": "Mercury 2.5",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.04,
-          "outCost": 0.15
-        },
-        "after": {
-          "in": 0.2,
-          "outCost": 0.75
-        }
-      },
-      "text": "输入 $0.04 → $0.2 · 输出 $0.15 → $0.75",
-      "href": "/models/mercury-2-5/"
-    },
-    {
-      "type": "price",
-      "key": "databricks/GPT OSS 20B",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "GPT OSS 20B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.05,
-          "outCost": 0.2
-        },
-        "after": {
-          "in": 0.07,
-          "outCost": 0.3
-        }
-      },
-      "text": "输入 $0.05 → $0.07 · 输出 $0.2 → $0.3",
-      "href": "/models/gpt-oss-20b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Qwen3 8B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3 8B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0.18,
-          "outCost": 0.7
-        },
-        "after": {
-          "in": 0.195,
-          "outCost": 0.6
-        }
-      },
-      "text": "输入 $0.18 → $0.2 · 输出 $0.7 → $0.6",
-      "href": "/models/qwen3-8b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Nemotron 3 Nano 30B A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3 Nano 30B A3B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0,
-          "outCost": 0
-        },
-        "after": {
-          "in": 0.195,
-          "outCost": 0.495
-        }
-      },
-      "text": "输入 免费 → $0.2 · 输出 免费 → $0.49",
-      "href": "/models/nemotron-3-nano-30b-a3b/"
-    },
-    {
-      "type": "price",
-      "key": "thinkingmachines/Nemotron 3.5 Super VL 120B A12B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3.5 Super VL 120B A12B",
-      "date": "2026-10-21",
-      "facts": {
-        "before": {
-          "in": 0,
-          "outCost": 0
-        },
-        "after": {
-          "in": 0.57,
-          "outCost": 1.44
-        }
-      },
-      "text": "输入 免费 → $0.57 · 输出 免费 → $1.44",
-      "href": "/models/nemotron-3-5-super-vl-120b-a12b/"
+      "text": "输入 未知 → $0.16 · 输出 未知 → $0.63",
+      "href": "/models/sarvam-105b/"
     },
     {
       "type": "context",
-      "key": "databricks/GPT-5.6 Luna",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "GPT-5.6 Luna",
-      "date": "2026-10-21",
+      "key": "nvidia/Llama 3.2 3B Instruct",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Llama 3.2 3B Instruct",
+      "date": "2026-10-22",
       "facts": {
-        "before": 400000,
-        "after": 1050000
+        "before": 32768,
+        "after": 131072
       },
-      "text": "上下文 400K → 1.1M",
-      "href": "/models/gpt-5-6-luna/"
+      "text": "上下文 33K → 131K",
+      "href": "/models/llama-3-2-3b-instruct/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Qwen3.6 35B-A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.6 35B-A3B",
-      "date": "2026-10-21",
+      "key": "nvidia/Llama Guard 4 12B",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Llama Guard 4 12B",
+      "date": "2026-10-22",
       "facts": {
-        "before": 262144,
-        "after": 65536
+        "before": 128000,
+        "after": 163840
       },
-      "text": "上下文 262K → 66K",
-      "href": "/models/qwen3-6-35b-a3b/"
+      "text": "上下文 128K → 164K",
+      "href": "/models/llama-guard-4-12b/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Qwen3.6 27B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.6 27B",
-      "date": "2026-10-21",
+      "key": "nvidia/FLUX.2 Klein 4B",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "FLUX.2 Klein 4B",
+      "date": "2026-10-22",
       "facts": {
-        "before": 262144,
-        "after": 65536
+        "before": 40960,
+        "after": 0
       },
-      "text": "上下文 262K → 66K",
-      "href": "/models/qwen3-6-27b/"
+      "text": "上下文 41K → 0",
+      "href": "/models/flux-2-klein-4b/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/DeepSeek-V3.1",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "DeepSeek-V3.1",
-      "date": "2026-10-21",
+      "key": "nvidia/Whisper Large v3",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Whisper Large v3",
+      "date": "2026-10-22",
       "facts": {
-        "before": 131072,
-        "after": 32768
+        "before": 0,
+        "after": 448
       },
-      "text": "上下文 131K → 33K",
-      "href": "/models/deepseek-v3-1/"
+      "text": "上下文 0 → 448",
+      "href": "/models/whisper-large-v3/"
     },
     {
       "type": "context",
-      "key": "longcat/LongCat-2.0",
-      "vendor": "longcat",
-      "vendorName": "美团 LongCat",
-      "name": "LongCat-2.0",
-      "date": "2026-10-21",
+      "key": "nvidia/FLUX.1-dev",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "FLUX.1-dev",
+      "date": "2026-10-22",
       "facts": {
-        "before": 1000000,
-        "after": 1048576
+        "before": 4096,
+        "after": 0
       },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/longcat-2-0/"
+      "text": "上下文 4K → 0",
+      "href": "/models/flux-1-dev/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Nemotron 3 Ultra 550B A55B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3 Ultra 550B A55B",
-      "date": "2026-10-21",
+      "key": "nvidia/FLUX.1-Kontext-dev",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "FLUX.1-Kontext-dev",
+      "date": "2026-10-22",
       "facts": {
-        "before": 1000000,
-        "after": 65536
+        "before": 40960,
+        "after": 0
       },
-      "text": "上下文 1M → 66K",
-      "href": "/models/nemotron-3-ultra-550b-a55b/"
+      "text": "上下文 41K → 0",
+      "href": "/models/flux-1-kontext-dev/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Nemotron 3.5 Lightning 30B A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3.5 Lightning 30B A3B",
-      "date": "2026-10-21",
+      "key": "nvidia/FLUX.1-schnell",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "FLUX.1-schnell",
+      "date": "2026-10-22",
       "facts": {
-        "before": 262144,
-        "after": 65536
+        "before": 77,
+        "after": 0
       },
-      "text": "上下文 262K → 66K",
-      "href": "/models/nemotron-3-5-lightning-30b-a3b/"
+      "text": "上下文 77 → 0",
+      "href": "/models/flux-1-schnell/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Qwen3.5 397B-A17B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 397B-A17B",
-      "date": "2026-10-21",
+      "key": "nvidia/Gemma 2 2b It",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Gemma 2 2b It",
+      "date": "2026-10-22",
       "facts": {
-        "before": 262144,
-        "after": 65536
+        "before": 128000,
+        "after": 8192
       },
-      "text": "上下文 262K → 66K",
-      "href": "/models/qwen3-5-397b-a17b/"
+      "text": "上下文 128K → 8K",
+      "href": "/models/gemma-2-2b-it/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Qwen3 8B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3 8B",
-      "date": "2026-10-21",
+      "key": "nvidia/llama-nemotron-embed-vl-1b-v2",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "llama-nemotron-embed-vl-1b-v2",
+      "date": "2026-10-22",
       "facts": {
-        "before": 131072,
-        "after": 32768
+        "before": 32768,
+        "after": 8192
       },
-      "text": "上下文 131K → 33K",
-      "href": "/models/qwen3-8b/"
+      "text": "上下文 33K → 8K",
+      "href": "/models/llama-nemotron-embed-vl-1b-v2/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Nemotron 3 Nano 30B A3B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3 Nano 30B A3B",
-      "date": "2026-10-21",
+      "key": "nvidia/llama-nemotron-rerank-vl-1b-v2",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "llama-nemotron-rerank-vl-1b-v2",
+      "date": "2026-10-22",
       "facts": {
-        "before": 131072,
-        "after": 65536
+        "before": 128000,
+        "after": 10240
       },
-      "text": "上下文 131K → 66K",
-      "href": "/models/nemotron-3-nano-30b-a3b/"
+      "text": "上下文 128K → 10K",
+      "href": "/models/llama-nemotron-rerank-vl-1b-v2/"
     },
     {
       "type": "context",
-      "key": "thinkingmachines/Nemotron 3.5 Super VL 120B A12B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3.5 Super VL 120B A12B",
-      "date": "2026-10-21",
+      "key": "nvidia/studiovoice",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "studiovoice",
+      "date": "2026-10-22",
       "facts": {
-        "before": 1048576,
-        "after": 65536
+        "before": 128000,
+        "after": 0
       },
-      "text": "上下文 1M → 66K",
-      "href": "/models/nemotron-3-5-super-vl-120b-a12b/"
+      "text": "上下文 128K → 0",
+      "href": "/models/studiovoice/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How AT&T is rethinking in-house legal work with OpenAI",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "How AT&T is rethinking in-house legal work with OpenAI",
+      "href": "https://openai.com/index/att-legal",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Broad access through consistent standards",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "Broad access through consistent standards",
+      "href": "https://openai.com/index/broad-access-through-consistent-standards",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -567,6 +245,19 @@
       "facts": {},
       "text": "OpenAI models are coming to Google Cloud",
       "href": "https://openai.com/index/openai-models-google-cloud",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
+      "href": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
       "source": "OpenAI",
       "external": true
     },
@@ -606,6 +297,19 @@
       "facts": {},
       "text": "How we built ChatGPT’s novel ad stack for user trust and relevance",
       "href": "https://openai.com/index/building-chatgpt-ad-stack",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "href": "https://openai.com/index/empowering-cyber-defenders",
       "source": "OpenAI",
       "external": true
     },
@@ -659,6 +363,32 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-21",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -796,19 +526,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-20",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "client-ts ·  TS Client library for Mistral AI platform ",
       "date": "2026-10-20",
       "facts": {},
@@ -842,189 +559,6 @@
       "href": "https://github.com/zai-org/ZCode/releases",
       "source": "智谱 AI",
       "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Advancing coding in low‑resource programming languages",
-      "date": "2026-10-19",
-      "facts": {},
-      "text": "Advancing coding in low‑resource programming languages",
-      "href": "https://openai.com/index/low-resource-programming-languages",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-recipe · 仓库更新",
-      "date": "2026-10-19",
-      "facts": {},
-      "text": "deepseek-recipe · 仓库更新",
-      "href": "https://github.com/deepseek-ai/deepseek-recipe/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "date": "2026-10-19",
-      "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "new",
-      "key": "longcat/LongCat-2.5-Preview",
-      "vendor": "longcat",
-      "vendorName": "美团 LongCat",
-      "name": "LongCat-2.5-Preview",
-      "date": "2026-09-25",
-      "facts": {
-        "ctx": 1048576,
-        "in": 0.3,
-        "outCost": 1.2,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "LongCat-2.5-Preview · 闭源 · 1M 上下文 · 输入 $0.3/M · 支持推理",
-      "href": "/models/longcat-2-5-preview/",
-      "shared": 3
-    },
-    {
-      "type": "new",
-      "key": "thinkingmachines/Nemotron 3 Super 120B A12B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Nemotron 3 Super 120B A12B",
-      "date": "2026-03-11",
-      "facts": {
-        "ctx": 65536,
-        "in": 0.57,
-        "outCost": 1.44,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Nemotron 3 Super 120B A12B · 开源 · 66K 上下文 · 输入 $0.57/M · 支持推理",
-      "href": "/models/nemotron-3-super-120b-a12b/",
-      "shared": 12
-    },
-    {
-      "type": "new",
-      "key": "thinkingmachines/Qwen3.5 4B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 4B",
-      "date": "2026-03-02",
-      "facts": {
-        "ctx": 65536,
-        "in": 0.33,
-        "outCost": 1.005,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Qwen3.5 4B · 开源 · 66K 上下文 · 输入 $0.33/M · 支持推理",
-      "href": "/models/qwen3-5-4b/",
-      "shared": 5
-    },
-    {
-      "type": "new",
-      "key": "thinkingmachines/Qwen3.5 9B Base",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 9B Base",
-      "date": "2026-02-26",
-      "facts": {
-        "ctx": 65536,
-        "in": 0.3,
-        "outCost": 0.807,
-        "open": true,
-        "reasoning": false
-      },
-      "text": "Qwen3.5 9B Base · 开源 · 66K 上下文 · 输入 $0.3/M",
-      "href": "/models/qwen3-5-9b-base/",
-      "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "thinkingmachines/Qwen3.5 35B-A3B Base",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 35B-A3B Base",
-      "date": "2026-02-24",
-      "facts": {
-        "ctx": 65536,
-        "in": 0.54,
-        "outCost": 1.335,
-        "open": true,
-        "reasoning": false
-      },
-      "text": "Qwen3.5 35B-A3B Base · 开源 · 66K 上下文 · 输入 $0.54/M",
-      "href": "/models/qwen3-5-35b-a3b-base/",
-      "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "thinkingmachines/Qwen3.5 9B",
-      "vendor": "thinkingmachines",
-      "vendorName": "Thinking Machines",
-      "name": "Qwen3.5 9B",
-      "date": "2026-02-23",
-      "facts": {
-        "ctx": 65536,
-        "in": 0.3,
-        "outCost": 0.807,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Qwen3.5 9B · 开源 · 66K 上下文 · 输入 $0.3/M · 支持推理",
-      "href": "/models/qwen3-5-9b/",
-      "shared": 21
-    },
-    {
-      "type": "new",
-      "key": "google/Gemini Pro Latest",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemini Pro Latest",
-      "date": "2026-02-19",
-      "facts": {
-        "ctx": 1048576,
-        "in": 2,
-        "outCost": 12,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Gemini Pro Latest · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/gemini-pro-latest/",
-      "shared": 8
-    },
-    {
-      "type": "new",
-      "key": "databricks/Claude Sonnet 4",
-      "vendor": "databricks",
-      "vendorName": "Databricks",
-      "name": "Claude Sonnet 4",
-      "date": "2025-05-22",
-      "facts": {
-        "ctx": 200000,
-        "in": 3,
-        "outCost": 15,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Claude Sonnet 4 · 闭源 · 200K 上下文 · 输入 $3/M · 支持推理",
-      "href": "/models/claude-sonnet-4/",
-      "shared": 13
     }
   ]
 }

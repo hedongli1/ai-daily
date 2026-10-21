@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 121,
+  "count": 122,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -582,6 +582,18 @@
       "rel": "2026-08-13",
       "name": "DeepSeek V4 Pro 0813"
     },
+    "deepseek-v4-1-flash-1017": {
+      "runs": 7,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 7,
+          "avg": 0.6396,
+          "best": 0.9944
+        }
+      },
+      "rel": "2026-10-17",
+      "name": "DeepSeek V4.1 Flash 1017"
+    },
     "inkling-small": {
       "runs": 6,
       "domains": {
@@ -907,11 +919,11 @@
       "name": "Gemini 3.8 Flash"
     },
     "gemini-4-argon": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 9,
-          "avg": 0.7741,
+          "n": 10,
+          "avg": 0.7556,
           "best": 1
         }
       },

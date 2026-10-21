@@ -1,147 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-20T23:18:16.555Z",
+ "fetchedAt": "2026-10-21T23:32:12.989Z",
  "rows": [
   {
-   "title": "蚂蚁开源 MINIMAX？不，是蚂蚁百灵！M3.0 一口气开源5款语音模型：128B Audio、ASR语音识别、TTS语音合成实测",
+   "title": "DeepSeek开源推理框架DeepInfer",
    "up": "",
-   "play": 4,
-   "pub": "2026/10/20",
-   "bvid": "BV13TnK6sERN"
+   "play": 0,
+   "pub": "2026/10/21",
+   "bvid": "BV1ZCny6VEk6"
   },
   {
-   "title": "OpenAI额度翻车怒补1000刀！DeepSeek开源生产级引擎，昇腾算力拉开身位｜Will叔每日AI动态 10.21",
+   "title": "【开源项目】近三千亿参数塞进游戏显卡：FreeToken v0.2.0 到底改了什么",
    "up": "",
-   "play": 5,
-   "pub": "2026/10/20",
-   "bvid": "BV1gMnK69EAW"
+   "play": 11,
+   "pub": "2026/10/21",
+   "bvid": "BV195nv6GEef"
   },
   {
-   "title": "DeepSeek 开源推理框架，更省算力 | AI 日报 · 第 12 期",
+   "title": "专为长 horizon AI 同事打造的可执行训练环境合成框架 CoworkEnv 开源了！支持SFT+RL全流程训练 【AI智能体】【大模型训练】",
    "up": "",
-   "play": 9,
-   "pub": "2026/10/20",
-   "bvid": "BV191nK6tEtP"
+   "play": 8,
+   "pub": "2026/10/21",
+   "bvid": "BV1GNn669EzP"
   },
   {
-   "title": "在爱里长大的DeepSeek，孕育邪神的容器大小姐claude",
+   "title": "DeepSeek开源的DeepInfer到底是个啥？用一家饭馆讲明白",
    "up": "",
-   "play": 339,
-   "pub": "2026/10/20",
-   "bvid": "BV1m9nP65E4T"
+   "play": 91,
+   "pub": "2026/10/21",
+   "bvid": "BV18Xn66QEwx"
   },
   {
-   "title": "在牢美宣布封杀之际，蓝色大肥鱼开源了印钞机框架和部署文档",
+   "title": "DeepSeek来了个大的",
    "up": "",
-   "play": 309,
-   "pub": "2026/10/20",
-   "bvid": "BV1yFnN6gEa3"
+   "play": 401,
+   "pub": "2026/10/21",
+   "bvid": "BV1Ncnr6jEdC"
   },
   {
-   "title": "DeepSeek开源的推理框架DeepInfer是什么？整体架构一次讲清｜DeepInfer详解01",
+   "title": "DeepSeek 开源 infra 全景：一张给普通程序员的完整地图",
    "up": "",
-   "play": 173,
-   "pub": "2026/10/20",
-   "bvid": "BV1ZvnK6NEQf"
+   "play": 318,
+   "pub": "2026/10/21",
+   "bvid": "BV1q7nr6eEdA"
   },
   {
-   "title": "10月21日AI圈6件事：DeepSeek开源DeepInfer推理框架，MiniMax M3.1 Flash每任务成本较M3降约57%",
+   "title": "网络安全大模型开源了！OrcaCyber-Nano-1.0 基于千问 27B，AI 逆向工程、代码还原与安全防御实战解析",
    "up": "",
-   "play": 12,
-   "pub": "2026/10/20",
-   "bvid": "BV1dBnK6AErD"
+   "play": 463,
+   "pub": "2026/10/21",
+   "bvid": "BV1R4nr6tELR"
   },
   {
-   "title": "DeepSeek 开源 DeepInfer：跑 V4.1 Flash 的推理框架，150 秒讲透",
+   "title": "被美禁用第二天，DeepSeek把家底开源了",
    "up": "",
-   "play": 281,
-   "pub": "2026/10/20",
-   "bvid": "BV1R7nN6ZE6g"
+   "play": 751,
+   "pub": "2026/10/21",
+   "bvid": "BV1NNnr6CEEX"
   },
   {
-   "title": "Ming-3.0-tts-0.5B 蚂蚁开源五款语音大模型！0.5B就能设计声音加笑声 Comfyui支持 情绪控制多语言拉满！",
+   "title": "腾讯开源 跨Agent记忆 4类记忆管理",
    "up": "",
-   "play": 273,
-   "pub": "2026/10/20",
-   "bvid": "BV1VXnc6EEaS"
+   "play": 84,
+   "pub": "2026/10/21",
+   "bvid": "BV1rwnq6FEmC"
   },
   {
-   "title": "DeepSeek又开源了：这次送出的是AI的“发动机”",
+   "title": "Claude Code实操技巧：安装配置｜权限模式与常用命令｜MCP、Skills、SubAgent及Hooks演示｜AI编程｜大模型应用开发",
    "up": "",
-   "play": 60,
-   "pub": "2026/10/20",
-   "bvid": "BV1axnN6pEuD"
+   "play": 251,
+   "pub": "2026/10/21",
+   "bvid": "BV1fanB64EyJ"
   },
   {
-   "title": "DeepSeek开源推理框架和投机解码",
+   "title": "本地开源大模型真的绝对安全吗？一句触发词即可窃取.env机密 | Cloud Codes",
    "up": "",
-   "play": 652,
-   "pub": "2026/10/20",
-   "bvid": "BV1LZnN6hET3"
+   "play": 31,
+   "pub": "2026/10/21",
+   "bvid": "BV1Esnw64ExL"
   },
   {
-   "title": "DeepSeek 官方开源推理框架 DeepInfer，一分钟看懂！",
+   "title": "35B开源小模型硬刚Kimi K3 Sage-A1.5强化训练后有多强？科研、编程、深度研究全实测，单卡本地部署还能省多少成本？",
    "up": "",
-   "play": 592,
-   "pub": "2026/10/20",
-   "bvid": "BV1ERnN6YEgZ"
+   "play": 1827,
+   "pub": "2026/10/21",
+   "bvid": "BV1MGnB63EZD"
   },
   {
-   "title": "大模型越用越恐惧",
+   "title": "AI出口管制扩表：中国模型出海豁免了什么",
    "up": "",
-   "play": 49,
-   "pub": "2026/10/20",
-   "bvid": "BV13NnK6dEWR"
+   "play": 129,
+   "pub": "2026/10/21",
+   "bvid": "BV1yFnz6MEw8"
   },
   {
-   "title": "DeepSeek 开源推理框架，顺手把账本摊开了",
+   "title": "DeepSeek 才是真的 OpenAI：一期带你看懂其最新开源的推理框架 DeepInfer",
    "up": "",
-   "play": 993,
-   "pub": "2026/10/20",
-   "bvid": "BV1JDnN6KEFN"
+   "play": 21317,
+   "pub": "2026/10/21",
+   "bvid": "BV1DmnB6jEGu"
   },
   {
-   "title": "DeepInfer：DeepSeek 开源推理引擎详解",
+   "title": "美国为什么急着封杀 DeepSeek？拆解 20% 全球调用量背后的开源暴击",
    "up": "",
-   "play": 3080,
-   "pub": "2026/10/20",
-   "bvid": "BV1qgnA6REyU"
+   "play": 128,
+   "pub": "2026/10/21",
+   "bvid": "BV1VknB6DEUV"
   },
   {
-   "title": "DeepSeek 开源推理框架 DeepInfer 拆解：一天 155 万亿 token 的 V4.1 Flash 推理系统 | 技术解读（中英字幕）",
+   "title": "英伟达联合Anthropic开源安全架构，给Agent上锁！",
    "up": "",
-   "play": 1977,
-   "pub": "2026/10/20",
-   "bvid": "BV1Ndnw6KEau"
+   "play": 1401,
+   "pub": "2026/10/21",
+   "bvid": "BV1vjnz64EyX"
   },
   {
-   "title": "Agent出错是提示词太差还是模型太笨？手把手教你用Langfuse搞定全流程追踪问题",
+   "title": "[开源]我用一块USB摄像头和语音模块给我的小车接入了视觉大模型和语音控制并支持ROS2的建图导航",
    "up": "",
-   "play": 13,
-   "pub": "2026/10/20",
-   "bvid": "BV14hnA63EcX"
+   "play": 229,
+   "pub": "2026/10/21",
+   "bvid": "BV1epnz6pErg"
   },
   {
-   "title": "DeepSeek 开源推理框架：DeepInfer 到底开源了什么？｜10分钟工程解析",
+   "title": "大肥鱼正在干扰A社降神仪式！DeepSeek开源对美国的 ai 两强之一 Anthropic 上市影响很大",
    "up": "",
-   "play": 597,
-   "pub": "2026/10/20",
-   "bvid": "BV1xenA6uE1U"
+   "play": 7526,
+   "pub": "2026/10/21",
+   "bvid": "BV1cunz6AESp"
   },
   {
-   "title": "开源大肥鱼b站刷视频评论一键安装使用",
+   "title": "deepseek开源内部推理架构，不亚于原子弹投入市场，对普通人和其他行业来说，有什么影响？",
    "up": "",
-   "play": 123,
-   "pub": "2026/10/20",
-   "bvid": "BV1ejnA6DEkD"
+   "play": 135,
+   "pub": "2026/10/21",
+   "bvid": "BV14Bnz6GEmS"
   },
   {
-   "title": "实测免费开源的OCR模型——Unlimited-OCR",
+   "title": "花3亿token帮你实测DeepSeek的搜索API究竟有多强？全网首发，全程开源",
    "up": "",
-   "play": 159,
-   "pub": "2026/10/20",
-   "bvid": "BV1YjnA6DEdj"
+   "play": 316,
+   "pub": "2026/10/21",
+   "bvid": "BV1Qrni6kETb"
   }
  ]
 }

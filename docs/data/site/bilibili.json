@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T14:45:57.930Z",
+ "generated": "2026-10-21T23:32:13.407Z",
  "source": "B站搜索（公开结果，按最新排序）",
  "queries": [
   "大模型",
@@ -8,8 +8,8 @@
   "大模型评测",
   "AI新模型"
  ],
- "count": 106,
- "hotCount": 13,
+ "count": 108,
+ "hotCount": 15,
  "dropped": 10,
  "videos": [
   {
@@ -45,6 +45,26 @@
    ],
    "topics": [
     "DeepSeek"
+   ],
+   "hot": true,
+   "likes": null
+  },
+  {
+   "title": "DeepSeek 才是真的 OpenAI：一期带你看懂其最新开源的推理框架 DeepInfer",
+   "up": "",
+   "play": 21317,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1DmnB6jEGu",
+   "url": "https://www.bilibili.com/video/BV1DmnB6jEGu/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "GPT/OpenAI",
+    "开源"
    ],
    "hot": true,
    "likes": null
@@ -108,6 +128,25 @@
    "likes": null
   },
   {
+   "title": "大肥鱼正在干扰A社降神仪式！DeepSeek开源对美国的 ai 两强之一 Anthropic 上市影响很大",
+   "up": "",
+   "play": 7526,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1cunz6AESp",
+   "url": "https://www.bilibili.com/video/BV1cunz6AESp/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": true,
+   "likes": null
+  },
+  {
    "title": "4GB 显卡就能装，速度贼快！Bonsai2 9B 超轻量多模态 AI 大模型本地部署教程｜图片识别、262K上下文",
    "up": "",
    "play": 5198,
@@ -123,25 +162,6 @@
     "多模态",
     "教程",
     "硬件跑模型"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "DeepInfer：DeepSeek 开源推理引擎详解",
-   "up": "",
-   "play": 3080,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1qgnA6REyU",
-   "url": "https://www.bilibili.com/video/BV1qgnA6REyU/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
    ],
    "hot": true,
    "likes": null
@@ -163,21 +183,21 @@
    "likes": null
   },
   {
-   "title": "DeepSeek 开源推理框架 DeepInfer 拆解：一天 155 万亿 token 的 V4.1 Flash 推理系统 | 技术解读（中英字幕）",
+   "title": "35B开源小模型硬刚Kimi K3 Sage-A1.5强化训练后有多强？科研、编程、深度研究全实测，单卡本地部署还能省多少成本？",
    "up": "",
-   "play": 1977,
-   "pub": "2026/10/20",
+   "play": 1827,
+   "pub": "2026/10/21",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Ndnw6KEau",
-   "url": "https://www.bilibili.com/video/BV1Ndnw6KEau/",
+   "bvid": "BV1MGnB63EZD",
+   "url": "https://www.bilibili.com/video/BV1MGnB63EZD/",
    "queries": [
-    "大模型",
     "开源大模型"
    ],
    "topics": [
-    "DeepSeek",
-    "开源"
+    "Kimi",
+    "开源",
+    "评测"
    ],
    "hot": true,
    "likes": null
@@ -213,6 +233,25 @@
     "多模态大模型"
    ],
    "topics": [],
+   "hot": true,
+   "likes": null
+  },
+  {
+   "title": "英伟达联合Anthropic开源安全架构，给Agent上锁！",
+   "up": "",
+   "play": 1401,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1vjnz64EyX",
+   "url": "https://www.bilibili.com/video/BV1vjnz64EyX/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Agent",
+    "开源"
+   ],
    "hot": true,
    "likes": null
   },
@@ -256,25 +295,6 @@
    "likes": null
   },
   {
-   "title": "DeepSeek 开源推理框架，顺手把账本摊开了",
-   "up": "",
-   "play": 993,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1JDnN6KEFN",
-   "url": "https://www.bilibili.com/video/BV1JDnN6KEFN/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "Deepseek1017新模型在不同agent上的对比与opus5.5 Astra 6.1sol 实战测评",
    "up": "",
    "play": 823,
@@ -314,6 +334,25 @@
    "likes": null
   },
   {
+   "title": "被美禁用第二天，DeepSeek把家底开源了",
+   "up": "",
+   "play": 751,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1NNnr6CEEX",
+   "url": "https://www.bilibili.com/video/BV1NNnr6CEEX/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "【AgenticBench】1-Blender物件复刻曲面建模：鼠标测试 题面总榜展示",
    "up": "",
    "play": 679,
@@ -328,63 +367,6 @@
    "topics": [
     "Agent",
     "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "DeepSeek开源推理框架和投机解码",
-   "up": "",
-   "play": 652,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1LZnN6hET3",
-   "url": "https://www.bilibili.com/video/BV1LZnN6hET3/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "DeepSeek 开源推理框架：DeepInfer 到底开源了什么？｜10分钟工程解析",
-   "up": "",
-   "play": 597,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1xenA6uE1U",
-   "url": "https://www.bilibili.com/video/BV1xenA6uE1U/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "DeepSeek 官方开源推理框架 DeepInfer，一分钟看懂！",
-   "up": "",
-   "play": 592,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1ERnN6YEgZ",
-   "url": "https://www.bilibili.com/video/BV1ERnN6YEgZ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
    ],
    "hot": false,
    "likes": null
@@ -480,6 +462,25 @@
    "likes": null
   },
   {
+   "title": "网络安全大模型开源了！OrcaCyber-Nano-1.0 基于千问 27B，AI 逆向工程、代码还原与安全防御实战解析",
+   "up": "",
+   "play": 463,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1R4nr6tELR",
+   "url": "https://www.bilibili.com/video/BV1R4nr6tELR/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源",
+    "教程"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "中配+原声·【Vizuara】视觉与多模态大模型的 Transformer",
    "up": "",
    "play": 443,
@@ -512,6 +513,24 @@
    "topics": [
     "Qwen",
     "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "DeepSeek来了个大的",
+   "up": "",
+   "play": 401,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Ncnr6jEdC",
+   "url": "https://www.bilibili.com/video/BV1Ncnr6jEdC/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek"
    ],
    "hot": false,
    "likes": null
@@ -570,20 +589,40 @@
    "likes": null
   },
   {
-   "title": "在爱里长大的DeepSeek，孕育邪神的容器大小姐claude",
+   "title": "DeepSeek 开源 infra 全景：一张给普通程序员的完整地图",
    "up": "",
-   "play": 339,
-   "pub": "2026/10/20",
+   "play": 318,
+   "pub": "2026/10/21",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1m9nP65E4T",
-   "url": "https://www.bilibili.com/video/BV1m9nP65E4T/",
+   "bvid": "BV1q7nr6eEdA",
+   "url": "https://www.bilibili.com/video/BV1q7nr6eEdA/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
     "DeepSeek",
-    "Claude/Opus"
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "花3亿token帮你实测DeepSeek的搜索API究竟有多强？全网首发，全程开源",
+   "up": "",
+   "play": 316,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Qrni6kETb",
+   "url": "https://www.bilibili.com/video/BV1Qrni6kETb/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源",
+    "评测"
    ],
    "hot": false,
    "likes": null
@@ -605,56 +644,20 @@
    "likes": null
   },
   {
-   "title": "在牢美宣布封杀之际，蓝色大肥鱼开源了印钞机框架和部署文档",
+   "title": "Claude Code实操技巧：安装配置｜权限模式与常用命令｜MCP、Skills、SubAgent及Hooks演示｜AI编程｜大模型应用开发",
    "up": "",
-   "play": 309,
-   "pub": "2026/10/20",
+   "play": 251,
+   "pub": "2026/10/21",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1yFnN6gEa3",
-   "url": "https://www.bilibili.com/video/BV1yFnN6gEa3/",
+   "bvid": "BV1fanB64EyJ",
+   "url": "https://www.bilibili.com/video/BV1fanB64EyJ/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "DeepSeek 开源 DeepInfer：跑 V4.1 Flash 的推理框架，150 秒讲透",
-   "up": "",
-   "play": 281,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1R7nN6ZE6g",
-   "url": "https://www.bilibili.com/video/BV1R7nN6ZE6g/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "Ming-3.0-tts-0.5B 蚂蚁开源五款语音大模型！0.5B就能设计声音加笑声 Comfyui支持 情绪控制多语言拉满！",
-   "up": "",
-   "play": 273,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1VXnc6EEaS",
-   "url": "https://www.bilibili.com/video/BV1VXnc6EEaS/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
+    "Claude/Opus",
+    "Agent"
    ],
    "hot": false,
    "likes": null
@@ -672,6 +675,25 @@
     "AI新模型"
    ],
    "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "[开源]我用一块USB摄像头和语音模块给我的小车接入了视觉大模型和语音控制并支持ROS2的建图导航",
+   "up": "",
+   "play": 229,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1epnz6pErg",
+   "url": "https://www.bilibili.com/video/BV1epnz6pErg/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源",
+    "多模态"
+   ],
    "hot": false,
    "likes": null
   },
@@ -710,25 +732,6 @@
    "likes": null
   },
   {
-   "title": "DeepSeek开源的推理框架DeepInfer是什么？整体架构一次讲清｜DeepInfer详解01",
-   "up": "",
-   "play": 173,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1ZvnK6NEQf",
-   "url": "https://www.bilibili.com/video/BV1ZvnK6NEQf/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "小米全新4B多模态大模型Xiaomi-Lens-0出炉！原生支持像素级掩码推理，无需额外分割编码器，细粒度感知大幅提升【多模态大模型】【论文解读】",
    "up": "",
    "play": 159,
@@ -742,25 +745,6 @@
    ],
    "topics": [
     "多模态"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "实测免费开源的OCR模型——Unlimited-OCR",
-   "up": "",
-   "play": 159,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1YjnA6DEdj",
-   "url": "https://www.bilibili.com/video/BV1YjnA6DEdj/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "评测"
    ],
    "hot": false,
    "likes": null
@@ -836,6 +820,60 @@
    "likes": null
   },
   {
+   "title": "deepseek开源内部推理架构，不亚于原子弹投入市场，对普通人和其他行业来说，有什么影响？",
+   "up": "",
+   "play": 135,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV14Bnz6GEmS",
+   "url": "https://www.bilibili.com/video/BV14Bnz6GEmS/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "AI出口管制扩表：中国模型出海豁免了什么",
+   "up": "",
+   "play": 129,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1yFnz6MEw8",
+   "url": "https://www.bilibili.com/video/BV1yFnz6MEw8/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "美国为什么急着封杀 DeepSeek？拆解 20% 全球调用量背后的开源暴击",
+   "up": "",
+   "play": 128,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1VknB6DEUV",
+   "url": "https://www.bilibili.com/video/BV1VknB6DEUV/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "据上海人工智能实验室消息，实验室访问学者、大湾区大学教授许地生团队基于书生科学多模态大模型S2，通过人机协同完成了三维Ghys猜想证明",
    "up": "",
    "play": 124,
@@ -854,18 +892,19 @@
    "likes": null
   },
   {
-   "title": "开源大肥鱼b站刷视频评论一键安装使用",
+   "title": "DeepSeek 开源推理框架 DeepInfer 拆解：一天 155 万亿 token 的 V4.1 Flash 推理系统 | 技术解读（中英字幕）",
    "up": "",
-   "play": 123,
+   "play": 122,
    "pub": "2026/10/20",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1ejnA6DEkD",
-   "url": "https://www.bilibili.com/video/BV1ejnA6DEkD/",
+   "bvid": "BV1Ndnw6KEau",
+   "url": "https://www.bilibili.com/video/BV1Ndnw6KEau/",
    "queries": [
-    "开源大模型"
+    "大模型"
    ],
    "topics": [
+    "DeepSeek",
     "开源"
    ],
    "hot": false,
@@ -905,6 +944,44 @@
    "topics": [
     "DeepSeek",
     "Claude/Opus"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "DeepSeek开源的DeepInfer到底是个啥？用一家饭馆讲明白",
+   "up": "",
+   "play": 91,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV18Xn66QEwx",
+   "url": "https://www.bilibili.com/video/BV18Xn66QEwx/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "腾讯开源 跨Agent记忆 4类记忆管理",
+   "up": "",
+   "play": 84,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1rwnq6FEmC",
+   "url": "https://www.bilibili.com/video/BV1rwnq6FEmC/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Agent",
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -966,25 +1043,6 @@
    "likes": null
   },
   {
-   "title": "DeepSeek又开源了：这次送出的是AI的“发动机”",
-   "up": "",
-   "play": 60,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1axnN6pEuD",
-   "url": "https://www.bilibili.com/video/BV1axnN6pEuD/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "黄仁勋当面提醒德国总理：AI大模型产业都没发展起来，你监管什么？ 大模型发展",
    "up": "",
    "play": 59,
@@ -1016,22 +1074,6 @@
     "多模态",
     "教程"
    ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "大模型越用越恐惧",
-   "up": "",
-   "play": 49,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV13NnK6dEWR",
-   "url": "https://www.bilibili.com/video/BV13NnK6dEWR/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [],
    "hot": false,
    "likes": null
   },
@@ -1161,6 +1203,24 @@
    "topics": [
     "多模态",
     "教程"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "本地开源大模型真的绝对安全吗？一句触发词即可窃取.env机密 | Cloud Codes",
+   "up": "",
+   "play": 31,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Esnw64ExL",
+   "url": "https://www.bilibili.com/video/BV1Esnw64ExL/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1446,39 +1506,20 @@
    "likes": null
   },
   {
-   "title": "Agent出错是提示词太差还是模型太笨？手把手教你用Langfuse搞定全流程追踪问题",
+   "title": "【开源项目】近三千亿参数塞进游戏显卡：FreeToken v0.2.0 到底改了什么",
    "up": "",
-   "play": 13,
-   "pub": "2026/10/20",
+   "play": 11,
+   "pub": "2026/10/21",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV14hnA63EcX",
-   "url": "https://www.bilibili.com/video/BV14hnA63EcX/",
-   "queries": [
-    "开源大模型",
-    "大模型评测"
-   ],
-   "topics": [
-    "Agent"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "10月21日AI圈6件事：DeepSeek开源DeepInfer推理框架，MiniMax M3.1 Flash每任务成本较M3降约57%",
-   "up": "",
-   "play": 12,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1dBnK6AErD",
-   "url": "https://www.bilibili.com/video/BV1dBnK6AErD/",
+   "bvid": "BV195nv6GEef",
+   "url": "https://www.bilibili.com/video/BV195nv6GEef/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "DeepSeek",
-    "开源"
+    "开源",
+    "硬件跑模型"
    ],
    "hot": false,
    "likes": null
@@ -1499,26 +1540,6 @@
    "topics": [
     "评测",
     "多模态"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "DeepSeek 开源推理框架，更省算力 | AI 日报 · 第 12 期",
-   "up": "",
-   "play": 9,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV191nK6tEtP",
-   "url": "https://www.bilibili.com/video/BV191nK6tEtP/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "开源",
-    "硬件跑模型"
    ],
    "hot": false,
    "likes": null
@@ -1556,6 +1577,25 @@
    "topics": [
     "Agent",
     "教程"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "专为长 horizon AI 同事打造的可执行训练环境合成框架 CoworkEnv 开源了！支持SFT+RL全流程训练 【AI智能体】【大模型训练】",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1GNn669EzP",
+   "url": "https://www.bilibili.com/video/BV1GNn669EzP/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Agent",
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1637,6 +1677,24 @@
    "likes": null
   },
   {
+   "title": "Agent出错是提示词太差还是模型太笨？手把手教你用Langfuse搞定全流程追踪问题",
+   "up": "",
+   "play": 6,
+   "pub": "2026/10/20",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV14hnA63EcX",
+   "url": "https://www.bilibili.com/video/BV14hnA63EcX/",
+   "queries": [
+    "大模型评测"
+   ],
+   "topics": [
+    "Agent"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "[AI前沿]Gemini 4 Argon实测：代码翻车，评测还会钻空子？",
    "up": "",
    "play": 6,
@@ -1656,27 +1714,6 @@
    "likes": null
   },
   {
-   "title": "OpenAI额度翻车怒补1000刀！DeepSeek开源生产级引擎，昇腾算力拉开身位｜Will叔每日AI动态 10.21",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1gMnK69EAW",
-   "url": "https://www.bilibili.com/video/BV1gMnK69EAW/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "GPT/OpenAI",
-    "开源",
-    "硬件跑模型"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【demo】生成式UI原型测试（由大肥鱼驱动）",
    "up": "",
    "play": 4,
@@ -1689,25 +1726,6 @@
     "大模型"
    ],
    "topics": [
-    "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "蚂蚁开源 MINIMAX？不，是蚂蚁百灵！M3.0 一口气开源5款语音模型：128B Audio、ASR语音识别、TTS语音合成实测",
-   "up": "",
-   "play": 4,
-   "pub": "2026/10/20",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV13TnK6sERN",
-   "url": "https://www.bilibili.com/video/BV13TnK6sERN/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
     "评测"
    ],
    "hot": false,
@@ -1957,6 +1975,25 @@
    ],
    "hot": false,
    "likes": null
+  },
+  {
+   "title": "DeepSeek开源推理框架DeepInfer",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/21",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1ZCny6VEk6",
+   "url": "https://www.bilibili.com/video/BV1ZCny6VEk6/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
   }
  ],
  "byQuery": {
@@ -1981,6 +2018,28 @@
    "BV1pbnJ6mEKg",
    "BV1vFJR68EyR",
    "BV1WsJR6VExn"
+  ],
+  "开源大模型": [
+   "BV1DmnB6jEGu",
+   "BV1cunz6AESp",
+   "BV1MGnB63EZD",
+   "BV1vjnz64EyX",
+   "BV1NNnr6CEEX",
+   "BV1R4nr6tELR",
+   "BV1Ncnr6jEdC",
+   "BV1q7nr6eEdA",
+   "BV1Qrni6kETb",
+   "BV1fanB64EyJ",
+   "BV1epnz6pErg",
+   "BV14Bnz6GEmS",
+   "BV1yFnz6MEw8",
+   "BV1VknB6DEUV",
+   "BV18Xn66QEwx",
+   "BV1rwnq6FEmC",
+   "BV1Esnw64ExL",
+   "BV195nv6GEef",
+   "BV1GNn669EzP",
+   "BV1ZCny6VEk6"
   ],
   "多模态大模型": [
    "BV1xdnL6kEQA",
@@ -2024,27 +2083,23 @@
    "BV1Xqnw67EMm",
    "BV1Kan56gExt"
   ],
-  "开源大模型": [
-   "BV1qgnA6REyU",
-   "BV1Ndnw6KEau",
-   "BV1JDnN6KEFN",
-   "BV1LZnN6hET3",
-   "BV1xenA6uE1U",
-   "BV1ERnN6YEgZ",
-   "BV1m9nP65E4T",
-   "BV1yFnN6gEa3",
-   "BV1R7nN6ZE6g",
-   "BV1VXnc6EEaS",
-   "BV1ZvnK6NEQf",
-   "BV1YjnA6DEdj",
-   "BV1ejnA6DEkD",
-   "BV1axnN6pEuD",
-   "BV13NnK6dEWR",
+  "大模型评测": [
+   "BV15UJf6VEMa",
+   "BV1tWnc6MEgN",
+   "BV1GQJf63EGZ",
+   "BV1NLnP63E4N",
+   "BV1L1Jf6LE8L",
+   "BV1ikn76FEFN",
+   "BV1ZRJd6rEng",
+   "BV1KNnF6aE3f",
+   "BV1wrnA6vEHo",
+   "BV1jkJf67EiS",
+   "BV1w6nA6KEVR",
+   "BV1qUnA6fESp",
+   "BV1fsnw6xEjh",
+   "BV1ECnc6sE5m",
    "BV14hnA63EcX",
-   "BV1dBnK6AErD",
-   "BV191nK6tEtP",
-   "BV1gMnK69EAW",
-   "BV13TnK6sERN"
+   "BV1CqnA6TEkF"
   ],
   "大模型": [
    "BV1Ndnw6KEau",
@@ -2061,24 +2116,6 @@
    "BV1BunA6xETS",
    "BV1rFnA6aEqr",
    "BV16wnA6cEVK"
-  ],
-  "大模型评测": [
-   "BV15UJf6VEMa",
-   "BV1tWnc6MEgN",
-   "BV1GQJf63EGZ",
-   "BV1NLnP63E4N",
-   "BV1L1Jf6LE8L",
-   "BV1ikn76FEFN",
-   "BV1ZRJd6rEng",
-   "BV1KNnF6aE3f",
-   "BV1wrnA6vEHo",
-   "BV1jkJf67EiS",
-   "BV1w6nA6KEVR",
-   "BV14hnA63EcX",
-   "BV1qUnA6fESp",
-   "BV1fsnw6xEjh",
-   "BV1ECnc6sE5m",
-   "BV1CqnA6TEkF"
   ]
  },
  "honesty": "数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。已用确定性规则（AI 关键词/话题标签 + 非 AI 语境排除，仅读标题）过滤掉关键词误捞的非 AI 内容，规则见 scripts/build-bilibili.js。视频观点为UP主个人创作，不代表事实结论。"

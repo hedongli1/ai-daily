@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-21",
+  "generated": "2026-10-22",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 218,
+  "count": 219,
   "models": [
     {
       "model": "GPT-5.2",
@@ -679,6 +679,18 @@
       }
     },
     {
+      "model": "Gemini 4 Argon",
+      "release": "2026-09-30",
+      "nRuns": 10,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 10,
+          "avg": 0.7556,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Qwen3.7-Max",
       "release": "2026-05-19",
       "nRuns": 10,
@@ -710,18 +722,6 @@
         "Multimodal,Language,Vision": {
           "n": 9,
           "avg": 0.6714,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Argon",
-      "release": "2026-09-30",
-      "nRuns": 9,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 9,
-          "avg": 0.7741,
           "best": 1
         }
       }
@@ -903,6 +903,18 @@
           "n": 8,
           "avg": 0.2651,
           "best": 0.5133
+        }
+      }
+    },
+    {
+      "model": "DeepSeek V4.1 Flash 1017",
+      "release": "2026-10-17",
+      "nRuns": 7,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 7,
+          "avg": 0.6396,
+          "best": 0.9944
         }
       }
     },
