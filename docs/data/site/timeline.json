@@ -119,6 +119,15 @@
       "open": 0
     },
     {
+      "n": "longcat-2-5-preview",
+      "name": "LongCat-2.5-Preview",
+      "vn": "美团 LongCat",
+      "rel": "2026-09-25",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
       "n": "mimo-v2-6-pro",
       "name": "MiMo-V2.6-Pro",
       "vn": "小米",
@@ -241,7 +250,7 @@
       "vn": "Inception",
       "rel": "2026-09-08",
       "ctx": 260000,
-      "in": 0.04,
+      "in": 0.2,
       "open": 0
     },
     {
@@ -490,10 +499,10 @@
     {
       "n": "inkling-small",
       "name": "Inkling Small",
-      "vn": "Arcee AI",
+      "vn": "Thinking Machines",
       "rel": "2026-07-30",
-      "ctx": 262144,
-      "in": 0.5,
+      "ctx": 65536,
+      "in": 0.58,
       "open": 1
     },
     {
@@ -654,8 +663,8 @@
       "name": "LongCat-2.0",
       "vn": "美团 LongCat",
       "rel": "2026-06-30",
-      "ctx": 1000000,
-      "in": 0.75,
+      "ctx": 1048576,
+      "in": 0.3,
       "open": 1
     },
     {
@@ -862,7 +871,7 @@
       "vn": "阶跃星辰",
       "rel": "2026-05-29",
       "ctx": 256000,
-      "in": 0.185,
+      "in": 0.2,
       "open": 1
     },
     {
@@ -1424,6 +1433,15 @@
       "open": 1
     },
     {
+      "n": "nemotron-3-super-120b-a12b",
+      "name": "Nemotron 3 Super 120B A12B",
+      "vn": "Thinking Machines",
+      "rel": "2026-03-11",
+      "ctx": 65536,
+      "in": 0.57,
+      "open": 1
+    },
+    {
       "n": "grok-4-20-multi-agent",
       "name": "Grok 4.20 Multi-Agent",
       "vn": "xAI",
@@ -1514,6 +1532,15 @@
       "open": 0
     },
     {
+      "n": "qwen3-5-4b",
+      "name": "Qwen3.5 4B",
+      "vn": "Thinking Machines",
+      "rel": "2026-03-02",
+      "ctx": 65536,
+      "in": 0.33,
+      "open": 1
+    },
+    {
       "n": "step-tts-2",
       "name": "Step TTS 2",
       "vn": "阶跃星辰",
@@ -1521,6 +1548,15 @@
       "ctx": 0,
       "in": null,
       "open": 0
+    },
+    {
+      "n": "qwen3-5-9b-base",
+      "name": "Qwen3.5 9B Base",
+      "vn": "Thinking Machines",
+      "rel": "2026-02-26",
+      "ctx": 65536,
+      "in": 0.3,
+      "open": 1
     },
     {
       "n": "cosmos-transfer2-5-2b",
@@ -1532,6 +1568,15 @@
       "open": 1
     },
     {
+      "n": "qwen3-5-35b-a3b-base",
+      "name": "Qwen3.5 35B-A3B Base",
+      "vn": "Thinking Machines",
+      "rel": "2026-02-24",
+      "ctx": 65536,
+      "in": 0.54,
+      "open": 1
+    },
+    {
       "n": "mercury-2",
       "name": "Mercury 2",
       "vn": "Inception",
@@ -1539,6 +1584,15 @@
       "ctx": 128000,
       "in": 0.25,
       "open": 0
+    },
+    {
+      "n": "qwen3-5-9b",
+      "name": "Qwen3.5 9B",
+      "vn": "Thinking Machines",
+      "rel": "2026-02-23",
+      "ctx": 65536,
+      "in": 0.3,
+      "open": 1
     },
     {
       "n": "qwen3-5-35b-a3b",
@@ -1586,8 +1640,8 @@
       "open": 0
     },
     {
-      "n": "gemini-3-1-pro-preview",
-      "name": "Gemini 3.1 Pro Preview",
+      "n": "gemini-3-1-pro-preview-custom-tools",
+      "name": "Gemini 3.1 Pro Preview Custom Tools",
       "vn": "谷歌",
       "rel": "2026-02-19",
       "ctx": 1048576,
@@ -1595,8 +1649,8 @@
       "open": 0
     },
     {
-      "n": "gemini-3-1-pro-preview-custom-tools",
-      "name": "Gemini 3.1 Pro Preview Custom Tools",
+      "n": "gemini-3-1-pro-preview",
+      "name": "Gemini 3.1 Pro Preview",
       "vn": "谷歌",
       "rel": "2026-02-19",
       "ctx": 1048576,
@@ -2491,7 +2545,7 @@
       "vn": "Databricks",
       "rel": "2025-08-05",
       "ctx": 131072,
-      "in": 0.05,
+      "in": 0.07,
       "open": 1
     },
     {
@@ -2754,6 +2808,15 @@
       "ctx": 0,
       "in": 0,
       "open": 1
+    },
+    {
+      "n": "claude-sonnet-4",
+      "name": "Claude Sonnet 4",
+      "vn": "Databricks",
+      "rel": "2025-05-22",
+      "ctx": 200000,
+      "in": 3,
+      "open": 0
     },
     {
       "n": "solar-pro2",

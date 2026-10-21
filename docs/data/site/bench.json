@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 118,
+  "count": 121,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -594,6 +594,18 @@
       "rel": "2026-07-15",
       "name": "Inkling-Small"
     },
+    "glm-5-3-flash": {
+      "runs": 6,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 6,
+          "avg": 0.4765,
+          "best": 0.9389
+        }
+      },
+      "rel": "2026-08-20",
+      "name": "GLM-5.3-Flash"
+    },
     "gpt-oss-120b": {
       "runs": 4,
       "domains": {
@@ -617,6 +629,18 @@
       },
       "rel": "2025-08-05",
       "name": "Claude Opus 4.1"
+    },
+    "claude-sonnet-4": {
+      "runs": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.4362,
+          "best": 0.8437
+        }
+      },
+      "rel": "2025-05-22",
+      "name": "Claude Sonnet 4"
     },
     "gemini-2-5-flash": {
       "runs": 4,
@@ -1074,18 +1098,6 @@
       "rel": "2026-07-15",
       "name": "Inkling"
     },
-    "glm-5-3-flash": {
-      "runs": 6,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 6,
-          "avg": 0.4765,
-          "best": 0.9389
-        }
-      },
-      "rel": "2026-08-20",
-      "name": "GLM-5.3-Flash"
-    },
     "gpt-3-5-turbo": {
       "runs": 7,
       "domains": {
@@ -1337,6 +1349,30 @@
       },
       "rel": "2025-04-16",
       "name": "o4-mini"
+    },
+    "qwen3-5-4b": {
+      "runs": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.5583,
+          "best": 0.5583
+        }
+      },
+      "rel": "2026-02-24",
+      "name": "Qwen3.5-4B"
+    },
+    "qwen3-5-9b": {
+      "runs": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.6558,
+          "best": 0.7898
+        }
+      },
+      "rel": "2026-02-24",
+      "name": "Qwen3.5-9B"
     },
     "grok-4-20": {
       "runs": 6,

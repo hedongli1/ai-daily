@@ -42,19 +42,27 @@
       "country": "intl"
     },
     {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "n": 7,
+      "cheapest": 0.3,
+      "latest": "2026-07-30",
+      "country": "intl"
+    },
+    {
       "id": "databricks",
       "name": "Databricks",
-      "n": 3,
-      "cheapest": 0.05,
+      "n": 4,
+      "cheapest": 0.07,
       "latest": "2025-11-18",
       "country": "intl"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 14,
+      "cheapest": 0.1,
+      "latest": "2026-10-07",
       "country": "intl"
     },
     {
@@ -66,11 +74,11 @@
       "country": "cn"
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 14,
-      "cheapest": 0.1,
-      "latest": "2026-10-07",
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
       "country": "intl"
     },
     {
@@ -87,6 +95,14 @@
       "n": 12,
       "cheapest": 1,
       "latest": "2026-10-01",
+      "country": "intl"
+    },
+    {
+      "id": "arcee",
+      "name": "Arcee AI",
+      "n": 3,
+      "cheapest": 0.14,
+      "latest": "2026-08-13",
       "country": "intl"
     },
     {
@@ -114,14 +130,6 @@
       "country": "cn"
     },
     {
-      "id": "arcee",
-      "name": "Arcee AI",
-      "n": 4,
-      "cheapest": 0.14,
-      "latest": "2026-08-13",
-      "country": "intl"
-    },
-    {
       "id": "sensenova",
       "name": "商汤科技",
       "n": 1,
@@ -146,6 +154,14 @@
       "country": "intl"
     },
     {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
+      "country": "cn"
+    },
+    {
       "id": "sakana",
       "name": "Sakana AI",
       "n": 3,
@@ -165,17 +181,9 @@
       "id": "inception",
       "name": "Inception",
       "n": 4,
-      "cheapest": 0.04,
+      "cheapest": 0.1,
       "latest": "2026-10-16",
       "country": "intl"
-    },
-    {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
     },
     {
       "id": "perplexity",
@@ -194,12 +202,12 @@
       "country": "intl"
     },
     {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
-      "cheapest": 0,
-      "latest": "2026-08-28",
-      "country": "cn"
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
     },
     {
       "id": "morph",
@@ -210,20 +218,12 @@
       "country": "intl"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
-      "id": "thinkingmachines",
-      "name": "Thinking Machines",
-      "n": 1,
-      "cheapest": 1.87,
-      "latest": "2026-07-15",
-      "country": "intl"
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
+      "cheapest": 0,
+      "latest": "2026-08-28",
+      "country": "cn"
     },
     {
       "id": "cerebras",
@@ -234,11 +234,11 @@
       "country": "intl"
     },
     {
-      "id": "sarvam",
-      "name": "Sarvam AI",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": null,
-      "latest": "2026-02-18",
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
       "country": "intl"
     },
     {
@@ -250,20 +250,20 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
-      "country": "intl"
-    },
-    {
       "id": "longcat",
       "name": "美团 LongCat",
-      "n": 1,
-      "cheapest": 0.75,
-      "latest": "2026-06-30",
+      "n": 2,
+      "cheapest": 0.3,
+      "latest": "2026-09-25",
       "country": "cn"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": null,
+      "latest": "2026-02-18",
+      "country": "intl"
     }
   ]
 }
