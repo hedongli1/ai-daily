@@ -1388,24 +1388,6 @@
       "open": 1
     },
     {
-      "n": "nemotron-3-content-safety",
-      "name": "nemotron-3-content-safety",
-      "vn": "英伟达",
-      "rel": "2026-03-16",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "mistral-small-4-119b-2603",
-      "name": "mistral-small-4-119b-2603",
-      "vn": "英伟达",
-      "rel": "2026-03-16",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "mistral-small",
       "name": "Mistral Small (latest)",
       "vn": "Mistral",
@@ -1503,15 +1485,6 @@
       "ctx": 1050000,
       "in": 2.5,
       "open": 0
-    },
-    {
-      "n": "gliner-pii",
-      "name": "gliner-pii",
-      "vn": "英伟达",
-      "rel": "2026-03-03",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "gemini-3-1-flash-lite-preview",
@@ -1892,15 +1865,6 @@
       "open": 0
     },
     {
-      "n": "nemotron-content-safety-reasoning-4b",
-      "name": "nemotron-content-safety-reasoning-4b",
-      "vn": "英伟达",
-      "rel": "2026-01-22",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "glm-4-7-flashx",
       "name": "GLM-4.7-FlashX",
       "vn": "智谱 AI",
@@ -2019,11 +1983,11 @@
     },
     {
       "n": "nemotron-3-nano-30b-a3b",
-      "name": "nemotron-3-nano-30b-a3b",
-      "vn": "英伟达",
+      "name": "Nemotron 3 Nano 30B A3B",
+      "vn": "Thinking Machines",
       "rel": "2025-12-15",
-      "ctx": 131072,
-      "in": 0,
+      "ctx": 65536,
+      "in": 0.195,
       "open": 1
     },
     {
@@ -2097,24 +2061,6 @@
       "ctx": 163840,
       "in": 0.27,
       "open": 0
-    },
-    {
-      "n": "mistral-large-3-675b-instruct-2512",
-      "name": "Mistral Large 3 675B Instruct 2512",
-      "vn": "英伟达",
-      "rel": "2025-12-02",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "ministral-3-14b-instruct-2512",
-      "name": "Ministral 3 14B Instruct 2512",
-      "vn": "英伟达",
-      "rel": "2025-12-02",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "ministral-3-8b",
@@ -2204,15 +2150,6 @@
       "rel": "2025-11-06",
       "ctx": 262144,
       "in": 0.574,
-      "open": 1
-    },
-    {
-      "n": "nemotron-nano-12b-v2-vl",
-      "name": "Nemotron Nano 12B v2 VL",
-      "vn": "英伟达",
-      "rel": "2025-10-28",
-      "ctx": 128000,
-      "in": 0,
       "open": 1
     },
     {
@@ -2441,15 +2378,6 @@
       "open": 1
     },
     {
-      "n": "seed-oss-36b-instruct",
-      "name": "ByteDance-Seed/Seed-OSS-36B-Instruct",
-      "vn": "英伟达",
-      "rel": "2025-08-20",
-      "ctx": 262000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwen-image-edit",
       "name": "Qwen Image Edit",
       "vn": "英伟达",
@@ -2457,15 +2385,6 @@
       "ctx": 0,
       "in": 0,
       "open": 0
-    },
-    {
-      "n": "nvidia-nemotron-nano-9b-v2",
-      "name": "nvidia-nemotron-nano-9b-v2",
-      "vn": "英伟达",
-      "rel": "2025-08-18",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "seed-1-6-vision",
@@ -2621,24 +2540,6 @@
       "open": 0
     },
     {
-      "n": "llama-3-3-nemotron-super-49b-v1-5",
-      "name": "Llama 3.3 Nemotron Super 49B v1.5",
-      "vn": "英伟达",
-      "rel": "2025-07-25",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-2-nemoretriever-300m-embed-v1",
-      "name": "llama-3_2-nemoretriever-300m-embed-v1",
-      "vn": "英伟达",
-      "rel": "2025-07-24",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwen3-coder-plus",
       "name": "Qwen3 Coder Plus",
       "vn": "阿里云",
@@ -2684,24 +2585,6 @@
       "open": 1
     },
     {
-      "n": "gemma-3n-e4b-it",
-      "name": "Gemma 3n E4b It",
-      "vn": "英伟达",
-      "rel": "2025-06-26",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "gemma-3n-e2b-it",
-      "name": "Gemma 3n E2b It",
-      "vn": "英伟达",
-      "rel": "2025-06-26",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "mistral-small-3-2",
       "name": "Mistral Small 3.2",
       "vn": "Mistral",
@@ -2735,24 +2618,6 @@
       "rel": "2025-06-17",
       "ctx": 1048576,
       "in": 0.3,
-      "open": 0
-    },
-    {
-      "n": "cosmos-transfer1-7b",
-      "name": "cosmos-transfer1-7b",
-      "vn": "英伟达",
-      "rel": "2025-06-13",
-      "ctx": 0,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "mistral-nemotron",
-      "name": "mistral-nemotron",
-      "vn": "英伟达",
-      "rel": "2025-06-11",
-      "ctx": 128000,
-      "in": 0,
       "open": 0
     },
     {
@@ -2817,15 +2682,6 @@
       "ctx": 65536,
       "in": 0.25,
       "open": 0
-    },
-    {
-      "n": "sarvam-m",
-      "name": "sarvam-m",
-      "vn": "英伟达",
-      "rel": "2025-05-20",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "gemini-embedding-001",
@@ -2954,28 +2810,10 @@
       "open": 0
     },
     {
-      "n": "llama-3-1-nemotron-nano-vl-8b-v1",
-      "name": "Llama 3.1 Nemotron Nano VL 8B v1",
-      "vn": "英伟达",
-      "rel": "2025-04-10",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "llama-3-1-nemotron-ultra-253b",
       "name": "Llama 3.1 Nemotron Ultra 253B",
       "vn": "英伟达",
       "rel": "2025-04-07",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-4-maverick-17b-128e-instruct",
-      "name": "Llama 4 Maverick 17b 128e Instruct",
-      "vn": "英伟达",
-      "rel": "2025-04-05",
       "ctx": 128000,
       "in": 0,
       "open": 1
@@ -3125,47 +2963,11 @@
       "open": 1
     },
     {
-      "n": "llama-3-3-nemotron-super-49b-v1",
-      "name": "Llama 3.3 Nemotron Super 49B v1",
-      "vn": "英伟达",
-      "rel": "2025-03-18",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-1-nemotron-nano-8b-v1",
-      "name": "Llama 3.1 Nemotron Nano 8B v1",
-      "vn": "英伟达",
-      "rel": "2025-03-18",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "cosmos-predict1-5b",
-      "name": "cosmos-predict1-5b",
-      "vn": "英伟达",
-      "rel": "2025-03-18",
-      "ctx": 0,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "bevformer",
       "name": "bevformer",
       "vn": "英伟达",
       "rel": "2025-03-18",
       "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "nv-embedcode-7b-v1",
-      "name": "nv-embedcode-7b-v1",
-      "vn": "英伟达",
-      "rel": "2025-03-17",
-      "ctx": 32768,
       "in": 0,
       "open": 1
     },
@@ -3230,24 +3032,6 @@
       "rel": "2025-02-27",
       "ctx": 128000,
       "in": 0.0375,
-      "open": 1
-    },
-    {
-      "n": "phi-4-multimodal",
-      "name": "Phi 4 Multimodal",
-      "vn": "英伟达",
-      "rel": "2025-02-26",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "phi-4-mini",
-      "name": "Phi-4-Mini",
-      "vn": "英伟达",
-      "rel": "2025-02-26",
-      "ctx": 131072,
-      "in": 0,
       "open": 1
     },
     {
@@ -3602,24 +3386,6 @@
       "open": 1
     },
     {
-      "n": "llama-3-2-3b-instruct",
-      "name": "Llama 3.2 3B Instruct",
-      "vn": "英伟达",
-      "rel": "2024-09-25",
-      "ctx": 131072,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-2-1b-instruct",
-      "name": "Llama 3.2 1b Instruct",
-      "vn": "英伟达",
-      "rel": "2024-09-25",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "llama-3-2-11b-vision-instruct",
       "name": "Llama 3.2 11b Vision Instruct",
       "vn": "英伟达",
@@ -3728,24 +3494,6 @@
       "open": 1
     },
     {
-      "n": "esm2-650m",
-      "name": "esm2-650m",
-      "vn": "英伟达",
-      "rel": "2024-08-29",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "nemotron-mini-4b-instruct",
-      "name": "nemotron-mini-4b-instruct",
-      "vn": "英伟达",
-      "rel": "2024-08-21",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwen-math-plus",
       "name": "Qwen Math Plus",
       "vn": "阿里云",
@@ -3773,15 +3521,6 @@
       "open": 0
     },
     {
-      "n": "dracarys-llama-3-1-70b-instruct",
-      "name": "dracarys-llama-3.1-70b-instruct",
-      "vn": "英伟达",
-      "rel": "2024-08-14",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "flux-1-schnell",
       "name": "FLUX.1-schnell",
       "vn": "英伟达",
@@ -3800,38 +3539,11 @@
       "open": 1
     },
     {
-      "n": "gemma-2-2b-it",
-      "name": "Gemma 2 2b It",
-      "vn": "英伟达",
-      "rel": "2024-07-31",
-      "ctx": 8192,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "usdvalidate",
       "name": "usdvalidate",
       "vn": "英伟达",
       "rel": "2024-07-24",
       "ctx": 0,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-1-8b-instruct",
-      "name": "Llama 3.1 8B Instruct",
-      "vn": "英伟达",
-      "rel": "2024-07-23",
-      "ctx": 16000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-1-70b-instruct",
-      "name": "Llama 3.1 70b Instruct",
-      "vn": "英伟达",
-      "rel": "2024-07-23",
-      "ctx": 128000,
       "in": 0,
       "open": 1
     },
@@ -3870,15 +3582,6 @@
       "ctx": 32768,
       "in": 0.15,
       "open": 0
-    },
-    {
-      "n": "nv-embed-v1",
-      "name": "nv-embed-v1",
-      "vn": "英伟达",
-      "rel": "2024-06-07",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "auto",
@@ -3953,15 +3656,6 @@
       "open": 0
     },
     {
-      "n": "mixtral-8x22b-instruct",
-      "name": "Mistral: Mixtral 8x22B Instruct",
-      "vn": "英伟达",
-      "rel": "2024-04-17",
-      "ctx": 65536,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "qwen-vl-max",
       "name": "Qwen-VL Max",
       "vn": "阿里云",
@@ -3985,24 +3679,6 @@
       "vn": "英伟达",
       "rel": "2024-03-17",
       "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "esmfold",
-      "name": "esmfold",
-      "vn": "英伟达",
-      "rel": "2024-03-15",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "bge-m3",
-      "name": "BGE M3",
-      "vn": "英伟达",
-      "rel": "2024-01-30",
-      "ctx": 8192,
       "in": 0,
       "open": 1
     },
@@ -4104,24 +3780,6 @@
       "ctx": 1000000,
       "in": 7.742,
       "open": 0
-    },
-    {
-      "n": "solar-10-7b-instruct",
-      "name": "solar-10.7b-instruct",
-      "vn": "英伟达",
-      "rel": "2023-12-12",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "mixtral-8x7b-instruct",
-      "name": "Mistral: Mixtral 8x7B Instruct",
-      "vn": "英伟达",
-      "rel": "2023-12-11",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "mistral-embed",

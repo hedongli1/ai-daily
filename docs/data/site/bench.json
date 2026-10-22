@@ -1098,18 +1098,6 @@
       "rel": "2026-04-20",
       "name": "Kimi K2.6"
     },
-    "inkling": {
-      "runs": 6,
-      "domains": {
-        "Language,Multimodal,Audio,Video,Vision": {
-          "n": 6,
-          "avg": 0.4611,
-          "best": 0.8889
-        }
-      },
-      "rel": "2026-07-15",
-      "name": "Inkling"
-    },
     "gpt-3-5-turbo": {
       "runs": 7,
       "domains": {
@@ -1385,6 +1373,18 @@
       },
       "rel": "2026-02-24",
       "name": "Qwen3.5-9B"
+    },
+    "inkling": {
+      "runs": 6,
+      "domains": {
+        "Language,Multimodal,Audio,Video,Vision": {
+          "n": 6,
+          "avg": 0.4611,
+          "best": 0.8889
+        }
+      },
+      "rel": "2026-07-15",
+      "name": "Inkling"
     },
     "grok-4-20": {
       "runs": 6,
