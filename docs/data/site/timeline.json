@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-22",
+  "date": "2026-10-23",
   "timeline": [
     {
       "n": "minimax-m3-1-flash",
@@ -88,7 +88,7 @@
       "vn": "Mistral",
       "rel": "2026-10-06",
       "ctx": 1048576,
-      "in": 0.68,
+      "in": 1.36,
       "open": 0
     },
     {
@@ -1262,15 +1262,6 @@
       "open": 1
     },
     {
-      "n": "veo-3-1-lite",
-      "name": "Veo 3.1 lite",
-      "vn": "谷歌",
-      "rel": "2026-03-31",
-      "ctx": 480,
-      "in": null,
-      "open": 0
-    },
-    {
       "n": "mercury-edit-2",
       "name": "Mercury Edit 2",
       "vn": "Inception",
@@ -2177,24 +2168,6 @@
       "rel": "2025-10-15",
       "ctx": 256000,
       "in": 0.11875,
-      "open": 0
-    },
-    {
-      "n": "veo-3-1",
-      "name": "Veo 3.1",
-      "vn": "谷歌",
-      "rel": "2025-10-15",
-      "ctx": 480,
-      "in": null,
-      "open": 0
-    },
-    {
-      "n": "veo-3-1-fast",
-      "name": "Veo 3.1 fast",
-      "vn": "谷歌",
-      "rel": "2025-10-15",
-      "ctx": 480,
-      "in": null,
       "open": 0
     },
     {
