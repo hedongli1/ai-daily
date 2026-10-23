@@ -1,580 +1,69 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "mode": "diff",
-  "baselineDate": "2026-10-22",
+  "baselineDate": "2026-10-23",
   "events": [
     {
-      "type": "price",
-      "key": "alibaba/Qwen3.7 Plus",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.7 Plus",
+      "type": "new",
+      "key": "moonshotai-cn/Kimi K3.1 Pro",
+      "vendor": "moonshotai",
+      "vendorName": "月之暗面",
+      "name": "Kimi K3.1 Pro",
       "date": "2026-10-23",
       "facts": {
-        "before": {
-          "in": 0.4,
-          "outCost": 1.6
-        },
-        "after": {
-          "in": 0.4,
-          "outCost": 1.6
-        }
+        "ctx": 1048576,
+        "in": 1.9437,
+        "outCost": 10.1671,
+        "open": false,
+        "reasoning": true
       },
-      "text": "",
-      "href": "/models/qwen3-7-plus/",
-      "evidence": [
-        {
-          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-          "url": "https://github.com/QwenLM/qwen-code/releases",
-          "source": "Qwen"
-        },
-        {
-          "title": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-          "url": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-          "source": "Qwen"
-        }
-      ]
+      "text": "Kimi K3.1 Pro · 闭源 · 1M 上下文 · 输入 $1.94/M · 支持推理",
+      "href": "/models/kimi-k3-1-pro/",
+      "shared": 13
     },
     {
-      "type": "price",
-      "key": "alibaba/Qwen3-VL Plus",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3-VL Plus",
+      "type": "new",
+      "key": "moonshotai-cn/Kimi K3.1 Pro Highspeed",
+      "vendor": "moonshotai",
+      "vendorName": "月之暗面",
+      "name": "Kimi K3.1 Pro Highspeed",
       "date": "2026-10-23",
       "facts": {
-        "before": {
-          "in": 0.2,
-          "outCost": 1.6
-        },
-        "after": {
-          "in": 0.2,
-          "outCost": 1.6
-        }
+        "ctx": 1048576,
+        "in": 3.8874,
+        "outCost": 20.3342,
+        "open": false,
+        "reasoning": true
       },
-      "text": "",
-      "href": "/models/qwen3-vl-plus/"
+      "text": "Kimi K3.1 Pro Highspeed · 闭源 · 1M 上下文 · 输入 $3.89/M · 支持推理",
+      "href": "/models/kimi-k3-1-pro-highspeed/",
+      "shared": 8
     },
     {
-      "type": "price",
-      "key": "alibaba/Qwen3.7 Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3.7 Flash",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.03,
-          "outCost": 0.13
-        },
-        "after": {
-          "in": 0.03,
-          "outCost": 0.13
-        }
-      },
-      "text": "",
-      "href": "/models/qwen3-7-flash/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen Plus",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen Plus",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.4,
-          "outCost": 1.2
-        },
-        "after": {
-          "in": 0.4,
-          "outCost": 1.2
-        }
-      },
-      "text": "",
-      "href": "/models/qwen-plus/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba-cn/Moonshot Kimi K2.5",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Moonshot Kimi K2.5",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.574,
-          "outCost": 3.011
-        },
-        "after": {
-          "in": 0.574,
-          "outCost": 3.011
-        }
-      },
-      "text": "",
-      "href": "/models/moonshot-kimi-k2-5/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba-cn/Moonshot Kimi K2.6",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Moonshot Kimi K2.6",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.929,
-          "outCost": 3.858
-        },
-        "after": {
-          "in": 0.929,
-          "outCost": 3.858
-        }
-      },
-      "text": "",
-      "href": "/models/moonshot-kimi-k2-6/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen Flash",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.05,
-          "outCost": 0.4
-        },
-        "after": {
-          "in": 0.05,
-          "outCost": 0.4
-        }
-      },
-      "text": "",
-      "href": "/models/qwen-flash/"
-    },
-    {
-      "type": "price",
-      "key": "alibaba/Qwen3 Coder Flash",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen3 Coder Flash",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 1.5
-        },
-        "after": {
-          "in": 0.3,
-          "outCost": 1.5
-        }
-      },
-      "text": "",
-      "href": "/models/qwen3-coder-flash/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Mistral Large 4",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large 4",
-      "date": "2026-10-23",
-      "facts": {
-        "before": {
-          "in": 0.68,
-          "outCost": 2.09
-        },
-        "after": {
-          "in": 1.36,
-          "outCost": 4.18
-        }
-      },
-      "text": "输入 $0.68 → $1.36 · 输出 $2.09 → $4.18",
-      "href": "/models/mistral-large-4/",
-      "evidence": [
-        {
-          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
-          "url": "https://github.com/mistralai/mistral-vibe/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "cli · 仓库更新",
-          "url": "https://github.com/mistralai/cli/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "platform-docs-public · 仓库更新",
-          "url": "https://github.com/mistralai/platform-docs-public/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-          "url": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-          "source": "Mistral AI"
-        }
-      ]
-    },
-    {
-      "type": "retired",
-      "key": "alibaba-cn/QwQ 32B",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "QwQ 32B",
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
       "date": "2026-10-23",
       "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
+      "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "href": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "source": "OpenAI",
+      "external": true
     },
     {
-      "type": "retired",
-      "key": "llama/Llama-3.3-70B-Instruct",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Llama-3.3-70B-Instruct",
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Securing our frontier model training environment",
       "date": "2026-10-23",
       "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "xiaomi/MiMo-V2-Pro",
-      "vendor": "xiaomi",
-      "vendorName": "小米",
-      "name": "MiMo-V2-Pro",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 小米 下架",
-      "href": "/vendors/xiaomi/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mistral Nemo",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Nemo",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5 14B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5 14B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5 32B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5 32B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5 72B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5 72B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5 7B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5 7B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba-cn/Qwen2.5-Coder 32B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-Coder 32B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba-cn/Qwen2.5-Coder 7B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-Coder 7B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba-cn/Qwen2.5-Math 72B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-Math 72B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba-cn/Qwen2.5-Math 7B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-Math 7B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5-VL 72B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-VL 72B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "alibaba/Qwen2.5-VL 7B Instruct",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Qwen2.5-VL 7B Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阿里云 下架",
-      "href": "/vendors/alibaba/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Pixtral Large (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Pixtral Large (latest)",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "google/Veo 3.1",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Veo 3.1",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/",
-      "evidence": [
-        {
-          "title": "Beyond tree cover: mapping the world’s forest types",
-          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-          "source": "Google DeepMind"
-        }
-      ]
-    },
-    {
-      "type": "retired",
-      "key": "google/Veo 3.1 fast",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Veo 3.1 fast",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/"
-    },
-    {
-      "type": "retired",
-      "key": "google/Veo 3.1 lite",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Veo 3.1 lite",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/"
-    },
-    {
-      "type": "retired",
-      "key": "xiaomi/MiMo-V2-Flash",
-      "vendor": "xiaomi",
-      "vendorName": "小米",
-      "name": "MiMo-V2-Flash",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 小米 下架",
-      "href": "/vendors/xiaomi/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Devstral Small 2505",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Devstral Small 2505",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Cerebras-Llama-4-Maverick-17B-128E-Instruct",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Cerebras-Llama-4-Maverick-17B-128E-Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Cerebras-Llama-4-Scout-17B-16E-Instruct",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Cerebras-Llama-4-Scout-17B-16E-Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Groq-Llama-4-Maverick-17B-128E-Instruct",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Groq-Llama-4-Maverick-17B-128E-Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Llama-3.3-8B-Instruct",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Llama-3.3-8B-Instruct",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "llama/Llama-4-Scout-17B-16E-Instruct-FP8",
-      "vendor": "meta",
-      "vendorName": "Meta",
-      "name": "Llama-4-Scout-17B-16E-Instruct-FP8",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Meta 下架",
-      "href": "/vendors/meta/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Devstral Medium",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Devstral Medium",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Devstral Small",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Devstral Small",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mistral Large 2.1",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large 2.1",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "stepfun-ai/Step 1 (32K)",
-      "vendor": "stepfun",
-      "vendorName": "阶跃星辰",
-      "name": "Step 1 (32K)",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阶跃星辰 下架",
-      "href": "/vendors/stepfun/"
-    },
-    {
-      "type": "retired",
-      "key": "stepfun-ai/Step 2 (16K)",
-      "vendor": "stepfun",
-      "vendorName": "阶跃星辰",
-      "name": "Step 2 (16K)",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 阶跃星辰 下架",
-      "href": "/vendors/stepfun/"
-    },
-    {
-      "type": "retired",
-      "key": "xiaomi/MiMo-V2-Omni",
-      "vendor": "xiaomi",
-      "vendorName": "小米",
-      "name": "MiMo-V2-Omni",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "已从 小米 下架",
-      "href": "/vendors/xiaomi/"
+      "text": "Securing our frontier model training environment",
+      "href": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -587,6 +76,19 @@
       "text": "OpenAI and Poland’s NASK partner to advance AI safety and security",
       "href": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
       "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
       "external": true
     },
     {
@@ -613,6 +115,84 @@
       "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
       "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "date": "2026-10-23",
+      "facts": {},
+      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "href": "https://github.com/zai-org/GLM-V/releases",
+      "source": "智谱 AI",
       "external": true
     },
     {
@@ -698,19 +278,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "platform-docs-public · 仓库更新",
       "date": "2026-10-22",
       "facts": {},
@@ -729,188 +296,6 @@
       "facts": {},
       "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
       "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How AT&T is rethinking in-house legal work with OpenAI",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "How AT&T is rethinking in-house legal work with OpenAI",
-      "href": "https://openai.com/index/att-legal",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Broad access through consistent standards",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Broad access through consistent standards",
-      "href": "https://openai.com/index/broad-access-through-consistent-standards",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "OpenAI models are coming to Google Cloud",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "OpenAI models are coming to Google Cloud",
-      "href": "https://openai.com/index/openai-models-google-cloud",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Patch the Planet: global response coordination as agents uncover critical vulnerabilities",
-      "href": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "href": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Using thousands of AI agents to uncover new leads in biological data",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Using thousands of AI agents to uncover new leads in biological data",
-      "href": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Cloudflare links vulnerability discovery to defense with OpenAI",
-      "href": "https://openai.com/index/cloudflare-cyber",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "How we built ChatGPT’s novel ad stack for user trust and relevance",
-      "href": "https://openai.com/index/building-chatgpt-ad-stack",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
-      "href": "https://openai.com/index/empowering-cyber-defenders",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Southeast Asia’s digital economy to hit $368 billion",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Southeast Asia’s digital economy to hit $368 billion",
-      "href": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "href": "https://github.com/deepseek-ai/DeepInfer/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "href": "https://github.com/deepseek-ai/DeepEP/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-21",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     }
