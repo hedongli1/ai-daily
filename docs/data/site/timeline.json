@@ -1307,24 +1307,6 @@
       "open": 1
     },
     {
-      "n": "mimo-v2-pro",
-      "name": "MiMo-V2-Pro",
-      "vn": "小米",
-      "rel": "2026-03-18",
-      "ctx": 1048576,
-      "in": 0.435,
-      "open": 0
-    },
-    {
-      "n": "mimo-v2-omni",
-      "name": "MiMo-V2-Omni",
-      "vn": "小米",
-      "rel": "2026-03-18",
-      "ctx": 262144,
-      "in": 0.14,
-      "open": 0
-    },
-    {
       "n": "minimax-m2-7-highspeed",
       "name": "MiniMax-M2.7-highspeed",
       "vn": "MiniMax",
@@ -1955,15 +1937,6 @@
       "open": 0
     },
     {
-      "n": "mimo-v2-flash",
-      "name": "MiMo-V2-Flash",
-      "vn": "小米",
-      "rel": "2025-12-16",
-      "ctx": 262144,
-      "in": 0.14,
-      "open": 1
-    },
-    {
       "n": "chatgpt-image-latest",
       "name": "chatgpt-image-latest",
       "vn": "OpenAI",
@@ -2531,24 +2504,6 @@
       "open": 1
     },
     {
-      "n": "devstral-small",
-      "name": "Devstral Small",
-      "vn": "Mistral",
-      "rel": "2025-07-10",
-      "ctx": 128000,
-      "in": 0.1,
-      "open": 1
-    },
-    {
-      "n": "devstral-medium",
-      "name": "Devstral Medium",
-      "vn": "Mistral",
-      "rel": "2025-07-10",
-      "ctx": 128000,
-      "in": 0.4,
-      "open": 1
-    },
-    {
       "n": "jamba-large",
       "name": "Jamba Large",
       "vn": "AI21 Labs",
@@ -2684,15 +2639,6 @@
       "open": 0
     },
     {
-      "n": "devstral-small-2505",
-      "name": "Devstral Small 2505",
-      "vn": "Mistral",
-      "rel": "2025-05-07",
-      "ctx": 128000,
-      "in": 0.1,
-      "open": 1
-    },
-    {
       "n": "gemini-2-5-pro-preview-tts",
       "name": "Gemini 2.5 Pro Preview TTS",
       "vn": "谷歌",
@@ -2787,51 +2733,6 @@
       "name": "Llama 3.1 Nemotron Ultra 253B",
       "vn": "英伟达",
       "rel": "2025-04-07",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-4-scout-17b-16e-instruct-fp8",
-      "name": "Llama-4-Scout-17B-16E-Instruct-FP8",
-      "vn": "Meta",
-      "rel": "2025-04-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-4-maverick-17b-128e-instruct-fp8",
-      "name": "Llama-4-Maverick-17B-128E-Instruct-FP8",
-      "vn": "Meta",
-      "rel": "2025-04-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "groq-llama-4-maverick-17b-128e-instruct",
-      "name": "Groq-Llama-4-Maverick-17B-128E-Instruct",
-      "vn": "Meta",
-      "rel": "2025-04-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "cerebras-llama-4-scout-17b-16e-instruct",
-      "name": "Cerebras-Llama-4-Scout-17B-16E-Instruct",
-      "vn": "Meta",
-      "rel": "2025-04-05",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "cerebras-llama-4-maverick-17b-128e-instruct",
-      "name": "Cerebras-Llama-4-Maverick-17B-128E-Instruct",
-      "vn": "Meta",
-      "rel": "2025-04-05",
       "ctx": 128000,
       "in": 0,
       "open": 1
@@ -3035,24 +2936,6 @@
       "open": 0
     },
     {
-      "n": "step-2",
-      "name": "Step 2 (16K)",
-      "vn": "阶跃星辰",
-      "rel": "2025-01-01",
-      "ctx": 16384,
-      "in": 5.21,
-      "open": 0
-    },
-    {
-      "n": "step-1",
-      "name": "Step 1 (32K)",
-      "vn": "阶跃星辰",
-      "rel": "2025-01-01",
-      "ctx": 32768,
-      "in": 2.05,
-      "open": 0
-    },
-    {
       "n": "qwen-mt-turbo",
       "name": "Qwen-MT Turbo",
       "vn": "阿里云",
@@ -3188,24 +3071,6 @@
       "open": 1
     },
     {
-      "n": "llama-3-3-8b-instruct",
-      "name": "Llama-3.3-8B-Instruct",
-      "vn": "Meta",
-      "rel": "2024-12-06",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "llama-3-3-70b-instruct",
-      "name": "Llama-3.3-70B-Instruct",
-      "vn": "Meta",
-      "rel": "2024-12-06",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "o1",
       "name": "o1",
       "vn": "OpenAI",
@@ -3213,15 +3078,6 @@
       "ctx": 200000,
       "in": 15,
       "open": 0
-    },
-    {
-      "n": "qwq-32b",
-      "name": "QwQ 32B",
-      "vn": "阿里云",
-      "rel": "2024-12-01",
-      "ctx": 131072,
-      "in": 0.287,
-      "open": 1
     },
     {
       "n": "qwen2-5-omni-7b",
@@ -3242,24 +3098,6 @@
       "open": 0
     },
     {
-      "n": "mistral-large-2-1",
-      "name": "Mistral Large 2.1",
-      "vn": "Mistral",
-      "rel": "2024-11-18",
-      "ctx": 131072,
-      "in": 2,
-      "open": 1
-    },
-    {
-      "n": "pixtral-large",
-      "name": "Pixtral Large (latest)",
-      "vn": "Mistral",
-      "rel": "2024-11-01",
-      "ctx": 128000,
-      "in": 2,
-      "open": 1
-    },
-    {
       "n": "mistral-large",
       "name": "Mistral Large (latest)",
       "vn": "Mistral",
@@ -3275,24 +3113,6 @@
       "rel": "2024-11-01",
       "ctx": 262144,
       "in": 0.5,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-coder-7b-instruct",
-      "name": "Qwen2.5-Coder 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-11-01",
-      "ctx": 131072,
-      "in": 0.144,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-coder-32b-instruct",
-      "name": "Qwen2.5-Coder 32B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-11-01",
-      "ctx": 131072,
-      "in": 0.287,
       "open": 1
     },
     {
@@ -3386,78 +3206,6 @@
       "open": 1
     },
     {
-      "n": "qwen2-5-vl-7b-instruct",
-      "name": "Qwen2.5-VL 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.287,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-vl-72b-instruct",
-      "name": "Qwen2.5-VL 72B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 2.294,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-math-7b-instruct",
-      "name": "Qwen2.5-Math 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 4096,
-      "in": 0.144,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-math-72b-instruct",
-      "name": "Qwen2.5-Math 72B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 4096,
-      "in": 0.574,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-7b-instruct",
-      "name": "Qwen2.5 7B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.072,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-72b-instruct",
-      "name": "Qwen2.5 72B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.574,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-32b-instruct",
-      "name": "Qwen2.5 32B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.287,
-      "open": 1
-    },
-    {
-      "n": "qwen2-5-14b-instruct",
-      "name": "Qwen2.5 14B Instruct",
-      "vn": "阿里云",
-      "rel": "2024-09-01",
-      "ctx": 131072,
-      "in": 0.144,
-      "open": 1
-    },
-    {
       "n": "command-r",
       "name": "Command R",
       "vn": "Cohere",
@@ -3532,15 +3280,6 @@
     {
       "n": "open-mistral-nemo",
       "name": "Open Mistral Nemo",
-      "vn": "Mistral",
-      "rel": "2024-07-01",
-      "ctx": 128000,
-      "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "mistral-nemo",
-      "name": "Mistral Nemo",
       "vn": "Mistral",
       "rel": "2024-07-01",
       "ctx": 128000,

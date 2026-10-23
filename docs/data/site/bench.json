@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 122,
+  "count": 120,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -317,18 +317,6 @@
       },
       "rel": "2026-09-01",
       "name": "Qwen3.8 Max (0902)"
-    },
-    "qwq-32b": {
-      "runs": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.6225,
-          "best": 0.6534
-        }
-      },
-      "rel": "2025-03-05",
-      "name": "QwQ-32B"
     },
     "qwq-plus": {
       "runs": 1,
@@ -1061,18 +1049,6 @@
       },
       "rel": "2025-05-07",
       "name": "Mistral Medium 3"
-    },
-    "mistral-nemo": {
-      "runs": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.2036,
-          "best": 0.2989
-        }
-      },
-      "rel": "2024-07-18",
-      "name": "Mistral NeMo"
     },
     "mistral-small-3-2": {
       "runs": 2,

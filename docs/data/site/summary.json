@@ -4,11 +4,11 @@
   "baselineDate": "2026-10-22",
   "counts": {
     "new": 0,
-    "retired": 3,
-    "price": 1,
+    "retired": 32,
+    "price": 9,
     "context": 0,
-    "news": 24,
-    "facts": 4,
+    "news": 26,
+    "facts": 41,
     "newsAttached": 0
   },
   "degraded": [
@@ -78,8 +78,8 @@
   ],
   "totals": {
     "originVendors": 33,
-    "originModels": 631,
-    "channels": 191,
-    "allEntries": 9149
+    "originModels": 595,
+    "channels": 190,
+    "allEntries": 8847
   }
 }
