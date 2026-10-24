@@ -49,13 +49,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 7
+      "count": 8
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 599,
     "channels": 190,
-    "allEntries": 8881
+    "allEntries": 8893
   }
 }

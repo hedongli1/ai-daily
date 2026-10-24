@@ -130,6 +130,14 @@
       "country": "cn"
     },
     {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
+      "country": "cn"
+    },
+    {
       "id": "meta",
       "name": "Meta",
       "n": 6,
@@ -143,14 +151,6 @@
       "n": 6,
       "cheapest": 0.14,
       "latest": "2026-09-22",
-      "country": "cn"
-    },
-    {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -202,14 +202,6 @@
       "country": "intl"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
       "id": "tencent-tokenhub",
       "name": "腾讯混元",
       "n": 7,
@@ -218,27 +210,19 @@
       "country": "cn"
     },
     {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
+    },
+    {
       "id": "poolside",
       "name": "Poolside",
       "n": 3,
       "cheapest": 0,
       "latest": "2026-07-21",
-      "country": "intl"
-    },
-    {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
-      "country": "intl"
-    },
-    {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
       "country": "intl"
     },
     {
@@ -250,6 +234,14 @@
       "country": "cn"
     },
     {
+      "id": "longcat",
+      "name": "美团 LongCat",
+      "n": 2,
+      "cheapest": 0.3,
+      "latest": "2026-09-25",
+      "country": "cn"
+    },
+    {
       "id": "ai21",
       "name": "AI21 Labs",
       "n": 2,
@@ -258,12 +250,20 @@
       "country": "intl"
     },
     {
-      "id": "longcat",
-      "name": "美团 LongCat",
+      "id": "cerebras",
+      "name": "Cerebras",
       "n": 2,
-      "cheapest": 0.3,
-      "latest": "2026-09-25",
-      "country": "cn"
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
+      "country": "intl"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
+      "country": "intl"
     }
   ]
 }
