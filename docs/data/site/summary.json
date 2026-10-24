@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "mode": "diff",
-  "baselineDate": "2026-10-23",
+  "baselineDate": "2026-10-24",
   "counts": {
-    "new": 2,
+    "new": 0,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 20,
-    "facts": 2,
+    "news": 12,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -49,7 +49,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 8
+      "count": 6
     },
     {
       "id": "QwenLM",
@@ -73,13 +73,13 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 5
+      "count": 4
     }
   ],
   "totals": {
     "originVendors": 33,
     "originModels": 599,
-    "channels": 190,
-    "allEntries": 8893
+    "channels": 192,
+    "allEntries": 8901
   }
 }

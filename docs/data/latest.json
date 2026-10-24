@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "mode": "diff",
-  "baselineDate": "2026-10-23",
+  "baselineDate": "2026-10-24",
   "counts": {
-    "new": 2,
+    "new": 0,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 20,
-    "facts": 2,
+    "news": 12,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 8
+      "count": 6
     },
     {
       "id": "QwenLM",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 5
+      "count": 4
     }
   ],
   "events": [
@@ -103,42 +103,6 @@
       "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
-    },
-    {
-      "type": "new",
-      "key": "moonshotai-cn/Kimi K3.1 Pro",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K3.1 Pro",
-      "date": "2026-10-23",
-      "facts": {
-        "ctx": 1048576,
-        "in": 1.9437,
-        "outCost": 10.1671,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Kimi K3.1 Pro · 闭源 · 1M 上下文 · 输入 $1.94/M · 支持推理",
-      "href": "/models/kimi-k3-1-pro/",
-      "shared": 16
-    },
-    {
-      "type": "new",
-      "key": "moonshotai-cn/Kimi K3.1 Pro Highspeed",
-      "vendor": "moonshotai",
-      "vendorName": "月之暗面",
-      "name": "Kimi K3.1 Pro Highspeed",
-      "date": "2026-10-23",
-      "facts": {
-        "ctx": 1048576,
-        "in": 3.8874,
-        "outCost": 20.3342,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Kimi K3.1 Pro Highspeed · 闭源 · 1M 上下文 · 输入 $3.89/M · 支持推理",
-      "href": "/models/kimi-k3-1-pro-highspeed/",
-      "shared": 10
     },
     {
       "type": "news",
@@ -268,110 +232,6 @@
       "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "href": "https://github.com/zai-org/GLM-V/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Build more responsive apps with the Decisions API",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "Build more responsive apps with the Decisions API",
-      "href": "https://openai.com/index/decisions-api",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "What FDE means at OpenAI",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "What FDE means at OpenAI",
-      "href": "https://openai.com/index/forward-deployed-engineering-means",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "Uber brings ChatGPT Work to all employees with OpenAI",
-      "href": "https://openai.com/index/uber-chatgpt-work-rollout",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Beyond tree cover: mapping the world’s forest types",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "Beyond tree cover: mapping the world’s forest types",
-      "href": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "date": "2026-10-22",
-      "facts": {},
-      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-      "source": "Mistral AI",
       "external": true
     }
   ]
