@@ -58,11 +58,11 @@
       "country": "intl"
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 14,
-      "cheapest": 0.1,
-      "latest": "2026-10-07",
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
       "country": "intl"
     },
     {
@@ -74,11 +74,11 @@
       "country": "cn"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 14,
+      "cheapest": 0.1,
+      "latest": "2026-10-07",
       "country": "intl"
     },
     {
@@ -122,6 +122,14 @@
       "country": "cn"
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "n": 6,
+      "cheapest": 0.1,
+      "latest": "2026-10-12",
+      "country": "intl"
+    },
+    {
       "id": "sensenova",
       "name": "商汤科技",
       "n": 1,
@@ -136,14 +144,6 @@
       "cheapest": 0.9711,
       "latest": "2026-10-23",
       "country": "cn"
-    },
-    {
-      "id": "meta",
-      "name": "Meta",
-      "n": 6,
-      "cheapest": 0.1,
-      "latest": "2026-10-12",
-      "country": "intl"
     },
     {
       "id": "xiaomi",
@@ -162,12 +162,12 @@
       "country": "intl"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
+      "country": "intl"
     },
     {
       "id": "inception",
@@ -178,27 +178,19 @@
       "country": "intl"
     },
     {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
+      "country": "cn"
+    },
+    {
       "id": "perplexity",
       "name": "Perplexity",
       "n": 4,
       "cheapest": 1,
       "latest": "2025-02-01",
-      "country": "intl"
-    },
-    {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
-      "id": "poolside",
-      "name": "Poolside",
-      "n": 3,
-      "cheapest": 0,
-      "latest": "2026-07-21",
       "country": "intl"
     },
     {
@@ -210,11 +202,11 @@
       "country": "cn"
     },
     {
-      "id": "morph",
-      "name": "Morph",
+      "id": "poolside",
+      "name": "Poolside",
       "n": 3,
-      "cheapest": 0.8,
-      "latest": "2024-08-15",
+      "cheapest": 0,
+      "latest": "2026-07-21",
       "country": "intl"
     },
     {
@@ -226,27 +218,11 @@
       "country": "intl"
     },
     {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
-      "country": "intl"
-    },
-    {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
-      "country": "intl"
-    },
-    {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
+      "id": "morph",
+      "name": "Morph",
+      "n": 3,
+      "cheapest": 0.8,
+      "latest": "2024-08-15",
       "country": "intl"
     },
     {
@@ -264,6 +240,30 @@
       "cheapest": 0.3,
       "latest": "2026-09-25",
       "country": "cn"
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "n": 2,
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
+      "country": "intl"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
+      "country": "intl"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
+      "country": "intl"
     }
   ]
 }
