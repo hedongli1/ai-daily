@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "date": "2026-10-25",
+  "date": "2026-10-26",
   "mode": "diff",
-  "baselineDate": "2026-10-24",
+  "baselineDate": "2026-10-25",
   "counts": {
     "new": 0,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 14,
+    "news": 5,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 4
+      "count": 5
     }
   ],
   "events": [
@@ -107,14 +107,27 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
       "date": "2026-10-25",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-25",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -128,136 +141,6 @@
       "text": "mistral-common · Official inference library for pre-processing of Mistral models",
       "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
-      "href": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Securing our frontier model training environment",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "Securing our frontier model training environment",
-      "href": "https://openai.com/index/securing-our-frontier-model-training-environment",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "OpenAI and Poland’s NASK partner to advance AI safety and security",
-      "href": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-ts ·  TS Client library for Mistral AI platform ",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "client-ts ·  TS Client library for Mistral AI platform ",
-      "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "date": "2026-10-23",
-      "facts": {},
-      "text": "GLM-V · GLM-4.6V/4.5V/4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
-      "href": "https://github.com/zai-org/GLM-V/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]
