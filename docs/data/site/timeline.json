@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "timeline": [
     {
       "n": "kimi-k3-1-pro-highspeed",
@@ -567,6 +567,15 @@
       "ctx": 1048576,
       "in": 0.3,
       "open": 0
+    },
+    {
+      "n": "kimi-k3-fast",
+      "name": "Kimi K3 Fast",
+      "vn": "Morph",
+      "rel": "2026-07-16",
+      "ctx": 1048576,
+      "in": 6,
+      "open": 1
     },
     {
       "n": "kimi-k3",
@@ -2522,6 +2531,24 @@
       "open": 1
     },
     {
+      "n": "morph-v3-large",
+      "name": "Morph V3 Large",
+      "vn": "Morph",
+      "rel": "2025-07-07",
+      "ctx": 262144,
+      "in": 0.9,
+      "open": 0
+    },
+    {
+      "n": "morph-v3-fast",
+      "name": "Morph V3 Fast",
+      "vn": "Morph",
+      "rel": "2025-07-07",
+      "ctx": 262144,
+      "in": 0.8,
+      "open": 0
+    },
+    {
       "n": "jamba-large",
       "name": "Jamba Large",
       "vn": "AI21 Labs",
@@ -3239,24 +3266,6 @@
       "rel": "2024-08-16",
       "ctx": 4096,
       "in": 0.574,
-      "open": 0
-    },
-    {
-      "n": "morph-v3-large",
-      "name": "Morph v3 Large",
-      "vn": "Morph",
-      "rel": "2024-08-15",
-      "ctx": 32000,
-      "in": 0.9,
-      "open": 0
-    },
-    {
-      "n": "morph-v3-fast",
-      "name": "Morph v3 Fast",
-      "vn": "Morph",
-      "rel": "2024-08-15",
-      "ctx": 16000,
-      "in": 0.8,
       "open": 0
     },
     {

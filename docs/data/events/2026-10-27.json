@@ -1,0 +1,313 @@
+{
+  "schema": 1,
+  "date": "2026-10-27",
+  "mode": "diff",
+  "baselineDate": "2026-10-26",
+  "counts": {
+    "new": 1,
+    "retired": 0,
+    "price": 2,
+    "context": 4,
+    "news": 9,
+    "facts": 7,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 11
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 5
+    }
+  ],
+  "events": [
+    {
+      "type": "price",
+      "key": "morph/DeepSeek V4 Flash 0731",
+      "vendor": "morph",
+      "vendorName": "Morph",
+      "name": "DeepSeek V4 Flash 0731",
+      "date": "2026-10-27",
+      "facts": {
+        "before": {
+          "in": 0.4453,
+          "outCost": 1.3359
+        },
+        "after": {
+          "in": 0.141953125,
+          "outCost": 0.399625
+        }
+      },
+      "text": "输入 $0.45 → $0.14 · 输出 $1.34 → $0.4",
+      "href": "/models/deepseek-v4-flash-0731/"
+    },
+    {
+      "type": "price",
+      "key": "tencent-coding-plan/Auto",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Auto",
+      "date": "2026-10-27",
+      "facts": {
+        "before": {
+          "in": 0.85,
+          "outCost": 1.55
+        },
+        "after": {
+          "in": 0,
+          "outCost": 0
+        }
+      },
+      "text": "输入 $0.85 → 免费 · 输出 $1.55 → 免费",
+      "href": "/models/auto/"
+    },
+    {
+      "type": "context",
+      "key": "morph/DeepSeek V4 Flash 0731",
+      "vendor": "morph",
+      "vendorName": "Morph",
+      "name": "DeepSeek V4 Flash 0731",
+      "date": "2026-10-27",
+      "facts": {
+        "before": 1000000,
+        "after": 1048576
+      },
+      "text": "上下文 1M → 1.05M",
+      "href": "/models/deepseek-v4-flash-0731/"
+    },
+    {
+      "type": "context",
+      "key": "morph/Morph V3 Fast",
+      "vendor": "morph",
+      "vendorName": "Morph",
+      "name": "Morph V3 Fast",
+      "date": "2026-10-27",
+      "facts": {
+        "before": 16000,
+        "after": 262144
+      },
+      "text": "上下文 16K → 262K",
+      "href": "/models/morph-v3-fast/"
+    },
+    {
+      "type": "context",
+      "key": "morph/Morph V3 Large",
+      "vendor": "morph",
+      "vendorName": "Morph",
+      "name": "Morph V3 Large",
+      "date": "2026-10-27",
+      "facts": {
+        "before": 32000,
+        "after": 262144
+      },
+      "text": "上下文 32K → 262K",
+      "href": "/models/morph-v3-large/"
+    },
+    {
+      "type": "context",
+      "key": "tencent-coding-plan/Auto",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Auto",
+      "date": "2026-10-27",
+      "facts": {
+        "before": 32000,
+        "after": 131072
+      },
+      "text": "上下文 32K → 131K",
+      "href": "/models/auto/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Fanatics and OpenAI streamline the fan experience",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "How Fanatics and OpenAI streamline the fan experience",
+      "href": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Our newest AI Quest: Mapping the human brain",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "Our newest AI Quest: Mapping the human brain",
+      "href": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "href": "https://github.com/deepseek-ai/DeepInfer/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-25",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-25",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "morph/Kimi K3 Fast",
+      "vendor": "morph",
+      "vendorName": "Morph",
+      "name": "Kimi K3 Fast",
+      "date": "2026-07-16",
+      "facts": {
+        "ctx": 1048576,
+        "in": 6,
+        "outCost": 22.5,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Kimi K3 Fast · 开源 · 1M 上下文 · 输入 $6/M · 支持推理",
+      "href": "/models/kimi-k3-fast/",
+      "shared": 6
+    }
+  ]
+}
