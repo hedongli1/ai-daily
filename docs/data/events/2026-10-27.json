@@ -4,12 +4,12 @@
   "mode": "diff",
   "baselineDate": "2026-10-26",
   "counts": {
-    "new": 1,
+    "new": 2,
     "retired": 0,
     "price": 2,
     "context": 4,
-    "news": 9,
-    "facts": 7,
+    "news": 17,
+    "facts": 8,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 4
     },
     {
       "id": "QwenLM",
@@ -61,20 +61,20 @@
     {
       "id": "meta-llama",
       "label": "Meta Llama",
-      "status": "ok",
-      "count": 1
+      "status": "empty",
+      "count": 0
     },
     {
       "id": "mistralai",
       "label": "Mistral AI",
       "status": "ok",
-      "count": 11
+      "count": 12
     },
     {
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 5
+      "count": 4
     }
   ],
   "events": [
@@ -175,6 +175,113 @@
       "href": "/models/auto/"
     },
     {
+      "type": "new",
+      "key": "openai/GPT-6.1 Terra",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.1 Terra",
+      "date": "2026-10-26",
+      "facts": {
+        "ctx": 1050000,
+        "in": 1,
+        "outCost": 5,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6.1 Terra · 闭源 · 1.1M 上下文 · 输入 $1/M · 支持推理",
+      "href": "/models/gpt-6-1-terra/",
+      "shared": 16,
+      "evidence": [
+        {
+          "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+          "url": "https://openai.com/index/greptile-code-review-codex-astra",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Working with academic communities to build scientific understanding",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+          "source": "OpenAI"
+        },
+        {
+          "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+          "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+          "source": "OpenAI"
+        },
+        {
+          "title": "ChatGPT’s expanding world of work",
+          "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+          "source": "OpenAI"
+        },
+        {
+          "title": "How Fanatics and OpenAI streamline the fan experience",
+          "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+          "source": "OpenAI"
+        },
+        {
+          "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+          "url": "https://openai.com/index/openai-cut-incident-investigation",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Introducing GPT-6.1 Terra",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+          "source": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "href": "https://openai.com/index/greptile-code-review-codex-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Working with academic communities to build scientific understanding",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "Working with academic communities to build scientific understanding",
+      "href": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "href": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "ChatGPT’s expanding world of work",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "ChatGPT’s expanding world of work",
+      "href": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "openai",
@@ -184,6 +291,32 @@
       "facts": {},
       "text": "How Fanatics and OpenAI streamline the fan experience",
       "href": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "href": "https://openai.com/index/openai-cut-incident-investigation",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing GPT-6.1 Terra",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "Introducing GPT-6.1 Terra",
+      "href": "https://openai.com/index/introducing-gpt-6-1-terra",
       "source": "OpenAI",
       "external": true
     },
@@ -231,11 +364,24 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "date": "2026-10-26",
       "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -257,11 +403,24 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "name": "platform-docs-public · 仓库更新",
       "date": "2026-10-26",
       "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-10-26",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
       "source": "Mistral AI",
       "external": true
     },

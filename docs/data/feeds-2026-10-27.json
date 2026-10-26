@@ -44,7 +44,7 @@
     "label": "DeepSeek",
     "vendor": "deepseek",
     "status": "ok",
-    "count": 6,
+    "count": 4,
     "error": null
   },
   {
@@ -59,8 +59,8 @@
     "id": "meta-llama",
     "label": "Meta Llama",
     "vendor": "meta",
-    "status": "ok",
-    "count": 1,
+    "status": "empty",
+    "count": 0,
     "error": null
   },
   {
@@ -68,7 +68,7 @@
     "label": "Mistral AI",
     "vendor": "mistral",
     "status": "ok",
-    "count": 11,
+    "count": 12,
     "error": null
   },
   {
@@ -76,7 +76,7 @@
     "label": "智谱 AI",
     "vendor": "zhipu",
     "status": "ok",
-    "count": 5,
+    "count": 4,
     "error": null
   }
 ]
