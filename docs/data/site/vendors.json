@@ -58,20 +58,20 @@
       "country": "intl"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
-      "country": "intl"
-    },
-    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
+      "country": "intl"
     },
     {
       "id": "anthropic",
@@ -130,6 +130,14 @@
       "country": "cn"
     },
     {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
+      "country": "cn"
+    },
+    {
       "id": "meta",
       "name": "Meta",
       "n": 6,
@@ -138,11 +146,11 @@
       "country": "intl"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -154,19 +162,19 @@
       "country": "cn"
     },
     {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
-      "country": "cn"
-    },
-    {
       "id": "upstage",
       "name": "Upstage",
       "n": 5,
       "cheapest": 0.1,
       "latest": "2026-09-22",
+      "country": "intl"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
       "country": "intl"
     },
     {
@@ -194,20 +202,12 @@
       "country": "intl"
     },
     {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
-      "country": "intl"
-    },
-    {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
+      "id": "poolside",
+      "name": "Poolside",
+      "n": 3,
       "cheapest": 0,
-      "latest": "2026-08-28",
-      "country": "cn"
+      "latest": "2026-07-21",
+      "country": "intl"
     },
     {
       "id": "vispark",
@@ -218,28 +218,12 @@
       "country": "intl"
     },
     {
-      "id": "poolside",
-      "name": "Poolside",
-      "n": 3,
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
       "cheapest": 0,
-      "latest": "2026-07-21",
-      "country": "intl"
-    },
-    {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
+      "latest": "2026-08-28",
       "country": "cn"
-    },
-    {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
-      "country": "intl"
     },
     {
       "id": "ai21",
@@ -258,12 +242,28 @@
       "country": "intl"
     },
     {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
+      "country": "cn"
+    },
+    {
       "id": "longcat",
       "name": "美团 LongCat",
       "n": 2,
       "cheapest": 0.3,
       "latest": "2026-09-25",
       "country": "cn"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
+      "country": "intl"
     }
   ]
 }

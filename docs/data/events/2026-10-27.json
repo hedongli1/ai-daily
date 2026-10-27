@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 2,
     "context": 4,
-    "news": 17,
+    "news": 20,
     "facts": 8,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 6
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 7
     },
     {
       "id": "meta-llama",
@@ -68,7 +68,7 @@
       "id": "mistralai",
       "label": "Mistral AI",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "id": "zai-org",
@@ -175,6 +175,71 @@
       "href": "/models/auto/"
     },
     {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "platform-docs-public · 仓库更新",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "platform-docs-public · 仓库更新",
+      "href": "https://github.com/mistralai/platform-docs-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
       "type": "new",
       "key": "openai/GPT-6.1 Terra",
       "vendor": "openai",
@@ -190,7 +255,7 @@
       },
       "text": "GPT-6.1 Terra · 闭源 · 1.1M 上下文 · 输入 $1/M · 支持推理",
       "href": "/models/gpt-6-1-terra/",
-      "shared": 16,
+      "shared": 17,
       "evidence": [
         {
           "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
@@ -351,11 +416,11 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "name": "RecreationWorld · RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
       "date": "2026-10-26",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "text": "RecreationWorld · RecreationWorld: Scalable and Verifiable Environments for Hybrid Computer-Use Agents",
+      "href": "https://github.com/QwenLM/RecreationWorld/releases",
       "source": "Qwen",
       "external": true
     },
@@ -377,37 +442,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-26",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "cli · 仓库更新",
       "date": "2026-10-26",
       "facts": {},
       "text": "cli · 仓库更新",
       "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "platform-docs-public · 仓库更新",
-      "date": "2026-10-26",
-      "facts": {},
-      "text": "platform-docs-public · 仓库更新",
-      "href": "https://github.com/mistralai/platform-docs-public/releases",
       "source": "Mistral AI",
       "external": true
     },

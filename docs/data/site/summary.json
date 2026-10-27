@@ -7,7 +7,7 @@
     "retired": 0,
     "price": 2,
     "context": 4,
-    "news": 17,
+    "news": 20,
     "facts": 8,
     "newsAttached": 0
   },
@@ -49,13 +49,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 6
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 7
     },
     {
       "id": "meta-llama",
@@ -67,7 +67,7 @@
       "id": "mistralai",
       "label": "Mistral AI",
       "status": "ok",
-      "count": 12
+      "count": 11
     },
     {
       "id": "zai-org",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 608,
     "channels": 192,
-    "allEntries": 8944
+    "allEntries": 8947
   }
 }
