@@ -1,10 +1,10 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 120,
+  "count": 121,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -1277,6 +1277,18 @@
       },
       "rel": "2026-09-29",
       "name": "GPT-6.1 Sol"
+    },
+    "gpt-6-1-terra": {
+      "runs": 8,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 8,
+          "avg": 0.8331,
+          "best": 1
+        }
+      },
+      "rel": "2026-10-26",
+      "name": "GPT-6.1 Terra"
     },
     "o1": {
       "runs": 17,

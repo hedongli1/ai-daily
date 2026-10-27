@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "board": {
     "latest": [
       {
@@ -68,33 +68,33 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 117,
-      "n": "gemini-4-argon",
-      "name": "Gemini 4 Argon",
-      "vn": "谷歌",
-      "avg": 0.7556,
+      "models": 118,
+      "n": "gpt-6-1-terra",
+      "name": "GPT-6.1 Terra",
+      "vn": "OpenAI",
+      "avg": 0.8331,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Multimodal",
-      "models": 61,
-      "n": "gemini-4-argon",
-      "name": "Gemini 4 Argon",
-      "vn": "谷歌",
-      "avg": 0.7556,
+      "models": 62,
+      "n": "gpt-6-1-terra",
+      "name": "GPT-6.1 Terra",
+      "vn": "OpenAI",
+      "avg": 0.8331,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Vision",
-      "models": 58,
-      "n": "gemini-4-argon",
-      "name": "Gemini 4 Argon",
-      "vn": "谷歌",
-      "avg": 0.7556,
+      "models": 59,
+      "n": "gpt-6-1-terra",
+      "name": "GPT-6.1 Terra",
+      "vn": "OpenAI",
+      "avg": 0.8331,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Video",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "vendors": [
     {
       "id": "alibaba",
@@ -26,19 +26,19 @@
       "country": "intl"
     },
     {
-      "id": "thinkingmachines",
-      "name": "Thinking Machines",
-      "n": 8,
-      "cheapest": 0.195,
-      "latest": "2026-07-30",
-      "country": "intl"
-    },
-    {
       "id": "google",
       "name": "谷歌",
       "n": 36,
       "cheapest": 0,
       "latest": "2026-10-13",
+      "country": "intl"
+    },
+    {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "n": 8,
+      "cheapest": 0.195,
+      "latest": "2026-07-30",
       "country": "intl"
     },
     {
@@ -66,19 +66,19 @@
       "country": "cn"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
-      "country": "intl"
-    },
-    {
       "id": "anthropic",
       "name": "Anthropic",
       "n": 14,
       "cheapest": 0.1,
       "latest": "2026-10-07",
+      "country": "intl"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
       "country": "intl"
     },
     {
@@ -130,14 +130,6 @@
       "country": "cn"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
-      "country": "cn"
-    },
-    {
       "id": "meta",
       "name": "Meta",
       "n": 6,
@@ -162,11 +154,27 @@
       "country": "cn"
     },
     {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
+      "country": "cn"
+    },
+    {
       "id": "upstage",
       "name": "Upstage",
       "n": 5,
       "cheapest": 0.1,
       "latest": "2026-09-22",
+      "country": "intl"
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
       "country": "intl"
     },
     {
@@ -178,22 +186,6 @@
       "country": "intl"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
-    },
-    {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
       "id": "perplexity",
       "name": "Perplexity",
       "n": 4,
@@ -202,19 +194,19 @@
       "country": "intl"
     },
     {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
+      "country": "cn"
+    },
+    {
       "id": "poolside",
       "name": "Poolside",
       "n": 3,
       "cheapest": 0,
       "latest": "2026-07-21",
-      "country": "intl"
-    },
-    {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
       "country": "intl"
     },
     {
@@ -226,12 +218,20 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
       "country": "intl"
+    },
+    {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
+      "country": "cn"
     },
     {
       "id": "cerebras",
@@ -242,12 +242,12 @@
       "country": "intl"
     },
     {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
-      "country": "cn"
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
+      "country": "intl"
     },
     {
       "id": "longcat",
