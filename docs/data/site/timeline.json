@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "timeline": [
     {
       "n": "gpt-6-1-terra",
@@ -2718,15 +2718,6 @@
       "ctx": 163840,
       "in": 0,
       "open": 1
-    },
-    {
-      "n": "gpt-image-1",
-      "name": "gpt-image-1",
-      "vn": "OpenAI",
-      "rel": "2025-04-24",
-      "ctx": 0,
-      "in": null,
-      "open": 0
     },
     {
       "n": "o4-mini",

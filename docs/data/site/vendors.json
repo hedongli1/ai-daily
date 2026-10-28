@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "vendors": [
     {
       "id": "alibaba",
@@ -10,14 +10,6 @@
       "country": "cn"
     },
     {
-      "id": "openai",
-      "name": "OpenAI",
-      "n": 49,
-      "cheapest": 0.02,
-      "latest": "2026-10-26",
-      "country": "intl"
-    },
-    {
       "id": "nvidia",
       "name": "英伟达",
       "n": 41,
@@ -26,11 +18,11 @@
       "country": "intl"
     },
     {
-      "id": "google",
-      "name": "谷歌",
-      "n": 36,
-      "cheapest": 0,
-      "latest": "2026-10-13",
+      "id": "openai",
+      "name": "OpenAI",
+      "n": 48,
+      "cheapest": 0.02,
+      "latest": "2026-10-26",
       "country": "intl"
     },
     {
@@ -39,6 +31,14 @@
       "n": 8,
       "cheapest": 0.195,
       "latest": "2026-07-30",
+      "country": "intl"
+    },
+    {
+      "id": "google",
+      "name": "谷歌",
+      "n": 36,
+      "cheapest": 0,
+      "latest": "2026-10-13",
       "country": "intl"
     },
     {
@@ -58,6 +58,14 @@
       "country": "intl"
     },
     {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
+      "country": "intl"
+    },
+    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
@@ -71,14 +79,6 @@
       "n": 14,
       "cheapest": 0.1,
       "latest": "2026-10-07",
-      "country": "intl"
-    },
-    {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
       "country": "intl"
     },
     {
@@ -98,19 +98,19 @@
       "country": "intl"
     },
     {
-      "id": "morph",
-      "name": "Morph",
-      "n": 4,
-      "cheapest": 0.8,
-      "latest": "2026-07-16",
-      "country": "intl"
-    },
-    {
       "id": "arcee",
       "name": "Arcee AI",
       "n": 3,
       "cheapest": 0.14,
       "latest": "2026-08-13",
+      "country": "intl"
+    },
+    {
+      "id": "morph",
+      "name": "Morph",
+      "n": 4,
+      "cheapest": 0.8,
+      "latest": "2026-07-16",
       "country": "intl"
     },
     {
@@ -130,6 +130,22 @@
       "country": "cn"
     },
     {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
+      "country": "cn"
+    },
+    {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 6,
+      "cheapest": 0.9711,
+      "latest": "2026-10-23",
+      "country": "cn"
+    },
+    {
       "id": "meta",
       "name": "Meta",
       "n": 6,
@@ -143,22 +159,6 @@
       "n": 1,
       "cheapest": 0,
       "latest": "2026-08-11",
-      "country": "cn"
-    },
-    {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "n": 6,
-      "cheapest": 0.9711,
-      "latest": "2026-10-23",
-      "country": "cn"
-    },
-    {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
       "country": "cn"
     },
     {
@@ -178,6 +178,14 @@
       "country": "intl"
     },
     {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
+      "country": "cn"
+    },
+    {
       "id": "inception",
       "name": "Inception",
       "n": 4,
@@ -194,12 +202,12 @@
       "country": "intl"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
     },
     {
       "id": "poolside",
@@ -218,19 +226,27 @@
       "country": "cn"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
       "id": "bailing",
       "name": "蚂蚁百灵",
       "n": 2,
       "cheapest": 0.57,
       "latest": "2025-10-01",
+      "country": "cn"
+    },
+    {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "n": 2,
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
+      "country": "intl"
+    },
+    {
+      "id": "longcat",
+      "name": "美团 LongCat",
+      "n": 2,
+      "cheapest": 0.3,
+      "latest": "2026-09-25",
       "country": "cn"
     },
     {
@@ -247,22 +263,6 @@
       "n": 2,
       "cheapest": 0.2,
       "latest": "2026-01-08",
-      "country": "intl"
-    },
-    {
-      "id": "longcat",
-      "name": "美团 LongCat",
-      "n": 2,
-      "cheapest": 0.3,
-      "latest": "2026-09-25",
-      "country": "cn"
-    },
-    {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
       "country": "intl"
     }
   ]

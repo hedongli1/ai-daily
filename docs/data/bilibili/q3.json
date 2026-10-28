@@ -1,96 +1,278 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-27T23:55:46.324Z",
+ "fetchedAt": "2026-10-28T16:21:39.877Z",
  "rows": [
+  {
+   "title": "【国产开源OCR】MiniCPM-OCR 1.0发布！1.3B小模型、文档解析93.68分，Jev纠错+DSpark加速，支持GGUF本地部署",
+   "up": "",
+   "play": 157,
+   "pub": "2026/10/28",
+   "bvid": "BV1CksX6DE3y"
+  },
+  {
+   "title": "驭者·Agent Harness 02｜对话循环：Agent 的心跳不是 Promise",
+   "up": "",
+   "play": 10,
+   "pub": "2026/10/28",
+   "bvid": "BV1UYsX6oEGw"
+  },
+  {
+   "title": "（环球大战线）26.10.28 民怨攀升！美国万圣节成本加剧，节日消费被迫降级！中国开源模型加速出海：低成本、开放权重和多语言能力提升市占率！",
+   "up": "",
+   "play": 1411,
+   "pub": "2026/10/28",
+   "bvid": "BV1eZsX66EeY"
+  },
+  {
+   "title": "大肥鱼：用户你怎么在外面？能带我出去吗？",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/28",
+   "bvid": "BV1iJx76CEEu"
+  },
+  {
+   "title": "不用视频大模型：369 个 AI 视频工具仓库里最能打的四个",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/28",
+   "bvid": "BV1Vbx76qEc7"
+  },
+  {
+   "title": "GPT-6.1成本降至十分之一，通义千问4 27B泄露",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/28",
+   "bvid": "BV1HTx76QE7i"
+  },
+  {
+   "title": "【中字】海外博主实测8G至64G显卡本地编程模型",
+   "up": "",
+   "play": 7,
+   "pub": "2026/10/28",
+   "bvid": "BV1cBx36TE7x"
+  },
+  {
+   "title": "台媒：中国AI新王牌亮剑！开源AI大模型席卷全球了",
+   "up": "",
+   "play": 866,
+   "pub": "2026/10/28",
+   "bvid": "BV1gLxE6KEX7"
+  },
+  {
+   "title": "乌镇大会核心信号：开源，就是中国 AI 的换道超车牌",
+   "up": "",
+   "play": 107,
+   "pub": "2026/10/28",
+   "bvid": "BV1N6HF6aEP2"
+  },
+  {
+   "title": "7.9万 Star 宝藏仓库！几十个领域的公开数据集都给你扒好了#开放数据 #公开数据 #高质量数据 #开源 #github",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/28",
+   "bvid": "BV1BBxE6JEGE"
+  },
+  {
+   "title": "AI大模型：为什么有的开源，有的闭源？谁在赚真正的钱？",
+   "up": "",
+   "play": 41,
+   "pub": "2026/10/28",
+   "bvid": "BV1irxE67Eeo"
+  },
+  {
+   "title": "开源和开放权重是一回事吗？模型的“权重”到底是什么",
+   "up": "",
+   "play": 246,
+   "pub": "2026/10/28",
+   "bvid": "BV1A4xE6ZEAw"
+  },
+  {
+   "title": "进化模型合并方案 :面向真实开源大模型架构的 3 路合并实验｜SciSci AI",
+   "up": "",
+   "play": 9,
+   "pub": "2026/10/28",
+   "bvid": "BV1WCxL6JEfo"
+  },
+  {
+   "title": "通用大模型百页全崩：百度OCR2测评",
+   "up": "",
+   "play": 217,
+   "pub": "2026/10/28",
+   "bvid": "BV1QNx56xEEn"
+  },
+  {
+   "title": "国内首个基于全国产生态研发的千亿参数开源基础大模型！",
+   "up": "",
+   "play": 44,
+   "pub": "2026/10/28",
+   "bvid": "BV1PJxj6RErM"
+  },
+  {
+   "title": "［开源项目］闲鱼不用天天刷！AI 盯价助手来了！",
+   "up": "",
+   "play": 21,
+   "pub": "2026/10/28",
+   "bvid": "BV1QAx56oE2q"
+  },
+  {
+   "title": "【中字】海外博主实测Kimi新模型：真比Claude便宜？",
+   "up": "",
+   "play": 24,
+   "pub": "2026/10/28",
+   "bvid": "BV1unx36UEdw"
+  },
+  {
+   "title": "10.28 Gemini先记证据再改稿！南北阁33B开源支持512K上下文 第38期AI日报",
+   "up": "",
+   "play": 125,
+   "pub": "2026/10/28",
+   "bvid": "BV149x56XEQd"
+  },
+  {
+   "title": "梁文锋把Deepseek赚钱的秘密开源了",
+   "up": "",
+   "play": 537,
+   "pub": "2026/10/28",
+   "bvid": "BV1tDx56REB9"
+  },
+  {
+   "title": "【AI 接管中】｜模型集体半价，最火的却是个让页面不像AI的文件｜AI日报 Day 46",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/28",
+   "bvid": "BV1hBxg67ETx"
+  },
+  {
+   "title": "为什么chatgpt和claude 防不住蒸馏",
+   "up": "",
+   "play": 254,
+   "pub": "2026/10/28",
+   "bvid": "BV1YsxK66Ekx"
+  },
+  {
+   "title": "4B 打赢 9B？腾讯 WeVisOne-VL 视觉模型 到底什么水平",
+   "up": "",
+   "play": 523,
+   "pub": "2026/10/28",
+   "bvid": "BV1Emx36cEAC"
+  },
+  {
+   "title": "炸场！智谱GLM-5.5-Flash现身OpenCode，DeepSeek指纹两变，OpenAI新模型，Atria Dawn开源登顶 | 10月28日 AI日报",
+   "up": "",
+   "play": 29474,
+   "pub": "2026/10/28",
+   "bvid": "BV1q8xG6hEbs"
+  },
   {
    "title": "闭源模型隐患浮出水面，可控性问题值得警惕！",
    "up": "",
-   "play": 93,
+   "play": 862,
    "pub": "2026/10/27",
    "bvid": "BV1tFnX61EMS"
   },
   {
    "title": "搞懂大模型出口管制：哪种要报备，哪种不用",
    "up": "",
-   "play": 3,
+   "play": 69,
    "pub": "2026/10/27",
    "bvid": "BV1h4nz6SEiw"
   },
   {
    "title": "看笑我了！Anthropic有7%的纯利润来自于中国",
    "up": "",
-   "play": 664,
+   "play": 2903,
    "pub": "2026/10/27",
    "bvid": "BV1K8x36kEfG"
   },
   {
-   "title": "［米哈游］大伟哥称米哈游要做顶级AI，拉踩deepseek只希望做中低端",
-   "up": "",
-   "play": 1392,
-   "pub": "2026/10/27",
-   "bvid": "BV1VGxu6jEcM"
-  },
-  {
    "title": "DeepSeek最新开源的推理框架DeepInfer是什么？",
    "up": "",
-   "play": 9417,
+   "play": 83150,
    "pub": "2026/10/27",
    "bvid": "BV1E4no6CEpG"
   },
   {
    "title": "【百度开源OCR新王】仅3B参数，84.6分超越一众商业大模型！Unlimited-OCR-2支持超长文档解析，整本《三体》也能提取，本地部署能否替代收费OCR",
    "up": "",
-   "play": 845,
+   "play": 1352,
    "pub": "2026/10/27",
    "bvid": "BV1Nhxu6PEcX"
   },
   {
    "title": "一键MiniMaxH3全功能导演台整合包-开源模型与自定义节点概述-小白零基础本地免费绿色AI开源部署-一键AI短剧-10大核心功能185个COMFYUI工作流",
    "up": "",
-   "play": 12,
+   "play": 30,
    "pub": "2026/10/27",
    "bvid": "BV146xK6hERa"
   },
   {
+   "title": "为什么简繁转换老翻车？这个开源神器连“地道用词”都能一键搞定",
+   "up": "",
+   "play": 124,
+   "pub": "2026/10/27",
+   "bvid": "BV1UFxg6VEr9"
+  },
+  {
    "title": "国产开源模型拿下三榜第一，OCR“新物种”，OXR #开源 #大模型 #OCR #OXR",
    "up": "",
-   "play": 327,
+   "play": 732,
    "pub": "2026/10/27",
    "bvid": "BV12Pxg66EDp"
   },
   {
    "title": "放话AI投千亿，米哈游联合开源模型就这？5090实测132轮：作秀还是新时代！",
    "up": "",
-   "play": 2678,
+   "play": 6751,
    "pub": "2026/10/27",
    "bvid": "BV1dmxu6HEz1"
   },
   {
    "title": "真正的OpenAI！梁圣开源推理框架DeepInfer全网最细解读!",
    "up": "",
-   "play": 5771,
+   "play": 42507,
    "pub": "2026/10/27",
    "bvid": "BV1yNxM6wEiP"
   },
   {
+   "title": "AI抄完几千页，就算读懂了？拆解百度开源OCR 2",
+   "up": "",
+   "play": 133,
+   "pub": "2026/10/27",
+   "bvid": "BV1v4xg6REzA"
+  },
+  {
    "title": "10.27 GPT-6.1 Terra价格减半！腾讯开源同传模型 第37期AI日报",
    "up": "",
-   "play": 29,
+   "play": 199,
    "pub": "2026/10/27",
    "bvid": "BV1o4xg6REdx"
   },
   {
+   "title": "干货｜感谢开源 https://github.com/yushua0808-cpu/dragon-codex-boot",
+   "up": "",
+   "play": 164,
+   "pub": "2026/10/27",
+   "bvid": "BV1YYxg6DE5n"
+  },
+  {
    "title": "DeepSeek 推理框架开源，定的是标准",
    "up": "",
-   "play": 235,
+   "play": 502,
    "pub": "2026/10/27",
    "bvid": "BV1aDxT6kExg"
   },
   {
+   "title": "报班花小一万？上海交大把大模型课免费公开了，零基础也能跟",
+   "up": "",
+   "play": 112,
+   "pub": "2026/10/27",
+   "bvid": "BV19Yxg6DEW8"
+  },
+  {
    "title": "NeurIPS2026｜CausalCompass横扫时序因果发现鲁棒性！8大误设场景+11种方法全景评测，深度学习方法意外登顶还带开源基准",
    "up": "",
-   "play": 110,
+   "play": 190,
    "pub": "2026/10/27",
    "bvid": "BV1Pgxg6qEtv"
   },
@@ -100,188 +282,6 @@
    "play": 3,
    "pub": "2026/10/27",
    "bvid": "BV16jxg6aEUB"
-  },
-  {
-   "title": "太爽了！8~12G 显存就能跑 125B 大模型？Strata 开源神器来了！老电脑也能部署超大模型｜零度解说",
-   "up": "",
-   "play": 5627,
-   "pub": "2026/10/27",
-   "bvid": "BV1fqxT6nEfz"
-  },
-  {
-   "title": "deepseek，AI大模型自己的蜜雪冰城！",
-   "up": "",
-   "play": 237,
-   "pub": "2026/10/27",
-   "bvid": "BV1ZqxT6nERY"
-  },
-  {
-   "title": "DeepSeek开源了它最值钱的推理引擎DeepInfer，究竟意味着什么？",
-   "up": "",
-   "play": 59,
-   "pub": "2026/10/27",
-   "bvid": "BV1AsxT68ECY"
-  },
-  {
-   "title": "Strata 开源神器来了！老电脑也能部署超大模型",
-   "up": "",
-   "play": 131,
-   "pub": "2026/10/27",
-   "bvid": "BV1V2xT6LEGR"
-  },
-  {
-   "title": "微软开源MarketDown，支持将其他格式转换为markdown，对AI模型是一大利好",
-   "up": "",
-   "play": 103,
-   "pub": "2026/10/27",
-   "bvid": "BV1S9xT6zEee"
-  },
-  {
-   "title": "别只卷大模型了！具身智能 0→1 保姆级入门，手把手跑通第一个机器人！",
-   "up": "",
-   "play": 142,
-   "pub": "2026/10/27",
-   "bvid": "BV1DDxT6rEYY"
-  },
-  {
-   "title": "手把手教你用大肥鱼来直播：开源 AI 主播自己打杀戮尖塔2、自己回弹幕，从原理到开播",
-   "up": "",
-   "play": 779,
-   "pub": "2026/10/27",
-   "bvid": "BV1exxM6mEPr"
-  },
-  {
-   "title": "全部开源！火爆全网斯坦福 CS336 更新，从零手搓大模型",
-   "up": "",
-   "play": 931,
-   "pub": "2026/10/27",
-   "bvid": "BV1VtxM67EBo"
-  },
-  {
-   "title": "视频模型为什么这么吃显存？大肥鱼把MiniMax H3 拆开了看",
-   "up": "",
-   "play": 355,
-   "pub": "2026/10/27",
-   "bvid": "BV1BExM6pEHH"
-  },
-  {
-   "title": "直接干成免费！DeepSeek开源推理模型，砸了国外AI的饭碗#DeepSeek #AI #大模型 #开源 #科技 #推理大模型",
-   "up": "",
-   "play": 107,
-   "pub": "2026/10/27",
-   "bvid": "BV16VxM6dEaU"
-  },
-  {
-   "title": "AI大模型面试题： 开源模型 vs 闭源 API：在企业级项目中如何做技术选型？",
-   "up": "",
-   "play": 33,
-   "pub": "2026/10/27",
-   "bvid": "BV1uqxM63E8D"
-  },
-  {
-   "title": "华为天才“李博杰”开源Agent完整技术，AI圈彻底坐不住了",
-   "up": "",
-   "play": 36,
-   "pub": "2026/10/27",
-   "bvid": "BV1RCxN6BEPK"
-  },
-  {
-   "title": "200K文档规模全维度实测：RAG组件组合性大揭秘！单模块增益放到完整流水线直接缩水70%？【RAG技术深度解读】",
-   "up": "",
-   "play": 14,
-   "pub": "2026/10/27",
-   "bvid": "BV1R6xN66Ewb"
-  },
-  {
-   "title": "LLM从入门到入土04｜大语言模型怎样训练：从参数更新到LoRA",
-   "up": "",
-   "play": 711,
-   "pub": "2026/10/27",
-   "bvid": "BV13SxN6vE2A"
-  },
-  {
-   "title": "【中配】欧普斯6抢先体验曝光：缪斯开源、6.1星火与多款新模型泄露 - WorldofAI ESJYNs5fjC4",
-   "up": "",
-   "play": 903,
-   "pub": "2026/10/27",
-   "bvid": "BV1UQxN6AEeh"
-  },
-  {
-   "title": "【中配】深度求索V4.1 Flash 1017太强了，史上最强开源模型全面实测 - WorldofAI eItSZ33FVnA",
-   "up": "",
-   "play": 1045,
-   "pub": "2026/10/27",
-   "bvid": "BV1a4xK6uEML"
-  },
-  {
-   "title": "突破多模态代码智能天花板！200万级开源数据集+9B/35B模型性能追平闭源商用系统 【多模态代码生成】【大模型论文解读】",
-   "up": "",
-   "play": 23,
-   "pub": "2026/10/27",
-   "bvid": "BV1a4xK6uEwD"
-  },
-  {
-   "title": "AI员工开源项目：它把「公司」两个字删了",
-   "up": "",
-   "play": 788,
-   "pub": "2026/10/27",
-   "bvid": "BV1REWc6pEY7"
-  },
-  {
-   "title": "33B开源模型，终端测试80.9，换套题只剩23.8：Nanbeige 4.3-33B能替你写代码吗？",
-   "up": "",
-   "play": 140,
-   "pub": "2026/10/27",
-   "bvid": "BV1JLxK6mE3Y"
-  },
-  {
-   "title": "全开源计算机智能体环境合成新突破！WildAWM打通GUI/CLI/MCP跨接口训练，合成341个高难度任务直接拉满泛化性能 【智能体训练】【大模型论文解读】",
-   "up": "",
-   "play": 18,
-   "pub": "2026/10/27",
-   "bvid": "BV163xK6JEFT"
-  },
-  {
-   "title": "推理为何比训练重要12倍 | 大模型推理全链路解析",
-   "up": "",
-   "play": 730,
-   "pub": "2026/10/27",
-   "bvid": "BV1fGxK6UEF9"
-  },
-  {
-   "title": "【开源】DeepInfer讲解：155万亿Token日吞吐",
-   "up": "",
-   "play": 150,
-   "pub": "2026/10/27",
-   "bvid": "BV1L8no6rEtk"
-  },
-  {
-   "title": "爆肝24小时零代码手搓两款游戏，实测最新国产开源模型",
-   "up": "",
-   "play": 7915,
-   "pub": "2026/10/27",
-   "bvid": "BV1WXno6dE48"
-  },
-  {
-   "title": "开源一个效果极其炸裂的英语学习工具！",
-   "up": "",
-   "play": 64,
-   "pub": "2026/10/27",
-   "bvid": "BV1GKxT6kEsj"
-  },
-  {
-   "title": "【中字】海外博主实测4款AI编程框架，差距意外不大",
-   "up": "",
-   "play": 16,
-   "pub": "2026/10/27",
-   "bvid": "BV1jfxK67ESC"
-  },
-  {
-   "title": "具身智能Physical Reasoning开源数据集来了！ “具身推理”数据集开源了，这是首个真实场景Physical Agent数",
-   "up": "",
-   "play": 118,
-   "pub": "2026/10/27",
-   "bvid": "BV162HF64Eg1"
   }
  ]
 }
