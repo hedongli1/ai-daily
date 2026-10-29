@@ -1,36 +1,8 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "mode": "diff",
-  "baselineDate": "2026-10-28",
+  "baselineDate": "2026-10-29",
   "events": [
-    {
-      "type": "retired",
-      "key": "openai/gpt-image-1",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "gpt-image-1",
-      "date": "2026-10-29",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/",
-      "evidence": [
-        {
-          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
-          "source": "OpenAI"
-        },
-        {
-          "title": "The future of the firm",
-          "url": "https://openai.com/index/the-future-of-the-firm",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Legora is building the agentic operating system for legal work",
-          "url": "https://openai.com/index/legora",
-          "source": "OpenAI"
-        }
-      ]
-    },
     {
       "type": "news",
       "key": null,
@@ -47,6 +19,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "OpenAI and ServiceNow expand partnership across enterprise workflows",
@@ -54,6 +52,19 @@
       "facts": {},
       "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "href": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How we detect frontier model misalignment",
+      "date": "2026-10-28",
+      "facts": {},
+      "text": "How we detect frontier model misalignment",
+      "href": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "source": "OpenAI",
       "external": true
     },
@@ -125,6 +136,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Omnilingua-Bench · 仓库更新",
+      "date": "2026-10-28",
+      "facts": {},
+      "text": "Omnilingua-Bench · 仓库更新",
+      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
@@ -132,32 +156,6 @@
       "facts": {},
       "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-ts ·  TS Client library for Mistral AI platform ",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "client-ts ·  TS Client library for Mistral AI platform ",
-      "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -190,66 +188,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Retell uses OpenAI models to help power 100M monthly calls",
-      "date": "2026-10-27",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-28",
       "facts": {},
-      "text": "Retell uses OpenAI models to help power 100M monthly calls",
-      "href": "https://openai.com/index/retell-ai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "date": "2026-10-27",
-      "facts": {},
-      "text": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
-      "href": "https://openai.com/index/oracle-apps-in-chatgpt",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Check Point accelerates vulnerability research with Daybreak",
-      "date": "2026-10-27",
-      "facts": {},
-      "text": "How Check Point accelerates vulnerability research with Daybreak",
-      "href": "https://openai.com/index/check-point-daybreak",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Genie 4: A new generation of world simulation",
-      "date": "2026-10-27",
-      "facts": {},
-      "text": "Genie 4: A new generation of world simulation",
-      "href": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "date": "2026-10-27",
-      "facts": {},
-      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
-      "source": "DeepSeek",
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -257,25 +203,12 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-10-27",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-28",
       "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-27",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]

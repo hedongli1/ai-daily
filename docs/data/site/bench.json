@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1017,7 +1017,7 @@
     "mistral-large-4": {
       "runs": 8,
       "domains": {
-        "(未标注)": {
+        "Language,Multimodal,Vision": {
           "n": 8,
           "avg": 0.4533,
           "best": 0.9833

@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "board": {
     "latest": [
       {
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 118,
+      "models": 119,
       "n": "gpt-6-1-terra",
       "name": "GPT-6.1 Terra",
       "vn": "OpenAI",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 62,
+      "models": 63,
       "n": "gpt-6-1-terra",
       "name": "GPT-6.1 Terra",
       "vn": "OpenAI",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 59,
+      "models": 60,
       "n": "gpt-6-1-terra",
       "name": "GPT-6.1 Terra",
       "vn": "OpenAI",
