@@ -21,11 +21,11 @@
     {
       "model": "GPT-5",
       "release": "2025-08-07",
-      "nRuns": 32,
+      "nRuns": 33,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 32,
-          "avg": 0.433,
+          "n": 33,
+          "avg": 0.4212,
           "best": 0.9813
         }
       }
@@ -415,6 +415,18 @@
       }
     },
     {
+      "model": "Grok 4.6",
+      "release": "2026-08-12",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.5654,
+          "best": 0.9917
+        }
+      }
+    },
+    {
       "model": "Kimi K2.6",
       "release": "2026-04-20",
       "nRuns": 14,
@@ -523,18 +535,6 @@
       }
     },
     {
-      "model": "Grok 4.6",
-      "release": "2026-08-12",
-      "nRuns": 13,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 13,
-          "avg": 0.5773,
-          "best": 0.9917
-        }
-      }
-    },
-    {
       "model": "Claude Fable 5.1",
       "release": "2026-09-01",
       "nRuns": 13,
@@ -555,6 +555,18 @@
           "n": 13,
           "avg": 0.6336,
           "best": 1
+        }
+      }
+    },
+    {
+      "model": "GPT-6 Luna",
+      "release": "2026-09-22",
+      "nRuns": 12,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 12,
+          "avg": 0.3997,
+          "best": 0.9889
         }
       }
     },
@@ -631,18 +643,6 @@
       }
     },
     {
-      "model": "GPT-6 Luna",
-      "release": "2026-09-22",
-      "nRuns": 11,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 11,
-          "avg": 0.4118,
-          "best": 0.9889
-        }
-      }
-    },
-    {
       "model": "Qwen 3.6 Flash",
       "release": "2026-04-27",
       "nRuns": 11,
@@ -711,6 +711,18 @@
           "n": 10,
           "avg": 0.3901,
           "best": 0.8918
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.7 Flash",
+      "release": "2026-08-13",
+      "nRuns": 9,
+      "domains": {
+        "Language,Audio,Video,Multimodal": {
+          "n": 9,
+          "avg": 0.6002,
+          "best": 0.9722
         }
       }
     },
@@ -823,6 +835,18 @@
       }
     },
     {
+      "model": "Grok 4.5",
+      "release": "2026-07-08",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.5135,
+          "best": 0.9778
+        }
+      }
+    },
+    {
       "model": "Mistral Large 4",
       "release": "2026-10-06",
       "nRuns": 8,
@@ -843,18 +867,6 @@
           "n": 8,
           "avg": 0.3813,
           "best": 0.9091
-        }
-      }
-    },
-    {
-      "model": "Gemini 3.7 Flash",
-      "release": "2026-08-13",
-      "nRuns": 8,
-      "domains": {
-        "Language,Audio,Video,Multimodal": {
-          "n": 8,
-          "avg": 0.6238,
-          "best": 0.9722
         }
       }
     },
@@ -987,18 +999,6 @@
           "n": 7,
           "avg": 0.5244,
           "best": 0.9444
-        }
-      }
-    },
-    {
-      "model": "Grok 4.5",
-      "release": "2026-07-08",
-      "nRuns": 7,
-      "domains": {
-        "Language": {
-          "n": 7,
-          "avg": 0.5409,
-          "best": 0.9778
         }
       }
     },

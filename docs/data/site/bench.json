@@ -679,11 +679,11 @@
       "name": "Gemini 3.5 Flash"
     },
     "gpt-5": {
-      "runs": 32,
+      "runs": 33,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 32,
-          "avg": 0.433,
+          "n": 33,
+          "avg": 0.4212,
           "best": 0.9813
         }
       },
@@ -883,11 +883,11 @@
       "name": "Gemini 3.6 Flash"
     },
     "gemini-3-7-flash": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language,Audio,Video,Multimodal": {
-          "n": 8,
-          "avg": 0.6238,
+          "n": 9,
+          "avg": 0.6002,
           "best": 0.9722
         }
       },
@@ -1243,11 +1243,11 @@
       "name": "GPT-6 Astra"
     },
     "gpt-6-luna": {
-      "runs": 11,
+      "runs": 12,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 11,
-          "avg": 0.4118,
+          "n": 12,
+          "avg": 0.3997,
           "best": 0.9889
         }
       },
@@ -1387,11 +1387,11 @@
       "name": "Grok 4.20"
     },
     "grok-4-5": {
-      "runs": 7,
+      "runs": 8,
       "domains": {
         "Language": {
-          "n": 7,
-          "avg": 0.5409,
+          "n": 8,
+          "avg": 0.5135,
           "best": 0.9778
         }
       },
@@ -1399,11 +1399,11 @@
       "name": "Grok 4.5"
     },
     "grok-4-6": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 13,
-          "avg": 0.5773,
+          "n": 14,
+          "avg": 0.5654,
           "best": 0.9917
         }
       },

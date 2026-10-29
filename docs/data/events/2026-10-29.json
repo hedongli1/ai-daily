@@ -8,7 +8,7 @@
     "retired": 1,
     "price": 0,
     "context": 0,
-    "news": 17,
+    "news": 19,
     "facts": 1,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 2
+      "count": 5
     },
     {
       "id": "QwenLM",
@@ -90,8 +90,13 @@
       "href": "/vendors/openai/",
       "evidence": [
         {
-          "title": "Legora is building the agentic operating system for legal work",
-          "url": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+          "title": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+          "source": "OpenAI"
+        },
+        {
+          "title": "The future of the firm",
+          "url": "https://openai.com/index/the-future-of-the-firm",
           "source": "OpenAI"
         },
         {
@@ -104,13 +109,39 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Legora is building the agentic operating system for legal work",
+      "name": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "date": "2026-10-28",
       "facts": {},
-      "text": "Legora is building the agentic operating system for legal work",
-      "href": "https://openai.com/index/legora-agentic-operating-system-for-legal-work",
+      "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
+      "href": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The future of the firm",
+      "date": "2026-10-28",
+      "facts": {},
+      "text": "The future of the firm",
+      "href": "https://openai.com/index/the-future-of-the-firm",
       "source": "OpenAI",
       "external": true
     },
@@ -125,6 +156,19 @@
       "text": "Legora is building the agentic operating system for legal work",
       "href": "https://openai.com/index/legora",
       "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Gemini 4 Carbon: Our next frontier model",
+      "date": "2026-10-28",
+      "facts": {},
+      "text": "Gemini 4 Carbon: Our next frontier model",
+      "href": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+      "source": "Google DeepMind",
       "external": true
     },
     {
@@ -156,27 +200,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "date": "2026-10-28",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Omnilingua-Bench · 仓库更新",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "Omnilingua-Bench · 仓库更新",
-      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
-      "source": "Qwen",
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -189,19 +220,6 @@
       "facts": {},
       "text": "client-ts ·  TS Client library for Mistral AI platform ",
       "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -294,6 +312,19 @@
       "text": "Genie 4: A new generation of world simulation",
       "href": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
       "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "date": "2026-10-27",
+      "facts": {},
+      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
+      "source": "DeepSeek",
       "external": true
     },
     {
