@@ -503,7 +503,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5944,
+          "avg": 0.5954,
           "best": 1
         }
       },
@@ -907,11 +907,11 @@
       "name": "Gemini 3.8 Flash"
     },
     "gemini-4-argon": {
-      "runs": 10,
+      "runs": 11,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.7556,
+          "n": 11,
+          "avg": 0.6882,
           "best": 1
         }
       },

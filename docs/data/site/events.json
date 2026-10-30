@@ -6,6 +6,45 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "An updated Model Spec for more capable and beneficial AI",
+      "href": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How we detect frontier model misalignment",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "How we detect frontier model misalignment",
+      "href": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Ropes & Gray is developing AI for transactional diligence",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "How Ropes & Gray is developing AI for transactional diligence",
+      "href": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
@@ -14,6 +53,45 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -52,19 +130,6 @@
       "facts": {},
       "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
       "href": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How we detect frontier model misalignment",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "How we detect frontier model misalignment",
-      "href": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
       "source": "OpenAI",
       "external": true
     },
@@ -144,19 +209,6 @@
       "text": "Omnilingua-Bench · 仓库更新",
       "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
       "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
       "external": true
     },
     {

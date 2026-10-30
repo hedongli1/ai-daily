@@ -469,7 +469,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5944,
+          "avg": 0.5954,
           "best": 1
         }
       }
@@ -607,6 +607,18 @@
       }
     },
     {
+      "model": "Gemini 4 Argon",
+      "release": "2026-09-30",
+      "nRuns": 11,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 11,
+          "avg": 0.6882,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GLM-5.1",
       "release": "2026-04-07",
       "nRuns": 11,
@@ -675,18 +687,6 @@
           "n": 11,
           "avg": 0.4358,
           "best": 0.9094
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Argon",
-      "release": "2026-09-30",
-      "nRuns": 10,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.7556,
-          "best": 1
         }
       }
     },
