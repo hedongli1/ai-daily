@@ -1,147 +1,287 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-30T16:22:40.074Z",
+ "fetchedAt": "2026-10-30T23:57:26.916Z",
  "rows": [
   {
-   "title": "激战2 原创短剧《巨剑为证,我赴自由》完整版，全部采用Seedance 2.5大模型制作，4k超清原画。预计将于11月中旬发布。",
-   "up": "",
-   "play": 1,
-   "pub": "2026/10/30",
-   "bvid": "BV15cxz6KEQS"
-  },
-  {
-   "title": "大模型能力超强了！使用deepseek4.1flash将xinference项目转换成golang，API接口100%兼容，可以演示学习使用，出乎意料！！",
+   "title": "115小时真实专业工作流数据集发布！首个长程人机协作基准Kolab，实测前沿多模态大模型协作能力 【AI智能体】【大模型评测】",
    "up": "",
    "play": 0,
    "pub": "2026/10/30",
-   "bvid": "BV1GMxz6hEgW"
+   "bvid": "BV1PNx66pE5D"
   },
   {
-   "title": "量大管饱，超多玩法！迪雷克模玩翠鸟，优秀的骨架设计，帅气的造型，还有丰富的配件",
-   "up": "",
-   "play": 1,
-   "pub": "2026/10/30",
-   "bvid": "BV1VNxz6YEvR"
-  },
-  {
-   "title": "圆梦了，我今天亲自驾驶了国产大飞机C919",
-   "up": "",
-   "play": 72,
-   "pub": "2026/10/30",
-   "bvid": "BV13Txz6wEvo"
-  },
-  {
-   "title": "致以辉煌的大果，每个人都能购入的骨雕！",
-   "up": "",
-   "play": 33,
-   "pub": "2026/10/30",
-   "bvid": "BV13pxi6sEx3"
-  },
-  {
-   "title": "第二期  安全培训，用AI做灭火器3D模型演示",
+   "title": "AI早报10月31日｜Mistral万亿权重开放、百度搜索升级，智元具身平台、Gemini文档编辑",
    "up": "",
    "play": 0,
    "pub": "2026/10/30",
-   "bvid": "BV1eJxi6xEF5"
+   "bvid": "BV12wx66WEVU"
   },
   {
-   "title": "大！蕾贝尔首款手办！配件满满性价比很高！VKEND 胜利女神：新的希望 蕾贝尔 1/6手办",
+   "title": "实测打破认知：小参数开源大模型真的能搞定真实编码任务吗？全流程工程经验复盘 【大模型落地】【代码生成】",
+   "up": "",
+   "play": 3,
+   "pub": "2026/10/30",
+   "bvid": "BV1rux66SEeZ"
+  },
+  {
+   "title": "跳出事实性幻觉误区！首次定义对话智能体的程序性幻觉，3.6万对话DialFork基准开源【大模型对话系统】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/30",
+   "bvid": "BV1rMx66JESJ"
+  },
+  {
+   "title": "大模型Token机制硬核解密",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "bvid": "BV1Tsxu6MEjr"
+  },
+  {
+   "title": "【脑机接口科普】22 会说话的机器：大语言模型能看见我们的心吗",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/30",
+   "bvid": "BV1SKn461EaR"
+  },
+  {
+   "title": "【deepseekharness  大肥鱼更好的记忆插件】被外部连测三轮，39 项测试、1000 块 76ms（开源）",
+   "up": "",
+   "play": 8,
+   "pub": "2026/10/30",
+   "bvid": "BV1QQxz6cE5X"
+  },
+  {
+   "title": "大模型自主探索就能发现隐藏物理定律？全新LongChang框架实现无任务引导的全自动科学发现 【大模型科研】【AI论文解读】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "bvid": "BV1uXxz6hEX6"
+  },
+  {
+   "title": "苹果智能正式入华接入千问！华为昇腾千卡超节点点亮、Kimi上线3D建模、商汤开源Loop-9B｜Will叔每日AI动态 10.31",
+   "up": "",
+   "play": 61,
+   "pub": "2026/10/30",
+   "bvid": "BV1SXxz68E4E"
+  },
+  {
+   "title": "大模型量化入门教程（六）：NF4与双重量化",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "bvid": "BV1UvHP6nEU6"
+  },
+  {
+   "title": "吞吐量最高提升109.9倍！兼顾精度与效率的大语言模型个性化推荐新框架DuoLM 【大模型推荐系统】【论文解读】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/30",
+   "bvid": "BV1QSxz6aEww"
+  },
+  {
+   "title": "Are Harnesses Dead？",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "bvid": "BV1mfxz6xEec"
+  },
+  {
+   "title": "可以白嫖code百分百顶级AI算力",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/30",
+   "bvid": "BV12oxz6oEiV"
+  },
+  {
+   "title": "一分钟掌握今日全球AI圈大事10.31",
+   "up": "",
+   "play": 27,
+   "pub": "2026/10/30",
+   "bvid": "BV1bxxi6HEvd"
+  },
+  {
+   "title": "20副画鹈鹕测试！qwen3.8 27B与qwen3.8 flash next同等量化下哪家强！",
+   "up": "",
+   "play": 34,
+   "pub": "2026/10/30",
+   "bvid": "BV1S9xz6fEUB"
+  },
+  {
+   "title": "开源机器人任务成功检测器RoboJev发布！即插即用跨任务跨环境，27B模型准确率达95.2% 【机器人视觉】【大模型论文解读】",
+   "up": "",
+   "play": 7,
+   "pub": "2026/10/30",
+   "bvid": "BV1U9xz6fEpp"
+  },
+  {
+   "title": "大模型答错，是检索的锅吗",
+   "up": "",
+   "play": 9,
+   "pub": "2026/10/30",
+   "bvid": "BV1FdxK6nEWm"
+  },
+  {
+   "title": "百万字ai网文无错的关键设计",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/30",
+   "bvid": "BV1D9xz6fEu1"
+  },
+  {
+   "title": "首个面向全模态流主动交互的基准发布！12款主流模型实测暴露全模态大模型交互短板 【多模态大模型】【基准评测】【AI交互】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/30",
+   "bvid": "BV1h8x66NEtx"
+  },
+  {
+   "title": "DeepSeek V5 已经在代码里了，但你现在用不了",
+   "up": "",
+   "play": 16,
+   "pub": "2026/10/30",
+   "bvid": "BV1Y8x66NEut"
+  },
+  {
+   "title": "中美之间的AI差距越来越大了，而且还会继续扩大",
+   "up": "",
+   "play": 497,
+   "pub": "2026/10/30",
+   "bvid": "BV1skxB6EECR"
+  },
+  {
+   "title": "打破MoE解码通道选择固有认知！无需校准数据即可实现1.88倍加速，性能反超传统阈值方案 【大模型优化】【MoE推理】",
+   "up": "",
+   "play": 2,
+   "pub": "2026/10/30",
+   "bvid": "BV1Y4x66TEpf"
+  },
+  {
+   "title": "首个面向CLI智能体的人机协作统一评测基准RealCLI发布！101项配对任务+5维协作框架，33种前沿配置实测揭秘能力短板 【大模型智能体】【基准评测】",
+   "up": "",
+   "play": 2,
+   "pub": "2026/10/30",
+   "bvid": "BV18Yx66AExr"
+  },
+  {
+   "title": "Claude Ultra 取消 5 小时额度限制，周限额不变 | AI 日报 · 第 23 期",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/30",
+   "bvid": "BV1f7x66VEEb"
+  },
+  {
+   "title": "【中配】拆开英伟达H100和谷歌TPU：AI芯片到底怎么跑大模型？",
+   "up": "",
+   "play": 18,
+   "pub": "2026/10/30",
+   "bvid": "BV15ZJh6YE2M"
+  },
+  {
+   "title": "【中配】55 分钟深度复盘：从 Transformer 到递归自进化的演进逻辑",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/30",
+   "bvid": "BV16Gx662EQv"
+  },
+  {
+   "title": "AI日报 1031 | 国产开源模型OXR登顶榜单，1.3B参数打破壁垒",
+   "up": "",
+   "play": 37,
+   "pub": "2026/10/30",
+   "bvid": "BV165x66LEKP"
+  },
+  {
+   "title": "万圣节大肥鱼来捣蛋了",
+   "up": "",
+   "play": 167,
+   "pub": "2026/10/30",
+   "bvid": "BV1JXxB6rE1g"
+  },
+  {
+   "title": "【GLM】从清华实验室到 744B：智谱五代模型的技术账",
+   "up": "",
+   "play": 113,
+   "pub": "2026/10/30",
+   "bvid": "BV1igxw6eE84"
+  },
+  {
+   "title": "High-Level Agentic Engineering with David Ondrej",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "bvid": "BV1qnx663Ekc"
+  },
+  {
+   "title": "专利审查AI新突破！首个智能体驱动的现有技术检索评估框架PatEx-Gym开源，4B小模型性能追平30B大模型 【AI智能体】【专利检索】【大模型应用】",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/30",
+   "bvid": "BV1eWx66uEyd"
+  },
+  {
+   "title": "“豆包是个巨大的中介”Ai为什么欺骗我们？人类在今天要如何重新拿起工具？",
+   "up": "",
+   "play": 144,
+   "pub": "2026/10/30",
+   "bvid": "BV1BEx66kEir"
+  },
+  {
+   "title": "专为Web智能体打造的可复用验证器基准AgentProofBench发布！97项任务+352组策略结果打通验证与执行链路 【AI智能体】【基准评测】【Web A",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/30",
+   "bvid": "BV1nXx66JEpQ"
+  },
+  {
+   "title": "【小黄-捣蛋鬼】免费时装模型展示！万圣节怎么能没有大大南瓜！10月30日登录领啦~#超自然行动组",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/30",
+   "bvid": "BV1E9x66UEfK"
+  },
+  {
+   "title": "多域递归自进化新基准ParetoRSI-Gym实测：AI智能体真的能跨领域同时提升大模型能力吗？【大模型智能体】【递归自改进】",
+   "up": "",
+   "play": 1,
+   "pub": "2026/10/30",
+   "bvid": "BV17fx66LEgE"
+  },
+  {
+   "title": "破解AI文本检测黑箱！用稀疏自编码器打造可审计、全可解释的高性能AI生成内容检测器 【大模型可解释性】【AI内容检测】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/30",
+   "bvid": "BV1Eox662EVm"
+  },
+  {
+   "title": "【中配】智能门铃落地难？从开源到产品只有这步差",
+   "up": "",
+   "play": 5,
+   "pub": "2026/10/30",
+   "bvid": "BV1uqx66hECX"
+  },
+  {
+   "title": "小模型吊打大模型！4B多模态推理模型性能反超35B，全新系统化后训练框架MMVistaReason开源【多模态大模型】【论文解读】",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/30",
+   "bvid": "BV1xrx66oEtM"
+  },
+  {
+   "title": "成本仅28%！普通模型靠自生成经验合成，性能追平同系列高价大模型 【智能体】【大模型优化】【论文解读】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/10/30",
+   "bvid": "BV1yyx66REbP"
+  },
+  {
+   "title": "【熟肉】双子座4碳版是史上最强模型吗，寓言5.5基准、双子座4至尊与克劳德深度思考 - WorldofAI L4yqXWDyGCg",
    "up": "",
    "play": 23,
    "pub": "2026/10/30",
-   "bvid": "BV1anxi6REiw"
-  },
-  {
-   "title": "Kimi开始做3D了！腾讯世界模型、Mistral开放权重｜10月30日AI新闻",
-   "up": "",
-   "play": 6,
-   "pub": "2026/10/30",
-   "bvid": "BV1Xnxi6REok"
-  },
-  {
-   "title": "【中英双语字幕】别再手写提示词了：让AI Agent自己提示自己的循环工程工作流 1080P",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/30",
-   "bvid": "BV1dn4y1f79c"
-  },
-  {
-   "title": "【YSM模型】做了一只大馄饨狐狸",
-   "up": "",
-   "play": 442,
-   "pub": "2026/10/30",
-   "bvid": "BV18xxi6HEMJ"
-  },
-  {
-   "title": "token有毒",
-   "up": "",
-   "play": 12,
-   "pub": "2026/10/30",
-   "bvid": "BV1ogxi6aECG"
-  },
-  {
-   "title": "AI大模型本地推理 10-30 全天",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/30",
-   "bvid": "BV1iGxi6cEeY"
-  },
-  {
-   "title": "5突启用难民压箱底3d，模型大，投射数值跟防守也还不错！#NBA2kol2 #2Kol2球员推荐 #2kol2赐予",
-   "up": "",
-   "play": 142,
-   "pub": "2026/10/30",
-   "bvid": "BV1BTxi6eEvV"
-  },
-  {
-   "title": "大模型幻觉检测全维度元研究！拆解不同基准不可比的核心原因，全新评估框架+Span Coverage F1新指标 【大模型幻觉研究】【LLM安全】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/30",
-   "bvid": "BV1fTxi6eEaE"
-  },
-  {
-   "title": "GPT-6.1 Terra 实测：价格只有旗舰一半｜官方演示 + 四家同题 + 最高档对照 + LiveBench 七项",
-   "up": "",
-   "play": 29,
-   "pub": "2026/10/30",
-   "bvid": "BV1Buxi6AEHY"
-  },
-  {
-   "title": "AI到底说了什么，逼得公司去请神父？Openai公布722项重大成果，当AI开始攻克黎曼猜想，批量淘汰天才，普通人最紧急的事是什么？",
-   "up": "",
-   "play": 96,
-   "pub": "2026/10/30",
-   "bvid": "BV197xi6oEas"
-  },
-  {
-   "title": "AI优化器的基本发展",
-   "up": "",
-   "play": 456,
-   "pub": "2026/10/30",
-   "bvid": "BV1kcxw66Eso"
-  },
-  {
-   "title": "Your Agent Just Paid for Nothing： 6 Attacks on x402 Payments…",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/30",
-   "bvid": "BV1i5xi6fErN"
-  },
-  {
-   "title": "【训推一致性】on-policy RL 训崩的一个隐蔽原因：rollout 里的 top-p 截断让重要性比从根上就错了",
-   "up": "",
-   "play": 136,
-   "pub": "2026/10/30",
-   "bvid": "BV14tHT6XEnX"
-  },
-  {
-   "title": "如何用最少的token生成一篇高质量图文？Skill不是必要的",
-   "up": "",
-   "play": 22,
-   "pub": "2026/10/30",
-   "bvid": "BV1d5xi6fE91"
+   "bvid": "BV12Zxq6EELR"
   }
  ]
 }

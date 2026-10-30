@@ -319,6 +319,18 @@
       }
     },
     {
+      "model": "GPT-5.6 Terra",
+      "release": "2026-07-09",
+      "nRuns": 18,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 18,
+          "avg": 0.5289,
+          "best": 0.9972
+        }
+      }
+    },
+    {
       "model": "Claude Opus 5",
       "release": "2026-07-24",
       "nRuns": 17,
@@ -363,18 +375,6 @@
           "n": 17,
           "avg": 0.2253,
           "best": 0.5328
-        }
-      }
-    },
-    {
-      "model": "GPT-5.6 Terra",
-      "release": "2026-07-09",
-      "nRuns": 17,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 17,
-          "avg": 0.5359,
-          "best": 0.9972
         }
       }
     },

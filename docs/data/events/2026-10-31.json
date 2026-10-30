@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 1,
     "context": 0,
-    "news": 14,
+    "news": 18,
     "facts": 2,
     "newsAttached": 0
   },
@@ -56,13 +56,13 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "meta-llama",
       "label": "Meta Llama",
-      "status": "empty",
-      "count": 0
+      "status": "ok",
+      "count": 1
     },
     {
       "id": "mistralai",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 2
     }
   ],
   "events": [
@@ -104,11 +104,60 @@
           "source": "Mistral AI"
         },
         {
+          "title": "client-ts ·  TS Client library for Mistral AI platform ",
+          "url": "https://github.com/mistralai/client-ts/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "client-python · Python client library for Mistral AI platform",
+          "url": "https://github.com/mistralai/client-python/releases",
+          "source": "Mistral AI"
+        },
+        {
           "title": "cookbook · 仓库更新",
           "url": "https://github.com/mistralai/cookbook/releases",
           "source": "Mistral AI"
         }
       ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Making it easier for websites to express AI training preferences",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "Making it easier for websites to express AI training preferences",
+      "href": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Community safety report and new protections for teens",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "Community safety report and new protections for teens",
+      "href": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Fair use benefits everyone",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "Fair use benefits everyone",
+      "href": "https://openai.com/index/fair-use-benefits-everyone",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -139,14 +188,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "vendor": "meta",
+      "vendorName": "Meta Llama",
+      "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
       "date": "2026-10-30",
       "facts": {},
-      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "href": "https://github.com/QwenLM/FlashQLA/releases",
-      "source": "Qwen",
+      "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
+      "href": "https://github.com/meta-llama/PurpleLlama/releases",
+      "source": "Meta Llama",
       "external": true
     },
     {
@@ -159,6 +208,32 @@
       "facts": {},
       "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
       "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-ts ·  TS Client library for Mistral AI platform ",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "client-ts ·  TS Client library for Mistral AI platform ",
+      "href": "https://github.com/mistralai/client-ts/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -277,19 +352,6 @@
       "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
       "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-10-29",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     },
     {

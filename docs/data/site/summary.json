@@ -7,7 +7,7 @@
     "retired": 0,
     "price": 1,
     "context": 0,
-    "news": 14,
+    "news": 18,
     "facts": 2,
     "newsAttached": 0
   },
@@ -55,13 +55,13 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "meta-llama",
       "label": "Meta Llama",
-      "status": "empty",
-      "count": 0
+      "status": "ok",
+      "count": 1
     },
     {
       "id": "mistralai",
@@ -73,13 +73,13 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 2
     }
   ],
   "totals": {
     "originVendors": 33,
     "originModels": 607,
     "channels": 194,
-    "allEntries": 8931
+    "allEntries": 8930
   }
 }
