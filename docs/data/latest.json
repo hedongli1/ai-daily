@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "mode": "diff",
-  "baselineDate": "2026-10-29",
+  "baselineDate": "2026-10-30",
   "counts": {
-    "new": 0,
+    "new": 1,
     "retired": 0,
-    "price": 0,
+    "price": 1,
     "context": 0,
-    "news": 20,
-    "facts": 0,
+    "news": 14,
+    "facts": 2,
     "newsAttached": 0
   },
   "degraded": [
@@ -79,6 +79,116 @@
   ],
   "events": [
     {
+      "type": "price",
+      "key": "mistral/Mistral Large 4",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large 4",
+      "date": "2026-10-31",
+      "facts": {
+        "before": {
+          "in": 1.36,
+          "outCost": 4.18
+        },
+        "after": {
+          "in": 0.7,
+          "outCost": 2.1
+        }
+      },
+      "text": "输入 $1.36 → $0.7 · 输出 $4.18 → $2.1",
+      "href": "/models/mistral-large-4/",
+      "evidence": [
+        {
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
       "type": "news",
       "key": null,
       "vendor": "openai",
@@ -120,27 +230,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
       "date": "2026-10-29",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-10-29",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
+      "text": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "href": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
       "external": true
     },
     {
@@ -196,147 +293,22 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "OpenAI and ServiceNow expand partnership across enterprise workflows",
-      "href": "https://openai.com/index/openai-servicenow-partnership-expansion",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "The future of the firm",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "The future of the firm",
-      "href": "https://openai.com/index/the-future-of-the-firm",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Legora is building the agentic operating system for legal work",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "Legora is building the agentic operating system for legal work",
-      "href": "https://openai.com/index/legora",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Gemini 4 Carbon: Our next frontier model",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "Gemini 4 Carbon: Our next frontier model",
-      "href": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Omnilingua-Bench · 仓库更新",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "Omnilingua-Bench · 仓库更新",
-      "href": "https://github.com/QwenLM/Omnilingua-Bench/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
+      "type": "new",
+      "key": "mistral/Mistral Large 4.0.8",
       "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-ts ·  TS Client library for Mistral AI platform ",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "client-ts ·  TS Client library for Mistral AI platform ",
-      "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-10-28",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
+      "vendorName": "Mistral",
+      "name": "Mistral Large 4.0.8",
+      "date": "2026-10-06",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.7,
+        "outCost": 2.1,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Mistral Large 4.0.8 · 闭源 · 1M 上下文 · 输入 $0.7/M · 支持推理",
+      "href": "/models/mistral-large-4-0-8/",
+      "shared": 1
     }
   ]
 }

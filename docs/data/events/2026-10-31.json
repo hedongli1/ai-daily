@@ -1,0 +1,314 @@
+{
+  "schema": 1,
+  "date": "2026-10-31",
+  "mode": "diff",
+  "baselineDate": "2026-10-30",
+  "counts": {
+    "new": 1,
+    "retired": 0,
+    "price": 1,
+    "context": 0,
+    "news": 14,
+    "facts": 2,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "empty",
+      "count": 0
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 9
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 3
+    }
+  ],
+  "events": [
+    {
+      "type": "price",
+      "key": "mistral/Mistral Large 4",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large 4",
+      "date": "2026-10-31",
+      "facts": {
+        "before": {
+          "in": 1.36,
+          "outCost": 4.18
+        },
+        "after": {
+          "in": 0.7,
+          "outCost": 2.1
+        }
+      },
+      "text": "输入 $1.36 → $0.7 · 输出 $4.18 → $2.1",
+      "href": "/models/mistral-large-4/",
+      "evidence": [
+        {
+          "title": "mistral-vibe · Minimal CLI coding agent by Mistral",
+          "url": "https://github.com/mistralai/mistral-vibe/releases",
+          "source": "Mistral AI"
+        },
+        {
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        }
+      ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "An updated Model Spec for more capable and beneficial AI",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "An updated Model Spec for more capable and beneficial AI",
+      "href": "https://openai.com/index/updated-model-spec",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How we detect frontier model misalignment",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "How we detect frontier model misalignment",
+      "href": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Ropes & Gray is developing AI for transactional diligence",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "How Ropes & Gray is developing AI for transactional diligence",
+      "href": "https://openai.com/index/ropes-gray-ai-diligence",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "href": "https://openai.com/index/credit-saison",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-10-29",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "mistral/Mistral Large 4.0.8",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large 4.0.8",
+      "date": "2026-10-06",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.7,
+        "outCost": 2.1,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Mistral Large 4.0.8 · 闭源 · 1M 上下文 · 输入 $0.7/M · 支持推理",
+      "href": "/models/mistral-large-4-0-8/",
+      "shared": 1
+    }
+  ]
+}

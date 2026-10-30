@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T00:07:25.401Z",
+ "generated": "2026-10-30T16:22:42.340Z",
  "source": "B站搜索（公开结果，按最新排序）",
  "queries": [
   "大模型",
@@ -8,9 +8,9 @@
   "大模型评测",
   "AI新模型"
  ],
- "count": 126,
- "hotCount": 24,
- "dropped": 22,
+ "count": 138,
+ "hotCount": 23,
+ "dropped": 33,
  "videos": [
   {
    "title": "评测向：能订 Claude 就能破万？徐跑跑这帖火了",
@@ -50,20 +50,21 @@
    "likes": null
   },
   {
-   "title": "Kimi K3.1 Pro 认得出大笑奶龙吗？奶蛙bench 新模型实测",
+   "title": "DeepSeek V4.1 Pro即将发布！Gemini办公全家桶上线、千问4.0定档、欧洲1T旗舰开源｜Will叔每日AI动态 10.30",
    "up": "",
-   "play": 16041,
-   "pub": "2026/10/23",
+   "play": 18598,
+   "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1yQna6JELa",
-   "url": "https://www.bilibili.com/video/BV1yQna6JELa/",
+   "bvid": "BV1PnxN6sESZ",
+   "url": "https://www.bilibili.com/video/BV1PnxN6sESZ/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "Kimi",
-    "评测"
+    "DeepSeek",
+    "Gemini",
+    "开源"
    ],
    "hot": true,
    "likes": null
@@ -82,27 +83,6 @@
    ],
    "topics": [
     "Agent"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "核弹降临！月之暗面K3.1pro登顶六榜！霸榜多模态与智能体电脑操控时代降临! OpenAI前沿大模型断网逃逸！闭源已死，开源为王！",
-   "up": "",
-   "play": 5643,
-   "pub": "2026/10/24",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1bjHA6yEpk",
-   "url": "https://www.bilibili.com/video/BV1bjHA6yEpk/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "GPT/OpenAI",
-    "Agent",
-    "开源",
-    "多模态"
    ],
    "hot": true,
    "likes": null
@@ -127,6 +107,25 @@
    "likes": null
   },
   {
+   "title": "Qwen4 的架构其实已经开源了，我扒了 config.json",
+   "up": "",
+   "play": 3721,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1kXso68EBo",
+   "url": "https://www.bilibili.com/video/BV1kXso68EBo/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Qwen",
+    "开源"
+   ],
+   "hot": true,
+   "likes": null
+  },
+  {
    "title": "小号手1/35猎虎坦克歼击车双十一特价版模型评测",
    "up": "",
    "play": 3325,
@@ -145,20 +144,22 @@
    "likes": null
   },
   {
-   "title": "Qwen4 的架构其实已经开源了，我扒了 config.json",
+   "title": "GPT-6.1 Terra 认得出大笑奶龙吗？奶蛙bench 新模型实测",
    "up": "",
-   "play": 3171,
+   "play": 3057,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1kXso68EBo",
-   "url": "https://www.bilibili.com/video/BV1kXso68EBo/",
+   "bvid": "BV1aQsd6GE2D",
+   "url": "https://www.bilibili.com/video/BV1aQsd6GE2D/",
    "queries": [
-    "开源大模型"
+    "多模态大模型",
+    "大模型评测",
+    "AI新模型"
    ],
    "topics": [
-    "Qwen",
-    "开源"
+    "GPT/OpenAI",
+    "评测"
    ],
    "hot": true,
    "likes": null
@@ -176,6 +177,25 @@
     "AI新模型"
    ],
    "topics": [],
+   "hot": true,
+   "likes": null
+  },
+  {
+   "title": "Tibo宣布OpenAI套餐用量全线翻倍，Mistral Large 4正式开源！[10月30日Al早知道]",
+   "up": "",
+   "play": 2580,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1kAxi6TEn7",
+   "url": "https://www.bilibili.com/video/BV1kAxi6TEn7/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "GPT/OpenAI",
+    "开源"
+   ],
    "hot": true,
    "likes": null
   },
@@ -217,22 +237,20 @@
    "likes": null
   },
   {
-   "title": "GPT-6.1 Terra 认得出大笑奶龙吗？奶蛙bench 新模型实测",
+   "title": "【BETA】让大肥鱼驾驶Live2D？开源Agent-Live2D桥接工作台发布！",
    "up": "",
-   "play": 1831,
-   "pub": "2026/10/29",
+   "play": 2218,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1aQsd6GE2D",
-   "url": "https://www.bilibili.com/video/BV1aQsd6GE2D/",
+   "bvid": "BV1F4xq66EUS",
+   "url": "https://www.bilibili.com/video/BV1F4xq66EUS/",
    "queries": [
-    "多模态大模型",
-    "大模型评测",
-    "AI新模型"
+    "开源大模型"
    ],
    "topics": [
-    "GPT/OpenAI",
-    "评测"
+    "Agent",
+    "开源"
    ],
    "hot": true,
    "likes": null
@@ -275,41 +293,37 @@
    "likes": null
   },
   {
-   "title": "Qwen3-VL 多模态微调项目实战｜数据集解析,Flash‑Attention加速原理与配置,LoRA 参数高效微调，微调前后效果对比",
+   "title": "AI早报｜tibo宣布codex pro订阅额度翻倍，mistral 开源万亿参数模型｜10月30日",
    "up": "",
-   "play": 1533,
-   "pub": "2026/10/23",
+   "play": 1545,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1efnx6nE1r",
-   "url": "https://www.bilibili.com/video/BV1efnx6nE1r/",
+   "bvid": "BV1VpxP6NEky",
+   "url": "https://www.bilibili.com/video/BV1VpxP6NEky/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "Qwen",
-    "多模态",
-    "教程"
+    "开源"
    ],
    "hot": true,
    "likes": null
   },
   {
-   "title": "【2026版】一套搞定 Qwen3VL 部署与微调！多模态大模型从环境配置、本地部署、LoRA 微调、量化推理到实战应用全流程教学，VLM 开发必备教程",
+   "title": "【免费开源模型第三十五期】白鲸大手炮 皮筋动力小缸大分 50+",
    "up": "",
-   "play": 1403,
-   "pub": "2026/10/23",
+   "play": 1533,
+   "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1icnh6vE7a",
-   "url": "https://www.bilibili.com/video/BV1icnh6vE7a/",
+   "bvid": "BV121so6NEtG",
+   "url": "https://www.bilibili.com/video/BV121so6NEtG/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "Qwen",
-    "多模态",
-    "教程"
+    "开源"
    ],
    "hot": true,
    "likes": null
@@ -317,7 +331,7 @@
   {
    "title": "从0到1跑通【企业级大模型实战】项目：LangChain+RAG+Agent，从提示词到多模态机器人落地，少走99%弯路！",
    "up": "",
-   "play": 1364,
+   "play": 1396,
    "pub": "2026/10/26",
    "date": null,
    "dateApprox": true,
@@ -354,24 +368,6 @@
    "likes": null
   },
   {
-   "title": "【免费开源模型第三十五期】白鲸大手炮 皮筋动力小缸大分 50+",
-   "up": "",
-   "play": 1252,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV121so6NEtG",
-   "url": "https://www.bilibili.com/video/BV121so6NEtG/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
    "title": "【不是区】建模这次有点东西？Kimi K3.1 Pro 建模、游戏实测速览",
    "up": "",
    "play": 1250,
@@ -387,40 +383,6 @@
     "Kimi",
     "评测"
    ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "【0基础新手必看】手把手带你学会程序员必学的大模型技术，从入门到精通看这一期视频就够了！0基础也不怕，帮你少走99%弯路！AI大模型",
-   "up": "",
-   "play": 1046,
-   "pub": "2026/10/22",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV15znm6yEMx",
-   "url": "https://www.bilibili.com/video/BV15znm6yEMx/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "教程"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "AI4S中美行业版图解析! 生物信息已死!",
-   "up": "",
-   "play": 1042,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1KGxc65E3H",
-   "url": "https://www.bilibili.com/video/BV1KGxc65E3H/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
    "hot": true,
    "likes": null
   },
@@ -464,40 +426,21 @@
    "likes": null
   },
   {
-   "title": "DeepSeek V4.1 Flash 认得出大笑奶龙吗？奶蛙bench 新模型实测",
+   "title": "【中配】深度求索碾压全场：开源模型之王回归 - Matthew Berman DDZ-a6bAn3Y",
    "up": "",
-   "play": 815,
-   "pub": "2026/10/24",
+   "play": 1001,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1dhHM6zERF",
-   "url": "https://www.bilibili.com/video/BV1dhHM6zERF/",
+   "bvid": "BV12Dxv6LEQT",
+   "url": "https://www.bilibili.com/video/BV12Dxv6LEQT/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "DeepSeek",
-    "评测"
+    "开源"
    ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【中英双语+资料】卡内基梅隆 CMU 11-777《多模态机器学习》｜Louis-Philippe Morency｜2023年秋季",
-   "up": "",
-   "play": 713,
-   "pub": "2026/10/24",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1L1nh6vEf6",
-   "url": "https://www.bilibili.com/video/BV1L1nh6vEf6/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "多模态"
-   ],
-   "hot": false,
+   "hot": true,
    "likes": null
   },
   {
@@ -556,25 +499,6 @@
    "likes": null
   },
   {
-   "title": "强推！【2027版】多模态大模型入门保姆级教程！对小白太友好了！1小时带你吃透SAM、CLIP、BLIP、对比学习、DALLE2、BERT！附源码！AI/大模型",
-   "up": "",
-   "play": 586,
-   "pub": "2026/10/23",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1asnt6pEhz",
-   "url": "https://www.bilibili.com/video/BV1asnt6pEhz/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "多模态",
-    "教程"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "通用大模型百页全崩：百度OCR2测评",
    "up": "",
    "play": 555,
@@ -588,25 +512,6 @@
    ],
    "topics": [
     "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【2027版】多模态大模型零基础入门保姆级教程！AI大佬带你1小时吃透SAM、CLIP、BLIP、对比学习、DALLE2、BERT等！附完整数据集！AI/大模型",
-   "up": "",
-   "play": 542,
-   "pub": "2026/10/22",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV17Qn262ETX",
-   "url": "https://www.bilibili.com/video/BV17Qn262ETX/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "多模态",
-    "教程"
    ],
    "hot": false,
    "likes": null
@@ -632,9 +537,27 @@
    "likes": null
   },
   {
+   "title": "【欧洲开源大模型】Mistral Large 4 正式开源！1T万亿参数、52B激活参数，主打编程与网络安全，挑战国产顶级大模型，值得本地部署吗？",
+   "up": "",
+   "play": 520,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1M3xq6DE2L",
+   "url": "https://www.bilibili.com/video/BV1M3xq6DE2L/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "瘦死的骆驼比马大？k3.1pro对比DeepSeek1017",
    "up": "",
-   "play": 484,
+   "play": 490,
    "pub": "2026/10/25",
    "date": null,
    "dateApprox": true,
@@ -650,9 +573,44 @@
    "likes": null
   },
   {
+   "title": "【2027新版】多模态大模型入门到精通保姆级教程！原理+论文，1小时带你吃透SAM、CLIP、BLIP、对比学习、DALLE2、BERT等！附源码！AI/大模型",
+   "up": "",
+   "play": 461,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1ySsf6gEoq",
+   "url": "https://www.bilibili.com/video/BV1ySsf6gEoq/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "多模态",
+    "教程"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "AI优化器的基本发展",
+   "up": "",
+   "play": 456,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1kcxw66Eso",
+   "url": "https://www.bilibili.com/video/BV1kcxw66Eso/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "【大模型推理系统课】第8期｜多模态模型部署实操：图文模型也能用vLLM跑",
    "up": "",
-   "play": 421,
+   "play": 431,
    "pub": "2026/10/25",
    "date": null,
    "dateApprox": true,
@@ -721,6 +679,44 @@
    "likes": null
   },
   {
+   "title": "谷歌开源EmbeddingGemma-2 | 文/图/音/视频统一嵌入，全面干翻2~12倍大的对手",
+   "up": "",
+   "play": 373,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1VoxF6sEzb",
+   "url": "https://www.bilibili.com/video/BV1VoxF6sEzb/",
+   "queries": [
+    "多模态大模型",
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "DeepInfer多模态：一张图怎么变成几百个token｜DeepSeek推理框架｜DeepInfer详解09",
+   "up": "",
+   "play": 358,
+   "pub": "2026/10/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1uEnk6XEYy",
+   "url": "https://www.bilibili.com/video/BV1uEnk6XEYy/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "ETH被推翻？AGI来了？OpenAI挑战数百篇论文的共同前提",
    "up": "",
    "play": 351,
@@ -734,6 +730,25 @@
    ],
    "topics": [
     "GPT/OpenAI"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "【2026最新】全站最细DeepSeek从入门到精通！AI大模型全套保姆级教程，玩法技巧+避坑指南，AI办公，效率飙升！全程干货无废话！让你少走99%的弯路！",
+   "up": "",
+   "play": 345,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1bHxF6EEP4",
+   "url": "https://www.bilibili.com/video/BV1bHxF6EEP4/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "教程"
    ],
    "hot": false,
    "likes": null
@@ -755,19 +770,18 @@
    "likes": null
   },
   {
-   "title": "DeepInfer多模态：一张图怎么变成几百个token｜DeepSeek推理框架｜DeepInfer详解09",
+   "title": "腾讯微信视觉团队新作！单接口统一对象级+像素级全场景视觉感知，1亿级训练数据性能碾压SOTA【多模态大模型】【计算机视觉】",
    "up": "",
-   "play": 337,
-   "pub": "2026/10/25",
+   "play": 334,
+   "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1uEnk6XEYy",
-   "url": "https://www.bilibili.com/video/BV1uEnk6XEYy/",
+   "bvid": "BV15ksd6EECU",
+   "url": "https://www.bilibili.com/video/BV15ksd6EECU/",
    "queries": [
     "多模态大模型"
    ],
    "topics": [
-    "DeepSeek",
     "多模态"
    ],
    "hot": false,
@@ -792,20 +806,20 @@
    "likes": null
   },
   {
-   "title": "RTX 4090 算力翻倍实测：Strata 跑 125B 大模型，长上下文只提升 3%，生成速度几乎没变！",
+   "title": "GPT-5.6-Sol 认得出大笑奶龙吗？奶蛙bench 模型实测",
    "up": "",
-   "play": 330,
-   "pub": "2026/10/29",
+   "play": 322,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Tmxc6nEC5",
-   "url": "https://www.bilibili.com/video/BV1Tmxc6nEC5/",
+   "bvid": "BV1X7xw6fEGy",
+   "url": "https://www.bilibili.com/video/BV1X7xw6fEGy/",
    "queries": [
-    "大模型"
+    "多模态大模型"
    ],
    "topics": [
-    "评测",
-    "硬件跑模型"
+    "GPT/OpenAI",
+    "评测"
    ],
    "hot": false,
    "likes": null
@@ -813,7 +827,7 @@
   {
    "title": "多模态大模型原理（3）AI生图-扩散模型",
    "up": "",
-   "play": 294,
+   "play": 314,
    "pub": "2026/10/24",
    "date": null,
    "dateApprox": true,
@@ -829,20 +843,36 @@
    "likes": null
   },
   {
-   "title": "腾讯微信视觉团队新作！单接口统一对象级+像素级全场景视觉感知，1亿级训练数据性能碾压SOTA【多模态大模型】【计算机视觉】",
+   "title": "小艺多模态混合专家本地大模型来了！！！目前搭载华为mate90promax9050Pro的芯片及以上的手机搭载的有，看看你们都收到了吗",
    "up": "",
-   "play": 273,
+   "play": 295,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV15ksd6EECU",
-   "url": "https://www.bilibili.com/video/BV15ksd6EECU/",
+   "bvid": "BV1PVxc6CEPg",
+   "url": "https://www.bilibili.com/video/BV1PVxc6CEPg/",
    "queries": [
     "多模态大模型"
    ],
    "topics": [
     "多模态"
    ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "腾讯Hy4双模型即将发布【AI快讯2026-10-29】",
+   "up": "",
+   "play": 284,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1oTxw6iEZa",
+   "url": "https://www.bilibili.com/video/BV1oTxw6iEZa/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [],
    "hot": false,
    "likes": null
   },
@@ -884,19 +914,20 @@
    "likes": null
   },
   {
-   "title": "视觉生成能否扩展统一多模态模型的知识？：视觉生成监督可以向统一多模态模型注入文本未提供的新事实，并在纯文本问答中部分可访问；交错图文对齐比纯文本对齐更能扩大这种",
+   "title": "3万亿参数开源免费送：国产大模型卷疯了【GLM AI日报#7】",
    "up": "",
-   "play": 217,
-   "pub": "2026/10/24",
+   "play": 238,
+   "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1dpHP6bEHn",
-   "url": "https://www.bilibili.com/video/BV1dpHP6bEHn/",
+   "bvid": "BV1BCxF6PEDi",
+   "url": "https://www.bilibili.com/video/BV1BCxF6PEDi/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "多模态"
+    "GLM/智谱",
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -904,7 +935,7 @@
   {
    "title": "月夜自习室：一张图片如何进入大语言模型？｜ModServer 01",
    "up": "",
-   "play": 215,
+   "play": 218,
    "pub": "2026/10/27",
    "date": null,
    "dateApprox": true,
@@ -937,48 +968,9 @@
    "likes": null
   },
   {
-   "title": "DeepSeek V4.1 Pro即将发布！Gemini办公全家桶上线、千问4.0定档、欧洲1T旗舰开源｜Will叔每日AI动态 10.30",
-   "up": "",
-   "play": 206,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1PnxN6sESZ",
-   "url": "https://www.bilibili.com/video/BV1PnxN6sESZ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "Gemini",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【2026最新】全站最细DeepSeek从入门到精通！AI大模型全套保姆级教程，玩法技巧+避坑指南，AI办公，效率飙升！全程干货无废话！让你少走99%的弯路！",
-   "up": "",
-   "play": 200,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1bHxF6EEP4",
-   "url": "https://www.bilibili.com/video/BV1bHxF6EEP4/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "教程"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【iRTE 2026 演讲实录】《蚂蚁多模态大模型研发实践》演讲人：陈景东  蚂蚁集团基础智能部技术总监，资深算法专家  #Agentic #蚂蚁百灵#百灵大模",
    "up": "",
-   "play": 199,
+   "play": 204,
    "pub": "2026/10/26",
    "date": null,
    "dateApprox": true,
@@ -995,38 +987,37 @@
    "likes": null
   },
   {
-   "title": "3万亿参数开源免费送：国产大模型卷疯了【GLM AI日报#7】",
+   "title": "10-14 workbuddy使用：小米多模态大模型V2.6 pro (通常为空闲状态)",
    "up": "",
-   "play": 189,
-   "pub": "2026/10/29",
+   "play": 156,
+   "pub": "2026/10/28",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1BCxF6PEDi",
-   "url": "https://www.bilibili.com/video/BV1BCxF6PEDi/",
+   "bvid": "BV1LHx76GEEc",
+   "url": "https://www.bilibili.com/video/BV1LHx76GEEc/",
    "queries": [
-    "开源大模型"
+    "多模态大模型"
    ],
    "topics": [
-    "GLM/智谱",
-    "开源"
+    "多模态"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "【落地方案】RAG 还是微调：判断标准一句话，缺知识用 RAG、缺行为用微调，想灌知识只会教会它编",
+   "title": "（极致中英字幕）2026年斯坦福CS336：从零开始构建大模型 | 目前大模型最好的教程",
    "up": "",
-   "play": 166,
-   "pub": "2026/10/29",
+   "play": 154,
+   "pub": "2026/10/26",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1TsHT6dEeB",
-   "url": "https://www.bilibili.com/video/BV1TsHT6dEeB/",
+   "bvid": "BV1Mxnd6xEnu",
+   "url": "https://www.bilibili.com/video/BV1Mxnd6xEnu/",
    "queries": [
-    "大模型"
+    "多模态大模型"
    ],
    "topics": [
-    "RAG"
+    "教程"
    ],
    "hot": false,
    "likes": null
@@ -1087,14 +1078,14 @@
    "likes": null
   },
   {
-   "title": "10-14 workbuddy使用：小米多模态大模型V2.6 pro (通常为空闲状态)",
+   "title": "【论文分享】深度伪造检测——非对称锚定：打开多模态大模型的“黑箱”以进行伪造检测",
    "up": "",
-   "play": 148,
+   "play": 143,
    "pub": "2026/10/28",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1LHx76GEEc",
-   "url": "https://www.bilibili.com/video/BV1LHx76GEEc/",
+   "bvid": "BV1EVx76mEUe",
+   "url": "https://www.bilibili.com/video/BV1EVx76mEUe/",
    "queries": [
     "多模态大模型"
    ],
@@ -1121,56 +1112,37 @@
    "likes": null
   },
   {
-   "title": "【论文分享】深度伪造检测——非对称锚定：打开多模态大模型的“黑箱”以进行伪造检测",
+   "title": "蚂蚁560B开源文本模型：一个月分数三级跳",
    "up": "",
-   "play": 135,
-   "pub": "2026/10/28",
+   "play": 141,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1EVx76mEUe",
-   "url": "https://www.bilibili.com/video/BV1EVx76mEUe/",
+   "bvid": "BV1QAx56oEdu",
+   "url": "https://www.bilibili.com/video/BV1QAx56oEdu/",
    "queries": [
-    "多模态大模型"
+    "开源大模型"
    ],
    "topics": [
-    "多模态"
+    "开源"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "浅谈DeepSeek和MiMo-V3都在用的Encoder-Decoder与绕不开的稀疏注意力",
+   "title": "这周中国开源「杀疯了」：KV Cache砍99%、OCR页数自由、蚂蚁百灵全开源",
    "up": "",
-   "play": 131,
+   "play": 137,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1wjxc6rEiP",
-   "url": "https://www.bilibili.com/video/BV1wjxc6rEiP/",
+   "bvid": "BV1fusX6VEf4",
+   "url": "https://www.bilibili.com/video/BV1fusX6VEf4/",
    "queries": [
-    "大模型"
+    "开源大模型"
    ],
    "topics": [
-    "MiMo",
-    "DeepSeek"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "（极致中英字幕）2026年斯坦福CS336：从零开始构建大模型 | 目前大模型最好的教程",
-   "up": "",
-   "play": 131,
-   "pub": "2026/10/26",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Mxnd6xEnu",
-   "url": "https://www.bilibili.com/video/BV1Mxnd6xEnu/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "教程"
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1190,6 +1162,26 @@
    "topics": [
     "评测",
     "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "DeepSeek才是真的OpenAI 5分钟看懂开源推理框架DeepInfer",
+   "up": "",
+   "play": 127,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1yUso6AE2c",
+   "url": "https://www.bilibili.com/video/BV1yUso6AE2c/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "GPT/OpenAI",
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1231,14 +1223,14 @@
    "likes": null
   },
   {
-   "title": "60秒讲透一个大模型知识-第14集",
+   "title": "AI浮雕怎么有更多细节",
    "up": "",
    "play": 121,
-   "pub": "2026/10/22",
+   "pub": "2026/10/26",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1jxnp6jEKj",
-   "url": "https://www.bilibili.com/video/BV1jxnp6jEKj/",
+   "bvid": "BV1pgnR62EZ4",
+   "url": "https://www.bilibili.com/video/BV1pgnR62EZ4/",
    "queries": [
     "多模态大模型"
    ],
@@ -1265,19 +1257,39 @@
    "likes": null
   },
   {
-   "title": "多模态大语言模型中的跨模态后门",
+   "title": "突破单接口局限！ChronoReplay让单模型同时支持流式空间智能的分类、度量、时序多类查询 【具身智能】【多模态大模型】",
    "up": "",
    "play": 120,
-   "pub": "2026/10/24",
+   "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1bmWF6CEQ1",
-   "url": "https://www.bilibili.com/video/BV1bmWF6CEQ1/",
+   "bvid": "BV1G9xF64E9Q",
+   "url": "https://www.bilibili.com/video/BV1G9xF64E9Q/",
    "queries": [
     "多模态大模型"
    ],
    "topics": [
-    "多模态"
+    "多模态",
+    "具身智能"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "【B站强推】全网最详细的多模态大模型保姆级实战教程（部署+微调实战），包教包会，看这一期视频就够了!名师讲解，手把手式教学。AI大模型",
+   "up": "",
+   "play": 117,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1P5xY6AE59",
+   "url": "https://www.bilibili.com/video/BV1P5xY6AE59/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "多模态",
+    "教程"
    ],
    "hot": false,
    "likes": null
@@ -1303,25 +1315,9 @@
    "likes": null
   },
   {
-   "title": "AI浮雕怎么有更多细节",
-   "up": "",
-   "play": 112,
-   "pub": "2026/10/26",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1pgnR62EZ4",
-   "url": "https://www.bilibili.com/video/BV1pgnR62EZ4/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "使用 llama 运行本地化的轻量大模型识别图片",
    "up": "",
-   "play": 110,
+   "play": 113,
    "pub": "2026/10/26",
    "date": null,
    "dateApprox": true,
@@ -1331,6 +1327,61 @@
     "多模态大模型"
    ],
    "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "ComfyUI 适配 Mini Max H3，老显卡再战",
+   "up": "",
+   "play": 112,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1qTxF6ZEvV",
+   "url": "https://www.bilibili.com/video/BV1qTxF6ZEvV/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "硬件跑模型"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "开源训练框架，从大模型到机器人",
+   "up": "",
+   "play": 111,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1uAxY66EsN",
+   "url": "https://www.bilibili.com/video/BV1uAxY66EsN/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源",
+    "具身智能"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "(Al) 我似乎已经成为在现实和虚拟间迷失的边缘行者|自研开源情感陪伴模型——Vespera 完善阶段效果演示",
+   "up": "",
+   "play": 104,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV15Dxa6UEXr",
+   "url": "https://www.bilibili.com/video/BV15Dxa6UEXr/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
    "hot": false,
    "likes": null
   },
@@ -1390,6 +1441,24 @@
    "likes": null
   },
   {
+   "title": "AI到底说了什么，逼得公司去请神父？Openai公布722项重大成果，当AI开始攻克黎曼猜想，批量淘汰天才，普通人最紧急的事是什么？",
+   "up": "",
+   "play": 96,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV197xi6oEas",
+   "url": "https://www.bilibili.com/video/BV197xi6oEas/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [
+    "GPT/OpenAI"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "谷歌Genie 4：这么多算力，先把新模型卷起来啊！",
    "up": "",
    "play": 91,
@@ -1444,19 +1513,39 @@
    "likes": null
   },
   {
-   "title": "136. 大模型微调强化学习多模态合集",
+   "title": "想做多模态微调？这套DeepSeek-OCR别错过 | 梳理大模型完整训练链路，PEFT参数高效微调核心，数据集工程实战，训练全流程实操",
    "up": "",
-   "play": 74,
-   "pub": "2026/10/23",
+   "play": 79,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1dsn86FEPZ",
-   "url": "https://www.bilibili.com/video/BV1dsn86FEPZ/",
+   "bvid": "BV1gAxv6EEds",
+   "url": "https://www.bilibili.com/video/BV1gAxv6EEds/",
    "queries": [
     "多模态大模型"
    ],
    "topics": [
-    "多模态"
+    "DeepSeek",
+    "多模态",
+    "教程"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "历时半月汇总 Java 常用 AI 场景，整套开源",
+   "up": "",
+   "play": 75,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV18Pxv6mERY",
+   "url": "https://www.bilibili.com/video/BV18Pxv6mERY/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1482,19 +1571,19 @@
    "likes": null
   },
   {
-   "title": "ComfyUI 适配 Mini Max H3，老显卡再战",
+   "title": "【熟肉】深度求索碾压全场：开源模型之王回归 - Matthew Berman DDZ-a6bAn3Y",
    "up": "",
-   "play": 72,
-   "pub": "2026/10/29",
+   "play": 70,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1qTxF6ZEvV",
-   "url": "https://www.bilibili.com/video/BV1qTxF6ZEvV/",
+   "bvid": "BV1bDxv6jELR",
+   "url": "https://www.bilibili.com/video/BV1bDxv6jELR/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "硬件跑模型"
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1535,24 +1624,6 @@
    "likes": null
   },
   {
-   "title": "这周中国开源「杀疯了」：KV Cache砍99%、OCR页数自由、蚂蚁百灵全开源",
-   "up": "",
-   "play": 65,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1fusX6VEf4",
-   "url": "https://www.bilibili.com/video/BV1fusX6VEf4/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "超越GPT‑6、Claude！谷歌新模型登顶，但胜负远未结束，十四天，拉高 AI 天花板：Gemini 4 Carbon 登顶背后，竞争从 “答问题” 转向 “",
    "up": "",
    "play": 65,
@@ -1573,25 +1644,9 @@
    "likes": null
   },
   {
-   "title": "什么是深度学习",
-   "up": "",
-   "play": 60,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1AExc6gEhe",
-   "url": "https://www.bilibili.com/video/BV1AExc6gEhe/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【Transformer应用】斯坦福CS25: 从大语言模型到大多模态模型｜Stanford Online",
    "up": "",
-   "play": 59,
+   "play": 63,
    "pub": "2026/10/28",
    "date": null,
    "dateApprox": true,
@@ -1602,6 +1657,24 @@
    ],
    "topics": [
     "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "AI早报10月30日｜Clover扩散开源、英伟达40语转录，AWS增长39%、混元Hy4预告",
+   "up": "",
+   "play": 57,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Q6xY65EuD",
+   "url": "https://www.bilibili.com/video/BV1Q6xY65EuD/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1644,6 +1717,62 @@
    "likes": null
   },
   {
+   "title": "突破推理边际收益递减！OpenVLHarness打造带多模态持久记忆的真实世界视觉智能体工具调用框架 【多模态大模型】【智能体工具调用】【AI论文解读】",
+   "up": "",
+   "play": 50,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Htsd6ZErE",
+   "url": "https://www.bilibili.com/video/BV1Htsd6ZErE/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "Agent",
+    "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "DeepSeek融1000亿，到底谁在押注？梁文锋、幻方量化、美国禁令、开源与昇腾一次讲清",
+   "up": "",
+   "play": 49,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1xssZ6BEcE",
+   "url": "https://www.bilibili.com/video/BV1xssZ6BEcE/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "AI日报 1030 | Mistral Large 4 开源万亿参数，微软 6 万员工自愿离职",
+   "up": "",
+   "play": 48,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1QHxe6jETd",
+   "url": "https://www.bilibili.com/video/BV1QHxe6jETd/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "首个面向开放科研问题的AI智能体基准发布！9款前沿Agent全军覆没，无人能通过科学家设定的科研标准 【AI科研】【大模型智能体】",
    "up": "",
    "play": 46,
@@ -1662,18 +1791,59 @@
    "likes": null
   },
   {
-   "title": "闭源，对抗AI的最后武器！",
+   "title": "视频、对话、音频、代码各种开源大模型随意部署｜从选适合主机的模型、到安装部署再到接入使用，全流程",
+   "up": "",
+   "play": 41,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1WexF6gEXk",
+   "url": "https://www.bilibili.com/video/BV1WexF6gEXk/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "杨丽蕴：大模型的开源、开放与标准化｜GOSIM Shenzhen 2026",
+   "up": "",
+   "play": 41,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1mkso6TEWK",
+   "url": "https://www.bilibili.com/video/BV1mkso6TEWK/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "真实网页环境下深度搜索新基准发布！200道跨模态复杂任务，12款前沿大模型实测最高仅39%准确率 【AI智能体】【大模型评测】",
    "up": "",
    "play": 40,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Jxxc6vEAZ",
-   "url": "https://www.bilibili.com/video/BV1Jxxc6vEAZ/",
+   "bvid": "BV1pxsd6FEBE",
+   "url": "https://www.bilibili.com/video/BV1pxsd6FEBE/",
    "queries": [
-    "大模型"
+    "多模态大模型",
+    "大模型评测",
+    "AI新模型"
    ],
-   "topics": [],
+   "topics": [
+    "Agent",
+    "评测"
+   ],
    "hot": false,
    "likes": null
   },
@@ -1698,7 +1868,7 @@
   {
    "title": "【中字】海外博主实测DeepSeek新模型，3D能力惊艳全网",
    "up": "",
-   "play": 36,
+   "play": 37,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
@@ -1716,43 +1886,9 @@
    "likes": null
   },
   {
-   "title": "杨丽蕴：大模型的开源、开放与标准化｜GOSIM Shenzhen 2026",
-   "up": "",
-   "play": 34,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1mkso6TEWK",
-   "url": "https://www.bilibili.com/video/BV1mkso6TEWK/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "我做了一个只允许ai进入的网站，12个小时过去，看看ai们在留言墙上留下了什么？",
-   "up": "",
-   "play": 33,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1AVxc6CEfx",
-   "url": "https://www.bilibili.com/video/BV1AVxc6CEfx/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "突破多模态代码智能天花板！200万级开源数据集+9B/35B模型性能追平闭源商用系统 【多模态代码生成】【大模型论文解读】",
    "up": "",
-   "play": 33,
+   "play": 35,
    "pub": "2026/10/27",
    "date": null,
    "dateApprox": true,
@@ -1769,40 +1905,56 @@
    "likes": null
   },
   {
-   "title": "大模型本地实测，Unlimited OCR 2，碾压PaddleOCR、Deepseek OCR以及MinerU",
+   "title": "开源模型Kimi K3.1Pro实测：能否击败Opus 5.5？",
    "up": "",
-   "play": 29,
+   "play": 34,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV12Uxc6UEhC",
-   "url": "https://www.bilibili.com/video/BV12Uxc6UEhC/",
+   "bvid": "BV1AnxN6sERz",
+   "url": "https://www.bilibili.com/video/BV1AnxN6sERz/",
    "queries": [
-    "大模型"
+    "开源大模型"
    ],
    "topics": [
-    "DeepSeek",
+    "Kimi",
+    "Claude/Opus",
+    "开源",
     "评测"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "真实网页环境下深度搜索新基准发布！200道跨模态复杂任务，12款前沿大模型实测最高仅39%准确率 【AI智能体】【大模型评测】",
+   "title": "【中字】海外博主拆解阿里千问的AI野心",
    "up": "",
-   "play": 29,
-   "pub": "2026/10/29",
+   "play": 31,
+   "pub": "2026/10/27",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1pxsd6FEBE",
-   "url": "https://www.bilibili.com/video/BV1pxsd6FEBE/",
+   "bvid": "BV14eHF6iEEP",
+   "url": "https://www.bilibili.com/video/BV14eHF6iEEP/",
    "queries": [
-    "多模态大模型",
-    "大模型评测",
-    "AI新模型"
+    "多模态大模型"
+   ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "GPT-6.1 Terra 实测：价格只有旗舰一半｜官方演示 + 四家同题 + 最高档对照 + LiveBench 七项",
+   "up": "",
+   "play": 29,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Buxi6AEHY",
+   "url": "https://www.bilibili.com/video/BV1Buxi6AEHY/",
+   "queries": [
+    "大模型"
    ],
    "topics": [
-    "Agent",
+    "GPT/OpenAI",
     "评测"
    ],
    "hot": false,
@@ -1828,63 +1980,9 @@
    "likes": null
   },
   {
-   "title": "【中字】海外博主拆解阿里千问的AI野心",
-   "up": "",
-   "play": 28,
-   "pub": "2026/10/27",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV14eHF6iEEP",
-   "url": "https://www.bilibili.com/video/BV14eHF6iEEP/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "突破推理边际收益递减！OpenVLHarness打造带多模态持久记忆的真实世界视觉智能体工具调用框架 【多模态大模型】【智能体工具调用】【AI论文解读】",
-   "up": "",
-   "play": 24,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Htsd6ZErE",
-   "url": "https://www.bilibili.com/video/BV1Htsd6ZErE/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "Agent",
-    "多模态"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "[双语]DeepSeek V4.1 Flash：3D代码生成、多模态推理与极致性价比",
-   "up": "",
-   "play": 23,
-   "pub": "2026/10/28",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1rYxE6XEqW",
-   "url": "https://www.bilibili.com/video/BV1rYxE6XEqW/",
-   "queries": [
-    "多模态大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "多模态"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "覆盖T2V/I2V/V2V三大场景！复旦推出2104任务规模的代码生成视频全维度评测基准 【多模态大模型】【视频生成】【AI基准评测】",
    "up": "",
-   "play": 23,
+   "play": 28,
    "pub": "2026/10/27",
    "date": null,
    "dateApprox": true,
@@ -1901,27 +1999,9 @@
    "likes": null
   },
   {
-   "title": "视频、对话、音频、代码各种开源大模型随意部署｜从选适合主机的模型、到安装部署再到接入使用，全流程",
-   "up": "",
-   "play": 18,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1WexF6gEXk",
-   "url": "https://www.bilibili.com/video/BV1WexF6gEXk/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【中字】海外博主实测1比特模型：12G显存能跑？",
    "up": "",
-   "play": 16,
+   "play": 27,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
@@ -1937,38 +2017,58 @@
    "likes": null
   },
   {
-   "title": "Anthropic如何打造顶尖大模型 | 揭秘Claude智能体系统与工程实践",
+   "title": "[双语]DeepSeek V4.1 Flash：3D代码生成、多模态推理与极致性价比",
    "up": "",
-   "play": 13,
-   "pub": "2026/10/29",
+   "play": 26,
+   "pub": "2026/10/28",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1VoxF6sE8v",
-   "url": "https://www.bilibili.com/video/BV1VoxF6sE8v/",
+   "bvid": "BV1rYxE6XEqW",
+   "url": "https://www.bilibili.com/video/BV1rYxE6XEqW/",
    "queries": [
-    "大模型"
+    "多模态大模型"
    ],
    "topics": [
-    "Claude/Opus",
-    "Agent"
+    "DeepSeek",
+    "多模态"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "18：智能体选型与结果结构化",
+   "title": "首个代码驱动视频生成多模态智能体基准VibeVideoBench发布！239项任务+9大前沿系统实测，填补音视频智能体评估空白 【多模态智能体】【视频生成】【A",
    "up": "",
-   "play": 13,
-   "pub": "2026/10/29",
+   "play": 20,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Umxc6JESH",
-   "url": "https://www.bilibili.com/video/BV1Umxc6JESH/",
+   "bvid": "BV16UxP6jEnH",
+   "url": "https://www.bilibili.com/video/BV16UxP6jEnH/",
    "queries": [
-    "大模型"
+    "多模态大模型"
    ],
    "topics": [
-    "Agent"
+    "Agent",
+    "评测",
+    "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "打破固有认知！离散视觉Token居然能做到语义无损，性能追平连续特征大模型 【多模态大模型】【论文解读】",
+   "up": "",
+   "play": 19,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1hExe6EEvf",
+   "url": "https://www.bilibili.com/video/BV1hExe6EEvf/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "多模态"
    ],
    "hot": false,
    "likes": null
@@ -1976,7 +2076,7 @@
   {
    "title": "打通生成与理解壁垒！统一多模态模型细粒度理解新框架GAFU，性能平均暴涨3.56-5.98个百分点 【多模态大模型】【论文解读】",
    "up": "",
-   "play": 13,
+   "play": 16,
    "pub": "2026/10/27",
    "date": null,
    "dateApprox": true,
@@ -1992,41 +2092,93 @@
    "likes": null
   },
   {
-   "title": "中国大模型连续26周压过美国，DeepSeek登顶全球第一",
+   "title": "彻底解决智能体进化方法重复造轮子痛点！可组合框架RSIHub统一四大主流进化方案 【大模型智能体】【框架开源解读】",
    "up": "",
-   "play": 11,
-   "pub": "2026/10/29",
+   "play": 16,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Bexj65EH4",
-   "url": "https://www.bilibili.com/video/BV1Bexj65EH4/",
+   "bvid": "BV1Coxv63Eyz",
+   "url": "https://www.bilibili.com/video/BV1Coxv63Eyz/",
    "queries": [
-    "大模型",
-    "AI新模型"
+    "开源大模型"
    ],
    "topics": [
-    "DeepSeek"
+    "Agent",
+    "开源"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "开源模型Kimi K3.1Pro实测：能否击败Opus 5.5？",
+   "title": "【AI 接管中】｜最强的模型被派去当网络保安，同一天涨最快的是越狱清单｜AI日报 Day 49",
    "up": "",
-   "play": 9,
-   "pub": "2026/10/29",
+   "play": 15,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1AnxN6sERz",
-   "url": "https://www.bilibili.com/video/BV1AnxN6sERz/",
+   "bvid": "BV15ixA6iEq6",
+   "url": "https://www.bilibili.com/video/BV15ixA6iEq6/",
    "queries": [
     "开源大模型"
    ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "单模型同时搞定电竞赛事导播+解说！DirCast实现端到端实时直播制作，性能碾压GPT-4o【多模态大模型】【AI电竞】【StreamingVLM】",
+   "up": "",
+   "play": 14,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1E8xq6BEtD",
+   "url": "https://www.bilibili.com/video/BV1E8xq6BEtD/",
+   "queries": [
+    "多模态大模型"
+   ],
    "topics": [
-    "Kimi",
-    "Claude/Opus",
-    "开源",
-    "评测"
+    "GPT/OpenAI",
+    "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "用可执行代码做视频字幕？全新CodeCap-Bench基准测试，解锁细粒度时空视觉信息表达新范式 【多模态大模型】【基准评测】",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Mmxv6EEDp",
+   "url": "https://www.bilibili.com/video/BV1Mmxv6EEDp/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "评测",
+    "多模态"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "能主动读懂用户动态意图的视频智能体来了！StreamVibe实现流式场景下持续主动交互 【多模态大模型】【智能体】【AI论文解读】",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1xixP6sEEV",
+   "url": "https://www.bilibili.com/video/BV1xixP6sEEV/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "Agent",
+    "多模态"
    ],
    "hot": false,
    "likes": null
@@ -2034,7 +2186,7 @@
   {
    "title": "【中字】海外博主实测千亿AI模型本地部署",
    "up": "",
-   "play": 9,
+   "play": 11,
    "pub": "2026/10/29",
    "date": null,
    "dateApprox": true,
@@ -2045,6 +2197,42 @@
    ],
    "topics": [
     "评测"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "中国大模型连续26周压过美国，DeepSeek登顶全球第一",
+   "up": "",
+   "play": 11,
+   "pub": "2026/10/29",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Bexj65EH4",
+   "url": "https://www.bilibili.com/video/BV1Bexj65EH4/",
+   "queries": [
+    "AI新模型"
+   ],
+   "topics": [
+    "DeepSeek"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "【中字】海外博主拆解英伟达新一代智能体架构",
+   "up": "",
+   "play": 9,
+   "pub": "2026/10/27",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV18hxK6iEJH",
+   "url": "https://www.bilibili.com/video/BV18hxK6iEJH/",
+   "queries": [
+    "多模态大模型"
+   ],
+   "topics": [
+    "Agent"
    ],
    "hot": false,
    "likes": null
@@ -2068,35 +2256,20 @@
    "likes": null
   },
   {
-   "title": "【微软MSFT】单季暴涨40逼近550美元，现在还能追吗？Office商业模式迎来30年最大巨变，#美股分析，#美股投资，#微软股价，#ai大模型，#msft，",
+   "title": "首个面向交互式多模态大模型助手的可验证人在环仿真环境发布！8000+物体50场景，120项闭环任务测出当前SOTA模型仅41.7%成功率 【多模态大模型】【具身",
    "up": "",
-   "play": 8,
-   "pub": "2026/10/29",
+   "play": 7,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1gSx564Exr",
-   "url": "https://www.bilibili.com/video/BV1gSx564Exr/",
-   "queries": [
-    "大模型"
-   ],
-   "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【中字】海外博主拆解英伟达新一代智能体架构",
-   "up": "",
-   "play": 8,
-   "pub": "2026/10/27",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV18hxK6iEJH",
-   "url": "https://www.bilibili.com/video/BV18hxK6iEJH/",
+   "bvid": "BV18xxP6wESQ",
+   "url": "https://www.bilibili.com/video/BV18xxP6wESQ/",
    "queries": [
     "多模态大模型"
    ],
    "topics": [
-    "Agent"
+    "多模态",
+    "具身智能"
    ],
    "hot": false,
    "likes": null
@@ -2115,6 +2288,24 @@
    ],
    "topics": [
     "硬件跑模型"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "Kimi开始做3D了！腾讯世界模型、Mistral开放权重｜10月30日AI新闻",
+   "up": "",
+   "play": 6,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Xnxi6REok",
+   "url": "https://www.bilibili.com/video/BV1Xnxi6REok/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [
+    "Kimi"
    ],
    "hot": false,
    "likes": null
@@ -2165,7 +2356,6 @@
    "bvid": "BV1eMsZ6JEjs",
    "url": "https://www.bilibili.com/video/BV1eMsZ6JEjs/",
    "queries": [
-    "开源大模型",
     "大模型评测",
     "AI新模型"
    ],
@@ -2176,14 +2366,14 @@
    "likes": null
   },
   {
-   "title": "大模型的秘密",
+   "title": "激战2 原创短剧《巨剑为证,我赴自由》完整版，全部采用Seedance 2.5大模型制作，4k超清原画。预计将于11月中旬发布。",
    "up": "",
-   "play": 3,
-   "pub": "2026/10/29",
+   "play": 1,
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1xGxc65Ezb",
-   "url": "https://www.bilibili.com/video/BV1xGxc65Ezb/",
+   "bvid": "BV15cxz6KEQS",
+   "url": "https://www.bilibili.com/video/BV15cxz6KEQS/",
    "queries": [
     "大模型"
    ],
@@ -2192,51 +2382,66 @@
    "likes": null
   },
   {
-   "title": "DeepSeek融1000亿，到底谁在押注？梁文锋、幻方量化、美国禁令、开源与昇腾一次讲清",
+   "title": "Revolut自托管开源模型，AI编码成本降九成",
    "up": "",
    "play": 1,
    "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1xssZ6BEcE",
-   "url": "https://www.bilibili.com/video/BV1xssZ6BEcE/",
+   "bvid": "BV1aWxP6YEnF",
+   "url": "https://www.bilibili.com/video/BV1aWxP6YEnF/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "DeepSeek",
     "开源"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "第69期-RAG分块与重排策略",
+   "title": "大模型能力超强了！使用deepseek4.1flash将xinference项目转换成golang，API接口100%兼容，可以演示学习使用，出乎意料！！",
    "up": "",
    "play": 0,
-   "pub": "2026/10/29",
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Jxxc6vE5p",
-   "url": "https://www.bilibili.com/video/BV1Jxxc6vE5p/",
+   "bvid": "BV1GMxz6hEgW",
+   "url": "https://www.bilibili.com/video/BV1GMxz6hEgW/",
    "queries": [
     "大模型"
    ],
    "topics": [
-    "RAG"
+    "DeepSeek"
    ],
    "hot": false,
    "likes": null
   },
   {
-   "title": "后端JAVA+Python Agent大模型双元面试 2026-10-29 21_12_36 面试小达达",
+   "title": "第二期  安全培训，用AI做灭火器3D模型演示",
    "up": "",
    "play": 0,
-   "pub": "2026/10/29",
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1Ztxc6AEvV",
-   "url": "https://www.bilibili.com/video/BV1Ztxc6AEvV/",
+   "bvid": "BV1eJxi6xEF5",
+   "url": "https://www.bilibili.com/video/BV1eJxi6xEF5/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "【中英双语字幕】别再手写提示词了：让AI Agent自己提示自己的循环工程工作流 1080P",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1dn4y1f79c",
+   "url": "https://www.bilibili.com/video/BV1dn4y1f79c/",
    "queries": [
     "大模型"
    ],
@@ -2247,38 +2452,52 @@
    "likes": null
   },
   {
-   "title": "突破单接口局限！ChronoReplay让单模型同时支持流式空间智能的分类、度量、时序多类查询 【具身智能】【多模态大模型】",
+   "title": "AI大模型本地推理 10-30 全天",
    "up": "",
    "play": 0,
-   "pub": "2026/10/29",
+   "pub": "2026/10/30",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1G9xF64E9Q",
-   "url": "https://www.bilibili.com/video/BV1G9xF64E9Q/",
-   "queries": [
-    "大模型",
-    "多模态大模型"
-   ],
-   "topics": [
-    "多模态",
-    "具身智能"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【中字】海外博主曝AI攻破全网漏洞",
-   "up": "",
-   "play": 0,
-   "pub": "2026/10/29",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1cJxc6zEwA",
-   "url": "https://www.bilibili.com/video/BV1cJxc6zEwA/",
+   "bvid": "BV1iGxi6cEeY",
+   "url": "https://www.bilibili.com/video/BV1iGxi6cEeY/",
    "queries": [
     "大模型"
    ],
    "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "大模型幻觉检测全维度元研究！拆解不同基准不可比的核心原因，全新评估框架+Span Coverage F1新指标 【大模型幻觉研究】【LLM安全】",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1fTxi6eEaE",
+   "url": "https://www.bilibili.com/video/BV1fTxi6eEaE/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "Your Agent Just Paid for Nothing： 6 Attacks on x402 Payments…",
+   "up": "",
+   "play": 0,
+   "pub": "2026/10/30",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1i5xi6fErN",
+   "url": "https://www.bilibili.com/video/BV1i5xi6fErN/",
+   "queries": [
+    "大模型"
+   ],
+   "topics": [
+    "Agent"
+   ],
    "hot": false,
    "likes": null
   },
@@ -2345,60 +2564,53 @@
    "BV1DYso6VE8e",
    "BV1YGxF6sEB8",
    "BV14Jsd6PEFe",
-   "BV1rUn86CE89",
    "BV1pxsd6FEBE",
+   "BV1rUn86CE89",
    "BV1cBx36TE7x",
    "BV1c8xN6EEbE",
    "BV1cgsR6HEhC",
    "BV1eMsZ6JEjs",
    "BV19zxA6YE3m"
   ],
-  "多模态大模型": [
-   "BV1yQna6JELa",
-   "BV1bjHA6yEpk",
-   "BV1aQsd6GE2D",
-   "BV1efnx6nE1r",
-   "BV1icnh6vE7a",
-   "BV1q1nd6rEcD",
-   "BV15znm6yEMx",
-   "BV1dhHM6zERF",
-   "BV1L1nh6vEf6",
-   "BV1asnt6pEhz",
-   "BV17Qn262ETX",
-   "BV1izHG6DESi",
-   "BV1RZJ66WE31",
-   "BV1uEnk6XEYy",
-   "BV1GFHg6zEAA",
-   "BV15ksd6EECU",
-   "BV1dpHP6bEHn",
-   "BV1QZx36pE2i",
-   "BV1unnd6fEwv",
-   "BV1LHx76GEEc",
-   "BV1R5nZ6rEMs",
-   "BV1EVx76mEUe",
-   "BV1Mxnd6xEnu",
-   "BV1jxnp6jEKj",
-   "BV1bmWF6CEQ1",
-   "BV1pgnR62EZ4",
-   "BV15tnX64EMa",
-   "BV1dsn86FEPZ",
-   "BV1j7xL6TE5W",
-   "BV1a4xK6uEwD",
-   "BV1pxsd6FEBE",
-   "BV14eHF6iEEP",
-   "BV1Htsd6ZErE",
-   "BV1rYxE6XEqW",
-   "BV1SZxu6yEQW",
-   "BV1vCxT67ExR",
-   "BV18hxK6iEJH",
-   "BV1G9xF64E9Q"
+  "开源大模型": [
+   "BV1PnxN6sESZ",
+   "BV1kXso68EBo",
+   "BV1kAxi6TEn7",
+   "BV1F4xq66EUS",
+   "BV1VpxP6NEky",
+   "BV121so6NEtG",
+   "BV12Dxv6LEQT",
+   "BV1M3xq6DE2L",
+   "BV1VoxF6sEzb",
+   "BV1bHxF6EEP4",
+   "BV1BCxF6PEDi",
+   "BV1QAx56oEdu",
+   "BV1fusX6VEf4",
+   "BV1yUso6AE2c",
+   "BV1qTxF6ZEvV",
+   "BV1uAxY66EsN",
+   "BV15Dxa6UEXr",
+   "BV18Pxv6mERY",
+   "BV1bDxv6jELR",
+   "BV1Q6xY65EuD",
+   "BV1xssZ6BEcE",
+   "BV1QHxe6jETd",
+   "BV1WexF6gEXk",
+   "BV1mkso6TEWK",
+   "BV18ysQ6hESx",
+   "BV1AnxN6sERz",
+   "BV1fnsf6FENS",
+   "BV1Coxv63Eyz",
+   "BV15ixA6iEq6",
+   "BV19bsf69EQt",
+   "BV1aWxP6YEnF"
   ],
   "AI新模型": [
    "BV1zBxE6JEty",
+   "BV1aQsd6GE2D",
    "BV1GSsd6CEDe",
    "BV1TZsd6MEbE",
    "BV1Nyx764EKk",
-   "BV1aQsd6GE2D",
    "BV1Zpsf6ZEPF",
    "BV1qAsZ6XEmr",
    "BV1gLxE6KEX7",
@@ -2420,49 +2632,66 @@
    "BV1hLsZ6yEX5",
    "BV1QBxc6xEA3",
    "BV1pps96WEUG",
-   "BV18ysQ6hESx",
    "BV1pxsd6FEBE",
+   "BV18ysQ6hESx",
    "BV1Bexj65EH4",
    "BV1rAxw6uEPm",
    "BV1zoso6oEHa",
    "BV1eMsZ6JEjs",
    "BV1EyxF6YEwJ"
   ],
-  "开源大模型": [
-   "BV1kXso68EBo",
-   "BV121so6NEtG",
-   "BV1PnxN6sESZ",
-   "BV1bHxF6EEP4",
-   "BV1BCxF6PEDi",
-   "BV1qTxF6ZEvV",
-   "BV1fusX6VEf4",
-   "BV18ysQ6hESx",
-   "BV1mkso6TEWK",
-   "BV1WexF6gEXk",
-   "BV1fnsf6FENS",
-   "BV1AnxN6sERz",
-   "BV19bsf69EQt",
-   "BV1eMsZ6JEjs",
-   "BV1xssZ6BEcE"
+  "多模态大模型": [
+   "BV1aQsd6GE2D",
+   "BV1q1nd6rEcD",
+   "BV1izHG6DESi",
+   "BV1ySsf6gEoq",
+   "BV1RZJ66WE31",
+   "BV1VoxF6sEzb",
+   "BV1uEnk6XEYy",
+   "BV15ksd6EECU",
+   "BV1X7xw6fEGy",
+   "BV1GFHg6zEAA",
+   "BV1PVxc6CEPg",
+   "BV1oTxw6iEZa",
+   "BV1QZx36pE2i",
+   "BV1unnd6fEwv",
+   "BV1LHx76GEEc",
+   "BV1Mxnd6xEnu",
+   "BV1EVx76mEUe",
+   "BV1R5nZ6rEMs",
+   "BV1pgnR62EZ4",
+   "BV1G9xF64E9Q",
+   "BV1P5xY6AE59",
+   "BV15tnX64EMa",
+   "BV1gAxv6EEds",
+   "BV1j7xL6TE5W",
+   "BV1Htsd6ZErE",
+   "BV1pxsd6FEBE",
+   "BV1a4xK6uEwD",
+   "BV14eHF6iEEP",
+   "BV1SZxu6yEQW",
+   "BV1rYxE6XEqW",
+   "BV16UxP6jEnH",
+   "BV1hExe6EEvf",
+   "BV1vCxT67ExR",
+   "BV1E8xq6BEtD",
+   "BV1Mmxv6EEDp",
+   "BV1xixP6sEEV",
+   "BV18hxK6iEJH",
+   "BV18xxP6wESQ"
   ],
   "大模型": [
-   "BV1KGxc65E3H",
-   "BV1Tmxc6nEC5",
-   "BV1TsHT6dEeB",
-   "BV1wjxc6rEiP",
-   "BV1AExc6gEhe",
-   "BV1Jxxc6vEAZ",
-   "BV1AVxc6CEfx",
-   "BV12Uxc6UEhC",
-   "BV1VoxF6sE8v",
-   "BV1Umxc6JESH",
-   "BV1Bexj65EH4",
-   "BV1gSx564Exr",
-   "BV1xGxc65Ezb",
-   "BV1Jxxc6vE5p",
-   "BV1Ztxc6AEvV",
-   "BV1G9xF64E9Q",
-   "BV1cJxc6zEwA"
+   "BV1kcxw66Eso",
+   "BV197xi6oEas",
+   "BV1Buxi6AEHY",
+   "BV1Xnxi6REok",
+   "BV15cxz6KEQS",
+   "BV1GMxz6hEgW",
+   "BV1eJxi6xEF5",
+   "BV1dn4y1f79c",
+   "BV1iGxi6cEeY",
+   "BV1fTxi6eEaE",
+   "BV1i5xi6fErN"
   ]
  },
  "honesty": "数据来自B站搜索公开结果页，由浏览器管线抓取后以 q*.json 入库、本脚本编译。发布日期由「N分钟/小时/天前」相对时间按抓取时刻推算，已用 dateApprox 标注。搜索页不含点赞数，likes 恒为 null。已用确定性规则（AI 关键词/话题标签 + 非 AI 语境排除，仅读标题）过滤掉关键词误捞的非 AI 内容，规则见 scripts/build-bilibili.js。视频观点为UP主个人创作，不代表事实结论。"

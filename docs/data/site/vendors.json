@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "vendors": [
     {
       "id": "alibaba",
@@ -44,7 +44,7 @@
     {
       "id": "mistral",
       "name": "Mistral",
-      "n": 27,
+      "n": 28,
       "cheapest": 0,
       "latest": "2026-10-06",
       "country": "intl"
@@ -58,20 +58,20 @@
       "country": "intl"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
-      "country": "intl"
-    },
-    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
+      "country": "intl"
     },
     {
       "id": "anthropic",
@@ -138,6 +138,14 @@
       "country": "cn"
     },
     {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
+      "country": "cn"
+    },
+    {
       "id": "meta",
       "name": "Meta",
       "n": 6,
@@ -154,35 +162,11 @@
       "country": "cn"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
-      "country": "cn"
-    },
-    {
       "id": "upstage",
       "name": "Upstage",
       "n": 5,
       "cheapest": 0.1,
       "latest": "2026-09-22",
-      "country": "intl"
-    },
-    {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
-      "country": "intl"
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "n": 4,
-      "cheapest": 1,
-      "latest": "2025-02-01",
       "country": "intl"
     },
     {
@@ -202,12 +186,28 @@
       "country": "intl"
     },
     {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
-      "cheapest": 0,
-      "latest": "2026-08-28",
-      "country": "cn"
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
+      "country": "intl"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "n": 4,
+      "cheapest": 1,
+      "latest": "2025-02-01",
+      "country": "intl"
+    },
+    {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
     },
     {
       "id": "poolside",
@@ -218,12 +218,12 @@
       "country": "intl"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
+      "cheapest": 0,
+      "latest": "2026-08-28",
+      "country": "cn"
     },
     {
       "id": "cerebras",
@@ -242,20 +242,20 @@
       "country": "intl"
     },
     {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
-      "country": "cn"
-    },
-    {
       "id": "sarvam",
       "name": "Sarvam AI",
       "n": 2,
       "cheapest": 0.15790269,
       "latest": "2026-02-18",
       "country": "intl"
+    },
+    {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
+      "country": "cn"
     },
     {
       "id": "longcat",

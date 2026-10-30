@@ -1,14 +1,14 @@
 {
-  "date": "2026-10-30",
+  "date": "2026-10-31",
   "mode": "diff",
-  "baselineDate": "2026-10-29",
+  "baselineDate": "2026-10-30",
   "counts": {
-    "new": 0,
+    "new": 1,
     "retired": 0,
-    "price": 0,
+    "price": 1,
     "context": 0,
-    "news": 20,
-    "facts": 0,
+    "news": 14,
+    "facts": 2,
     "newsAttached": 0
   },
   "degraded": [
@@ -78,8 +78,8 @@
   ],
   "totals": {
     "originVendors": 33,
-    "originModels": 606,
-    "channels": 193,
-    "allEntries": 8918
+    "originModels": 607,
+    "channels": 194,
+    "allEntries": 8931
   }
 }

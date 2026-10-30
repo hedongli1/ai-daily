@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-30",
+  "generated": "2026-10-31",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -31,6 +31,18 @@
       }
     },
     {
+      "model": "Claude Opus 4.6",
+      "release": "2026-02-05",
+      "nRuns": 32,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 32,
+          "avg": 0.4627,
+          "best": 0.9444
+        }
+      }
+    },
+    {
       "model": "GPT-5.4",
       "release": "2026-03-05",
       "nRuns": 31,
@@ -39,18 +51,6 @@
           "n": 31,
           "avg": 0.5459,
           "best": 0.9778
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 4.6",
-      "release": "2026-02-05",
-      "nRuns": 31,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 31,
-          "avg": 0.4668,
-          "best": 0.9444
         }
       }
     },
@@ -213,12 +213,24 @@
     {
       "model": "GPT-6 Astra",
       "release": "2026-09-03",
-      "nRuns": 20,
+      "nRuns": 21,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 20,
-          "avg": 0.7215,
+          "n": 21,
+          "avg": 0.7157,
           "best": 1
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 4.8",
+      "release": "2026-05-28",
+      "nRuns": 21,
+      "domains": {
+        "Language": {
+          "n": 21,
+          "avg": 0.5645,
+          "best": 0.9833
         }
       }
     },
@@ -271,18 +283,6 @@
       }
     },
     {
-      "model": "Claude Opus 4.8",
-      "release": "2026-05-28",
-      "nRuns": 20,
-      "domains": {
-        "Language": {
-          "n": 20,
-          "avg": 0.5599,
-          "best": 0.9833
-        }
-      }
-    },
-    {
       "model": "Claude Fable 5",
       "release": "2026-06-09",
       "nRuns": 20,
@@ -315,6 +315,30 @@
           "n": 19,
           "avg": 0.5019,
           "best": 0.956
+        }
+      }
+    },
+    {
+      "model": "Claude Opus 5",
+      "release": "2026-07-24",
+      "nRuns": 17,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 17,
+          "avg": 0.6728,
+          "best": 0.9889
+        }
+      }
+    },
+    {
+      "model": "Kimi K3",
+      "release": "2026-07-16",
+      "nRuns": 17,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 17,
+          "avg": 0.5346,
+          "best": 0.9722
         }
       }
     },
@@ -367,18 +391,6 @@
       }
     },
     {
-      "model": "Kimi K3",
-      "release": "2026-07-16",
-      "nRuns": 16,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 16,
-          "avg": 0.5339,
-          "best": 0.9722
-        }
-      }
-    },
-    {
       "model": "Gemini 3 Flash",
       "release": "2025-12-17",
       "nRuns": 16,
@@ -387,18 +399,6 @@
           "n": 16,
           "avg": 0.4883,
           "best": 0.9556
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5",
-      "release": "2026-07-24",
-      "nRuns": 16,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 16,
-          "avg": 0.6599,
-          "best": 0.9889
         }
       }
     },
@@ -463,6 +463,18 @@
       }
     },
     {
+      "model": "Claude Fable 5.1",
+      "release": "2026-09-01",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.539,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Opus 5.5",
       "release": "2026-09-22",
       "nRuns": 14,
@@ -470,6 +482,18 @@
         "Language": {
           "n": 14,
           "avg": 0.5954,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "GPT-6.1 Sol",
+      "release": "2026-09-29",
+      "nRuns": 14,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 14,
+          "avg": 0.632,
           "best": 1
         }
       }
@@ -535,26 +559,26 @@
       }
     },
     {
-      "model": "Claude Fable 5.1",
-      "release": "2026-09-01",
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
       "nRuns": 13,
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 13,
-          "avg": 0.5086,
+          "avg": 0.55,
           "best": 1
         }
       }
     },
     {
-      "model": "GPT-6.1 Sol",
-      "release": "2026-09-29",
-      "nRuns": 13,
+      "model": "Claude Haiku 5.5",
+      "release": "2026-10-07",
+      "nRuns": 12,
       "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 13,
-          "avg": 0.6336,
-          "best": 1
+        "Language,Vision": {
+          "n": 12,
+          "avg": 0.5918,
+          "best": 0.9889
         }
       }
     },
@@ -591,18 +615,6 @@
           "n": 12,
           "avg": 0.5309,
           "best": 0.9472
-        }
-      }
-    },
-    {
-      "model": "Claude Sonnet 5.5",
-      "release": "2026-09-28",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5144,
-          "best": 1
         }
       }
     },
@@ -667,18 +679,6 @@
       }
     },
     {
-      "model": "Claude Haiku 5.5",
-      "release": "2026-10-07",
-      "nRuns": 11,
-      "domains": {
-        "Language,Vision": {
-          "n": 11,
-          "avg": 0.5739,
-          "best": 0.9889
-        }
-      }
-    },
-    {
       "model": "Grok-3 mini",
       "release": "2025-04-09",
       "nRuns": 11,
@@ -699,6 +699,18 @@
           "n": 10,
           "avg": 0.5117,
           "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "Gemini 3.8 Flash",
+      "release": "2026-09-02",
+      "nRuns": 10,
+      "domains": {
+        "Language,Multimodal,Image generation,Video,Audio": {
+          "n": 10,
+          "avg": 0.5299,
+          "best": 0.9889
         }
       }
     },
@@ -787,18 +799,6 @@
       }
     },
     {
-      "model": "Gemini 3.8 Flash",
-      "release": "2026-09-02",
-      "nRuns": 9,
-      "domains": {
-        "Language,Multimodal,Image generation,Video,Audio": {
-          "n": 9,
-          "avg": 0.5456,
-          "best": 0.9889
-        }
-      }
-    },
-    {
       "model": "Gemini 3.1 Flash-Lite",
       "release": "2026-03-03",
       "nRuns": 9,
@@ -843,6 +843,42 @@
           "n": 8,
           "avg": 0.5135,
           "best": 0.9778
+        }
+      }
+    },
+    {
+      "model": "Qwen3.8 Max (0902)",
+      "release": "2026-09-01",
+      "nRuns": 8,
+      "domains": {
+        "Language,Vision": {
+          "n": 8,
+          "avg": 0.5552,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Qwen 3.8 Max",
+      "release": "2026-08-02",
+      "nRuns": 8,
+      "domains": {
+        "Language,Vision,Video": {
+          "n": 8,
+          "avg": 0.619,
+          "best": 0.9944
+        }
+      }
+    },
+    {
+      "model": "DeepSeek V4 Pro 0813",
+      "release": "2026-08-13",
+      "nRuns": 8,
+      "domains": {
+        "Language": {
+          "n": 8,
+          "avg": 0.5711,
+          "best": 0.9861
         }
       }
     },
@@ -943,6 +979,18 @@
       }
     },
     {
+      "model": "Muse Wonder",
+      "release": "2026-10-12",
+      "nRuns": 7,
+      "domains": {
+        "Language,Vision,Video,Multimodal": {
+          "n": 7,
+          "avg": 0.6206,
+          "best": 0.9944
+        }
+      }
+    },
+    {
       "model": "GPT-5.4 Pro",
       "release": "2026-03-05",
       "nRuns": 7,
@@ -999,42 +1047,6 @@
           "n": 7,
           "avg": 0.5244,
           "best": 0.9444
-        }
-      }
-    },
-    {
-      "model": "Qwen 3.8 Max",
-      "release": "2026-08-02",
-      "nRuns": 7,
-      "domains": {
-        "Language,Vision,Video": {
-          "n": 7,
-          "avg": 0.6329,
-          "best": 0.9944
-        }
-      }
-    },
-    {
-      "model": "DeepSeek V4 Pro 0813",
-      "release": "2026-08-13",
-      "nRuns": 7,
-      "domains": {
-        "Language": {
-          "n": 7,
-          "avg": 0.6051,
-          "best": 0.9861
-        }
-      }
-    },
-    {
-      "model": "Qwen3.8 Max (0902)",
-      "release": "2026-09-01",
-      "nRuns": 7,
-      "domains": {
-        "Language,Vision": {
-          "n": 7,
-          "avg": 0.5662,
-          "best": 1
         }
       }
     },
@@ -1167,18 +1179,6 @@
           "n": 7,
           "avg": 0.3198,
           "best": 0.8875
-        }
-      }
-    },
-    {
-      "model": "Muse Wonder",
-      "release": "2026-10-12",
-      "nRuns": 6,
-      "domains": {
-        "Language,Vision,Video,Multimodal": {
-          "n": 6,
-          "avg": 0.6481,
-          "best": 0.9944
         }
       }
     },
