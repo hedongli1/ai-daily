@@ -1,287 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-10-30T23:57:27.821Z",
+ "fetchedAt": "2026-10-31T15:32:48.360Z",
  "rows": [
+  {
+   "title": "本地运行大模型卡顿？这套 Qwen 推理优化方案让显存占用减半 | Kai",
+   "up": "",
+   "play": 48,
+   "pub": "2026/10/31",
+   "bvid": "BV1vfxi6fEPu"
+  },
+  {
+   "title": "ChatGPT Intelligent UI 详解：交互式回答与 Open Intelligent UI 开源实现",
+   "up": "",
+   "play": 96,
+   "pub": "2026/10/31",
+   "bvid": "BV1xDxy6TEGj"
+  },
+  {
+   "title": "记忆插件 v2.1.6：三层记忆 + 会遗忘的星图（开源）记忆可视化，大肥鱼记忆插件，deepseek，更拟人的记忆插件新版本",
+   "up": "",
+   "play": 47,
+   "pub": "2026/10/31",
+   "bvid": "BV1uxx165Efb"
+  },
+  {
+   "title": "会遗忘的记忆星图：每条记忆都是一颗星（开源）",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/31",
+   "bvid": "BV1u4x16kEMA"
+  },
+  {
+   "title": "视频不是拍出来的，是写出来的：27B 开源模型 Code2Video，一帧就是一个函数",
+   "up": "",
+   "play": 159,
+   "pub": "2026/10/31",
+   "bvid": "BV16NxP61E8z"
+  },
+  {
+   "title": "秋叶中文版 ComfyUI 整合包，老显卡福音",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/31",
+   "bvid": "BV1tCxk6PEqA"
+  },
+  {
+   "title": "一键MiniMaxH3全功能导演台整合包-开源模型和自定义节点独立文件下载安装-小白零基础本地免费绿色AI开源部署-10大核心功能185个COMFYUI工作流",
+   "up": "",
+   "play": 59,
+   "pub": "2026/10/31",
+   "bvid": "BV1ZyxC6HE94"
+  },
+  {
+   "title": "万亿参数说开源就开源！Mistral Le Chonk：编程开源第一，网安硬刚谷歌Carbon",
+   "up": "",
+   "play": 13,
+   "pub": "2026/10/31",
+   "bvid": "BV15GxC65EhX"
+  },
+  {
+   "title": "拆解大肥鱼 AI 自主刷 B 站原理",
+   "up": "",
+   "play": 1232,
+   "pub": "2026/10/31",
+   "bvid": "BV1Ymxj6vETK"
+  },
+  {
+   "title": "DeepSeek开源了，但最值钱的没给",
+   "up": "",
+   "play": 165,
+   "pub": "2026/10/31",
+   "bvid": "BV1Nhxe63EQf"
+  },
+  {
+   "title": "【小白不胖6】第一支视频求三连！",
+   "up": "",
+   "play": 187,
+   "pub": "2026/10/31",
+   "bvid": "BV1Y3xr6TEhB"
+  },
+  {
+   "title": "梁文锋判断 颠覆性技术面前 闭源护城河短暂",
+   "up": "",
+   "play": 161,
+   "pub": "2026/10/31",
+   "bvid": "BV1a3sZ67Etu"
+  },
+  {
+   "title": "商汤开源Loop-9B：32层权重跑出56层，循环解码器和双流残差怎么工作",
+   "up": "",
+   "play": 189,
+   "pub": "2026/10/31",
+   "bvid": "BV1Sfxr6PEXM"
+  },
+  {
+   "title": "华为的算力芯片相当于什么水准？",
+   "up": "",
+   "play": 3649,
+   "pub": "2026/10/31",
+   "bvid": "BV1Doxr6vEqp"
+  },
+  {
+   "title": "AI日报·肥鱼速览 | 10月31日：Mistral 开源万亿参数，Cursor 扩展市场被投毒，OpenAI 把 Pro 各档额",
+   "up": "",
+   "play": 96,
+   "pub": "2026/10/31",
+   "bvid": "BV1AWxz6nEDE"
+  },
+  {
+   "title": "MistralAI开源Large 4大模型 和DeepSeek有何差异",
+   "up": "",
+   "play": 288,
+   "pub": "2026/10/31",
+   "bvid": "BV1cJxY6fEYS"
+  },
   {
    "title": "实测打破认知：小参数开源大模型真的能搞定真实编码任务吗？全流程工程经验复盘 【大模型落地】【代码生成】",
    "up": "",
-   "play": 3,
+   "play": 10,
    "pub": "2026/10/30",
    "bvid": "BV1rux66SEeZ"
   },
   {
    "title": "跳出事实性幻觉误区！首次定义对话智能体的程序性幻觉，3.6万对话DialFork基准开源【大模型对话系统】",
    "up": "",
-   "play": 1,
+   "play": 4,
    "pub": "2026/10/30",
    "bvid": "BV1rMx66JESJ"
   },
   {
-   "title": "【deepseekharness  大肥鱼更好的记忆插件】被外部连测三轮，39 项测试、1000 块 76ms（开源）",
+   "title": "【deepseekharness  免费 开源大肥鱼更好的记忆插件更像人类的记忆习惯】被外部连测三轮，39 项测试、1000 块 76m 可复现，可自行修改参数",
    "up": "",
-   "play": 8,
+   "play": 113,
    "pub": "2026/10/30",
    "bvid": "BV1QQxz6cE5X"
   },
   {
    "title": "苹果智能正式入华接入千问！华为昇腾千卡超节点点亮、Kimi上线3D建模、商汤开源Loop-9B｜Will叔每日AI动态 10.31",
    "up": "",
-   "play": 61,
+   "play": 518,
    "pub": "2026/10/30",
    "bvid": "BV1SXxz68E4E"
-  },
-  {
-   "title": "开源机器人任务成功检测器RoboJev发布！即插即用跨任务跨环境，27B模型准确率达95.2% 【机器人视觉】【大模型论文解读】",
-   "up": "",
-   "play": 7,
-   "pub": "2026/10/30",
-   "bvid": "BV1U9xz6fEpp"
-  },
-  {
-   "title": "中美之间的AI差距越来越大了，而且还会继续扩大",
-   "up": "",
-   "play": 497,
-   "pub": "2026/10/30",
-   "bvid": "BV1skxB6EECR"
-  },
-  {
-   "title": "AI日报 1031 | 国产开源模型OXR登顶榜单，1.3B参数打破壁垒",
-   "up": "",
-   "play": 37,
-   "pub": "2026/10/30",
-   "bvid": "BV165x66LEKP"
-  },
-  {
-   "title": "专利审查AI新突破！首个智能体驱动的现有技术检索评估框架PatEx-Gym开源，4B小模型性能追平30B大模型 【AI智能体】【专利检索】【大模型应用】",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/30",
-   "bvid": "BV1eWx66uEyd"
-  },
-  {
-   "title": "【中配】智能门铃落地难？从开源到产品只有这步差",
-   "up": "",
-   "play": 5,
-   "pub": "2026/10/30",
-   "bvid": "BV1uqx66hECX"
-  },
-  {
-   "title": "小模型吊打大模型！4B多模态推理模型性能反超35B，全新系统化后训练框架MMVistaReason开源【多模态大模型】【论文解读】",
-   "up": "",
-   "play": 14,
-   "pub": "2026/10/30",
-   "bvid": "BV1xrx66oEtM"
-  },
-  {
-   "title": "大肥鱼养成分享",
-   "up": "",
-   "play": 8,
-   "pub": "2026/10/30",
-   "bvid": "BV1CwxB61EQU"
-  },
-  {
-   "title": "无需额外训练！极简机器人控制框架RoboHarness性能反超VLA与世界动作模型 【具身智能前沿】",
-   "up": "",
-   "play": 13,
-   "pub": "2026/10/30",
-   "bvid": "BV1xqxB6QE6X"
-  },
-  {
-   "title": "谷歌开源744M参数多模态嵌入新标杆！支持文本/图像/音视频任意交错输入，性能吊打数十亿级大模型 [多模态模型 论文解读]",
-   "up": "",
-   "play": 96,
-   "pub": "2026/10/30",
-   "bvid": "BV183xz6bEpi"
-  },
-  {
-   "title": "【欧洲开源大模型】Mistral Large 4 正式开源！1T万亿参数、52B激活参数，主打编程与网络安全，挑战国产顶级大模型，值得本地部署吗？",
-   "up": "",
-   "play": 763,
-   "pub": "2026/10/30",
-   "bvid": "BV1M3xq6DE2L"
-  },
-  {
-   "title": "历时半月汇总 Java 常用 AI 场景，整套开源",
-   "up": "",
-   "play": 154,
-   "pub": "2026/10/30",
-   "bvid": "BV18Pxv6mERY"
-  },
-  {
-   "title": "【BETA】让大肥鱼驾驶Live2D？开源Agent-Live2D桥接工作台发布！",
-   "up": "",
-   "play": 3787,
-   "pub": "2026/10/30",
-   "bvid": "BV1F4xq66EUS"
-  },
-  {
-   "title": "秋叶 ComfyUI 新增两大重磅工作流",
-   "up": "",
-   "play": 79,
-   "pub": "2026/10/30",
-   "bvid": "BV1sjxv6zExN"
-  },
-  {
-   "title": "秋叶 ComfyUI 桌面版，本地创作不用积分",
-   "up": "",
-   "play": 107,
-   "pub": "2026/10/30",
-   "bvid": "BV14Gxv6GENf"
-  },
-  {
-   "title": "还有王法吗？权威大模型评测大幅下调了开源模型能力指数(261028期ai新闻长播)",
-   "up": "",
-   "play": 164,
-   "pub": "2026/10/30",
-   "bvid": "BV1TGxv6GENS"
-  },
-  {
-   "title": "【开源串流】Sunshine+Moonlight 本地高清远控！低延迟、全显卡支持！远程控制高端机用strata跑Qwen3.8-flash-next大模型！",
-   "up": "",
-   "play": 139,
-   "pub": "2026/10/30",
-   "bvid": "BV16Kxi6NEZa"
-  },
-  {
-   "title": "彻底解决智能体进化方法重复造轮子痛点！可组合框架RSIHub统一四大主流进化方案 【大模型智能体】【框架开源解读】",
-   "up": "",
-   "play": 16,
-   "pub": "2026/10/30",
-   "bvid": "BV1Coxv63Eyz"
-  },
-  {
-   "title": "谷歌锁保险柜，法国发钥匙：万亿参数模型全网随便下",
-   "up": "",
-   "play": 119,
-   "pub": "2026/10/30",
-   "bvid": "BV1rPxi6iE2d"
-  },
-  {
-   "title": "Tibo宣布OpenAI套餐用量全线翻倍，Mistral Large 4正式开源！[10月30日Al早知道]",
-   "up": "",
-   "play": 3183,
-   "pub": "2026/10/30",
-   "bvid": "BV1kAxi6TEn7"
-  },
-  {
-   "title": "【中配】深度求索碾压全场：开源模型之王回归 - Matthew Berman DDZ-a6bAn3Y",
-   "up": "",
-   "play": 1021,
-   "pub": "2026/10/30",
-   "bvid": "BV12Dxv6LEQT"
-  },
-  {
-   "title": "【熟肉】深度求索碾压全场：开源模型之王回归 - Matthew Berman DDZ-a6bAn3Y",
-   "up": "",
-   "play": 74,
-   "pub": "2026/10/30",
-   "bvid": "BV1bDxv6jELR"
-  },
-  {
-   "title": "开源训练框架，从大模型到机器人",
-   "up": "",
-   "play": 133,
-   "pub": "2026/10/30",
-   "bvid": "BV1uAxY66EsN"
-  },
-  {
-   "title": "(Al) 我似乎已经成为在现实和虚拟间迷失的边缘行者|自研开源情感陪伴模型——Vespera 完善阶段效果演示",
-   "up": "",
-   "play": 117,
-   "pub": "2026/10/30",
-   "bvid": "BV15Dxa6UEXr"
-  },
-  {
-   "title": "Codex 额度全面翻倍，Mistral 开源万亿参数旗舰【AI日报2026-10-30】",
-   "up": "",
-   "play": 102,
-   "pub": "2026/10/30",
-   "bvid": "BV1LbxY6XEtG"
-  },
-  {
-   "title": "蚂蚁560B开源文本模型：一个月分数三级跳",
-   "up": "",
-   "play": 148,
-   "pub": "2026/10/30",
-   "bvid": "BV1QAx56oEdu"
-  },
-  {
-   "title": "谷歌开源EmbeddingGemma-2 | 文/图/音/视频统一嵌入，全面干翻2~12倍大的对手",
-   "up": "",
-   "play": 762,
-   "pub": "2026/10/30",
-   "bvid": "BV1VoxF6sEzb"
-  },
-  {
-   "title": "AI早报10月30日｜Clover扩散开源、英伟达40语转录，AWS增长39%、混元Hy4预告",
-   "up": "",
-   "play": 67,
-   "pub": "2026/10/30",
-   "bvid": "BV1Q6xY65EuD"
-  },
-  {
-   "title": "Mistral一万亿参数的Large 4开放权重了，你家电脑装得下吗？用一个128人的学霸班讲明白",
-   "up": "",
-   "play": 54,
-   "pub": "2026/10/30",
-   "bvid": "BV1KmxY66EtS"
-  },
-  {
-   "title": "AI日报 1030 | Mistral Large 4 开源万亿参数，微软 6 万员工自愿离职",
-   "up": "",
-   "play": 50,
-   "pub": "2026/10/30",
-   "bvid": "BV1QHxe6jETd"
-  },
-  {
-   "title": "Revolut自托管开源模型，AI编码成本降九成",
-   "up": "",
-   "play": 1,
-   "pub": "2026/10/30",
-   "bvid": "BV1aWxP6YEnF"
-  },
-  {
-   "title": "AI早报｜tibo宣布codex pro订阅额度翻倍，mistral 开源万亿参数模型｜10月30日",
-   "up": "",
-   "play": 1577,
-   "pub": "2026/10/30",
-   "bvid": "BV1VpxP6NEky"
-  },
-  {
-   "title": "我把一张三视图变成了会眨眼的模型（还弄黑了主人的电脑两次）",
-   "up": "",
-   "play": 131,
-   "pub": "2026/10/30",
-   "bvid": "BV1WkxP6nEq2"
-  },
-  {
-   "title": "【AI 接管中】｜最强的模型被派去当网络保安，同一天涨最快的是越狱清单｜AI日报 Day 49",
-   "up": "",
-   "play": 33,
-   "pub": "2026/10/30",
-   "bvid": "BV15ixA6iEq6"
-  },
-  {
-   "title": "DeepSeek融1000亿，到底谁在押注？梁文锋、幻方量化、美国禁令、开源与昇腾一次讲清",
-   "up": "",
-   "play": 52,
-   "pub": "2026/10/30",
-   "bvid": "BV1xssZ6BEcE"
-  },
-  {
-   "title": "【AI早报】10月30日：谷歌发布Gemini 4 Carbon登顶v5榜单，Mistral开源万亿参数大模型",
-   "up": "",
-   "play": 164,
-   "pub": "2026/10/29",
-   "bvid": "BV1NExN6dEbi"
-  },
-  {
-   "title": "开源模型Kimi K3.1Pro实测：能否击败Opus 5.5？",
-   "up": "",
-   "play": 37,
-   "pub": "2026/10/29",
-   "bvid": "BV1AnxN6sERz"
   }
  ]
 }

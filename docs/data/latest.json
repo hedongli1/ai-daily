@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 1,
     "context": 0,
-    "news": 18,
+    "news": 19,
     "facts": 2,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 2
     },
     {
       "id": "meta-llama",
@@ -104,6 +104,11 @@
           "source": "Mistral AI"
         },
         {
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
+        },
+        {
           "title": "client-ts ·  TS Client library for Mistral AI platform ",
           "url": "https://github.com/mistralai/client-ts/releases",
           "source": "Mistral AI"
@@ -112,13 +117,34 @@
           "title": "client-python · Python client library for Mistral AI platform",
           "url": "https://github.com/mistralai/client-python/releases",
           "source": "Mistral AI"
-        },
-        {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
-          "source": "Mistral AI"
         }
       ]
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "dsh-superagent-prototype · Towards a More Autonomous Agent System",
+      "date": "2026-10-31",
+      "facts": {},
+      "text": "dsh-superagent-prototype · Towards a More Autonomous Agent System",
+      "href": "https://github.com/deepseek-ai/dsh-superagent-prototype/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-10-31",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
     },
     {
       "type": "news",
@@ -175,19 +201,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-10-30",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "meta",
       "vendorName": "Meta Llama",
       "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
@@ -216,6 +229,19 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-10-30",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
       "name": "client-ts ·  TS Client library for Mistral AI platform ",
       "date": "2026-10-30",
       "facts": {},
@@ -234,19 +260,6 @@
       "facts": {},
       "text": "client-python · Python client library for Mistral AI platform",
       "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-10-30",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },
