@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "board": {
     "latest": [
       {
@@ -60,7 +60,7 @@
         "n": "glm-5-3",
         "name": "GLM-5.3",
         "vn": "智谱 AI",
-        "val": 89,
+        "val": 90,
         "metric": "渠道数"
       }
     ]
@@ -102,9 +102,9 @@
       "n": "muse-wonder",
       "name": "Muse Wonder",
       "vn": "Meta",
-      "avg": 0.6206,
+      "avg": 0.6481,
       "best": 0.9944,
-      "runs": 7
+      "runs": 6
     },
     {
       "tag": "Audio",
