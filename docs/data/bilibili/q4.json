@@ -1,33 +1,61 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-11-01T16:30:49.775Z",
+ "fetchedAt": "2026-11-01T23:46:38.988Z",
  "rows": [
+  {
+   "title": "多模态交错生成新基准！10万级真实场景数据集+7维度细粒度评测套件开源 【多模态生成】【数据集开源】【AI论文解读】",
+   "up": "",
+   "play": 9,
+   "pub": "2026/11/1",
+   "bvid": "BV18Vx86KEqH"
+  },
+  {
+   "title": "专门针对运动健康教练场景的LLM基准来了！多维度评分+安全红线机制，填补AI健身评估空白 【大模型评测】【AI健身】【领域基准】",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/1",
+   "bvid": "BV1t7x86YEwV"
+  },
+  {
+   "title": "首个面向多用户人格的计算机操作智能体基准发布！74项任务11大领域，实测9款主流模型性能暴跌30%+ 【智能体评测】【AI前沿论文解读】",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/1",
+   "bvid": "BV1agx86MENb"
+  },
+  {
+   "title": "大模型Agent记忆能力新基准！HABIT-Bench专门测评从长期弱证据中归纳用户习惯的核心能力 【大模型Agent】【AI基准评测】",
+   "up": "",
+   "play": 49,
+   "pub": "2026/11/1",
+   "bvid": "BV1ekxt6BEFz"
+  },
   {
    "title": "AI科普视频爆火的背后，Opus 5.5 到底有多强？",
    "up": "",
-   "play": 6495,
+   "play": 6823,
    "pub": "2026/11/1",
    "bvid": "BV1GrxW6XEga"
   },
   {
    "title": "AI生成的文本为何总像空洞的废话？Towards AI 团队实测大模型写作基准 | AI Engineer",
    "up": "",
-   "play": 77,
+   "play": 84,
    "pub": "2026/11/1",
    "bvid": "BV1d3nx6pEef"
   },
   {
    "title": "M5 Ultra对决双DGX Spark：本地大模型跑分实测",
    "up": "",
-   "play": 298,
+   "play": 345,
    "pub": "2026/11/1",
    "bvid": "BV1DTxx69EAy"
   },
   {
    "title": "新王二番战：Kimi K3.1 Pro 大战 DeepSeek V4.1 Flash 1017",
    "up": "",
-   "play": 803,
+   "play": 926,
    "pub": "2026/11/1",
    "bvid": "BV1idxs6wEmC"
   },
@@ -41,42 +69,42 @@
   {
    "title": "11.1 Gemini 4 Carbon冲上安全评测第一！Claude文本水印扩展 第42期AI日报",
    "up": "",
-   "play": 118,
+   "play": 120,
    "pub": "2026/11/1",
    "bvid": "BV11Yxp6uE4z"
   },
   {
    "title": "一只鹈鹕，三十六种模样。 LLM多维能力评测·特别篇",
    "up": "",
-   "play": 1042,
+   "play": 1199,
    "pub": "2026/11/1",
    "bvid": "BV1yYxp6uEnE"
   },
   {
    "title": "评测基准改版防刷分！Gemini登顶拉大差距｜绿鸭AI日报",
    "up": "",
-   "play": 1734,
+   "play": 1810,
    "pub": "2026/10/31",
    "bvid": "BV1B1xn6pEct"
   },
   {
    "title": "OCR的进化版本—OXR，实测OXR大模型",
    "up": "",
-   "play": 1054,
+   "play": 1092,
    "pub": "2026/10/31",
    "bvid": "BV16cx168EYh"
   },
   {
    "title": "128GB大内存本地AI主机，华擎Strix Halo迷你盒到底多能打？ | ServeTheHome",
    "up": "",
-   "play": 132,
+   "play": 139,
    "pub": "2026/10/31",
    "bvid": "BV1Xkxq6bEef"
   },
   {
    "title": "【每日前沿文章·NLP】评测分数不动不代表没进步｜Your Benchmark Is an Empirical Measure Over Difficulty",
    "up": "",
-   "play": 129,
+   "play": 130,
    "pub": "2026/10/31",
    "bvid": "BV1EcxC6QEDb"
   },
@@ -90,21 +118,21 @@
   {
    "title": "🔥 16GB 显卡跑 27B！DavidAu 的 Qwen 3.8 Turbo Brilliance 50X 实测：5090 飙到 118 tok/s",
    "up": "",
-   "play": 160,
+   "play": 163,
    "pub": "2026/10/31",
    "bvid": "BV11enx6qELW"
   },
   {
    "title": "模型推理变快，任务就真的变快吗？MiniMax 端到端效率评测 | AI Engineer",
    "up": "",
-   "play": 76,
+   "play": 78,
    "pub": "2026/10/31",
    "bvid": "BV1GGny6vEia"
   },
   {
    "title": "GPT-8 UltraFast | 震惊 瘫坐",
    "up": "",
-   "play": 262,
+   "play": 267,
    "pub": "2026/10/31",
    "bvid": "BV1frxC6WEaD"
   },
@@ -114,34 +142,6 @@
    "play": 0,
    "pub": "2026/10/31",
    "bvid": "BV1MAxy6gEou"
-  },
-  {
-   "title": "实测 Kimi K3.1 Pro 与 Claude Opus 5.5 对比（原始结果）",
-   "up": "",
-   "play": 1113,
-   "pub": "2026/10/31",
-   "bvid": "BV1Ksxr6tE8a"
-  },
-  {
-   "title": "大模型远未收敛：多模态到超节点的算力基座变局",
-   "up": "",
-   "play": 7,
-   "pub": "2026/10/31",
-   "bvid": "BV1YKxr66Eka"
-  },
-  {
-   "title": "具身智能训练场：仿真加真机数据的规模化路径",
-   "up": "",
-   "play": 6,
-   "pub": "2026/10/31",
-   "bvid": "BV1VKxr66EV9"
-  },
-  {
-   "title": "人工智能+行动计划一周年：工业全要素智能化路线",
-   "up": "",
-   "play": 6,
-   "pub": "2026/10/31",
-   "bvid": "BV1YKxr66Eqr"
   }
  ]
 }
