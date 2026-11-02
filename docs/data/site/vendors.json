@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "vendors": [
     {
       "id": "alibaba",
@@ -130,14 +130,6 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 6,
-      "cheapest": 0.1,
-      "latest": "2026-10-12",
-      "country": "intl"
-    },
-    {
       "id": "xiaomi",
       "name": "小米",
       "n": 6,
@@ -154,6 +146,14 @@
       "country": "cn"
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "n": 6,
+      "cheapest": 0.1,
+      "latest": "2026-10-12",
+      "country": "intl"
+    },
+    {
       "id": "moonshotai",
       "name": "月之暗面",
       "n": 6,
@@ -167,14 +167,6 @@
       "n": 5,
       "cheapest": 0.1,
       "latest": "2026-09-22",
-      "country": "intl"
-    },
-    {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
       "country": "intl"
     },
     {
@@ -194,6 +186,14 @@
       "country": "intl"
     },
     {
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
+      "country": "intl"
+    },
+    {
       "id": "deepseek",
       "name": "DeepSeek",
       "n": 4,
@@ -202,19 +202,19 @@
       "country": "cn"
     },
     {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
       "id": "poolside",
       "name": "Poolside",
       "n": 3,
       "cheapest": 0,
       "latest": "2026-07-21",
+      "country": "intl"
+    },
+    {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
       "country": "intl"
     },
     {
@@ -234,11 +234,27 @@
       "country": "intl"
     },
     {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
+      "country": "intl"
+    },
+    {
       "id": "longcat",
       "name": "美团 LongCat",
       "n": 2,
       "cheapest": 0.3,
       "latest": "2026-09-25",
+      "country": "cn"
+    },
+    {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 2,
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
       "country": "cn"
     },
     {
@@ -248,22 +264,6 @@
       "cheapest": 0.15790269,
       "latest": "2026-02-18",
       "country": "intl"
-    },
-    {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
-      "country": "intl"
-    },
-    {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
-      "country": "cn"
     }
   ]
 }
