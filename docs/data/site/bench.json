@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1015,15 +1015,15 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 8,
+      "runs": 17,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 8,
-          "avg": 0.4533,
-          "best": 0.9833
+          "n": 17,
+          "avg": 0.4329,
+          "best": 0.9944
         }
       },
-      "rel": "2026-10-06",
+      "rel": "2026-10-29",
       "name": "Mistral Large 4"
     },
     "mistral-large": {
