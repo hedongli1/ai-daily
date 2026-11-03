@@ -1,6 +1,6 @@
 {
   "date": "2026-11-03",
-  "count": 398,
+  "count": 397,
   "models": [
     {
       "n": "jamba-large",
@@ -8799,29 +8799,6 @@
         "图像生成"
       ],
       "rel_ts": 1769558400000
-    },
-    {
-      "n": "grok-imagine-image-quality",
-      "name": "Grok Imagine Image Quality",
-      "v": "xai",
-      "vn": "xAI",
-      "rel": "2026-04-03",
-      "relP": "day",
-      "ctx": 16000,
-      "out": 0,
-      "in": null,
-      "oc": null,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "多模态",
-        "视觉",
-        "图像生成"
-      ],
-      "rel_ts": 1775174400000
     },
     {
       "n": "grok-imagine-video",
