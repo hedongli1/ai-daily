@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1279,11 +1279,11 @@
       "name": "GPT-6.1 Sol"
     },
     "gpt-6-1-terra": {
-      "runs": 8,
+      "runs": 11,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 8,
-          "avg": 0.8331,
+          "n": 11,
+          "avg": 0.6599,
           "best": 1
         }
       },

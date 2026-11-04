@@ -1,287 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-03T02:32:31.688Z",
+ "fetchedAt": "2026-11-04T17:39:05.134Z",
  "rows": [
   {
-   "title": "单人开发挑战大模型实验室！1T训练Token的双循环MoE架构Metis-1.6全技术拆解，踩坑经验全公开 【大模型技术报告】【MoE架构】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/3",
-   "bvid": "BV1Zb4u6tEaQ"
-  },
-  {
-   "title": "Mistral Large 4 怎么守住网络安全前线：开源模型背后的科学 1080P｜中英双语",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/3",
-   "bvid": "BV1jv4u6sE7z"
-  },
-  {
-   "title": "【AI 入门 687】模型的开源许可证｜开源就能随便用吗",
-   "up": "",
-   "play": 1,
-   "pub": "2026/11/3",
-   "bvid": "BV1He4K6tEfM"
-  },
-  {
-   "title": "[附文稿] Modal 首席执行官：开源大语言模型推理是否已达巅峰？| 计算成本将何去何从",
-   "up": "",
-   "play": 334,
-   "pub": "2026/11/3",
-   "bvid": "BV1nr4K6XEt4"
-  },
-  {
-   "title": "大模型投机解码EAGLE-4",
-   "up": "",
-   "play": 111,
-   "pub": "2026/11/3",
-   "bvid": "BV1GJx167Ei7"
-  },
-  {
-   "title": "美团LongCat-2.5 正式版开源",
-   "up": "",
-   "play": 115,
-   "pub": "2026/11/3",
-   "bvid": "BV1sW4w6UEfE"
-  },
-  {
-   "title": "模型说谎时，内部轨迹会变吗？7个几何特征解读大模型欺骗信号_2",
+   "title": "DeepSeek 为什么开源？把最强模型免费送人，它到底图什么",
    "up": "",
    "play": 3,
-   "pub": "2026/11/3",
-   "bvid": "BV1JanB6tEVn"
+   "pub": "2026/11/4",
+   "bvid": "BV1FkxR6WEJv"
   },
   {
-   "title": "DeepSeek智能体被清华微软瘦身，Token砍掉近九成！Qwen坚持开源、腾讯Hyra 2.0｜Will叔每日AI动态 11.03",
+   "title": "Kimi K3.1 Pro 权重开源：2.8T 参数旗舰，编码智能体多项第一【AI风向标加急快讯】",
    "up": "",
-   "play": 602,
-   "pub": "2026/11/2",
-   "bvid": "BV1zA4M64EL1"
+   "play": 541,
+   "pub": "2026/11/4",
+   "bvid": "BV1HqxR6oEQV"
   },
   {
-   "title": "把“核武器”级模型免费送？DeepSeek开源背后，究竟在下什么大棋？",
+   "title": "DeepSeek Harness 源码精读：一切皆插件、主循环与事件总线，手写插件接 MCP｜AI编程｜Agent｜智能体｜大模型｜源码解析",
    "up": "",
-   "play": 349,
-   "pub": "2026/11/2",
-   "bvid": "BV1124A6QEAi"
+   "play": 15,
+   "pub": "2026/11/4",
+   "bvid": "BV1gzxd65Eft"
   },
   {
-   "title": "11月2日科技晚报 | 产能全卖光了，股价却跌了15%：今天科技圈只讲两件事",
+   "title": "DeepSeek Harness 源码精读：一切皆插件、主循环与事件总线，手写插件接 MCP｜AI编程｜Agent｜智能体｜大模型｜源码解析",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/4",
+   "bvid": "BV1ukxd6GEoD"
+  },
+  {
+   "title": "DeepSeek Harness 源码精读：一切皆插件、主循环与事件总线，手写插件接 MCP｜AI编程｜Agent｜智能体｜大模型｜源码解析",
+   "up": "",
+   "play": 9,
+   "pub": "2026/11/4",
+   "bvid": "BV1Esxd69EhF"
+  },
+  {
+   "title": "【腾讯混元 Hy4 正式发布】国产开源大模型冲进第一梯队！原生多模态、Agent、复杂编程全面升级，元宝免费体验！",
+   "up": "",
+   "play": 728,
+   "pub": "2026/11/4",
+   "bvid": "BV1BrxX6LEUb"
+  },
+  {
+   "title": "腾讯史上最强开源模型！770B混元Hy4：能看图、会操作电脑、价格没涨",
+   "up": "",
+   "play": 49,
+   "pub": "2026/11/4",
+   "bvid": "BV1X9xX6TE5P"
+  },
+  {
+   "title": "人民锐评：中国大模型开源开放，逻辑在哪里？",
+   "up": "",
+   "play": 1422,
+   "pub": "2026/11/4",
+   "bvid": "BV18Bx96TELL"
+  },
+  {
+   "title": "你买的旗舰模型被中转站偷偷掉包？Anthropic开源FlashProve用零知识证明验货：斯坦福测31个Llama接口11个有差异，AI中转站降智终于能抓现行",
    "up": "",
    "play": 123,
-   "pub": "2026/11/2",
-   "bvid": "BV1Eq4P6mEh2"
+   "pub": "2026/11/4",
+   "bvid": "BV1uBx96TEHY"
   },
   {
-   "title": "【经验开源】AI 做动画视频完全指南：原理、技巧、Skill 一次给全",
+   "title": "Anthropic开源FlashProve：为4000亿大模型开“密码学收据”",
    "up": "",
-   "play": 6737,
-   "pub": "2026/11/2",
-   "bvid": "BV1f94c6uEr3"
+   "play": 1448,
+   "pub": "2026/11/4",
+   "bvid": "BV1i4x96yESu"
   },
   {
-   "title": "【硬核实测】一张4000块二手7900XTX，把125B千亿大模型干到了近200 Tokens/s！",
+   "title": "开天辟地，混元难为！腾讯HY4正式版来袭！与K3.1pro并列开源第一！大厂里最会做AI的？没钱训什么大模型！workbuddy里免费使用！",
    "up": "",
-   "play": 1844,
-   "pub": "2026/11/2",
-   "bvid": "BV1wm4c65ExB"
+   "play": 1040,
+   "pub": "2026/11/4",
+   "bvid": "BV1Lbx96VENr"
   },
   {
-   "title": "压抑到极致的暴力反弹！80%胜率开源量化模型实时分析演示！",
+   "title": "老CPU也能带飞Qwen3.8 Flash？双卡7900XTX实测千亿模型：26万字长文本，预填充狂飙83%！",
    "up": "",
-   "play": 1112,
-   "pub": "2026/11/2",
-   "bvid": "BV14J4w6HEQn"
+   "play": 769,
+   "pub": "2026/11/4",
+   "bvid": "BV1xkxQ6dEuX"
   },
   {
-   "title": "同一组层跑两遍：商汤开源 Loop 9B，用 9B 参数在智能体任务上追平 27B",
+   "title": "腾讯混元发布Hy4，混元团队称其是目前最强的开源模型之一，但与顶尖闭源模型仍然存在较大差距 #AI大模型 #人工智能",
    "up": "",
-   "play": 1553,
-   "pub": "2026/11/2",
-   "bvid": "BV1Rpxb6gEip"
+   "play": 319,
+   "pub": "2026/11/4",
+   "bvid": "BV17jxQ6CESe"
   },
   {
-   "title": "免费使用小米大模型|mimo|glm|deepseek",
+   "title": "【Ai前沿】DeepSeek又掀桌子！推理框架开源，大模型最后的黑箱没了",
    "up": "",
-   "play": 58,
-   "pub": "2026/11/2",
-   "bvid": "BV1Np4w6nEnZ"
+   "play": 63,
+   "pub": "2026/11/4",
+   "bvid": "BV1F9xQ6EE9v"
   },
   {
-   "title": "Claude 5.5与GPT-6.2即将发布！tibo发放重置卡！美团发布1.6万亿龙猫大模型！deepseek开源超级智能体！",
+   "title": "腾讯混元Hy4正式发布，Anthropic开源FlashProve【AI日报2026-11-04】",
    "up": "",
-   "play": 2370,
-   "pub": "2026/11/2",
-   "bvid": "BV1aM4w6fEmZ"
+   "play": 117,
+   "pub": "2026/11/4",
+   "bvid": "BV1syxQ6sEmq"
   },
   {
-   "title": "AI日报|单图生成3D发型！开源工具HairDeck！OpenAI与Claude分别爆出后台新模型！",
+   "title": "Modal CEO：推理是新的云，开源推理见顶了吗？",
    "up": "",
-   "play": 463,
-   "pub": "2026/11/2",
-   "bvid": "BV1854w6REui"
+   "play": 7,
+   "pub": "2026/11/4",
+   "bvid": "BV1s4xX69EjT"
   },
   {
-   "title": "SGLang 0.1｜编码伦理与开源精神",
+   "title": "Claude隐形水印｜一个字没多，它藏在哪？我们用开源版跑了一遍",
    "up": "",
-   "play": 476,
-   "pub": "2026/11/2",
-   "bvid": "BV1Dg4w6tExD"
+   "play": 184,
+   "pub": "2026/11/4",
+   "bvid": "BV1mWxX6ZEjJ"
   },
   {
-   "title": "ComfyUI 视频导演台，输入大纲一键生成有声视频",
+   "title": "DeepSeek Harness 源码精读：一切皆插件、主循环与事件总线，手写插件接 MCP｜AI编程｜Agent｜智能体｜大模型｜源码解析",
    "up": "",
-   "play": 131,
-   "pub": "2026/11/2",
-   "bvid": "BV1qr4w6TE6p"
+   "play": 250,
+   "pub": "2026/11/4",
+   "bvid": "BV13VxX6vEg8"
   },
   {
-   "title": "同样 H3，为什么你的小夏脸一直崩？实测显存占用 + 最优参数方案",
+   "title": "大模型能直接改另一个模型的权重吗？｜权重空间编程",
    "up": "",
-   "play": 285,
-   "pub": "2026/11/2",
-   "bvid": "BV1Ja4w6VEWq"
+   "play": 1222,
+   "pub": "2026/11/4",
+   "bvid": "BV1DLxX6AEye"
   },
   {
-   "title": "12GB显卡跑763B大模型？DeepSeek实测：每秒11 token，还能解数学竞赛题",
+   "title": "【影之刃零X异环】可琳思娜大小姐替换魂模型mod，完全开源！",
    "up": "",
-   "play": 113,
-   "pub": "2026/11/2",
-   "bvid": "BV1BVx46zEcY"
-  },
-  {
-   "title": "DeepSeek新研究原型智能体开源：给AI装了操作系统",
-   "up": "",
-   "play": 614,
-   "pub": "2026/11/2",
-   "bvid": "BV1Ltxh61Ej9"
-  },
-  {
-   "title": "【第27期】咸鱼捡漏开源工具！只需大白话描述要求，即可生成筛选蹲守任务，多模态模型分析信息可按多任务并发监控，捡漏主动推送通知，自带可视化管理界面，支持本地部署",
-   "up": "",
-   "play": 876,
-   "pub": "2026/11/2",
-   "bvid": "BV1jB4w6uEeF"
-  },
-  {
-   "title": "🧠H-Net：让模型自己决定怎么分词",
-   "up": "",
-   "play": 244,
-   "pub": "2026/11/2",
-   "bvid": "BV1QgxN6wEAM"
-  },
-  {
-   "title": "英伟达下场开源CAD内核，3D建模玩法变了，可以直接喂给你的Agent吃。网友：Fusion慌不慌",
-   "up": "",
-   "play": 451,
-   "pub": "2026/11/2",
-   "bvid": "BV1AT4A6JELw"
-  },
-  {
-   "title": "一张卡不够就加一台｜LLMPod 多机多卡 EP01",
-   "up": "",
-   "play": 121,
-   "pub": "2026/11/2",
-   "bvid": "BV1Y4xb6BEFZ"
-  },
-  {
-   "title": "【瓜熟迪落拉】SC：山姆奥特曼的新访谈认为开源大模型本地部署不如数据中心集中运算，这算不算中美AI业态矛盾的体现",
-   "up": "",
-   "play": 11804,
-   "pub": "2026/11/2",
-   "bvid": "BV1udx86qEcs"
-  },
-  {
-   "title": "11.2 DeepSeek 开源超级智能体原型！Gemini Notebook 免费教材 第43期AI日报",
-   "up": "",
-   "play": 109,
-   "pub": "2026/11/2",
-   "bvid": "BV1dHxh6UEUR"
-  },
-  {
-   "title": "大模型真强大，可以把 llama.cpp 项目迁移成 golang实现，整个方案都可以执行，速度还是差一些因为某些无法迁移导致的",
-   "up": "",
-   "play": 62,
-   "pub": "2026/11/2",
-   "bvid": "BV1roxh6REWd"
-  },
-  {
-   "title": "Deepseek全新重磅开源！一期视频搞懂Super Agent到底是什么？",
-   "up": "",
-   "play": 5136,
-   "pub": "2026/11/2",
-   "bvid": "BV1qwx86CEGW"
-  },
-  {
-   "title": "小参数大能力！Flux.3 Klein和MOSS image快速上手指南！Draw Things教程 ｜ 苹果生态 ｜ Mac本地图像模型",
-   "up": "",
-   "play": 1068,
-   "pub": "2026/11/2",
-   "bvid": "BV1m1xh6AEVw"
-  },
-  {
-   "title": "深度学习-79-大语言模型LLM之基于python与o开源大模型启用的模型交互API介绍",
-   "up": "",
-   "play": 132,
-   "pub": "2026/11/2",
-   "bvid": "BV1a5xa6VEnw"
-  },
-  {
-   "title": "AI日报·肥鱼速览 | 11月2日：美团 LongCat-2.5 正，DeepSeek 开源，ChatGPT 与 Codex",
-   "up": "",
-   "play": 109,
-   "pub": "2026/11/2",
-   "bvid": "BV1tnxa6uEBw"
-  },
-  {
-   "title": "Qwen4碾压GPT-6.1？24小时内AI圈发生5次冲击波！",
-   "up": "",
-   "play": 10532,
-   "pub": "2026/11/2",
-   "bvid": "BV1dLx46TEbk"
-  },
-  {
-   "title": "LLMCompressor开源项目 Higgs大模型量化算法",
-   "up": "",
-   "play": 301,
-   "pub": "2026/11/2",
-   "bvid": "BV1GFxv6nE2P"
-  },
-  {
-   "title": "模型输出的相似度真的可以判断出蒸馏么-猫猫狗狗带你看",
-   "up": "",
-   "play": 93,
-   "pub": "2026/11/1",
-   "bvid": "BV1jmxa6DEai"
-  },
-  {
-   "title": "为啥说ai泡沫，deepseek不是连每卡收益都开源了吗？",
-   "up": "",
-   "play": 11798,
-   "pub": "2026/11/1",
-   "bvid": "BV1ePxt6eEBH"
-  },
-  {
-   "title": "开源 | 用Deepinfer把Qwen3.8-Flash-Next单流跑到 300 tok/s",
-   "up": "",
-   "play": 2170,
-   "pub": "2026/11/1",
-   "bvid": "BV1tjx86PEzZ"
-  },
-  {
-   "title": "多模态交错生成新基准！10万级真实场景数据集+7维度细粒度评测套件开源 【多模态生成】【数据集开源】【AI论文解读】",
-   "up": "",
-   "play": 22,
-   "pub": "2026/11/1",
-   "bvid": "BV18Vx86KEqH"
-  },
-  {
-   "title": "国产模型经不起回顾性评测：K3大幅落后于GPT5.6(261030期ai新闻长播)",
-   "up": "",
-   "play": 337,
-   "pub": "2026/11/1",
-   "bvid": "BV1Wtx86dEbm"
+   "play": 2682,
+   "pub": "2026/11/4",
+   "bvid": "BV1H2xS6LE3J"
   }
  ]
 }
