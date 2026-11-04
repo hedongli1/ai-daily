@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 220,
+  "count": 226,
   "models": [
     {
       "model": "GPT-5.2",
@@ -319,18 +319,6 @@
       }
     },
     {
-      "model": "Mistral Large 4",
-      "release": "2026-10-29",
-      "nRuns": 17,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 17,
-          "avg": 0.4329,
-          "best": 0.9944
-        }
-      }
-    },
-    {
       "model": "o1",
       "release": "2024-12-17",
       "nRuns": 17,
@@ -423,6 +411,18 @@
           "n": 16,
           "avg": 0.5514,
           "best": 0.9417
+        }
+      }
+    },
+    {
+      "model": "Mistral Large 4",
+      "release": "2026-10-29",
+      "nRuns": 15,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 15,
+          "avg": 0.4484,
+          "best": 0.9944
         }
       }
     },
@@ -1743,6 +1743,78 @@
           "n": 4,
           "avg": 0.1991,
           "best": 0.3059
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed Evolving",
+      "release": "2026-11-02",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 3,
+          "avg": 0.7806,
+          "best": 0.9917
+        }
+      }
+    },
+    {
+      "model": "Doubao-Seed-1.6",
+      "release": "2025-06-11",
+      "nRuns": 3,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 3,
+          "avg": 0.5481,
+          "best": 0.7759
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.1 Turbo",
+      "release": "2026-06-23",
+      "nRuns": 3,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 3,
+          "avg": 0.718,
+          "best": 0.9611
+        }
+      }
+    },
+    {
+      "model": "Doubao-Seed-2.0 Pro",
+      "release": "2026-02-14",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 3,
+          "avg": 0.7383,
+          "best": 0.9389
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.0 Lite 260428",
+      "release": "2026-04-28",
+      "nRuns": 3,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 3,
+          "avg": 0.7025,
+          "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.1 Pro",
+      "release": "2026-06-23",
+      "nRuns": 3,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 3,
+          "avg": 0.7653,
+          "best": 0.9556
         }
       }
     },

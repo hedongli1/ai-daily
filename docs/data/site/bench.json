@@ -1015,11 +1015,11 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 17,
+      "runs": 15,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 17,
-          "avg": 0.4329,
+          "n": 15,
+          "avg": 0.4484,
           "best": 0.9944
         }
       },
