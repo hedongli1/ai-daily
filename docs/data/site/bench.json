@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -503,7 +503,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5954,
+          "avg": 0.6008,
           "best": 1
         }
       },
@@ -1235,7 +1235,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 20,
-          "avg": 0.7215,
+          "avg": 0.734,
           "best": 1
         }
       },
@@ -1271,7 +1271,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 13,
-          "avg": 0.6336,
+          "avg": 0.6317,
           "best": 1
         }
       },
@@ -1283,7 +1283,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 11,
-          "avg": 0.6599,
+          "avg": 0.6668,
           "best": 1
         }
       },
