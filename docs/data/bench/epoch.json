@@ -25,7 +25,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 33,
-          "avg": 0.4212,
+          "avg": 0.4218,
           "best": 0.9813
         }
       }
@@ -181,7 +181,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 22,
-          "avg": 0.4132,
+          "avg": 0.4146,
           "best": 0.8861
         }
       }
@@ -325,7 +325,7 @@
       "domains": {
         "Language,Mathematics,Multimodal": {
           "n": 17,
-          "avg": 0.4274,
+          "avg": 0.4286,
           "best": 0.9471
         }
       }
@@ -337,7 +337,7 @@
       "domains": {
         "Multimodal,Language,Audio,Speech,Vision": {
           "n": 17,
-          "avg": 0.2253,
+          "avg": 0.2271,
           "best": 0.5328
         }
       }
@@ -385,7 +385,7 @@
       "domains": {
         "(未标注)": {
           "n": 16,
-          "avg": 0.4883,
+          "avg": 0.4889,
           "best": 0.9556
         }
       }
@@ -457,7 +457,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.3339,
+          "avg": 0.3346,
           "best": 0.9636
         }
       }
@@ -469,7 +469,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5143,
+          "avg": 0.515,
           "best": 0.9667
         }
       }
@@ -589,7 +589,7 @@
       "domains": {
         "Language,Multimodal": {
           "n": 12,
-          "avg": 0.3873,
+          "avg": 0.389,
           "best": 0.9333
         }
       }
@@ -661,7 +661,7 @@
       "domains": {
         "Multimodal,Language,Vision,Video": {
           "n": 11,
-          "avg": 0.2567,
+          "avg": 0.264,
           "best": 0.8301
         }
       }
@@ -721,7 +721,7 @@
       "domains": {
         "Language": {
           "n": 10,
-          "avg": 0.5117,
+          "avg": 0.5127,
           "best": 0.9556
         }
       }
@@ -781,7 +781,7 @@
       "domains": {
         "(未标注)": {
           "n": 9,
-          "avg": 0.3455,
+          "avg": 0.3466,
           "best": 0.8667
         }
       }
@@ -865,7 +865,7 @@
       "domains": {
         "Language,Multimodal,Vision,Video": {
           "n": 8,
-          "avg": 0.3813,
+          "avg": 0.3875,
           "best": 0.9091
         }
       }
@@ -1357,7 +1357,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 5,
-          "avg": 0.2099,
+          "avg": 0.2119,
           "best": 0.4716
         }
       }
@@ -1515,6 +1515,78 @@
           "n": 5,
           "avg": 0.259,
           "best": 0.6352
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed Evolving (Nov 2026)",
+      "release": "2026-11-02",
+      "nRuns": 4,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 4,
+          "avg": 0.6855,
+          "best": 0.9917
+        }
+      }
+    },
+    {
+      "model": "Doubao-Seed-1.6",
+      "release": "2025-06-11",
+      "nRuns": 4,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 4,
+          "avg": 0.4236,
+          "best": 0.7759
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.1 Turbo",
+      "release": "2026-06-23",
+      "nRuns": 4,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 4,
+          "avg": 0.6035,
+          "best": 0.9611
+        }
+      }
+    },
+    {
+      "model": "Doubao-Seed-2.0 Pro",
+      "release": "2026-02-14",
+      "nRuns": 4,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 4,
+          "avg": 0.6037,
+          "best": 0.9389
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.0 Lite (Apr 2026)",
+      "release": "2026-04-28",
+      "nRuns": 4,
+      "domains": {
+        "Language,Vision,Multimodal,Video": {
+          "n": 4,
+          "avg": 0.5769,
+          "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "Doubao Seed 2.1 Pro",
+      "release": "2026-06-23",
+      "nRuns": 4,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 4,
+          "avg": 0.6265,
+          "best": 0.9556
         }
       }
     },
@@ -1743,78 +1815,6 @@
           "n": 4,
           "avg": 0.1991,
           "best": 0.3059
-        }
-      }
-    },
-    {
-      "model": "Doubao Seed Evolving",
-      "release": "2026-11-02",
-      "nRuns": 3,
-      "domains": {
-        "Language,Vision,Multimodal,Video": {
-          "n": 3,
-          "avg": 0.7806,
-          "best": 0.9917
-        }
-      }
-    },
-    {
-      "model": "Doubao-Seed-1.6",
-      "release": "2025-06-11",
-      "nRuns": 3,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 3,
-          "avg": 0.5481,
-          "best": 0.7759
-        }
-      }
-    },
-    {
-      "model": "Doubao Seed 2.1 Turbo",
-      "release": "2026-06-23",
-      "nRuns": 3,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 3,
-          "avg": 0.718,
-          "best": 0.9611
-        }
-      }
-    },
-    {
-      "model": "Doubao-Seed-2.0 Pro",
-      "release": "2026-02-14",
-      "nRuns": 3,
-      "domains": {
-        "Language,Vision,Multimodal,Video": {
-          "n": 3,
-          "avg": 0.7383,
-          "best": 0.9389
-        }
-      }
-    },
-    {
-      "model": "Doubao Seed 2.0 Lite 260428",
-      "release": "2026-04-28",
-      "nRuns": 3,
-      "domains": {
-        "Language,Vision,Multimodal,Video": {
-          "n": 3,
-          "avg": 0.7025,
-          "best": 0.9111
-        }
-      }
-    },
-    {
-      "model": "Doubao Seed 2.1 Pro",
-      "release": "2026-06-23",
-      "nRuns": 3,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 3,
-          "avg": 0.7653,
-          "best": 0.9556
         }
       }
     },

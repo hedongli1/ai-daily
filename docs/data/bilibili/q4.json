@@ -1,61 +1,201 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-11-03T17:26:09.952Z",
+ "fetchedAt": "2026-11-05T00:59:06.992Z",
  "rows": [
+  {
+   "title": "【差强人意？】Astra 6.2 Blender工设曲面建模｜AI Blender Bench",
+   "up": "",
+   "play": 607,
+   "pub": "2026/11/5",
+   "bvid": "BV1YF4F64Edn"
+  },
+  {
+   "title": "首次提出协作智能基准！专门测评AI代理的&quot;队友能力&quot;，前沿模型最高仅得82.2分 【AI代理研究】【大模型评测】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/4",
+   "bvid": "BV1M1xd6gE8r"
+  },
+  {
+   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/4",
+   "bvid": "BV1RGxo6DEYr"
+  },
+  {
+   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
+   "up": "",
+   "play": 10,
+   "pub": "2026/11/4",
+   "bvid": "BV195xo6JENG"
+  },
+  {
+   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/4",
+   "bvid": "BV1ouxo6XESw"
+  },
+  {
+   "title": "突破单仓库SWE瓶颈！全新CrossSWE基准测试集登场，专门评估编码Agent跨仓库协同开发能力 【大模型】【软件工程基准】【AI编程】",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/4",
+   "bvid": "BV172xo6bE9c"
+  },
+  {
+   "title": "美团龙猫 LongCat-2.5 实测：这孩子倒也不笨，就是……",
+   "up": "",
+   "play": 604,
+   "pub": "2026/11/4",
+   "bvid": "BV1unxR6BETv"
+  },
+  {
+   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
+   "up": "",
+   "play": 184,
+   "pub": "2026/11/4",
+   "bvid": "BV1Yixd6jEVU"
+  },
+  {
+   "title": "200美元AI顶级套餐，ChatGPT、Claude与Gemini到底谁更值？ | Kai",
+   "up": "",
+   "play": 81,
+   "pub": "2026/11/4",
+   "bvid": "BV1DNx261EAy"
+  },
+  {
+   "title": "单图转3D，消费级显卡可用，Idol大模型实测",
+   "up": "",
+   "play": 165,
+   "pub": "2026/11/4",
+   "bvid": "BV1aQxX6BEYu"
+  },
+  {
+   "title": "【XnmK】crouton-alpha成果速览 可能为muse 三维/工程测试",
+   "up": "",
+   "play": 1115,
+   "pub": "2026/11/4",
+   "bvid": "BV1aQxX6BE3A"
+  },
+  {
+   "title": "腾讯混元 Hy4 正式版实测：比预览版强在哪？跑完长程项目与代码评测聊聊感受。",
+   "up": "",
+   "play": 17370,
+   "pub": "2026/11/4",
+   "bvid": "BV1rjx96HEhv"
+  },
+  {
+   "title": "两张V100竟然不如这样搭配？我把手里的洋垃圾显卡全测了一遍！本地运行Qwen-Flash模型！",
+   "up": "",
+   "play": 3751,
+   "pub": "2026/11/4",
+   "bvid": "BV1Jjx96HEnu"
+  },
+  {
+   "title": "【中英双语字幕】AI 评测满分反而说明你有问题：一套可落地的 Agent 评测设计 1080P",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/4",
+   "bvid": "BV15Exm6dEiD"
+  },
+  {
+   "title": "国产大模型为什么不便宜？90 秒拆解 GPU、服务器与算力成本",
+   "up": "",
+   "play": 125,
+   "pub": "2026/11/4",
+   "bvid": "BV12Q4u6kELr"
+  },
+  {
+   "title": "【评测与基准】客服机器人的三层漏斗：首解率、转接率与解决口径的定义坑",
+   "up": "",
+   "play": 213,
+   "pub": "2026/11/4",
+   "bvid": "BV1GPxt6vEQM"
+  },
+  {
+   "title": "前沿大模型为何难当买方分析师？揭秘 AI 评估基准的真实缺陷 | AI Engineer",
+   "up": "",
+   "play": 37,
+   "pub": "2026/11/4",
+   "bvid": "BV1Cand6nEZc"
+  },
+  {
+   "title": "神秘模型 egg-alpha 认得出大笑奶龙吗？奶蛙bench 实测",
+   "up": "",
+   "play": 311,
+   "pub": "2026/11/4",
+   "bvid": "BV1pUxQ6QENi"
+  },
+  {
+   "title": "【中字】海外博主实测Sage：小模型硬刚GPT",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/4",
+   "bvid": "BV1ULxD6sEFk"
+  },
+  {
+   "title": "GPT-6.1、Claude 5.5、DeepSeek V4.1 造城评测",
+   "up": "",
+   "play": 139,
+   "pub": "2026/11/3",
+   "bvid": "BV1UMx26CEiP"
+  },
   {
    "title": "两大顶尖OCR模型实测对比，MinerU 4 VS OXR",
    "up": "",
-   "play": 87,
+   "play": 687,
    "pub": "2026/11/3",
    "bvid": "BV16M4G6zEpR"
   },
   {
    "title": "人类胶达补完计划：种命机体收集小结，SEED机体果然都是大翅膀",
    "up": "",
-   "play": 388,
+   "play": 853,
    "pub": "2026/11/3",
    "bvid": "BV15sxh6mEDG"
   },
   {
    "title": "【中字】国外博主双B70实测：大模型速度破百",
    "up": "",
-   "play": 28,
+   "play": 45,
    "pub": "2026/11/3",
    "bvid": "BV14q4G6DEoe"
   },
   {
    "title": "【中字】国外博主实测新模型：单卡狂飙百token/s",
    "up": "",
-   "play": 1,
+   "play": 2,
    "pub": "2026/11/3",
    "bvid": "BV1rA4g6NEur"
   },
   {
    "title": "【中字】海外博主质疑RTX Spark：1PF算力跑不过云端",
    "up": "",
-   "play": 36,
+   "play": 47,
    "pub": "2026/11/3",
    "bvid": "BV1fu4g6cEqD"
   },
   {
    "title": "【RAG 与检索】带出处的回答怎么训练：ALCE 评测、LongCite 由粗到细流水线",
    "up": "",
-   "play": 164,
+   "play": 233,
    "pub": "2026/11/3",
    "bvid": "BV17vxt6VEaR"
   },
   {
    "title": "AI能否看懂不良资产？用真实违约案例测试大模型金融推理能力 | AI Engineer",
    "up": "",
-   "play": 50,
+   "play": 64,
    "pub": "2026/11/3",
    "bvid": "BV1QyHg6BEyB"
   },
   {
    "title": "【中字】海外博主实测：AI显卡谁才是性价比之王",
    "up": "",
-   "play": 34,
+   "play": 57,
    "pub": "2026/11/3",
    "bvid": "BV1XY4N6uEhg"
   },
@@ -69,219 +209,79 @@
   {
    "title": "【刷的肥嘟嘟的】Longcat2.5 正式版 三维/工程测试 对于全国产训推很强，但分数是吃拼好饭吃出幻觉了",
    "up": "",
-   "play": 2393,
+   "play": 2885,
    "pub": "2026/11/3",
    "bvid": "BV17m4M64E9a"
   },
   {
    "title": "【中字】海外博主拆解AI评测：手把手搭建智能体",
    "up": "",
-   "play": 3,
+   "play": 4,
    "pub": "2026/11/3",
    "bvid": "BV1Tu4u6GE78"
   },
   {
    "title": "【中字】海外博主实测：笔记本能替代AI订阅？",
    "up": "",
-   "play": 14,
+   "play": 17,
    "pub": "2026/11/3",
    "bvid": "BV17b4u6bEDo"
   },
   {
    "title": "首个面向主动智能体的细粒度人类评估基准HALO发布！10款主流模型实测，61%失败源于过度主动 【大模型智能体】【AI基准评测】",
    "up": "",
-   "play": 20,
+   "play": 61,
    "pub": "2026/11/3",
    "bvid": "BV1VX4K6LE1Z"
   },
   {
    "title": "【评测与基准】评测污染的五种检测方法：n-gram、Min-K%、时间旅行、可交换性与新题重考",
    "up": "",
-   "play": 312,
+   "play": 333,
    "pub": "2026/11/3",
    "bvid": "BV17Bxt63Evc"
   },
   {
    "title": "【中字】海外博主提醒：上新模型别急着上线，先测200题",
    "up": "",
-   "play": 3,
+   "play": 4,
    "pub": "2026/11/2",
    "bvid": "BV1tz4A6tEAR"
   },
   {
    "title": "【中字】老外玩家复盘语音AI合规翻车雷区",
    "up": "",
-   "play": 27,
+   "play": 59,
    "pub": "2026/11/2",
    "bvid": "BV1gr4T6kE7N"
   },
   {
    "title": "【AI无限竞技场】六模型复刻DSH宣传视频 看完41F难道视频是41P做的？",
    "up": "",
-   "play": 7532,
+   "play": 8817,
    "pub": "2026/11/2",
    "bvid": "BV1Vh4N6rE6E"
   },
   {
    "title": "【评测与基准】benchmark 泡沫的六个来源：从抽样误差到维度盲区，涨两分为什么不能算数",
    "up": "",
-   "play": 267,
+   "play": 279,
    "pub": "2026/11/2",
    "bvid": "BV1Ryxt6TEx5"
   },
   {
    "title": "【四大图像模型评测 | AI照妖镜-20】霓虹之城（AI选手+AI评委）",
    "up": "",
-   "play": 122,
+   "play": 126,
    "pub": "2026/11/2",
    "bvid": "BV1esxK66EqC"
   },
   {
    "title": "78%说想用，实际只有10%–15%使用：Bumble 的5个AI产品教训｜中英字幕",
    "up": "",
-   "play": 12,
+   "play": 15,
    "pub": "2026/11/2",
    "bvid": "BV1Kz4c6SE3s"
-  },
-  {
-   "title": "我做了一个agent评测平台",
-   "up": "",
-   "play": 236,
-   "pub": "2026/11/2",
-   "bvid": "BV1ir4w6TEsp"
-  },
-  {
-   "title": "2.5B 激活跑出 40 tok/s！40B MoE 塞进 16GB 显卡实测",
-   "up": "",
-   "play": 201,
-   "pub": "2026/11/2",
-   "bvid": "BV1C9xy6NEx7"
-  },
-  {
-   "title": "告别AI逐字生成，全新的“扩散语言模型”来了。「扩散智能 DiffuSpace」港大孔令鹏教授团队创立，霸榜六大评测，获数亿融资。一分钟带你拆透它的三大核心突破",
-   "up": "",
-   "play": 19,
-   "pub": "2026/11/2",
-   "bvid": "BV1WM4A6UEUy"
-  },
-  {
-   "title": "1.6T参数美团Longcat 2.5速测，超越GLM5.3和K3！国产芯片训练之王？【两分钟速测】",
-   "up": "",
-   "play": 9642,
-   "pub": "2026/11/2",
-   "bvid": "BV1Sa4c6WELr"
-  },
-  {
-   "title": "8个AI大模型玩推箱子，有的拿了0分，还怪题目无解？",
-   "up": "",
-   "play": 34288,
-   "pub": "2026/11/2",
-   "bvid": "BV1Rtxh6yECT"
-  },
-  {
-   "title": "美团发布 LongCat-2.5：1.6 万亿参数，全程国产芯片训练【AI快讯2026-11-02】",
-   "up": "",
-   "play": 1417,
-   "pub": "2026/11/2",
-   "bvid": "BV1gixh6gEvH"
-  },
-  {
-   "title": "纯帅！SHF极狐MK9大货评测",
-   "up": "",
-   "play": 1087,
-   "pub": "2026/11/2",
-   "bvid": "BV1A9xh6ZEn9"
-  },
-  {
-   "title": "多模态交错生成新基准！10万级真实场景数据集+7维度细粒度评测套件开源 【多模态生成】【数据集开源】【AI论文解读】",
-   "up": "",
-   "play": 25,
-   "pub": "2026/11/1",
-   "bvid": "BV18Vx86KEqH"
-  },
-  {
-   "title": "专门针对运动健康教练场景的LLM基准来了！多维度评分+安全红线机制，填补AI健身评估空白 【大模型评测】【AI健身】【领域基准】",
-   "up": "",
-   "play": 10,
-   "pub": "2026/11/1",
-   "bvid": "BV1t7x86YEwV"
-  },
-  {
-   "title": "首个面向多用户人格的计算机操作智能体基准发布！74项任务11大领域，实测9款主流模型性能暴跌30%+ 【智能体评测】【AI前沿论文解读】",
-   "up": "",
-   "play": 17,
-   "pub": "2026/11/1",
-   "bvid": "BV1agx86MENb"
-  },
-  {
-   "title": "国产模型经不起回顾性评测：K3大幅落后于GPT5.6(261030期ai新闻长播)",
-   "up": "",
-   "play": 341,
-   "pub": "2026/11/1",
-   "bvid": "BV1Wtx86dEbm"
-  },
-  {
-   "title": "大模型Agent记忆能力新基准！HABIT-Bench专门测评从长期弱证据中归纳用户习惯的核心能力 【大模型Agent】【AI基准评测】",
-   "up": "",
-   "play": 131,
-   "pub": "2026/11/1",
-   "bvid": "BV1ekxt6BEFz"
-  },
-  {
-   "title": "AI科普视频爆火的背后，Opus 5.5 到底有多强？",
-   "up": "",
-   "play": 8695,
-   "pub": "2026/11/1",
-   "bvid": "BV1GrxW6XEga"
-  },
-  {
-   "title": "AI生成的文本为何总像空洞的废话？Towards AI 团队实测大模型写作基准 | AI Engineer",
-   "up": "",
-   "play": 112,
-   "pub": "2026/11/1",
-   "bvid": "BV1d3nx6pEef"
-  },
-  {
-   "title": "M5 Ultra对决双DGX Spark：本地大模型跑分实测",
-   "up": "",
-   "play": 619,
-   "pub": "2026/11/1",
-   "bvid": "BV1DTxx69EAy"
-  },
-  {
-   "title": "新王二番战：Kimi K3.1 Pro 大战 DeepSeek V4.1 Flash 1017",
-   "up": "",
-   "play": 1522,
-   "pub": "2026/11/1",
-   "bvid": "BV1idxs6wEmC"
-  },
-  {
-   "title": "AI发现PHP2Shell漏洞，Dessa推出纯语音对话模型",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/1",
-   "bvid": "BV1Ewxp6hExX"
-  },
-  {
-   "title": "11.1 Gemini 4 Carbon冲上安全评测第一！Claude文本水印扩展 第42期AI日报",
-   "up": "",
-   "play": 164,
-   "pub": "2026/11/1",
-   "bvid": "BV11Yxp6uE4z"
-  },
-  {
-   "title": "一只鹈鹕，三十六种模样。 LLM多维能力评测·特别篇",
-   "up": "",
-   "play": 1730,
-   "pub": "2026/11/1",
-   "bvid": "BV1yYxp6uEnE"
-  },
-  {
-   "title": "评测基准改版防刷分！Gemini登顶拉大差距｜绿鸭AI日报",
-   "up": "",
-   "play": 2289,
-   "pub": "2026/10/31",
-   "bvid": "BV1B1xn6pEct"
   }
  ]
 }

@@ -4,12 +4,12 @@
   "mode": "diff",
   "baselineDate": "2026-11-04",
   "counts": {
-    "new": 0,
+    "new": 1,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 21,
-    "facts": 0,
+    "news": 23,
+    "facts": 1,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 4
     },
     {
       "id": "QwenLM",
@@ -81,6 +81,37 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-05",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "tencent-token-plan/Hy4",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4",
+      "date": "2026-11-04",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.834,
+        "outCost": 2.501,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Hy4 · 闭源 · 1M 上下文 · 输入 $0.83/M · 支持推理",
+      "href": "/models/hy4/",
+      "shared": 7
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "OpenAI to acquire Pierre Computer Company, Inc.",
@@ -107,6 +138,45 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "A thousand fewer paths to root",
+      "date": "2026-11-04",
+      "facts": {},
+      "text": "A thousand fewer paths to root",
+      "href": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing Images 2.6",
+      "date": "2026-11-04",
+      "facts": {},
+      "text": "Introducing Images 2.6",
+      "href": "https://openai.com/index/introducing-images-2-6",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "date": "2026-11-04",
+      "facts": {},
+      "text": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "href": "https://openai.com/index/devrev-enterprise-self-service",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "deepseek",
       "vendorName": "DeepSeek",
       "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
@@ -120,27 +190,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
       "date": "2026-11-04",
       "facts": {},
-      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
-      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-04",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -179,19 +236,6 @@
       "facts": {},
       "text": "cli · 仓库更新",
       "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-11-04",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },

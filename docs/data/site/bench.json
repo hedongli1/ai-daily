@@ -83,7 +83,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.5143,
+          "avg": 0.515,
           "best": 0.9667
         }
       },
@@ -287,7 +287,7 @@
       "domains": {
         "Language": {
           "n": 10,
-          "avg": 0.5117,
+          "avg": 0.5127,
           "best": 0.9556
         }
       },
@@ -419,7 +419,7 @@
       "domains": {
         "Language": {
           "n": 14,
-          "avg": 0.3339,
+          "avg": 0.3346,
           "best": 0.9636
         }
       },
@@ -683,7 +683,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 33,
-          "avg": 0.4212,
+          "avg": 0.4218,
           "best": 0.9813
         }
       },
@@ -695,7 +695,7 @@
       "domains": {
         "Multimodal,Language,Vision": {
           "n": 22,
-          "avg": 0.4132,
+          "avg": 0.4146,
           "best": 0.8861
         }
       },
@@ -983,7 +983,7 @@
       "domains": {
         "Language,Multimodal,Vision,Video": {
           "n": 8,
-          "avg": 0.3813,
+          "avg": 0.3875,
           "best": 0.9091
         }
       },
@@ -1115,7 +1115,7 @@
       "domains": {
         "Multimodal,Language,Vision,Video": {
           "n": 11,
-          "avg": 0.2567,
+          "avg": 0.264,
           "best": 0.8301
         }
       },
@@ -1151,7 +1151,7 @@
       "domains": {
         "Multimodal,Language,Audio,Speech,Vision": {
           "n": 17,
-          "avg": 0.2253,
+          "avg": 0.2271,
           "best": 0.5328
         }
       },
@@ -1295,7 +1295,7 @@
       "domains": {
         "Language,Mathematics,Multimodal": {
           "n": 17,
-          "avg": 0.4274,
+          "avg": 0.4286,
           "best": 0.9471
         }
       },
