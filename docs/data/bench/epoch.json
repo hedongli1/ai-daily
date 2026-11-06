@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -523,6 +523,30 @@
       }
     },
     {
+      "model": "GPT-6 Sol",
+      "release": "2026-09-22",
+      "nRuns": 13,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 13,
+          "avg": 0.5288,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Claude Fable 5.1",
+      "release": "2026-09-01",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.5086,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GPT-6.1 Sol",
       "release": "2026-09-29",
       "nRuns": 13,
@@ -530,18 +554,6 @@
         "Multimodal,Language,Vision": {
           "n": 13,
           "avg": 0.6317,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "GPT-6 Sol",
-      "release": "2026-09-22",
-      "nRuns": 13,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 13,
-          "avg": 0.525,
           "best": 1
         }
       }
@@ -559,13 +571,13 @@
       }
     },
     {
-      "model": "Claude Fable 5.1",
-      "release": "2026-09-01",
-      "nRuns": 13,
+      "model": "Claude Sonnet 5.5",
+      "release": "2026-09-28",
+      "nRuns": 12,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 13,
-          "avg": 0.5086,
+          "n": 12,
+          "avg": 0.5144,
           "best": 1
         }
       }
@@ -603,18 +615,6 @@
           "n": 12,
           "avg": 0.5309,
           "best": 0.9472
-        }
-      }
-    },
-    {
-      "model": "Claude Sonnet 5.5",
-      "release": "2026-09-28",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5144,
-          "best": 1
         }
       }
     },
