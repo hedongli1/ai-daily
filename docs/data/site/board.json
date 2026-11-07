@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 119,
+      "models": 120,
       "n": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex",
       "vn": "OpenAI",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 63,
+      "models": 64,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 60,
+      "models": 61,
       "n": "gpt-6-astra",
       "name": "GPT-6 Astra",
       "vn": "OpenAI",
@@ -98,13 +98,13 @@
     },
     {
       "tag": "Video",
-      "models": 12,
-      "n": "muse-wonder",
-      "name": "Muse Wonder",
-      "vn": "Meta",
-      "avg": 0.6481,
-      "best": 0.9944,
-      "runs": 6
+      "models": 13,
+      "n": "kimi-k3-1-pro",
+      "name": "Kimi K3.1 Pro",
+      "vn": "月之暗面",
+      "avg": 0.6792,
+      "best": 1,
+      "runs": 8
     },
     {
       "tag": "Audio",

@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 226,
+  "count": 227,
   "models": [
     {
       "model": "GPT-5.2",
@@ -843,6 +843,18 @@
           "n": 9,
           "avg": 0.4482,
           "best": 0.9111
+        }
+      }
+    },
+    {
+      "model": "Kimi K3.1 Pro",
+      "release": "2026-10-23",
+      "nRuns": 8,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 8,
+          "avg": 0.6792,
+          "best": 1
         }
       }
     },

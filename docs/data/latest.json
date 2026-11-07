@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 19,
+    "news": 21,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "meta-llama",
@@ -84,11 +84,37 @@
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "date": "2026-11-06",
+      "facts": {},
+      "text": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "href": "https://openai.com/index/partnering-with-hacktron",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Measuring how AI agents handle everyday wet-lab science",
+      "date": "2026-11-06",
+      "facts": {},
+      "text": "Measuring how AI agents handle everyday wet-lab science",
+      "href": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "source": "OpenAI",
       "external": true
     },
     {
