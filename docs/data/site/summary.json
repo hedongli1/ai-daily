@@ -7,7 +7,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 21,
+    "news": 22,
     "facts": 0,
     "newsAttached": 0
   },
@@ -49,13 +49,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "id": "meta-llama",
@@ -80,6 +80,6 @@
     "originVendors": 33,
     "originModels": 608,
     "channels": 195,
-    "allEntries": 8935
+    "allEntries": 8943
   }
 }
