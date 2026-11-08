@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 3,
+    "news": 4,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 7
+      "count": 6
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "meta-llama",
@@ -101,6 +101,19 @@
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-11-08",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
       "source": "Qwen",
       "external": true
     },

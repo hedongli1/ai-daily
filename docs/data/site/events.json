@@ -32,6 +32,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "date": "2026-11-08",
+      "facts": {},
+      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "llm-d-router-public · Inference scheduler for llm-d",
