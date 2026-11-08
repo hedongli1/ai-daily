@@ -1,0 +1,121 @@
+{
+  "schema": 1,
+  "date": "2026-11-09",
+  "mode": "diff",
+  "baselineDate": "2026-11-08",
+  "counts": {
+    "new": 0,
+    "retired": 0,
+    "price": 0,
+    "context": 0,
+    "news": 3,
+    "facts": 0,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 4
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 3
+    }
+  ],
+  "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "date": "2026-11-08",
+      "facts": {},
+      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "href": "https://github.com/deepseek-ai/3FS/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-08",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-08",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    }
+  ]
+}
