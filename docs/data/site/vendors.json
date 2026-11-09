@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "vendors": [
     {
       "id": "alibaba",
@@ -58,20 +58,20 @@
       "country": "intl"
     },
     {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 15,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
+    },
+    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
-    },
-    {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 14,
-      "cheapest": 0.1,
-      "latest": "2026-10-07",
-      "country": "intl"
     },
     {
       "id": "cohere",
@@ -90,19 +90,19 @@
       "country": "cn"
     },
     {
-      "id": "xai",
-      "name": "xAI",
-      "n": 11,
-      "cheapest": 1,
-      "latest": "2026-10-01",
-      "country": "intl"
-    },
-    {
       "id": "morph",
       "name": "Morph",
       "n": 4,
       "cheapest": 0.8,
       "latest": "2026-07-16",
+      "country": "intl"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "n": 11,
+      "cheapest": 1,
+      "latest": "2026-10-01",
       "country": "intl"
     },
     {
@@ -130,19 +130,19 @@
       "country": "cn"
     },
     {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
+      "country": "cn"
+    },
+    {
       "id": "xiaomi",
       "name": "小米",
       "n": 6,
       "cheapest": 0.14,
       "latest": "2026-09-22",
-      "country": "cn"
-    },
-    {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "n": 6,
-      "cheapest": 0.9711,
-      "latest": "2026-10-23",
       "country": "cn"
     },
     {
@@ -154,11 +154,11 @@
       "country": "intl"
     },
     {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 6,
+      "cheapest": 0.9711,
+      "latest": "2026-10-23",
       "country": "cn"
     },
     {
@@ -170,19 +170,19 @@
       "country": "intl"
     },
     {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
       "id": "inception",
       "name": "Inception",
       "n": 4,
       "cheapest": 0.1,
       "latest": "2026-10-16",
+      "country": "intl"
+    },
+    {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
       "country": "intl"
     },
     {
@@ -194,19 +194,19 @@
       "country": "intl"
     },
     {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 8,
-      "cheapest": 0,
-      "latest": "2026-11-04",
-      "country": "cn"
-    },
-    {
       "id": "deepseek",
       "name": "DeepSeek",
       "n": 4,
       "cheapest": 0.15,
       "latest": "2026-10-17",
+      "country": "cn"
+    },
+    {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 8,
+      "cheapest": 0,
+      "latest": "2026-11-04",
       "country": "cn"
     },
     {
@@ -234,20 +234,12 @@
       "country": "intl"
     },
     {
-      "id": "cerebras",
-      "name": "Cerebras",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
       "country": "intl"
-    },
-    {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 2,
-      "cheapest": 0.57,
-      "latest": "2025-10-01",
-      "country": "cn"
     },
     {
       "id": "longcat",
@@ -258,11 +250,19 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
+      "id": "bailing",
+      "name": "蚂蚁百灵",
       "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
+      "cheapest": 0.57,
+      "latest": "2025-10-01",
+      "country": "cn"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
       "country": "intl"
     }
   ]

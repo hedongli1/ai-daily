@@ -1,6 +1,15 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "timeline": [
+    {
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "rel": "2026-11-09",
+      "ctx": 1000000,
+      "in": 8,
+      "open": 0
+    },
     {
       "n": "hy4",
       "name": "Hy4",
@@ -26,7 +35,7 @@
       "rel": "2026-10-23",
       "ctx": 1048576,
       "in": 3.8874,
-      "open": 0
+      "open": 1
     },
     {
       "n": "kimi-k3-1-pro",
@@ -35,7 +44,7 @@
       "rel": "2026-10-23",
       "ctx": 1048576,
       "in": 1.9437,
-      "open": 0
+      "open": 1
     },
     {
       "n": "minimax-m3-1-flash",
