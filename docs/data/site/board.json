@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 120,
+      "models": 121,
       "n": "gpt-5-3-codex",
       "name": "GPT-5.3 Codex",
       "vn": "OpenAI",
@@ -78,23 +78,23 @@
     },
     {
       "tag": "Multimodal",
-      "models": 64,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "vn": "OpenAI",
-      "avg": 0.734,
+      "models": 65,
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "avg": 0.7425,
       "best": 1,
-      "runs": 20
+      "runs": 12
     },
     {
       "tag": "Vision",
-      "models": 61,
-      "n": "gpt-6-astra",
-      "name": "GPT-6 Astra",
-      "vn": "OpenAI",
-      "avg": 0.734,
+      "models": 62,
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "avg": 0.7425,
       "best": 1,
-      "runs": 20
+      "runs": 12
     },
     {
       "tag": "Video",

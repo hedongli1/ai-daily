@@ -4,6 +4,47 @@
   "baselineDate": "2026-11-09",
   "events": [
     {
+      "type": "context",
+      "key": "google/Deep Research Max Preview (Apr-21-2026)",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Deep Research Max Preview (Apr-21-2026)",
+      "date": "2026-11-10",
+      "facts": {
+        "before": 131072,
+        "after": 1048576
+      },
+      "text": "上下文 131K → 1M",
+      "href": "/models/deep-research-max-preview/"
+    },
+    {
+      "type": "context",
+      "key": "google/Deep Research Preview (Apr-21-2026)",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Deep Research Preview (Apr-21-2026)",
+      "date": "2026-11-10",
+      "facts": {
+        "before": 131072,
+        "after": 1048576
+      },
+      "text": "上下文 131K → 1M",
+      "href": "/models/deep-research-preview/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
       "type": "new",
       "key": "anthropic/Claude Fable 5.2",
       "vendor": "anthropic",
@@ -19,7 +60,32 @@
       },
       "text": "Claude Fable 5.2 · 闭源 · 1M 上下文 · 输入 $8/M · 支持推理",
       "href": "/models/claude-fable-5-2/",
-      "shared": 10
+      "shared": 16
+    },
+    {
+      "type": "new",
+      "key": "meta/Muse Ember",
+      "vendor": "meta",
+      "vendorName": "Meta",
+      "name": "Muse Ember",
+      "date": "2026-11-09",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.1,
+        "outCost": 0.5,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Muse Ember · 闭源 · 1M 上下文 · 输入 $0.1/M · 支持推理",
+      "href": "/models/muse-ember/",
+      "shared": 4,
+      "evidence": [
+        {
+          "title": "PurpleLlama · Set of tools to assess and improve LLM security.",
+          "url": "https://github.com/meta-llama/PurpleLlama/releases",
+          "source": "Meta Llama"
+        }
+      ]
     },
     {
       "type": "news",
@@ -39,38 +105,38 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Kuken Industries searches 70 years of drawings in minutes",
+      "name": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "date": "2026-11-09",
       "facts": {},
-      "text": "Kuken Industries searches 70 years of drawings in minutes",
-      "href": "https://openai.com/index/kuken",
+      "text": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "href": "https://openai.com/index/control-room",
       "source": "OpenAI",
       "external": true
     },
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "CodeRabbit scales agentic software development and ships 20x more",
       "date": "2026-11-09",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
+      "text": "CodeRabbit scales agentic software development and ships 20x more",
+      "href": "https://openai.com/index/coderabbit-codex-daybreak",
+      "source": "OpenAI",
       "external": true
     },
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Kuken Industries searches 70 years of drawings in minutes",
       "date": "2026-11-09",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
+      "text": "Kuken Industries searches 70 years of drawings in minutes",
+      "href": "https://openai.com/index/kuken",
+      "source": "OpenAI",
       "external": true
     },
     {
@@ -154,14 +220,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
       "date": "2026-11-08",
       "facts": {},
-      "text": "Qwen-MM-Plugins · Make any agent harness multimodal-native.",
-      "href": "https://github.com/QwenLM/Qwen-MM-Plugins/releases",
-      "source": "Qwen",
+      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "href": "https://github.com/deepseek-ai/3FS/releases",
+      "source": "DeepSeek",
       "external": true
     }
   ]

@@ -2,6 +2,15 @@
   "date": "2026-11-10",
   "timeline": [
     {
+      "n": "muse-ember",
+      "name": "Muse Ember",
+      "vn": "Meta",
+      "rel": "2026-11-09",
+      "ctx": 1048576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
       "n": "claude-fable-5-2",
       "name": "Claude Fable 5.2",
       "vn": "Anthropic",
@@ -1122,7 +1131,7 @@
       "name": "Deep Research Preview (Apr-21-2026)",
       "vn": "谷歌",
       "rel": "2026-04-21",
-      "ctx": 131072,
+      "ctx": 1048576,
       "in": 2,
       "open": 0
     },
@@ -1131,7 +1140,7 @@
       "name": "Deep Research Max Preview (Apr-21-2026)",
       "vn": "谷歌",
       "rel": "2026-04-21",
-      "ctx": 131072,
+      "ctx": 1048576,
       "in": 2,
       "open": 0
     },
