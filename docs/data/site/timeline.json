@@ -1,6 +1,15 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "timeline": [
+    {
+      "n": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "vn": "谷歌",
+      "rel": "2026-11-10",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 0
+    },
     {
       "n": "muse-ember",
       "name": "Muse Ember",
