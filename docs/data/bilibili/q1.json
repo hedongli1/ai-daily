@@ -1,147 +1,287 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-11T00:47:02.108Z",
+ "fetchedAt": "2026-11-11T17:33:42.116Z",
  "rows": [
   {
-   "title": "AI日报 2026-11-11（晨间版）｜Anthropic发AI办公套件 冲刺IPO，AI破解18年量子难题 未公开模型立功",
+   "title": "让 Claude Code 补测试：边界用例、覆盖率与断言怎么写｜Claude Code｜AI编程｜单元测试",
    "up": "",
    "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1xcW56GEL6"
+   "bvid": "BV1uQWm6jEgn"
   },
   {
-   "title": "PyTorch实战27-自编码器(Autoencoder)",
+   "title": "FDE 到客户现场第一周做什么？环境盘点、数据摸底与首个 Demo｜FDE｜AI落地｜交付",
    "up": "",
    "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1PcW56GEMB"
+   "bvid": "BV1Q8WU6JEf6"
   },
   {
-   "title": "PyTorch实战29-变分自编码器(Variational Autoencoder, VAE)",
+   "title": "4.3.1 GPT：Decoder-only 架构与“预训练＋微调”范式",
    "up": "",
-   "play": 0,
+   "play": 2,
    "pub": "2026/11/11",
-   "bvid": "BV1PcW56GEhU"
+   "bvid": "BV1mZWm6GEY6"
   },
   {
-   "title": "018｜文档怎么切才好检索？语义分块与父子块",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/11",
-   "bvid": "BV1KJW46mEL9"
-  },
-  {
-   "title": "【用AI做自媒体】第一期：搭建选题工作台",
-   "up": "",
-   "play": 4,
-   "pub": "2026/11/11",
-   "bvid": "BV1g1WV6pEXu"
-  },
-  {
-   "title": "扣子怎么接到微信和网页？多渠道发布、鉴权与消息格式适配｜Coze｜扣子｜AI Agent",
+   "title": "4.2.5 DeBERTa v3：让监督更密，让梯度解耦",
    "up": "",
    "play": 1,
    "pub": "2026/11/11",
-   "bvid": "BV13CWV69EvN"
+   "bvid": "BV194WU6HEEa"
   },
   {
-   "title": "科技早报 11.11 | 339星！Google向Ultra订阅用户推出Gemini 4 Carbon，deleting-weights 开源上新",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/11",
-   "bvid": "BV1cMW56qEZk"
-  },
-  {
-   "title": "[自动科研]图灵奖得主姚期智&amp;Kimi CEO联合署名论文-TCSExam：大模型会解题，就能做科研？评测前沿LLMs在理论计算机科学全谱系研究任务上的能力",
-   "up": "",
-   "play": 130,
-   "pub": "2026/11/11",
-   "bvid": "BV1QcW36yE6E"
-  },
-  {
-   "title": "Agent删历史反而更贵？三篇论文+Gemini实测",
-   "up": "",
-   "play": 8,
-   "pub": "2026/11/11",
-   "bvid": "BV1sRW36BE1F"
-  },
-  {
-   "title": "程序员转AI越学越迷茫？转型前先理清职业出路、学习顺序与项目准备｜FDE｜大模型｜就业｜学习路线｜转行｜程序员转型｜马士兵｜职业规划｜大龄程序员",
+   "title": "HR 的 AI 转型为什么最难落地？三个真实原因",
    "up": "",
    "play": 5,
    "pub": "2026/11/11",
-   "bvid": "BV1uQWV6EEXX"
+   "bvid": "BV1X4WU6pEiC"
   },
   {
-   "title": "AI日报：Anthropic重磅发布Claude Fable 5.2！65分登顶综合智力指数榜首，8天手搓真机系统原型、不到一天完成三块电路板设计！",
+   "title": "[中配]Claude Fable 5.2太疯狂！Fable 6隐藏，Gemini Krypton、GPT-6.2与Sol！AI新闻 [WorldofAI]",
    "up": "",
-   "play": 120,
+   "play": 55,
    "pub": "2026/11/11",
-   "bvid": "BV1YCWV69EZD"
+   "bvid": "BV1SiWU6LEKm"
   },
   {
-   "title": "【Fable 5.2出品】Codex Memory 是怎么设计和实现的？",
+   "title": "AI 时代怎么突击找工作：硅谷裁员现状、岗位趋势、简历投递与算法岗门槛，全程答疑",
    "up": "",
-   "play": 207,
+   "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1gQWV6EEw7"
+   "bvid": "BV1miWU6LE49"
   },
   {
-   "title": "前沿大模型推理强度对得分和成本的影响有多大？",
-   "up": "",
-   "play": 45,
-   "pub": "2026/11/11",
-   "bvid": "BV1934B6YEh7"
-  },
-  {
-   "title": "AI日报·肥鱼速览 | 11月11日：谷歌最强模型 Carbon 开放，Fable 5.2 登顶智能指数，Anthropic 启动",
+   "title": "单机魔力假人也是用上大模型了从此告别孤单无聊",
    "up": "",
    "play": 13,
    "pub": "2026/11/11",
-   "bvid": "BV1MQWV6EE42"
+   "bvid": "BV1XtWU6DEWo"
   },
   {
-   "title": "017｜RAG入库前先做什么？文档清洗与结构还原",
+   "title": "2026 下半年 IT 求职：市场回暖还是内卷加剧？初级中级岗最危险、大专学历的就业方案、具身智能为什么慢",
    "up": "",
    "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1TJW46mEHu"
+   "bvid": "BV1uiWU6jEq4"
   },
   {
-   "title": "大模型为什么会拉开差距？从训练数据看起",
+   "title": "6.2sol和Astra，我先偷跑替你们先玩了，嘿嘿嘿",
    "up": "",
-   "play": 674,
+   "play": 265,
    "pub": "2026/11/11",
-   "bvid": "BV1ecWV6pEBp"
+   "bvid": "BV1UqWU6yELj"
   },
   {
-   "title": "LangChain 接上 MCP 之后工具怎么管？多服务注册、路由与失败隔离｜AI Agent｜MCP｜工具调用",
+   "title": "我用Claude Fable 5.2找到了BLG战胜GEN的办法！全球最强AI大模型S16决赛前瞻研究报告GEN的数据是“虐菜”刷出来的吗？奇亚娜如何处理？",
+   "up": "",
+   "play": 6337,
+   "pub": "2026/11/11",
+   "bvid": "BV12qWU6yEia"
+  },
+  {
+   "title": "程序员的生存指南-AI冲击就业前景与涨薪晋升全路线",
    "up": "",
    "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1dEW56fEZt"
+   "bvid": "BV1DYWU67E8k"
   },
   {
-   "title": "程序员简历一直投却没回音？下次投递前，先看岗位匹配、空窗期与方向选择｜AI｜就业｜大模型｜职业规划｜马士兵｜程序员求职｜大龄程序员｜FDE｜转行",
+   "title": "GPT-6.2 Astra灰测速测及灰测自检方法，对比6.2 Sol是否稳定提升！？【两分钟速测】",
+   "up": "",
+   "play": 681,
+   "pub": "2026/11/11",
+   "bvid": "BV1SYWU67ETg"
+  },
+  {
+   "title": "MiniMax H3 Image开源 它被吹过头了吗？8大场景 5个开源模型横向评测",
+   "up": "",
+   "play": 145,
+   "pub": "2026/11/11",
+   "bvid": "BV1SYWU67Eg5"
+  },
+  {
+   "title": "用AI看懂自己的八字",
+   "up": "",
+   "play": 248,
+   "pub": "2026/11/11",
+   "bvid": "BV1o7WU6tEFF"
+  },
+  {
+   "title": "：DeepSeek大肥鱼启动动画 自带免费模型，果然还是适合自己的最好，现在还差装一个记忆插件了，等弄好了直接发安装包，小白都可以普通的安装使用，秒变大佬！",
+   "up": "",
+   "play": 14,
+   "pub": "2026/11/11",
+   "bvid": "BV1UeWU62EbQ"
+  },
+  {
+   "title": "震惊瘫坐！Fable 5.2 纯 JS 化身大模型里的画家！",
+   "up": "",
+   "play": 7,
+   "pub": "2026/11/11",
+   "bvid": "BV1i7WU6bEY4"
+  },
+  {
+   "title": "后端JAVA+Python Agent大模型双元面试 2026-11-11 21_10_20 面试小达达",
    "up": "",
    "play": 0,
    "pub": "2026/11/11",
-   "bvid": "BV1XWW56xEjk"
+   "bvid": "BV1ZLWU6fEPS"
   },
   {
-   "title": "【AI Coding 框架全景 04】AI-DLC V2（四）：一行删除，谁看见？｜立项后 5 个环节 34 步",
+   "title": "听说，扩散模型要完蛋了？",
    "up": "",
-   "play": 19,
+   "play": 105,
    "pub": "2026/11/11",
-   "bvid": "BV14EWL6UERL"
+   "bvid": "BV1qjWU6FEvG"
   },
   {
-   "title": "Anthropic 发布 Fable 5.2 十大提示词新规（完整指南）",
+   "title": "模型可以换，上下文和工作流要留在自己手里｜ADE、ORCA 与 mirasim",
    "up": "",
-   "play": 27,
+   "play": 9,
    "pub": "2026/11/11",
-   "bvid": "BV1NhWg6KEbs"
+   "bvid": "BV1fLWU6fEug"
+  },
+  {
+   "title": "【蓝色大肥鱼】当DSH接手你的工作区",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/11",
+   "bvid": "BV1oLWU6fEmS"
+  },
+  {
+   "title": "现在的AI智能体能自己改自己的错，可它改了什么，你还会去看吗？",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/11",
+   "bvid": "BV1vWWU6sES5"
+  },
+  {
+   "title": "1000元最值得的大比例蝙蝠侠就是它了吧？！",
+   "up": "",
+   "play": 140,
+   "pub": "2026/11/11",
+   "bvid": "BV1GsWU69EWE"
+  },
+  {
+   "title": "Fable5.2实测，AI能接住一整件事了吗？",
+   "up": "",
+   "play": 866,
+   "pub": "2026/11/11",
+   "bvid": "BV1RHWU6RERL"
+  },
+  {
+   "title": "【2026.11最新】全球26款主流AI大模型强度排行！",
+   "up": "",
+   "play": 371,
+   "pub": "2026/11/11",
+   "bvid": "BV1dnWU6xE2o"
+  },
+  {
+   "title": "迷你主机对决 NVIDIA DGX Spark：大内存才是本地跑大模型的关键 | Alex Ziskind",
+   "up": "",
+   "play": 16,
+   "pub": "2026/11/11",
+   "bvid": "BV1PwW56rE23"
+  },
+  {
+   "title": "【平尾帆夏 丹生明里】261111 AI大作戦",
+   "up": "",
+   "play": 206,
+   "pub": "2026/11/11",
+   "bvid": "BV1dHWU6REiq"
+  },
+  {
+   "title": "有线设备大管理！打印前模型简介",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/11",
+   "bvid": "BV1fRWU6AEqC"
+  },
+  {
+   "title": "Fable 5.2 实测｜从可玩关卡到虚幻引擎里的 3D 东京",
+   "up": "",
+   "play": 25,
+   "pub": "2026/11/11",
+   "bvid": "BV1cQWU6KER8"
+  },
+  {
+   "title": "感觉像建模师喝大了做出来的——三角洲枪械问题杂谈——AK-12",
+   "up": "",
+   "play": 717,
+   "pub": "2026/11/11",
+   "bvid": "BV1wQWU6KExp"
+  },
+  {
+   "title": "我的体检报告说我没事｜布铃观察 16",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/11",
+   "bvid": "BV1zXWU6eEQU"
+  },
+  {
+   "title": "单张7900XTX本地部署QWEN3.8 flash NEXT 速度逆天",
+   "up": "",
+   "play": 204,
+   "pub": "2026/11/11",
+   "bvid": "BV1iwWS6tE4V"
+  },
+  {
+   "title": "DSH GO：把整套 Agent 环境装进手机",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/11",
+   "bvid": "BV1iwWS6tEXX"
+  },
+  {
+   "title": "我用 556 条性格，做了个能「勾」出人设的工具",
+   "up": "",
+   "play": 454,
+   "pub": "2026/11/11",
+   "bvid": "BV1vwWS6tEeJ"
+  },
+  {
+   "title": "【手办推荐】蛇系美人！大漫匠美杜莎雾纱手办品鉴",
+   "up": "",
+   "play": 218,
+   "pub": "2026/11/11",
+   "bvid": "BV1K6WU6CEPN"
+  },
+  {
+   "title": "Agent 记忆怎么做才不忘事：短期上下文、长期存储、召回策略，一套架构直接落到生产",
+   "up": "",
+   "play": 10,
+   "pub": "2026/11/11",
+   "bvid": "BV1g9WL6REs1"
+  },
+  {
+   "title": "苏姿丰：算力越强越聪明，提前布局才是长期赢家，可有的市场偏偏会短视",
+   "up": "",
+   "play": 69,
+   "pub": "2026/11/11",
+   "bvid": "BV1ykWU63EoE"
+  },
+  {
+   "title": "大漫匠 少女前线2 追放 芙洛伦 - 翠雀媚1/7 手办",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/11",
+   "bvid": "BV1ykWU63E2d"
+  },
+  {
+   "title": "[中文切片]AI的下一个大机会在哪",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/11",
+   "bvid": "BV1yCWU66ESa"
+  },
+  {
+   "title": "大漫匠 交错战线 「绯猁」 1/12 拼装可动模玩",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/11",
+   "bvid": "BV1ykWU63EZW"
   }
  ]
 }

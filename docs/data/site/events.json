@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "mode": "diff",
-  "baselineDate": "2026-11-10",
+  "baselineDate": "2026-11-11",
   "events": [
     {
       "type": "news",
@@ -19,6 +19,71 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "ChatGPT Plus for veterans and servicemembers",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "ChatGPT Plus for veterans and servicemembers",
+      "href": "https://openai.com/index/chatgpt-plus-for-veterans",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+      "href": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "href": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "Experience the art and legacy of Dr. Esther Mahlangu",
+      "href": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
@@ -30,54 +95,30 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "google/Gemini 4 Carbon",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemini 4 Carbon",
-      "date": "2026-11-10",
-      "facts": {
-        "ctx": 1048576,
-        "in": 2,
-        "outCost": 10,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Gemini 4 Carbon · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/gemini-4-carbon/",
-      "shared": 11,
-      "evidence": [
-        {
-          "title": "Gemini 4 Carbon is now available",
-          "url": "https://deepmind.google/blog/gemini-4-carbon-is-now-available/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
-          "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Gemini Intelligence: New features, on more devices",
-          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
-          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "Google Cloud launches Gemini for healthcare.",
-          "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-          "source": "Google DeepMind"
-        }
-      ]
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
     },
     {
       "type": "news",
@@ -123,11 +164,37 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
+      "name": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "href": "https://openai.com/index/singapore-airlines-travel-work",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
       "name": "Work at the Frontier: AI’s effect on freelance work",
       "date": "2026-11-10",
       "facts": {},
       "text": "Work at the Frontier: AI’s effect on freelance work",
       "href": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "href": "https://openai.com/index/cogent-security",
       "source": "OpenAI",
       "external": true
     },
@@ -212,6 +279,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
@@ -227,11 +307,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "name": "cookbook · 仓库更新",
       "date": "2026-11-10",
       "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -240,11 +320,11 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
       "date": "2026-11-10",
       "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -272,84 +352,6 @@
       "text": "llm-d-router-public · Inference scheduler for llm-d",
       "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "ChatGPT Enterprise now available in AWS Marketplace",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "ChatGPT Enterprise now available in AWS Marketplace",
-      "href": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "Control Room: A central system to track and stop model workloads across our research infrastructure",
-      "href": "https://openai.com/index/control-room",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "CodeRabbit scales agentic software development and ships 20x more",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "CodeRabbit scales agentic software development and ships 20x more",
-      "href": "https://openai.com/index/coderabbit-codex-daybreak",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Kuken Industries searches 70 years of drawings in minutes",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "Kuken Industries searches 70 years of drawings in minutes",
-      "href": "https://openai.com/index/kuken",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "Gemini Robotics 2.5 accelerates real-world general dexterity",
-      "href": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "meta",
-      "vendorName": "Meta Llama",
-      "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
-      "date": "2026-11-09",
-      "facts": {},
-      "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
-      "href": "https://github.com/meta-llama/PurpleLlama/releases",
-      "source": "Meta Llama",
       "external": true
     }
   ]
