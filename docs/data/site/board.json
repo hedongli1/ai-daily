@@ -68,33 +68,33 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 121,
-      "n": "gpt-5-3-codex",
-      "name": "GPT-5.3 Codex",
-      "vn": "OpenAI",
-      "avg": 0.7479,
-      "best": 0.7479,
-      "runs": 1
+      "models": 122,
+      "n": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "vn": "谷歌",
+      "avg": 0.7789,
+      "best": 1,
+      "runs": 10
     },
     {
       "tag": "Multimodal",
-      "models": 65,
-      "n": "claude-fable-5-2",
-      "name": "Claude Fable 5.2",
-      "vn": "Anthropic",
-      "avg": 0.7425,
+      "models": 66,
+      "n": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "vn": "谷歌",
+      "avg": 0.7789,
       "best": 1,
-      "runs": 12
+      "runs": 10
     },
     {
       "tag": "Vision",
-      "models": 62,
-      "n": "claude-fable-5-2",
-      "name": "Claude Fable 5.2",
-      "vn": "Anthropic",
-      "avg": 0.7425,
+      "models": 63,
+      "n": "gemini-4-carbon",
+      "name": "Gemini 4 Carbon",
+      "vn": "谷歌",
+      "avg": 0.7789,
       "best": 1,
-      "runs": 12
+      "runs": 10
     },
     {
       "tag": "Video",

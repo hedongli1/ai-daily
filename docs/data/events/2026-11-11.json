@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 19,
+    "news": 23,
     "facts": 1,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "id": "QwenLM",
@@ -79,6 +79,32 @@
   ],
   "events": [
     {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Gilbert + Tobin rethinks the business of law with AI",
+      "date": "2026-11-12",
+      "facts": {},
+      "text": "Gilbert + Tobin rethinks the business of law with AI",
+      "href": "https://openai.com/index/gilbert-tobin-sam-nickless",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-11",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
       "type": "new",
       "key": "google/Gemini 4 Carbon",
       "vendor": "google",
@@ -94,7 +120,7 @@
       },
       "text": "Gemini 4 Carbon · 闭源 · 1M 上下文 · 输入 $2/M · 支持推理",
       "href": "/models/gemini-4-carbon/",
-      "shared": 5,
+      "shared": 11,
       "evidence": [
         {
           "title": "Gemini 4 Carbon is now available",
@@ -105,6 +131,11 @@
           "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
           "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
           "source": "Google DeepMind"
+        },
+        {
+          "title": "Gemini Intelligence: New features, on more devices",
+          "url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+          "source": "Google Blog · AI"
         },
         {
           "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
@@ -133,6 +164,19 @@
       "facts": {},
       "text": "Helping caregivers use AI in everyday life",
       "href": "https://openai.com/index/helping-caregivers-use-ai-in-everyday-life",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing Businesses in ChatGPT",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "Introducing Businesses in ChatGPT",
+      "href": "https://openai.com/index/introducing-businesses-chatgpt",
       "source": "OpenAI",
       "external": true
     },
@@ -193,6 +237,19 @@
       "key": null,
       "vendor": "google",
       "vendorName": "Google Blog · AI",
+      "name": "Gemini Intelligence: New features, on more devices",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "Gemini Intelligence: New features, on more devices",
+      "href": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
       "name": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "date": "2026-11-10",
       "facts": {},
@@ -212,19 +269,6 @@
       "text": "Google Cloud launches Gemini for healthcare.",
       "href": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
       "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-10",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -276,6 +320,19 @@
       "facts": {},
       "text": "cookbook · 仓库更新",
       "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-11-10",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
       "source": "Mistral AI",
       "external": true
     },

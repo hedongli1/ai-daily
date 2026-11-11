@@ -4,7 +4,7 @@
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 123,
+  "count": 124,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -91,11 +91,11 @@
       "name": "DeepSeek-V4-Pro"
     },
     "deepseek-v4-1-flash": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language,Vision,Multimodal": {
-          "n": 8,
-          "avg": 0.563,
+          "n": 9,
+          "avg": 0.5721,
           "best": 0.9833
         }
       },
@@ -127,11 +127,11 @@
       "name": "GLM-5.1"
     },
     "glm-5-2": {
-      "runs": 20,
+      "runs": 21,
       "domains": {
         "Language": {
-          "n": 20,
-          "avg": 0.4394,
+          "n": 21,
+          "avg": 0.436,
           "best": 0.9186
         }
       },
@@ -151,11 +151,11 @@
       "name": "GLM-5.3"
     },
     "kimi-k3": {
-      "runs": 16,
+      "runs": 17,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 16,
-          "avg": 0.5339,
+          "n": 17,
+          "avg": 0.5346,
           "best": 0.9722
         }
       },
@@ -307,11 +307,11 @@
       "name": "Qwen3.7-Plus"
     },
     "qwen3-8-max": {
-      "runs": 7,
+      "runs": 8,
       "domains": {
         "Language,Vision": {
-          "n": 7,
-          "avg": 0.5662,
+          "n": 8,
+          "avg": 0.5552,
           "best": 1
         }
       },
@@ -391,11 +391,11 @@
       "name": "Qwen3.6 27B"
     },
     "claude-fable-5": {
-      "runs": 20,
+      "runs": 21,
       "domains": {
         "Language,Multimodal": {
-          "n": 20,
-          "avg": 0.6758,
+          "n": 21,
+          "avg": 0.677,
           "best": 1
         }
       },
@@ -403,11 +403,11 @@
       "name": "Claude Fable 5"
     },
     "claude-fable-5-1": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 13,
-          "avg": 0.5086,
+          "n": 14,
+          "avg": 0.539,
           "best": 1
         }
       },
@@ -439,11 +439,11 @@
       "name": "Claude Haiku 4.5"
     },
     "claude-haiku-5-5": {
-      "runs": 11,
+      "runs": 12,
       "domains": {
         "Language,Vision": {
-          "n": 11,
-          "avg": 0.5739,
+          "n": 12,
+          "avg": 0.5918,
           "best": 0.9889
         }
       },
@@ -463,11 +463,11 @@
       "name": "Claude Opus 4.5"
     },
     "claude-opus-4-6": {
-      "runs": 31,
+      "runs": 32,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 31,
-          "avg": 0.4668,
+          "n": 32,
+          "avg": 0.4627,
           "best": 0.9444
         }
       },
@@ -487,11 +487,11 @@
       "name": "Claude Opus 4.7"
     },
     "claude-opus-4-8": {
-      "runs": 20,
+      "runs": 21,
       "domains": {
         "Language": {
-          "n": 20,
-          "avg": 0.5599,
+          "n": 21,
+          "avg": 0.5645,
           "best": 0.9833
         }
       },
@@ -499,11 +499,11 @@
       "name": "Claude Opus 4.8"
     },
     "claude-opus-5": {
-      "runs": 16,
+      "runs": 17,
       "domains": {
         "Language,Vision,Multimodal": {
-          "n": 16,
-          "avg": 0.6599,
+          "n": 17,
+          "avg": 0.6728,
           "best": 0.9889
         }
       },
@@ -511,11 +511,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 14,
+      "runs": 15,
       "domains": {
         "Language": {
-          "n": 14,
-          "avg": 0.6008,
+          "n": 15,
+          "avg": 0.6244,
           "best": 1
         }
       },
@@ -547,11 +547,11 @@
       "name": "Claude Sonnet 4.6"
     },
     "claude-sonnet-5": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal": {
-          "n": 12,
-          "avg": 0.5309,
+          "n": 13,
+          "avg": 0.5387,
           "best": 0.9472
         }
       },
@@ -559,11 +559,11 @@
       "name": "Claude Sonnet 5"
     },
     "claude-sonnet-5-5": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.5144,
+          "n": 13,
+          "avg": 0.55,
           "best": 1
         }
       },
@@ -571,11 +571,11 @@
       "name": "Claude Sonnet 5.5"
     },
     "deepseek-v4-pro-0813": {
-      "runs": 7,
+      "runs": 8,
       "domains": {
         "Language": {
-          "n": 7,
-          "avg": 0.6051,
+          "n": 8,
+          "avg": 0.5711,
           "best": 0.9861
         }
       },
@@ -715,11 +715,11 @@
       "name": "GPT-5.1"
     },
     "gpt-5-2": {
-      "runs": 42,
+      "runs": 43,
       "domains": {
         "(未标注)": {
-          "n": 42,
-          "avg": 0.4316,
+          "n": 43,
+          "avg": 0.4291,
           "best": 0.9611
         }
       },
@@ -727,11 +727,11 @@
       "name": "GPT-5.2"
     },
     "gpt-5-4": {
-      "runs": 31,
+      "runs": 32,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 31,
-          "avg": 0.5459,
+          "n": 32,
+          "avg": 0.5361,
           "best": 0.9778
         }
       },
@@ -763,11 +763,11 @@
       "name": "GPT-5.4 Nano"
     },
     "gpt-5-5": {
-      "runs": 25,
+      "runs": 26,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 25,
-          "avg": 0.5197,
+          "n": 26,
+          "avg": 0.5087,
           "best": 1
         }
       },
@@ -775,11 +775,11 @@
       "name": "GPT-5.5"
     },
     "gpt-5-6-luna": {
-      "runs": 19,
+      "runs": 20,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 19,
-          "avg": 0.4648,
+          "n": 20,
+          "avg": 0.4522,
           "best": 0.9833
         }
       },
@@ -799,11 +799,11 @@
       "name": "GPT-5.6 Sol"
     },
     "gpt-5-6-terra": {
-      "runs": 17,
+      "runs": 18,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 17,
-          "avg": 0.5359,
+          "n": 18,
+          "avg": 0.5289,
           "best": 0.9972
         }
       },
@@ -883,11 +883,11 @@
       "name": "Gemini 3.5 Flash-Lite"
     },
     "gemini-3-6-flash": {
-      "runs": 16,
+      "runs": 17,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 16,
-          "avg": 0.5514,
+          "n": 17,
+          "avg": 0.5327,
           "best": 0.9417
         }
       },
@@ -907,11 +907,11 @@
       "name": "Gemini 3.7 Flash"
     },
     "gemini-3-8-flash": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language,Multimodal,Image generation,Video,Audio": {
-          "n": 9,
-          "avg": 0.5456,
+          "n": 10,
+          "avg": 0.5299,
           "best": 0.9889
         }
       },
@@ -929,6 +929,18 @@
       },
       "rel": "2026-09-30",
       "name": "Gemini 4 Argon"
+    },
+    "gemini-4-carbon": {
+      "runs": 10,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 10,
+          "avg": 0.7789,
+          "best": 1
+        }
+      },
+      "rel": "2026-10-28",
+      "name": "Gemini 4 Carbon"
     },
     "gemma-4-31b-it": {
       "runs": 3,
@@ -967,11 +979,11 @@
       "name": "Muse Spark 1.2"
     },
     "muse-spark-1-3": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language": {
-          "n": 9,
-          "avg": 0.495,
+          "n": 10,
+          "avg": 0.5,
           "best": 0.9917
         }
       },
@@ -979,11 +991,11 @@
       "name": "Muse Spark 1.3"
     },
     "muse-wonder": {
-      "runs": 6,
+      "runs": 7,
       "domains": {
         "Language,Vision,Video,Multimodal": {
-          "n": 6,
-          "avg": 0.6481,
+          "n": 7,
+          "avg": 0.6206,
           "best": 0.9944
         }
       },
@@ -1027,11 +1039,11 @@
       "name": "Ministral 8B"
     },
     "mistral-large-4": {
-      "runs": 15,
+      "runs": 16,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 15,
-          "avg": 0.4484,
+          "n": 16,
+          "avg": 0.4377,
           "best": 0.9944
         }
       },
@@ -1255,11 +1267,11 @@
       "name": "GPT-5.5 Pro"
     },
     "gpt-6-astra": {
-      "runs": 20,
+      "runs": 21,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 20,
-          "avg": 0.734,
+          "n": 21,
+          "avg": 0.7276,
           "best": 1
         }
       },
@@ -1279,11 +1291,11 @@
       "name": "GPT-6 Luna"
     },
     "gpt-6-sol": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 13,
-          "avg": 0.5288,
+          "n": 14,
+          "avg": 0.526,
           "best": 1
         }
       },
@@ -1291,11 +1303,11 @@
       "name": "GPT-6 Sol"
     },
     "gpt-6-1-sol": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 13,
-          "avg": 0.6317,
+          "n": 14,
+          "avg": 0.6302,
           "best": 1
         }
       },
@@ -1303,11 +1315,11 @@
       "name": "GPT-6.1 Sol"
     },
     "gpt-6-1-terra": {
-      "runs": 11,
+      "runs": 12,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 11,
-          "avg": 0.6668,
+          "n": 12,
+          "avg": 0.6751,
           "best": 1
         }
       },
@@ -1435,11 +1447,11 @@
       "name": "Grok 4.6"
     },
     "grok-4-7": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language": {
-          "n": 9,
-          "avg": 0.453,
+          "n": 10,
+          "avg": 0.4621,
           "best": 0.9806
         }
       },

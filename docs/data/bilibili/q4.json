@@ -1,26 +1,229 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-11-09T20:16:48.430Z",
+ "fetchedAt": "2026-11-11T00:47:03.476Z",
  "rows": [
+  {
+   "title": "[自动科研]图灵奖得主姚期智&amp;Kimi CEO联合署名论文-TCSExam：大模型会解题，就能做科研？评测前沿LLMs在理论计算机科学全谱系研究任务上的能力",
+   "up": "",
+   "play": 130,
+   "pub": "2026/11/11",
+   "bvid": "BV1QcW36yE6E"
+  },
+  {
+   "title": "前沿大模型推理强度对得分和成本的影响有多大？",
+   "up": "",
+   "play": 45,
+   "pub": "2026/11/11",
+   "bvid": "BV1934B6YEh7"
+  },
+  {
+   "title": "Caldera Meridian 评测｜Google Gemini 4 Carbon",
+   "up": "",
+   "play": 220,
+   "pub": "2026/11/10",
+   "bvid": "BV1yBWG6MEXZ"
+  },
+  {
+   "title": "Gemini 4 Carbon正式版速测，惊掉UP主下巴的仰望U9？世界知识之王！【两分钟速测】",
+   "up": "",
+   "play": 4665,
+   "pub": "2026/11/10",
+   "bvid": "BV1iRWG64EW5"
+  },
+  {
+   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/10",
+   "bvid": "BV1LzWV64EeJ"
+  },
+  {
+   "title": "三四线城市做测试还要学ai测试吗",
+   "up": "",
+   "play": 200,
+   "pub": "2026/11/10",
+   "bvid": "BV1ev4E6LELW"
+  },
+  {
+   "title": "RAG 还是张口就编？分块策略、召回评测与引用溯源实战｜RAG｜向量检索｜知识库",
+   "up": "",
+   "play": 37,
+   "pub": "2026/11/10",
+   "bvid": "BV1mAWu6vEQC"
+  },
+  {
+   "title": "016｜提示词改好了，怎么证明？版本管理与回归验证",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/10",
+   "bvid": "BV13TW46dEC6"
+  },
+  {
+   "title": "【评测与基准】影子评测与回归验收：三种对比方式、负翻转、bootstrap 显著性与按域非劣门限",
+   "up": "",
+   "play": 148,
+   "pub": "2026/11/10",
+   "bvid": "BV1x44K6AEoB"
+  },
+  {
+   "title": "【2026最新】一小时从0到1精通AI大模型评测与回归测试实战，AI大模型测试三阶段，别再盲目自学了！",
+   "up": "",
+   "play": 1040,
+   "pub": "2026/11/10",
+   "bvid": "BV1xSWu6PEmf"
+  },
+  {
+   "title": "Claude Fable 5.2：官方称 30 小时形式化费马大定理",
+   "up": "",
+   "play": 14,
+   "pub": "2026/11/10",
+   "bvid": "BV1JPWg69EUb"
+  },
+  {
+   "title": "Claude Fable 5.2 深度评测：全球最强模型？先看账单再说",
+   "up": "",
+   "play": 132,
+   "pub": "2026/11/10",
+   "bvid": "BV1jgWg6SErd"
+  },
+  {
+   "title": "Claude Fable 5.2 实测汇总：同一提示词 High 档24美元、Ultra 档642美元，它到底值不值？",
+   "up": "",
+   "play": 146,
+   "pub": "2026/11/10",
+   "bvid": "BV1bzWT6AEwA"
+  },
+  {
+   "title": "AI评估若拿满分说明测试太简单？构建高可靠AI系统的五大核心法则 | AI Engineer",
+   "up": "",
+   "play": 111,
+   "pub": "2026/11/10",
+   "bvid": "BV122xh6aEwD"
+  },
+  {
+   "title": "Caldera Meridian 评测｜Anthropic Claude Fable 5.2",
+   "up": "",
+   "play": 1524,
+   "pub": "2026/11/10",
+   "bvid": "BV1Q7WM6KEYK"
+  },
+  {
+   "title": "别再盲信AI的建议了！实测对比10大主流模型：全在和稀泥，GPT竟最差",
+   "up": "",
+   "play": 1173,
+   "pub": "2026/11/10",
+   "bvid": "BV1owWM6jEy2"
+  },
+  {
+   "title": "Claude Fable 5.2 雷达图，几乎全方位领先，长文档推理是唯一短板",
+   "up": "",
+   "play": 27784,
+   "pub": "2026/11/10",
+   "bvid": "BV1EAWM62ETg"
+  },
+  {
+   "title": "宣称 1M，第三方实测有效长度只有 16K：上下文该按哪个数算",
+   "up": "",
+   "play": 110,
+   "pub": "2026/11/10",
+   "bvid": "BV1RKWM6CEhC"
+  },
+  {
+   "title": "【解读】Fable 5.2 登顶第一，但先别急着换",
+   "up": "",
+   "play": 337,
+   "pub": "2026/11/10",
+   "bvid": "BV1dKWM6yEyh"
+  },
+  {
+   "title": "Claude Fable 5.2 发布了：这支十分钟的片子，是它自己做的（中英字幕）",
+   "up": "",
+   "play": 783,
+   "pub": "2026/11/10",
+   "bvid": "BV1rBWM6QE3L"
+  },
+  {
+   "title": "【手办评测】胆子肥嘟嘟的！造型还原度非常高的一款！做工正常水平！很不错！大货 爱沢有里彩 祖国版开箱评测！",
+   "up": "",
+   "play": 12108,
+   "pub": "2026/11/10",
+   "bvid": "BV1BCWM6EEZN"
+  },
+  {
+   "title": "中配-Anthropic 发布 Fable 5.2，史上最强模型来了？-Matthew Berman",
+   "up": "",
+   "play": 116,
+   "pub": "2026/11/10",
+   "bvid": "BV1sCWN6QE7P"
+  },
+  {
+   "title": "【LangSmith评测】单元测试 | LangSmith 评估 - 第10部分｜LangChain",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/10",
+   "bvid": "BV1PUWN6EEPi"
+  },
+  {
+   "title": "【Day 21｜GPT-6 Astra】Fable 5.2横评：升级多大，谁还能赢它？",
+   "up": "",
+   "play": 548,
+   "pub": "2026/11/10",
+   "bvid": "BV1heWN6ZEPn"
+  },
+  {
+   "title": "【LangSmith评测】提示游乐场中的评估 | LangSmith 评估 - 第8部分｜LangChain",
+   "up": "",
+   "play": 53,
+   "pub": "2026/11/10",
+   "bvid": "BV13aWN6FEmU"
+  },
+  {
+   "title": "【LangSmith评测】课程｜LangSmith Evaluations - Part 7｜LangChain",
+   "up": "",
+   "play": 7,
+   "pub": "2026/11/10",
+   "bvid": "BV13YWN6bExg"
+  },
+  {
+   "title": "【LangSmith评测】评估大型语言模型 | 为什么评估很重要 | 第1部分｜LangChain",
+   "up": "",
+   "play": 11,
+   "pub": "2026/11/10",
+   "bvid": "BV1X3WK6aEwZ"
+  },
+  {
+   "title": "TCL85T7MArt艺术电视85英寸QD-MiniLED豆包大模型品类推荐：大屏艺术体验到底值不值？",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/9",
+   "bvid": "BV1i6WK6kEmZ"
+  },
+  {
+   "title": "qoder 阿里真的是认真的吗？真的连续两次在同一个公司踩坑。",
+   "up": "",
+   "play": 479,
+   "pub": "2026/11/9",
+   "bvid": "BV1v2WK6BEmE"
+  },
   {
    "title": "一个 9B 模型说自己是印度的，出处写在第三行",
    "up": "",
-   "play": 144,
+   "play": 278,
    "pub": "2026/11/9",
    "bvid": "BV1paWb67E94"
   },
   {
    "title": "我给8个AI办了场造桥大赛！连闯6关，压轴题居然只过3个?",
    "up": "",
-   "play": 2263,
+   "play": 7159,
    "pub": "2026/11/9",
    "bvid": "BV1pRW86nEvg"
   },
   {
    "title": "AI预测S16决赛！国产模型豆包、Kimi、mimo选择BLG夺冠，谁是决定冠军的人？",
    "up": "",
-   "play": 47796,
+   "play": 153165,
    "pub": "2026/11/9",
    "bvid": "BV1CPWt62EBC"
   },
@@ -34,28 +237,28 @@
   {
    "title": "猜对还不够！Decision Index v2：私有数据权重涨到 45%，15 题全对才过关",
    "up": "",
-   "play": 9,
+   "play": 20,
    "pub": "2026/11/9",
    "bvid": "BV1ZEWt6TEMM"
   },
   {
    "title": "【手机就能发网页？】Blender测评终于搭好，一句话就能做成一张在线榜单",
    "up": "",
-   "play": 684,
+   "play": 1045,
    "pub": "2026/11/9",
    "bvid": "BV1hgW469EF7"
   },
   {
    "title": "炫卡斗士、托宝战士、咖宝车神变形警车玩具大集合",
    "up": "",
-   "play": 353,
+   "play": 2175,
    "pub": "2026/11/9",
    "bvid": "BV1VgWb6aExX"
   },
   {
    "title": "Qwen4发布：270亿参数开源版直逼GPT，AI市场要变天",
    "up": "",
-   "play": 6849,
+   "play": 8771,
    "pub": "2026/11/9",
    "bvid": "BV1oeWs6bEn4"
   },
@@ -76,72 +279,9 @@
   {
    "title": "Agent记住免确认，为什么就越权？",
    "up": "",
-   "play": 341,
+   "play": 353,
    "pub": "2026/11/9",
    "bvid": "BV1zh4p6eEh6"
-  },
-  {
-   "title": "超大屏性价比之王TCL 85T7M Art 艺术电视85英寸QD-MiniLED豆包大模型品类推荐？",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/8",
-   "bvid": "BV1e7WW6HESH"
-  },
-  {
-   "title": "TCL 85T7M Art 艺术电视 品类推荐：85英寸QD-MiniLED画质真香吗？性价比如何？",
-   "up": "",
-   "play": 4,
-   "pub": "2026/11/8",
-   "bvid": "BV13zWn66EK1"
-  },
-  {
-   "title": "离线95分，用户为什么越来越不满意？AI上线后的漂移问题｜Python实战第九期15",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/8",
-   "bvid": "BV1KUWn6eEtR"
-  },
-  {
-   "title": "答对7题也不能上线？用Python拦住关键回归｜Python实战第九期02",
-   "up": "",
-   "play": 91,
-   "pub": "2026/11/8",
-   "bvid": "BV12UWn6YEJU"
-  },
-  {
-   "title": "【Agent系列】Agent 评测全览：让离线与线上形成闭环",
-   "up": "",
-   "play": 63,
-   "pub": "2026/11/8",
-   "bvid": "BV1siWH6hEnw"
-  },
-  {
-   "title": "AI 榜单第一名，到底强在哪？一次看懂大模型评测指标",
-   "up": "",
-   "play": 46,
-   "pub": "2026/11/8",
-   "bvid": "BV16ZWE6UEG9"
-  },
-  {
-   "title": "评测问它「会不会」，上线看它「还是不是」：一个 AI 转生 300 代之后",
-   "up": "",
-   "play": 807,
-   "pub": "2026/11/8",
-   "bvid": "BV1fFWJ67EhD"
-  },
-  {
-   "title": "11-08 AI 雷达晚报｜今天最值得下载的 6 个新模型：RLY Thot Shot",
-   "up": "",
-   "play": 866,
-   "pub": "2026/11/8",
-   "bvid": "BV11mWE6xEKn"
-  },
-  {
-   "title": "Qwen 4 到底发了没？从官方接口到匿名模型，一次说清",
-   "up": "",
-   "play": 2254,
-   "pub": "2026/11/8",
-   "bvid": "BV1aVWJ6BEq7"
   }
  ]
 }
