@@ -1,287 +1,147 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-11-11T17:33:43.536Z",
+ "fetchedAt": "2026-11-12T17:48:25.849Z",
  "rows": [
+  {
+   "title": "单表搞定三大任务！首个覆盖表格生成、补全、预测的通用表格模型基准OTBench全解析 【表格建模】【基准评测】",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/12",
+   "bvid": "BV1E2Wd6QEDV"
+  },
+  {
+   "title": "【0813神区PLAY】Qwen-4-max-Preview 软件工作流/三维/游戏开发实测",
+   "up": "",
+   "play": 577,
+   "pub": "2026/11/12",
+   "bvid": "BV1gPWo6gEfL"
+  },
+  {
+   "title": "【RSI已成？】Gemini-4-Carbon 软件工作流/三维/游戏开发实测",
+   "up": "",
+   "play": 568,
+   "pub": "2026/11/12",
+   "bvid": "BV1uNWo6zEtP"
+  },
+  {
+   "title": "【中配】Apache 2.0 开源，Ripple 65B 挑战 DeepSeek-V3 实测表现",
+   "up": "",
+   "play": 13,
+   "pub": "2026/11/12",
+   "bvid": "BV1F8Wo6pE3T"
+  },
+  {
+   "title": "【中字】海外博主实测：开源模型代码实战为何频频掉链子",
+   "up": "",
+   "play": 51,
+   "pub": "2026/11/12",
+   "bvid": "BV17qWS6eEaP"
+  },
+  {
+   "title": "Fable5.2一句话生成一个游戏，国产模型还有多大差距？｜三张成绩单拆解",
+   "up": "",
+   "play": 37,
+   "pub": "2026/11/12",
+   "bvid": "BV1mRWo6NECs"
+  },
+  {
+   "title": "RAG评测最佳落地实践",
+   "up": "",
+   "play": 50,
+   "pub": "2026/11/12",
+   "bvid": "BV1tYWW63EqS"
+  },
+  {
+   "title": "不考虑价格 其实还不错 | Qwen4 Max Pre 8道真题实测",
+   "up": "",
+   "play": 728,
+   "pub": "2026/11/12",
+   "bvid": "BV11mWX6WE2E"
+  },
+  {
+   "title": "【中字】海外博主拆解AI跑分：同一模型竟差37分",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/12",
+   "bvid": "BV1nhWS6BERe"
+  },
+  {
+   "title": "【中字】老外实测Kimi K3.1 Pro：长任务竟走捷径",
+   "up": "",
+   "play": 162,
+   "pub": "2026/11/12",
+   "bvid": "BV1VRW96BEHJ"
+  },
+  {
+   "title": "小度智能屏X9Pro 文心大模型 AI智能音箱音响 360度摄像头远程视频通话 小孩老人陪伴礼物 老人礼物",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/12",
+   "bvid": "BV169WD6rEmr"
+  },
+  {
+   "title": "【中字】海外博主实测：8GB显卡狂飙Gemma 26B",
+   "up": "",
+   "play": 24,
+   "pub": "2026/11/12",
+   "bvid": "BV1jzWS6AEQu"
+  },
+  {
+   "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
+   "up": "",
+   "play": 304,
+   "pub": "2026/11/12",
+   "bvid": "BV1PgWX6SET5"
+  },
+  {
+   "title": "Gemini Decision 1 上线：专用决策模型，官方评测不是全赢",
+   "up": "",
+   "play": 350,
+   "pub": "2026/11/11",
+   "bvid": "BV11HWS6yEVo"
+  },
+  {
+   "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
+   "up": "",
+   "play": 672,
+   "pub": "2026/11/11",
+   "bvid": "BV1nhWS6BEds"
+  },
+  {
+   "title": "小米智能音箱新一代小爱AI大模型问答到底值不值得买？品类推荐",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/11",
+   "bvid": "BV1LqWm6dE3V"
+  },
+  {
+   "title": "Gemini carbon4来了！实测居然这么强",
+   "up": "",
+   "play": 141,
+   "pub": "2026/11/11",
+   "bvid": "BV138WU6nE2F"
+  },
   {
    "title": "我用Claude Fable 5.2找到了BLG战胜GEN的办法！全球最强AI大模型S16决赛前瞻研究报告GEN的数据是“虐菜”刷出来的吗？奇亚娜如何处理？",
    "up": "",
-   "play": 6337,
+   "play": 128218,
    "pub": "2026/11/11",
    "bvid": "BV12qWU6yEia"
   },
   {
    "title": "GPT-6.2 Astra灰测速测及灰测自检方法，对比6.2 Sol是否稳定提升！？【两分钟速测】",
    "up": "",
-   "play": 681,
+   "play": 6127,
    "pub": "2026/11/11",
    "bvid": "BV1SYWU67ETg"
   },
   {
    "title": "MiniMax H3 Image开源 它被吹过头了吗？8大场景 5个开源模型横向评测",
    "up": "",
-   "play": 145,
+   "play": 2358,
    "pub": "2026/11/11",
    "bvid": "BV1SYWU67Eg5"
-  },
-  {
-   "title": "迷你主机对决 NVIDIA DGX Spark：大内存才是本地跑大模型的关键 | Alex Ziskind",
-   "up": "",
-   "play": 16,
-   "pub": "2026/11/11",
-   "bvid": "BV1PwW56rE23"
-  },
-  {
-   "title": "Fable 5.2 实测｜从可玩关卡到虚幻引擎里的 3D 东京",
-   "up": "",
-   "play": 25,
-   "pub": "2026/11/11",
-   "bvid": "BV1cQWU6KER8"
-  },
-  {
-   "title": "【数据工程】Text-to-SQL 的数据与评测：schema 链接、执行反馈闭环与执行准确率金标准",
-   "up": "",
-   "play": 203,
-   "pub": "2026/11/11",
-   "bvid": "BV1C94N6REEf"
-  },
-  {
-   "title": "Caldera Meridian 评测｜Meta Muse Ember",
-   "up": "",
-   "play": 9,
-   "pub": "2026/11/11",
-   "bvid": "BV1C2WU6BEh2"
-  },
-  {
-   "title": "Claude Fable 5.2实测对比Opus 5.5与GPT-6 Astra｜AI模型实测第4期",
-   "up": "",
-   "play": 112,
-   "pub": "2026/11/11",
-   "bvid": "BV1fMW26dEW6"
-  },
-  {
-   "title": "【百人众测破案】一样花钱充 GPT 会员，凭啥给老号暗中降智？切小号当场实锤！",
-   "up": "",
-   "play": 229,
-   "pub": "2026/11/11",
-   "bvid": "BV1ZgW26sErV"
-  },
-  {
-   "title": "Fable 5.2 发布实测：比 5.1 更快更便宜，我只让它当大脑",
-   "up": "",
-   "play": 48,
-   "pub": "2026/11/11",
-   "bvid": "BV1uDW16uEiy"
-  },
-  {
-   "title": "斯坦福新论文宣称终结 NVIDIA HBM 内存？实测 NCM 模型的真实边界 | Kai",
-   "up": "",
-   "play": 78,
-   "pub": "2026/11/11",
-   "bvid": "BV13UWV6nEnW"
-  },
-  {
-   "title": "正面硬刚 Fable 5.2！Carbon 纯代码电影短片《刹那》| 别人烧16亿，我只用100万Token",
-   "up": "",
-   "play": 56,
-   "pub": "2026/11/11",
-   "bvid": "BV1uUW16zEsa"
-  },
-  {
-   "title": "Qoder能用Qwen4了！祖传鹈鹕三关实测88分：后空翻稳了，辐条却飞了",
-   "up": "",
-   "play": 319,
-   "pub": "2026/11/11",
-   "bvid": "BV1DbW26GEBv"
-  },
-  {
-   "title": "Fable 5.2 真实评测：三大复杂项目构建，能否超越 Opus 5.5？ | Pat Simmons",
-   "up": "",
-   "play": 49,
-   "pub": "2026/11/11",
-   "bvid": "BV1uSWV6SENu"
-  },
-  {
-   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
-   "up": "",
-   "play": 8,
-   "pub": "2026/11/11",
-   "bvid": "BV1U8W26rEnz"
-  },
-  {
-   "title": "11-10 AI 雷达晚报｜今天最值得下载的 6 个新模型：Modern Beauty",
-   "up": "",
-   "play": 155,
-   "pub": "2026/11/11",
-   "bvid": "BV1XpW26jETG"
-  },
-  {
-   "title": "百度文心一言Erine5.5 Flash Preview速测！重回牌桌上了吗！？【两分钟速测】",
-   "up": "",
-   "play": 2964,
-   "pub": "2026/11/11",
-   "bvid": "BV1bgWm65EQV"
-  },
-  {
-   "title": "世界模型到底需要多少交互次数才能掌握新环境规则？全新评测框架+高效学习方案大幅提升ARC-AGI-3任务表现 【世界模型】【AGI前沿】【论文解读】",
-   "up": "",
-   "play": 16,
-   "pub": "2026/11/11",
-   "bvid": "BV1DHWy6uEup"
-  },
-  {
-   "title": "019｜Embedding怎么选？从检索评测到版本迁移",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/11",
-   "bvid": "BV1TJW46mEBL"
-  },
-  {
-   "title": "Qwen4 登场，大战 Astra 和 DeepSeek｜决战《末班车》",
-   "up": "",
-   "play": 530,
-   "pub": "2026/11/11",
-   "bvid": "BV1apWy6zEqK"
-  },
-  {
-   "title": "一次看懂！主流模型API调用与模型能力横向评测~",
-   "up": "",
-   "play": 8,
-   "pub": "2026/11/11",
-   "bvid": "BV1hBWu6rEs1"
-  },
-  {
-   "title": "【AI评估师教材】3小时成为大厂AI评测师，大模型评估核心技能全通关！",
-   "up": "",
-   "play": 17,
-   "pub": "2026/11/11",
-   "bvid": "BV1RjWy6kEnf"
-  },
-  {
-   "title": "模型二十：PINDER 蛋白-蛋白复合物数据集与对接评测，PINDER 提供了大规模蛋白复合物数据和配套评测体系",
-   "up": "",
-   "play": 13,
-   "pub": "2026/11/11",
-   "bvid": "BV1eyxT62ExF"
-  },
-  {
-   "title": "$7000 的 AMD Strix Halo 192GB 主机评测：单机跑通 GLM 5.3 / DeepSeek v4",
-   "up": "",
-   "play": 84,
-   "pub": "2026/11/11",
-   "bvid": "BV1PKWj62Ej5"
-  },
-  {
-   "title": "【手办评测】摆在柜子里很唬人！胜利女神：新的希望 布兰儿：白兔 祖国版 大货评测！",
-   "up": "",
-   "play": 5958,
-   "pub": "2026/11/11",
-   "bvid": "BV1aAW163Esv"
-  },
-  {
-   "title": "首个面向LLM智能体的长期自主售货运营基准AutoVend发布！20台异构售货机全链路管控，实测大模型竟打不过规则基线 【大模型智能体】【AI商业应用】【基准评",
-   "up": "",
-   "play": 6,
-   "pub": "2026/11/11",
-   "bvid": "BV1aFW16VELY"
-  },
-  {
-   "title": "Fable 5.2 实测：编程更强了，但别乱用",
-   "up": "",
-   "play": 22,
-   "pub": "2026/11/11",
-   "bvid": "BV1QPW166E7A"
-  },
-  {
-   "title": "Qwen4-Max 预览上线：能用了，官方还没给评测表",
-   "up": "",
-   "play": 572,
-   "pub": "2026/11/11",
-   "bvid": "BV1g1W16kEww"
-  },
-  {
-   "title": "Caldera Meridian 评测｜阿里巴巴 Qwen4 Max Preview",
-   "up": "",
-   "play": 608,
-   "pub": "2026/11/11",
-   "bvid": "BV131W16kEJH"
-  },
-  {
-   "title": "Qwen4 Max Preview速测！复刻肥鲸0813时刻？特别喜欢做可选功能！【两分钟速测】",
-   "up": "",
-   "play": 19106,
-   "pub": "2026/11/11",
-   "bvid": "BV1nhWL66Euq"
-  },
-  {
-   "title": "［特别专辑］Gemini 4 Carbon 全面开放：六十分档最便宜，但比 Fable 5.2 落后 5 分",
-   "up": "",
-   "play": 142,
-   "pub": "2026/11/11",
-   "bvid": "BV1V8Wj6cE3V"
-  },
-  {
-   "title": "Gemini 4 Hydrogen灰测速测以及灰测自检方法，真正的4 Flash！碳猫之后是氢猫？【两分钟速测】",
-   "up": "",
-   "play": 9108,
-   "pub": "2026/11/11",
-   "bvid": "BV1TBWj6REZd"
-  },
-  {
-   "title": "Gemini 4 Carbon 正式上线：官方叫最强，评测表不是全赢",
-   "up": "",
-   "play": 383,
-   "pub": "2026/11/11",
-   "bvid": "BV1NZWV65E4o"
-  },
-  {
-   "title": "[自动科研]图灵奖得主姚期智&amp;Kimi CEO联合署名论文-TCSExam：大模型会解题，就能做科研？评测前沿LLMs在理论计算机科学全谱系研究任务上的能力",
-   "up": "",
-   "play": 1419,
-   "pub": "2026/11/11",
-   "bvid": "BV1QcW36yE6E"
-  },
-  {
-   "title": "前沿大模型推理强度对得分和成本的影响有多大？",
-   "up": "",
-   "play": 283,
-   "pub": "2026/11/11",
-   "bvid": "BV1934B6YEh7"
-  },
-  {
-   "title": "Caldera Meridian 评测｜Google Gemini 4 Carbon",
-   "up": "",
-   "play": 560,
-   "pub": "2026/11/10",
-   "bvid": "BV1yBWG6MEXZ"
-  },
-  {
-   "title": "Gemini 4 Carbon正式版速测，惊掉UP主下巴的仰望U9？世界知识之王！【两分钟速测】",
-   "up": "",
-   "play": 19631,
-   "pub": "2026/11/10",
-   "bvid": "BV1iRWG64EW5"
-  },
-  {
-   "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
-   "up": "",
-   "play": 15,
-   "pub": "2026/11/10",
-   "bvid": "BV1LzWV64EeJ"
-  },
-  {
-   "title": "三四线城市做测试还要学ai测试吗",
-   "up": "",
-   "play": 287,
-   "pub": "2026/11/10",
-   "bvid": "BV1ev4E6LELW"
-  },
-  {
-   "title": "人类 80.4、模型最高 55.4，差 25 分？先问这张卷子怎么算分｜低空无人机评测 01",
-   "up": "",
-   "play": 126,
-   "pub": "2026/11/10",
-   "bvid": "BV1uyW36LE8R"
   }
  ]
 }
