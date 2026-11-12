@@ -8,89 +8,8 @@
   "channelVendorCount": 195,
   "aliasVendorCount": 7,
   "originModelCount": 612,
-  "modelCount": 8991,
+  "modelCount": 8993,
   "vendors": {
-    "abacus": {
-      "id": "abacus",
-      "name": "Abacus",
-      "rawName": "Abacus",
-      "doc": "https://abacus.ai/help/api",
-      "modelCount": 108,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "qiniu-ai": {
-      "id": "qiniu-ai",
-      "name": "Qiniu",
-      "rawName": "Qiniu",
-      "doc": "https://developer.qiniu.com/aitokenapi",
-      "modelCount": 87,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ollama-cloud": {
-      "id": "ollama-cloud",
-      "name": "Ollama Cloud",
-      "rawName": "Ollama Cloud",
-      "doc": "https://docs.ollama.com/cloud",
-      "modelCount": 26,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "xiaomi-token-plan-sgp": {
-      "id": "xiaomi-token-plan-sgp",
-      "name": "Xiaomi Token Plan (Singapore)",
-      "rawName": "Xiaomi Token Plan (Singapore)",
-      "doc": "https://platform.xiaomimimo.com/#/docs",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "stepfun": {
-      "id": "stepfun",
-      "name": "阶跃星辰",
-      "rawName": "StepFun (China)",
-      "doc": "https://platform.stepfun.com/docs/zh/overview/concept",
-      "modelCount": 7,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "azure": {
-      "id": "azure",
-      "name": "Azure",
-      "rawName": "Azure",
-      "doc": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
-      "modelCount": 97,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tokengo": {
-      "id": "tokengo",
-      "name": "TokenGo",
-      "rawName": "TokenGo",
-      "doc": "https://www.tokengo.com/docs",
-      "modelCount": 13,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "alibaba-coding-plan-cn": {
-      "id": "alibaba-coding-plan-cn",
-      "name": "Alibaba Coding Plan (China)",
-      "rawName": "Alibaba Coding Plan (China)",
-      "doc": "https://help.aliyun.com/zh/model-studio/coding-plan",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "meganova": {
-      "id": "meganova",
-      "name": "Meganova",
-      "rawName": "Meganova",
-      "doc": "https://docs.meganova.ai",
-      "modelCount": 19,
-      "isChannel": true,
-      "aliasOf": null
-    },
     "qihang-ai": {
       "id": "qihang-ai",
       "name": "QiHang",
@@ -100,237 +19,48 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "watsonx": {
-      "id": "watsonx",
-      "name": "watsonx.ai",
-      "rawName": "watsonx.ai",
-      "doc": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
-      "modelCount": 5,
+    "perplexity-agent": {
+      "id": "perplexity-agent",
+      "name": "Perplexity Agent",
+      "rawName": "Perplexity Agent",
+      "doc": "https://docs.perplexity.ai/docs/agent-api/models",
+      "modelCount": 45,
       "isChannel": true,
       "aliasOf": null
     },
-    "mixlayer": {
-      "id": "mixlayer",
-      "name": "Mixlayer",
-      "rawName": "Mixlayer",
-      "doc": "https://docs.mixlayer.com",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "impossibl": {
-      "id": "impossibl",
-      "name": "Impossibl",
-      "rawName": "Impossibl",
-      "doc": "https://impossibl.com/docs/models",
-      "modelCount": 76,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "melious": {
-      "id": "melious",
-      "name": "Melious",
-      "rawName": "Melious",
-      "doc": "https://melious.ai/docs/reference/models",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "pendra": {
-      "id": "pendra",
-      "name": "Pendra",
-      "rawName": "Pendra",
-      "doc": "https://pendra.ai/docs/integrations/opencode",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "aimlapi": {
-      "id": "aimlapi",
-      "name": "AI/ML API",
-      "rawName": "AI/ML API",
-      "doc": "https://docs.aimlapi.com",
-      "modelCount": 169,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "stepfun-ai-step-plan": {
-      "id": "stepfun-ai-step-plan",
-      "name": "StepFun Step Plan (Global)",
-      "rawName": "StepFun Step Plan (Global)",
-      "doc": "https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "friendli": {
-      "id": "friendli",
-      "name": "Friendli",
-      "rawName": "Friendli",
-      "doc": "https://friendli.ai/docs/guides/serverless_endpoints/introduction",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "lynkr": {
-      "id": "lynkr",
-      "name": "Lynkr",
-      "rawName": "Lynkr",
-      "doc": "https://github.com/Fast-Editor/Lynkr",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "amd": {
-      "id": "amd",
-      "name": "AMD",
-      "rawName": "AMD",
-      "doc": "https://developer.amd.com.cn/radeon/tokenfactory",
-      "modelCount": 11,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "lucidquery": {
-      "id": "lucidquery",
-      "name": "LucidQuery",
-      "rawName": "LucidQuery",
-      "doc": "https://lucidquery.com/docs",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "sakana": {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "rawName": "Sakana AI",
-      "doc": "https://console.sakana.ai/models",
-      "modelCount": 4,
+    "longcat": {
+      "id": "longcat",
+      "name": "美团 LongCat",
+      "rawName": "LongCat",
+      "doc": "https://longcat.chat/platform/docs/",
+      "modelCount": 2,
       "isChannel": false,
       "aliasOf": null
     },
-    "tensorx": {
-      "id": "tensorx",
-      "name": "TensorX",
-      "rawName": "TensorX",
-      "doc": "https://docs.tensorx.ai/",
-      "modelCount": 25,
+    "klokintegration": {
+      "id": "klokintegration",
+      "name": "klokintegration.se",
+      "rawName": "klokintegration.se",
+      "doc": "https://klokintegration.se/docs/ai-api",
+      "modelCount": 3,
       "isChannel": true,
       "aliasOf": null
     },
-    "kenari": {
-      "id": "kenari",
-      "name": "Kenari",
-      "rawName": "Kenari",
-      "doc": "https://kenari.id/docs",
-      "modelCount": 64,
+    "huggingface": {
+      "id": "huggingface",
+      "name": "Hugging Face",
+      "rawName": "Hugging Face",
+      "doc": "https://huggingface.co/docs/inference-providers",
+      "modelCount": 82,
       "isChannel": true,
       "aliasOf": null
     },
-    "umans-ai-coding-plan": {
-      "id": "umans-ai-coding-plan",
-      "name": "Umans AI Coding Plan",
-      "rawName": "Umans AI Coding Plan",
-      "doc": "https://app.umans.ai/offers/code/docs",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "claudinio": {
-      "id": "claudinio",
-      "name": "Claudinio",
-      "rawName": "Claudinio",
-      "doc": "https://claudin.io",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "xpersona": {
-      "id": "xpersona",
-      "name": "Xpersona",
-      "rawName": "Xpersona",
-      "doc": "https://www.xpersona.co/docs",
-      "modelCount": 13,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cloudflare-ai-gateway": {
-      "id": "cloudflare-ai-gateway",
-      "name": "Cloudflare AI Gateway",
-      "rawName": "Cloudflare AI Gateway",
-      "doc": "https://developers.cloudflare.com/ai-gateway/",
-      "modelCount": 76,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "nearai": {
-      "id": "nearai",
-      "name": "NEAR AI Cloud",
-      "rawName": "NEAR AI Cloud",
-      "doc": "https://docs.near.ai/",
-      "modelCount": 59,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "pareto": {
-      "id": "pareto",
-      "name": "Pareto Inference",
-      "rawName": "Pareto Inference",
-      "doc": "https://docs.paretoinference.com/",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "engy": {
-      "id": "engy",
-      "name": "engy",
-      "rawName": "engy",
-      "doc": "https://engy.ai/pricing",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "merge-gateway": {
-      "id": "merge-gateway",
-      "name": "Merge Gateway",
-      "rawName": "Merge Gateway",
-      "doc": "https://docs.merge.dev/merge-gateway",
-      "modelCount": 205,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "reflection": {
-      "id": "reflection",
-      "name": "Reflection",
-      "rawName": "Reflection",
-      "doc": "https://developers.reflection.ai/models",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "chutes": {
-      "id": "chutes",
-      "name": "Chutes",
-      "rawName": "Chutes",
-      "doc": "https://llm.chutes.ai/v1/models",
-      "modelCount": 19,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "clarifai": {
-      "id": "clarifai",
-      "name": "Clarifai",
-      "rawName": "Clarifai",
-      "doc": "https://docs.clarifai.com/compute/inference/",
-      "modelCount": 12,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "crossmodel": {
-      "id": "crossmodel",
-      "name": "CrossModel",
-      "rawName": "CrossModel",
-      "doc": "https://www.crossmodel.ai/docs",
-      "modelCount": 72,
+    "kimi-code-plan-global": {
+      "id": "kimi-code-plan-global",
+      "name": "Kimi For Coding (kimi.ai)",
+      "rawName": "Kimi For Coding (kimi.ai)",
+      "doc": "https://www.kimi.ai/code/docs/en/kimi-code/models.html",
+      "modelCount": 6,
       "isChannel": true,
       "aliasOf": null
     },
@@ -343,74 +73,11 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "iteracompute": {
-      "id": "iteracompute",
-      "name": "IteraCompute",
-      "rawName": "IteraCompute",
-      "doc": "https://iteracompute.com/docs.html",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zhipuai-coding-plan": {
-      "id": "zhipuai-coding-plan",
-      "name": "Zhipu AI Coding Plan",
-      "rawName": "Zhipu AI Coding Plan",
-      "doc": "https://docs.bigmodel.cn/cn/coding-plan/overview",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "llmgateway": {
-      "id": "llmgateway",
-      "name": "DevPass (LLM Gateway)",
-      "rawName": "DevPass (LLM Gateway)",
-      "doc": "https://llmgateway.io/docs",
-      "modelCount": 200,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "vancine": {
-      "id": "vancine",
-      "name": "Vancine",
-      "rawName": "Vancine",
-      "doc": "https://vancine.com/docs",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zai": {
-      "id": "zai",
-      "name": "智谱 AI",
-      "rawName": "Z.AI",
-      "doc": "https://docs.z.ai/guides/overview/pricing",
-      "modelCount": 18,
-      "isChannel": false,
-      "aliasOf": "zhipuai"
-    },
-    "gmicloud": {
-      "id": "gmicloud",
-      "name": "GMI Cloud",
-      "rawName": "GMI Cloud",
-      "doc": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
-      "modelCount": 17,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "vultr": {
-      "id": "vultr",
-      "name": "Vultr",
-      "rawName": "Vultr",
-      "doc": "https://api.vultrinference.com/",
-      "modelCount": 15,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "wallaby": {
-      "id": "wallaby",
-      "name": "Wallaby",
-      "rawName": "Wallaby",
-      "doc": "https://wallabytoken.com/docs",
+    "liquid": {
+      "id": "liquid",
+      "name": "Liquid Inference",
+      "rawName": "Liquid Inference",
+      "doc": "https://inference.ai.exchange/docs",
       "modelCount": 1,
       "isChannel": true,
       "aliasOf": null
@@ -424,12 +91,741 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "blueclaw": {
-      "id": "blueclaw",
-      "name": "Blue Claw",
-      "rawName": "Blue Claw",
-      "doc": "https://blueclaw.network",
+    "amazon-bedrock": {
+      "id": "amazon-bedrock",
+      "name": "Amazon Bedrock",
+      "rawName": "Amazon Bedrock",
+      "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
+      "modelCount": 208,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "dinference": {
+      "id": "dinference",
+      "name": "DInference",
+      "rawName": "DInference",
+      "doc": "https://dinference.com",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "stepfun-ai": {
+      "id": "stepfun-ai",
+      "name": "阶跃星辰",
+      "rawName": "StepFun (Global)",
+      "doc": "https://platform.stepfun.ai/docs/en/overview/concept",
+      "modelCount": 7,
+      "isChannel": false,
+      "aliasOf": "stepfun"
+    },
+    "hyper": {
+      "id": "hyper",
+      "name": "Charm Hyper",
+      "rawName": "Charm Hyper",
+      "doc": "https://hyper.charm.land",
+      "modelCount": 18,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "inception": {
+      "id": "inception",
+      "name": "Inception",
+      "rawName": "Inception",
+      "doc": "https://docs.inceptionlabs.ai/get-started/models",
+      "modelCount": 4,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "meganova": {
+      "id": "meganova",
+      "name": "Meganova",
+      "rawName": "Meganova",
+      "doc": "https://docs.meganova.ai",
+      "modelCount": 19,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "stepfun-step-plan": {
+      "id": "stepfun-step-plan",
+      "name": "StepFun Step Plan (China)",
+      "rawName": "StepFun Step Plan (China)",
+      "doc": "https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "google-vertex-anthropic": {
+      "id": "google-vertex-anthropic",
+      "name": "Vertex (Anthropic)",
+      "rawName": "Vertex (Anthropic)",
+      "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
+      "modelCount": 18,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "pendra": {
+      "id": "pendra",
+      "name": "Pendra",
+      "rawName": "Pendra",
+      "doc": "https://pendra.ai/docs/integrations/opencode",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "bailing": {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "rawName": "Bailing",
+      "doc": "https://alipaytbox.yuque.com/sxs0ba/ling/intro",
+      "modelCount": 2,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "cloudferro-sherlock": {
+      "id": "cloudferro-sherlock",
+      "name": "CloudFerro Sherlock",
+      "rawName": "CloudFerro Sherlock",
+      "doc": "https://docs.sherlock.cloudferro.com/",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "moonshotai-cn": {
+      "id": "moonshotai-cn",
+      "name": "月之暗面",
+      "rawName": "Moonshot AI (China)",
+      "doc": "https://platform.moonshot.cn/docs/api/chat",
+      "modelCount": 6,
+      "isChannel": false,
+      "aliasOf": "moonshotai"
+    },
+    "tencent-coding-plan": {
+      "id": "tencent-coding-plan",
+      "name": "腾讯混元",
+      "rawName": "Tencent Coding Plan (China)",
+      "doc": "https://cloud.tencent.com/document/product/1772/128947",
+      "modelCount": 8,
+      "isChannel": false,
+      "aliasOf": "tencent-tokenhub"
+    },
+    "reflection": {
+      "id": "reflection",
+      "name": "Reflection",
+      "rawName": "Reflection",
+      "doc": "https://developers.reflection.ai/models",
       "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "regolo-ai": {
+      "id": "regolo-ai",
+      "name": "Regolo AI",
+      "rawName": "Regolo AI",
+      "doc": "https://docs.regolo.ai/",
+      "modelCount": 18,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "friendli": {
+      "id": "friendli",
+      "name": "Friendli",
+      "rawName": "Friendli",
+      "doc": "https://friendli.ai/docs/guides/serverless_endpoints/introduction",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "wafer.ai": {
+      "id": "wafer.ai",
+      "name": "Wafer",
+      "rawName": "Wafer",
+      "doc": "https://docs.wafer.ai/wafer-pass",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tencent-tokenhub": {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "rawName": "Tencent TokenHub",
+      "doc": "https://cloud.tencent.com/document/product/1823/130050",
+      "modelCount": 4,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "morph": {
+      "id": "morph",
+      "name": "Morph",
+      "rawName": "Morph",
+      "doc": "https://docs.morphllm.com/api-reference/introduction",
+      "modelCount": 12,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "orcarouter": {
+      "id": "orcarouter",
+      "name": "OrcaRouter",
+      "rawName": "OrcaRouter",
+      "doc": "https://docs.orcarouter.ai",
+      "modelCount": 117,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "vancine": {
+      "id": "vancine",
+      "name": "Vancine",
+      "rawName": "Vancine",
+      "doc": "https://vancine.com/docs",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "nvidia": {
+      "id": "nvidia",
+      "name": "英伟达",
+      "rawName": "Nvidia",
+      "doc": "https://docs.api.nvidia.com/nim/",
+      "modelCount": 52,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "bee": {
+      "id": "bee",
+      "name": "Bee by HEOSSI",
+      "rawName": "Bee by HEOSSI",
+      "doc": "https://bee.heossi.com/docs/sdks",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "qvac": {
+      "id": "qvac",
+      "name": "QVAC",
+      "rawName": "QVAC",
+      "doc": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "modal": {
+      "id": "modal",
+      "name": "Modal",
+      "rawName": "Modal",
+      "doc": "https://modal.com/docs/guide/endpoints",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "amd": {
+      "id": "amd",
+      "name": "AMD",
+      "rawName": "AMD",
+      "doc": "https://developer.amd.com.cn/radeon/tokenfactory",
+      "modelCount": 11,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "venice": {
+      "id": "venice",
+      "name": "Venice AI",
+      "rawName": "Venice AI",
+      "doc": "https://docs.venice.ai",
+      "modelCount": 126,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "neuralwatt": {
+      "id": "neuralwatt",
+      "name": "Neuralwatt",
+      "rawName": "Neuralwatt",
+      "doc": "https://portal.neuralwatt.com/docs",
+      "modelCount": 23,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "anyapi": {
+      "id": "anyapi",
+      "name": "AnyAPI",
+      "rawName": "AnyAPI",
+      "doc": "https://docs.anyapi.ai",
+      "modelCount": 30,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tokenrouter": {
+      "id": "tokenrouter",
+      "name": "TokenRouter",
+      "rawName": "TokenRouter",
+      "doc": "https://www.tokenrouter.com/docs/tokenrouter-feature-guide/",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "aki-io": {
+      "id": "aki-io",
+      "name": "AKI.IO",
+      "rawName": "AKI.IO",
+      "doc": "https://aki.io/docs/",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "aimlapi": {
+      "id": "aimlapi",
+      "name": "AI/ML API",
+      "rawName": "AI/ML API",
+      "doc": "https://docs.aimlapi.com",
+      "modelCount": 168,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "stackit": {
+      "id": "stackit",
+      "name": "STACKIT",
+      "rawName": "STACKIT",
+      "doc": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ofox": {
+      "id": "ofox",
+      "name": "Ofox",
+      "rawName": "Ofox",
+      "doc": "https://ofox.ai/docs",
+      "modelCount": 151,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "hpc-ai": {
+      "id": "hpc-ai",
+      "name": "HPC-AI",
+      "rawName": "HPC-AI",
+      "doc": "https://www.hpc-ai.com/doc/docs/quickstart/",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "cloudflare-ai-gateway": {
+      "id": "cloudflare-ai-gateway",
+      "name": "Cloudflare AI Gateway",
+      "rawName": "Cloudflare AI Gateway",
+      "doc": "https://developers.cloudflare.com/ai-gateway/",
+      "modelCount": 77,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "qiniu-ai": {
+      "id": "qiniu-ai",
+      "name": "Qiniu",
+      "rawName": "Qiniu",
+      "doc": "https://developer.qiniu.com/aitokenapi",
+      "modelCount": 87,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "volcengine": {
+      "id": "volcengine",
+      "name": "字节跳动",
+      "rawName": "Volcengine Ark",
+      "doc": "https://www.volcengine.com/docs/82379/1330310",
+      "modelCount": 16,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "alibaba-coding-plan-cn": {
+      "id": "alibaba-coding-plan-cn",
+      "name": "Alibaba Coding Plan (China)",
+      "rawName": "Alibaba Coding Plan (China)",
+      "doc": "https://help.aliyun.com/zh/model-studio/coding-plan",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "io-net": {
+      "id": "io-net",
+      "name": "IO.NET",
+      "rawName": "IO.NET",
+      "doc": "https://io.net/docs/guides/intelligence/io-intelligence",
+      "modelCount": 17,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tempr": {
+      "id": "tempr",
+      "name": "Tempr Gateway",
+      "rawName": "Tempr Gateway",
+      "doc": "https://temprhq.io/docs/gateway-reference.html",
+      "modelCount": 82,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ainetcafe": {
+      "id": "ainetcafe",
+      "name": "ainetcafe",
+      "rawName": "ainetcafe",
+      "doc": "https://ainetcafe.com/k3/guides/",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "merge-gateway": {
+      "id": "merge-gateway",
+      "name": "Merge Gateway",
+      "rawName": "Merge Gateway",
+      "doc": "https://docs.merge.dev/merge-gateway",
+      "modelCount": 205,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "infer": {
+      "id": "infer",
+      "name": "Infer by Flow7",
+      "rawName": "Infer by Flow7",
+      "doc": "https://infer.flow7.org/opencode",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "umans-ai": {
+      "id": "umans-ai",
+      "name": "Umans AI",
+      "rawName": "Umans AI",
+      "doc": "https://app.umans.ai/offers/code/docs/orgs",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "oci": {
+      "id": "oci",
+      "name": "OCI Generative AI",
+      "rawName": "OCI Generative AI",
+      "doc": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/pretrained-models.htm",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "the-grid-ai": {
+      "id": "the-grid-ai",
+      "name": "The Grid AI",
+      "rawName": "The Grid AI",
+      "doc": "https://thegrid.ai/docs",
+      "modelCount": 17,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "snowflake-cortex": {
+      "id": "snowflake-cortex",
+      "name": "Snowflake Cortex",
+      "rawName": "Snowflake Cortex",
+      "doc": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api",
+      "modelCount": 25,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "alibaba-token-plan-cn": {
+      "id": "alibaba-token-plan-cn",
+      "name": "Alibaba Token Plan (China)",
+      "rawName": "Alibaba Token Plan (China)",
+      "doc": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
+      "modelCount": 29,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "novita-ai": {
+      "id": "novita-ai",
+      "name": "Novita AI",
+      "rawName": "Novita AI",
+      "doc": "https://novita.ai/docs/guides/introduction",
+      "modelCount": 91,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "atomic-chat": {
+      "id": "atomic-chat",
+      "name": "Atomic Chat",
+      "rawName": "Atomic Chat",
+      "doc": "https://atomic.chat",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "vultr": {
+      "id": "vultr",
+      "name": "Vultr",
+      "rawName": "Vultr",
+      "doc": "https://api.vultrinference.com/",
+      "modelCount": 15,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "jalapeno": {
+      "id": "jalapeno",
+      "name": "Jalapeno Cloud",
+      "rawName": "Jalapeno Cloud",
+      "doc": "https://www.jalapeno-cloud.ai/docs/",
+      "modelCount": 17,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "lucidquery": {
+      "id": "lucidquery",
+      "name": "LucidQuery",
+      "rawName": "LucidQuery",
+      "doc": "https://lucidquery.com/docs",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "alibaba-token-plan": {
+      "id": "alibaba-token-plan",
+      "name": "Alibaba Token Plan",
+      "rawName": "Alibaba Token Plan",
+      "doc": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
+      "modelCount": 29,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "cohere": {
+      "id": "cohere",
+      "name": "Cohere",
+      "rawName": "Cohere",
+      "doc": "https://docs.cohere.com/docs/models",
+      "modelCount": 17,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "crossmodel": {
+      "id": "crossmodel",
+      "name": "CrossModel",
+      "rawName": "CrossModel",
+      "doc": "https://www.crossmodel.ai/docs",
+      "modelCount": 72,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "alibaba-coding-plan": {
+      "id": "alibaba-coding-plan",
+      "name": "Alibaba Coding Plan",
+      "rawName": "Alibaba Coding Plan",
+      "doc": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zai-coding-plan": {
+      "id": "zai-coding-plan",
+      "name": "Z.AI Coding Plan",
+      "rawName": "Z.AI Coding Plan",
+      "doc": "https://docs.z.ai/devpack/overview",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "greenpt": {
+      "id": "greenpt",
+      "name": "GreenPT",
+      "rawName": "GreenPT",
+      "doc": "https://docs.greenpt.ai",
+      "modelCount": 41,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "sakana": {
+      "id": "sakana",
+      "name": "Sakana AI",
+      "rawName": "Sakana AI",
+      "doc": "https://console.sakana.ai/models",
+      "modelCount": 4,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "databricks": {
+      "id": "databricks",
+      "name": "Databricks",
+      "rawName": "Databricks",
+      "doc": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
+      "modelCount": 31,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "lynkr": {
+      "id": "lynkr",
+      "name": "Lynkr",
+      "rawName": "Lynkr",
+      "doc": "https://github.com/Fast-Editor/Lynkr",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "llmtech": {
+      "id": "llmtech",
+      "name": "LLM Tech",
+      "rawName": "LLM Tech",
+      "doc": "https://llmtech.eu/models/qwen3.8-27b",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "aiand": {
+      "id": "aiand",
+      "name": "ai&",
+      "rawName": "ai&",
+      "doc": "https://docs.aiand.com/",
+      "modelCount": 12,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "alibaba": {
+      "id": "alibaba",
+      "name": "阿里云",
+      "rawName": "Alibaba",
+      "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "modelCount": 53,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "boundless": {
+      "id": "boundless",
+      "name": "Boundless",
+      "rawName": "Boundless",
+      "doc": "https://inference.boundless.network/models",
+      "modelCount": 20,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "mixlayer": {
+      "id": "mixlayer",
+      "name": "Mixlayer",
+      "rawName": "Mixlayer",
+      "doc": "https://docs.mixlayer.com",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "scnet-token-plan": {
+      "id": "scnet-token-plan",
+      "name": "SCNet Token Plan",
+      "rawName": "SCNet Token Plan",
+      "doc": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
+      "modelCount": 19,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "digitalocean": {
+      "id": "digitalocean",
+      "name": "DigitalOcean",
+      "rawName": "DigitalOcean",
+      "doc": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
+      "modelCount": 86,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "togetherai": {
+      "id": "togetherai",
+      "name": "Together AI",
+      "rawName": "Together AI",
+      "doc": "https://docs.together.ai/docs/serverless-models",
+      "modelCount": 33,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ai-router": {
+      "id": "ai-router",
+      "name": "AI-ROUTER",
+      "rawName": "AI-ROUTER",
+      "doc": "https://ai-router.dev/openai-compatible-api-gateway/",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "clarifai": {
+      "id": "clarifai",
+      "name": "Clarifai",
+      "rawName": "Clarifai",
+      "doc": "https://docs.clarifai.com/compute/inference/",
+      "modelCount": 12,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "gitlab": {
+      "id": "gitlab",
+      "name": "GitLab Duo",
+      "rawName": "GitLab Duo",
+      "doc": "https://docs.gitlab.com/user/duo_agent_platform/",
+      "modelCount": 31,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "iteracompute": {
+      "id": "iteracompute",
+      "name": "IteraCompute",
+      "rawName": "IteraCompute",
+      "doc": "https://iteracompute.com/docs.html",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zhipuai": {
+      "id": "zhipuai",
+      "name": "智谱 AI",
+      "rawName": "Zhipu AI",
+      "doc": "https://docs.bigmodel.cn/cn/guide/start/pricing",
+      "modelCount": 17,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "ebcloud": {
+      "id": "ebcloud",
+      "name": "EBCloud",
+      "rawName": "EBCloud",
+      "doc": "https://docs.ebtech.com/ai/model-api.html",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "munito-eu": {
+      "id": "munito-eu",
+      "name": "Munito AI (EU)",
+      "rawName": "Munito AI (EU)",
+      "doc": "https://docs.munito.ai/regions",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "neon": {
+      "id": "neon",
+      "name": "Neon",
+      "rawName": "Neon",
+      "doc": "https://neon.com/docs",
+      "modelCount": 58,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "fastrouter": {
+      "id": "fastrouter",
+      "name": "FastRouter",
+      "rawName": "FastRouter",
+      "doc": "https://fastrouter.ai/models",
+      "modelCount": 39,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "modelscope": {
+      "id": "modelscope",
+      "name": "ModelScope",
+      "rawName": "ModelScope",
+      "doc": "https://modelscope.cn/docs/model-service/API-Inference/intro",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "google-vertex": {
+      "id": "google-vertex",
+      "name": "Vertex",
+      "rawName": "Vertex",
+      "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
+      "modelCount": 63,
       "isChannel": true,
       "aliasOf": null
     },
@@ -442,11 +838,1046 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "stepfun-step-plan": {
-      "id": "stepfun-step-plan",
-      "name": "StepFun Step Plan (China)",
-      "rawName": "StepFun Step Plan (China)",
-      "doc": "https://platform.stepfun.com/docs/zh/step-plan/integrations/reasoning-api",
+    "cerebras": {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "rawName": "Cerebras",
+      "doc": "https://inference-docs.cerebras.ai/models/overview",
+      "modelCount": 2,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "github-copilot": {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "rawName": "GitHub Copilot",
+      "doc": "https://docs.github.com/en/copilot",
+      "modelCount": 38,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "302ai": {
+      "id": "302ai",
+      "name": "302.AI",
+      "rawName": "302.AI",
+      "doc": "https://doc.302.ai",
+      "modelCount": 126,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "stepfun-ai-step-plan": {
+      "id": "stepfun-ai-step-plan",
+      "name": "StepFun Step Plan (Global)",
+      "rawName": "StepFun Step Plan (Global)",
+      "doc": "https://platform.stepfun.ai/docs/en/step-plan/integrations/reasoning-api",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "llmgateway": {
+      "id": "llmgateway",
+      "name": "DevPass (LLM Gateway)",
+      "rawName": "DevPass (LLM Gateway)",
+      "doc": "https://llmgateway.io/docs",
+      "modelCount": 200,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "chutes": {
+      "id": "chutes",
+      "name": "Chutes",
+      "rawName": "Chutes",
+      "doc": "https://llm.chutes.ai/v1/models",
+      "modelCount": 19,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "inferx": {
+      "id": "inferx",
+      "name": "InferX",
+      "rawName": "InferX",
+      "doc": "https://model.inferx.net/endpoints",
+      "modelCount": 12,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "jiekou": {
+      "id": "jiekou",
+      "name": "Jiekou.AI",
+      "rawName": "Jiekou.AI",
+      "doc": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
+      "modelCount": 61,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ambient": {
+      "id": "ambient",
+      "name": "Ambient",
+      "rawName": "Ambient",
+      "doc": "https://ambient.xyz",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "upstage": {
+      "id": "upstage",
+      "name": "Upstage",
+      "rawName": "Upstage",
+      "doc": "https://developers.upstage.ai/docs/apis/chat",
+      "modelCount": 5,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "fireworks-ai": {
+      "id": "fireworks-ai",
+      "name": "Fireworks AI",
+      "rawName": "Fireworks AI",
+      "doc": "https://fireworks.ai/docs/",
+      "modelCount": 27,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "llmgateway-providers": {
+      "id": "llmgateway-providers",
+      "name": "LLM Gateway",
+      "rawName": "LLM Gateway",
+      "doc": "https://llmgateway.io/docs",
+      "modelCount": 443,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "synthetic": {
+      "id": "synthetic",
+      "name": "Synthetic",
+      "rawName": "Synthetic",
+      "doc": "https://synthetic.new/pricing",
+      "modelCount": 12,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ai21": {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "rawName": "AI21 Labs",
+      "doc": "https://docs.ai21.com/docs/jamba-foundation-models",
+      "modelCount": 2,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "nearai": {
+      "id": "nearai",
+      "name": "NEAR AI Cloud",
+      "rawName": "NEAR AI Cloud",
+      "doc": "https://docs.near.ai/",
+      "modelCount": 59,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "stepfun": {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "rawName": "StepFun (China)",
+      "doc": "https://platform.stepfun.com/docs/zh/overview/concept",
+      "modelCount": 7,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "kilo": {
+      "id": "kilo",
+      "name": "Kilo Gateway",
+      "rawName": "Kilo Gateway",
+      "doc": "https://kilo.ai",
+      "modelCount": 378,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "inference": {
+      "id": "inference",
+      "name": "Inference",
+      "rawName": "Inference",
+      "doc": "https://inference.net/models",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "inco": {
+      "id": "inco",
+      "name": "Inco",
+      "rawName": "Inco",
+      "doc": "https://platform.inco.ai/docs",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "nano-gpt": {
+      "id": "nano-gpt",
+      "name": "NanoGPT",
+      "rawName": "NanoGPT",
+      "doc": "https://docs.nano-gpt.com",
+      "modelCount": 640,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "vivgrid": {
+      "id": "vivgrid",
+      "name": "Vivgrid",
+      "rawName": "Vivgrid",
+      "doc": "https://docs.vivgrid.com/models",
+      "modelCount": 38,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "kosmik": {
+      "id": "kosmik",
+      "name": "Kosmik Compute",
+      "rawName": "Kosmik Compute",
+      "doc": "https://api.koscompute.com/docs/",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "poolside": {
+      "id": "poolside",
+      "name": "Poolside",
+      "rawName": "Poolside",
+      "doc": "https://platform.poolside.ai",
+      "modelCount": 3,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "llmtr": {
+      "id": "llmtr",
+      "name": "LLMTR",
+      "rawName": "LLMTR",
+      "doc": "https://llmtr.com/docs",
+      "modelCount": 32,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "lowrouter": {
+      "id": "lowrouter",
+      "name": "LowRouter",
+      "rawName": "LowRouter",
+      "doc": "https://lowrouter.ai/docs/models/available",
+      "modelCount": 32,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "berget": {
+      "id": "berget",
+      "name": "Berget.AI",
+      "rawName": "Berget.AI",
+      "doc": "https://api.berget.ai",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "kenari": {
+      "id": "kenari",
+      "name": "Kenari",
+      "rawName": "Kenari",
+      "doc": "https://kenari.id/docs",
+      "modelCount": 64,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "sambanova": {
+      "id": "sambanova",
+      "name": "SambaNova",
+      "rawName": "SambaNova",
+      "doc": "https://docs.sambanova.ai/cloud/docs/get-started/supported-models",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "aixy": {
+      "id": "aixy",
+      "name": "Aixy",
+      "rawName": "Aixy",
+      "doc": "https://docs.aixy-gateway.com/integrations/overview",
+      "modelCount": 13,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "crusoe": {
+      "id": "crusoe",
+      "name": "Crusoe",
+      "rawName": "Crusoe",
+      "doc": "https://docs.crusoecloud.com/managed-inference/overview",
+      "modelCount": 11,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "blueclaw": {
+      "id": "blueclaw",
+      "name": "Blue Claw",
+      "rawName": "Blue Claw",
+      "doc": "https://blueclaw.network",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "commandcode": {
+      "id": "commandcode",
+      "name": "CommandCode",
+      "rawName": "CommandCode",
+      "doc": "https://commandcode.ai/docs/provider",
+      "modelCount": 72,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zhipuai-coding-plan": {
+      "id": "zhipuai-coding-plan",
+      "name": "Zhipu AI Coding Plan",
+      "rawName": "Zhipu AI Coding Plan",
+      "doc": "https://docs.bigmodel.cn/cn/coding-plan/overview",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "xiaomi-token-plan-cn": {
+      "id": "xiaomi-token-plan-cn",
+      "name": "Xiaomi Token Plan (China)",
+      "rawName": "Xiaomi Token Plan (China)",
+      "doc": "https://platform.xiaomimimo.com/#/docs",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "scaleway": {
+      "id": "scaleway",
+      "name": "Scaleway",
+      "rawName": "Scaleway",
+      "doc": "https://www.scaleway.com/en/docs/generative-apis/",
+      "modelCount": 17,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "trustedrouter": {
+      "id": "trustedrouter",
+      "name": "TrustedRouter",
+      "rawName": "TrustedRouter",
+      "doc": "https://trustedrouter.com/docs",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "aihubmix": {
+      "id": "aihubmix",
+      "name": "AIHubMix",
+      "rawName": "AIHubMix",
+      "doc": "https://docs.aihubmix.com",
+      "modelCount": 154,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "echo": {
+      "id": "echo",
+      "name": "Echo",
+      "rawName": "Echo",
+      "doc": "https://echo.tracerml.ai/docs/api",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "wallaby": {
+      "id": "wallaby",
+      "name": "Wallaby",
+      "rawName": "Wallaby",
+      "doc": "https://wallabytoken.com/docs",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "empiriolabs": {
+      "id": "empiriolabs",
+      "name": "EmpirioLabs AI",
+      "rawName": "EmpirioLabs AI",
+      "doc": "https://docs.empiriolabs.ai",
+      "modelCount": 64,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "minimax-cn-coding-plan": {
+      "id": "minimax-cn-coding-plan",
+      "name": "MiniMax Token Plan (minimax.cn)",
+      "rawName": "MiniMax Token Plan (minimax.cn)",
+      "doc": "https://platform.minimaxi.com/docs/token-plan/intro",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "anthropic": {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "rawName": "Anthropic",
+      "doc": "https://docs.anthropic.com/en/docs/about-claude/models",
+      "modelCount": 18,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "hopper": {
+      "id": "hopper",
+      "name": "Hopper",
+      "rawName": "Hopper",
+      "doc": "https://withhopper.com/agents/deepseek-v4.1-flash-1017",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "scx-ai": {
+      "id": "scx-ai",
+      "name": "SCX.ai",
+      "rawName": "SCX.ai",
+      "doc": "https://platform.scx.ai/docs",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "xiaomi-token-plan-ams": {
+      "id": "xiaomi-token-plan-ams",
+      "name": "Xiaomi Token Plan (Europe)",
+      "rawName": "Xiaomi Token Plan (Europe)",
+      "doc": "https://platform.xiaomimimo.com/#/docs",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "moonshotai": {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "rawName": "Moonshot AI",
+      "doc": "https://platform.moonshot.ai/docs/api/chat",
+      "modelCount": 6,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "tokengo": {
+      "id": "tokengo",
+      "name": "TokenGo",
+      "rawName": "TokenGo",
+      "doc": "https://www.tokengo.com/docs",
+      "modelCount": 13,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "auriko": {
+      "id": "auriko",
+      "name": "Auriko",
+      "rawName": "Auriko",
+      "doc": "https://docs.auriko.ai",
+      "modelCount": 15,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "sensenova": {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "rawName": "SenseNova (China)",
+      "doc": "https://platform.sensenova.cn/docs",
+      "modelCount": 6,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "cline-pass": {
+      "id": "cline-pass",
+      "name": "ClinePass",
+      "rawName": "ClinePass",
+      "doc": "https://docs.cline.bot/getting-started/clinepass",
+      "modelCount": 18,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "arcee": {
+      "id": "arcee",
+      "name": "Arcee AI",
+      "rawName": "Arcee",
+      "doc": "https://docs.arcee.ai",
+      "modelCount": 11,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "standardcompute": {
+      "id": "standardcompute",
+      "name": "Standard Compute",
+      "rawName": "Standard Compute",
+      "doc": "https://docs.standardcompute.com/models",
+      "modelCount": 40,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "minimax": {
+      "id": "minimax",
+      "name": "MiniMax",
+      "rawName": "MiniMax (minimax.io)",
+      "doc": "https://platform.minimax.io/docs/guides/quickstart",
+      "modelCount": 8,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "baseten": {
+      "id": "baseten",
+      "name": "Baseten",
+      "rawName": "Baseten",
+      "doc": "https://docs.baseten.co/inference/model-apis/overview",
+      "modelCount": 15,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "alibaba-cn": {
+      "id": "alibaba-cn",
+      "name": "阿里云",
+      "rawName": "Alibaba (China)",
+      "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
+      "modelCount": 80,
+      "isChannel": false,
+      "aliasOf": "alibaba"
+    },
+    "openai": {
+      "id": "openai",
+      "name": "OpenAI",
+      "rawName": "OpenAI",
+      "doc": "https://platform.openai.com/docs/models",
+      "modelCount": 51,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "edenai": {
+      "id": "edenai",
+      "name": "Eden AI",
+      "rawName": "Eden AI",
+      "doc": "https://docs.edenai.co",
+      "modelCount": 387,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "sap-ai-core": {
+      "id": "sap-ai-core",
+      "name": "SAP AI Core",
+      "rawName": "SAP AI Core",
+      "doc": "https://help.sap.com/docs/sap-ai-core",
+      "modelCount": 51,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "thinkingmachines": {
+      "id": "thinkingmachines",
+      "name": "Thinking Machines",
+      "rawName": "Thinking Machines",
+      "doc": "https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/",
+      "modelCount": 38,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "xiaomi": {
+      "id": "xiaomi",
+      "name": "小米",
+      "rawName": "Xiaomi",
+      "doc": "https://platform.xiaomimimo.com/#/docs",
+      "modelCount": 6,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "kimi-code-plan-cn": {
+      "id": "kimi-code-plan-cn",
+      "name": "Kimi For Coding (kimi.com)",
+      "rawName": "Kimi For Coding (kimi.com)",
+      "doc": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "agnes": {
+      "id": "agnes",
+      "name": "Agnes AI",
+      "rawName": "Agnes AI",
+      "doc": "https://agnes-ai.com/doc",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "wally": {
+      "id": "wally",
+      "name": "Wally",
+      "rawName": "Wally",
+      "doc": "https://docs.runanywhere.ai/wally-cloud/api",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "deepseek": {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "rawName": "DeepSeek",
+      "doc": "https://api-docs.deepseek.com/quick_start/pricing",
+      "modelCount": 4,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "inceptron": {
+      "id": "inceptron",
+      "name": "Inceptron",
+      "rawName": "Inceptron",
+      "doc": "https://docs.inceptron.io",
+      "modelCount": 6,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "requesty": {
+      "id": "requesty",
+      "name": "Requesty",
+      "rawName": "Requesty",
+      "doc": "https://requesty.ai/solution/llm-routing/models",
+      "modelCount": 185,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "engy": {
+      "id": "engy",
+      "name": "engy",
+      "rawName": "engy",
+      "doc": "https://engy.ai/pricing",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tensorx": {
+      "id": "tensorx",
+      "name": "TensorX",
+      "rawName": "TensorX",
+      "doc": "https://docs.tensorx.ai/",
+      "modelCount": 25,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "xiaomi-token-plan-sgp": {
+      "id": "xiaomi-token-plan-sgp",
+      "name": "Xiaomi Token Plan (Singapore)",
+      "rawName": "Xiaomi Token Plan (Singapore)",
+      "doc": "https://platform.xiaomimimo.com/#/docs",
+      "modelCount": 7,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "impossibl": {
+      "id": "impossibl",
+      "name": "Impossibl",
+      "rawName": "Impossibl",
+      "doc": "https://impossibl.com/docs/models",
+      "modelCount": 76,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "abacus": {
+      "id": "abacus",
+      "name": "Abacus",
+      "rawName": "Abacus",
+      "doc": "https://abacus.ai/help/api",
+      "modelCount": 108,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "hetzner": {
+      "id": "hetzner",
+      "name": "Hetzner",
+      "rawName": "Hetzner",
+      "doc": "https://experiments.hetzner.com/docs/inference",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "unorouter": {
+      "id": "unorouter",
+      "name": "UnoRouter",
+      "rawName": "UnoRouter",
+      "doc": "https://unorouter.com/models",
+      "modelCount": 23,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "lilac": {
+      "id": "lilac",
+      "name": "Lilac",
+      "rawName": "Lilac",
+      "doc": "https://docs.getlilac.com/inference/models",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "prime": {
+      "id": "prime",
+      "name": "Prime Inference",
+      "rawName": "Prime Inference",
+      "doc": "https://docs.primeintellect.ai/inference/overview",
+      "modelCount": 72,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "claudinio": {
+      "id": "claudinio",
+      "name": "Claudinio",
+      "rawName": "Claudinio",
+      "doc": "https://claudin.io",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "umans-ai-coding-plan": {
+      "id": "umans-ai-coding-plan",
+      "name": "Umans AI Coding Plan",
+      "rawName": "Umans AI Coding Plan",
+      "doc": "https://app.umans.ai/offers/code/docs",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "privatemode-ai": {
+      "id": "privatemode-ai",
+      "name": "Privatemode AI",
+      "rawName": "Privatemode AI",
+      "doc": "https://docs.privatemode.ai/api/overview",
+      "modelCount": 11,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "pareto": {
+      "id": "pareto",
+      "name": "Pareto Inference",
+      "rawName": "Pareto Inference",
+      "doc": "https://docs.paretoinference.com/",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "poe": {
+      "id": "poe",
+      "name": "Poe",
+      "rawName": "Poe",
+      "doc": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
+      "modelCount": 139,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tinfoil": {
+      "id": "tinfoil",
+      "name": "Tinfoil",
+      "rawName": "Tinfoil",
+      "doc": "https://docs.tinfoil.sh",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zeldoc": {
+      "id": "zeldoc",
+      "name": "Zeldoc",
+      "rawName": "Zeldoc",
+      "doc": "https://docs.zeldoc.ai",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "melious": {
+      "id": "melious",
+      "name": "Melious",
+      "rawName": "Melious",
+      "doc": "https://melious.ai/docs/reference/models",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "minimax-cn": {
+      "id": "minimax-cn",
+      "name": "MiniMax",
+      "rawName": "MiniMax (minimax.cn)",
+      "doc": "https://platform.minimaxi.com/docs/guides/quickstart",
+      "modelCount": 8,
+      "isChannel": false,
+      "aliasOf": "minimax"
+    },
+    "above": {
+      "id": "above",
+      "name": "above.dev",
+      "rawName": "above.dev",
+      "doc": "https://above.dev/docs",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "volcengine-coding-plan": {
+      "id": "volcengine-coding-plan",
+      "name": "Volcengine Ark Coding Plan",
+      "rawName": "Volcengine Ark Coding Plan",
+      "doc": "https://www.volcengine.com/docs/82379/1928261",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "infomaniak": {
+      "id": "infomaniak",
+      "name": "Infomaniak",
+      "rawName": "Infomaniak",
+      "doc": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "nova": {
+      "id": "nova",
+      "name": "Nova",
+      "rawName": "Nova",
+      "doc": "https://nova.amazon.com/dev/documentation",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "coralbricks": {
+      "id": "coralbricks",
+      "name": "CoralBricks",
+      "rawName": "CoralBricks",
+      "doc": "https://www.coralbricks.ai/docs",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "subconscious": {
+      "id": "subconscious",
+      "name": "Subconscious",
+      "rawName": "Subconscious",
+      "doc": "https://docs.subconscious.dev",
+      "modelCount": 2,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "siliconflow-cn": {
+      "id": "siliconflow-cn",
+      "name": "SiliconFlow (China)",
+      "rawName": "SiliconFlow (China)",
+      "doc": "https://cloud.siliconflow.com/models",
+      "modelCount": 45,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "cloudflare-workers-ai": {
+      "id": "cloudflare-workers-ai",
+      "name": "Cloudflare Workers AI",
+      "rawName": "Cloudflare Workers AI",
+      "doc": "https://developers.cloudflare.com/workers-ai/models/",
+      "modelCount": 28,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "neosmith": {
+      "id": "neosmith",
+      "name": "NeoSmith",
+      "rawName": "NeoSmith",
+      "doc": "https://neosmith.ai/docs",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "deepinfra": {
+      "id": "deepinfra",
+      "name": "Deep Infra",
+      "rawName": "Deep Infra",
+      "doc": "https://deepinfra.com/models",
+      "modelCount": 78,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "minimax-coding-plan": {
+      "id": "minimax-coding-plan",
+      "name": "MiniMax Token Plan (minimax.io)",
+      "rawName": "MiniMax Token Plan (minimax.io)",
+      "doc": "https://platform.minimax.io/docs/token-plan/intro",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "siliconflow": {
+      "id": "siliconflow",
+      "name": "SiliconFlow",
+      "rawName": "SiliconFlow",
+      "doc": "https://cloud.siliconflow.com/models",
+      "modelCount": 57,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "pioneer": {
+      "id": "pioneer",
+      "name": "Pioneer",
+      "rawName": "Pioneer",
+      "doc": "https://agent.pioneer.ai/llms.txt",
+      "modelCount": 25,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "nebius": {
+      "id": "nebius",
+      "name": "Nebius Token Factory",
+      "rawName": "Nebius Token Factory",
+      "doc": "https://docs.tokenfactory.nebius.com/",
+      "modelCount": 26,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "model-oracle-ai": {
+      "id": "model-oracle-ai",
+      "name": "Model Oracle AI",
+      "rawName": "Model Oracle AI",
+      "doc": "https://modeloracle.com/setup/",
+      "modelCount": 15,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "watsonx": {
+      "id": "watsonx",
+      "name": "watsonx.ai",
+      "rawName": "watsonx.ai",
+      "doc": "https://www.ibm.com/docs/en/watsonx/saas?topic=solutions-supported-foundation-models",
+      "modelCount": 5,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "evroc": {
+      "id": "evroc",
+      "name": "evroc",
+      "rawName": "evroc",
+      "doc": "https://docs.evroc.com/products/think/overview.html",
+      "modelCount": 16,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zenmux": {
+      "id": "zenmux",
+      "name": "ZenMux",
+      "rawName": "ZenMux",
+      "doc": "https://docs.zenmux.ai",
+      "modelCount": 110,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "lmstudio": {
+      "id": "lmstudio",
+      "name": "LMStudio",
+      "rawName": "LMStudio",
+      "doc": "https://lmstudio.ai/models",
+      "modelCount": 3,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "xai": {
+      "id": "xai",
+      "name": "xAI",
+      "rawName": "xAI",
+      "doc": "https://docs.x.ai/docs/models",
+      "modelCount": 12,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "mistral": {
+      "id": "mistral",
+      "name": "Mistral",
+      "rawName": "Mistral",
+      "doc": "https://docs.mistral.ai/getting-started/models/",
+      "modelCount": 36,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "abliteration-ai": {
+      "id": "abliteration-ai",
+      "name": "abliteration.ai",
+      "rawName": "abliteration.ai",
+      "doc": "https://docs.abliteration.ai/models",
+      "modelCount": 3,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "salad-cloud": {
+      "id": "salad-cloud",
+      "name": "SaladCloud AI Gateway",
+      "rawName": "SaladCloud AI Gateway",
+      "doc": "https://docs.salad.com/ai-gateway/explanation/overview",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "modelis": {
+      "id": "modelis",
+      "name": "Modelis",
+      "rawName": "Modelis",
+      "doc": "https://modelishub.com/pricing",
+      "modelCount": 9,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "ollama-cloud": {
+      "id": "ollama-cloud",
+      "name": "Ollama Cloud",
+      "rawName": "Ollama Cloud",
+      "doc": "https://docs.ollama.com/cloud",
+      "modelCount": 26,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "sarvam": {
+      "id": "sarvam",
+      "name": "Sarvam AI",
+      "rawName": "Sarvam AI",
+      "doc": "https://docs.sarvam.ai/api-reference-docs/getting-started/models",
+      "modelCount": 2,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "google": {
+      "id": "google",
+      "name": "谷歌",
+      "rawName": "Google",
+      "doc": "https://ai.google.dev/gemini-api/docs/models",
+      "modelCount": 37,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "gmicloud": {
+      "id": "gmicloud",
+      "name": "GMI Cloud",
+      "rawName": "GMI Cloud",
+      "doc": "https://docs.gmicloud.ai/inference-engine/api-reference/llm-api-reference",
+      "modelCount": 17,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "zai": {
+      "id": "zai",
+      "name": "智谱 AI",
+      "rawName": "Z.AI",
+      "doc": "https://docs.z.ai/guides/overview/pricing",
+      "modelCount": 18,
+      "isChannel": false,
+      "aliasOf": "zhipuai"
+    },
+    "routing-run": {
+      "id": "routing-run",
+      "name": "routing.run",
+      "rawName": "routing.run",
+      "doc": "https://docs.routing.run/api-reference/models",
+      "modelCount": 15,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "azure": {
+      "id": "azure",
+      "name": "Azure",
+      "rawName": "Azure",
+      "doc": "https://learn.microsoft.com/en-us/azure/ai-services/openai/concepts/models",
+      "modelCount": 97,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "munito": {
+      "id": "munito",
+      "name": "Munito AI",
+      "rawName": "Munito AI",
+      "doc": "https://docs.munito.ai/models",
       "modelCount": 5,
       "isChannel": true,
       "aliasOf": null
@@ -460,1065 +1891,12 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "anyapi": {
-      "id": "anyapi",
-      "name": "AnyAPI",
-      "rawName": "AnyAPI",
-      "doc": "https://docs.anyapi.ai",
-      "modelCount": 30,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "volcengine-coding-plan": {
-      "id": "volcengine-coding-plan",
-      "name": "Volcengine Ark Coding Plan",
-      "rawName": "Volcengine Ark Coding Plan",
-      "doc": "https://www.volcengine.com/docs/82379/1928261",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "openrouter": {
-      "id": "openrouter",
-      "name": "OpenRouter",
-      "rawName": "OpenRouter",
-      "doc": "https://openrouter.ai/models",
-      "modelCount": 379,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "subconscious": {
-      "id": "subconscious",
-      "name": "Subconscious",
-      "rawName": "Subconscious",
-      "doc": "https://docs.subconscious.dev",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "baseten": {
-      "id": "baseten",
-      "name": "Baseten",
-      "rawName": "Baseten",
-      "doc": "https://docs.baseten.co/inference/model-apis/overview",
-      "modelCount": 15,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "klokintegration": {
-      "id": "klokintegration",
-      "name": "klokintegration.se",
-      "rawName": "klokintegration.se",
-      "doc": "https://klokintegration.se/docs/ai-api",
+    "openreason": {
+      "id": "openreason",
+      "name": "OpenReason",
+      "rawName": "OpenReason",
+      "doc": "https://openreason.app/docs",
       "modelCount": 3,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "jiekou": {
-      "id": "jiekou",
-      "name": "Jiekou.AI",
-      "rawName": "Jiekou.AI",
-      "doc": "https://docs.jiekou.ai/docs/support/quickstart?utm_source=github_models.dev",
-      "modelCount": 61,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "anthropic": {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "rawName": "Anthropic",
-      "doc": "https://docs.anthropic.com/en/docs/about-claude/models",
-      "modelCount": 18,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "scaleway": {
-      "id": "scaleway",
-      "name": "Scaleway",
-      "rawName": "Scaleway",
-      "doc": "https://www.scaleway.com/en/docs/generative-apis/",
-      "modelCount": 17,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "atomic-chat": {
-      "id": "atomic-chat",
-      "name": "Atomic Chat",
-      "rawName": "Atomic Chat",
-      "doc": "https://atomic.chat",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "scx-ai": {
-      "id": "scx-ai",
-      "name": "SCX.ai",
-      "rawName": "SCX.ai",
-      "doc": "https://platform.scx.ai/docs",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "wafer.ai": {
-      "id": "wafer.ai",
-      "name": "Wafer",
-      "rawName": "Wafer",
-      "doc": "https://docs.wafer.ai/wafer-pass",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "aixy": {
-      "id": "aixy",
-      "name": "Aixy",
-      "rawName": "Aixy",
-      "doc": "https://docs.aixy-gateway.com/integrations/overview",
-      "modelCount": 13,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "minimax-cn": {
-      "id": "minimax-cn",
-      "name": "MiniMax",
-      "rawName": "MiniMax (minimax.cn)",
-      "doc": "https://platform.minimaxi.com/docs/guides/quickstart",
-      "modelCount": 8,
-      "isChannel": false,
-      "aliasOf": "minimax"
-    },
-    "openai": {
-      "id": "openai",
-      "name": "OpenAI",
-      "rawName": "OpenAI",
-      "doc": "https://platform.openai.com/docs/models",
-      "modelCount": 51,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "kimi-code-plan-cn": {
-      "id": "kimi-code-plan-cn",
-      "name": "Kimi For Coding (kimi.com)",
-      "rawName": "Kimi For Coding (kimi.com)",
-      "doc": "https://www.kimi.com/code/docs/en/kimi-code/models.html",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "perplexity": {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "rawName": "Perplexity",
-      "doc": "https://docs.perplexity.ai",
-      "modelCount": 4,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "modelis": {
-      "id": "modelis",
-      "name": "Modelis",
-      "rawName": "Modelis",
-      "doc": "https://modelishub.com/pricing",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "amazon-bedrock": {
-      "id": "amazon-bedrock",
-      "name": "Amazon Bedrock",
-      "rawName": "Amazon Bedrock",
-      "doc": "https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html",
-      "modelCount": 208,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "neosmith": {
-      "id": "neosmith",
-      "name": "NeoSmith",
-      "rawName": "NeoSmith",
-      "doc": "https://neosmith.ai/docs",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "thinkingmachines": {
-      "id": "thinkingmachines",
-      "name": "Thinking Machines",
-      "rawName": "Thinking Machines",
-      "doc": "https://tinker-docs.thinkingmachines.ai/tinker/compatible-apis/anthropic/",
-      "modelCount": 38,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "gitlab": {
-      "id": "gitlab",
-      "name": "GitLab Duo",
-      "rawName": "GitLab Duo",
-      "doc": "https://docs.gitlab.com/user/duo_agent_platform/",
-      "modelCount": 31,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "aihubmix": {
-      "id": "aihubmix",
-      "name": "AIHubMix",
-      "rawName": "AIHubMix",
-      "doc": "https://docs.aihubmix.com",
-      "modelCount": 154,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "alibaba-coding-plan": {
-      "id": "alibaba-coding-plan",
-      "name": "Alibaba Coding Plan",
-      "rawName": "Alibaba Coding Plan",
-      "doc": "https://www.alibabacloud.com/help/en/model-studio/coding-plan",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "moonshotai": {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "rawName": "Moonshot AI",
-      "doc": "https://platform.moonshot.ai/docs/api/chat",
-      "modelCount": 6,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "sambanova": {
-      "id": "sambanova",
-      "name": "SambaNova",
-      "rawName": "SambaNova",
-      "doc": "https://docs.sambanova.ai/cloud/docs/get-started/supported-models",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "orcarouter": {
-      "id": "orcarouter",
-      "name": "OrcaRouter",
-      "rawName": "OrcaRouter",
-      "doc": "https://docs.orcarouter.ai",
-      "modelCount": 117,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "kilo": {
-      "id": "kilo",
-      "name": "Kilo Gateway",
-      "rawName": "Kilo Gateway",
-      "doc": "https://kilo.ai",
-      "modelCount": 380,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cortecs": {
-      "id": "cortecs",
-      "name": "Cortecs",
-      "rawName": "Cortecs",
-      "doc": "https://api.cortecs.ai/v1/models",
-      "modelCount": 106,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "wandb": {
-      "id": "wandb",
-      "name": "CoreWeave",
-      "rawName": "CoreWeave",
-      "doc": "https://docs.wandb.ai/inference",
-      "modelCount": 24,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "nano-gpt": {
-      "id": "nano-gpt",
-      "name": "NanoGPT",
-      "rawName": "NanoGPT",
-      "doc": "https://docs.nano-gpt.com",
-      "modelCount": 636,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zai-coding-plan": {
-      "id": "zai-coding-plan",
-      "name": "Z.AI Coding Plan",
-      "rawName": "Z.AI Coding Plan",
-      "doc": "https://docs.z.ai/devpack/overview",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "neuralwatt": {
-      "id": "neuralwatt",
-      "name": "Neuralwatt",
-      "rawName": "Neuralwatt",
-      "doc": "https://portal.neuralwatt.com/docs",
-      "modelCount": 23,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "dinference": {
-      "id": "dinference",
-      "name": "DInference",
-      "rawName": "DInference",
-      "doc": "https://dinference.com",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "helicone": {
-      "id": "helicone",
-      "name": "Helicone",
-      "rawName": "Helicone",
-      "doc": "https://helicone.ai/models",
-      "modelCount": 90,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "privatemode-ai": {
-      "id": "privatemode-ai",
-      "name": "Privatemode AI",
-      "rawName": "Privatemode AI",
-      "doc": "https://docs.privatemode.ai/api/overview",
-      "modelCount": 11,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "bailing": {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "rawName": "Bailing",
-      "doc": "https://alipaytbox.yuque.com/sxs0ba/ling/intro",
-      "modelCount": 2,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "mistral": {
-      "id": "mistral",
-      "name": "Mistral",
-      "rawName": "Mistral",
-      "doc": "https://docs.mistral.ai/getting-started/models/",
-      "modelCount": 36,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "302ai": {
-      "id": "302ai",
-      "name": "302.AI",
-      "rawName": "302.AI",
-      "doc": "https://doc.302.ai",
-      "modelCount": 126,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "inferx": {
-      "id": "inferx",
-      "name": "InferX",
-      "rawName": "InferX",
-      "doc": "https://model.inferx.net/endpoints",
-      "modelCount": 12,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "arcee": {
-      "id": "arcee",
-      "name": "Arcee AI",
-      "rawName": "Arcee",
-      "doc": "https://docs.arcee.ai",
-      "modelCount": 11,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "drun": {
-      "id": "drun",
-      "name": "D.Run (China)",
-      "rawName": "D.Run (China)",
-      "doc": "https://www.d.run",
-      "modelCount": 3,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "minimax-coding-plan": {
-      "id": "minimax-coding-plan",
-      "name": "MiniMax Token Plan (minimax.io)",
-      "rawName": "MiniMax Token Plan (minimax.io)",
-      "doc": "https://platform.minimax.io/docs/token-plan/intro",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "agnes": {
-      "id": "agnes",
-      "name": "Agnes AI",
-      "rawName": "Agnes AI",
-      "doc": "https://agnes-ai.com/doc",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "minimax": {
-      "id": "minimax",
-      "name": "MiniMax",
-      "rawName": "MiniMax (minimax.io)",
-      "doc": "https://platform.minimax.io/docs/guides/quickstart",
-      "modelCount": 8,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "alibaba-token-plan": {
-      "id": "alibaba-token-plan",
-      "name": "Alibaba Token Plan",
-      "rawName": "Alibaba Token Plan",
-      "doc": "https://www.alibabacloud.com/help/en/model-studio/token-plan-overview",
-      "modelCount": 29,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "echo": {
-      "id": "echo",
-      "name": "Echo",
-      "rawName": "Echo",
-      "doc": "https://echo.tracerml.ai/docs/api",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "perplexity-agent": {
-      "id": "perplexity-agent",
-      "name": "Perplexity Agent",
-      "rawName": "Perplexity Agent",
-      "doc": "https://docs.perplexity.ai/docs/agent-api/models",
-      "modelCount": 45,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zhipuai": {
-      "id": "zhipuai",
-      "name": "智谱 AI",
-      "rawName": "Zhipu AI",
-      "doc": "https://docs.bigmodel.cn/cn/guide/start/pricing",
-      "modelCount": 17,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "standardcompute": {
-      "id": "standardcompute",
-      "name": "Standard Compute",
-      "rawName": "Standard Compute",
-      "doc": "https://docs.standardcompute.com/models",
-      "modelCount": 40,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "berget": {
-      "id": "berget",
-      "name": "Berget.AI",
-      "rawName": "Berget.AI",
-      "doc": "https://api.berget.ai",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "github-copilot": {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "rawName": "GitHub Copilot",
-      "doc": "https://docs.github.com/en/copilot",
-      "modelCount": 38,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "freemodel": {
-      "id": "freemodel",
-      "name": "FreeModel",
-      "rawName": "FreeModel",
-      "doc": "https://freemodel.dev",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ainetcafe": {
-      "id": "ainetcafe",
-      "name": "ainetcafe",
-      "rawName": "ainetcafe",
-      "doc": "https://ainetcafe.com/k3/guides/",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zenifra": {
-      "id": "zenifra",
-      "name": "Zenifra",
-      "rawName": "Zenifra",
-      "doc": "https://docs.zenifra.com",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "hyper": {
-      "id": "hyper",
-      "name": "Charm Hyper",
-      "rawName": "Charm Hyper",
-      "doc": "https://hyper.charm.land",
-      "modelCount": 18,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "routing-run": {
-      "id": "routing-run",
-      "name": "routing.run",
-      "rawName": "routing.run",
-      "doc": "https://docs.routing.run/api-reference/models",
-      "modelCount": 15,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "scnet-token-plan": {
-      "id": "scnet-token-plan",
-      "name": "SCNet Token Plan",
-      "rawName": "SCNet Token Plan",
-      "doc": "https://www.scnet.cn/ac/openapi/doc/2.0/moduleapi/plans/token-plan.html",
-      "modelCount": 19,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "regolo-ai": {
-      "id": "regolo-ai",
-      "name": "Regolo AI",
-      "rawName": "Regolo AI",
-      "doc": "https://docs.regolo.ai/",
-      "modelCount": 18,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "salad-cloud": {
-      "id": "salad-cloud",
-      "name": "SaladCloud AI Gateway",
-      "rawName": "SaladCloud AI Gateway",
-      "doc": "https://docs.salad.com/ai-gateway/explanation/overview",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "umans-ai": {
-      "id": "umans-ai",
-      "name": "Umans AI",
-      "rawName": "Umans AI",
-      "doc": "https://app.umans.ai/offers/code/docs/orgs",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "the-grid-ai": {
-      "id": "the-grid-ai",
-      "name": "The Grid AI",
-      "rawName": "The Grid AI",
-      "doc": "https://thegrid.ai/docs",
-      "modelCount": 17,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "coralbricks": {
-      "id": "coralbricks",
-      "name": "CoralBricks",
-      "rawName": "CoralBricks",
-      "doc": "https://www.coralbricks.ai/docs",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "synthetic": {
-      "id": "synthetic",
-      "name": "Synthetic",
-      "rawName": "Synthetic",
-      "doc": "https://synthetic.new/pricing",
-      "modelCount": 12,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "aki-io": {
-      "id": "aki-io",
-      "name": "AKI.IO",
-      "rawName": "AKI.IO",
-      "doc": "https://aki.io/docs/",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cloudferro-sherlock": {
-      "id": "cloudferro-sherlock",
-      "name": "CloudFerro Sherlock",
-      "rawName": "CloudFerro Sherlock",
-      "doc": "https://docs.sherlock.cloudferro.com/",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "deepinfra": {
-      "id": "deepinfra",
-      "name": "Deep Infra",
-      "rawName": "Deep Infra",
-      "doc": "https://deepinfra.com/models",
-      "modelCount": 78,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "trustedrouter": {
-      "id": "trustedrouter",
-      "name": "TrustedRouter",
-      "rawName": "TrustedRouter",
-      "doc": "https://trustedrouter.com/docs",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "vivgrid": {
-      "id": "vivgrid",
-      "name": "Vivgrid",
-      "rawName": "Vivgrid",
-      "doc": "https://docs.vivgrid.com/models",
-      "modelCount": 38,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "stackit": {
-      "id": "stackit",
-      "name": "STACKIT",
-      "rawName": "STACKIT",
-      "doc": "https://docs.stackit.cloud/products/data-and-ai/ai-model-serving/basics/available-shared-models",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "togetherai": {
-      "id": "togetherai",
-      "name": "Together AI",
-      "rawName": "Together AI",
-      "doc": "https://docs.together.ai/docs/serverless-models",
-      "modelCount": 33,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "neon": {
-      "id": "neon",
-      "name": "Neon",
-      "rawName": "Neon",
-      "doc": "https://neon.com/docs",
-      "modelCount": 58,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "novita-ai": {
-      "id": "novita-ai",
-      "name": "Novita AI",
-      "rawName": "Novita AI",
-      "doc": "https://novita.ai/docs/guides/introduction",
-      "modelCount": 91,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "liquid": {
-      "id": "liquid",
-      "name": "Liquid Inference",
-      "rawName": "Liquid Inference",
-      "doc": "https://inference.ai.exchange/docs",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "opper": {
-      "id": "opper",
-      "name": "Opper",
-      "rawName": "Opper",
-      "doc": "https://opper.ai/models",
-      "modelCount": 55,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ai-router": {
-      "id": "ai-router",
-      "name": "AI-ROUTER",
-      "rawName": "AI-ROUTER",
-      "doc": "https://ai-router.dev/openai-compatible-api-gateway/",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tencent-coding-plan": {
-      "id": "tencent-coding-plan",
-      "name": "腾讯混元",
-      "rawName": "Tencent Coding Plan (China)",
-      "doc": "https://cloud.tencent.com/document/product/1772/128947",
-      "modelCount": 8,
-      "isChannel": false,
-      "aliasOf": "tencent-tokenhub"
-    },
-    "io-net": {
-      "id": "io-net",
-      "name": "IO.NET",
-      "rawName": "IO.NET",
-      "doc": "https://io.net/docs/guides/intelligence/io-intelligence",
-      "modelCount": 17,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "lmstudio": {
-      "id": "lmstudio",
-      "name": "LMStudio",
-      "rawName": "LMStudio",
-      "doc": "https://lmstudio.ai/models",
-      "modelCount": 3,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "hetzner": {
-      "id": "hetzner",
-      "name": "Hetzner",
-      "rawName": "Hetzner",
-      "doc": "https://experiments.hetzner.com/docs/inference",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "volcengine": {
-      "id": "volcengine",
-      "name": "字节跳动",
-      "rawName": "Volcengine Ark",
-      "doc": "https://www.volcengine.com/docs/82379/1330310",
-      "modelCount": 16,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "jalapeno": {
-      "id": "jalapeno",
-      "name": "Jalapeno Cloud",
-      "rawName": "Jalapeno Cloud",
-      "doc": "https://www.jalapeno-cloud.ai/docs/",
-      "modelCount": 17,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tencent-tokenhub": {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "rawName": "Tencent TokenHub",
-      "doc": "https://cloud.tencent.com/document/product/1823/130050",
-      "modelCount": 4,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "xiaomi": {
-      "id": "xiaomi",
-      "name": "小米",
-      "rawName": "Xiaomi",
-      "doc": "https://platform.xiaomimimo.com/#/docs",
-      "modelCount": 6,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "model-oracle-ai": {
-      "id": "model-oracle-ai",
-      "name": "Model Oracle AI",
-      "rawName": "Model Oracle AI",
-      "doc": "https://modeloracle.com/setup/",
-      "modelCount": 15,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "xiaomi-token-plan-cn": {
-      "id": "xiaomi-token-plan-cn",
-      "name": "Xiaomi Token Plan (China)",
-      "rawName": "Xiaomi Token Plan (China)",
-      "doc": "https://platform.xiaomimimo.com/#/docs",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "vispark": {
-      "id": "vispark",
-      "name": "Vispark",
-      "rawName": "Vispark",
-      "doc": "https://lab.vispark.in/#vision",
-      "modelCount": 3,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "submodel": {
-      "id": "submodel",
-      "name": "submodel",
-      "rawName": "submodel",
-      "doc": "https://submodel.gitbook.io",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "google-vertex-anthropic": {
-      "id": "google-vertex-anthropic",
-      "name": "Vertex (Anthropic)",
-      "rawName": "Vertex (Anthropic)",
-      "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/partner-models/claude",
-      "modelCount": 18,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "google-vertex": {
-      "id": "google-vertex",
-      "name": "Vertex",
-      "rawName": "Vertex",
-      "doc": "https://cloud.google.com/vertex-ai/generative-ai/docs/models",
-      "modelCount": 63,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "digitalocean": {
-      "id": "digitalocean",
-      "name": "DigitalOcean",
-      "rawName": "DigitalOcean",
-      "doc": "https://docs.digitalocean.com/products/gradient-ai-platform/details/models/",
-      "modelCount": 84,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "upstage": {
-      "id": "upstage",
-      "name": "Upstage",
-      "rawName": "Upstage",
-      "doc": "https://developers.upstage.ai/docs/apis/chat",
-      "modelCount": 5,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "infomaniak": {
-      "id": "infomaniak",
-      "name": "Infomaniak",
-      "rawName": "Infomaniak",
-      "doc": "https://www.infomaniak.com/en/hosting/ai-services/open-source-models",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "crusoe": {
-      "id": "crusoe",
-      "name": "Crusoe",
-      "rawName": "Crusoe",
-      "doc": "https://docs.crusoecloud.com/managed-inference/overview",
-      "modelCount": 11,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tencent-token-plan": {
-      "id": "tencent-token-plan",
-      "name": "腾讯混元",
-      "rawName": "Tencent Token Plan",
-      "doc": "https://cloud.tencent.com/document/product/1823/130060",
-      "modelCount": 3,
-      "isChannel": false,
-      "aliasOf": "tencent-tokenhub"
-    },
-    "inco": {
-      "id": "inco",
-      "name": "Inco",
-      "rawName": "Inco",
-      "doc": "https://platform.inco.ai/docs",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "boundless": {
-      "id": "boundless",
-      "name": "Boundless",
-      "rawName": "Boundless",
-      "doc": "https://inference.boundless.network/models",
-      "modelCount": 20,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "abliteration-ai": {
-      "id": "abliteration-ai",
-      "name": "abliteration.ai",
-      "rawName": "abliteration.ai",
-      "doc": "https://docs.abliteration.ai/models",
-      "modelCount": 3,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "munito": {
-      "id": "munito",
-      "name": "Munito AI",
-      "rawName": "Munito AI",
-      "doc": "https://docs.munito.ai/models",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cohere": {
-      "id": "cohere",
-      "name": "Cohere",
-      "rawName": "Cohere",
-      "doc": "https://docs.cohere.com/docs/models",
-      "modelCount": 17,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "requesty": {
-      "id": "requesty",
-      "name": "Requesty",
-      "rawName": "Requesty",
-      "doc": "https://requesty.ai/solution/llm-routing/models",
-      "modelCount": 185,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "inceptron": {
-      "id": "inceptron",
-      "name": "Inceptron",
-      "rawName": "Inceptron",
-      "doc": "https://docs.inceptron.io",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "opencode-go": {
-      "id": "opencode-go",
-      "name": "OpenCode Go",
-      "rawName": "OpenCode Go",
-      "doc": "https://opencode.ai/v2/docs/console/go/",
-      "modelCount": 40,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "moonshotai-cn": {
-      "id": "moonshotai-cn",
-      "name": "月之暗面",
-      "rawName": "Moonshot AI (China)",
-      "doc": "https://platform.moonshot.cn/docs/api/chat",
-      "modelCount": 6,
-      "isChannel": false,
-      "aliasOf": "moonshotai"
-    },
-    "longcat": {
-      "id": "longcat",
-      "name": "美团 LongCat",
-      "rawName": "LongCat",
-      "doc": "https://longcat.chat/platform/docs/",
-      "modelCount": 2,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "nebius": {
-      "id": "nebius",
-      "name": "Nebius Token Factory",
-      "rawName": "Nebius Token Factory",
-      "doc": "https://docs.tokenfactory.nebius.com/",
-      "modelCount": 26,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "fastrouter": {
-      "id": "fastrouter",
-      "name": "FastRouter",
-      "rawName": "FastRouter",
-      "doc": "https://fastrouter.ai/models",
-      "modelCount": 39,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "google": {
-      "id": "google",
-      "name": "谷歌",
-      "rawName": "Google",
-      "doc": "https://ai.google.dev/gemini-api/docs/models",
-      "modelCount": 37,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "wally": {
-      "id": "wally",
-      "name": "Wally",
-      "rawName": "Wally",
-      "doc": "https://docs.runanywhere.ai/wally-cloud/api",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "xiaomi-token-plan-ams": {
-      "id": "xiaomi-token-plan-ams",
-      "name": "Xiaomi Token Plan (Europe)",
-      "rawName": "Xiaomi Token Plan (Europe)",
-      "doc": "https://platform.xiaomimimo.com/#/docs",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "lilac": {
-      "id": "lilac",
-      "name": "Lilac",
-      "rawName": "Lilac",
-      "doc": "https://docs.getlilac.com/inference/models",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "unorouter": {
-      "id": "unorouter",
-      "name": "UnoRouter",
-      "rawName": "UnoRouter",
-      "doc": "https://unorouter.com/models",
-      "modelCount": 23,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "llmgateway-providers": {
-      "id": "llmgateway-providers",
-      "name": "LLM Gateway",
-      "rawName": "LLM Gateway",
-      "doc": "https://llmgateway.io/docs",
-      "modelCount": 443,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "modal": {
-      "id": "modal",
-      "name": "Modal",
-      "rawName": "Modal",
-      "doc": "https://modal.com/docs/guide/endpoints",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "kimi-code-plan-global": {
-      "id": "kimi-code-plan-global",
-      "name": "Kimi For Coding (kimi.ai)",
-      "rawName": "Kimi For Coding (kimi.ai)",
-      "doc": "https://www.kimi.ai/code/docs/en/kimi-code/models.html",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cline-pass": {
-      "id": "cline-pass",
-      "name": "ClinePass",
-      "rawName": "ClinePass",
-      "doc": "https://docs.cline.bot/getting-started/clinepass",
-      "modelCount": 18,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "minimax-cn-coding-plan": {
-      "id": "minimax-cn-coding-plan",
-      "name": "MiniMax Token Plan (minimax.cn)",
-      "rawName": "MiniMax Token Plan (minimax.cn)",
-      "doc": "https://platform.minimaxi.com/docs/token-plan/intro",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "modular": {
-      "id": "modular",
-      "name": "Modular",
-      "rawName": "Modular",
-      "doc": "https://docs.modular.com/models",
-      "modelCount": 4,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1531,354 +1909,12 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "inference": {
-      "id": "inference",
-      "name": "Inference",
-      "rawName": "Inference",
-      "doc": "https://inference.net/models",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "agentrouter": {
-      "id": "agentrouter",
-      "name": "AgentRouter",
-      "rawName": "AgentRouter",
-      "doc": "https://agentrouter.org/docs/opencode.html",
-      "modelCount": 5,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "sap-ai-core": {
-      "id": "sap-ai-core",
-      "name": "SAP AI Core",
-      "rawName": "SAP AI Core",
-      "doc": "https://help.sap.com/docs/sap-ai-core",
-      "modelCount": 51,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "sensenova": {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "rawName": "SenseNova (China)",
-      "doc": "https://platform.sensenova.cn/docs",
-      "modelCount": 6,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "deepseek": {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "rawName": "DeepSeek",
-      "doc": "https://api-docs.deepseek.com/quick_start/pricing",
-      "modelCount": 4,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "edenai": {
-      "id": "edenai",
-      "name": "Eden AI",
-      "rawName": "Eden AI",
-      "doc": "https://docs.edenai.co",
-      "modelCount": 387,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "evroc": {
-      "id": "evroc",
-      "name": "evroc",
-      "rawName": "evroc",
-      "doc": "https://docs.evroc.com/products/think/overview.html",
-      "modelCount": 16,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "auriko": {
-      "id": "auriko",
-      "name": "Auriko",
-      "rawName": "Auriko",
-      "doc": "https://docs.auriko.ai",
-      "modelCount": 15,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "empiriolabs": {
-      "id": "empiriolabs",
-      "name": "EmpirioLabs AI",
-      "rawName": "EmpirioLabs AI",
-      "doc": "https://docs.empiriolabs.ai",
-      "modelCount": 64,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "llmtr": {
-      "id": "llmtr",
-      "name": "LLMTR",
-      "rawName": "LLMTR",
-      "doc": "https://llmtr.com/docs",
-      "modelCount": 32,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cerebras": {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "rawName": "Cerebras",
-      "doc": "https://inference-docs.cerebras.ai/models/overview",
-      "modelCount": 2,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "bee": {
-      "id": "bee",
-      "name": "Bee by HEOSSI",
-      "rawName": "Bee by HEOSSI",
-      "doc": "https://bee.heossi.com/docs/sdks",
-      "modelCount": 6,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "infer": {
-      "id": "infer",
-      "name": "Infer by Flow7",
-      "rawName": "Infer by Flow7",
-      "doc": "https://infer.flow7.org/opencode",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "commandcode": {
-      "id": "commandcode",
-      "name": "CommandCode",
-      "rawName": "CommandCode",
-      "doc": "https://commandcode.ai/docs/provider",
-      "modelCount": 72,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tempr": {
-      "id": "tempr",
-      "name": "Tempr Gateway",
-      "rawName": "Tempr Gateway",
-      "doc": "https://temprhq.io/docs/gateway-reference.html",
-      "modelCount": 82,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "cloudflare-workers-ai": {
-      "id": "cloudflare-workers-ai",
-      "name": "Cloudflare Workers AI",
-      "rawName": "Cloudflare Workers AI",
-      "doc": "https://developers.cloudflare.com/workers-ai/models/",
-      "modelCount": 28,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "venice": {
-      "id": "venice",
-      "name": "Venice AI",
-      "rawName": "Venice AI",
-      "doc": "https://docs.venice.ai",
-      "modelCount": 126,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "kuae-cloud-coding-plan": {
-      "id": "kuae-cloud-coding-plan",
-      "name": "KUAE Cloud Coding Plan",
-      "rawName": "KUAE Cloud Coding Plan",
-      "doc": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "stepfun-ai": {
-      "id": "stepfun-ai",
-      "name": "阶跃星辰",
-      "rawName": "StepFun (Global)",
-      "doc": "https://platform.stepfun.ai/docs/en/overview/concept",
-      "modelCount": 7,
-      "isChannel": false,
-      "aliasOf": "stepfun"
-    },
-    "qvac": {
-      "id": "qvac",
-      "name": "QVAC",
-      "rawName": "QVAC",
-      "doc": "https://www.npmjs.com/package/@qvac/ai-sdk-provider",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "nvidia": {
-      "id": "nvidia",
-      "name": "英伟达",
-      "rawName": "Nvidia",
-      "doc": "https://docs.api.nvidia.com/nim/",
-      "modelCount": 52,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "snowflake-cortex": {
-      "id": "snowflake-cortex",
-      "name": "Snowflake Cortex",
-      "rawName": "Snowflake Cortex",
-      "doc": "https://docs.snowflake.com/en/user-guide/snowflake-cortex/cortex-rest-api",
-      "modelCount": 25,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "databricks": {
-      "id": "databricks",
-      "name": "Databricks",
-      "rawName": "Databricks",
-      "doc": "https://docs.databricks.com/aws/en/machine-learning/foundation-models/",
-      "modelCount": 31,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "kosmik": {
-      "id": "kosmik",
-      "name": "Kosmik Compute",
-      "rawName": "Kosmik Compute",
-      "doc": "https://api.koscompute.com/docs/",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ambient": {
-      "id": "ambient",
-      "name": "Ambient",
-      "rawName": "Ambient",
-      "doc": "https://ambient.xyz",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "hopper": {
-      "id": "hopper",
-      "name": "Hopper",
-      "rawName": "Hopper",
-      "doc": "https://withhopper.com/agents/deepseek-v4.1-flash-1017",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "xai": {
-      "id": "xai",
-      "name": "xAI",
-      "rawName": "xAI",
-      "doc": "https://docs.x.ai/docs/models",
-      "modelCount": 12,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "poe": {
-      "id": "poe",
-      "name": "Poe",
-      "rawName": "Poe",
-      "doc": "https://creator.poe.com/docs/external-applications/openai-compatible-api",
-      "modelCount": 139,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "nan": {
-      "id": "nan",
-      "name": "NaN",
-      "rawName": "NaN",
-      "doc": "https://nan.builders/docs/models",
-      "modelCount": 8,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ovhcloud": {
-      "id": "ovhcloud",
-      "name": "OVHcloud AI Endpoints",
-      "rawName": "OVHcloud AI Endpoints",
-      "doc": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
-      "modelCount": 11,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "pioneer": {
-      "id": "pioneer",
-      "name": "Pioneer",
-      "rawName": "Pioneer",
-      "doc": "https://agent.pioneer.ai/llms.txt",
-      "modelCount": 25,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "huggingface": {
-      "id": "huggingface",
-      "name": "Hugging Face",
-      "rawName": "Hugging Face",
-      "doc": "https://huggingface.co/docs/inference-providers",
-      "modelCount": 82,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "hpc-ai": {
-      "id": "hpc-ai",
-      "name": "HPC-AI",
-      "rawName": "HPC-AI",
-      "doc": "https://www.hpc-ai.com/doc/docs/quickstart/",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "nova": {
-      "id": "nova",
-      "name": "Nova",
-      "rawName": "Nova",
-      "doc": "https://nova.amazon.com/dev/documentation",
-      "modelCount": 2,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zeldoc": {
-      "id": "zeldoc",
-      "name": "Zeldoc",
-      "rawName": "Zeldoc",
-      "doc": "https://docs.zeldoc.ai",
-      "modelCount": 1,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "above": {
-      "id": "above",
-      "name": "above.dev",
-      "rawName": "above.dev",
-      "doc": "https://above.dev/docs",
-      "modelCount": 10,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "openreason": {
-      "id": "openreason",
-      "name": "OpenReason",
-      "rawName": "OpenReason",
-      "doc": "https://openreason.app/docs",
-      "modelCount": 3,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "siliconflow": {
-      "id": "siliconflow",
-      "name": "SiliconFlow",
-      "rawName": "SiliconFlow",
-      "doc": "https://cloud.siliconflow.com/models",
-      "modelCount": 57,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "fireworks-ai": {
-      "id": "fireworks-ai",
-      "name": "Fireworks AI",
-      "rawName": "Fireworks AI",
-      "doc": "https://fireworks.ai/docs/",
-      "modelCount": 27,
+    "groq": {
+      "id": "groq",
+      "name": "Groq",
+      "rawName": "Groq",
+      "doc": "https://console.groq.com/docs/models",
+      "modelCount": 14,
       "isChannel": true,
       "aliasOf": null
     },
@@ -1891,155 +1927,65 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "munito-eu": {
-      "id": "munito-eu",
-      "name": "Munito AI (EU)",
-      "rawName": "Munito AI (EU)",
-      "doc": "https://docs.munito.ai/regions",
+    "ovhcloud": {
+      "id": "ovhcloud",
+      "name": "OVHcloud AI Endpoints",
+      "rawName": "OVHcloud AI Endpoints",
+      "doc": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog//",
+      "modelCount": 11,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "nan": {
+      "id": "nan",
+      "name": "NaN",
+      "rawName": "NaN",
+      "doc": "https://nan.builders/docs/models",
+      "modelCount": 8,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "opencode-go": {
+      "id": "opencode-go",
+      "name": "OpenCode Go",
+      "rawName": "OpenCode Go",
+      "doc": "https://opencode.ai/v2/docs/console/go/",
+      "modelCount": 40,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "freemodel": {
+      "id": "freemodel",
+      "name": "FreeModel",
+      "rawName": "FreeModel",
+      "doc": "https://freemodel.dev",
+      "modelCount": 10,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "perplexity": {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "rawName": "Perplexity",
+      "doc": "https://docs.perplexity.ai",
       "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "alibaba-cn": {
-      "id": "alibaba-cn",
-      "name": "阿里云",
-      "rawName": "Alibaba (China)",
-      "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
-      "modelCount": 80,
-      "isChannel": false,
-      "aliasOf": "alibaba"
-    },
-    "ai21": {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "rawName": "AI21 Labs",
-      "doc": "https://docs.ai21.com/docs/jamba-foundation-models",
-      "modelCount": 2,
       "isChannel": false,
       "aliasOf": null
     },
-    "alibaba": {
-      "id": "alibaba",
-      "name": "阿里云",
-      "rawName": "Alibaba",
-      "doc": "https://www.alibabacloud.com/help/en/model-studio/models",
-      "modelCount": 53,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "sarvam": {
-      "id": "sarvam",
-      "name": "Sarvam AI",
-      "rawName": "Sarvam AI",
-      "doc": "https://docs.sarvam.ai/api-reference-docs/getting-started/models",
-      "modelCount": 2,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "alibaba-token-plan-cn": {
-      "id": "alibaba-token-plan-cn",
-      "name": "Alibaba Token Plan (China)",
-      "rawName": "Alibaba Token Plan (China)",
-      "doc": "https://www.alibabacloud.com/help/zh/model-studio/token-plan-overview",
-      "modelCount": 29,
+    "cortecs": {
+      "id": "cortecs",
+      "name": "Cortecs",
+      "rawName": "Cortecs",
+      "doc": "https://api.cortecs.ai/v1/models",
+      "modelCount": 105,
       "isChannel": true,
       "aliasOf": null
     },
-    "lowrouter": {
-      "id": "lowrouter",
-      "name": "LowRouter",
-      "rawName": "LowRouter",
-      "doc": "https://lowrouter.ai/docs/models/available",
-      "modelCount": 32,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "meta": {
-      "id": "meta",
-      "name": "Meta",
-      "rawName": "Meta",
-      "doc": "https://dev.meta.ai/docs",
-      "modelCount": 7,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "greenpt": {
-      "id": "greenpt",
-      "name": "GreenPT",
-      "rawName": "GreenPT",
-      "doc": "https://docs.greenpt.ai",
-      "modelCount": 41,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "ebcloud": {
-      "id": "ebcloud",
-      "name": "EBCloud",
-      "rawName": "EBCloud",
-      "doc": "https://docs.ebtech.com/ai/model-api.html",
-      "modelCount": 4,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "morph": {
-      "id": "morph",
-      "name": "Morph",
-      "rawName": "Morph",
-      "doc": "https://docs.morphllm.com/api-reference/introduction",
-      "modelCount": 12,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "siliconflow-cn": {
-      "id": "siliconflow-cn",
-      "name": "SiliconFlow (China)",
-      "rawName": "SiliconFlow (China)",
-      "doc": "https://cloud.siliconflow.com/models",
-      "modelCount": 45,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tinfoil": {
-      "id": "tinfoil",
-      "name": "Tinfoil",
-      "rawName": "Tinfoil",
-      "doc": "https://docs.tinfoil.sh",
-      "modelCount": 9,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "poolside": {
-      "id": "poolside",
-      "name": "Poolside",
-      "rawName": "Poolside",
-      "doc": "https://platform.poolside.ai",
-      "modelCount": 3,
-      "isChannel": false,
-      "aliasOf": null
-    },
-    "aiand": {
-      "id": "aiand",
-      "name": "ai&",
-      "rawName": "ai&",
-      "doc": "https://docs.aiand.com/",
-      "modelCount": 12,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "zenmux": {
-      "id": "zenmux",
-      "name": "ZenMux",
-      "rawName": "ZenMux",
-      "doc": "https://docs.zenmux.ai",
-      "modelCount": 110,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "tokenrouter": {
-      "id": "tokenrouter",
-      "name": "TokenRouter",
-      "rawName": "TokenRouter",
-      "doc": "https://www.tokenrouter.com/docs/tokenrouter-feature-guide/",
+    "zenifra": {
+      "id": "zenifra",
+      "name": "Zenifra",
+      "rawName": "Zenifra",
+      "doc": "https://docs.zenifra.com",
       "modelCount": 1,
       "isChannel": true,
       "aliasOf": null
@@ -2053,66 +1999,48 @@
       "isChannel": true,
       "aliasOf": null
     },
-    "groq": {
-      "id": "groq",
-      "name": "Groq",
-      "rawName": "Groq",
-      "doc": "https://console.groq.com/docs/models",
-      "modelCount": 14,
+    "submodel": {
+      "id": "submodel",
+      "name": "submodel",
+      "rawName": "submodel",
+      "doc": "https://submodel.gitbook.io",
+      "modelCount": 9,
       "isChannel": true,
       "aliasOf": null
     },
-    "ofox": {
-      "id": "ofox",
-      "name": "Ofox",
-      "rawName": "Ofox",
-      "doc": "https://ofox.ai/docs",
-      "modelCount": 151,
+    "agentrouter": {
+      "id": "agentrouter",
+      "name": "AgentRouter",
+      "rawName": "AgentRouter",
+      "doc": "https://agentrouter.org/docs/opencode.html",
+      "modelCount": 5,
       "isChannel": true,
       "aliasOf": null
     },
-    "inception": {
-      "id": "inception",
-      "name": "Inception",
-      "rawName": "Inception",
-      "doc": "https://docs.inceptionlabs.ai/get-started/models",
-      "modelCount": 4,
+    "meta": {
+      "id": "meta",
+      "name": "Meta",
+      "rawName": "Meta",
+      "doc": "https://dev.meta.ai/docs",
+      "modelCount": 7,
       "isChannel": false,
       "aliasOf": null
     },
-    "llmtech": {
-      "id": "llmtech",
-      "name": "LLM Tech",
-      "rawName": "LLM Tech",
-      "doc": "https://llmtech.eu/models/qwen3.8-27b",
-      "modelCount": 1,
+    "wandb": {
+      "id": "wandb",
+      "name": "CoreWeave",
+      "rawName": "CoreWeave",
+      "doc": "https://docs.wandb.ai/inference",
+      "modelCount": 24,
       "isChannel": true,
       "aliasOf": null
     },
-    "prime": {
-      "id": "prime",
-      "name": "Prime Inference",
-      "rawName": "Prime Inference",
-      "doc": "https://docs.primeintellect.ai/inference/overview",
-      "modelCount": 72,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "modelscope": {
-      "id": "modelscope",
-      "name": "ModelScope",
-      "rawName": "ModelScope",
-      "doc": "https://modelscope.cn/docs/model-service/API-Inference/intro",
-      "modelCount": 7,
-      "isChannel": true,
-      "aliasOf": null
-    },
-    "oci": {
-      "id": "oci",
-      "name": "OCI Generative AI",
-      "rawName": "OCI Generative AI",
-      "doc": "https://docs.oracle.com/en-us/iaas/Content/generative-ai/pretrained-models.htm",
-      "modelCount": 9,
+    "openrouter": {
+      "id": "openrouter",
+      "name": "OpenRouter",
+      "rawName": "OpenRouter",
+      "doc": "https://openrouter.ai/models",
+      "modelCount": 377,
       "isChannel": true,
       "aliasOf": null
     },
@@ -2122,6 +2050,78 @@
       "rawName": "FrogBot",
       "doc": "https://docs.frogbot.ai",
       "modelCount": 26,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "opper": {
+      "id": "opper",
+      "name": "Opper",
+      "rawName": "Opper",
+      "doc": "https://opper.ai/models",
+      "modelCount": 55,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "xpersona": {
+      "id": "xpersona",
+      "name": "Xpersona",
+      "rawName": "Xpersona",
+      "doc": "https://www.xpersona.co/docs",
+      "modelCount": 13,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "tencent-token-plan": {
+      "id": "tencent-token-plan",
+      "name": "腾讯混元",
+      "rawName": "Tencent Token Plan",
+      "doc": "https://cloud.tencent.com/document/product/1823/130060",
+      "modelCount": 3,
+      "isChannel": false,
+      "aliasOf": "tencent-tokenhub"
+    },
+    "modular": {
+      "id": "modular",
+      "name": "Modular",
+      "rawName": "Modular",
+      "doc": "https://docs.modular.com/models",
+      "modelCount": 4,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "helicone": {
+      "id": "helicone",
+      "name": "Helicone",
+      "rawName": "Helicone",
+      "doc": "https://helicone.ai/models",
+      "modelCount": 90,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "kuae-cloud-coding-plan": {
+      "id": "kuae-cloud-coding-plan",
+      "name": "KUAE Cloud Coding Plan",
+      "rawName": "KUAE Cloud Coding Plan",
+      "doc": "https://docs.mthreads.com/kuaecloud/kuaecloud-doc-online/coding_plan/",
+      "modelCount": 1,
+      "isChannel": true,
+      "aliasOf": null
+    },
+    "vispark": {
+      "id": "vispark",
+      "name": "Vispark",
+      "rawName": "Vispark",
+      "doc": "https://lab.vispark.in/#vision",
+      "modelCount": 3,
+      "isChannel": false,
+      "aliasOf": null
+    },
+    "drun": {
+      "id": "drun",
+      "name": "D.Run (China)",
+      "rawName": "D.Run (China)",
+      "doc": "https://www.d.run",
+      "modelCount": 3,
       "isChannel": true,
       "aliasOf": null
     }
@@ -3937,7 +3937,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "302ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -5323,7 +5323,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "302ai/ministral-14b-2512": {
       "name": "ministral-14b-2512",
@@ -8953,7 +8953,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "abacus/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -10006,7 +10006,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "aiand/motif-technologies/motif-3": {
       "name": "Motif 3",
@@ -10267,7 +10267,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "aihubmix/claude-fable-5": {
       "name": "Claude Fable 5",
@@ -14762,7 +14762,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "aimlapi/aion-labs/aion-rp-llama-3.1-8b": {
       "name": "Aion-RP 1.0 (8B)",
@@ -15585,37 +15585,7 @@
           "text"
         ]
       },
-      "shared": 3
-    },
-    "aimlapi/bytedance-seed/seed-2.0-code": {
-      "name": "Seed-2.0-Code",
-      "norm": "seed-2-0-code",
-      "vendor": "aimlapi",
-      "vendorRaw": "aimlapi",
-      "vendorName": "AI/ML API",
-      "isOrigin": false,
-      "release": "2026-02-14",
-      "releasePrecision": "day",
-      "updated": "2026-02-14",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 0.529,
-      "outCost": 3.174,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 10
+      "shared": 2
     },
     "aimlapi/bytedance-seed/seed-2.0-lite": {
       "name": "Seed-2.0-Lite",
@@ -20821,7 +20791,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "alibaba-cn/glm-5.2": {
       "name": "GLM-5.2",
@@ -23467,7 +23437,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "alibaba-token-plan-cn/glm-5.2": {
       "name": "GLM-5.2",
@@ -24302,7 +24272,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "alibaba-token-plan/glm-5.2": {
       "name": "GLM-5.2",
@@ -35274,7 +35244,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "auriko/grok-4.3": {
       "name": "Grok 4.3",
@@ -41422,7 +41392,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "baseten/nvidia/NVIDIA-Nemotron-3-Ultra-550B-A55B": {
       "name": "Nemotron 3 Ultra",
@@ -45536,6 +45506,38 @@
         ]
       },
       "shared": 26
+    },
+    "cloudflare-ai-gateway/google/gemini-4-carbon": {
+      "name": "Gemini 4 Carbon",
+      "norm": "gemini-4-carbon",
+      "vendor": "cloudflare-ai-gateway",
+      "vendorRaw": "cloudflare-ai-gateway",
+      "vendorName": "Cloudflare AI Gateway",
+      "isOrigin": false,
+      "release": "2026-11-10",
+      "releasePrecision": "day",
+      "updated": "2026-11-10",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.1,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 15
     },
     "cloudflare-ai-gateway/meta/muse-ember-1.0": {
       "name": "Muse Ember",
@@ -51110,6 +51112,37 @@
       },
       "shared": 26
     },
+    "cortecs/gemini-4-carbon": {
+      "name": "Gemini 4 Carbon",
+      "norm": "gemini-4-carbon",
+      "vendor": "cortecs",
+      "vendorRaw": "cortecs",
+      "vendorName": "Cortecs",
+      "isOrigin": false,
+      "release": "2026-11-10",
+      "releasePrecision": "day",
+      "updated": "2026-11-10",
+      "ctx": 1048576,
+      "out": 1048576,
+      "in": 2.229,
+      "outCost": 11.146,
+      "cacheRead": 0.111,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "audio",
+          "pdf"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 15
+    },
     "cortecs/gemma-3-27b-it": {
       "name": "Gemma 3 27B IT",
       "norm": "gemma-3-27b-it",
@@ -51224,34 +51257,6 @@
         ]
       },
       "shared": 24
-    },
-    "cortecs/glm-5.1": {
-      "name": "GLM-5.1",
-      "norm": "glm-5-1",
-      "vendor": "cortecs",
-      "vendorRaw": "cortecs",
-      "vendorName": "Cortecs",
-      "isOrigin": false,
-      "release": "2026-04-07",
-      "releasePrecision": "day",
-      "updated": "2026-04-07",
-      "ctx": 202752,
-      "out": 202752,
-      "in": 1.384,
-      "outCost": 4.348,
-      "cacheRead": 0.346,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 47
     },
     "cortecs/glm-5.2": {
       "name": "GLM-5.2",
@@ -52027,8 +52032,8 @@
       "release": "2026-06-12",
       "releasePrecision": "day",
       "updated": "2026-06-12",
-      "ctx": 262144,
-      "out": 262144,
+      "ctx": 256000,
+      "out": 256000,
       "in": 0.656,
       "outCost": 3.3,
       "cacheRead": 0.18,
@@ -52075,6 +52080,35 @@
         ]
       },
       "shared": 83
+    },
+    "cortecs/kimi-k3.1-pro": {
+      "name": "Kimi K3.1 Pro",
+      "norm": "kimi-k3-1-pro",
+      "vendor": "cortecs",
+      "vendorRaw": "cortecs",
+      "vendorName": "Cortecs",
+      "isOrigin": false,
+      "release": "2026-10-23",
+      "releasePrecision": "day",
+      "updated": "2026-10-23",
+      "ctx": 1048576,
+      "out": 500000,
+      "in": 2.042,
+      "outCost": 10.209,
+      "cacheRead": 0.204,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 34
     },
     "cortecs/kolibri-1": {
       "name": "kolibri-1",
@@ -52131,34 +52165,6 @@
         ]
       },
       "shared": 32
-    },
-    "cortecs/minicpm-v-4.5": {
-      "name": "minicpm-v-4.5",
-      "norm": "minicpm-v-4-5",
-      "vendor": "cortecs",
-      "vendorRaw": "cortecs",
-      "vendorName": "Cortecs",
-      "isOrigin": false,
-      "release": "2026-06-02",
-      "releasePrecision": "day",
-      "updated": "2026-06-02",
-      "ctx": 32000,
-      "out": 32000,
-      "in": 0.651,
-      "outCost": 1.097,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
     },
     "cortecs/minimax-m2": {
       "name": "MiniMax-M2",
@@ -52284,10 +52290,10 @@
       "releasePrecision": "day",
       "updated": "2026-10-19",
       "ctx": 1048576,
-      "out": 64000,
-      "in": 0.304,
-      "outCost": 1.219,
-      "cacheRead": 0.076,
+      "out": 500000,
+      "in": 0.153,
+      "outCost": 0.613,
+      "cacheRead": 0.016,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -52533,34 +52539,6 @@
         ]
       },
       "shared": 15
-    },
-    "cortecs/mistral-nemo-instruct-2407": {
-      "name": "mistral-nemo-instruct-2407",
-      "norm": "mistral-nemo-instruct-2407",
-      "vendor": "cortecs",
-      "vendorRaw": "cortecs",
-      "vendorName": "Cortecs",
-      "isOrigin": false,
-      "release": "2024-07-18",
-      "releasePrecision": "day",
-      "updated": "2024-07-18",
-      "ctx": 118000,
-      "out": 118000,
-      "in": 0.145,
-      "outCost": 0.145,
-      "cacheRead": 0.014,
-      "open": true,
-      "reasoning": false,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 3
     },
     "cortecs/mistral-small-2503": {
       "name": "mistral-small-2503",
@@ -54318,7 +54296,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "crossmodel/openai/gpt-4o-mini": {
       "name": "GPT-4o mini",
@@ -55367,7 +55345,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "crossmodel/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -55739,7 +55717,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "crusoe/zai/GLM-5.2": {
       "name": "GLM-5.2",
@@ -56997,7 +56975,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "deepinfra/ByteDance/Seed-2.0-mini": {
       "name": "Seed 2.0 Mini",
@@ -58682,7 +58660,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "deepinfra/nvidia/Llama-3.3-Nemotron-Super-49B-v1.5": {
       "name": "Llama 3.3 Nemotron Super 49B v1.5",
@@ -59141,7 +59119,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "deepinfra/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -59532,6 +59510,35 @@
       "in": 10,
       "outCost": 50,
       "cacheRead": 0.25,
+      "open": false,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "digitalocean/anthropic-claude-fable-5.2": {
+      "name": "Anthropic Claude Fable 5.2",
+      "norm": "anthropic-claude-fable-5-2",
+      "vendor": "digitalocean",
+      "vendorRaw": "digitalocean",
+      "vendorName": "DigitalOcean",
+      "isOrigin": false,
+      "release": "2026-11-09",
+      "releasePrecision": "day",
+      "updated": "2026-11-09",
+      "ctx": 1000000,
+      "out": 128000,
+      "in": 8,
+      "outCost": 40,
+      "cacheRead": 0.2,
       "open": false,
       "reasoning": true,
       "toolCall": true,
@@ -60399,6 +60406,35 @@
         ]
       },
       "shared": 83
+    },
+    "digitalocean/kimi-k3.1-pro": {
+      "name": "Kimi K3.1 Pro",
+      "norm": "kimi-k3-1-pro",
+      "vendor": "digitalocean",
+      "vendorRaw": "digitalocean",
+      "vendorName": "DigitalOcean",
+      "isOrigin": false,
+      "release": "2026-10-23",
+      "releasePrecision": "day",
+      "updated": "2026-10-23",
+      "ctx": 1048576,
+      "out": 132000,
+      "in": 2,
+      "outCost": 10,
+      "cacheRead": 0.2,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 34
     },
     "digitalocean/llama-4-maverick": {
       "name": "Llama 4 Maverick",
@@ -61839,7 +61875,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "dinference/glm-5.2": {
       "name": "GLM-5.2",
@@ -62091,7 +62127,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "ebcloud/Kimi-K2.6": {
       "name": "Kimi K2.6",
@@ -64522,7 +64558,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "edenai/deepinfra/ByteDance/Seed-2.0-mini": {
       "name": "Seed 2.0 Mini (Deep Infra)",
@@ -66319,35 +66355,6 @@
       },
       "shared": 13
     },
-    "edenai/flexai/Step-3.7-Flash": {
-      "name": "Step 3.7 Flash (FlexAI)",
-      "norm": "step-3-7-flash",
-      "vendor": "edenai",
-      "vendorRaw": "edenai",
-      "vendorName": "Eden AI",
-      "isOrigin": false,
-      "release": "2026-05-29",
-      "releasePrecision": "day",
-      "updated": "2026-05-29",
-      "ctx": 262144,
-      "out": 256000,
-      "in": 0.2,
-      "outCost": 1.15,
-      "cacheRead": 0.03,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 20
-    },
     "edenai/flexai/gpt-oss-120b": {
       "name": "GPT OSS 120B (FlexAI)",
       "norm": "gpt-oss-120b",
@@ -67026,7 +67033,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "edenai/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash)",
@@ -67194,9 +67201,9 @@
       "updated": "2026-07-31",
       "ctx": 1000000,
       "out": 384000,
-      "in": 0.156996,
-      "outCost": 0.39249,
-      "cacheRead": 0.044856,
+      "in": 0.155778,
+      "outCost": 0.389445,
+      "cacheRead": 0.044508,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -67222,9 +67229,9 @@
       "updated": "2026-09-10",
       "ctx": 1000000,
       "out": 384000,
-      "in": 0.246708,
-      "outCost": 1.233541,
-      "cacheRead": 0.012335,
+      "in": 0.244794,
+      "outCost": 1.22397,
+      "cacheRead": 0.01224,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -67251,8 +67258,8 @@
       "updated": "2025-08-05",
       "ctx": 128000,
       "out": 32768,
-      "in": 0.22428,
-      "outCost": 0.78498,
+      "in": 0.22254,
+      "outCost": 0.77889,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
@@ -67279,8 +67286,8 @@
       "updated": "2024-12-06",
       "ctx": 128000,
       "out": 4096,
-      "in": 1.233541,
-      "outCost": 1.233541,
+      "in": 1.22397,
+      "outCost": 1.22397,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -67307,8 +67314,8 @@
       "updated": "2025-07-21",
       "ctx": 250000,
       "out": 16384,
-      "in": 1.009261,
-      "outCost": 3.027782,
+      "in": 1.00143,
+      "outCost": 3.004289,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -67475,8 +67482,8 @@
       "updated": "2025-12-02",
       "ctx": 100000,
       "out": 262144,
-      "in": 0.33642,
-      "outCost": 0.44856,
+      "in": 0.33381,
+      "outCost": 0.44508,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -67504,8 +67511,8 @@
       "updated": "2026-02-03",
       "ctx": 128000,
       "out": 65536,
-      "in": 0.16821,
-      "outCost": 0.89712,
+      "in": 0.166905,
+      "outCost": 0.89016,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -67532,8 +67539,8 @@
       "updated": "2024-12-06",
       "ctx": 128000,
       "out": 4096,
-      "in": 0.72891,
-      "outCost": 0.72891,
+      "in": 0.723255,
+      "outCost": 0.723255,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -67560,8 +67567,8 @@
       "updated": "2025-08-05",
       "ctx": 128000,
       "out": 32768,
-      "in": 0.16821,
-      "outCost": 0.72891,
+      "in": 0.166905,
+      "outCost": 0.723255,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
@@ -67906,9 +67913,9 @@
       "updated": "2026-10-19",
       "ctx": 1048576,
       "out": 512000,
-      "in": 0.15,
-      "outCost": 0.6,
-      "cacheRead": 0.015,
+      "in": 0.075,
+      "outCost": 0.3,
+      "cacheRead": 0.0075,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -69208,7 +69215,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "edenai/nebius/Qwen/Qwen3-235B-A22B-Instruct-2507": {
       "name": "Qwen3 235B-A22B Instruct 2507 (Nebius)",
@@ -71044,9 +71051,9 @@
       "updated": "2026-07-31",
       "ctx": 256000,
       "out": 384000,
-      "in": 0.44856,
-      "outCost": 0.89712,
-      "cacheRead": 0.089712,
+      "in": 0.44508,
+      "outCost": 0.89016,
+      "cacheRead": 0.089016,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -71101,9 +71108,9 @@
       "updated": "2026-10-17",
       "ctx": 256000,
       "out": 384000,
-      "in": 0.67284,
-      "outCost": 2.018521,
-      "cacheRead": 0.134568,
+      "in": 0.66762,
+      "outCost": 2.00286,
+      "cacheRead": 0.133524,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -71159,8 +71166,8 @@
       "updated": "2025-08-05",
       "ctx": 128000,
       "out": 32768,
-      "in": 0.16821,
-      "outCost": 0.67284,
+      "in": 0.166905,
+      "outCost": 0.66762,
       "cacheRead": null,
       "open": true,
       "reasoning": true,
@@ -71187,8 +71194,8 @@
       "updated": "2024-12-06",
       "ctx": 128000,
       "out": 4096,
-      "in": 1.009261,
-      "outCost": 1.009261,
+      "in": 1.00143,
+      "outCost": 1.00143,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -71215,8 +71222,8 @@
       "updated": "2025-07-21",
       "ctx": 250000,
       "out": 16384,
-      "in": 0.84105,
-      "outCost": 2.523151,
+      "in": 0.834525,
+      "outCost": 2.503575,
       "cacheRead": null,
       "open": true,
       "reasoning": false,
@@ -71299,9 +71306,9 @@
       "updated": "2026-10-17",
       "ctx": 1048576,
       "out": 384000,
-      "in": 0.5,
-      "outCost": 1.5,
-      "cacheRead": 0.05,
+      "in": 0.35,
+      "outCost": 1.32,
+      "cacheRead": 0.03,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -71889,6 +71896,34 @@
         ]
       },
       "shared": 19
+    },
+    "edenai/tsystems/gpt-oss-120b": {
+      "name": "GPT OSS 120B (Tsystems)",
+      "norm": "gpt-oss-120b",
+      "vendor": "edenai",
+      "vendorRaw": "edenai",
+      "vendorName": "Eden AI",
+      "isOrigin": false,
+      "release": "2025-08-05",
+      "releasePrecision": "day",
+      "updated": "2025-08-05",
+      "ctx": 131072,
+      "out": 32768,
+      "in": 0.22254,
+      "outCost": 0.723255,
+      "cacheRead": 0.033381,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 58
     },
     "edenai/vertex/gemini-2.5-flash-image": {
       "name": "Nano Banana (Vertex AI)",
@@ -72776,7 +72811,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "edenai/vertex/gemini-4-carbon@eu": {
       "name": "Gemini 4 Carbon (Vertex AI, EU)",
@@ -72808,7 +72843,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "edenai/vertex/gemini-4-carbon@us": {
       "name": "Gemini 4 Carbon (Vertex AI, US)",
@@ -72840,7 +72875,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "edenai/vertex/gemini-flash-latest": {
       "name": "Gemini Flash Latest (Gemini 3.8 Flash, Vertex AI)",
@@ -73370,7 +73405,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "edenai/zai/glm-5.2": {
       "name": "GLM-5.2",
@@ -73917,7 +73952,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "empiriolabs/glm-5-2": {
       "name": "GLM 5.2",
@@ -74153,7 +74188,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "empiriolabs/mimo-v2-6-flash": {
       "name": "MiMo V2.6 Flash",
@@ -75139,7 +75174,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "empiriolabs/seed-2-0-lite": {
       "name": "Seed 2.0 Lite",
@@ -75577,6 +75612,36 @@
         ]
       },
       "shared": 83
+    },
+    "engy/kimi-k3.1-pro": {
+      "name": "Kimi K3.1 Pro",
+      "norm": "kimi-k3-1-pro",
+      "vendor": "engy",
+      "vendorRaw": "engy",
+      "vendorName": "engy",
+      "isOrigin": false,
+      "release": "2026-10-23",
+      "releasePrecision": "day",
+      "updated": "2026-10-23",
+      "ctx": 1113088,
+      "out": 65536,
+      "in": 1.4,
+      "outCost": 7,
+      "cacheRead": 0.14,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 34
     },
     "engy/qwen3.6-35b-a3b": {
       "name": "Qwen3.6 35B-A3B",
@@ -77233,7 +77298,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "fireworks-ai/accounts/fireworks/models/deepseek-v4p1-flash": {
       "name": "DeepSeek V4.1 Flash",
@@ -77435,7 +77500,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "fireworks-ai/accounts/fireworks/models/minimax-m3": {
       "name": "MiniMax-M3",
@@ -78364,7 +78429,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "friendli/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -79756,7 +79821,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "github-copilot/gpt-5-mini": {
       "name": "GPT-5 Mini",
@@ -81734,7 +81799,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "gmicloud/zai-org/GLM-5.2-FP8": {
       "name": "GLM-5.2",
@@ -83556,7 +83621,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "google-vertex/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -85030,7 +85095,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -85534,7 +85599,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "greenpt/glm-5.2": {
       "name": "GLM-5.2",
@@ -89807,7 +89872,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "hpc-ai/zai-org/glm-5.2": {
       "name": "GLM-5.2",
@@ -92082,7 +92147,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "huggingface/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -92424,7 +92489,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "hyper/minimax-m3": {
       "name": "MiniMax-M3",
@@ -94898,7 +94963,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "impossibl/zai/glm-5.2": {
       "name": "GLM-5.2",
@@ -95167,7 +95232,7 @@
       "ctx": 1048576,
       "out": 1048576,
       "in": 1,
-      "outCost": 4.9,
+      "outCost": 4.396,
       "cacheRead": 0.14,
       "open": true,
       "reasoning": true,
@@ -96703,7 +96768,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 2
     },
     "io-net/moonshotai/Kimi-K2-Instruct-0905": {
       "name": "Kimi K2 Instruct",
@@ -97212,7 +97277,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "jalapeno/GLM-5.2": {
       "name": "GLM-5.2",
@@ -100018,7 +100083,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "kenari/glm-5-2": {
       "name": "GLM-5.2",
@@ -102158,66 +102223,6 @@
       },
       "shared": 3
     },
-    "kilo/bytedance-seed/seed-1.6": {
-      "name": "ByteDance Seed: Seed 1.6 (retires Nov 11)",
-      "norm": "bytedance-seed-seed-1-6",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2025-10-15",
-      "releasePrecision": "day",
-      "updated": "2025-10-15",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.25,
-      "outCost": 2,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
-    "kilo/bytedance-seed/seed-1.6-flash": {
-      "name": "ByteDance Seed: Seed 1.6 Flash (retires Nov 11)",
-      "norm": "bytedance-seed-seed-1-6-flash",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2025-08-28",
-      "releasePrecision": "day",
-      "updated": "2025-08-28",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.075,
-      "outCost": 0.3,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 1
-    },
     "kilo/bytedance-seed/seed-2-1-turbo": {
       "name": "ByteDance Seed: Seed 2.1 Turbo",
       "norm": "bytedance-seed-seed-2-1-turbo",
@@ -102247,36 +102252,6 @@
         ]
       },
       "shared": 1
-    },
-    "kilo/bytedance-seed/seed-2.0-code": {
-      "name": "Seed 2.0 Code",
-      "norm": "seed-2-0-code",
-      "vendor": "kilo",
-      "vendorRaw": "kilo",
-      "vendorName": "Kilo Gateway",
-      "isOrigin": false,
-      "release": "2026-02-14",
-      "releasePrecision": "day",
-      "updated": "2026-02-14",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 0.5,
-      "outCost": 3,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 10
     },
     "kilo/bytedance-seed/seed-2.0-lite": {
       "name": "Seed 2.0 Lite",
@@ -103742,7 +103717,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "kilo/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -103966,9 +103941,9 @@
       "updated": "2026-04-02",
       "ctx": 256000,
       "out": 128000,
-      "in": 0.011,
-      "outCost": 0.034,
-      "cacheRead": 0.006,
+      "in": 0.01,
+      "outCost": 0.03,
+      "cacheRead": 0.005,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -105275,9 +105250,9 @@
       "updated": "2026-10-19",
       "ctx": 1048576,
       "out": 524288,
-      "in": 0.15,
-      "outCost": 0.6,
-      "cacheRead": 0.015,
+      "in": 0.075,
+      "outCost": 0.3,
+      "cacheRead": 0.0075,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -106163,7 +106138,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "kilo/morph/morph-v3-fast": {
       "name": "Morph: Morph V3 Fast",
@@ -109436,10 +109411,10 @@
       "releasePrecision": "day",
       "updated": "2026-02-23",
       "ctx": 262144,
-      "out": 235929,
+      "out": 40960,
       "in": 0.17,
       "outCost": 0.25,
-      "cacheRead": null,
+      "cacheRead": 0.153,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -110879,6 +110854,35 @@
       },
       "shared": 3
     },
+    "kilo/unbiased/pareto-26.10-preview": {
+      "name": "Pareto 26.10 Preview",
+      "norm": "pareto-26-10-preview",
+      "vendor": "kilo",
+      "vendorRaw": "kilo",
+      "vendorName": "Kilo Gateway",
+      "isOrigin": false,
+      "release": "2026-10-01",
+      "releasePrecision": "day",
+      "updated": "2026-10-01",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0.8,
+      "outCost": 3.2,
+      "cacheRead": 0.03,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "kilo/unbiased/pareto-26.9": {
       "name": "Pareto 26.9",
       "norm": "pareto-26-9",
@@ -111647,7 +111651,7 @@
       "release": "2026-04-07",
       "releasePrecision": "day",
       "updated": "2026-04-07",
-      "ctx": 202745,
+      "ctx": 202752,
       "out": 131072,
       "in": 1.4,
       "outCost": 4.4,
@@ -111663,7 +111667,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "kilo/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -112522,7 +112526,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "kimi-code-plan-cn/k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -112701,7 +112705,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "kimi-code-plan-global/k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -116709,7 +116713,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "llmgateway-providers/baidu/glm-5.2": {
       "name": "GLM-5.2 (Baidu)",
@@ -117463,36 +117467,6 @@
       },
       "shared": 86
     },
-    "llmgateway-providers/consensusprotocol/Qwen3.8-27B": {
-      "name": "Qwen3.8 27B (Consensus Protocol)",
-      "norm": "qwen3-8-27b",
-      "vendor": "llmgateway-providers",
-      "vendorRaw": "llmgateway-providers",
-      "vendorName": "LLM Gateway",
-      "isOrigin": false,
-      "release": "2026-08-14",
-      "releasePrecision": "day",
-      "updated": "2026-08-14",
-      "ctx": 262000,
-      "out": 32768,
-      "in": 0.08,
-      "outCost": 0.35,
-      "cacheRead": 0.05,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 51
-    },
     "llmgateway-providers/consensusprotocol/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash (Consensus Protocol)",
       "norm": "deepseek-v4-flash",
@@ -117665,6 +117639,36 @@
         ]
       },
       "shared": 39
+    },
+    "llmgateway-providers/consensusprotocol/qwen3.8-27b": {
+      "name": "Qwen3.8 27B (consensusprotocol)",
+      "norm": "qwen3-8-27b",
+      "vendor": "llmgateway-providers",
+      "vendorRaw": "llmgateway-providers",
+      "vendorName": "LLM Gateway",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 262000,
+      "out": 32768,
+      "in": 0.08,
+      "outCost": 0.35,
+      "cacheRead": 0.05,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 51
     },
     "llmgateway-providers/deepinfra/deepseek-v3.2": {
       "name": "DeepSeek V3.2 (DeepInfra)",
@@ -118908,7 +118912,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "llmgateway-providers/google-ai-studio/gemini-pro-latest": {
       "name": "Gemini Pro Latest (Google AI Studio)",
@@ -119258,7 +119262,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "llmgateway-providers/greenference/glm-5.3-flash": {
       "name": "GLM-5.3 Flash (greenference)",
@@ -119604,7 +119608,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway-providers/inference.net/llama-3.2-11b-instruct": {
       "name": "Llama 3.2 11B Instruct (Inference.net)",
@@ -120717,7 +120721,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway-providers/moonshot/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed (Moonshot AI)",
@@ -121118,7 +121122,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "llmgateway-providers/novita/glm-5.2": {
       "name": "GLM-5.2 (NovitaAI)",
@@ -123111,7 +123115,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway-providers/runpod/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed (Runpod)",
@@ -123430,7 +123434,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway-providers/sakana/fugu-max": {
       "name": "Fugu Max (Sakana AI)",
@@ -123835,7 +123839,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway-providers/scx-ai-gp/qwen3.8-max": {
       "name": "Qwen3.8 Max (SCX.ai)",
@@ -124176,7 +124180,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "llmgateway-providers/tencent/glm-5.2": {
       "name": "GLM-5.2 (Tencent Cloud)",
@@ -125994,7 +125998,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "llmgateway-providers/zai/glm-5.2": {
       "name": "GLM-5.2 (Z AI)",
@@ -126082,34 +126086,6 @@
         ]
       },
       "shared": 86
-    },
-    "llmgateway/Qwen3.8-27B": {
-      "name": "Qwen3.8 27B",
-      "norm": "qwen3-8-27b",
-      "vendor": "llmgateway",
-      "vendorRaw": "llmgateway",
-      "vendorName": "DevPass (LLM Gateway)",
-      "isOrigin": false,
-      "release": "2026-08-14",
-      "releasePrecision": "day",
-      "updated": "2026-08-14",
-      "ctx": 262000,
-      "out": 32768,
-      "in": 0.08,
-      "outCost": 0.35,
-      "cacheRead": 0.05,
-      "open": true,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 51
     },
     "llmgateway/auto": {
       "name": "Auto Route",
@@ -127364,7 +127340,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "llmgateway/gemini-pro-latest": {
       "name": "Gemini Pro Latest",
@@ -127848,7 +127824,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "llmgateway/glm-5.2": {
       "name": "GLM-5.2",
@@ -129785,7 +129761,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "llmgateway/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -131592,6 +131568,36 @@
         ]
       },
       "shared": 22
+    },
+    "llmgateway/qwen3.8-27b": {
+      "name": "Qwen3.8 27B",
+      "norm": "qwen3-8-27b",
+      "vendor": "llmgateway",
+      "vendorRaw": "llmgateway",
+      "vendorName": "DevPass (LLM Gateway)",
+      "isOrigin": false,
+      "release": "2026-08-14",
+      "releasePrecision": "day",
+      "updated": "2026-08-14",
+      "ctx": 1000000,
+      "out": 32768,
+      "in": 0.08,
+      "outCost": 0.35,
+      "cacheRead": 0.05,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 51
     },
     "llmgateway/qwen3.8-flash": {
       "name": "Qwen3.8 Flash",
@@ -134490,7 +134496,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 2
     },
     "meganova/mistralai/Mistral-Small-3.2-24B-Instruct-2506": {
       "name": "Mistral Small 3.2 24B Instruct",
@@ -135403,7 +135409,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "merge-gateway/bytedance/dola-seed-2.0-code-preview": {
       "name": "Dola Seed 2.0 Code (preview)",
@@ -136582,7 +136588,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "merge-gateway/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -137643,7 +137649,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "merge-gateway/nvidia/nemotron-3-nano-30b-a3b": {
       "name": "Nemotron 3 Nano 30B A3B",
@@ -140754,7 +140760,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "merge-gateway/zai/glm-5.2": {
       "name": "GLM 5.2",
@@ -144921,7 +144927,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "moonshotai-cn/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -145101,7 +145107,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "moonshotai/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -145418,7 +145424,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "morph/morph-v3-fast": {
       "name": "Morph V3 Fast",
@@ -151278,6 +151284,64 @@
       },
       "shared": 67
     },
+    "nano-gpt/deepseek/deepseek-v4.1-flash-0910-uncensored": {
+      "name": "DeepSeek V4.1 Flash 0910 Uncensored",
+      "norm": "deepseek-v4-1-flash-0910-uncensored",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-27",
+      "releasePrecision": "day",
+      "updated": "2026-10-27",
+      "ctx": 524288,
+      "out": 32768,
+      "in": 0.33,
+      "outCost": 1.32,
+      "cacheRead": 0.00825,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "nano-gpt/deepseek/deepseek-v4.1-flash-0910-uncensored:thinking": {
+      "name": "DeepSeek V4.1 Flash 0910 Uncensored Thinking",
+      "norm": "deepseek-v4-1-flash-0910-uncensored-thinking",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-27",
+      "releasePrecision": "day",
+      "updated": "2026-10-27",
+      "ctx": 524288,
+      "out": 32768,
+      "in": 0.33,
+      "outCost": 1.32,
+      "cacheRead": 0.00825,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
     "nano-gpt/deepseek/deepseek-v4.1-flash-1017": {
       "name": "DeepSeek V4.1 Flash 1017",
       "norm": "deepseek-v4-1-flash-1017",
@@ -151380,6 +151444,64 @@
       "in": 0.1,
       "outCost": 0.6,
       "cacheRead": 0.0042,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 1
+    },
+    "nano-gpt/deepseek/deepseek-v4.1-flash-uncensored": {
+      "name": "DeepSeek V4.1 Flash Uncensored",
+      "norm": "deepseek-v4-1-flash-uncensored",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-01",
+      "releasePrecision": "day",
+      "updated": "2026-10-01",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 0.33,
+      "outCost": 1.32,
+      "cacheRead": 0.00825,
+      "open": true,
+      "reasoning": true,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
+    "nano-gpt/deepseek/deepseek-v4.1-flash-uncensored:thinking": {
+      "name": "DeepSeek V4.1 Flash Uncensored Thinking",
+      "norm": "deepseek-v4-1-flash-uncensored-thinking",
+      "vendor": "nano-gpt",
+      "vendorRaw": "nano-gpt",
+      "vendorName": "NanoGPT",
+      "isOrigin": false,
+      "release": "2026-10-01",
+      "releasePrecision": "day",
+      "updated": "2026-10-01",
+      "ctx": 1048576,
+      "out": 65536,
+      "in": 0.33,
+      "outCost": 1.32,
+      "cacheRead": 0.00825,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -153390,7 +153512,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "nano-gpt/google/gemini-flash-latest": {
       "name": "Gemini Flash Latest",
@@ -153499,9 +153621,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 131072,
-      "in": 0.011,
-      "outCost": 0.034,
-      "cacheRead": 0.006,
+      "in": 0.01,
+      "outCost": 0.03,
+      "cacheRead": 0.005,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -153558,9 +153680,9 @@
       "updated": "2026-04-02",
       "ctx": 262144,
       "out": 131072,
-      "in": 0.011,
-      "outCost": 0.034,
-      "cacheRead": 0.006,
+      "in": 0.01,
+      "outCost": 0.03,
+      "cacheRead": 0.005,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -153646,7 +153768,7 @@
       "release": "2026-09-17",
       "releasePrecision": "day",
       "updated": "2026-09-17",
-      "ctx": 262144,
+      "ctx": 32768,
       "out": 32768,
       "in": 0.1,
       "outCost": 0.3,
@@ -153702,7 +153824,7 @@
       "release": "2026-10-16",
       "releasePrecision": "day",
       "updated": "2026-10-16",
-      "ctx": 524288,
+      "ctx": 1048576,
       "out": 235929,
       "in": 1,
       "outCost": 3,
@@ -156501,7 +156623,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "nano-gpt/moonshotai/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -158448,7 +158570,7 @@
       "out": 16384,
       "in": 0.03,
       "outCost": 0.15,
-      "cacheRead": 0.03,
+      "cacheRead": 0.015,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -160932,7 +161054,7 @@
       "release": "2026-07-29",
       "releasePrecision": "day",
       "updated": "2026-08-28",
-      "ctx": 524288,
+      "ctx": 1048576,
       "out": 32768,
       "in": 0.25,
       "outCost": 1.5,
@@ -161106,7 +161228,7 @@
       "release": "2026-09-09",
       "releasePrecision": "day",
       "updated": "2026-09-09",
-      "ctx": 524288,
+      "ctx": 1048576,
       "out": 32768,
       "in": 0.25,
       "outCost": 1.5,
@@ -162148,9 +162270,9 @@
       "updated": "2026-08-28",
       "ctx": 1048576,
       "out": 64000,
-      "in": 0.834,
-      "outCost": 2.501,
-      "cacheRead": 0.042,
+      "in": 0.7506,
+      "outCost": 2.2509,
+      "cacheRead": 0.0378,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -163915,7 +164037,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "nano-gpt/z-ai/glm-5.1:thinking": {
       "name": "GLM 5.1 Thinking",
@@ -165345,7 +165467,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "nearai/openai/gpt-4.1": {
       "name": "GPT-4.1",
@@ -170778,7 +170900,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "novita-ai/moonshotai/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -171914,7 +172036,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "novita-ai/zai-org/glm-5.2": {
       "name": "GLM-5.2",
@@ -176001,7 +176123,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "ofox/openai/gpt-4.1": {
       "name": "GPT-4.1",
@@ -177528,7 +177650,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "ofox/volcengine/doubao-seed-2.0-lite": {
       "name": "Seed 2.0 Lite",
@@ -178083,7 +178205,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "ofox/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -178661,7 +178783,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "ollama-cloud/mimo-v2.6-flash": {
       "name": "MiMo-V2.6-Flash",
@@ -181094,7 +181216,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "opencode-go/longcat-2.0": {
       "name": "LongCat-2.0",
@@ -182895,7 +183017,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "opencode/glm-4.6": {
       "name": "GLM-4.6",
@@ -183063,7 +183185,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "opencode/glm-5.2": {
       "name": "GLM-5.2",
@@ -186693,66 +186815,6 @@
       },
       "shared": 3
     },
-    "openrouter/bytedance-seed/seed-1.6": {
-      "name": "Seed 1.6",
-      "norm": "seed-1-6",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2025-10-15",
-      "releasePrecision": "day",
-      "updated": "2025-10-15",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.25,
-      "outCost": 2,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 2
-    },
-    "openrouter/bytedance-seed/seed-1.6-flash": {
-      "name": "Seed 1.6 Flash",
-      "norm": "seed-1-6-flash",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2025-08-28",
-      "releasePrecision": "day",
-      "updated": "2025-08-28",
-      "ctx": 262144,
-      "out": 32768,
-      "in": 0.075,
-      "outCost": 0.3,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 3
-    },
     "openrouter/bytedance-seed/seed-2-1-turbo": {
       "name": "Seed 2.1 Turbo",
       "norm": "seed-2-1-turbo",
@@ -186782,36 +186844,6 @@
         ]
       },
       "shared": 7
-    },
-    "openrouter/bytedance-seed/seed-2.0-code": {
-      "name": "Seed 2.0 Code",
-      "norm": "seed-2-0-code",
-      "vendor": "openrouter",
-      "vendorRaw": "openrouter",
-      "vendorName": "OpenRouter",
-      "isOrigin": false,
-      "release": "2026-02-14",
-      "releasePrecision": "day",
-      "updated": "2026-02-14",
-      "ctx": 262144,
-      "out": 131072,
-      "in": 0.5,
-      "outCost": 3,
-      "cacheRead": null,
-      "open": false,
-      "reasoning": true,
-      "toolCall": true,
-      "modalities": {
-        "input": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output": [
-          "text"
-        ]
-      },
-      "shared": 10
     },
     "openrouter/bytedance-seed/seed-2.0-lite": {
       "name": "Seed 2.0 Lite",
@@ -187448,9 +187480,9 @@
       "updated": "2026-09-10",
       "ctx": 1048576,
       "out": 943718,
-      "in": 0.051,
-      "outCost": 0.567,
-      "cacheRead": 0.018,
+      "in": 0.006,
+      "outCost": 0.5,
+      "cacheRead": 0.005,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -188271,7 +188303,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "openrouter/google/gemini-nano-banana-2.1": {
       "name": "Nano Banana 2.1",
@@ -188435,7 +188467,7 @@
       "ctx": 131072,
       "out": 117964,
       "in": 0.08,
-      "outCost": 0.45,
+      "outCost": 0.35,
       "cacheRead": 0.04,
       "open": true,
       "reasoning": false,
@@ -188701,7 +188733,7 @@
       "ctx": 131072,
       "out": 117964,
       "in": 0.06,
-      "outCost": 0.25,
+      "outCost": 0.15,
       "cacheRead": 0.015,
       "open": true,
       "reasoning": true,
@@ -189743,9 +189775,9 @@
       "updated": "2026-10-19",
       "ctx": 1048576,
       "out": 524288,
-      "in": 0.15,
-      "outCost": 0.6,
-      "cacheRead": 0.015,
+      "in": 0.075,
+      "outCost": 0.3,
+      "cacheRead": 0.0075,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -190631,7 +190663,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "openrouter/morph/morph-v3-fast": {
       "name": "Morph V3 Fast",
@@ -193923,10 +193955,10 @@
       "releasePrecision": "day",
       "updated": "2026-02-23",
       "ctx": 262144,
-      "out": 235929,
-      "in": 0.17,
-      "outCost": 0.25,
-      "cacheRead": null,
+      "out": 40960,
+      "in": 0.158,
+      "outCost": 0.232,
+      "cacheRead": 0.142,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -195366,6 +195398,35 @@
       },
       "shared": 3
     },
+    "openrouter/unbiased/pareto-26.10-preview": {
+      "name": "Pareto 26.10 Preview",
+      "norm": "pareto-26-10-preview",
+      "vendor": "openrouter",
+      "vendorRaw": "openrouter",
+      "vendorName": "OpenRouter",
+      "isOrigin": false,
+      "release": "2026-10-01",
+      "releasePrecision": "day",
+      "updated": "2026-10-01",
+      "ctx": 1048576,
+      "out": 131072,
+      "in": 0.8,
+      "outCost": 3.2,
+      "cacheRead": 0.03,
+      "open": false,
+      "reasoning": false,
+      "toolCall": true,
+      "modalities": {
+        "input": [
+          "text",
+          "image"
+        ],
+        "output": [
+          "text"
+        ]
+      },
+      "shared": 2
+    },
     "openrouter/unbiased/pareto-26.9": {
       "name": "Pareto 26.9",
       "norm": "pareto-26-9",
@@ -196136,9 +196197,9 @@
       "updated": "2026-04-07",
       "ctx": 204800,
       "out": 131072,
-      "in": 1.33,
-      "outCost": 4.18,
-      "cacheRead": 0.247,
+      "in": 1.4,
+      "outCost": 4.4,
+      "cacheRead": 0.26,
       "open": true,
       "reasoning": true,
       "toolCall": true,
@@ -196150,7 +196211,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "openrouter/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -201881,7 +201942,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "orcarouter/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -209518,7 +209579,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "prime/google/gemma-3-27b-it": {
       "name": "Gemma 3 27B",
@@ -209808,7 +209869,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "prime/openai/gpt-4.1": {
       "name": "GPT-4.1",
@@ -216792,7 +216853,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "requesty/glm-5.1@eu": {
       "name": "GLM-5.1 (EU)",
@@ -216820,7 +216881,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "requesty/glm-5.2": {
       "name": "GLM-5.2",
@@ -218478,7 +218539,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "requesty/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -220172,7 +220233,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "requesty/seed-2.0-mini": {
       "name": "Seed 2.0 Mini",
@@ -223530,7 +223591,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "scnet-token-plan/GLM-5.2": {
       "name": "GLM-5.2",
@@ -226957,7 +227018,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "siliconflow/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -232811,7 +232872,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "tempr/zai/glm-5.2": {
       "name": "GLM-5.2",
@@ -233991,7 +234052,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "tensorx/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -235877,7 +235938,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "tinfoil/llama3-3-70b": {
       "name": "Llama-3.3-70B-Instruct",
@@ -236587,7 +236648,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "togetherai/nvidia/NVIDIA-Nemotron-3.5-Super-VL": {
       "name": "Nemotron 3.5 Super VL 120B A12B",
@@ -236787,7 +236848,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "togetherai/zai-org/GLM-5.2": {
       "name": "GLM-5.2",
@@ -237159,7 +237220,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "tokengo/z-ai/glm-5.2": {
       "name": "GLM-5.2",
@@ -239830,7 +239891,7 @@
           "text"
         ]
       },
-      "shared": 1
+      "shared": 2
     },
     "venice/deepseek-v4-flash": {
       "name": "DeepSeek V4 Flash 0423",
@@ -240713,7 +240774,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "venice/kimi-k3-1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -242656,7 +242717,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "venice/zai-org-glm-5-2": {
       "name": "GLM 5.2",
@@ -246796,7 +246857,7 @@
           "text"
         ]
       },
-      "shared": 13
+      "shared": 15
     },
     "vercel/google/gemini-embedding-001": {
       "name": "Gemini Embedding 001",
@@ -249503,7 +249564,7 @@
           "text"
         ]
       },
-      "shared": 31
+      "shared": 34
     },
     "vercel/moonshotai/kimi-k3.1-pro-highspeed": {
       "name": "Kimi K3.1 Pro Highspeed",
@@ -254581,7 +254642,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "vercel/zai/glm-5.2": {
       "name": "GLM 5.2",
@@ -256417,7 +256478,7 @@
           "text"
         ]
       },
-      "shared": 2
+      "shared": 1
     },
     "volcengine/doubao-seed-1-6-flash-250828": {
       "name": "Seed 1.6 Flash",
@@ -256447,7 +256508,7 @@
           "text"
         ]
       },
-      "shared": 3
+      "shared": 2
     },
     "volcengine/doubao-seed-1-6-vision-250815": {
       "name": "Seed 1.6 Vision",
@@ -256535,7 +256596,7 @@
           "text"
         ]
       },
-      "shared": 10
+      "shared": 7
     },
     "volcengine/doubao-seed-2-0-lite-260428": {
       "name": "Seed 2.0 Lite",
@@ -257273,7 +257334,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "wafer.ai/GLM-5.2": {
       "name": "GLM-5.2",
@@ -260569,7 +260630,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "zai/glm-5.2": {
       "name": "GLM-5.2",
@@ -263850,7 +263911,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "zenmux/z-ai/glm-5.2": {
       "name": "GLM 5.2",
@@ -264486,7 +264547,7 @@
           "text"
         ]
       },
-      "shared": 47
+      "shared": 46
     },
     "zhipuai/glm-5.2": {
       "name": "GLM-5.2",
