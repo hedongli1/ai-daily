@@ -2,6 +2,15 @@
   "date": "2026-11-13",
   "timeline": [
     {
+      "n": "gemini-4-hydrogen",
+      "name": "Gemini 4 Hydrogen",
+      "vn": "谷歌",
+      "rel": "2026-11-12",
+      "ctx": 1048576,
+      "in": 1.5,
+      "open": 0
+    },
+    {
       "n": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
       "vn": "谷歌",
@@ -749,15 +758,6 @@
       "open": 1
     },
     {
-      "n": "gemini-omni-flash-preview",
-      "name": "Gemini Omni Flash Preview",
-      "vn": "谷歌",
-      "rel": "2026-06-30",
-      "ctx": 131072,
-      "in": 1.5,
-      "open": 0
-    },
-    {
       "n": "nano-banana-2-lite",
       "name": "Nano Banana 2 Lite",
       "vn": "谷歌",
@@ -1294,7 +1294,7 @@
       "vn": "谷歌",
       "rel": "2026-04-02",
       "ctx": 262144,
-      "in": null,
+      "in": 0,
       "open": 1
     },
     {
@@ -1303,7 +1303,7 @@
       "vn": "谷歌",
       "rel": "2026-04-02",
       "ctx": 262144,
-      "in": null,
+      "in": 0,
       "open": 1
     },
     {
@@ -2014,7 +2014,7 @@
       "vn": "OpenAI",
       "rel": "2025-12-16",
       "ctx": 0,
-      "in": null,
+      "in": 5,
       "open": 0
     },
     {
@@ -2140,7 +2140,7 @@
       "vn": "OpenAI",
       "rel": "2025-11-25",
       "ctx": 0,
-      "in": null,
+      "in": 5,
       "open": 0
     },
     {
