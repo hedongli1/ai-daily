@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -151,6 +151,18 @@
       }
     },
     {
+      "model": "Claude Fable 5",
+      "release": "2026-06-09",
+      "nRuns": 22,
+      "domains": {
+        "Language,Multimodal": {
+          "n": 22,
+          "avg": 0.6889,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GPT-5.4 Nano",
       "release": "2026-03-17",
       "nRuns": 22,
@@ -218,18 +230,6 @@
         "Multimodal,Language,Vision": {
           "n": 21,
           "avg": 0.7276,
-          "best": 1
-        }
-      }
-    },
-    {
-      "model": "Claude Fable 5",
-      "release": "2026-06-09",
-      "nRuns": 21,
-      "domains": {
-        "Language,Multimodal": {
-          "n": 21,
-          "avg": 0.677,
           "best": 1
         }
       }
@@ -403,6 +403,18 @@
       }
     },
     {
+      "model": "Claude Opus 5.5",
+      "release": "2026-09-22",
+      "nRuns": 16,
+      "domains": {
+        "Language": {
+          "n": 16,
+          "avg": 0.6442,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Mistral Large 4",
       "release": "2026-10-29",
       "nRuns": 16,
@@ -423,18 +435,6 @@
           "n": 16,
           "avg": 0.4889,
           "best": 0.9556
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 5.5",
-      "release": "2026-09-22",
-      "nRuns": 15,
-      "domains": {
-        "Language": {
-          "n": 15,
-          "avg": 0.6244,
-          "best": 1
         }
       }
     },
@@ -559,6 +559,18 @@
       }
     },
     {
+      "model": "Claude Fable 5.2",
+      "release": "2026-11-09",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.7593,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Sonnet 5.5",
       "release": "2026-09-28",
       "nRuns": 13,
@@ -591,18 +603,6 @@
           "n": 13,
           "avg": 0.3973,
           "best": 0.8333
-        }
-      }
-    },
-    {
-      "model": "Claude Fable 5.2",
-      "release": "2026-11-09",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.7425,
-          "best": 1
         }
       }
     },
@@ -656,7 +656,7 @@
     },
     {
       "model": "Gemini 4 Argon",
-      "release": "2026-09-30",
+      "release": "2026-10-13",
       "nRuns": 11,
       "domains": {
         "Language,Multimodal,Vision": {
@@ -728,7 +728,7 @@
     },
     {
       "model": "Gemini 4 Carbon",
-      "release": "2026-10-28",
+      "release": "2026-11-10",
       "nRuns": 10,
       "domains": {
         "Language,Multimodal,Vision": {

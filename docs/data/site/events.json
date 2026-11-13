@@ -1,125 +1,105 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "mode": "diff",
-  "baselineDate": "2026-11-12",
+  "baselineDate": "2026-11-13",
   "events": [
     {
       "type": "price",
-      "key": "google/Gemma 4 31B IT",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemma 4 31B IT",
-      "date": "2026-11-13",
+      "key": "mistral/Mistral Large (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large (latest)",
+      "date": "2026-11-14",
       "facts": {
         "before": {
-          "in": null,
-          "outCost": null
+          "in": 0.5,
+          "outCost": 1.5
         },
         "after": {
-          "in": 0,
-          "outCost": 0
+          "in": 0.7,
+          "outCost": 2.1
         }
       },
-      "text": "输入 未知 → 免费 · 输出 未知 → 免费",
-      "href": "/models/gemma-4-31b-it/"
-    },
-    {
-      "type": "price",
-      "key": "openai/gpt-image-1.5",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "gpt-image-1.5",
-      "date": "2026-11-13",
-      "facts": {
-        "before": {
-          "in": null,
-          "outCost": null
-        },
-        "after": {
-          "in": 5,
-          "outCost": 10
-        }
-      },
-      "text": "输入 未知 → $5 · 输出 未知 → $10",
-      "href": "/models/gpt-image-1-5/",
+      "text": "输入 $0.5 → $0.7 · 输出 $1.5 → $2.1",
+      "href": "/models/mistral-large/",
       "evidence": [
         {
-          "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-          "url": "https://openai.com/business/customer-stories/amplitude",
-          "source": "OpenAI"
+          "title": "cookbook · 仓库更新",
+          "url": "https://github.com/mistralai/cookbook/releases",
+          "source": "Mistral AI"
         },
         {
-          "title": "Gondola doubles revenue as its team builds more with Codex",
-          "url": "https://openai.com/business/customer-stories/gondola",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Holiday Extras is rethinking what it can build with Codex",
-          "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Supporting research on AI and children’s safety",
-          "url": "https://openai.com/index/children-first-declaration",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Gilbert + Tobin rethinks the business of law with AI",
-          "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
-          "source": "OpenAI"
+          "title": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "url": "https://github.com/mistralai/vllm/releases",
+          "source": "Mistral AI"
         }
       ]
     },
     {
-      "type": "price",
-      "key": "google/Gemma 4 26B A4B IT",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemma 4 26B A4B IT",
-      "date": "2026-11-13",
+      "type": "context",
+      "key": "mistral/Mistral Large (latest)",
+      "vendor": "mistral",
+      "vendorName": "Mistral",
+      "name": "Mistral Large (latest)",
+      "date": "2026-11-14",
       "facts": {
-        "before": {
-          "in": null,
-          "outCost": null
-        },
-        "after": {
-          "in": 0,
-          "outCost": 0
-        }
+        "before": 262144,
+        "after": 1048576
       },
-      "text": "输入 未知 → 免费 · 输出 未知 → 免费",
-      "href": "/models/gemma-4-26b-a4b-it/"
+      "text": "上下文 262K → 1M",
+      "href": "/models/mistral-large/"
     },
     {
-      "type": "price",
-      "key": "openai/chatgpt-image-latest",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "chatgpt-image-latest",
-      "date": "2026-11-13",
-      "facts": {
-        "before": {
-          "in": null,
-          "outCost": null
-        },
-        "after": {
-          "in": 5,
-          "outCost": 10
-        }
-      },
-      "text": "输入 未知 → $5 · 输出 未知 → $10",
-      "href": "/models/chatgpt-image-latest/"
-    },
-    {
-      "type": "retired",
-      "key": "google/Gemini Omni Flash Preview",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemini Omni Flash Preview",
+      "name": "Introducing ChatGPT Wallet",
       "date": "2026-11-13",
       "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/"
+      "text": "Introducing ChatGPT Wallet",
+      "href": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "chat-demo · Chat Demo",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "chat-demo · Chat Demo",
+      "href": "https://github.com/deepseek-ai/chat-demo/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "awesome-deepseek-integration · Integrate the DeepSeek API into popular software",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "awesome-deepseek-integration · Integrate the DeepSeek API into popular software",
+      "href": "https://github.com/deepseek-ai/awesome-deepseek-integration/releases",
+      "source": "DeepSeek",
+      "external": true
     },
     {
       "type": "news",
@@ -135,54 +115,95 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "google/Gemini 4 Hydrogen",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Gemini 4 Hydrogen",
-      "date": "2026-11-12",
-      "facts": {
-        "ctx": 1048576,
-        "in": 1.5,
-        "outCost": 7.5,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "Gemini 4 Hydrogen · 闭源 · 1M 上下文 · 输入 $1.5/M · 支持推理",
-      "href": "/models/gemini-4-hydrogen/",
-      "shared": 8,
-      "evidence": [
-        {
-          "title": "Introducing Gemini 4 Hydrogen",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-          "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-          "source": "Google Blog · AI"
-        },
-        {
-          "title": "Experience the art and legacy of Dr. Esther Mahlangu",
-          "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-          "source": "Google Blog · AI"
-        }
-      ]
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "meta",
+      "vendorName": "Meta Llama",
+      "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
+      "href": "https://github.com/meta-llama/PurpleLlama/releases",
+      "source": "Meta Llama",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
+      "external": true
     },
     {
       "type": "news",
@@ -280,19 +301,6 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "href": "https://github.com/mistralai/vllm/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "cli · 仓库更新",
       "date": "2026-11-12",
       "facts": {},
@@ -311,136 +319,6 @@
       "facts": {},
       "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
       "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "href": "https://github.com/zai-org/ZCode/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "ChatGPT Plus for veterans and servicemembers",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "ChatGPT Plus for veterans and servicemembers",
-      "href": "https://openai.com/index/chatgpt-plus-for-veterans",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "JioStar’s chief architect on AI discovery at 500M-user scale",
-      "href": "https://openai.com/index/jiostar-vijay-seshadri",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-      "href": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "Gemini Decisions API: Fast, calibrated multimodal decisions",
-      "href": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "href": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "Experience the art and legacy of Dr. Esther Mahlangu",
-      "href": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/esther-mahlangu/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-11-11",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
       "external": true
     }

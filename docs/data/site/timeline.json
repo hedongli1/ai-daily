@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "timeline": [
     {
       "n": "gemini-4-hydrogen",
@@ -152,6 +152,15 @@
       "rel": "2026-10-07",
       "ctx": 1000000,
       "in": 0.1,
+      "open": 0
+    },
+    {
+      "n": "mistral-large",
+      "name": "Mistral Large (latest)",
+      "vn": "Mistral",
+      "rel": "2026-10-06",
+      "ctx": 1048576,
+      "in": 0.7,
       "open": 0
     },
     {
@@ -3177,15 +3186,6 @@
       "ctx": 65536,
       "in": 0.287,
       "open": 0
-    },
-    {
-      "n": "mistral-large",
-      "name": "Mistral Large (latest)",
-      "vn": "Mistral",
-      "rel": "2024-11-01",
-      "ctx": 262144,
-      "in": 0.5,
-      "open": 1
     },
     {
       "n": "mistral-large-3",

@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -391,11 +391,11 @@
       "name": "Qwen3.6 27B"
     },
     "claude-fable-5": {
-      "runs": 21,
+      "runs": 22,
       "domains": {
         "Language,Multimodal": {
-          "n": 21,
-          "avg": 0.677,
+          "n": 22,
+          "avg": 0.6889,
           "best": 1
         }
       },
@@ -415,11 +415,11 @@
       "name": "Claude Fable 5.1"
     },
     "claude-fable-5-2": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.7425,
+          "n": 13,
+          "avg": 0.7593,
           "best": 1
         }
       },
@@ -511,11 +511,11 @@
       "name": "Claude Opus 5"
     },
     "claude-opus-5-5": {
-      "runs": 15,
+      "runs": 16,
       "domains": {
         "Language": {
-          "n": 15,
-          "avg": 0.6244,
+          "n": 16,
+          "avg": 0.6442,
           "best": 1
         }
       },
@@ -927,7 +927,7 @@
           "best": 1
         }
       },
-      "rel": "2026-09-30",
+      "rel": "2026-10-13",
       "name": "Gemini 4 Argon"
     },
     "gemini-4-carbon": {
@@ -939,7 +939,7 @@
           "best": 1
         }
       },
-      "rel": "2026-10-28",
+      "rel": "2026-11-10",
       "name": "Gemini 4 Carbon"
     },
     "gemma-4-31b-it": {

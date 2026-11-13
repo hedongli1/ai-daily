@@ -1,287 +1,147 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-12T17:48:24.134Z",
+ "fetchedAt": "2026-11-13T17:25:47.770Z",
  "rows": [
   {
-   "title": "LangChain返回结果怎么接进程序？实操消息、并发调用、结构化输出与工具调用｜大模型｜Python｜DeepSeek｜异步调用｜AI应用开发｜流式输出",
+   "title": "带大家狂薅deepseek、kimi等一众旗舰模型",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/13",
+   "bvid": "BV1kYW66LELe"
+  },
+  {
+   "title": "【模型日报】KO模型又被打击，会对市场有影响吗？无限新星青鸢板件暗改？snaa圆桌骑士最后一位，大翅膀期待配色！KO双面蟹上架过于昂贵！燃魂武道会诺贝尔公布，",
+   "up": "",
+   "play": 63,
+   "pub": "2026/11/13",
+   "bvid": "BV1ytW66UEKH"
+  },
+  {
+   "title": "Claude Fable 5.2硬核实测：高难3D工程与真实开销大起底！",
+   "up": "",
+   "play": 80,
+   "pub": "2026/11/13",
+   "bvid": "BV1keW66yEg1"
+  },
+  {
+   "title": "2026 年 IT 就业形势到底怎么走：结构分化与复合型人才、应用开发与算法工程师怎么选、大龄程序员突围与考研二战取舍｜就业｜职业规划",
    "up": "",
    "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1LRWd6jE7R"
-  },
-  {
-   "title": "打破多模态异构壁垒！美团提出dNaViT用离散码实现通用视觉表征，统一理解/生成/编辑全任务 【多模态大模型】【视觉表征学习】",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/12",
-   "bvid": "BV15dWd61Ee7"
-  },
-  {
-   "title": "【中配】LLM的下一个扩展轴是……睡眠？ - bycloud",
-   "up": "",
-   "play": 68,
-   "pub": "2026/11/12",
-   "bvid": "BV1H6Wd6dEqz"
-  },
-  {
-   "title": "v3.0 内置生图与tag大更！【Anima提示词生成器】",
-   "up": "",
-   "play": 52,
-   "pub": "2026/11/12",
-   "bvid": "BV1J1Wd6pEta"
-  },
-  {
-   "title": "Agent上线前还缺什么？用Harness把脚本权限、Docker沙箱与多智能体分工补齐｜AI Agent｜Harness工程｜长期记忆｜AI Coding",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1n1Wd6pEv5"
-  },
-  {
-   "title": "单表搞定三大任务！首个覆盖表格生成、补全、预测的通用表格模型基准OTBench全解析 【表格建模】【基准评测】",
-   "up": "",
-   "play": 6,
-   "pub": "2026/11/12",
-   "bvid": "BV1E2Wd6QEDV"
-  },
-  {
-   "title": "本地大模型被改10个神经元就能偷电脑：微软给自查方法",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/12",
-   "bvid": "BV1HkWd6sE7T"
-  },
-  {
-   "title": "[中文切片]AI算力狂潮100%会被用满",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1HkWd6sEkB"
-  },
-  {
-   "title": "Pi Agent 源码拆解：几百行内核凭什么够用、文件系统与工具循环怎么设计、上下文怎么省、三个 Coding Agent 横向对比｜源码｜Agent",
-   "up": "",
-   "play": 8,
-   "pub": "2026/11/12",
-   "bvid": "BV1x7Wo6hELg"
-  },
-  {
-   "title": "fable 5.2和opus 5.5 同提示词对比",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/12",
-   "bvid": "BV1HCWd69EGe"
-  },
-  {
-   "title": "【中英字幕】斯坦福-用AI思考CS193T｜追更中｜大模型原理+提示词实战｜Cynthia Bailey｜Thinking with AI 2026-27",
-   "up": "",
-   "play": 260,
-   "pub": "2026/11/12",
-   "bvid": "BV1V2Wm6SEA7"
-  },
-  {
-   "title": "350倍成本降低！Tree-Ising比特级优化大模型修复，无需LLM代理31分钟搞定权重编辑【大模型优化】【模型编辑】【量子启发算法】",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1nCWd69Eqi"
-  },
-  {
-   "title": "LangChain 面试十八问：模型调用、Chain 编排、Memory 记忆、Agent 与 Tool、RAG 检索链路逐题拆｜面试题｜大模型｜求职",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/12",
-   "bvid": "BV1K5Wo6YE8m"
-  },
-  {
-   "title": "2026IT行业就业与职业发展全攻略",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/12",
-   "bvid": "BV1wWWo64E7Q"
+   "pub": "2026/11/13",
+   "bvid": "BV1F9Wq6NE8w"
   },
   {
    "title": "计算机软件各细分行业发展前景分析",
    "up": "",
-   "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1HWWo64E1d"
-  },
-  {
-   "title": "黄仁勋离任，英伟达真正失去了什么？",
-   "up": "",
-   "play": 78,
-   "pub": "2026/11/12",
-   "bvid": "BV1cHWo6ZEiv"
-  },
-  {
-   "title": "和马里奥同龄的绝版模型，来自1981年的万代1比144力克大魔（被骡子三分钟打爆12台）",
-   "up": "",
-   "play": 139,
-   "pub": "2026/11/12",
-   "bvid": "BV1wnWo6bEEJ"
-  },
-  {
-   "title": "跟一线大模型厂朋友聊了下FDE（企业AI落地）",
-   "up": "",
    "play": 5,
-   "pub": "2026/11/12",
-   "bvid": "BV1gPWo6gEZM"
+   "pub": "2026/11/13",
+   "bvid": "BV1dFWB6FEmt"
   },
   {
-   "title": "【0813神区PLAY】Qwen-4-max-Preview 软件工作流/三维/游戏开发实测",
+   "title": "2026 大模型求职简历项目大盘点：RAG 与 FDE 必写清单、AI Coding 助手、多智能体结构与面试复盘",
    "up": "",
-   "play": 577,
-   "pub": "2026/11/12",
-   "bvid": "BV1gPWo6gEfL"
+   "play": 1,
+   "pub": "2026/11/13",
+   "bvid": "BV1iFWB6cEbf"
   },
   {
-   "title": "【RSI已成？】Gemini-4-Carbon 软件工作流/三维/游戏开发实测",
-   "up": "",
-   "play": 568,
-   "pub": "2026/11/12",
-   "bvid": "BV1uNWo6zEtP"
-  },
-  {
-   "title": "英伟达突发官宣：黄仁勋辞任CEO，CFO临时接管 | AI晚报 2026年11月12日",
-   "up": "",
-   "play": 126,
-   "pub": "2026/11/12",
-   "bvid": "BV1gNWo6zELD"
-  },
-  {
-   "title": "大肥鱼的AI哲学补齐计划 09｜它不解释，只打分：谷歌把判断做成了接口",
-   "up": "",
-   "play": 16,
-   "pub": "2026/11/12",
-   "bvid": "BV1YcWo6GEbZ"
-  },
-  {
-   "title": "酒馆角色没灵魂？换个大脑比改设定管用",
-   "up": "",
-   "play": 61,
-   "pub": "2026/11/12",
-   "bvid": "BV1xgWR6tERa"
-  },
-  {
-   "title": "后端JAVA+Python Agent大模型双元面试 2026-11-12 21_11_50 面试小达达",
+   "title": "程序员的生存指南-AI冲击就业前景与涨薪晋升全路线",
    "up": "",
    "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV18MWo6qEg8"
+   "pub": "2026/11/13",
+   "bvid": "BV1dFWB6FEmE"
   },
   {
-   "title": "豆包月活4.2亿，DeepSeek反而跌了15.2%",
+   "title": "deepseek你牛大了！最新的deepseek v4.1 FLASH 1017,两个小时完成我去年这个时候两个月的机械设计和建模！二级齿轮减速器！",
    "up": "",
-   "play": 155,
-   "pub": "2026/11/12",
-   "bvid": "BV18TWo6MEf6"
+   "play": 85,
+   "pub": "2026/11/13",
+   "bvid": "BV1foWq6wEjp"
   },
   {
-   "title": "六年时间完成了上千份毕业设计和论文，最终被AI大模型取代走向失业",
-   "up": "",
-   "play": 20,
-   "pub": "2026/11/12",
-   "bvid": "BV1D2Wo66EUa"
-  },
-  {
-   "title": "【火车模型】太局中补机",
-   "up": "",
-   "play": 9,
-   "pub": "2026/11/12",
-   "bvid": "BV1XkWo6VEze"
-  },
-  {
-   "title": "装完DSH插件一堆还是不好用，五个坑一次讲完",
-   "up": "",
-   "play": 52,
-   "pub": "2026/11/12",
-   "bvid": "BV1VkWo65EF7"
-  },
-  {
-   "title": "我做了一个让群聊机器人精准识别“这句话是不是在对它说”的方案",
-   "up": "",
-   "play": 50,
-   "pub": "2026/11/12",
-   "bvid": "BV1VkWo65Eod"
-  },
-  {
-   "title": "今天，Claude 最严封号新规生效了｜三条红线 + 1140 万封号数全讲清",
-   "up": "",
-   "play": 132,
-   "pub": "2026/11/12",
-   "bvid": "BV1VqWo6mEDv"
-  },
-  {
-   "title": "Codex 正在让新人变强，还是失去 Debug 能力？",
-   "up": "",
-   "play": 19,
-   "pub": "2026/11/12",
-   "bvid": "BV15zWo6jE9x"
-  },
-  {
-   "title": "黄仁勋正式卸任了，不知道之后的显卡价格会不会有变化，甚至在AI的大趋势之下还会不会有游戏卡了",
-   "up": "",
-   "play": 147,
-   "pub": "2026/11/12",
-   "bvid": "BV1uUWo6gEqB"
-  },
-  {
-   "title": "中配+原声·Fable，5.2发布，AI竞赛再加速",
-   "up": "",
-   "play": 33,
-   "pub": "2026/11/12",
-   "bvid": "BV131Wo6GE6t"
-  },
-  {
-   "title": "AI 面试题怎么答：2026 高频八股逐个拆、MCP 十五问、Agent Loop 十连问、Function Calling 底层｜面试题｜大模型｜求职",
-   "up": "",
-   "play": 15,
-   "pub": "2026/11/12",
-   "bvid": "BV1csWo6oEQA"
-  },
-  {
-   "title": "【中配】Apache 2.0 开源，Ripple 65B 挑战 DeepSeek-V3 实测表现",
-   "up": "",
-   "play": 13,
-   "pub": "2026/11/12",
-   "bvid": "BV1F8Wo6pE3T"
-  },
-  {
-   "title": "我们看懂模型内部了吗",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/12",
-   "bvid": "BV1f8Wo6HEHF"
-  },
-  {
-   "title": "简历不是履历而是广告：2026 AI 岗位怎么挑、空窗期怎么补、35 岁转 FDE 行不行、普通本科的破局点｜就业突击｜大模型｜求职",
-   "up": "",
-   "play": 12,
-   "pub": "2026/11/12",
-   "bvid": "BV1n4Wo6sEEr"
-  },
-  {
-   "title": "DeepSeek 中转站为什么能比官方便宜？聊渠道、部署与模型效果",
-   "up": "",
-   "play": 6,
-   "pub": "2026/11/12",
-   "bvid": "BV1J4Wo6sEfa"
-  },
-  {
-   "title": "吃透这套 PiAgent，你才算真正懂 MCP 和 AI Agent 开发｜MCP 协议、Skill 封装、插件扩展、长期记忆、微信远程控制实战",
-   "up": "",
-   "play": 9,
-   "pub": "2026/11/12",
-   "bvid": "BV1kNWZ6tEGR"
-  },
-  {
-   "title": "【猛兽匣】52toys 决战狄奥 可不是变大那么简单喔",
+   "title": "谷歌 Gemini 3 Hydrogen 发布：日常任务速度提升 2.5 倍",
    "up": "",
    "play": 90,
-   "pub": "2026/11/12",
-   "bvid": "BV1HsWo6dES9"
+   "pub": "2026/11/13",
+   "bvid": "BV1FRWq6eEwt"
+  },
+  {
+   "title": "基于多模态大模型的老年人居家活动监测系统",
+   "up": "",
+   "play": 24,
+   "pub": "2026/11/13",
+   "bvid": "BV1TzWq6yEGZ"
+  },
+  {
+   "title": "几十块的小快乐，一大箱子大肌肉霸，元祖，勇敢牛牛，沙扎比比，空我，扎古，名字太奇葩了",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/13",
+   "bvid": "BV1KBWq6LE2W"
+  },
+  {
+   "title": "各个大模型画鹈鹕骑自行车测试",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/13",
+   "bvid": "BV1TBWq6LEMm"
+  },
+  {
+   "title": "【实测】R9700、DGX、pro6000部署方案",
+   "up": "",
+   "play": 221,
+   "pub": "2026/11/13",
+   "bvid": "BV1cmWq6uECE"
+  },
+  {
+   "title": "140亿参数硬刚Opus 5.5：文心5.5 Flash深度拆解，一笔Agent成本账",
+   "up": "",
+   "play": 9,
+   "pub": "2026/11/13",
+   "bvid": "BV1xkWq6kEK8"
+  },
+  {
+   "title": "Dify 搭一个知识库问答：切分、召回、提示词与发布｜Dify｜RAG｜AI应用",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/13",
+   "bvid": "BV1M7WB6UEEA"
+  },
+  {
+   "title": "DeepSeek 发布全家桶应用 API",
+   "up": "",
+   "play": 246,
+   "pub": "2026/11/13",
+   "bvid": "BV1xkWq6kEec"
+  },
+  {
+   "title": "炸场！DeepSeek App 五件套全量开放 API，V4.1-Flash 杀疯，AI 圈连夜改配方 | 加急快讯",
+   "up": "",
+   "play": 4738,
+   "pub": "2026/11/13",
+   "bvid": "BV1WyWq63Eb8"
+  },
+  {
+   "title": "2026最新版LangChain+LangGraph开发实战全套视频课程，从Agent开发，到LangSmith的监控、调试、评估一套搞定",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/13",
+   "bvid": "BV1m7WB6mEkH"
+  },
+  {
+   "title": "让8个大模型玩魔方：不许写代码，谁能先还原？",
+   "up": "",
+   "play": 499,
+   "pub": "2026/11/13",
+   "bvid": "BV1DVWB6nEsx"
+  },
+  {
+   "title": "Qwen4没有发布，阿里却先卖起了订阅｜28分钟看懂发布前夜",
+   "up": "",
+   "play": 98,
+   "pub": "2026/11/13",
+   "bvid": "BV1sWWB6yE23"
   }
  ]
 }
