@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "mode": "diff",
-  "baselineDate": "2026-11-13",
+  "baselineDate": "2026-11-14",
   "counts": {
     "new": 0,
     "retired": 0,
-    "price": 1,
-    "context": 1,
-    "news": 22,
-    "facts": 2,
+    "price": 0,
+    "context": 0,
+    "news": 14,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "QwenLM",
@@ -74,56 +74,10 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 2
+      "count": 3
     }
   ],
   "events": [
-    {
-      "type": "price",
-      "key": "mistral/Mistral Large (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large (latest)",
-      "date": "2026-11-14",
-      "facts": {
-        "before": {
-          "in": 0.5,
-          "outCost": 1.5
-        },
-        "after": {
-          "in": 0.7,
-          "outCost": 2.1
-        }
-      },
-      "text": "输入 $0.5 → $0.7 · 输出 $1.5 → $2.1",
-      "href": "/models/mistral-large/",
-      "evidence": [
-        {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-          "url": "https://github.com/mistralai/vllm/releases",
-          "source": "Mistral AI"
-        }
-      ]
-    },
-    {
-      "type": "context",
-      "key": "mistral/Mistral Large (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large (latest)",
-      "date": "2026-11-14",
-      "facts": {
-        "before": 262144,
-        "after": 1048576
-      },
-      "text": "上下文 262K → 1M",
-      "href": "/models/mistral-large/"
-    },
     {
       "type": "news",
       "key": null,
@@ -148,6 +102,19 @@
       "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
       "href": "https://github.com/QwenLM/qwen-code-docs/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-14",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -181,19 +148,6 @@
       "key": null,
       "vendor": "deepseek",
       "vendorName": "DeepSeek",
-      "name": "chat-demo · Chat Demo",
-      "date": "2026-11-13",
-      "facts": {},
-      "text": "chat-demo · Chat Demo",
-      "href": "https://github.com/deepseek-ai/chat-demo/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
       "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
       "date": "2026-11-13",
       "facts": {},
@@ -212,6 +166,19 @@
       "facts": {},
       "text": "awesome-deepseek-integration · Integrate the DeepSeek API into popular software",
       "href": "https://github.com/deepseek-ai/awesome-deepseek-integration/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "chat-demo · Chat Demo",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "chat-demo · Chat Demo",
+      "href": "https://github.com/deepseek-ai/chat-demo/releases",
       "source": "DeepSeek",
       "external": true
     },
@@ -272,19 +239,6 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-11-13",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
       "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
       "date": "2026-11-13",
       "facts": {},
@@ -296,118 +250,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "date": "2026-11-12",
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-11-13",
       "facts": {},
-      "text": "How Amplitude ships product improvements in 1–2 days with OpenAI",
-      "href": "https://openai.com/business/customer-stories/amplitude",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Gondola doubles revenue as its team builds more with Codex",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Gondola doubles revenue as its team builds more with Codex",
-      "href": "https://openai.com/business/customer-stories/gondola",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Holiday Extras is rethinking what it can build with Codex",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Holiday Extras is rethinking what it can build with Codex",
-      "href": "https://openai.com/business/customer-stories/holidays-extras-codex",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Supporting research on AI and children’s safety",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Supporting research on AI and children’s safety",
-      "href": "https://openai.com/index/children-first-declaration",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Gilbert + Tobin rethinks the business of law with AI",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Gilbert + Tobin rethinks the business of law with AI",
-      "href": "https://openai.com/index/gilbert-tobin-sam-nickless",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google DeepMind",
-      "name": "Introducing Gemini 4 Hydrogen",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Introducing Gemini 4 Hydrogen",
-      "href": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
-      "source": "Google DeepMind",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
-      "href": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "date": "2026-11-12",
-      "facts": {},
-      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-      "source": "Mistral AI",
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
       "external": true
     }
   ]
