@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 1,
     "context": 1,
-    "news": 21,
+    "news": 22,
     "facts": 2,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 7
+      "count": 5
     },
     {
       "id": "QwenLM",
@@ -127,6 +127,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-14",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-11-14",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Introducing ChatGPT Wallet",
@@ -134,6 +160,19 @@
       "facts": {},
       "text": "Introducing ChatGPT Wallet",
       "href": "https://openai.com/index/introducing-chatgpt-wallet",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "date": "2026-11-13",
+      "facts": {},
+      "text": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "href": "https://openai.com/business/customer-stories/shield",
       "source": "OpenAI",
       "external": true
     },
@@ -174,32 +213,6 @@
       "text": "awesome-deepseek-integration · Integrate the DeepSeek API into popular software",
       "href": "https://github.com/deepseek-ai/awesome-deepseek-integration/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-13",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "date": "2026-11-13",
-      "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -259,11 +272,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "date": "2026-11-13",
       "facts": {},
-      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "href": "https://github.com/zai-org/ZCode/releases",
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
       "source": "智谱 AI",
       "external": true
     },
@@ -272,11 +285,11 @@
       "key": null,
       "vendor": "zhipu",
       "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
       "date": "2026-11-13",
       "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
       "source": "智谱 AI",
       "external": true
     },

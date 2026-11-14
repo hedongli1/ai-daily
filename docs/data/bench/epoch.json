@@ -235,6 +235,18 @@
       }
     },
     {
+      "model": "Claude Opus 4.7",
+      "release": "2026-04-16",
+      "nRuns": 21,
+      "domains": {
+        "Language": {
+          "n": 21,
+          "avg": 0.4884,
+          "best": 0.978
+        }
+      }
+    },
+    {
       "model": "GLM-5.2",
       "release": "2026-06-16",
       "nRuns": 21,
@@ -291,18 +303,6 @@
           "n": 20,
           "avg": 0.4999,
           "best": 0.8737
-        }
-      }
-    },
-    {
-      "model": "Claude Opus 4.7",
-      "release": "2026-04-16",
-      "nRuns": 20,
-      "domains": {
-        "Language": {
-          "n": 20,
-          "avg": 0.4911,
-          "best": 0.978
         }
       }
     },
@@ -416,12 +416,12 @@
     },
     {
       "model": "Mistral Large 4",
-      "release": "2026-10-29",
+      "release": "2026-10-06",
       "nRuns": 16,
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 16,
-          "avg": 0.4377,
+          "avg": 0.4454,
           "best": 0.9944
         }
       }
@@ -565,7 +565,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 13,
-          "avg": 0.7593,
+          "avg": 0.7496,
           "best": 1
         }
       }

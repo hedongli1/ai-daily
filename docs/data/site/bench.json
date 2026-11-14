@@ -419,7 +419,7 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 13,
-          "avg": 0.7593,
+          "avg": 0.7496,
           "best": 1
         }
       },
@@ -475,11 +475,11 @@
       "name": "Claude Opus 4.6"
     },
     "claude-opus-4-7": {
-      "runs": 20,
+      "runs": 21,
       "domains": {
         "Language": {
-          "n": 20,
-          "avg": 0.4911,
+          "n": 21,
+          "avg": 0.4884,
           "best": 0.978
         }
       },
@@ -1043,11 +1043,11 @@
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 16,
-          "avg": 0.4377,
+          "avg": 0.4454,
           "best": 0.9944
         }
       },
-      "rel": "2026-10-29",
+      "rel": "2026-10-06",
       "name": "Mistral Large 4"
     },
     "mistral-large": {
