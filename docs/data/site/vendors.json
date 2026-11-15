@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-15",
+  "date": "2026-11-16",
   "vendors": [
     {
       "id": "alibaba",
@@ -90,19 +90,19 @@
       "country": "cn"
     },
     {
-      "id": "morph",
-      "name": "Morph",
-      "n": 4,
-      "cheapest": 0.8,
-      "latest": "2026-07-16",
-      "country": "intl"
-    },
-    {
       "id": "xai",
       "name": "xAI",
       "n": 11,
       "cheapest": 1,
       "latest": "2026-10-01",
+      "country": "intl"
+    },
+    {
+      "id": "morph",
+      "name": "Morph",
+      "n": 4,
+      "cheapest": 0.8,
+      "latest": "2026-07-16",
       "country": "intl"
     },
     {
@@ -122,14 +122,6 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
       "id": "stepfun",
       "name": "阶跃星辰",
       "n": 7,
@@ -138,19 +130,19 @@
       "country": "cn"
     },
     {
+      "id": "meta",
+      "name": "Meta",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
+    },
+    {
       "id": "moonshotai",
       "name": "月之暗面",
       "n": 6,
       "cheapest": 0.9711,
       "latest": "2026-10-23",
-      "country": "cn"
-    },
-    {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -162,12 +154,12 @@
       "country": "cn"
     },
     {
-      "id": "upstage",
-      "name": "Upstage",
-      "n": 5,
-      "cheapest": 0.1,
-      "latest": "2026-09-22",
-      "country": "intl"
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
+      "country": "cn"
     },
     {
       "id": "bailing",
@@ -178,12 +170,20 @@
       "country": "cn"
     },
     {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
+      "id": "upstage",
+      "name": "Upstage",
+      "n": 5,
       "cheapest": 0.1,
-      "latest": "2026-10-16",
+      "latest": "2026-09-22",
       "country": "intl"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "n": 4,
+      "cheapest": 0.15,
+      "latest": "2026-10-17",
+      "country": "cn"
     },
     {
       "id": "tencent-tokenhub",
@@ -210,12 +210,12 @@
       "country": "intl"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
+      "id": "inception",
+      "name": "Inception",
       "n": 4,
-      "cheapest": 0.15,
-      "latest": "2026-10-17",
-      "country": "cn"
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
+      "country": "intl"
     },
     {
       "id": "poolside",
@@ -234,11 +234,11 @@
       "country": "intl"
     },
     {
-      "id": "cerebras",
-      "name": "Cerebras",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
       "country": "intl"
     },
     {
@@ -250,19 +250,19 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
-      "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
-      "country": "intl"
-    },
-    {
       "id": "sarvam",
       "name": "Sarvam AI",
       "n": 2,
       "cheapest": 0.15790269,
       "latest": "2026-02-18",
+      "country": "intl"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
       "country": "intl"
     }
   ]
