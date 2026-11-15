@@ -38,6 +38,15 @@
       "open": 0
     },
     {
+      "n": "ling-3-2-flash",
+      "name": "Ling 3.2 Flash",
+      "vn": "蚂蚁百灵",
+      "rel": "2026-11-05",
+      "ctx": 1000000,
+      "in": null,
+      "open": 0
+    },
+    {
       "n": "hy4",
       "name": "Hy4",
       "vn": "腾讯混元",
@@ -200,6 +209,15 @@
       "open": 0
     },
     {
+      "n": "ling-3-1-flash",
+      "name": "Ling 3.1 Flash",
+      "vn": "蚂蚁百灵",
+      "rel": "2026-09-29",
+      "ctx": 1000000,
+      "in": 0.3,
+      "open": 1
+    },
+    {
       "n": "claude-sonnet-5-5",
       "name": "Claude Sonnet 5.5",
       "vn": "Anthropic",
@@ -227,15 +245,6 @@
       "open": 1
     },
     {
-      "n": "mimo-v2-6-flash",
-      "name": "MiMo-V2.6-Flash",
-      "vn": "小米",
-      "rel": "2026-09-22",
-      "ctx": 1048576,
-      "in": 0.14,
-      "open": 1
-    },
-    {
       "n": "solar-mini-4",
       "name": "Solar Mini 4",
       "vn": "Upstage",
@@ -243,6 +252,15 @@
       "ctx": 524288,
       "in": 0.1,
       "open": 0
+    },
+    {
+      "n": "mimo-v2-6-flash",
+      "name": "MiMo-V2.6-Flash",
+      "vn": "小米",
+      "rel": "2026-09-22",
+      "ctx": 1048576,
+      "in": 0.14,
+      "open": 1
     },
     {
       "n": "gpt-6-sol",
@@ -314,6 +332,15 @@
       "rel": "2026-09-16",
       "ctx": 1024000,
       "in": 1,
+      "open": 1
+    },
+    {
+      "n": "ling-3-0-flash-vl",
+      "name": "Ling 3.0 Flash VL",
+      "vn": "蚂蚁百灵",
+      "rel": "2026-09-10",
+      "ctx": 262144,
+      "in": 0.075,
       "open": 1
     },
     {
@@ -394,7 +421,7 @@
       "vn": "腾讯混元",
       "rel": "2026-08-28",
       "ctx": 1024000,
-      "in": 0.834,
+      "in": 0.90078512,
       "open": 1
     },
     {
@@ -524,6 +551,15 @@
       "open": 0
     },
     {
+      "n": "ling-3-0-tiny",
+      "name": "Ling 3.0 Tiny",
+      "vn": "蚂蚁百灵",
+      "rel": "2026-08-07",
+      "ctx": 131072,
+      "in": null,
+      "open": 1
+    },
+    {
       "n": "solar-pro-4",
       "name": "Solar Pro 4",
       "vn": "Upstage",
@@ -603,6 +639,15 @@
       "ctx": 1000000,
       "in": 5,
       "open": 0
+    },
+    {
+      "n": "ling-3-0-flash",
+      "name": "Ling 3.0 Flash",
+      "vn": "蚂蚁百灵",
+      "rel": "2026-07-23",
+      "ctx": 262144,
+      "in": 0.075,
+      "open": 1
     },
     {
       "n": "laguna-s-2-1",
@@ -767,6 +812,15 @@
       "open": 1
     },
     {
+      "n": "gemini-omni-flash-preview",
+      "name": "Gemini Omni Flash Preview",
+      "vn": "谷歌",
+      "rel": "2026-06-30",
+      "ctx": 131072,
+      "in": 1.5,
+      "open": 0
+    },
+    {
       "n": "nano-banana-2-lite",
       "name": "Nano Banana 2 Lite",
       "vn": "谷歌",
@@ -789,7 +843,7 @@
       "name": "Seed Evolving",
       "vn": "字节跳动",
       "rel": "2026-06-23",
-      "ctx": 256000,
+      "ctx": 1024000,
       "in": 0.8906,
       "open": 0
     },
@@ -816,7 +870,7 @@
       "name": "Seed 2.1 Pro",
       "vn": "字节跳动",
       "rel": "2026-06-23",
-      "ctx": 256000,
+      "ctx": 1024000,
       "in": 0.8906,
       "open": 0
     },
@@ -2250,24 +2304,6 @@
       "ctx": 400000,
       "in": 15,
       "open": 0
-    },
-    {
-      "n": "ring-1t",
-      "name": "Ring-1T",
-      "vn": "蚂蚁百灵",
-      "rel": "2025-10-01",
-      "ctx": 128000,
-      "in": 0.57,
-      "open": 1
-    },
-    {
-      "n": "ling-1t",
-      "name": "Ling-1T",
-      "vn": "蚂蚁百灵",
-      "rel": "2025-10-01",
-      "ctx": 128000,
-      "in": 0.57,
-      "open": 1
     },
     {
       "n": "glm-4-6",

@@ -1,75 +1,180 @@
 {
  "query": "大模型评测",
  "order": "pubdate",
- "fetchedAt": "2026-11-14T00:58:26.931Z",
+ "fetchedAt": "2026-11-15T00:04:27.776Z",
  "rows": [
+  {
+   "title": "Codex 配 DeepSeek 还是官方模型？实测国内该怎么选",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/15",
+   "bvid": "BV1pQ4j6dEZM"
+  },
   {
    "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
    "up": "",
-   "play": 2,
+   "play": 4,
+   "pub": "2026/11/14",
+   "bvid": "BV1RGsj6iEGp"
+  },
+  {
+   "title": "谷歌Antigravity入门2：Gemini 4新模型全解！小杯越级硬刚旗舰，办会员白嫖95G显卡与全家桶",
+   "up": "",
+   "play": 319,
+   "pub": "2026/11/14",
+   "bvid": "BV16jsV6KEpb"
+  },
+  {
+   "title": "这段是模拟面试实录，从项目直接开场。第一个问零售门店评测集建设合发布，给店长和运营做业务问答助手，覆盖商品供应这些场景。",
+   "up": "",
+   "play": 95,
+   "pub": "2026/11/14",
+   "bvid": "BV1WMsV6rEwK"
+  },
+  {
+   "title": "Qwen4-Max-Preview 模型正式上线 实际体验解析",
+   "up": "",
+   "play": 122,
+   "pub": "2026/11/14",
+   "bvid": "BV1r1W26hEWq"
+  },
+  {
+   "title": "【模型版件评测】胜利属于等等党之：幻境模型/NeverLand Hobby 1/35 55001 现代德军 “狼”式装甲机动车 Wolf SSA 模型开盒 大G",
+   "up": "",
+   "play": 377,
+   "pub": "2026/11/14",
+   "bvid": "BV1Wys36uE9a"
+  },
+  {
+   "title": "16英寸幅面，挑战桌面级光固化极限，黑格R2Max大比例雕像打印测试",
+   "up": "",
+   "play": 9103,
+   "pub": "2026/11/14",
+   "bvid": "BV1rDs36AEjL"
+  },
+  {
+   "title": "【评测与基准】LLM 裁判校准：位置偏置与冗长偏置的量法，三招校准与 kappa 验收关",
+   "up": "",
+   "play": 232,
+   "pub": "2026/11/14",
+   "bvid": "BV1vK4K62EUy"
+  },
+  {
+   "title": "【中配】为何大厂模型上线后反而全挂？",
+   "up": "",
+   "play": 9,
+   "pub": "2026/11/14",
+   "bvid": "BV1WjWC69EFt"
+  },
+  {
+   "title": "「邦尼評測」強！最頂「履帶」洗地機器人！雲鯨 Narwal Flow 2 超完整評測",
+   "up": "",
+   "play": 424,
+   "pub": "2026/11/14",
+   "bvid": "BV14HW46jEJd"
+  },
+  {
+   "title": "大肥鱼科普：大模型榜单到底看哪个？43个月榜首从1075涨到1538",
+   "up": "",
+   "play": 103,
+   "pub": "2026/11/14",
+   "bvid": "BV17tWC6jEnW"
+  },
+  {
+   "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
+   "up": "",
+   "play": 83,
+   "pub": "2026/11/14",
+   "bvid": "BV1ncWy69EYn"
+  },
+  {
+   "title": "workbuddy混元4大模型真实项目评测展示",
+   "up": "",
+   "play": 326,
+   "pub": "2026/11/14",
+   "bvid": "BV1FPWy6QErT"
+  },
+  {
+   "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
+   "up": "",
+   "play": 140,
    "pub": "2026/11/14",
    "bvid": "BV13qWr6aE5p"
   },
   {
+   "title": "12.【中英字幕】大模型到底有多强？从困惑度、MMLU到竞技场全拆解 | Stanford CS336 第12讲",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/13",
+   "bvid": "BV1fRWq6YEHR"
+  },
+  {
+   "title": "正经大模型谁自报分啊",
+   "up": "",
+   "play": 134,
+   "pub": "2026/11/13",
+   "bvid": "BV1LcWB68Euv"
+  },
+  {
    "title": "RAG 做完怎么验？评测集、忠实度指标与线上监控｜RAG｜知识库｜效果评估",
    "up": "",
-   "play": 35,
+   "play": 98,
    "pub": "2026/11/13",
    "bvid": "BV1FvWB6TEnQ"
   },
   {
    "title": "文心 5.5 Flash 发布！实测 Blender 3D 建模",
    "up": "",
-   "play": 1000,
+   "play": 1253,
    "pub": "2026/11/13",
    "bvid": "BV1ggWi61EKT"
   },
   {
    "title": "Qwen 4 27B本地大模型前瞻：显存需求、性能预期与发布日避坑指南 | Kai",
    "up": "",
-   "play": 322,
+   "play": 463,
    "pub": "2026/11/13",
    "bvid": "BV1ADWD6yEk8"
   },
   {
    "title": "027｜长上下文能替代RAG吗？用对照实验选方案",
    "up": "",
-   "play": 7,
+   "play": 15,
    "pub": "2026/11/13",
    "bvid": "BV1zNWd6SEJt"
   },
   {
-   "title": "2026最热AI自动化测试岗：自动化实战与AI大模型评测（LLM/RAG/Playwright），3小时测Agent入门精通",
-   "up": "",
-   "play": 1094,
-   "pub": "2026/11/13",
-   "bvid": "BV1KZWi6CEUw"
-  },
-  {
    "title": "【实测】Gemini 4 Hydrogen 发布！谷歌编程终于能用了吗？！",
    "up": "",
-   "play": 16594,
+   "play": 32590,
    "pub": "2026/11/13",
    "bvid": "BV12ZWi6kERS"
   },
   {
    "title": "Gemini 4 Hydrogen 实测：做游戏能打过 GPT 吗？核弹还是哑弹？",
    "up": "",
-   "play": 384,
+   "play": 505,
    "pub": "2026/11/13",
    "bvid": "BV1GbWq6HELN"
   },
   {
    "title": "Harness 工程到底在做什么？上下文、工具层与评测回路｜Harness｜AI Agent｜工程化",
    "up": "",
-   "play": 158,
+   "play": 194,
    "pub": "2026/11/13",
    "bvid": "BV1dvWe6SEVN"
   },
   {
+   "title": "同一个OCR模型换条管道，320万读成32万｜三款开源OCR实测",
+   "up": "",
+   "play": 100,
+   "pub": "2026/11/13",
+   "bvid": "BV16TWv6ZEcA"
+  },
+  {
    "title": "【评测与基准】自建评测集：三层结构、按标准误定量、kappa 校准与防泄漏防过期",
    "up": "",
-   "play": 220,
+   "play": 247,
    "pub": "2026/11/13",
    "bvid": "BV1KU4N6FEBH"
   },
@@ -83,14 +188,14 @@
   {
    "title": "&lt;闭眼入系列-2&gt; 还原度这么高？估计人手一只了吧？斩服少女 缠流子 变身 祖国版手办 大货深度评测！快来看看值不值！【手办评测】",
    "up": "",
-   "play": 4860,
+   "play": 6940,
    "pub": "2026/11/13",
    "bvid": "BV1Z9Wv6xE1s"
   },
   {
    "title": "Gemini 4 Hydrogen鹈鹕三关实测88分！后空翻稳了，镜头却钻树｜和Qwen4打平",
    "up": "",
-   "play": 1386,
+   "play": 1495,
    "pub": "2026/11/13",
    "bvid": "BV1u2Wa6vEg7"
   },
@@ -104,44 +209,79 @@
   {
    "title": "史上最大规模具身智能编程机器人统考！覆盖35套基准、47种机器人、1156项任务的统一评测框架发布 【具身智能】【机器人】【大模型评测】",
    "up": "",
-   "play": 6,
+   "play": 7,
    "pub": "2026/11/13",
    "bvid": "BV1e9WY6UEDv"
   },
   {
    "title": "18款大模型实测！模拟人类工作记忆的全新状态追踪探针WMIP发布，精准评估LLM累积状态跟踪能力 【大模型评测】【AI前沿论文】",
    "up": "",
-   "play": 20,
+   "play": 27,
    "pub": "2026/11/13",
    "bvid": "BV1sYWY6AEp2"
   },
   {
    "title": "54款开源大模型认知能力大测评！对标人类13项经典认知任务，揭穿&quot;类人表现&quot;假象 【大模型评测】【认知AI】",
    "up": "",
-   "play": 12,
+   "play": 14,
    "pub": "2026/11/12",
    "bvid": "BV1nrWY6oEQL"
   },
   {
    "title": "【中配】模型在编程测试拿99分，为何实战任务失败率却高达75%",
    "up": "",
-   "play": 19,
+   "play": 24,
    "pub": "2026/11/12",
    "bvid": "BV1DKWe6zEcF"
   },
   {
    "title": "40年卫星影像全流程挑战！多模态智能体完成土地变化分析新基准EarthRecord发布 【多模态智能体】【遥感AI】【论文解读】",
    "up": "",
-   "play": 8,
+   "play": 12,
    "pub": "2026/11/12",
    "bvid": "BV1vMWh6rEyF"
   },
   {
    "title": "Caldera Meridian 评测｜Google Gemini 4 Hydrogen",
    "up": "",
-   "play": 378,
+   "play": 381,
    "pub": "2026/11/12",
    "bvid": "BV1PeWh69EsB"
+  },
+  {
+   "title": "解决动效生成评估痛点！首个基于程序化验证的动态图形生成评测基准发布，覆盖17类动画需求【AI生成内容】【动画评测】【大模型】",
+   "up": "",
+   "play": 8,
+   "pub": "2026/11/12",
+   "bvid": "BV12TWa6cEqY"
+  },
+  {
+   "title": "氢弹爆炸之定价还不到四成的 Gemini 4 Hydrogen 怎么比 Argon 还强？",
+   "up": "",
+   "play": 76215,
+   "pub": "2026/11/12",
+   "bvid": "BV1CLWa6REkc"
+  },
+  {
+   "title": "首个金融智能体开放世界评估范式FinCosmos问世！380万种策略任务+全维度校验，彻底解决金融场景静默失效难题 【AI金融】【智能体评测】【大模型论文解读】",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/12",
+   "bvid": "BV1w7Wa6sEEF"
+  },
+  {
+   "title": "5448道全新决策题！覆盖1024选项+64k长上下文，首个全维度多任务决策能力基准MMDM详解 【大模型评测】【AI决策】",
+   "up": "",
+   "play": 8,
+   "pub": "2026/11/12",
+   "bvid": "BV1jQWd6EEpS"
+  },
+  {
+   "title": "单表搞定三大任务！首个覆盖表格生成、补全、预测的通用表格模型基准OTBench全解析 【表格建模】【基准评测】",
+   "up": "",
+   "play": 29,
+   "pub": "2026/11/12",
+   "bvid": "BV1E2Wd6QEDV"
   }
  ]
 }
