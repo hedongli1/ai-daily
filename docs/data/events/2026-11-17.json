@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "date": "2026-11-17",
+  "mode": "diff",
+  "baselineDate": "2026-11-16",
+  "counts": {
+    "new": 0,
+    "retired": 0,
+    "price": 0,
+    "context": 0,
+    "news": 17,
+    "facts": 0,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 7
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 5
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 3
+    }
+  ],
+  "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Broadening access to AI for scientists",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Broadening access to AI for scientists",
+      "href": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "href": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Science at the Frontier: How scientists use ChatGPT",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Science at the Frontier: How scientists use ChatGPT",
+      "href": "https://openai.com/index/science-at-the-frontier",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "href": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Our first phase of embedded assessments",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Our first phase of embedded assessments",
+      "href": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advancing computer-use agents for healthcare teams",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Advancing computer-use agents for healthcare teams",
+      "href": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "More ways to move care forward with ChatGPT for Healthcare",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "More ways to move care forward with ChatGPT for Healthcare",
+      "href": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The King’s Trust and OpenAI launch £1m partnership",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "The King’s Trust and OpenAI launch £1m partnership",
+      "href": "https://openai.com/index/the-kings-trust-and-openai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "New Ask Maps features to help with holiday travel and prep",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "New Ask Maps features to help with holiday travel and prep",
+      "href": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "A step toward defining the Standard Model on a lattice",
+      "date": "2026-11-15",
+      "facts": {},
+      "text": "A step toward defining the Standard Model on a lattice",
+      "href": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Our new blog for science",
+      "date": "2026-11-15",
+      "facts": {},
+      "text": "Our new blog for science",
+      "href": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Delivery-Plugin · 仓库更新",
+      "date": "2026-11-15",
+      "facts": {},
+      "text": "Qwen-Live-Delivery-Plugin · 仓库更新",
+      "href": "https://github.com/QwenLM/Qwen-Live-Delivery-Plugin/releases",
+      "source": "Qwen",
+      "external": true
+    }
+  ]
+}

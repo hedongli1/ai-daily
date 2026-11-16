@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "mode": "diff",
-  "baselineDate": "2026-11-15",
+  "baselineDate": "2026-11-16",
   "counts": {
     "new": 0,
     "retired": 0,
-    "price": 5,
+    "price": 0,
     "context": 0,
-    "news": 6,
-    "facts": 5,
+    "news": 17,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -79,116 +79,121 @@
   ],
   "events": [
     {
-      "type": "price",
-      "key": "google/Nano Banana",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana",
-      "date": "2026-11-16",
-      "facts": {
-        "before": {
-          "in": 0.3,
-          "outCost": 30
-        },
-        "after": {
-          "in": 0.3,
-          "outCost": 2.5
-        }
-      },
-      "text": "输出 $30 → $2.5",
-      "href": "/models/nano-banana/"
-    },
-    {
-      "type": "price",
-      "key": "google/Nano Banana Pro",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana Pro",
-      "date": "2026-11-16",
-      "facts": {
-        "before": {
-          "in": 2,
-          "outCost": 120
-        },
-        "after": {
-          "in": 2,
-          "outCost": 12
-        }
-      },
-      "text": "输出 $120 → $12",
-      "href": "/models/nano-banana-pro/"
-    },
-    {
-      "type": "price",
-      "key": "google/Nano Banana 2",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana 2",
-      "date": "2026-11-16",
-      "facts": {
-        "before": {
-          "in": 0.5,
-          "outCost": 60
-        },
-        "after": {
-          "in": 0.5,
-          "outCost": 3
-        }
-      },
-      "text": "输出 $60 → $3",
-      "href": "/models/nano-banana-2/"
-    },
-    {
-      "type": "price",
-      "key": "google/Nano Banana 2 Lite",
-      "vendor": "google",
-      "vendorName": "谷歌",
-      "name": "Nano Banana 2 Lite",
-      "date": "2026-11-16",
-      "facts": {
-        "before": {
-          "in": 0.25,
-          "outCost": 30
-        },
-        "after": {
-          "in": 0.25,
-          "outCost": 1.5
-        }
-      },
-      "text": "输出 $30 → $1.5",
-      "href": "/models/nano-banana-2-lite/"
-    },
-    {
-      "type": "price",
-      "key": "openai/gpt-image-2",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "gpt-image-2",
+      "name": "Broadening access to AI for scientists",
       "date": "2026-11-16",
-      "facts": {
-        "before": {
-          "in": 5,
-          "outCost": 30
-        },
-        "after": {
-          "in": null,
-          "outCost": null
-        }
-      },
-      "text": "输入 $5 → 未知 · 输出 $30 → 未知",
-      "href": "/models/gpt-image-2/",
-      "evidence": [
-        {
-          "title": "A step toward defining the Standard Model on a lattice",
-          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Our new blog for science",
-          "url": "https://openai.com/index/our-new-blog-for-science",
-          "source": "OpenAI"
-        }
-      ]
+      "facts": {},
+      "text": "Broadening access to AI for scientists",
+      "href": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "href": "https://openai.com/index/strengthening-online-child-safety",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Science at the Frontier: How scientists use ChatGPT",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Science at the Frontier: How scientists use ChatGPT",
+      "href": "https://openai.com/index/science-at-the-frontier",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "href": "https://openai.com/index/lvmh-media-division-partnership",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Our first phase of embedded assessments",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Our first phase of embedded assessments",
+      "href": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advancing computer-use agents for healthcare teams",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Advancing computer-use agents for healthcare teams",
+      "href": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "More ways to move care forward with ChatGPT for Healthcare",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "More ways to move care forward with ChatGPT for Healthcare",
+      "href": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The King’s Trust and OpenAI launch £1m partnership",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "The King’s Trust and OpenAI launch £1m partnership",
+      "href": "https://openai.com/index/the-kings-trust-and-openai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "New Ask Maps features to help with holiday travel and prep",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "New Ask Maps features to help with holiday travel and prep",
+      "href": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source": "Google Blog · AI",
+      "external": true
     },
     {
       "type": "news",
@@ -201,6 +206,58 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "date": "2026-11-16",
+      "facts": {},
+      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
+      "href": "https://github.com/zai-org/ZCode/releases",
+      "source": "智谱 AI",
       "external": true
     },
     {
@@ -234,38 +291,12 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "name": "Qwen-Live-Delivery-Plugin · 仓库更新",
       "date": "2026-11-15",
       "facts": {},
-      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
-      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
+      "text": "Qwen-Live-Delivery-Plugin · 仓库更新",
+      "href": "https://github.com/QwenLM/Qwen-Live-Delivery-Plugin/releases",
       "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-11-15",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-11-15",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
       "external": true
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1091,7 +1091,7 @@
       "release": "2026-04-14",
       "nRuns": 7,
       "domains": {
-        "Language": {
+        "Language,Vision,Multimodal": {
           "n": 7,
           "avg": 0.5488,
           "best": 0.8667
