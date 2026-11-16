@@ -6,10 +6,10 @@
   "counts": {
     "new": 0,
     "retired": 0,
-    "price": 0,
+    "price": 5,
     "context": 0,
-    "news": 4,
-    "facts": 0,
+    "news": 6,
+    "facts": 5,
     "newsAttached": 0
   },
   "degraded": [
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "id": "QwenLM",
@@ -74,21 +74,159 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 2
+      "count": 3
     }
   ],
   "events": [
+    {
+      "type": "price",
+      "key": "google/Nano Banana",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana",
+      "date": "2026-11-16",
+      "facts": {
+        "before": {
+          "in": 0.3,
+          "outCost": 30
+        },
+        "after": {
+          "in": 0.3,
+          "outCost": 2.5
+        }
+      },
+      "text": "输出 $30 → $2.5",
+      "href": "/models/nano-banana/"
+    },
+    {
+      "type": "price",
+      "key": "google/Nano Banana Pro",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana Pro",
+      "date": "2026-11-16",
+      "facts": {
+        "before": {
+          "in": 2,
+          "outCost": 120
+        },
+        "after": {
+          "in": 2,
+          "outCost": 12
+        }
+      },
+      "text": "输出 $120 → $12",
+      "href": "/models/nano-banana-pro/"
+    },
+    {
+      "type": "price",
+      "key": "google/Nano Banana 2",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana 2",
+      "date": "2026-11-16",
+      "facts": {
+        "before": {
+          "in": 0.5,
+          "outCost": 60
+        },
+        "after": {
+          "in": 0.5,
+          "outCost": 3
+        }
+      },
+      "text": "输出 $60 → $3",
+      "href": "/models/nano-banana-2/"
+    },
+    {
+      "type": "price",
+      "key": "google/Nano Banana 2 Lite",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana 2 Lite",
+      "date": "2026-11-16",
+      "facts": {
+        "before": {
+          "in": 0.25,
+          "outCost": 30
+        },
+        "after": {
+          "in": 0.25,
+          "outCost": 1.5
+        }
+      },
+      "text": "输出 $30 → $1.5",
+      "href": "/models/nano-banana-2-lite/"
+    },
+    {
+      "type": "price",
+      "key": "openai/gpt-image-2",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "gpt-image-2",
+      "date": "2026-11-16",
+      "facts": {
+        "before": {
+          "in": 5,
+          "outCost": 30
+        },
+        "after": {
+          "in": null,
+          "outCost": null
+        }
+      },
+      "text": "输入 $5 → 未知 · 输出 $30 → 未知",
+      "href": "/models/gpt-image-2/",
+      "evidence": [
+        {
+          "title": "A step toward defining the Standard Model on a lattice",
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Our new blog for science",
+          "url": "https://openai.com/index/our-new-blog-for-science",
+          "source": "OpenAI"
+        }
+      ]
+    },
     {
       "type": "news",
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-15",
+      "date": "2026-11-16",
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "A step toward defining the Standard Model on a lattice",
+      "date": "2026-11-15",
+      "facts": {},
+      "text": "A step toward defining the Standard Model on a lattice",
+      "href": "https://openai.com/index/step-toward-defining-the-standard-model",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Our new blog for science",
+      "date": "2026-11-15",
+      "facts": {},
+      "text": "Our new blog for science",
+      "href": "https://openai.com/index/our-new-blog-for-science",
+      "source": "OpenAI",
       "external": true
     },
     {

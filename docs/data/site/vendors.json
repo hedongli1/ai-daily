@@ -66,20 +66,20 @@
       "country": "intl"
     },
     {
-      "id": "cohere",
-      "name": "Cohere",
-      "n": 16,
-      "cheapest": 0,
-      "latest": "2026-09-09",
-      "country": "intl"
-    },
-    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 18,
       "cheapest": 0,
       "latest": "2026-09-18",
       "country": "cn"
+    },
+    {
+      "id": "cohere",
+      "name": "Cohere",
+      "n": 16,
+      "cheapest": 0,
+      "latest": "2026-09-09",
+      "country": "intl"
     },
     {
       "id": "volcengine",
@@ -122,20 +122,20 @@
       "country": "cn"
     },
     {
-      "id": "stepfun",
-      "name": "阶跃星辰",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-09-16",
-      "country": "cn"
-    },
-    {
       "id": "meta",
       "name": "Meta",
       "n": 7,
       "cheapest": 0.1,
       "latest": "2026-11-09",
       "country": "intl"
+    },
+    {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-09-16",
+      "country": "cn"
     },
     {
       "id": "moonshotai",
@@ -162,6 +162,14 @@
       "country": "cn"
     },
     {
+      "id": "upstage",
+      "name": "Upstage",
+      "n": 5,
+      "cheapest": 0.1,
+      "latest": "2026-09-22",
+      "country": "intl"
+    },
+    {
       "id": "bailing",
       "name": "蚂蚁百灵",
       "n": 5,
@@ -170,11 +178,11 @@
       "country": "cn"
     },
     {
-      "id": "upstage",
-      "name": "Upstage",
-      "n": 5,
-      "cheapest": 0.1,
-      "latest": "2026-09-22",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "n": 4,
+      "cheapest": 1,
+      "latest": "2025-02-01",
       "country": "intl"
     },
     {
@@ -199,14 +207,6 @@
       "n": 3,
       "cheapest": 0.95,
       "latest": "2026-08-03",
-      "country": "intl"
-    },
-    {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "n": 4,
-      "cheapest": 1,
-      "latest": "2025-02-01",
       "country": "intl"
     },
     {

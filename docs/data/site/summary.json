@@ -5,10 +5,10 @@
   "counts": {
     "new": 0,
     "retired": 0,
-    "price": 0,
+    "price": 5,
     "context": 0,
-    "news": 4,
-    "facts": 0,
+    "news": 6,
+    "facts": 5,
     "newsAttached": 0
   },
   "degraded": [
@@ -49,7 +49,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "id": "QwenLM",
@@ -73,13 +73,13 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 2
+      "count": 3
     }
   ],
   "totals": {
     "originVendors": 33,
     "originModels": 628,
     "channels": 284,
-    "allEntries": 9878
+    "allEntries": 9877
   }
 }
