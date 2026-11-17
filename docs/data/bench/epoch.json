@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 229,
+  "count": 230,
   "models": [
     {
       "model": "GPT-5.2",
@@ -435,6 +435,18 @@
           "n": 16,
           "avg": 0.4889,
           "best": 0.9556
+        }
+      }
+    },
+    {
+      "model": "GPT-6.2 Astra",
+      "release": "2026-11-17",
+      "nRuns": 14,
+      "domains": {
+        "(未标注)": {
+          "n": 14,
+          "avg": 0.7319,
+          "best": 1
         }
       }
     },
