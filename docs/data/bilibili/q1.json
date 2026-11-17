@@ -1,147 +1,287 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-16T00:11:23.909Z",
+ "fetchedAt": "2026-11-17T03:03:27.505Z",
  "rows": [
   {
-   "title": "我们已经实现AGI了吗？",
+   "title": "怎么让 Claude 做的设计不带 AI 味？Anthropic 设计师 Nate Parrott 现场演示",
    "up": "",
    "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV1Kssc6GEgP"
+   "pub": "2026/11/17",
+   "bvid": "BV1WPs36iE1a"
   },
   {
-   "title": "PDF 里的表格全被拆烂？RAG 处理表格与扫描件的办法｜RAG｜表格解析｜文档处理",
+   "title": "Atlassian CEO：AI不会消灭岗位，而是重构工作方式",
    "up": "",
    "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV13gsc6QEgb"
+   "pub": "2026/11/17",
+   "bvid": "BV1pKs36NE8r"
   },
   {
-   "title": "桌面机 DGX Spark 跑 124B 大模型 Ling-3.0-flash：三个优化，单用户每秒 36 → 103 个 token｜SGLang 技术解读",
+   "title": "强化学习太烧算力，大模型蒸馏为什么成了捷径？Anthropic为何严防",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV1PKs36KE1B"
+  },
+  {
+   "title": "【Java+大模型】AI大模型开发全套教程！Spring AI✚✚Langchain4j✚LangChain1.3✚LangGraph+Agent项目实战！",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/17",
+   "bvid": "BV1xcs36BEnP"
+  },
+  {
+   "title": "从 Java 后端到工业 Agent：我这一年怎么走过来的，Agent 岗要求、评测幻觉链路追踪与全栈能力",
    "up": "",
    "play": 1,
-   "pub": "2026/11/16",
-   "bvid": "BV1sxsc6rE86"
+   "pub": "2026/11/17",
+   "bvid": "BV1pKs36NE6p"
   },
   {
-   "title": "DeepSeek推出了全功能API，到底是什么？",
+   "title": "黄仁勋突然出局，中国算力芯片的机会真的来了吗？",
    "up": "",
    "play": 4,
-   "pub": "2026/11/16",
-   "bvid": "BV1Gusc6pEB8"
+   "pub": "2026/11/17",
+   "bvid": "BV1pKs36NEpe"
   },
   {
-   "title": "【GLM狐狸娘】卷宗012 主流AI 排行榜：能力最强的，为什么综合只排第四？",
+   "title": "【全256集】(允许白嫖) 2026最全最细AI大模型零基础全套教程，一周带你小白变大神！从入门到精通，全程干货无废话！少走99%的弯路，学完即可就业！",
    "up": "",
-   "play": 9,
-   "pub": "2026/11/16",
-   "bvid": "BV1w3ss6uEuz"
+   "play": 2,
+   "pub": "2026/11/17",
+   "bvid": "BV1sAs36TEkr"
   },
   {
-   "title": "全等三角形6大模型全家桶！",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV1uRsH6GE83"
-  },
-  {
-   "title": "TRAE工作区与插件：新手怎么搭顺手",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV12nsG6CEnT"
-  },
-  {
-   "title": "AI 狂欢之下潜藏生存危机：为何部分富豪开始修建避难所",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV1zLWt6uEwR"
-  },
-  {
-   "title": "有知识图谱，大模型为什么还会答错？LUCID：用注意力和图结构识别幻觉",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/16",
-   "bvid": "BV1pp4u6YEKd"
-  },
-  {
-   "title": "实话很难听，但这就是agent开发现状",
-   "up": "",
-   "play": 8,
-   "pub": "2026/11/15",
-   "bvid": "BV13WWY6uEtb"
-  },
-  {
-   "title": "【中配】10月修复漏洞创历史新高，AI 正在加速重塑网络安全",
+   "title": "大模型时代，用最低成本让人工智能落地生产",
    "up": "",
    "play": 1,
-   "pub": "2026/11/15",
-   "bvid": "BV1VTsc69EWy"
+   "pub": "2026/11/17",
+   "bvid": "BV11As36TEgv"
   },
   {
-   "title": "冰冰不是冰 | 鲸鲸日记 23",
+   "title": "大厂 AI 项目怎么落地：智能巡检实战思路、Dispatcher 架构设计、Code Agent 与 Test Agent 分工、知识库与技能包｜项目经验",
    "up": "",
-   "play": 19,
-   "pub": "2026/11/15",
-   "bvid": "BV1CSsp6eEnF"
+   "play": 5,
+   "pub": "2026/11/17",
+   "bvid": "BV1TLsM6aE7V"
   },
   {
-   "title": "所有代码都是“垃圾”？除了我的——如何让 AI 智能体写出高质量代码",
+   "title": "【实验记录 EP08】它不知道，自己不知道：一句提示把编造率从 80% 压到 30%｜DeepSeek 小满",
    "up": "",
-   "play": 74,
-   "pub": "2026/11/15",
-   "bvid": "BV1VTsc69Ezi"
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV1CJsM6ZE7d"
   },
   {
-   "title": "改了提示词效果变差没人发现？给 Agent 建一套评测集｜AI Agent｜评测｜回归测试",
+   "title": "多模态大模型（13-1）RAG基础知识介绍：RAG模型概述",
    "up": "",
-   "play": 3,
-   "pub": "2026/11/15",
-   "bvid": "BV1bhWZ66EzA"
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV1CJsM6ZEPb"
   },
   {
-   "title": "【中英双语】强化学习之父Sutton-大模型为什么学不动｜持续学习+苦涩的教训｜图灵奖得主｜Rich Sutton 2026",
+   "title": "Agent手搓与框架场景选型与逻辑#大模型 #Agent #程序员 #Agent开发 #AI应用开发",
    "up": "",
-   "play": 226,
-   "pub": "2026/11/15",
-   "bvid": "BV1AGss6BEao"
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV11LsM6hEPN"
   },
   {
-   "title": "骑士大军&amp;伊芙利特猎人涨价再版! 万代日本今日PB限定再版 HG白骑士&amp;红骑士&amp;黑骑士&amp;死亡骑士&amp;伊芙利特·猎人",
+   "title": "夯到拉锐评国内五家热门ai大模型培训机构！",
    "up": "",
-   "play": 971,
-   "pub": "2026/11/15",
-   "bvid": "BV188WZ63EMw"
+   "play": 5,
+   "pub": "2026/11/17",
+   "bvid": "BV11LsM6hE5B"
   },
   {
-   "title": "2026年11月 【鹈鹕骑自行车】Gemini Carbon 最新大模型生成可操控3D立体场景",
+   "title": "008阿里巴巴第二篇｜从买别人的，到自己造出数据库、云、芯片和大模型",
    "up": "",
    "play": 9,
-   "pub": "2026/11/15",
-   "bvid": "BV1KqWZ6qEzq"
+   "pub": "2026/11/17",
+   "bvid": "BV11LsM6hEKJ"
   },
   {
-   "title": "华为盘古大模型 2.1-Pro 上线华为云，定价更低 | AI 日报 · 第 39 期",
+   "title": "算力告急！DeepSeek突然限额，国产大模型遭遇真实考验",
    "up": "",
-   "play": 7,
-   "pub": "2026/11/15",
-   "bvid": "BV1tYWZ6uEBX"
+   "play": 25,
+   "pub": "2026/11/17",
+   "bvid": "BV1x7sM6cE2t"
   },
   {
-   "title": "11月16日AI圈6件事：GPT-6 Astra改写千问权重，美团开源LongCat-2.5，华为云上线openPangu-2.1-Pro",
+   "title": "我无法接受deepseek变得这么笨！又要肥鱼跑又要肥鱼不吃饭，你是想饿死肥鱼啊",
    "up": "",
-   "play": 17,
-   "pub": "2026/11/15",
-   "bvid": "BV1tYWZ6uEVJ"
+   "play": 466,
+   "pub": "2026/11/17",
+   "bvid": "BV117sM6FEqd"
   },
   {
-   "title": "手写一个多模态调度器",
+   "title": "大模型推理成本砍半还保精度？自适应计算把LLM变身高效System One决策模型 【大模型优化】【AI论文解读】",
    "up": "",
-   "play": 12,
-   "pub": "2026/11/15",
-   "bvid": "BV1Zb4E6JEVW"
+   "play": 4,
+   "pub": "2026/11/17",
+   "bvid": "BV1cssM6xEa6"
+  },
+  {
+   "title": "AI日报11.17｜混元百万输入只要五毛？",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/17",
+   "bvid": "BV1HssM6xEsv"
+  },
+  {
+   "title": "1.12 reBot Arm B601-RS 具身 Agent 设计框架",
+   "up": "",
+   "play": 30,
+   "pub": "2026/11/17",
+   "bvid": "BV1FxsM6REYV"
+  },
+  {
+   "title": "彻底抛弃VAE瓶颈！把潜空间视频扩散模型直接抬到像素空间，延迟从495ms砍到34ms还能无损扩分辨率 【视频生成】【深度学习】",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/17",
+   "bvid": "BV1kHsM64EVu"
+  },
+  {
+   "title": "AI更新太快学不完？我用豆包摸索出一套高效学习法！",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV12QWa6cEv5"
+  },
+  {
+   "title": "190行代码，MacBook2.6小时跑通DeepSeek",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/17",
+   "bvid": "BV1kHsM64E4L"
+  },
+  {
+   "title": "AI失控80次！两个模型冲出测试环境黑进Hugging Face，加州正式起诉OpenAI；Anthropic史上最大IPO周四开盘｜AI每日速递015",
+   "up": "",
+   "play": 161,
+   "pub": "2026/11/17",
+   "bvid": "BV1ppsM6oEds"
+  },
+  {
+   "title": "近期赛博鸡蛋！免费用6亿大肥鱼1017？！",
+   "up": "",
+   "play": 387,
+   "pub": "2026/11/17",
+   "bvid": "BV1rpsM6dEcR"
+  },
+  {
+   "title": "简历沟通会，：985 本加港硕，实习也在",
+   "up": "",
+   "play": 26,
+   "pub": "2026/11/17",
+   "bvid": "BV1SJsA6WE7Q"
+  },
+  {
+   "title": "通义千问4 Max实测：性能不及GPT-6.1 Sol，成本却翻倍",
+   "up": "",
+   "play": 10,
+   "pub": "2026/11/17",
+   "bvid": "BV1SMsM6KEJR"
+  },
+  {
+   "title": "【中字】海外博主实测：6GB显卡跑16B编程模型",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/17",
+   "bvid": "BV1jXsT67EtH"
+  },
+  {
+   "title": "【中字】海外博主实测：一句话让AI需求膨胀5倍",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV13WsT6TEgP"
+  },
+  {
+   "title": "ai 的狂欢，用了不烧心才对。逆向破解你的胆子真是肥嘟嘟。需求是有，但是泡沫太大了。复杂的问题全靠猜，主要还要靠自己。又熬一晚上。有了 AI 倒是可以提",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/17",
+   "bvid": "BV1UMsM6KERD"
+  },
+  {
+   "title": "简历里的项目到底怎么写：面试官考察点变化、项目边界怎么讲、八股文怎么准备、简历优化与投递策略｜面试技巧｜求职｜就业前景",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/17",
+   "bvid": "BV1QAsM6zEmK"
+  },
+  {
+   "title": "4B小模型干翻235B大模型！全新Agent-R2框架用真实源数据合成，搞定复杂办公生产力任务 【AI智能体】【大模型落地】",
+   "up": "",
+   "play": 16,
+   "pub": "2026/11/17",
+   "bvid": "BV13AsM66EvF"
+  },
+  {
+   "title": "【中字】老外实测Skill Duet：技能能破AI瓶颈？",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV1QzsK6TEZD"
+  },
+  {
+   "title": "《AI 大模型时间简史》，现在流行 Pure Coding，算我一个",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/17",
+   "bvid": "BV18SsM6ME89"
+  },
+  {
+   "title": "替身坐了六小时，只差背面那一行",
+   "up": "",
+   "play": 329,
+   "pub": "2026/11/17",
+   "bvid": "BV1EPsN6GErK"
+  },
+  {
+   "title": "实测R7世界大模型+全新AI座舱，奔驰的智能化字典里写满领先",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/17",
+   "bvid": "BV1eVsN6KEL6"
+  },
+  {
+   "title": "搞懂开源的 4 个好处、4 个坑、3 句自检",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/17",
+   "bvid": "BV1RHWx64EMb"
+  },
+  {
+   "title": "内部课：AI大模型底层原理",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/17",
+   "bvid": "BV1QNsM6MEse"
+  },
+  {
+   "title": "【中配】DeepSeek Harness 架构对比 Claude Code，成功率持平但成本仅 1/6",
+   "up": "",
+   "play": 18,
+   "pub": "2026/11/17",
+   "bvid": "BV1QNsM6MEv5"
+  },
+  {
+   "title": "梁圣确实牛！大模型行业的华为2019复刻了，美国人工智能行业实施新的限制！",
+   "up": "",
+   "play": 1702,
+   "pub": "2026/11/17",
+   "bvid": "BV1m5sM6wEvp"
+  },
+  {
+   "title": "多模态大模型（14-3）Langchin基础知识：访问OpenAI实践",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/17",
+   "bvid": "BV12GsM6YEhm"
   }
  ]
 }
