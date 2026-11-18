@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "mode": "diff",
-  "baselineDate": "2026-11-17",
+  "baselineDate": "2026-11-18",
   "counts": {
-    "new": 2,
+    "new": 0,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 27,
-    "facts": 2,
+    "news": 24,
+    "facts": 0,
     "newsAttached": 0
   },
   "degraded": [
@@ -56,7 +56,7 @@
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 5
     },
     {
       "id": "meta-llama",
@@ -74,10 +74,127 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 3
+      "count": 2
     }
   ],
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Inside the Codex sandbox",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "Inside the Codex sandbox",
+      "href": "https://openai.com/index/inside-the-codex-sandbox",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "The Silent Consensus",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "The Silent Consensus",
+      "href": "https://openai.com/index/the-silent-consensus",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Advancing chip design with OpenAI models",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "Advancing chip design with OpenAI models",
+      "href": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "href": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "Genie 4 is now available",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "Genie 4 is now available",
+      "href": "https://deepmind.google/blog/genie-4-is-now-available/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "The Gemini app is now available on lower-memory Android devices.",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "The Gemini app is now available on lower-memory Android devices.",
+      "href": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "chat-demo · Chat Demo",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "chat-demo · Chat Demo",
+      "href": "https://github.com/deepseek-ai/chat-demo/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "DeepInfer · DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "href": "https://github.com/deepseek-ai/DeepInfer/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -92,117 +209,69 @@
       "external": true
     },
     {
-      "type": "new",
-      "key": "openai/GPT-6.2 Astra",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-6.2 Astra",
-      "date": "2026-11-17",
-      "facts": {
-        "ctx": 1050000,
-        "in": 8,
-        "outCost": 40,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "GPT-6.2 Astra · 闭源 · 1.1M 上下文 · 输入 $8/M · 支持推理",
-      "href": "/models/gpt-6-2-astra/",
-      "shared": 11,
-      "evidence": [
-        {
-          "title": "Introducing GPT-6.2 Astra and Sol",
-          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Strengthening NATO and allied cyber defenses with AI",
-          "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Introducing ChatGPT for Sales",
-          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Astra for Law leads in legal intelligence",
-          "url": "https://openai.com/index/astra-law-6-2",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Introducing OpenAI for Chile",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Broadening access to AI for scientists",
-          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Strengthening the fight against online child sexual abuse with new tools and support",
-          "url": "https://openai.com/index/strengthening-online-child-safety",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Science at the Frontier: How scientists use ChatGPT",
-          "url": "https://openai.com/index/science-at-the-frontier",
-          "source": "OpenAI"
-        },
-        {
-          "title": "How Revolut raises ambition without lowering the bar",
-          "url": "https://openai.com/business/customer-stories/revolut",
-          "source": "OpenAI"
-        },
-        {
-          "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-          "url": "https://openai.com/index/lvmh-media-division-partnership",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Our first phase of embedded assessments",
-          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-          "source": "OpenAI"
-        },
-        {
-          "title": "More ways to move care forward with ChatGPT for Healthcare",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Advancing computer-use agents for healthcare teams",
-          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-          "source": "OpenAI"
-        },
-        {
-          "title": "The King’s Trust and OpenAI launch £1m partnership",
-          "url": "https://openai.com/index/the-kings-trust-and-openai",
-          "source": "OpenAI"
-        },
-        {
-          "title": "At Holiday Extras, dots get to work before anyone asks",
-          "url": "https://openai.com/business/customer-stories/holiday-extras-dots",
-          "source": "OpenAI"
-        }
-      ]
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "source": "Qwen",
+      "external": true
     },
     {
-      "type": "new",
-      "key": "openai/GPT-6.2 Sol",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-6.2 Sol",
-      "date": "2026-11-17",
-      "facts": {
-        "ctx": 1050000,
-        "in": 2,
-        "outCost": 10,
-        "open": false,
-        "reasoning": true
-      },
-      "text": "GPT-6.2 Sol · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/gpt-6-2-sol/",
-      "shared": 11
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
     },
     {
       "type": "news",
@@ -248,11 +317,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Astra for Law leads in legal intelligence",
+      "name": "Introducing OpenAI for Chile",
       "date": "2026-11-17",
       "facts": {},
-      "text": "Astra for Law leads in legal intelligence",
-      "href": "https://openai.com/index/astra-law-6-2",
+      "text": "Introducing OpenAI for Chile",
+      "href": "https://openai.com/index/introducing-openai-for-chile",
       "source": "OpenAI",
       "external": true
     },
@@ -261,11 +330,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Introducing OpenAI for Chile",
+      "name": "Astra for Law leads in legal intelligence",
       "date": "2026-11-17",
       "facts": {},
-      "text": "Introducing OpenAI for Chile",
-      "href": "https://openai.com/index/introducing-openai-for-chile",
+      "text": "Astra for Law leads in legal intelligence",
+      "href": "https://openai.com/index/astra-law-6-2",
       "source": "OpenAI",
       "external": true
     },
@@ -280,58 +349,6 @@
       "text": "Put Gemini to work for you",
       "href": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
       "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-11-17",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
-      "date": "2026-11-17",
-      "facts": {},
-      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
-      "href": "https://github.com/deepseek-ai/3FS/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-11-17",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-11-17",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
       "external": true
     },
     {
@@ -370,175 +387,6 @@
       "facts": {},
       "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
       "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Broadening access to AI for scientists",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Broadening access to AI for scientists",
-      "href": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Strengthening the fight against online child sexual abuse with new tools and support",
-      "href": "https://openai.com/index/strengthening-online-child-safety",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Science at the Frontier: How scientists use ChatGPT",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Science at the Frontier: How scientists use ChatGPT",
-      "href": "https://openai.com/index/science-at-the-frontier",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "How Revolut raises ambition without lowering the bar",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "How Revolut raises ambition without lowering the bar",
-      "href": "https://openai.com/business/customer-stories/revolut",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "href": "https://openai.com/index/lvmh-media-division-partnership",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Our first phase of embedded assessments",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Our first phase of embedded assessments",
-      "href": "https://openai.com/index/our-first-phase-of-embedded-assessments",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "More ways to move care forward with ChatGPT for Healthcare",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "More ways to move care forward with ChatGPT for Healthcare",
-      "href": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Advancing computer-use agents for healthcare teams",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Advancing computer-use agents for healthcare teams",
-      "href": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "The King’s Trust and OpenAI launch £1m partnership",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "The King’s Trust and OpenAI launch £1m partnership",
-      "href": "https://openai.com/index/the-kings-trust-and-openai",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "At Holiday Extras, dots get to work before anyone asks",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "At Holiday Extras, dots get to work before anyone asks",
-      "href": "https://openai.com/business/customer-stories/holiday-extras-dots",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "google",
-      "vendorName": "Google Blog · AI",
-      "name": "New Ask Maps features to help with holiday travel and prep",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "New Ask Maps features to help with holiday travel and prep",
-      "href": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source": "Google Blog · AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "date": "2026-11-16",
-      "facts": {},
-      "text": "ZCode · Z.ai's coding agent harness. Powerful, intelligent, extensible.",
-      "href": "https://github.com/zai-org/ZCode/releases",
       "source": "智谱 AI",
       "external": true
     }

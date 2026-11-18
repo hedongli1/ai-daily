@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "vendors": [
     {
       "id": "openai",
@@ -26,19 +26,19 @@
       "country": "intl"
     },
     {
-      "id": "google",
-      "name": "谷歌",
-      "n": 38,
-      "cheapest": 0,
-      "latest": "2026-11-12",
-      "country": "intl"
-    },
-    {
       "id": "thinkingmachines",
       "name": "Thinking Machines",
       "n": 8,
       "cheapest": 0.195,
       "latest": "2026-07-30",
+      "country": "intl"
+    },
+    {
+      "id": "google",
+      "name": "谷歌",
+      "n": 38,
+      "cheapest": 0,
+      "latest": "2026-11-12",
       "country": "intl"
     },
     {
@@ -90,19 +90,19 @@
       "country": "cn"
     },
     {
-      "id": "xai",
-      "name": "xAI",
-      "n": 11,
-      "cheapest": 1,
-      "latest": "2026-10-01",
-      "country": "intl"
-    },
-    {
       "id": "morph",
       "name": "Morph",
       "n": 4,
       "cheapest": 0.8,
       "latest": "2026-07-16",
+      "country": "intl"
+    },
+    {
+      "id": "xai",
+      "name": "xAI",
+      "n": 11,
+      "cheapest": 1,
+      "latest": "2026-10-01",
       "country": "intl"
     },
     {
@@ -122,14 +122,6 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
       "id": "stepfun",
       "name": "阶跃星辰",
       "n": 7,
@@ -138,11 +130,19 @@
       "country": "cn"
     },
     {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
+      "id": "meta",
+      "name": "Meta",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
+    },
+    {
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 6,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
       "country": "cn"
     },
     {
@@ -154,11 +154,11 @@
       "country": "cn"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -176,14 +176,6 @@
       "cheapest": 0.1,
       "latest": "2026-09-22",
       "country": "intl"
-    },
-    {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 8,
-      "cheapest": 0,
-      "latest": "2026-11-04",
-      "country": "cn"
     },
     {
       "id": "deepseek",
@@ -218,6 +210,14 @@
       "country": "intl"
     },
     {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 8,
+      "cheapest": 0,
+      "latest": "2026-11-04",
+      "country": "cn"
+    },
+    {
       "id": "poolside",
       "name": "Poolside",
       "n": 3,
@@ -234,12 +234,12 @@
       "country": "intl"
     },
     {
-      "id": "sarvam",
-      "name": "Sarvam AI",
+      "id": "longcat",
+      "name": "美团 LongCat",
       "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
-      "country": "intl"
+      "cheapest": 0.3,
+      "latest": "2026-09-25",
+      "country": "cn"
     },
     {
       "id": "cerebras",
@@ -258,12 +258,12 @@
       "country": "intl"
     },
     {
-      "id": "longcat",
-      "name": "美团 LongCat",
+      "id": "sarvam",
+      "name": "Sarvam AI",
       "n": 2,
-      "cheapest": 0.3,
-      "latest": "2026-09-25",
-      "country": "cn"
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
+      "country": "intl"
     }
   ]
 }
