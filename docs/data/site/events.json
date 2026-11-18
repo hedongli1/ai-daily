@@ -4,6 +4,19 @@
   "baselineDate": "2026-11-17",
   "events": [
     {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-18",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
       "type": "new",
       "key": "openai/GPT-6.2 Astra",
       "vendor": "openai",
@@ -19,7 +32,7 @@
       },
       "text": "GPT-6.2 Astra · 闭源 · 1.1M 上下文 · 输入 $8/M · 支持推理",
       "href": "/models/gpt-6-2-astra/",
-      "shared": 2,
+      "shared": 11,
       "evidence": [
         {
           "title": "Introducing GPT-6.2 Astra and Sol",
@@ -32,13 +45,18 @@
           "source": "OpenAI"
         },
         {
-          "title": "Introducing OpenAI for Chile",
-          "url": "https://openai.com/index/introducing-openai-for-chile",
+          "title": "Introducing ChatGPT for Sales",
+          "url": "https://openai.com/index/introducing-chatgpt-for-sales",
           "source": "OpenAI"
         },
         {
           "title": "Astra for Law leads in legal intelligence",
           "url": "https://openai.com/index/astra-law-6-2",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Introducing OpenAI for Chile",
+          "url": "https://openai.com/index/introducing-openai-for-chile",
           "source": "OpenAI"
         },
         {
@@ -72,13 +90,13 @@
           "source": "OpenAI"
         },
         {
-          "title": "Advancing computer-use agents for healthcare teams",
-          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+          "title": "More ways to move care forward with ChatGPT for Healthcare",
+          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
           "source": "OpenAI"
         },
         {
-          "title": "More ways to move care forward with ChatGPT for Healthcare",
-          "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+          "title": "Advancing computer-use agents for healthcare teams",
+          "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
           "source": "OpenAI"
         },
         {
@@ -109,7 +127,7 @@
       },
       "text": "GPT-6.2 Sol · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
       "href": "/models/gpt-6-2-sol/",
-      "shared": 1
+      "shared": 11
     },
     {
       "type": "news",
@@ -142,11 +160,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Introducing OpenAI for Chile",
+      "name": "Introducing ChatGPT for Sales",
       "date": "2026-11-17",
       "facts": {},
-      "text": "Introducing OpenAI for Chile",
-      "href": "https://openai.com/index/introducing-openai-for-chile",
+      "text": "Introducing ChatGPT for Sales",
+      "href": "https://openai.com/index/introducing-chatgpt-for-sales",
       "source": "OpenAI",
       "external": true
     },
@@ -160,6 +178,19 @@
       "facts": {},
       "text": "Astra for Law leads in legal intelligence",
       "href": "https://openai.com/index/astra-law-6-2",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Introducing OpenAI for Chile",
+      "date": "2026-11-17",
+      "facts": {},
+      "text": "Introducing OpenAI for Chile",
+      "href": "https://openai.com/index/introducing-openai-for-chile",
       "source": "OpenAI",
       "external": true
     },
@@ -200,19 +231,6 @@
       "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
       "href": "https://github.com/deepseek-ai/3FS/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-17",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -363,11 +381,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "Advancing computer-use agents for healthcare teams",
+      "name": "More ways to move care forward with ChatGPT for Healthcare",
       "date": "2026-11-16",
       "facts": {},
-      "text": "Advancing computer-use agents for healthcare teams",
-      "href": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+      "text": "More ways to move care forward with ChatGPT for Healthcare",
+      "href": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
       "source": "OpenAI",
       "external": true
     },
@@ -376,11 +394,11 @@
       "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "More ways to move care forward with ChatGPT for Healthcare",
+      "name": "Advancing computer-use agents for healthcare teams",
       "date": "2026-11-16",
       "facts": {},
-      "text": "More ways to move care forward with ChatGPT for Healthcare",
-      "href": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "text": "Advancing computer-use agents for healthcare teams",
+      "href": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
       "source": "OpenAI",
       "external": true
     },
