@@ -3,10 +3,10 @@
   "board": {
     "latest": [
       {
-        "n": "gpt-6-2-astra",
-        "name": "GPT-6.2 Astra",
-        "vn": "OpenAI",
-        "val": "2026-11-17",
+        "n": "gemini-4-neon",
+        "name": "Gemini 4 Neon",
+        "vn": "谷歌",
+        "val": "2026-11-18",
         "metric": "发布日期"
       }
     ],
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 123,
+      "models": 124,
       "n": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
       "vn": "谷歌",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 67,
+      "models": 68,
       "n": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
       "vn": "谷歌",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 64,
+      "models": 65,
       "n": "gemini-4-carbon",
       "name": "Gemini 4 Carbon",
       "vn": "谷歌",
@@ -98,7 +98,7 @@
     },
     {
       "tag": "Video",
-      "models": 13,
+      "models": 14,
       "n": "kimi-k3-1-pro",
       "name": "Kimi K3.1 Pro",
       "vn": "月之暗面",
@@ -108,7 +108,7 @@
     },
     {
       "tag": "Audio",
-      "models": 6,
+      "models": 7,
       "n": "gemini-3-7-flash",
       "name": "Gemini 3.7 Flash",
       "vn": "谷歌",

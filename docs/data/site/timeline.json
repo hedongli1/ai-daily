@@ -2,6 +2,15 @@
   "date": "2026-11-19",
   "timeline": [
     {
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "vn": "谷歌",
+      "rel": "2026-11-18",
+      "ctx": 1048576,
+      "in": 3,
+      "open": 0
+    },
+    {
       "n": "gpt-6-2-sol",
       "name": "GPT-6.2 Sol",
       "vn": "OpenAI",
