@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -1111,11 +1111,11 @@
       "name": "Kimi K2.6"
     },
     "kimi-k3-1-pro": {
-      "runs": 8,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision,Video": {
-          "n": 8,
-          "avg": 0.6792,
+          "n": 13,
+          "avg": 0.4798,
           "best": 1
         }
       },

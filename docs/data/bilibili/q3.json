@@ -1,287 +1,147 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-17T18:52:05.097Z",
+ "fetchedAt": "2026-11-19T18:44:49.874Z",
  "rows": [
   {
-   "title": "国内终于有不卷编程的大模型了！书生 Sage-S2.1-Flash 发布，321B MoE 专攻科研推理，论文分析、科学计算、科研 Agent 全都有！",
+   "title": "全生命周期完全开源！6款从0.9B到375B参数的前沿大模型舰队，连中间 checkpoint、21.6TB训练数据全放出来了 【开源大模型】【LLM前沿解读】",
    "up": "",
-   "play": 608,
-   "pub": "2026/11/17",
-   "bvid": "BV1EGsr6kENa"
+   "play": 7,
+   "pub": "2026/11/19",
+   "bvid": "BV1yFsa6fEKq"
   },
   {
-   "title": "中美AI之争，为何开源必胜？",
+   "title": "中国电信星智大模型Xing4全解析：基于昇腾+MindSpore的国产Agentic MoE大模型，29B开源版支持256K长上下文 【大模型技术】【国产AI算",
    "up": "",
-   "play": 48,
-   "pub": "2026/11/17",
-   "bvid": "BV1JRWt6kEzg"
+   "play": 19,
+   "pub": "2026/11/19",
+   "bvid": "BV1Lfsa6JEfH"
   },
   {
-   "title": "材料科学智能体 MatOS 正式开源 | AI晚报 2026年11月17日",
+   "title": "腾讯 Hy4-Flash 正式开源！220B 大模型仅激活 12B，官方提供 GGUF 量化，Mac 本地部署最高 50 Tokens/s！",
    "up": "",
-   "play": 13,
-   "pub": "2026/11/17",
-   "bvid": "BV1CBsr6REz8"
+   "play": 843,
+   "pub": "2026/11/19",
+   "bvid": "BV1M7sY6TEN6"
+  },
+  {
+   "title": "【开源科研神器】别再单聊一个AI写论文了！把 Gemini 4 + Claude + GPT-6.2 请上同一张本地圆桌盲评互怼",
+   "up": "",
+   "play": 51,
+   "pub": "2026/11/19",
+   "bvid": "BV1hWs86vExX"
+  },
+  {
+   "title": "我用GPT 新模型给公众号自动排版 skill 做了波大更新：支持 AI 协同修改，排完直推草稿箱！",
+   "up": "",
+   "play": 52,
+   "pub": "2026/11/19",
+   "bvid": "BV1LRs865EXz"
+  },
+  {
+   "title": "我给大模型做了个评测金融PDF能力的「鲁大师」，47个真实场景，跑分上榜全开源",
+   "up": "",
+   "play": 68,
+   "pub": "2026/11/19",
+   "bvid": "BV1Kjsh6FEXJ"
   },
   {
    "title": "ZCode突然开源了，扒一扒有哪些看点",
    "up": "",
-   "play": 35,
-   "pub": "2026/11/17",
-   "bvid": "BV1PBsr6RELK"
+   "play": 94,
+   "pub": "2026/11/19",
+   "bvid": "BV1uSsh6qE2h"
   },
   {
-   "title": "开源生图模型大乱斗！Moss imageVSQwenVSH3VSZ iamgeVSkrea2！多场景硬核实测，最终结果简直出乎意料！",
+   "title": "K2-Horizon 发布：六个模型一次开源，旗舰跑分超 GPT-5.6 Terra | softwareBuy 科技速报第 21 期",
    "up": "",
-   "play": 1195,
-   "pub": "2026/11/17",
-   "bvid": "BV12hsz6QE7p"
+   "play": 122,
+   "pub": "2026/11/19",
+   "bvid": "BV1Q2sh6BESY"
   },
   {
-   "title": "华为云开源具身大模型，敢让客户自己训",
+   "title": "达尔文大模型，Darwin-180B实测：qwen3.8flash真能玩出花来么？",
    "up": "",
-   "play": 2,
-   "pub": "2026/11/17",
-   "bvid": "BV1pZsB6LEiT"
+   "play": 358,
+   "pub": "2026/11/19",
+   "bvid": "BV1GhsV6dEbn"
   },
   {
-   "title": "2GB显存能跑什么大模型？llmfit 一条命令给答案，39K Stars，它说能跑14508个",
+   "title": "Hy4 flash发布就开源！五个案例实测，真把大模型使用成本打下去了",
    "up": "",
-   "play": 157,
-   "pub": "2026/11/17",
-   "bvid": "BV1mLsg6uEEA"
+   "play": 3717,
+   "pub": "2026/11/19",
+   "bvid": "BV1DFsb6cEhd"
   },
   {
-   "title": "16GB 老卡还没退休！MI50 在 Windows 跑起大模型，方案已开源！",
+   "title": "nex-n2.6能动性多模态大模型API调用说明及开源源码详解(免费体验)",
    "up": "",
-   "play": 100,
-   "pub": "2026/11/17",
-   "bvid": "BV13nsz6bEbZ"
+   "play": 2752,
+   "pub": "2026/11/19",
+   "bvid": "BV1mUsb6bEy3"
   },
   {
-   "title": "阿里 Qwen4-Max 正式版发布：2.4 万亿参数只激活 710 亿，单任务成本砍掉 58%",
+   "title": "为什么说FreeCAD是3D打印的最佳CAD软件？盘点5大核心优势 | 开源CAD软件/参数化建模/模型导出",
    "up": "",
-   "play": 117,
-   "pub": "2026/11/17",
-   "bvid": "BV1Gfsz6YEZr"
+   "play": 319,
+   "pub": "2026/11/19",
+   "bvid": "BV1TTs46SEUj"
   },
   {
-   "title": "人称小模型之王。额度用完了，接下来替你干活的是——千问",
+   "title": "【开源/翻译/三端】耗时4.00000天斩获1star的免费大模型API翻译软件 Windows 安卓 Mac",
    "up": "",
-   "play": 855,
-   "pub": "2026/11/17",
-   "bvid": "BV19Zsz6AEuP"
+   "play": 39,
+   "pub": "2026/11/19",
+   "bvid": "BV1MMsb6oEDm"
   },
   {
-   "title": "美国AI监管三法案来了：81%的大模型用户选开源，其中六成来自中国大陆（11.15）",
+   "title": "谷歌发布 Gemini 4 Neon，腾讯混元 Hy4 Flash 开源｜Will叔每日AI动态 11.19",
    "up": "",
-   "play": 96,
-   "pub": "2026/11/17",
-   "bvid": "BV1Z2sz66Ev8"
+   "play": 262,
+   "pub": "2026/11/19",
+   "bvid": "BV1hzs46ZEnB"
   },
   {
-   "title": "【复旦演讲】ZStack CTO王为：从云到AI，基础设施为什么坚持开源？",
+   "title": "中国开源模型赢得的好感，到底从哪来？",
    "up": "",
-   "play": 21,
-   "pub": "2026/11/17",
-   "bvid": "BV1cDsu64EwL"
+   "play": 348,
+   "pub": "2026/11/19",
+   "bvid": "BV1Ras46aEmJ"
   },
   {
-   "title": "同一个模型本地部署，别人那是天才，你这就是傻子：四行配置的事",
+   "title": "【第12期】充 AI 会员一个月要好几十！GitHub 快八万星的开源项目，装好白用 26 个大模型，DeepSeek、GLM 全在里面，不用注册、不用填密钥，",
    "up": "",
-   "play": 538,
-   "pub": "2026/11/17",
-   "bvid": "BV1GUsg6mEUo"
+   "play": 205,
+   "pub": "2026/11/19",
+   "bvid": "BV1Hzst62EJQ"
   },
   {
-   "title": "实测Qwen 4 max做3D微缩景观，坐等最新Qwen开源！",
+   "title": "Gemini-4-Neon 基米氖 模型速测：除了设计审美，其他全面增强的Opus5.5[直播回放]",
    "up": "",
-   "play": 126,
-   "pub": "2026/11/17",
-   "bvid": "BV1pTs36eEdQ"
+   "play": 14750,
+   "pub": "2026/11/19",
+   "bvid": "BV1Spst6tEVB"
   },
   {
-   "title": "我无法接受deepseek变得这么笨！又要肥鱼跑又要肥鱼不吃饭，你是想饿死肥鱼啊",
+   "title": "新锐推新框架Edge0：24G显卡跑145B大模型 性能超Qwen3.8 Flash！",
    "up": "",
-   "play": 1053,
-   "pub": "2026/11/17",
-   "bvid": "BV117sM6FEqd"
+   "play": 7094,
+   "pub": "2026/11/19",
+   "bvid": "BV1Sqss6nEBV"
   },
   {
-   "title": "搞懂开源的 4 个好处、4 个坑、3 句自检",
+   "title": "vLLM 新加坡技术交流回放｜Prefill、SM12x、世界模型、强化学习与 Vera Rubin",
    "up": "",
-   "play": 12,
-   "pub": "2026/11/17",
-   "bvid": "BV1RHWx64EMb"
+   "play": 803,
+   "pub": "2026/11/18",
+   "bvid": "BV1ymss6CEbc"
   },
   {
-   "title": "全本地1秒响应的开源AI伴侣：居然只完成了30%？",
+   "title": "还想养大肥鱼？还想玩模型记忆，来看看这个",
    "up": "",
-   "play": 898,
-   "pub": "2026/11/17",
-   "bvid": "BV1Go4K6kEyj"
-  },
-  {
-   "title": "【用小学知识学懂AI】《涌现系列》第一集：从大模型到智能体的发展过程中，涌现出哪些技术工程？",
-   "up": "",
-   "play": 6455,
-   "pub": "2026/11/17",
-   "bvid": "BV1ivsM6mEWu"
-  },
-  {
-   "title": "TRELLIS.2开源图片转3D模型使用和训练",
-   "up": "",
-   "play": 474,
-   "pub": "2026/11/17",
-   "bvid": "BV1FSWv6FEkr"
-  },
-  {
-   "title": "13.【中英字幕】架构能开源，数据为什么绝口不提？万亿Token从哪来 | Stanford CS336 第13讲",
-   "up": "",
-   "play": 1,
-   "pub": "2026/11/16",
-   "bvid": "BV12osM6YEsS"
-  },
-  {
-   "title": "6080亿美元算力预期被砍，华为开源具身模型：今晨五条AI消息",
-   "up": "",
-   "play": 120,
-   "pub": "2026/11/16",
-   "bvid": "BV1Ypsu61EdA"
-  },
-  {
-   "title": "斯坦福开源Memorilla：16个Token记百万字，大模型记忆新路线？",
-   "up": "",
-   "play": 129,
-   "pub": "2026/11/16",
-   "bvid": "BV1pfsK6WE3X"
-  },
-  {
-   "title": "Dirty-Moss V2：刻意避开精修感｜6 个新模型 11-16",
-   "up": "",
-   "play": 1387,
-   "pub": "2026/11/16",
-   "bvid": "BV1RQsN6uEoe"
-  },
-  {
-   "title": "【Re:从零开始的AI学习】性价比最高的模型是谁？",
-   "up": "",
-   "play": 20221,
-   "pub": "2026/11/16",
-   "bvid": "BV1DwsK6aE5R"
-  },
-  {
-   "title": "【中字】海外博主用12G显卡跑7630亿模型",
-   "up": "",
-   "play": 11,
-   "pub": "2026/11/16",
-   "bvid": "BV11usK6oEYM"
-  },
-  {
-   "title": "2.4 万亿的模型，只开 3% 上班",
-   "up": "",
-   "play": 139,
-   "pub": "2026/11/16",
-   "bvid": "BV1PasA6LEux"
-  },
-  {
-   "title": "七万星开源神器！零成本用上Claude！",
-   "up": "",
-   "play": 194,
-   "pub": "2026/11/16",
-   "bvid": "BV1NbsA67E6a"
-  },
-  {
-   "title": "国产AI编程又进化了！美团LongCat-2.5深度实测｜Claude Code接入1.6万亿参数大模型｜从3D游戏到三维世界、数字展馆、交互网页，十几个案例看",
-   "up": "",
-   "play": 355,
-   "pub": "2026/11/16",
-   "bvid": "BV133sA6fEDh"
-  },
-  {
-   "title": "闭源还是开源？选错了白花冤枉钱",
-   "up": "",
-   "play": 131,
-   "pub": "2026/11/16",
-   "bvid": "BV13Ysw6dEvj"
-  },
-  {
-   "title": "AI日报 2026-11-16（晚间版）｜阿里发布Qwen4-Max旗舰大模型，华为云开源具身世界模型WM1.2",
-   "up": "",
-   "play": 119,
-   "pub": "2026/11/16",
-   "bvid": "BV1AjsP6LEJf"
-  },
-  {
-   "title": "Text2KG：上传文档自动生成知识图谱｜通义千问 + Flask 全栈开源项目",
-   "up": "",
-   "play": 154,
-   "pub": "2026/11/16",
-   "bvid": "BV1ufsA6oEPo"
-  },
-  {
-   "title": "DeepSeek Harness 是什么：模型还是客户端？四种模式与开源生态一次讲清｜DeepSeek｜大模型｜教程",
-   "up": "",
-   "play": 320,
-   "pub": "2026/11/16",
-   "bvid": "BV1i4sP6qEEY"
-  },
-  {
-   "title": "没有几百人团队怎么训大模型？这7个中国博士生给AI当老板，实战“AI4AI”",
-   "up": "",
-   "play": 149,
-   "pub": "2026/11/16",
-   "bvid": "BV1i4sP6qELa"
-  },
-  {
-   "title": "马斯克警告说，留给普通人的时间不多了，最多还有3年的时间，靠通过出售自己的作品赚钱。3 年之后，绝大多数常规任务都将被AI全面接管，支付一个人时间将不再有意义",
-   "up": "",
-   "play": 75496,
-   "pub": "2026/11/16",
-   "bvid": "BV1zpsP63EcB"
-  },
-  {
-   "title": "本地开源模型全能部署工具，写小说、生图、跑视频，配合爆肝极速下载工具，小白也能轻松玩转AI大模型",
-   "up": "",
-   "play": 325,
-   "pub": "2026/11/16",
-   "bvid": "BV1zWsP6zEKG"
-  },
-  {
-   "title": "李开复：美国芯片管制为何反促中国开源AI崛起",
-   "up": "",
-   "play": 23,
-   "pub": "2026/11/16",
-   "bvid": "BV1vbsP6KErA"
-  },
-  {
-   "title": "【Agent大模型工程师完整学习教程】Agent底层｜落地避坑｜Skill实操｜Harness工程｜理论+业务痛点训练，对标一线大模型岗位面试，少走90%弯路！",
-   "up": "",
-   "play": 1624,
-   "pub": "2026/11/16",
-   "bvid": "BV1Zqsc6AEJD"
-  },
-  {
-   "title": "今天我开源了前段时间用AI编写的TraeCode本地模型适配器，并介绍了一下如何启用这个适配器网关服务，帮助本地大模型能够正确的运行在TraeCode里面",
-   "up": "",
-   "play": 368,
-   "pub": "2026/11/16",
-   "bvid": "BV1kgsw66ExL"
-  },
-  {
-   "title": "AI圈发生件大事，ds直接免费开源",
-   "up": "",
-   "play": 129,
-   "pub": "2026/11/16",
-   "bvid": "BV1rVsw6BE3f"
-  },
-  {
-   "title": "从4周到1天，盘古开源模型openPangu-2.1-Pro昇腾算子开发效率大幅提升，深度适配国产算力",
-   "up": "",
-   "play": 134,
-   "pub": "2026/11/16",
-   "bvid": "BV1ipsw6aEby"
+   "play": 51,
+   "pub": "2026/11/18",
+   "bvid": "BV1zbsQ6rEkx"
   }
  ]
 }

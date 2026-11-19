@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-20",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -571,6 +571,18 @@
       }
     },
     {
+      "model": "Kimi K3.1 Pro",
+      "release": "2026-10-23",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 13,
+          "avg": 0.4798,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Fable 5.2",
       "release": "2026-11-09",
       "nRuns": 13,
@@ -903,18 +915,6 @@
           "n": 9,
           "avg": 0.4482,
           "best": 0.9111
-        }
-      }
-    },
-    {
-      "model": "Kimi K3.1 Pro",
-      "release": "2026-10-23",
-      "nRuns": 8,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 8,
-          "avg": 0.6792,
-          "best": 1
         }
       }
     },
