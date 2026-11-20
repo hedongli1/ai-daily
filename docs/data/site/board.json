@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "board": {
     "latest": [
       {
@@ -68,53 +68,53 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 124,
-      "n": "gemini-4-carbon",
-      "name": "Gemini 4 Carbon",
+      "models": 125,
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.7789,
+      "avg": 0.8968,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Multimodal",
-      "models": 68,
-      "n": "gemini-4-carbon",
-      "name": "Gemini 4 Carbon",
+      "models": 69,
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.7789,
+      "avg": 0.8968,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Vision",
-      "models": 65,
-      "n": "gemini-4-carbon",
-      "name": "Gemini 4 Carbon",
+      "models": 66,
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.7789,
+      "avg": 0.8968,
       "best": 1,
-      "runs": 10
+      "runs": 8
     },
     {
       "tag": "Video",
-      "models": 14,
-      "n": "muse-wonder",
-      "name": "Muse Wonder",
-      "vn": "Meta",
-      "avg": 0.6206,
-      "best": 0.9944,
-      "runs": 7
+      "models": 15,
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
+      "vn": "谷歌",
+      "avg": 0.8968,
+      "best": 1,
+      "runs": 8
     },
     {
       "tag": "Audio",
-      "models": 7,
-      "n": "gemini-3-7-flash",
-      "name": "Gemini 3.7 Flash",
+      "models": 8,
+      "n": "gemini-4-neon",
+      "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.6002,
-      "best": 0.9722,
-      "runs": 9
+      "avg": 0.8968,
+      "best": 1,
+      "runs": 8
     },
     {
       "tag": "Speech",
