@@ -66,20 +66,20 @@
       "country": "intl"
     },
     {
-      "id": "zhipuai",
-      "name": "智谱 AI",
-      "n": 18,
-      "cheapest": 0,
-      "latest": "2026-09-18",
-      "country": "cn"
-    },
-    {
       "id": "cohere",
       "name": "Cohere",
       "n": 16,
       "cheapest": 0,
       "latest": "2026-09-09",
       "country": "intl"
+    },
+    {
+      "id": "zhipuai",
+      "name": "智谱 AI",
+      "n": 18,
+      "cheapest": 0,
+      "latest": "2026-09-18",
+      "country": "cn"
     },
     {
       "id": "volcengine",
@@ -138,19 +138,19 @@
       "country": "cn"
     },
     {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
-      "country": "cn"
-    },
-    {
       "id": "moonshotai",
       "name": "月之暗面",
       "n": 6,
       "cheapest": 0.9711,
       "latest": "2026-10-23",
+      "country": "cn"
+    },
+    {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -178,20 +178,12 @@
       "country": "intl"
     },
     {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "n": 4,
-      "cheapest": 1,
-      "latest": "2025-02-01",
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
       "country": "intl"
-    },
-    {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 8,
-      "cheapest": 0,
-      "latest": "2026-11-04",
-      "country": "cn"
     },
     {
       "id": "deepseek",
@@ -202,12 +194,12 @@
       "country": "cn"
     },
     {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
-      "country": "intl"
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 8,
+      "cheapest": 0,
+      "latest": "2026-11-04",
+      "country": "cn"
     },
     {
       "id": "inception",
@@ -215,6 +207,14 @@
       "n": 4,
       "cheapest": 0.1,
       "latest": "2026-10-16",
+      "country": "intl"
+    },
+    {
+      "id": "perplexity",
+      "name": "Perplexity",
+      "n": 4,
+      "cheapest": 1,
+      "latest": "2025-02-01",
       "country": "intl"
     },
     {
@@ -234,11 +234,19 @@
       "country": "intl"
     },
     {
-      "id": "sarvam",
-      "name": "Sarvam AI",
+      "id": "cerebras",
+      "name": "Cerebras",
       "n": 2,
-      "cheapest": 0.15790269,
-      "latest": "2026-02-18",
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
+      "country": "intl"
+    },
+    {
+      "id": "ai21",
+      "name": "AI21 Labs",
+      "n": 2,
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
       "country": "intl"
     },
     {
@@ -250,19 +258,11 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
+      "id": "sarvam",
+      "name": "Sarvam AI",
       "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
-      "country": "intl"
-    },
-    {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
+      "cheapest": 0.15790269,
+      "latest": "2026-02-18",
       "country": "intl"
     }
   ]
