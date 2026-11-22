@@ -1,14 +1,14 @@
 {
   "schema": 1,
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "mode": "diff",
-  "baselineDate": "2026-11-21",
+  "baselineDate": "2026-11-22",
   "counts": {
     "new": 0,
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 13,
+    "news": 5,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 5
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 4
+      "count": 3
     },
     {
       "id": "meta-llama",
@@ -68,7 +68,7 @@
       "id": "mistralai",
       "label": "Mistral AI",
       "status": "ok",
-      "count": 8
+      "count": 9
     },
     {
       "id": "zai-org",
@@ -78,6 +78,19 @@
     }
   ],
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-11-22",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -96,6 +109,19 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
+      "name": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
+      "date": "2026-11-22",
+      "facts": {},
+      "text": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
+      "href": "https://github.com/mistralai/timestral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
       "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
       "date": "2026-11-22",
       "facts": {},
@@ -107,140 +133,10 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "date": "2026-11-21",
-      "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Combatting adversarial distillation",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "Combatting adversarial distillation",
-      "href": "https://openai.com/index/combatting-adversarial-distillation",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "Hebbia sees improvements in financial research with GPT-6 Astra",
-      "href": "https://openai.com/business/customer-stories/hebbia",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Can AI help scientists identify promising drug candidates?",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "Can AI help scientists identify promising drug candidates?",
-      "href": "https://openai.com/index/introducing-medchembench",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "chat-demo · Chat Demo",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "chat-demo · Chat Demo",
-      "href": "https://github.com/deepseek-ai/chat-demo/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
-      "href": "https://github.com/deepseek-ai/DeepEP/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "Qwen-Live-Delivery-Plugin · 仓库更新",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "Qwen-Live-Delivery-Plugin · 仓库更新",
-      "href": "https://github.com/QwenLM/Qwen-Live-Delivery-Plugin/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "meta",
-      "vendorName": "Meta Llama",
-      "name": "PurpleLlama · Set of tools to assess and improve LLM security.",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "PurpleLlama · Set of tools to assess and improve LLM security.",
-      "href": "https://github.com/meta-llama/PurpleLlama/releases",
-      "source": "Meta Llama",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
-      "href": "https://github.com/mistralai/mistral-vibe/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cli · 仓库更新",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "cli · 仓库更新",
-      "href": "https://github.com/mistralai/cli/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-11-20",
+      "date": "2026-11-22",
       "facts": {},
       "text": "llm-d-router-public · Inference scheduler for llm-d",
       "href": "https://github.com/mistralai/llm-d-router-public/releases",

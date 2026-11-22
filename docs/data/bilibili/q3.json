@@ -1,287 +1,287 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-21T01:39:53.033Z",
+ "fetchedAt": "2026-11-22T17:29:30.255Z",
  "rows": [
   {
-   "title": "wemm-video-开源的视频理解多模态大模型",
+   "title": "【AI前沿晚报 11.22】两百万蜜罐查出推理商窃密｜Signal 手机端默认拦截 AI 截屏｜港大开源 CLI-Anything 登热榜",
    "up": "",
-   "play": 15,
-   "pub": "2026/11/21",
-   "bvid": "BV1pXytz2ETC"
+   "play": 2,
+   "pub": "2026/11/22",
+   "bvid": "BV1p9yjzjEB2"
   },
   {
-   "title": "把Amazon、GitHub、YouTube装进本地沙盒？开源GUI智能体训练神器WebHarbor：离线沙盒里的AI特训场",
+   "title": "本地部署性能炸裂！Inkling 2 mini爆火：激活3B能打Qwen3.8 27B！",
    "up": "",
-   "play": 6,
-   "pub": "2026/11/21",
-   "bvid": "BV1ztsM6pEfe"
+   "play": 2604,
+   "pub": "2026/11/22",
+   "bvid": "BV1gjy7zhE3U"
   },
   {
-   "title": "数学家称与 Claude 找到黎曼猜想证明，ChatGPT 桌面端大改版｜Grok AI 日报 11.21",
+   "title": "project-maya:开源的本地大模型推理引擎",
+   "up": "",
+   "play": 119,
+   "pub": "2026/11/22",
+   "bvid": "BV1dHy5z8Ew6"
+  },
+  {
+   "title": "三条命令跑起来：开源 AI Agent 平台 BizBuddy 部署实录",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/22",
+   "bvid": "BV1Dby5zREdw"
+  },
+  {
+   "title": "Inkling霸榜27B大模型，速度是qwen的4倍？",
+   "up": "",
+   "play": 982,
+   "pub": "2026/11/22",
+   "bvid": "BV1zLy5zeEKn"
+  },
+  {
+   "title": "3块钱2小时，训出你自己的大模型",
    "up": "",
    "play": 14,
+   "pub": "2026/11/22",
+   "bvid": "BV1z9y5zBEsn"
+  },
+  {
+   "title": "中美AI竞争，本质上是开源和闭源的竞争，跟芯片没有那么大的关系",
+   "up": "",
+   "play": 24,
+   "pub": "2026/11/22",
+   "bvid": "BV16Xy5zuE6u"
+  },
+  {
+   "title": "开源大模型 很难再纯粹了",
+   "up": "",
+   "play": 44,
+   "pub": "2026/11/22",
+   "bvid": "BV1mXypz3E4v"
+  },
+  {
+   "title": "【中字】国外博主实测：腾讯新Flash桌面可跑",
+   "up": "",
+   "play": 15,
+   "pub": "2026/11/22",
+   "bvid": "BV1sCy5zLEJo"
+  },
+  {
+   "title": "前 OpenAI CTO 的开源新星 Inkling 2 Mini 模型深度实测",
+   "up": "",
+   "play": 388,
+   "pub": "2026/11/22",
+   "bvid": "BV1CNy5z3EWk"
+  },
+  {
+   "title": "腾讯混元开源旗舰模型 Hy4：总参数 770B",
+   "up": "",
+   "play": 141,
+   "pub": "2026/11/22",
+   "bvid": "BV1pWy3zaEuj"
+  },
+  {
+   "title": "空间站位GPT image2.6测评：一言难尽，效果甚微【永久免费开源智剧通】",
+   "up": "",
+   "play": 9,
+   "pub": "2026/11/22",
+   "bvid": "BV1HNyWzAEb2"
+  },
+  {
+   "title": "Jev开源决策模型本地部署与优化实战！Laya、VideoJev多模态决策＋Jev接入企业RAG，四大真实落地案例拆解【附全部源码】",
+   "up": "",
+   "play": 222,
+   "pub": "2026/11/22",
+   "bvid": "BV1KeyYzNEuc"
+  },
+  {
+   "title": "雇佣专业团队自研本地大模型，效果不如开源模型",
+   "up": "",
+   "play": 8,
+   "pub": "2026/11/22",
+   "bvid": "BV1hmypzyEWt"
+  },
+  {
+   "title": "【洛曦智剪】今天 正式开源啦~本地AI剪辑软件，有需求的小伙伴可以自行部署啦，当然内测版也将提供永久免费密钥",
+   "up": "",
+   "play": 369,
+   "pub": "2026/11/22",
+   "bvid": "BV16SyGzYEME"
+  },
+  {
+   "title": "[中配]大语言模型正在快速重塑文明系列：AI重制与开源项目的现状 - Suede sQIH2QlTUf0",
+   "up": "",
+   "play": 18,
+   "pub": "2026/11/22",
+   "bvid": "BV1xqyGzrEwN"
+  },
+  {
+   "title": "26B大模型压到5.4GB：量化社区又整活",
+   "up": "",
+   "play": 156,
+   "pub": "2026/11/22",
+   "bvid": "BV1LoyGzZEQv"
+  },
+  {
+   "title": "Inkling 2 Mini：20G的免费模型，断网在笔记本上写出飞行模拟器",
+   "up": "",
+   "play": 169,
+   "pub": "2026/11/22",
+   "bvid": "BV17oyGzZEgD"
+  },
+  {
+   "title": "AI能设计电路板了？Claude新模型硬核测评 | AI硬件设计 / 电路板研发 / 大模型物理外设突破",
+   "up": "",
+   "play": 389,
+   "pub": "2026/11/22",
+   "bvid": "BV1AAyYz4EWm"
+  },
+  {
+   "title": "【中英双语】Anthropic上市、英伟达危机与开源监管争议",
+   "up": "",
+   "play": 126,
+   "pub": "2026/11/22",
+   "bvid": "BV1KVy3zuEsW"
+  },
+  {
+   "title": "97毫秒合成亲人哭腔借钱？闭源豆包vs开源安全实测与防骗暗号",
+   "up": "",
+   "play": 155,
+   "pub": "2026/11/22",
+   "bvid": "BV17hy3zoEJr"
+  },
+  {
+   "title": "飞机上没网，AI写出一个开飞机的游戏：穆拉蒂开源能装进笔记本的小模型",
+   "up": "",
+   "play": 531,
+   "pub": "2026/11/22",
+   "bvid": "BV1dqy3zQEEa"
+  },
+  {
+   "title": "【AI前沿早报 11.22】黎曼猜想获 Lean 官方联合认证｜大模型免梯度直接改写自身权重｜腾讯混元 Hy4 团队 Reddit 公开问答",
+   "up": "",
+   "play": 213,
+   "pub": "2026/11/22",
+   "bvid": "BV1D2y3z1EAp"
+  },
+  {
+   "title": "26.4B小模型跑出48层深度？Thinking Machines开源Inkling 2 Mini，20GB内存塞进笔记本",
+   "up": "",
+   "play": 873,
+   "pub": "2026/11/22",
+   "bvid": "BV1AjyuzbEwG"
+  },
+  {
+   "title": "AI早报11月22日｜循环模型跑上笔记本，Linger开源，谷歌智能体代打电话",
+   "up": "",
+   "play": 67,
    "pub": "2026/11/21",
-   "bvid": "BV1uzytzxEUG"
+   "bvid": "BV1CZyuz8ERX"
   },
   {
-   "title": "AI日报·肥鱼速览 | 11月21日：Anthropic 数学家称与，腾讯混元开源 Hy4，费半单日跌 10.73%",
+   "title": "华为开源具身模型双榜第一：5 条消息看懂 AI 降价",
    "up": "",
-   "play": 84,
+   "play": 132,
    "pub": "2026/11/21",
-   "bvid": "BV1PUytznEpH"
+   "bvid": "BV1YnygzyEnG"
   },
   {
-   "title": "大模型的输出里，也能提炼奖励信号",
+   "title": "Github又杀疯了！让普通电脑跑 1250 亿参数大模型迎来史诗级革命！狂揽46.4k 星",
    "up": "",
-   "play": 27,
-   "pub": "2026/11/20",
-   "bvid": "BV1iByszbE72"
+   "play": 2758,
+   "pub": "2026/11/21",
+   "bvid": "BV1axyvzEEqS"
   },
   {
-   "title": "一天两份黎曼猜想证明！200万诱饵抓出AI路由泄密｜每日科技简报 11.21",
+   "title": "基于知识图谱的开源软件依赖与漏洞影响分析方法研究",
    "up": "",
-   "play": 166,
-   "pub": "2026/11/20",
-   "bvid": "BV1BCybzrEZi"
+   "play": 1,
+   "pub": "2026/11/21",
+   "bvid": "BV1yryvzTE31"
   },
   {
-   "title": "本地大模型提速实测：3090单卡27B跑96tok/s，不换硬件",
+   "title": "别再反复付费给Claude！让免费开源模型学会它的活",
    "up": "",
-   "play": 80,
-   "pub": "2026/11/20",
-   "bvid": "BV1q1ybzgEge"
+   "play": 151,
+   "pub": "2026/11/21",
+   "bvid": "BV1vfyvzREzo"
   },
   {
-   "title": "20GB笔记本断网跑！前OpenAI CTO团队开源循环架构Inkling 2 Mini，多项编程榜超Qwen3.8【AI快讯】",
+   "title": "腾讯微信开源WeMM-Video！24G云卡三关真机实测：4B仅吃10.7G显存，音画盲测与3大短板全摊开",
    "up": "",
-   "play": 247,
-   "pub": "2026/11/20",
-   "bvid": "BV14zyxzmEio"
+   "play": 179,
+   "pub": "2026/11/21",
+   "bvid": "BV1RJyYzCEFH"
   },
   {
-   "title": "探索下一代原生生命科学智能：Calpha 开源学术交流活动",
+   "title": "一边 770B，一边 26.4B｜同一天开源的两种走法",
    "up": "",
-   "play": 138,
-   "pub": "2026/11/20",
-   "bvid": "BV1mjyszCESe"
+   "play": 101,
+   "pub": "2026/11/21",
+   "bvid": "BV1EgyYzDEvA"
   },
   {
-   "title": "Windows 清理优化这块又传来喜讯！无名大叔系统优化工具箱，93 项垃圾清理、156 项优化每项可还原，AI 缓存和大模型权重也能清，C 盘不再爆红",
+   "title": "9款本地小模型横评：1.89G三值量化逆袭夺冠！JSON / 应用题 / 写作 / 番茄钟真跑一遍",
    "up": "",
-   "play": 613,
-   "pub": "2026/11/20",
-   "bvid": "BV1WAyxzGEf2"
+   "play": 287,
+   "pub": "2026/11/21",
+   "bvid": "BV15LyYz7EdP"
   },
   {
-   "title": "英伟达一天蒸发 5890 亿美元之前的 11 个月｜大语言模型简史 EP01",
-   "up": "",
-   "play": 288,
-   "pub": "2026/11/20",
-   "bvid": "BV1G8yxz9ENC"
-  },
-  {
-   "title": "DeepSeek开源推理引擎DeepInfer实测：GPU性能翻3倍的真相与水分 | The Stack",
-   "up": "",
-   "play": 68,
-   "pub": "2026/11/20",
-   "bvid": "BV1j7s36oEyN"
-  },
-  {
-   "title": "AI 大模型操作手机神器，支持安卓/iPhone远程操控、AI自动点击滑动、定时任务、全程任务记录 解放你的双手 自动化任务神器",
-   "up": "",
-   "play": 598,
-   "pub": "2026/11/20",
-   "bvid": "BV15HyxzFEXB"
-  },
-  {
-   "title": "下一代模型靠什么突破？Łukasz Kaiser谈泛化与架构重构",
-   "up": "",
-   "play": 45,
-   "pub": "2026/11/20",
-   "bvid": "BV1LHyxzFEWv"
-  },
-  {
-   "title": "Enzino Video2Prompt：镜头切换带时间点｜6 个新模型 11-20",
-   "up": "",
-   "play": 216,
-   "pub": "2026/11/20",
-   "bvid": "BV17EyxzwENN"
-  },
-  {
-   "title": "【双语】810亿史上最大IPO，CEO却警告AI可能毁… | Morning Bid 11.20 | 路透社",
-   "up": "",
-   "play": 56,
-   "pub": "2026/11/20",
-   "bvid": "BV1iqypzHE6e"
-  },
-  {
-   "title": "给小爱音箱接上大模型，还能自由听歌｜群晖NAS开源小项目",
-   "up": "",
-   "play": 741,
-   "pub": "2026/11/20",
-   "bvid": "BV1PHypzYETn"
-  },
-  {
-   "title": "告别付费改简历！我做了个开源简历优化Skill！",
-   "up": "",
-   "play": 408,
-   "pub": "2026/11/20",
-   "bvid": "BV1pNyWzAEUZ"
-  },
-  {
-   "title": "为什么说开源AI才是未来？",
-   "up": "",
-   "play": 337,
-   "pub": "2026/11/20",
-   "bvid": "BV1BRyWzfE63"
-  },
-  {
-   "title": "腾讯770B大模型为何免费开源",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/20",
-   "bvid": "BV1nuyWz8Ezm"
-  },
-  {
-   "title": "前 OpenAI 研究员搞了个新模型，路子完全不一样",
-   "up": "",
-   "play": 597,
-   "pub": "2026/11/20",
-   "bvid": "BV1P7Ws63Ed3"
-  },
-  {
-   "title": "单卡96G硬塞腾讯220B！Hy4-flash真机实测：1326 tok/s预填、三大原生动画与四个实战坑",
+   "title": "【AI前沿晚报 11.21】Claude 证出广义黎曼猜想？｜Inkling 2 Mini 开源｜Genie 4 登陆 Gemini API",
    "up": "",
    "play": 218,
-   "pub": "2026/11/20",
-   "bvid": "BV1V5sq6RELd"
+   "pub": "2026/11/21",
+   "bvid": "BV1zmyYzxECb"
   },
   {
-   "title": "白嫖6个免费大模型！Runcrate接入Magpie驱动Claude Code保姆级教程（附踩坑避雷）",
+   "title": "AI科技开源日报｜2026-11-21",
    "up": "",
-   "play": 761,
-   "pub": "2026/11/20",
-   "bvid": "BV1qAsq6AERg"
+   "play": 109,
+   "pub": "2026/11/21",
+   "bvid": "BV1PByYzaEAS"
   },
   {
-   "title": "大模型如何不靠训练，自己动手改写权重？",
+   "title": "热榜minimind：两小时从零训出你的64M小模型",
    "up": "",
-   "play": 198,
-   "pub": "2026/11/20",
-   "bvid": "BV1Gjsq6sEkZ"
+   "play": 146,
+   "pub": "2026/11/21",
+   "bvid": "BV18uyezgES4"
   },
   {
-   "title": "腾讯770B旗舰Hy4全量开源！多项Agent与金融跑分超DeepSeek，却暗藏协议门槛【AI快讯】",
+   "title": "一台办公室打印机，跑起了 2.7 亿参数的大模型",
    "up": "",
-   "play": 740,
-   "pub": "2026/11/20",
-   "bvid": "BV1ScsB6pE4D"
+   "play": 133,
+   "pub": "2026/11/21",
+   "bvid": "BV1sjyezvEm3"
   },
   {
-   "title": "混元 Hy4 旗舰开源！770B 总参 49B 激活，显卡要求意外亲民 | 加急快讯",
+   "title": "开源模型也可以做机器人控制",
    "up": "",
-   "play": 3964,
-   "pub": "2026/11/20",
-   "bvid": "BV1oysq6PERT"
+   "play": 245,
+   "pub": "2026/11/21",
+   "bvid": "BV1RFyezjEii"
   },
   {
-   "title": "我给 LUMEN RAW 训练了一个修图专用 AI 模型：千问3.5 4B + 两轮微调，LM Studio / Ollama 本地可用",
+   "title": "《开源没得嘛？》等了一整夜，AI 模型终于开源了｜M",
    "up": "",
-   "play": 945,
-   "pub": "2026/11/20",
-   "bvid": "BV1f4sb6CEwe"
+   "play": 716,
+   "pub": "2026/11/21",
+   "bvid": "BV18TyezrEnm"
   },
   {
-   "title": "AI早报｜范式 Phai-A1 与 Phai-M1 即将开源、Anthropic 上市首日涨 17%、苹果自研 AI 智能体",
+   "title": "Inkling2 mini首测:Qwen3.8 27b最大竞争对手？",
    "up": "",
-   "play": 104,
-   "pub": "2026/11/20",
-   "bvid": "BV1yTsi66E5N"
+   "play": 3565,
+   "pub": "2026/11/21",
+   "bvid": "BV1GkyezmEev"
   },
   {
-   "title": "Qwen3-4B决策模型LoRA训练实践",
+   "title": "666，DeepSeek‑R1！对标 o1 的开源推理王炸",
    "up": "",
-   "play": 445,
-   "pub": "2026/11/20",
-   "bvid": "BV1ygsP6EEZC"
-  },
-  {
-   "title": "【最强中文配音】杨立昆-大模型只是记住了整个互联网，那不是智能｜世界模型+JEPA+开源之争｜图灵奖得主Yann LeCun 2026",
-   "up": "",
-   "play": 1207,
-   "pub": "2026/11/19",
-   "bvid": "BV1iZs86GEjK"
-  },
-  {
-   "title": "B站的AI算法比赛视频评论区吵起来了",
-   "up": "",
-   "play": 4655,
-   "pub": "2026/11/19",
-   "bvid": "BV14qsa6eEmy"
-  },
-  {
-   "title": "全生命周期完全开源！6款从0.9B到375B参数的前沿大模型舰队，连中间 checkpoint、21.6TB训练数据全放出来了 【开源大模型】【LLM前沿解读】",
-   "up": "",
-   "play": 17,
-   "pub": "2026/11/19",
-   "bvid": "BV1yFsa6fEKq"
-  },
-  {
-   "title": "中国电信星智大模型Xing4全解析：基于昇腾+MindSpore的国产Agentic MoE大模型，29B开源版支持256K长上下文 【大模型技术】【国产AI算",
-   "up": "",
-   "play": 537,
-   "pub": "2026/11/19",
-   "bvid": "BV1Lfsa6JEfH"
-  },
-  {
-   "title": "腾讯 Hy4-Flash 正式开源！220B 大模型仅激活 12B，官方提供 GGUF 量化，Mac 本地部署最高 50 Tokens/s！",
-   "up": "",
-   "play": 3305,
-   "pub": "2026/11/19",
-   "bvid": "BV1M7sY6TEN6"
-  },
-  {
-   "title": "为什么中国的大模型，几乎都在开源？",
-   "up": "",
-   "play": 131,
-   "pub": "2026/11/19",
-   "bvid": "BV1KEsY6iE3Q"
-  },
-  {
-   "title": "GPT-6.2 双模型齐发！这次直接掀桌｜AI晚报 11.19",
-   "up": "",
-   "play": 148,
-   "pub": "2026/11/19",
-   "bvid": "BV1y6s869Ew8"
-  },
-  {
-   "title": "【开源科研神器】别再单聊一个AI写论文了！把 Gemini 4 + Claude + GPT-6.2 请上同一张本地圆桌盲评互怼",
-   "up": "",
-   "play": 265,
-   "pub": "2026/11/19",
-   "bvid": "BV1hWs86vExX"
-  },
-  {
-   "title": "我用GPT 新模型给公众号自动排版 skill 做了波大更新：支持 AI 协同修改，排完直推草稿箱！",
-   "up": "",
-   "play": 171,
-   "pub": "2026/11/19",
-   "bvid": "BV1LRs865EXz"
-  },
-  {
-   "title": "我给大模型做了个评测金融PDF能力的「鲁大师」，47个真实场景，跑分上榜全开源",
-   "up": "",
-   "play": 186,
-   "pub": "2026/11/19",
-   "bvid": "BV1Kjsh6FEXJ"
-  },
-  {
-   "title": "ZCode突然开源了，扒一扒有哪些看点",
-   "up": "",
-   "play": 161,
-   "pub": "2026/11/19",
-   "bvid": "BV1uSsh6qE2h"
+   "play": 742,
+   "pub": "2026/11/21",
+   "bvid": "BV1J8yezdEWz"
   }
  ]
 }
