@@ -50,13 +50,13 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 6
     },
     {
       "id": "QwenLM",
       "label": "Qwen",
       "status": "ok",
-      "count": 3
+      "count": 4
     },
     {
       "id": "meta-llama",
@@ -74,7 +74,7 @@
       "id": "zai-org",
       "label": "智谱 AI",
       "status": "ok",
-      "count": 2
+      "count": 1
     }
   ],
   "events": [
@@ -84,11 +84,24 @@
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-21",
+      "date": "2026-11-22",
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-22",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
       "external": true
     },
     {
@@ -159,6 +172,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "date": "2026-11-20",
+      "facts": {},
+      "text": "DeepEP · DeepEP: an efficient expert-parallel communication library",
+      "href": "https://github.com/deepseek-ai/DeepEP/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
       "name": "Qwen-Live-Delivery-Plugin · 仓库更新",
@@ -213,38 +239,12 @@
       "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
-      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-      "href": "https://github.com/mistralai/vllm/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
       "name": "llm-d-router-public · Inference scheduler for llm-d",
       "date": "2026-11-20",
       "facts": {},
       "text": "llm-d-router-public · Inference scheduler for llm-d",
       "href": "https://github.com/mistralai/llm-d-router-public/releases",
       "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-11-20",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
       "external": true
     }
   ]

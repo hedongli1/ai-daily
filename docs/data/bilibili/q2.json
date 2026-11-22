@@ -1,287 +1,147 @@
 {
  "query": "多模态大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-20T18:08:31.067Z",
+ "fetchedAt": "2026-11-22T00:35:22.792Z",
  "rows": [
+  {
+   "title": "DeepSeek OCR 精读实战，该不该微调先判断，LoRA 低秩分解加 Unsloth 四比特，CER 怎么降｜DeepSeek-OCR｜多模态",
+   "up": "",
+   "play": 14,
+   "pub": "2026/11/21",
+   "bvid": "BV16UyvzaEY2"
+  },
+  {
+   "title": "基于博物馆藏品知识图谱的多模态导览问答系统",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/21",
+   "bvid": "BV1CkyvziEpD"
+  },
+  {
+   "title": "大模型技术路线怎么捋清：RAG、Agent、微调、多模态四条线一次讲透｜大模型面试｜AI就业｜简历项目｜技术栈",
+   "up": "",
+   "play": 21,
+   "pub": "2026/11/21",
+   "bvid": "BV1xpyizuEpp"
+  },
+  {
+   "title": "基于多模态知识图谱的农作物病虫害识别与防治问答系统",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/21",
+   "bvid": "BV1xJyiz3EBv"
+  },
+  {
+   "title": "基于多模态知识图谱的常见皮肤病图文问答系统",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/21",
+   "bvid": "BV1vfyvzREfE"
+  },
+  {
+   "title": "Qwen 技术报告精读｜8 讲拆解 MoE 权重复用、多模态、在线蒸馏与长上下文",
+   "up": "",
+   "play": 54,
+   "pub": "2026/11/21",
+   "bvid": "BV1QHyYzGEYJ"
+  },
+  {
+   "title": "目前世界体积最小的视频多模态模型实测对比",
+   "up": "",
+   "play": 219,
+   "pub": "2026/11/21",
+   "bvid": "BV1pJyezYEQF"
+  },
+  {
+   "title": "wemm-video-开源的视频理解多模态大模型",
+   "up": "",
+   "play": 458,
+   "pub": "2026/11/21",
+   "bvid": "BV1pXytz2ETC"
+  },
   {
    "title": "Transformer 多模态被审稿人狂拒？换成 Mamba，直接拿捏一区创新点！",
    "up": "",
-   "play": 69,
+   "play": 159,
    "pub": "2026/11/20",
    "bvid": "BV1uDypzCE2h"
   },
   {
    "title": "【多模态+扩散模型】强强联合！不愧是2026最好出硕博论文创新点！论文精读+代码复现，看完思路直接打开，轻松搞定大小论文！AI/多模态/大模型/扩散模型/论文",
    "up": "",
-   "play": 472,
+   "play": 739,
    "pub": "2026/11/20",
    "bvid": "BV13syWzJEbi"
   },
   {
    "title": "DeepSeek OCR 精读实战，该不该微调先判断，LoRA 低秩分解加 Unsloth 四比特，CER 怎么降｜DeepSeek-OCR｜多模态",
    "up": "",
-   "play": 20,
+   "play": 63,
    "pub": "2026/11/20",
    "bvid": "BV1Pasq6VENd"
   },
   {
    "title": "大模型如何不靠训练，自己动手改写权重？",
    "up": "",
-   "play": 179,
+   "play": 302,
    "pub": "2026/11/20",
    "bvid": "BV1Gjsq6sEkZ"
   },
   {
-   "title": "DeepSeek OCR 精读实战，vLLM 起服务跑通识别，Unsloth 做 LoRA 微调，CER 基线怎么算｜DeepSeek-OCR｜多模态",
-   "up": "",
-   "play": 125,
-   "pub": "2026/11/20",
-   "bvid": "BV1gjsv61Ey5"
-  },
-  {
    "title": "图文错配时的大模型多模态融合｜早期、后期、注意力与门控对照",
    "up": "",
-   "play": 95,
+   "play": 128,
    "pub": "2026/11/20",
    "bvid": "BV1THsv6GEQo"
   },
   {
    "title": "大模型自动剪视频新基准！RoughCut-Bench打通粗剪全流程，让LVLM直接输出可执行剪辑方案 【多模态大模型】【视频生成】【AI创作工具】",
    "up": "",
-   "play": 8,
+   "play": 14,
    "pub": "2026/11/20",
    "bvid": "BV1MFsi6jErC"
   },
   {
    "title": "打破用户驱动交互桎梏！首个能主动开口搭话的流式视频大模型AURA 2.0来了 【多模态大模型】【视频LLM】",
    "up": "",
-   "play": 16,
+   "play": 24,
    "pub": "2026/11/20",
    "bvid": "BV1qpsi68ETG"
   },
   {
    "title": "全新WebAgent基准WebArena-Pro登场！20款异构应用+音视频多模态支持，完美解决可复现性痛点 【智能体评测】【多模态AI】",
    "up": "",
-   "play": 11,
+   "play": 12,
    "pub": "2026/11/20",
    "bvid": "BV11Psi6kEq8"
   },
   {
    "title": "突破推理上下文限制！全新VideoNexus框架实现长视频感知效率双提升 【多模态大模型】【视频理解】【AI Agent】",
    "up": "",
-   "play": 8,
+   "play": 14,
    "pub": "2026/11/19",
    "bvid": "BV16Gse6bEVf"
   },
   {
    "title": "UIUC等提出环境-玩家协同开发新范式，自动构建568个可验证游戏环境，视觉游戏智能体性能直接翻倍 【多模态智能体】【游戏AI】【VLM论文解读】",
    "up": "",
-   "play": 4,
+   "play": 5,
    "pub": "2026/11/19",
    "bvid": "BV1ruse6hEPt"
   },
   {
    "title": "仅用4.5M样本碾压SOTA！V-JEPA-LM解锁视频大模型真正的动态时序理解能力 【多模态大模型】【视频语言模型】",
    "up": "",
-   "play": 9,
+   "play": 13,
    "pub": "2026/11/19",
    "bvid": "BV1bqse6GEA3"
   },
   {
    "title": "多模态生成速度直接拉满！MMFlash实现VLM扩散投机解码3倍加速 【多模态大模型】【推理加速】",
    "up": "",
-   "play": 23,
+   "play": 30,
    "pub": "2026/11/19",
    "bvid": "BV1Gusv6nEUA"
-  },
-  {
-   "title": "2026 保姆级 AgentScope 2.0 全套实战教程，从零搭建生产级AI 智能体，吃透多模态、工具调用与人在回路 HITL，后端转大模型首选",
-   "up": "",
-   "play": 1049,
-   "pub": "2026/11/19",
-   "bvid": "BV1H1s86nEaY"
-  },
-  {
-   "title": "【多模态+大模型】不愧是2026超好发论文新方向！论文精读+代码复现，一口气带你吃透SAM、CLIP、BLIP、DALL-E、对比学习、ChatGPT等知识点！",
-   "up": "",
-   "play": 661,
-   "pub": "2026/11/19",
-   "bvid": "BV1TRsh6PE45"
-  },
-  {
-   "title": "多模态大模型（17-5）检索增强生成（RAG）：向量存储",
-   "up": "",
-   "play": 93,
-   "pub": "2026/11/19",
-   "bvid": "BV1D2sh6BExd"
-  },
-  {
-   "title": "多模态大模型（17-3-03）检索增强生成（RAG）：分割编程语言代码+Markdown文本分割器",
-   "up": "",
-   "play": 21,
-   "pub": "2026/11/19",
-   "bvid": "BV1S2sh6BEdE"
-  },
-  {
-   "title": "多模态大模型（17-2-03）检索增强生成（RAG）：JSON加载器（JSONLoader）、Office加载器",
-   "up": "",
-   "play": 113,
-   "pub": "2026/11/19",
-   "bvid": "BV1D2sh6BEV9"
-  },
-  {
-   "title": "多模态大模型（17-3-01）检索增强生成（RAG）：Recursively文本分割器",
-   "up": "",
-   "play": 101,
-   "pub": "2026/11/19",
-   "bvid": "BV1Q2sh6BEap"
-  },
-  {
-   "title": "nex-n2.6能动性多模态大模型API调用说明及开源源码详解(免费体验)",
-   "up": "",
-   "play": 6168,
-   "pub": "2026/11/19",
-   "bvid": "BV1mUsb6bEy3"
-  },
-  {
-   "title": "多模态大模型这么火，为什么还是很难发一篇SCI一区论文！",
-   "up": "",
-   "play": 715,
-   "pub": "2026/11/19",
-   "bvid": "BV1uTsb6tEm2"
-  },
-  {
-   "title": "[AI漫谈5]OpenAI Image系列模型、nano banana系列模型，商品套图、一键去皱、鞋靴试穿电商模特图片生成",
-   "up": "",
-   "play": 201,
-   "pub": "2026/11/19",
-   "bvid": "BV11Qsb64EyV"
-  },
-  {
-   "title": "多模态大模型（15-2-02）langchain模型I_O与数据增强：MMR示例选择器+Ngram示例选择器",
-   "up": "",
-   "play": 37,
-   "pub": "2026/11/19",
-   "bvid": "BV1dYsb6zENT"
-  },
-  {
-   "title": "从模型到现实：物理 AI 的规模化进化",
-   "up": "",
-   "play": 466,
-   "pub": "2026/11/19",
-   "bvid": "BV19zsb6vEYn"
-  },
-  {
-   "title": "大模型发展简史｜从预测下一个 token，到动手做事",
-   "up": "",
-   "play": 107,
-   "pub": "2026/11/19",
-   "bvid": "BV15jsz6wE3m"
-  },
-  {
-   "title": "LLaVA：让语言模型真正看见世界 | 刘浩天 | Haotian Liu | NeurIPS 2023 Oral | 231214",
-   "up": "",
-   "play": 650,
-   "pub": "2026/11/19",
-   "bvid": "BV1Ves46wEV3"
-  },
-  {
-   "title": "比肩 Qwen3.8-27B！SenseNova-Loop-9B 多模态 AI 大模型本地部署教程｜512K 超长上下文",
-   "up": "",
-   "play": 5404,
-   "pub": "2026/11/19",
-   "bvid": "BV1rfss6KETc"
-  },
-  {
-   "title": "17.【中英字幕】多模态大模型怎么对齐？ViT、CLIP与LLaVA全拆解 | Stanford CS336 第17讲",
-   "up": "",
-   "play": 6,
-   "pub": "2026/11/18",
-   "bvid": "BV1KesD6JEgC"
-  },
-  {
-   "title": "导师放养！【多模态方向】怎么快速出论文？AI大佬带你一篇搞定多模态方向论文！2小时学透原理推导+论文精读+代码复现，看完论文随便发！AI/多模态大模型/科研论文",
-   "up": "",
-   "play": 751,
-   "pub": "2026/11/18",
-   "bvid": "BV13BsS6oEs8"
-  },
-  {
-   "title": "【多模态方向】导师放养，怎么发论文？这篇看完带你直接搞定多模态方向论文！1小时学透从原理推导+论文精读+代码复现，全程干货！AI/多模态/CLIP/大模型",
-   "up": "",
-   "play": 614,
-   "pub": "2026/11/18",
-   "bvid": "BV1G6sS6xEnq"
-  },
-  {
-   "title": "【AI大模型+知识图谱】创新融合！2026超好发论文新方向！1小时带你从零构建知识图谱！论文精读+代码复现，附完整数据集！AI/大模型/论文/图数据库/ne4j",
-   "up": "",
-   "play": 786,
-   "pub": "2026/11/18",
-   "bvid": "BV1bZs26jEqN"
-  },
-  {
-   "title": "AAAI 2026｜当SAM遇上多语义分解：如何破解复杂场景下的玻璃检测？",
-   "up": "",
-   "play": 112,
-   "pub": "2026/11/18",
-   "bvid": "BV1ibsP6KEVt"
-  },
-  {
-   "title": "GPT-6.2-Astra 推理强度开多大才划算？4 档实测：low 最快、指数最高，xhigh 用时 2.1 倍分没涨 · 奶蛙bench",
-   "up": "",
-   "play": 17475,
-   "pub": "2026/11/18",
-   "bvid": "BV1Jjs16xETd"
-  },
-  {
-   "title": "多模态本地化：视觉、语音、TTS 三条线怎么配",
-   "up": "",
-   "play": 680,
-   "pub": "2026/11/18",
-   "bvid": "BV1zfs16oEFm"
-  },
-  {
-   "title": "Balanced Twin Weight Factorization：面向高效多模态大模型的平衡双子权重分解",
-   "up": "",
-   "play": 29,
-   "pub": "2026/11/18",
-   "bvid": "BV1v6sk6GEzm"
-  },
-  {
-   "title": "梁文峰的判断也许是对的",
-   "up": "",
-   "play": 20936,
-   "pub": "2026/11/17",
-   "bvid": "BV16GsC6nE5W"
-  },
-  {
-   "title": "RAG 企业知识库怎么搭：GraphRAG 架构概览、知识库分层设计、向量仓库与检索优化、多模态与项目实战｜向量检索",
-   "up": "",
-   "play": 109,
-   "pub": "2026/11/17",
-   "bvid": "BV1ngsC6QEVo"
-  },
-  {
-   "title": "18 个 LangChain 面试问题开局：接多模态案例与 Embedding 检索两段实作｜RAG｜大模型开发｜Prompt｜Agent｜向量检索",
-   "up": "",
-   "play": 336,
-   "pub": "2026/11/17",
-   "bvid": "BV1ezs66NEFc"
-  },
-  {
-   "title": "导师放养！多模态方向怎么发论文？这篇看完多模态方向论文随便发！1小时手把手带你从原理推导+论文精读+代码复现，全篇通俗易懂！AI/多模态/NLP/科研/论文",
-   "up": "",
-   "play": 520,
-   "pub": "2026/11/17",
-   "bvid": "BV1v8sB6YEwJ"
-  },
-  {
-   "title": "首篇跨场景自进化多模态智能体综述！拆解四大场景机制迁移不对称性，搭建可验证分析框架 【多模态智能体】【前沿综述解读】",
-   "up": "",
-   "play": 36,
-   "pub": "2026/11/17",
-   "bvid": "BV1josu6pEak"
   }
  ]
 }
