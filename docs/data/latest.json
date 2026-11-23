@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 5,
+    "news": 7,
     "facts": 0,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 5
+      "count": 7
     },
     {
       "id": "QwenLM",
@@ -81,6 +81,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-23",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Perplexity and Intelligence",
+      "date": "2026-11-22",
+      "facts": {},
+      "text": "Perplexity and Intelligence",
+      "href": "https://openai.com/index/perplexity-and-intelligence",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "deepseek",
       "vendorName": "DeepSeek",
       "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
@@ -94,19 +120,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-22",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
@@ -114,6 +127,19 @@
       "facts": {},
       "text": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
       "href": "https://github.com/mistralai/timestral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-22",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
       "source": "Mistral AI",
       "external": true
     },
