@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-23",
+  "generated": "2026-11-24",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 232,
+  "count": 234,
   "models": [
     {
       "model": "GPT-5.2",
@@ -439,6 +439,18 @@
       }
     },
     {
+      "model": "Gemini 4 Argon",
+      "release": "2026-10-13",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.5765,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GPT-6.2 Astra",
       "release": "2026-11-17",
       "nRuns": 14,
@@ -571,6 +583,30 @@
       }
     },
     {
+      "model": "Gemini 4 Hydrogen",
+      "release": "2026-11-12",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 13,
+          "avg": 0.5692,
+          "best": 1
+        }
+      }
+    },
+    {
+      "model": "Gemini 4 Carbon",
+      "release": "2026-11-10",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.6711,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Kimi K3.1 Pro",
       "release": "2026-10-23",
       "nRuns": 13,
@@ -631,18 +667,6 @@
       }
     },
     {
-      "model": "Gemini 4 Hydrogen",
-      "release": "2026-11-12",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision,Audio,Video": {
-          "n": 12,
-          "avg": 0.5996,
-          "best": 1
-        }
-      }
-    },
-    {
       "model": "GPT-6 Luna",
       "release": "2026-09-22",
       "nRuns": 12,
@@ -687,18 +711,6 @@
           "n": 12,
           "avg": 0.389,
           "best": 0.9333
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Argon",
-      "release": "2026-10-13",
-      "nRuns": 11,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 11,
-          "avg": 0.6882,
-          "best": 1
         }
       }
     },
@@ -759,18 +771,6 @@
           "n": 11,
           "avg": 0.4358,
           "best": 0.9094
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Carbon",
-      "release": "2026-11-10",
-      "nRuns": 10,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.7789,
-          "best": 1
         }
       }
     },
@@ -931,6 +931,18 @@
       }
     },
     {
+      "model": "Muse Ember",
+      "release": "2026-11-09",
+      "nRuns": 8,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 8,
+          "avg": 0.2942,
+          "best": 0.9889
+        }
+      }
+    },
+    {
       "model": "Grok 4.5",
       "release": "2026-07-08",
       "nRuns": 8,
@@ -1035,6 +1047,18 @@
           "n": 8,
           "avg": 0.2651,
           "best": 0.5133
+        }
+      }
+    },
+    {
+      "model": "Qwen4-Max",
+      "release": "2026-11-16",
+      "nRuns": 7,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 7,
+          "avg": 0.5632,
+          "best": 1
         }
       }
     },

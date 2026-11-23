@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "timeline": [
     {
       "n": "gemini-4-neon",
@@ -83,6 +83,15 @@
       "open": 0
     },
     {
+      "n": "longcat-2-5",
+      "name": "LongCat-2.5",
+      "vn": "美团 LongCat",
+      "rel": "2026-11-02",
+      "ctx": 1048576,
+      "in": 0.3,
+      "open": 0
+    },
+    {
       "n": "gpt-6-1-terra",
       "name": "GPT-6.1 Terra",
       "vn": "OpenAI",
@@ -116,6 +125,15 @@
       "rel": "2026-10-19",
       "ctx": 1000000,
       "in": 0.1494,
+      "open": 1
+    },
+    {
+      "n": "deepseek-v4-1-flash-1017-interactive",
+      "name": "DeepSeek V4.1 Flash 1017 Interactive",
+      "vn": "Sarvam AI",
+      "rel": "2026-10-17",
+      "ctx": 1048576,
+      "in": 0.26595745,
       "open": 1
     },
     {
@@ -193,15 +211,6 @@
     {
       "n": "mistral-large",
       "name": "Mistral Large (latest)",
-      "vn": "Mistral",
-      "rel": "2026-10-06",
-      "ctx": 1048576,
-      "in": 0.7,
-      "open": 0
-    },
-    {
-      "n": "mistral-large-4-0-8",
-      "name": "Mistral Large 4.0.8",
       "vn": "Mistral",
       "rel": "2026-10-06",
       "ctx": 1048576,
@@ -425,6 +434,15 @@
       "open": 0
     },
     {
+      "n": "gemini-flash-latest",
+      "name": "Gemini Flash Latest",
+      "vn": "谷歌",
+      "rel": "2026-09-02",
+      "ctx": 1048576,
+      "in": 0.75,
+      "open": 0
+    },
+    {
       "n": "gemini-3-8-flash",
       "name": "Gemini 3.8 Flash",
       "vn": "谷歌",
@@ -486,15 +504,6 @@
       "ctx": 1000000,
       "in": 1.4,
       "open": 1
-    },
-    {
-      "n": "gemini-flash-latest",
-      "name": "Gemini Flash Latest",
-      "vn": "谷歌",
-      "rel": "2026-08-13",
-      "ctx": 1048576,
-      "in": 0.75,
-      "open": 0
     },
     {
       "n": "gemini-3-7-flash",
@@ -821,15 +830,6 @@
       "open": 1
     },
     {
-      "n": "leanstral-1-5",
-      "name": "Leanstral 1.5",
-      "vn": "Mistral",
-      "rel": "2026-06-30",
-      "ctx": 262144,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "longcat-2-0",
       "name": "LongCat-2.0",
       "vn": "美团 LongCat",
@@ -837,15 +837,6 @@
       "ctx": 1048576,
       "in": 0.3,
       "open": 1
-    },
-    {
-      "n": "gemini-omni-flash-preview",
-      "name": "Gemini Omni Flash Preview",
-      "vn": "谷歌",
-      "rel": "2026-06-30",
-      "ctx": 131072,
-      "in": 1.5,
-      "open": 0
     },
     {
       "n": "nano-banana-2-lite",
@@ -1615,7 +1606,7 @@
     {
       "n": "gemini-3-1-flash-lite-preview",
       "name": "Gemini 3.1 Flash Lite Preview",
-      "vn": "谷歌",
+      "vn": "Databricks",
       "rel": "2026-03-03",
       "ctx": 1048576,
       "in": 0.25,
@@ -1748,12 +1739,12 @@
       "open": 0
     },
     {
-      "n": "sarvam-30b",
-      "name": "Sarvam-30B",
+      "n": "sarvam-105b-conversations",
+      "name": "Sarvam-105B Conversations",
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
-      "ctx": 65536,
-      "in": null,
+      "ctx": 32000,
+      "in": 0.10638298,
       "open": 1
     },
     {
@@ -1761,8 +1752,8 @@
       "name": "Sarvam-105B",
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
-      "ctx": 131072,
-      "in": 0.15790269,
+      "ctx": 128000,
+      "in": 0.10638298,
       "open": 1
     },
     {
@@ -1890,15 +1881,6 @@
       "ctx": 204800,
       "in": 0.3137,
       "open": 1
-    },
-    {
-      "n": "gpt-5-3-codex-spark",
-      "name": "GPT-5.3 Codex Spark",
-      "vn": "OpenAI",
-      "rel": "2026-02-05",
-      "ctx": 128000,
-      "in": 1.75,
-      "open": 0
     },
     {
       "n": "gpt-5-3-codex",
@@ -2135,24 +2117,6 @@
       "open": 0
     },
     {
-      "n": "devstral-small-2",
-      "name": "Devstral Small 2",
-      "vn": "Mistral",
-      "rel": "2025-12-09",
-      "ctx": 256000,
-      "in": 0,
-      "open": 1
-    },
-    {
-      "n": "devstral-2",
-      "name": "Devstral 2",
-      "vn": "Mistral",
-      "rel": "2025-12-09",
-      "ctx": 262144,
-      "in": 0.4,
-      "open": 1
-    },
-    {
       "n": "glm-4-6v-flash",
       "name": "GLM-4.6V-Flash",
       "vn": "智谱 AI",
@@ -2178,6 +2142,15 @@
       "ctx": 163840,
       "in": 0.27,
       "open": 0
+    },
+    {
+      "n": "mistral-large-3",
+      "name": "Mistral Large 3",
+      "vn": "Mistral",
+      "rel": "2025-12-02",
+      "ctx": 262144,
+      "in": 0.5,
+      "open": 1
     },
     {
       "n": "ministral-3-8b",
@@ -2303,15 +2276,6 @@
       "rel": "2025-10-15",
       "ctx": 200000,
       "in": 1,
-      "open": 0
-    },
-    {
-      "n": "gemini-2-5-computer-use-preview-10-2025",
-      "name": "Gemini 2.5 Computer Use Preview 10-2025",
-      "vn": "谷歌",
-      "rel": "2025-10-07",
-      "ctx": 128000,
-      "in": 1.25,
       "open": 0
     },
     {
@@ -2474,15 +2438,6 @@
       "rel": "2025-08-15",
       "ctx": 256000,
       "in": 0.11875,
-      "open": 0
-    },
-    {
-      "n": "mistral-medium-3-1",
-      "name": "Mistral Medium 3.1",
-      "vn": "Mistral",
-      "rel": "2025-08-12",
-      "ctx": 262144,
-      "in": 0.4,
       "open": 0
     },
     {
@@ -2666,15 +2621,6 @@
       "open": 1
     },
     {
-      "n": "mistral-small-3-2",
-      "name": "Mistral Small 3.2",
-      "vn": "Mistral",
-      "rel": "2025-06-20",
-      "ctx": 128000,
-      "in": 0.1,
-      "open": 1
-    },
-    {
       "n": "gemini-2-5-flash-lite",
       "name": "Gemini 2.5 Flash-Lite",
       "vn": "谷歌",
@@ -2785,10 +2731,10 @@
     {
       "n": "mistral-medium-3",
       "name": "Mistral Medium 3",
-      "vn": "Mistral",
+      "vn": "英伟达",
       "rel": "2025-05-07",
       "ctx": 131072,
-      "in": 0.4,
+      "in": 0,
       "open": 0
     },
     {
@@ -2819,15 +2765,6 @@
       "open": 1
     },
     {
-      "n": "o4-mini",
-      "name": "o4-mini",
-      "vn": "OpenAI",
-      "rel": "2025-04-16",
-      "ctx": 200000,
-      "in": 1.1,
-      "open": 0
-    },
-    {
       "n": "o3",
       "name": "o3",
       "vn": "OpenAI",
@@ -2844,15 +2781,6 @@
       "ctx": 128000,
       "in": 0,
       "open": 1
-    },
-    {
-      "n": "gpt-4-1-nano",
-      "name": "GPT-4.1 nano",
-      "vn": "OpenAI",
-      "rel": "2025-04-14",
-      "ctx": 1047576,
-      "in": 0.1,
-      "open": 0
     },
     {
       "n": "gpt-4-1-mini",
@@ -2963,15 +2891,6 @@
       "open": 0
     },
     {
-      "n": "o1-pro",
-      "name": "o1-pro",
-      "vn": "OpenAI",
-      "rel": "2025-03-19",
-      "ctx": 200000,
-      "in": 150,
-      "open": 0
-    },
-    {
       "n": "sparsedrive",
       "name": "sparsedrive",
       "vn": "英伟达",
@@ -2995,7 +2914,7 @@
       "vn": "Mistral",
       "rel": "2025-03-17",
       "ctx": 262144,
-      "in": 2,
+      "in": 1.5,
       "open": 1
     },
     {
@@ -3197,15 +3116,6 @@
       "open": 0
     },
     {
-      "n": "o3-mini",
-      "name": "o3-mini",
-      "vn": "OpenAI",
-      "rel": "2024-12-20",
-      "ctx": 200000,
-      "in": 1.1,
-      "open": 0
-    },
-    {
       "n": "command-r7b",
       "name": "Command R7B",
       "vn": "Cohere",
@@ -3213,15 +3123,6 @@
       "ctx": 128000,
       "in": 0.0375,
       "open": 1
-    },
-    {
-      "n": "o1",
-      "name": "o1",
-      "vn": "OpenAI",
-      "rel": "2024-12-05",
-      "ctx": 200000,
-      "in": 15,
-      "open": 0
     },
     {
       "n": "qwen2-5-omni-7b",
@@ -3240,15 +3141,6 @@
       "ctx": 65536,
       "in": 0.287,
       "open": 0
-    },
-    {
-      "n": "mistral-large-3",
-      "name": "Mistral Large 3",
-      "vn": "Mistral",
-      "rel": "2024-11-01",
-      "ctx": 262144,
-      "in": 0.5,
-      "open": 1
     },
     {
       "n": "qwen-turbo",
@@ -3287,24 +3179,6 @@
       "open": 1
     },
     {
-      "n": "ministral-8b",
-      "name": "Ministral 8B (latest)",
-      "vn": "Mistral",
-      "rel": "2024-10-01",
-      "ctx": 262144,
-      "in": 0.15,
-      "open": 1
-    },
-    {
-      "n": "ministral-3b",
-      "name": "Ministral 3B (latest)",
-      "vn": "Mistral",
-      "rel": "2024-10-01",
-      "ctx": 131072,
-      "in": 0.1,
-      "open": 1
-    },
-    {
       "n": "llama-3-2-90b-vision-instruct",
       "name": "Llama-3.2-90B-Vision-Instruct",
       "vn": "英伟达",
@@ -3330,15 +3204,6 @@
       "ctx": 4096,
       "in": 0.287,
       "open": 0
-    },
-    {
-      "n": "pixtral-12b",
-      "name": "Pixtral 12B",
-      "vn": "Mistral",
-      "rel": "2024-09-01",
-      "ctx": 128000,
-      "in": 0.15,
-      "open": 1
     },
     {
       "n": "command-r",
@@ -3393,15 +3258,6 @@
       "ctx": 128000,
       "in": 0.15,
       "open": 0
-    },
-    {
-      "n": "open-mistral-nemo",
-      "name": "Open Mistral Nemo",
-      "vn": "Mistral",
-      "rel": "2024-07-01",
-      "ctx": 128000,
-      "in": 0.15,
-      "open": 1
     },
     {
       "n": "solar-mini",
@@ -3620,24 +3476,6 @@
       "open": 0
     },
     {
-      "n": "gpt-4-turbo",
-      "name": "GPT-4 Turbo",
-      "vn": "OpenAI",
-      "rel": "2023-11-06",
-      "ctx": 128000,
-      "in": 10,
-      "open": 0
-    },
-    {
-      "n": "gpt-4",
-      "name": "GPT-4",
-      "vn": "OpenAI",
-      "rel": "2023-11-06",
-      "ctx": 8192,
-      "in": 30,
-      "open": 0
-    },
-    {
       "n": "whisper-large-v3",
       "name": "Whisper Large v3",
       "vn": "英伟达",
@@ -3645,15 +3483,6 @@
       "ctx": 448,
       "in": 0,
       "open": 1
-    },
-    {
-      "n": "gpt-3-5-turbo",
-      "name": "GPT-3.5-turbo",
-      "vn": "OpenAI",
-      "rel": "2023-03-01",
-      "ctx": 16385,
-      "in": 0.5,
-      "open": 0
     },
     {
       "n": "text-embedding-ada-002",

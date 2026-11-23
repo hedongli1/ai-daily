@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 127,
+  "count": 118,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -919,11 +919,11 @@
       "name": "Gemini 3.8 Flash"
     },
     "gemini-4-argon": {
-      "runs": 11,
+      "runs": 14,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 11,
-          "avg": 0.6882,
+          "n": 14,
+          "avg": 0.5765,
           "best": 1
         }
       },
@@ -931,11 +931,11 @@
       "name": "Gemini 4 Argon"
     },
     "gemini-4-carbon": {
-      "runs": 10,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision": {
-          "n": 10,
-          "avg": 0.7789,
+          "n": 13,
+          "avg": 0.6711,
           "best": 1
         }
       },
@@ -943,11 +943,11 @@
       "name": "Gemini 4 Carbon"
     },
     "gemini-4-hydrogen": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision,Audio,Video": {
-          "n": 12,
-          "avg": 0.5996,
+          "n": 13,
+          "avg": 0.5692,
           "best": 1
         }
       },
@@ -977,6 +977,18 @@
       },
       "rel": "2026-04-02",
       "name": "Gemma 4 31B IT"
+    },
+    "muse-ember": {
+      "runs": 8,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 8,
+          "avg": 0.2942,
+          "best": 0.9889
+        }
+      },
+      "rel": "2026-11-09",
+      "name": "Muse Ember"
     },
     "muse-spark-1-1": {
       "runs": 2,
@@ -1038,30 +1050,6 @@
       "rel": "2026-06-01",
       "name": "MiniMax-M3"
     },
-    "ministral-3b": {
-      "runs": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.1985,
-          "best": 0.2525
-        }
-      },
-      "rel": "2024-10-16",
-      "name": "Ministral 3B"
-    },
-    "ministral-8b": {
-      "runs": 2,
-      "domains": {
-        "Language": {
-          "n": 2,
-          "avg": 0.2104,
-          "best": 0.2715
-        }
-      },
-      "rel": "2024-10-16",
-      "name": "Ministral 8B"
-    },
     "mistral-large-4": {
       "runs": 16,
       "domains": {
@@ -1085,30 +1073,6 @@
       },
       "rel": "2024-02-26",
       "name": "Mistral Large"
-    },
-    "mistral-medium-3": {
-      "runs": 5,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 5,
-          "avg": 0.3475,
-          "best": 0.8163
-        }
-      },
-      "rel": "2025-05-07",
-      "name": "Mistral Medium 3"
-    },
-    "mistral-small-3-2": {
-      "runs": 2,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 2,
-          "avg": 0.3967,
-          "best": 0.4905
-        }
-      },
-      "rel": "2025-06-20",
-      "name": "Mistral Small 3.2"
     },
     "kimi-k2-6": {
       "runs": 14,
@@ -1134,41 +1098,17 @@
       "rel": "2026-10-23",
       "name": "Kimi K3.1 Pro"
     },
-    "gpt-3-5-turbo": {
-      "runs": 7,
-      "domains": {
-        "Language": {
-          "n": 7,
-          "avg": 0.1256,
-          "best": 0.2803
-        }
-      },
-      "rel": "2024-01-25",
-      "name": "GPT-3.5 Turbo"
-    },
-    "gpt-4": {
-      "runs": 4,
+    "mistral-medium-3": {
+      "runs": 5,
       "domains": {
         "Multimodal,Language,Vision": {
-          "n": 4,
-          "avg": 0.1668,
-          "best": 0.3065
+          "n": 5,
+          "avg": 0.3475,
+          "best": 0.8163
         }
       },
-      "rel": "2023-06-13",
-      "name": "GPT-4 (Jun 2023)"
-    },
-    "gpt-4-turbo": {
-      "runs": 4,
-      "domains": {
-        "Multimodal,Vision,Language,Image generation": {
-          "n": 4,
-          "avg": 0.2517,
-          "best": 0.4673
-        }
-      },
-      "rel": "2024-04-09",
-      "name": "GPT-4 Turbo (Apr 2024)"
+      "rel": "2025-05-07",
+      "name": "Mistral Medium 3"
     },
     "gpt-4-1": {
       "runs": 11,
@@ -1193,18 +1133,6 @@
       },
       "rel": "2025-04-14",
       "name": "GPT-4.1 mini"
-    },
-    "gpt-4-1-nano": {
-      "runs": 7,
-      "domains": {
-        "Multimodal,Language,Vision,Video": {
-          "n": 7,
-          "avg": 0.2212,
-          "best": 0.7
-        }
-      },
-      "rel": "2025-04-14",
-      "name": "GPT-4.1 nano"
     },
     "gpt-4o": {
       "runs": 17,
@@ -1362,18 +1290,6 @@
       "rel": "2026-11-17",
       "name": "GPT-6.2 Astra"
     },
-    "o1": {
-      "runs": 17,
-      "domains": {
-        "Language,Mathematics,Multimodal": {
-          "n": 17,
-          "avg": 0.4286,
-          "best": 0.9471
-        }
-      },
-      "rel": "2024-12-17",
-      "name": "o1"
-    },
     "o3": {
       "runs": 25,
       "domains": {
@@ -1385,30 +1301,6 @@
       },
       "rel": "2025-04-16",
       "name": "o3"
-    },
-    "o3-mini": {
-      "runs": 23,
-      "domains": {
-        "Language": {
-          "n": 23,
-          "avg": 0.3303,
-          "best": 0.9649
-        }
-      },
-      "rel": "2025-01-31",
-      "name": "o3-mini"
-    },
-    "o4-mini": {
-      "runs": 27,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 27,
-          "avg": 0.3205,
-          "best": 0.9783
-        }
-      },
-      "rel": "2025-04-16",
-      "name": "o4-mini"
     },
     "qwen3-5-4b": {
       "runs": 1,

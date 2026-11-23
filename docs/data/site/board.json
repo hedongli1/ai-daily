@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "board": {
     "latest": [
       {
@@ -30,10 +30,10 @@
     ],
     "priciest": [
       {
-        "n": "o1-pro",
-        "name": "o1-pro",
+        "n": "gpt-5-4-pro",
+        "name": "GPT-5.4 Pro",
         "vn": "OpenAI",
-        "val": 150,
+        "val": 30,
         "metric": "输入价"
       }
     ],
@@ -57,10 +57,10 @@
     ],
     "mostChannels": [
       {
-        "n": "glm-5-3",
-        "name": "GLM-5.3",
+        "n": "glm-5-3-flash",
+        "name": "GLM-5.3-Flash",
         "vn": "智谱 AI",
-        "val": 128,
+        "val": 130,
         "metric": "渠道数"
       }
     ]
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 125,
+      "models": 116,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 69,
+      "models": 64,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 66,
+      "models": 62,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
@@ -108,7 +108,7 @@
     },
     {
       "tag": "Audio",
-      "models": 8,
+      "models": 9,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",

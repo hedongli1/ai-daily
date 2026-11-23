@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-23",
-  "count": 407,
+  "date": "2026-11-24",
+  "count": 388,
   "models": [
     {
       "n": "jamba-large",
@@ -84,7 +84,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 44,
+      "ch": 43,
       "cap": [
         "开源",
         "推理",
@@ -486,7 +486,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 128,
+      "ch": 129,
       "cap": [
         "开源",
         "推理",
@@ -2098,7 +2098,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 27,
+      "ch": 28,
       "cap": [
         "多模态",
         "视觉",
@@ -2146,7 +2146,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 49,
+      "ch": 50,
       "cap": [
         "多模态",
         "视觉",
@@ -2386,7 +2386,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 57,
+      "ch": 58,
       "cap": [
         "多模态",
         "视觉",
@@ -2433,7 +2433,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 53,
+      "ch": 52,
       "cap": [
         "开源",
         "推理",
@@ -2456,7 +2456,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 81,
+      "ch": 84,
       "cap": [
         "多模态",
         "视觉",
@@ -2529,7 +2529,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 128,
+      "ch": 130,
       "cap": [
         "多模态",
         "视觉",
@@ -3168,8 +3168,8 @@
     {
       "n": "gemini-3-1-flash-lite-preview",
       "name": "Gemini 3.1 Flash Lite Preview",
-      "v": "google",
-      "vn": "谷歌",
+      "v": "databricks",
+      "vn": "Databricks",
       "rel": "2026-03-03",
       "relP": "day",
       "ctx": 1048576,
@@ -3180,7 +3180,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 12,
+      "ch": 11,
       "cap": [
         "多模态",
         "视觉",
@@ -3710,30 +3710,6 @@
         "工具调用"
       ],
       "rel_ts": 1776729600000
-    },
-    {
-      "n": "gemini-2-5-computer-use-preview-10-2025",
-      "name": "Gemini 2.5 Computer Use Preview 10-2025",
-      "v": "google",
-      "vn": "谷歌",
-      "rel": "2025-10-07",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 64000,
-      "in": 1.25,
-      "oc": 10,
-      "cr": null,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 1,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1759795200000
     },
     {
       "n": "nano-banana",
@@ -4280,7 +4256,7 @@
       "name": "Gemini Flash Latest",
       "v": "google",
       "vn": "谷歌",
-      "rel": "2026-08-13",
+      "rel": "2026-09-02",
       "relP": "day",
       "ctx": 1048576,
       "out": 65536,
@@ -4299,7 +4275,7 @@
         "推理",
         "工具调用"
       ],
-      "rel_ts": 1786579200000
+      "rel_ts": 1788307200000
     },
     {
       "n": "gemini-flash-lite-latest",
@@ -4326,31 +4302,6 @@
         "工具调用"
       ],
       "rel_ts": 1784592000000
-    },
-    {
-      "n": "gemini-omni-flash-preview",
-      "name": "Gemini Omni Flash Preview",
-      "v": "google",
-      "vn": "谷歌",
-      "rel": "2026-06-30",
-      "relP": "day",
-      "ctx": 131072,
-      "out": 65536,
-      "in": 1.5,
-      "oc": 17.5,
-      "cr": null,
-      "open": 0,
-      "rsn": 1,
-      "tool": 0,
-      "ch": 3,
-      "cap": [
-        "多模态",
-        "视觉",
-        "视频理解",
-        "视频生成",
-        "推理"
-      ],
-      "rel_ts": 1782777600000
     },
     {
       "n": "gemini-pro-latest",
@@ -4418,7 +4369,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 39,
+      "ch": 40,
       "cap": [
         "多模态",
         "视觉",
@@ -4583,6 +4534,31 @@
       "rel_ts": 1782777600000
     },
     {
+      "n": "longcat-2-5",
+      "name": "LongCat-2.5",
+      "v": "longcat",
+      "vn": "美团 LongCat",
+      "rel": "2026-11-02",
+      "relP": "day",
+      "ctx": 1048576,
+      "out": 262144,
+      "in": 0.3,
+      "oc": 1.2,
+      "cr": 0.006,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 5,
+      "cap": [
+        "多模态",
+        "视觉",
+        "视频理解",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1793577600000
+    },
+    {
       "n": "longcat-2-5-preview",
       "name": "LongCat-2.5-Preview",
       "v": "longcat",
@@ -4651,6 +4627,7 @@
       "cap": [
         "多模态",
         "视觉",
+        "音频理解",
         "视频理解",
         "推理",
         "工具调用"
@@ -4871,7 +4848,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 16,
+      "ch": 15,
       "cap": [
         "开源",
         "推理",
@@ -4920,7 +4897,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 40,
+      "ch": 41,
       "cap": [
         "多模态",
         "视觉",
@@ -4977,77 +4954,6 @@
       "rel_ts": 1716940800000
     },
     {
-      "n": "devstral-2",
-      "name": "Devstral 2",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2025-12-09",
-      "relP": "day",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.4,
-      "oc": 2,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 10,
-      "cap": [
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1765238400000
-    },
-    {
-      "n": "devstral-small-2",
-      "name": "Devstral Small 2",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2025-12-09",
-      "relP": "day",
-      "ctx": 256000,
-      "out": 256000,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 1,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1765238400000
-    },
-    {
-      "n": "leanstral-1-5",
-      "name": "Leanstral 1.5",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2026-06-30",
-      "relP": "day",
-      "ctx": 262144,
-      "out": 128000,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 2,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1782777600000
-    },
-    {
       "n": "magistral-medium",
       "name": "Magistral Medium (latest)",
       "v": "mistral",
@@ -5055,10 +4961,10 @@
       "rel": "2025-03-17",
       "relP": "day",
       "ctx": 262144,
-      "out": 16384,
-      "in": 2,
-      "oc": 5,
-      "cr": null,
+      "out": 262144,
+      "in": 1.5,
+      "oc": 7.5,
+      "cr": 0.15,
       "open": 1,
       "rsn": 1,
       "tool": 1,
@@ -5121,30 +5027,6 @@
       "rel_ts": 1764633600000
     },
     {
-      "n": "ministral-3b",
-      "name": "Ministral 3B (latest)",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2024-10-01",
-      "relP": "day",
-      "ctx": 131072,
-      "out": 128000,
-      "in": 0.1,
-      "oc": 0.1,
-      "cr": 0.01,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 8,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1727740800000
-    },
-    {
       "n": "ministral-3-8b",
       "name": "Ministral 3 8B",
       "v": "mistral",
@@ -5169,30 +5051,6 @@
       "rel_ts": 1764633600000
     },
     {
-      "n": "ministral-8b",
-      "name": "Ministral 8B (latest)",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2024-10-01",
-      "relP": "day",
-      "ctx": 262144,
-      "out": 128000,
-      "in": 0.15,
-      "oc": 0.15,
-      "cr": 0.015,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 6,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1727740800000
-    },
-    {
       "n": "mistral-embed",
       "name": "Mistral Embed",
       "v": "mistral",
@@ -5203,7 +5061,7 @@
       "out": 3072,
       "in": 0.1,
       "oc": 0,
-      "cr": null,
+      "cr": 0.01,
       "open": 0,
       "rsn": 0,
       "tool": 0,
@@ -5216,7 +5074,7 @@
       "name": "Mistral Large 3",
       "v": "mistral",
       "vn": "Mistral",
-      "rel": "2024-11-01",
+      "rel": "2025-12-02",
       "relP": "day",
       "ctx": 262144,
       "out": 262144,
@@ -5233,7 +5091,7 @@
         "开源",
         "工具调用"
       ],
-      "rel_ts": 1730419200000
+      "rel_ts": 1764633600000
     },
     {
       "n": "mistral-large-4",
@@ -5251,30 +5109,6 @@
       "rsn": 1,
       "tool": 1,
       "ch": 17,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1791244800000
-    },
-    {
-      "n": "mistral-large-4-0-8",
-      "name": "Mistral Large 4.0.8",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2026-10-06",
-      "relP": "day",
-      "ctx": 1048576,
-      "out": 262144,
-      "in": 0.7,
-      "oc": 2.1,
-      "cr": 0.07,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 1,
       "cap": [
         "多模态",
         "视觉",
@@ -5306,52 +5140,6 @@
         "工具调用"
       ],
       "rel_ts": 1791244800000
-    },
-    {
-      "n": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2025-05-07",
-      "relP": "day",
-      "ctx": 131072,
-      "out": 131072,
-      "in": 0.4,
-      "oc": 2,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 11,
-      "cap": [
-        "多模态",
-        "视觉",
-        "工具调用"
-      ],
-      "rel_ts": 1746576000000
-    },
-    {
-      "n": "mistral-medium-3-1",
-      "name": "Mistral Medium 3.1",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2025-08-12",
-      "relP": "day",
-      "ctx": 262144,
-      "out": 262144,
-      "in": 0.4,
-      "oc": 2,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 5,
-      "cap": [
-        "多模态",
-        "视觉",
-        "工具调用"
-      ],
-      "rel_ts": 1754956800000
     },
     {
       "n": "mistral-medium-3-5",
@@ -5404,30 +5192,6 @@
       "rel_ts": 1777420800000
     },
     {
-      "n": "mistral-small-3-2",
-      "name": "Mistral Small 3.2",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2025-06-20",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 16384,
-      "in": 0.1,
-      "oc": 0.3,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 5,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1750377600000
-    },
-    {
       "n": "mistral-small-4",
       "name": "Mistral Small 4",
       "v": "mistral",
@@ -5476,52 +5240,6 @@
         "工具调用"
       ],
       "rel_ts": 1773619200000
-    },
-    {
-      "n": "open-mistral-nemo",
-      "name": "Open Mistral Nemo",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2024-07-01",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 128000,
-      "in": 0.15,
-      "oc": 0.15,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 1,
-      "cap": [
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1719792000000
-    },
-    {
-      "n": "pixtral-12b",
-      "name": "Pixtral 12B",
-      "v": "mistral",
-      "vn": "Mistral",
-      "rel": "2024-09-01",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 128000,
-      "in": 0.15,
-      "oc": 0.15,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 2,
-      "cap": [
-        "多模态",
-        "视觉",
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1725148800000
     },
     {
       "n": "voxtral-mini",
@@ -5658,7 +5376,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 63,
+      "ch": 65,
       "cap": [
         "多模态",
         "视觉",
@@ -6052,7 +5770,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 15,
+      "ch": 16,
       "cap": [
         "多模态",
         "视觉",
@@ -6104,6 +5822,28 @@
         "工具调用"
       ],
       "rel_ts": 1716336000000
+    },
+    {
+      "n": "mistral-medium-3",
+      "name": "Mistral Medium 3",
+      "v": "nvidia",
+      "vn": "英伟达",
+      "rel": "2025-05-07",
+      "relP": "day",
+      "ctx": 131072,
+      "out": 32768,
+      "in": 0,
+      "oc": 0,
+      "cr": null,
+      "open": 0,
+      "rsn": 0,
+      "tool": 0,
+      "ch": 10,
+      "cap": [
+        "多模态",
+        "视觉"
+      ],
+      "rel_ts": 1746576000000
     },
     {
       "n": "active-speaker-detection",
@@ -6427,7 +6167,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 12,
+      "ch": 13,
       "cap": [
         "开源",
         "推理",
@@ -6450,7 +6190,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 10,
+      "ch": 11,
       "cap": [
         "多模态",
         "视觉",
@@ -6800,69 +6540,6 @@
       "rel_ts": 1765843200000
     },
     {
-      "n": "gpt-3-5-turbo",
-      "name": "GPT-3.5-turbo",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2023-03-01",
-      "relP": "day",
-      "ctx": 16385,
-      "out": 4096,
-      "in": 0.5,
-      "oc": 1.5,
-      "cr": 0,
-      "open": 0,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 7,
-      "cap": [],
-      "rel_ts": 1677628800000
-    },
-    {
-      "n": "gpt-4",
-      "name": "GPT-4",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2023-11-06",
-      "relP": "day",
-      "ctx": 8192,
-      "out": 8192,
-      "in": 30,
-      "oc": 60,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 6,
-      "cap": [
-        "工具调用"
-      ],
-      "rel_ts": 1699228800000
-    },
-    {
-      "n": "gpt-4-turbo",
-      "name": "GPT-4 Turbo",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2023-11-06",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 4096,
-      "in": 10,
-      "oc": 30,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 7,
-      "cap": [
-        "多模态",
-        "视觉",
-        "工具调用"
-      ],
-      "rel_ts": 1699228800000
-    },
-    {
       "n": "gpt-4-1",
       "name": "GPT-4.1",
       "v": "openai",
@@ -6901,29 +6578,6 @@
       "rsn": 0,
       "tool": 1,
       "ch": 30,
-      "cap": [
-        "多模态",
-        "视觉",
-        "工具调用"
-      ],
-      "rel_ts": 1744588800000
-    },
-    {
-      "n": "gpt-4-1-nano",
-      "name": "GPT-4.1 nano",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2025-04-14",
-      "relP": "day",
-      "ctx": 1047576,
-      "out": 32768,
-      "in": 0.1,
-      "oc": 0.4,
-      "cr": 0.025,
-      "open": 0,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 21,
       "cap": [
         "多模态",
         "视觉",
@@ -7041,30 +6695,6 @@
       "rsn": 1,
       "tool": 1,
       "ch": 32,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1770249600000
-    },
-    {
-      "n": "gpt-5-3-codex-spark",
-      "name": "GPT-5.3 Codex Spark",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2026-02-05",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 32000,
-      "in": 1.75,
-      "oc": 14,
-      "cr": 0.175,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 3,
       "cap": [
         "多模态",
         "视觉",
@@ -7457,54 +7087,6 @@
       "rel_ts": 1783296000000
     },
     {
-      "n": "o1",
-      "name": "o1",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2024-12-05",
-      "relP": "day",
-      "ctx": 200000,
-      "out": 100000,
-      "in": 15,
-      "oc": 60,
-      "cr": 7.5,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 9,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1733356800000
-    },
-    {
-      "n": "o1-pro",
-      "name": "o1-pro",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2025-03-19",
-      "relP": "day",
-      "ctx": 200000,
-      "out": 100000,
-      "in": 150,
-      "oc": 600,
-      "cr": null,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 2,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1742342400000
-    },
-    {
       "n": "o3",
       "name": "o3",
       "v": "openai",
@@ -7529,28 +7111,6 @@
       "rel_ts": 1744761600000
     },
     {
-      "n": "o3-mini",
-      "name": "o3-mini",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2024-12-20",
-      "relP": "day",
-      "ctx": 200000,
-      "out": 100000,
-      "in": 1.1,
-      "oc": 4.4,
-      "cr": 0.55,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 14,
-      "cap": [
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1734652800000
-    },
-    {
       "n": "o3-pro",
       "name": "o3-pro",
       "v": "openai",
@@ -7573,30 +7133,6 @@
         "工具调用"
       ],
       "rel_ts": 1749513600000
-    },
-    {
-      "n": "o4-mini",
-      "name": "o4-mini",
-      "v": "openai",
-      "vn": "OpenAI",
-      "rel": "2025-04-16",
-      "relP": "day",
-      "ctx": 200000,
-      "out": 100000,
-      "in": 1.1,
-      "oc": 4.4,
-      "cr": 0.275,
-      "open": 0,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 16,
-      "cap": [
-        "多模态",
-        "视觉",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1744761600000
     },
     {
       "n": "text-embedding-3-large",
@@ -7859,17 +7395,42 @@
       "rel_ts": 1785715200000
     },
     {
+      "n": "deepseek-v4-1-flash-1017-interactive",
+      "name": "DeepSeek V4.1 Flash 1017 Interactive",
+      "v": "sarvam",
+      "vn": "Sarvam AI",
+      "rel": "2026-10-17",
+      "relP": "day",
+      "ctx": 1048576,
+      "out": 384000,
+      "in": 0.26595745,
+      "oc": 1.11702128,
+      "cr": 0.00531915,
+      "open": 1,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 1,
+      "cap": [
+        "多模态",
+        "视觉",
+        "开源",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1792195200000
+    },
+    {
       "n": "sarvam-105b",
       "name": "Sarvam-105B",
       "v": "sarvam",
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
       "relP": "day",
-      "ctx": 131072,
-      "out": 131072,
-      "in": 0.15790269,
-      "oc": 0.63161075,
-      "cr": 0.05263423,
+      "ctx": 128000,
+      "out": 128000,
+      "in": 0.10638298,
+      "oc": 0.26595745,
+      "cr": 0.00265957,
       "open": 1,
       "rsn": 1,
       "tool": 1,
@@ -7882,24 +7443,23 @@
       "rel_ts": 1771372800000
     },
     {
-      "n": "sarvam-30b",
-      "name": "Sarvam-30B",
+      "n": "sarvam-105b-conversations",
+      "name": "Sarvam-105B Conversations",
       "v": "sarvam",
       "vn": "Sarvam AI",
       "rel": "2026-02-18",
       "relP": "day",
-      "ctx": 65536,
-      "out": 65536,
-      "in": null,
-      "oc": null,
-      "cr": null,
+      "ctx": 32000,
+      "out": 32000,
+      "in": 0.10638298,
+      "oc": 0.26595745,
+      "cr": 0.00265957,
       "open": 1,
-      "rsn": 1,
+      "rsn": 0,
       "tool": 1,
       "ch": 1,
       "cap": [
         "开源",
-        "推理",
         "工具调用"
       ],
       "rel_ts": 1771372800000
@@ -8188,7 +7748,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 17,
+      "ch": 18,
       "cap": [
         "多模态",
         "视觉",
@@ -8956,7 +8516,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 0,
-      "ch": 7,
+      "ch": 9,
       "cap": [
         "多模态",
         "视觉",
@@ -9242,7 +8802,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 30,
+      "ch": 31,
       "cap": [
         "多模态",
         "视觉",
