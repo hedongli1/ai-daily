@@ -1,147 +1,287 @@
 {
  "query": "AI新模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-24T04:54:39.483Z",
+ "fetchedAt": "2026-11-24T20:26:01.470Z",
  "rows": [
+  {
+   "title": "大模型蒸馏到底在蒸什么？为什么大家吵的根本不是同一件事",
+   "up": "",
+   "play": 66,
+   "pub": "2026/11/24",
+   "bvid": "BV1XE1AzoEPL"
+  },
+  {
+   "title": "新对话一开，聊了3小时的方案全忘了？5分钟看懂上下文窗口｜AI抽卡毕业课 #4",
+   "up": "",
+   "play": 7,
+   "pub": "2026/11/24",
+   "bvid": "BV15W1FzdEqo"
+  },
+  {
+   "title": "58 家公司只有 2 家因 AI 裁人：AI 没有推倒谁，它抽走了第一级台阶",
+   "up": "",
+   "play": 509,
+   "pub": "2026/11/24",
+   "bvid": "BV1dP1cztETV"
+  },
+  {
+   "title": "mistral豪送300刀额度；qoder上新匿名模型免费至月底；wiro学生可申请200刀【免费token 日报|11月24日】",
+   "up": "",
+   "play": 809,
+   "pub": "2026/11/24",
+   "bvid": "BV1Zc1cz8E1o"
+  },
+  {
+   "title": "你支持人类与AI平等吗？",
+   "up": "",
+   "play": 657,
+   "pub": "2026/11/24",
+   "bvid": "BV1PD1FzMEPa"
+  },
+  {
+   "title": "【匿名新模型】HungerG的6000年鹈鹕骑车，附Qwen4的对照",
+   "up": "",
+   "play": 254,
+   "pub": "2026/11/24",
+   "bvid": "BV1TW1cz1Eks"
+  },
+  {
+   "title": "HaDeS MOSS Turbo：文件才 3.5MB｜6 个新模型 11-24",
+   "up": "",
+   "play": 482,
+   "pub": "2026/11/24",
+   "bvid": "BV1v21czfEun"
+  },
+  {
+   "title": "Strata 0.2.21 这个版本纯提速更新，没有新模型",
+   "up": "",
+   "play": 1731,
+   "pub": "2026/11/24",
+   "bvid": "BV1aR1czWE26"
+  },
+  {
+   "title": "给 AI 编程助手换模型，怎么知道老本事还在？一次回归测试讲清楚｜亲手造一个 AI 编程助手 EP23",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/24",
+   "bvid": "BV1Bz1czeEn2"
+  },
+  {
+   "title": "【AI百问EP04】从感知机到千亿参数大模型-大肥鱼科普神经网络",
+   "up": "",
+   "play": 67,
+   "pub": "2026/11/24",
+   "bvid": "BV1f9yZz4EMw"
+  },
+  {
+   "title": "AI抢饭碗，码农扛不住了！新时代程序员该如何找到自己的职业出路？（马士兵-码士集团）",
+   "up": "",
+   "play": 2177,
+   "pub": "2026/11/24",
+   "bvid": "BV1wSyZzcEYc"
+  },
+  {
+   "title": "Qoder上新限时免费模型HungerG，新模型对比gpt6-astra，看看效果如何",
+   "up": "",
+   "play": 242,
+   "pub": "2026/11/24",
+   "bvid": "BV1nDyZz8EWZ"
+  },
+  {
+   "title": "产线出现新缺陷，还要重新训练模型吗？ 用 VLX-Seek 1.5，一句「找出产品表面鼓起的小气泡」，AI 就能在图里把它圈出来。 这期拆解视觉语言模型的底",
+   "up": "",
+   "play": 524,
+   "pub": "2026/11/24",
+   "bvid": "BV1NHyfzuEyA"
+  },
+  {
+   "title": "[中配] 杨立昆的JEPA正在线上进行：开发新的世界模型论文解析",
+   "up": "",
+   "play": 72,
+   "pub": "2026/11/24",
+   "bvid": "BV11syfzKEHJ"
+  },
+  {
+   "title": "AI视频抽卡爆率终于提高了？三分钟看懂谷歌新视频模型Omni！",
+   "up": "",
+   "play": 6597,
+   "pub": "2026/11/24",
+   "bvid": "BV1Evyfz8EYG"
+  },
+  {
+   "title": "AI晚报｜还有高手！Claude Opus 5.6 在灰测？知乎间接投资 DeepSeek，Claude证明VP≠VNP｜11月24日",
+   "up": "",
+   "play": 1194,
+   "pub": "2026/11/24",
+   "bvid": "BV1VKyfzJEde"
+  },
+  {
+   "title": "优象AI新功能发布!空间图片转AI软装模型",
+   "up": "",
+   "play": 29,
+   "pub": "2026/11/24",
+   "bvid": "BV1vyyfzpEvT"
+  },
+  {
+   "title": "劝所有想落地工业 AI 的同学：先定数据类型，再决定你要啃什么技术",
+   "up": "",
+   "play": 159,
+   "pub": "2026/11/24",
+   "bvid": "BV1LkyfzREFY"
+  },
+  {
+   "title": "内资闭门会 / 特斯拉FSD重大更新物理AI加速发展机械汽车 / 特斯拉FSD展示世界模型，物理AI产业链获新验证 / 2026-11-24",
+   "up": "",
+   "play": 40,
+   "pub": "2026/11/24",
+   "bvid": "BV1khyfzwEcF"
+  },
+  {
+   "title": "新对话一开，聊了3小时的方案全忘了？5分钟看懂上下文窗口｜AI抽卡毕业课 #4 【B站AI创造公开赛】",
+   "up": "",
+   "play": 19,
+   "pub": "2026/11/24",
+   "bvid": "BV18QyfzmEJc"
+  },
+  {
+   "title": "往AI训练资料里掺千分之一的毒，干净训练也洗不掉",
+   "up": "",
+   "play": 4593,
+   "pub": "2026/11/24",
+   "bvid": "BV1whyfzAEQP"
+  },
+  {
+   "title": "AI 只交回一份结果，为什么账单变贵了？｜亲手造一个 AI 编程助手 EP22",
+   "up": "",
+   "play": 7,
+   "pub": "2026/11/24",
+   "bvid": "BV14F1FzGEwG"
+  },
+  {
+   "title": "企业级 AI Agent 项目实战：基于FastAPI + LangGraph 构建智能供应链协同平台",
+   "up": "",
+   "play": 1176,
+   "pub": "2026/11/24",
+   "bvid": "BV12EyozaEMy"
+  },
+  {
+   "title": "零基础学AI+软件测试速成路线（测试基础+大模型评测），适合应届生及小白转行入门，2026测试就业新方向",
+   "up": "",
+   "play": 2333,
+   "pub": "2026/11/24",
+   "bvid": "BV1CpyozfEv8"
+  },
+  {
+   "title": "GLM5.4循环Transformer详解：750亿参数如何媲美万亿模型",
+   "up": "",
+   "play": 359,
+   "pub": "2026/11/24",
+   "bvid": "BV1sFyZzeEuH"
+  },
   {
    "title": "黄仁勋即刻复任 CEO、智谱 GLM-5.4 换新架构、量子算法被智能体改快｜AI 日报 11.24",
    "up": "",
-   "play": 2,
+   "play": 162,
    "pub": "2026/11/24",
    "bvid": "BV164yRzEEz8"
   },
   {
+   "title": "Hybrid attention 混合注意力: We blindfolded an AI&#x27;s layers one by one",
+   "up": "",
+   "play": 104,
+   "pub": "2026/11/24",
+   "bvid": "BV1vJyZzDEpu"
+  },
+  {
    "title": "AI 写小说如何选模型 1️⃣ 哈基米出了一堆新模型，到底怎么选 - 灵蟹创作",
    "up": "",
-   "play": 24,
+   "play": 379,
    "pub": "2026/11/24",
    "bvid": "BV1q8yRzjEqC"
   },
   {
-   "title": "Qoder匿名模型HungerG 6000年鹈鹕骑车测试",
+   "title": "【Qoder匿名模型HungerG】震惊！人类已经画了6000多年的鹈鹕骑车？！",
    "up": "",
-   "play": 188,
+   "play": 1316,
    "pub": "2026/11/24",
    "bvid": "BV12XyRzhEHT"
   },
   {
    "title": "问 AI「strawberry 有几个 r」，它秒答 2 个！大模型为什么连字母都数不清？",
    "up": "",
-   "play": 121,
+   "play": 240,
    "pub": "2026/11/24",
    "bvid": "BV1SSy3zCEHK"
   },
   {
    "title": "参数没变，智商翻三倍？智谱发新模型",
    "up": "",
-   "play": 40,
+   "play": 107,
    "pub": "2026/11/23",
    "bvid": "BV1VEydzCEu8"
   },
   {
    "title": "kkr：新九九八十一！！只是向你展示新跑的ai弦卷心模型",
    "up": "",
-   "play": 107,
+   "play": 166,
    "pub": "2026/11/23",
    "bvid": "BV1C7yRzsEpE"
   },
   {
-   "title": "终于知道deepseek为什么还不发布新模型了",
-   "up": "",
-   "play": 19385,
-   "pub": "2026/11/23",
-   "bvid": "BV15gyQzYEca"
-  },
-  {
    "title": "qoder新的隐匿模型HungerG的体素测试（非正规）",
    "up": "",
-   "play": 583,
+   "play": 909,
    "pub": "2026/11/23",
    "bvid": "BV1GjyQzbEj5"
   },
   {
    "title": "【AI前沿晚报 11.23】英伟达全票请回黄仁勋任 CEO｜智谱发布循环架构 GLM-5.4｜南大新架构把显存缓存压 1313 倍",
    "up": "",
-   "play": 220,
+   "play": 278,
    "pub": "2026/11/23",
    "bvid": "BV16JyXzLEY7"
   },
   {
    "title": "阶跃星辰憋出大招？！新匿名模型疑似step 5正式版；aws quick新用户首月免费使用十小时opus【免费token 日报|11月23日】",
    "up": "",
-   "play": 2442,
+   "play": 3126,
    "pub": "2026/11/23",
    "bvid": "BV1zxyXz3EYt"
   },
   {
    "title": "【DAY36】测试一个新模型...？",
    "up": "",
-   "play": 5566,
+   "play": 7643,
    "pub": "2026/11/23",
    "bvid": "BV1iayXzTEpu"
   },
   {
    "title": "黎曼猜想据称被 AI 证了，那这个呢？大模型从不数 .9【无九猜想】",
    "up": "",
-   "play": 309,
+   "play": 394,
    "pub": "2026/11/23",
    "bvid": "BV1nwyJzUEhd"
   },
   {
    "title": "mossMODE：主打自然摄影质感｜6 个新模型 11-23",
    "up": "",
-   "play": 1059,
+   "play": 1284,
    "pub": "2026/11/23",
    "bvid": "BV1dyySzhEG3"
   },
   {
    "title": "DeepSeek Harness 全解｜搞懂大模型新主战场【码士集团】",
    "up": "",
-   "play": 285,
+   "play": 379,
    "pub": "2026/11/23",
    "bvid": "BV1QRySz9EJf"
   },
   {
    "title": "活人有资格用AI复活死人吗？",
    "up": "",
-   "play": 730,
+   "play": 910,
    "pub": "2026/11/23",
    "bvid": "BV1f6ySzPE4R"
-  },
-  {
-   "title": "Qwen4-Max不及预期 | 为什么新发布的大模型不再变强？",
-   "up": "",
-   "play": 121205,
-   "pub": "2026/11/23",
-   "bvid": "BV1s1yjzQEdr"
-  },
-  {
-   "title": "说出来没人信！数码宝贝和千与千寻都真实存在过！新出的 Gemini 4 模型+antigravity就是这么屌啊！",
-   "up": "",
-   "play": 28,
-   "pub": "2026/11/23",
-   "bvid": "BV1BAyQzME7y"
-  },
-  {
-   "title": "AI日报|开源H3视频新模型，生成速度x2！Pi-H3开源！还有智谱GLM 5.4来了！",
-   "up": "",
-   "play": 1082,
-   "pub": "2026/11/23",
-   "bvid": "BV18zyDz9EDa"
-  },
-  {
-   "title": "暗战升级！谷歌新模Helium即将发布且等同Opus 5.5！智谱GLM 5.4正式上线！蚂蚁连发2款医疗大模型！Gemini 4包揽Arena前3！",
-   "up": "",
-   "play": 11002,
-   "pub": "2026/11/23",
-   "bvid": "BV1HoyDzGEye"
-  },
-  {
-   "title": "AI聊五句就失忆？这个新模型让它把记忆长在脑子里",
-   "up": "",
-   "play": 132,
-   "pub": "2026/11/23",
-   "bvid": "BV14myDzEEF2"
   }
  ]
 }

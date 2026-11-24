@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-24",
+  "generated": "2026-11-25",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -787,6 +787,18 @@
       }
     },
     {
+      "model": "Gemini 4 Neon",
+      "release": "2026-11-18",
+      "nRuns": 10,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 10,
+          "avg": 0.8229,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Grok 4.7",
       "release": "2026-09-21",
       "nRuns": 10,
@@ -843,18 +855,6 @@
           "n": 10,
           "avg": 0.3901,
           "best": 0.8918
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Neon",
-      "release": "2026-11-18",
-      "nRuns": 9,
-      "domains": {
-        "Language,Multimodal,Vision,Audio,Video": {
-          "n": 9,
-          "avg": 0.9061,
-          "best": 1
         }
       }
     },

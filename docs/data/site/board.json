@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "board": {
     "latest": [
       {
-        "n": "gemini-4-neon",
-        "name": "Gemini 4 Neon",
-        "vn": "谷歌",
-        "val": "2026-11-18",
+        "n": "inkling-2-mini",
+        "name": "Inkling 2 Mini",
+        "vn": "Thinking Machines",
+        "val": "2026-11-20",
         "metric": "发布日期"
       }
     ],
@@ -30,8 +30,8 @@
     ],
     "priciest": [
       {
-        "n": "gpt-5-4-pro",
-        "name": "GPT-5.4 Pro",
+        "n": "gpt-5-5-pro",
+        "name": "GPT-5.5 Pro",
         "vn": "OpenAI",
         "val": 30,
         "metric": "输入价"
@@ -60,7 +60,7 @@
         "n": "glm-5-3-flash",
         "name": "GLM-5.3-Flash",
         "vn": "智谱 AI",
-        "val": 131,
+        "val": 133,
         "metric": "渠道数"
       }
     ]
@@ -68,13 +68,13 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 116,
+      "models": 110,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.9061,
+      "avg": 0.8229,
       "best": 1,
-      "runs": 9
+      "runs": 10
     },
     {
       "tag": "Multimodal",
@@ -82,9 +82,9 @@
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.9061,
+      "avg": 0.8229,
       "best": 1,
-      "runs": 9
+      "runs": 10
     },
     {
       "tag": "Vision",
@@ -92,19 +92,19 @@
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.9061,
+      "avg": 0.8229,
       "best": 1,
-      "runs": 9
+      "runs": 10
     },
     {
       "tag": "Video",
-      "models": 15,
+      "models": 16,
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.9061,
+      "avg": 0.8229,
       "best": 1,
-      "runs": 9
+      "runs": 10
     },
     {
       "tag": "Audio",
@@ -112,9 +112,9 @@
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.9061,
+      "avg": 0.8229,
       "best": 1,
-      "runs": 9
+      "runs": 10
     },
     {
       "tag": "Speech",

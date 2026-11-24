@@ -1,18 +1,18 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "vendors": [
     {
-      "id": "alibaba",
-      "name": "阿里云",
-      "n": 77,
-      "cheapest": 0,
-      "latest": "2026-09-17",
-      "country": "cn"
+      "id": "databricks",
+      "name": "Databricks",
+      "n": 6,
+      "cheapest": 0.07,
+      "latest": "2025-08-05",
+      "country": "intl"
     },
     {
       "id": "nvidia",
       "name": "英伟达",
-      "n": 42,
+      "n": 41,
       "cheapest": 0,
       "latest": "2026-10-15",
       "country": "intl"
@@ -28,9 +28,9 @@
     {
       "id": "thinkingmachines",
       "name": "Thinking Machines",
-      "n": 8,
-      "cheapest": 0.195,
-      "latest": "2026-07-30",
+      "n": 10,
+      "cheapest": 0.15,
+      "latest": "2026-11-20",
       "country": "intl"
     },
     {
@@ -42,28 +42,28 @@
       "country": "intl"
     },
     {
-      "id": "databricks",
-      "name": "Databricks",
-      "n": 5,
-      "cheapest": 0.07,
-      "latest": "2026-03-03",
-      "country": "intl"
+      "id": "alibaba",
+      "name": "阿里云",
+      "n": 56,
+      "cheapest": 0,
+      "latest": "2026-11-16",
+      "country": "cn"
     },
     {
       "id": "mistral",
       "name": "Mistral",
       "n": 17,
       "cheapest": 0.1,
-      "latest": "2026-10-06",
+      "latest": "2026-10-05",
       "country": "intl"
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 15,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 5,
+      "cheapest": 0.074858,
+      "latest": "2026-11-16",
+      "country": "cn"
     },
     {
       "id": "cohere",
@@ -76,17 +76,25 @@
     {
       "id": "zhipuai",
       "name": "智谱 AI",
-      "n": 18,
+      "n": 19,
       "cheapest": 0,
-      "latest": "2026-09-18",
+      "latest": "2026-11-02",
       "country": "cn"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 15,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
     },
     {
       "id": "volcengine",
       "name": "字节跳动",
-      "n": 12,
-      "cheapest": 0.02227,
-      "latest": "2026-06-23",
+      "n": 9,
+      "cheapest": 0.02969,
+      "latest": "2026-10-17",
       "country": "cn"
     },
     {
@@ -114,27 +122,19 @@
       "country": "intl"
     },
     {
+      "id": "stepfun",
+      "name": "阶跃星辰",
+      "n": 9,
+      "cheapest": 0.1,
+      "latest": "2026-09-16",
+      "country": "cn"
+    },
+    {
       "id": "minimax",
       "name": "MiniMax",
       "n": 8,
       "cheapest": 0.1494,
       "latest": "2026-10-19",
-      "country": "cn"
-    },
-    {
-      "id": "meta",
-      "name": "Meta",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
-      "id": "stepfun",
-      "name": "阶跃星辰",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-09-16",
       "country": "cn"
     },
     {
@@ -146,11 +146,19 @@
       "country": "intl"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 6,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
+      "id": "meta",
+      "name": "Meta",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
+    },
+    {
+      "id": "sensenova",
+      "name": "商汤科技",
+      "n": 1,
+      "cheapest": 0,
+      "latest": "2026-08-11",
       "country": "cn"
     },
     {
@@ -162,11 +170,11 @@
       "country": "cn"
     },
     {
-      "id": "sensenova",
-      "name": "商汤科技",
-      "n": 1,
-      "cheapest": 0,
-      "latest": "2026-08-11",
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 5,
+      "cheapest": 0.075,
+      "latest": "2026-11-05",
       "country": "cn"
     },
     {
@@ -178,19 +186,11 @@
       "country": "intl"
     },
     {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 5,
-      "cheapest": 0.075,
-      "latest": "2026-11-05",
-      "country": "cn"
-    },
-    {
-      "id": "sakana",
-      "name": "Sakana AI",
-      "n": 3,
-      "cheapest": 0.95,
-      "latest": "2026-08-03",
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
       "country": "intl"
     },
     {
@@ -210,20 +210,12 @@
       "country": "intl"
     },
     {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
+      "id": "sakana",
+      "name": "Sakana AI",
+      "n": 3,
+      "cheapest": 0.95,
+      "latest": "2026-08-03",
       "country": "intl"
-    },
-    {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 8,
-      "cheapest": 0,
-      "latest": "2026-11-04",
-      "country": "cn"
     },
     {
       "id": "poolside",
@@ -234,11 +226,11 @@
       "country": "intl"
     },
     {
-      "id": "longcat",
-      "name": "美团 LongCat",
+      "id": "xiaomi",
+      "name": "小米",
       "n": 3,
-      "cheapest": 0.3,
-      "latest": "2026-11-02",
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
       "country": "cn"
     },
     {
@@ -248,6 +240,14 @@
       "cheapest": 1.05,
       "latest": "2024-05-15",
       "country": "intl"
+    },
+    {
+      "id": "longcat",
+      "name": "美团 LongCat",
+      "n": 2,
+      "cheapest": 0.3,
+      "latest": "2026-11-02",
+      "country": "cn"
     },
     {
       "id": "ai21",

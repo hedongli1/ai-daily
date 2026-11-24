@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 118,
+  "count": 112,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -77,6 +77,30 @@
       },
       "rel": "2024-12-26",
       "name": "DeepSeek-V3"
+    },
+    "deepseek-v3-2": {
+      "runs": 6,
+      "domains": {
+        "(未标注)": {
+          "n": 6,
+          "avg": 0.5259,
+          "best": 0.8782
+        }
+      },
+      "rel": "2025-12-01",
+      "name": "DeepSeek-V3.2"
+    },
+    "deepseek-v4-flash-0731": {
+      "runs": 7,
+      "domains": {
+        "Language": {
+          "n": 7,
+          "avg": 0.5244,
+          "best": 0.9444
+        }
+      },
+      "rel": "2026-07-31",
+      "name": "DeepSeek V4 Flash 0731"
     },
     "deepseek-v4-pro": {
       "runs": 14,
@@ -162,6 +186,18 @@
       "rel": "2026-07-16",
       "name": "Kimi K3"
     },
+    "kimi-k3-1-pro": {
+      "runs": 13,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 13,
+          "avg": 0.4798,
+          "best": 1
+        }
+      },
+      "rel": "2026-10-23",
+      "name": "Kimi K3.1 Pro"
+    },
     "kimi-k2-5": {
       "runs": 6,
       "domains": {
@@ -186,77 +222,29 @@
       "rel": "2025-04-28",
       "name": "Qwen Plus"
     },
-    "qwen-turbo": {
-      "runs": 3,
+    "qwen3-5-122b-a10b": {
+      "runs": 1,
       "domains": {
         "Language": {
-          "n": 3,
-          "avg": 0.3471,
-          "best": 0.5623
+          "n": 1,
+          "avg": 0.17,
+          "best": 0.17
         }
       },
-      "rel": "2024-11-01",
-      "name": "Qwen-Turbo"
+      "rel": "2026-02-24",
+      "name": "Qwen3.5-122B-A10B"
     },
-    "qwen3-14b": {
+    "qwen3-5-35b-a3b": {
       "runs": 4,
       "domains": {
         "Language": {
           "n": 4,
-          "avg": 0.5235,
-          "best": 0.6639
+          "avg": 0.7227,
+          "best": 0.8346
         }
       },
-      "rel": "2025-04-29",
-      "name": "Qwen3-14B"
-    },
-    "qwen3-235b-a22b": {
-      "runs": 8,
-      "domains": {
-        "Language": {
-          "n": 8,
-          "avg": 0.3058,
-          "best": 0.8667
-        }
-      },
-      "rel": "2025-07-25",
-      "name": "Qwen3-235B-A22B (Jul 2025)"
-    },
-    "qwen3-32b": {
-      "runs": 4,
-      "domains": {
-        "Language": {
-          "n": 4,
-          "avg": 0.5246,
-          "best": 0.6694
-        }
-      },
-      "rel": "2025-04-29",
-      "name": "Qwen3-32B"
-    },
-    "qwen3-8b": {
-      "runs": 4,
-      "domains": {
-        "Language": {
-          "n": 4,
-          "avg": 0.4564,
-          "best": 0.5676
-        }
-      },
-      "rel": "2025-04-28",
-      "name": "Qwen3-8B"
-    },
-    "qwen3-max": {
-      "runs": 6,
-      "domains": {
-        "Language": {
-          "n": 6,
-          "avg": 0.5263,
-          "best": 0.9713
-        }
-      },
-      "rel": "2025-09-24",
-      "name": "Qwen3-Max"
+      "rel": "2026-02-24",
+      "name": "Qwen3.5-35B-A3B"
     },
     "qwen3-5-397b-a17b": {
       "runs": 7,
@@ -269,6 +257,18 @@
       },
       "rel": "2026-02-13",
       "name": "Qwen3.5 397B-A17B"
+    },
+    "qwen3-6-27b": {
+      "runs": 7,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 7,
+          "avg": 0.578,
+          "best": 0.9111
+        }
+      },
+      "rel": "2026-04-22",
+      "name": "Qwen3.6 27B"
     },
     "qwen3-7-flash": {
       "runs": 8,
@@ -318,77 +318,17 @@
       "rel": "2026-09-01",
       "name": "Qwen3.8 Max (0902)"
     },
-    "qwq-plus": {
-      "runs": 1,
+    "qwen4-max": {
+      "runs": 12,
       "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.654,
-          "best": 0.654
+        "Language,Multimodal,Vision,Video": {
+          "n": 12,
+          "avg": 0.4388,
+          "best": 1
         }
       },
-      "rel": "2025-04-08",
-      "name": "QWQ-Plus"
-    },
-    "deepseek-v3-2": {
-      "runs": 6,
-      "domains": {
-        "(未标注)": {
-          "n": 6,
-          "avg": 0.5259,
-          "best": 0.8782
-        }
-      },
-      "rel": "2025-12-01",
-      "name": "DeepSeek-V3.2"
-    },
-    "deepseek-v4-flash-0731": {
-      "runs": 7,
-      "domains": {
-        "Language": {
-          "n": 7,
-          "avg": 0.5244,
-          "best": 0.9444
-        }
-      },
-      "rel": "2026-07-31",
-      "name": "DeepSeek V4 Flash 0731"
-    },
-    "qwen3-5-122b-a10b": {
-      "runs": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.17,
-          "best": 0.17
-        }
-      },
-      "rel": "2026-02-24",
-      "name": "Qwen3.5-122B-A10B"
-    },
-    "qwen3-5-35b-a3b": {
-      "runs": 4,
-      "domains": {
-        "Language": {
-          "n": 4,
-          "avg": 0.7227,
-          "best": 0.8346
-        }
-      },
-      "rel": "2026-02-24",
-      "name": "Qwen3.5-35B-A3B"
-    },
-    "qwen3-6-27b": {
-      "runs": 7,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 7,
-          "avg": 0.578,
-          "best": 0.9111
-        }
-      },
-      "rel": "2026-04-22",
-      "name": "Qwen3.6 27B"
+      "rel": "2026-11-16",
+      "name": "Qwen4-Max"
     },
     "claude-fable-5": {
       "runs": 22,
@@ -642,41 +582,17 @@
       "rel": "2025-08-05",
       "name": "Claude Opus 4.1"
     },
-    "claude-sonnet-4": {
-      "runs": 14,
+    "gemini-3-1-flash-lite": {
+      "runs": 9,
       "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 14,
-          "avg": 0.4362,
-          "best": 0.8437
+        "Language,Multimodal": {
+          "n": 9,
+          "avg": 0.5151,
+          "best": 0.8182
         }
       },
-      "rel": "2025-05-22",
-      "name": "Claude Sonnet 4"
-    },
-    "gemini-2-5-flash": {
-      "runs": 4,
-      "domains": {
-        "Language,Multimodal,Vision,Speech,Video": {
-          "n": 4,
-          "avg": 0.3822,
-          "best": 0.7306
-        }
-      },
-      "rel": "2025-06-17",
-      "name": "Gemini 2.5 Flash"
-    },
-    "gemini-2-5-pro": {
-      "runs": 14,
-      "domains": {
-        "Language,Vision,Video,Multimodal,Speech": {
-          "n": 14,
-          "avg": 0.3127,
-          "best": 0.8529
-        }
-      },
-      "rel": "2025-06-17",
-      "name": "Gemini 2.5 Pro (Jun 2025)"
+      "rel": "2026-03-03",
+      "name": "Gemini 3.1 Flash-Lite"
     },
     "gemini-3-5-flash": {
       "runs": 22,
@@ -689,6 +605,54 @@
       },
       "rel": "2026-05-19",
       "name": "Gemini 3.5 Flash"
+    },
+    "gemini-3-5-flash-lite": {
+      "runs": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.3973,
+          "best": 0.8333
+        }
+      },
+      "rel": "2026-07-21",
+      "name": "Gemini 3.5 Flash-Lite"
+    },
+    "gemini-3-7-flash": {
+      "runs": 9,
+      "domains": {
+        "Language,Audio,Video,Multimodal": {
+          "n": 9,
+          "avg": 0.6002,
+          "best": 0.9722
+        }
+      },
+      "rel": "2026-08-13",
+      "name": "Gemini 3.7 Flash"
+    },
+    "gemini-3-8-flash": {
+      "runs": 10,
+      "domains": {
+        "Language,Multimodal,Image generation,Video,Audio": {
+          "n": 10,
+          "avg": 0.5299,
+          "best": 0.9889
+        }
+      },
+      "rel": "2026-09-02",
+      "name": "Gemini 3.8 Flash"
+    },
+    "gemini-4-argon": {
+      "runs": 14,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 14,
+          "avg": 0.5765,
+          "best": 1
+        }
+      },
+      "rel": "2026-10-13",
+      "name": "Gemini 4 Argon"
     },
     "gpt-5": {
       "runs": 33,
@@ -725,6 +689,18 @@
       },
       "rel": "2025-12-11",
       "name": "GPT-5.2"
+    },
+    "gpt-5-3-codex": {
+      "runs": 1,
+      "domains": {
+        "Language": {
+          "n": 1,
+          "avg": 0.7479,
+          "best": 0.7479
+        }
+      },
+      "rel": "2026-02-05",
+      "name": "GPT-5.3 Codex"
     },
     "gpt-5-4": {
       "runs": 32,
@@ -773,6 +749,18 @@
       },
       "rel": "2026-04-23",
       "name": "GPT-5.5"
+    },
+    "gpt-5-5-pro": {
+      "runs": 9,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 9,
+          "avg": 0.6714,
+          "best": 1
+        }
+      },
+      "rel": "2026-04-23",
+      "name": "GPT-5.5 Pro"
     },
     "gpt-5-6-luna": {
       "runs": 20,
@@ -834,6 +822,66 @@
       "rel": "2025-08-07",
       "name": "GPT-5 nano"
     },
+    "gpt-6-1-sol": {
+      "runs": 14,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 14,
+          "avg": 0.6302,
+          "best": 1
+        }
+      },
+      "rel": "2026-09-29",
+      "name": "GPT-6.1 Sol"
+    },
+    "gpt-6-1-terra": {
+      "runs": 12,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 12,
+          "avg": 0.6751,
+          "best": 1
+        }
+      },
+      "rel": "2026-10-26",
+      "name": "GPT-6.1 Terra"
+    },
+    "gpt-6-astra": {
+      "runs": 21,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 21,
+          "avg": 0.7276,
+          "best": 1
+        }
+      },
+      "rel": "2026-09-03",
+      "name": "GPT-6 Astra"
+    },
+    "gpt-6-luna": {
+      "runs": 12,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 12,
+          "avg": 0.3997,
+          "best": 0.9889
+        }
+      },
+      "rel": "2026-09-22",
+      "name": "GPT-6 Luna"
+    },
+    "gpt-6-sol": {
+      "runs": 14,
+      "domains": {
+        "Multimodal,Language,Vision": {
+          "n": 14,
+          "avg": 0.526,
+          "best": 1
+        }
+      },
+      "rel": "2026-09-22",
+      "name": "GPT-6 Sol"
+    },
     "gpt-oss-20b": {
       "runs": 6,
       "domains": {
@@ -846,89 +894,29 @@
       "rel": "2025-08-05",
       "name": "gpt-oss-20b"
     },
-    "kimi-k2-7-code": {
-      "runs": 6,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 6,
-          "avg": 0.5003,
-          "best": 0.9556
-        }
-      },
-      "rel": "2026-06-12",
-      "name": "Kimi K2.7 Code"
-    },
-    "gemini-3-1-flash-lite": {
-      "runs": 9,
-      "domains": {
-        "Language,Multimodal": {
-          "n": 9,
-          "avg": 0.5151,
-          "best": 0.8182
-        }
-      },
-      "rel": "2026-03-03",
-      "name": "Gemini 3.1 Flash-Lite"
-    },
-    "gemini-3-5-flash-lite": {
-      "runs": 13,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 13,
-          "avg": 0.3973,
-          "best": 0.8333
-        }
-      },
-      "rel": "2026-07-21",
-      "name": "Gemini 3.5 Flash-Lite"
-    },
-    "gemini-3-6-flash": {
-      "runs": 17,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 17,
-          "avg": 0.5327,
-          "best": 0.9417
-        }
-      },
-      "rel": "2026-07-21",
-      "name": "Gemini 3.6 Flash"
-    },
-    "gemini-3-7-flash": {
-      "runs": 9,
-      "domains": {
-        "Language,Audio,Video,Multimodal": {
-          "n": 9,
-          "avg": 0.6002,
-          "best": 0.9722
-        }
-      },
-      "rel": "2026-08-13",
-      "name": "Gemini 3.7 Flash"
-    },
-    "gemini-3-8-flash": {
-      "runs": 10,
-      "domains": {
-        "Language,Multimodal,Image generation,Video,Audio": {
-          "n": 10,
-          "avg": 0.5299,
-          "best": 0.9889
-        }
-      },
-      "rel": "2026-09-02",
-      "name": "Gemini 3.8 Flash"
-    },
-    "gemini-4-argon": {
+    "grok-4-6": {
       "runs": 14,
       "domains": {
         "Language,Multimodal,Vision": {
           "n": 14,
-          "avg": 0.5765,
-          "best": 1
+          "avg": 0.5654,
+          "best": 0.9917
         }
       },
-      "rel": "2026-10-13",
-      "name": "Gemini 4 Argon"
+      "rel": "2026-08-12",
+      "name": "Grok 4.6"
+    },
+    "grok-4-7": {
+      "runs": 10,
+      "domains": {
+        "Language": {
+          "n": 10,
+          "avg": 0.4621,
+          "best": 0.9806
+        }
+      },
+      "rel": "2026-09-21",
+      "name": "Grok 4.7"
     },
     "gemini-4-carbon": {
       "runs": 13,
@@ -954,12 +942,60 @@
       "rel": "2026-11-12",
       "name": "Gemini 4 Hydrogen"
     },
+    "gpt-6-2-astra": {
+      "runs": 14,
+      "domains": {
+        "Language,Vision,Multimodal": {
+          "n": 14,
+          "avg": 0.7319,
+          "best": 1
+        }
+      },
+      "rel": "2026-11-17",
+      "name": "GPT-6.2 Astra"
+    },
+    "gemini-2-5-flash": {
+      "runs": 4,
+      "domains": {
+        "Language,Multimodal,Vision,Speech,Video": {
+          "n": 4,
+          "avg": 0.3822,
+          "best": 0.7306
+        }
+      },
+      "rel": "2025-06-17",
+      "name": "Gemini 2.5 Flash"
+    },
+    "gemini-2-5-pro": {
+      "runs": 14,
+      "domains": {
+        "Language,Vision,Video,Multimodal,Speech": {
+          "n": 14,
+          "avg": 0.3127,
+          "best": 0.8529
+        }
+      },
+      "rel": "2025-06-17",
+      "name": "Gemini 2.5 Pro (Jun 2025)"
+    },
+    "gemini-3-6-flash": {
+      "runs": 17,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 17,
+          "avg": 0.5327,
+          "best": 0.9417
+        }
+      },
+      "rel": "2026-07-21",
+      "name": "Gemini 3.6 Flash"
+    },
     "gemini-4-neon": {
-      "runs": 9,
+      "runs": 10,
       "domains": {
         "Language,Multimodal,Vision,Audio,Video": {
-          "n": 9,
-          "avg": 0.9061,
+          "n": 10,
+          "avg": 0.8229,
           "best": 1
         }
       },
@@ -1086,17 +1122,17 @@
       "rel": "2026-04-20",
       "name": "Kimi K2.6"
     },
-    "kimi-k3-1-pro": {
-      "runs": 13,
+    "kimi-k2-7-code": {
+      "runs": 6,
       "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 13,
-          "avg": 0.4798,
-          "best": 1
+        "Language,Multimodal,Vision": {
+          "n": 6,
+          "avg": 0.5003,
+          "best": 0.9556
         }
       },
-      "rel": "2026-10-23",
-      "name": "Kimi K3.1 Pro"
+      "rel": "2026-06-12",
+      "name": "Kimi K2.7 Code"
     },
     "mistral-medium-3": {
       "runs": 5,
@@ -1182,18 +1218,6 @@
       "rel": "2025-12-11",
       "name": "GPT-5.2 Pro"
     },
-    "gpt-5-3-codex": {
-      "runs": 1,
-      "domains": {
-        "Language": {
-          "n": 1,
-          "avg": 0.7479,
-          "best": 0.7479
-        }
-      },
-      "rel": "2026-02-05",
-      "name": "GPT-5.3 Codex"
-    },
     "gpt-5-4-pro": {
       "runs": 7,
       "domains": {
@@ -1206,90 +1230,6 @@
       "rel": "2026-03-05",
       "name": "GPT-5.4 Pro"
     },
-    "gpt-5-5-pro": {
-      "runs": 9,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 9,
-          "avg": 0.6714,
-          "best": 1
-        }
-      },
-      "rel": "2026-04-23",
-      "name": "GPT-5.5 Pro"
-    },
-    "gpt-6-astra": {
-      "runs": 21,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 21,
-          "avg": 0.7276,
-          "best": 1
-        }
-      },
-      "rel": "2026-09-03",
-      "name": "GPT-6 Astra"
-    },
-    "gpt-6-luna": {
-      "runs": 12,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 12,
-          "avg": 0.3997,
-          "best": 0.9889
-        }
-      },
-      "rel": "2026-09-22",
-      "name": "GPT-6 Luna"
-    },
-    "gpt-6-sol": {
-      "runs": 14,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 14,
-          "avg": 0.526,
-          "best": 1
-        }
-      },
-      "rel": "2026-09-22",
-      "name": "GPT-6 Sol"
-    },
-    "gpt-6-1-sol": {
-      "runs": 14,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 14,
-          "avg": 0.6302,
-          "best": 1
-        }
-      },
-      "rel": "2026-09-29",
-      "name": "GPT-6.1 Sol"
-    },
-    "gpt-6-1-terra": {
-      "runs": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.6751,
-          "best": 1
-        }
-      },
-      "rel": "2026-10-26",
-      "name": "GPT-6.1 Terra"
-    },
-    "gpt-6-2-astra": {
-      "runs": 14,
-      "domains": {
-        "Language,Vision,Multimodal": {
-          "n": 14,
-          "avg": 0.7319,
-          "best": 1
-        }
-      },
-      "rel": "2026-11-17",
-      "name": "GPT-6.2 Astra"
-    },
     "o3": {
       "runs": 25,
       "domains": {
@@ -1301,6 +1241,18 @@
       },
       "rel": "2025-04-16",
       "name": "o3"
+    },
+    "qwen3-8b": {
+      "runs": 4,
+      "domains": {
+        "Language": {
+          "n": 4,
+          "avg": 0.4564,
+          "best": 0.5676
+        }
+      },
+      "rel": "2025-04-28",
+      "name": "Qwen3-8B"
     },
     "qwen3-5-4b": {
       "runs": 1,
@@ -1361,30 +1313,6 @@
       },
       "rel": "2026-07-08",
       "name": "Grok 4.5"
-    },
-    "grok-4-6": {
-      "runs": 14,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 14,
-          "avg": 0.5654,
-          "best": 0.9917
-        }
-      },
-      "rel": "2026-08-12",
-      "name": "Grok 4.6"
-    },
-    "grok-4-7": {
-      "runs": 10,
-      "domains": {
-        "Language": {
-          "n": 10,
-          "avg": 0.4621,
-          "best": 0.9806
-        }
-      },
-      "rel": "2026-09-21",
-      "name": "Grok 4.7"
     },
     "glm-4-5": {
       "runs": 2,

@@ -1,498 +1,1026 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "mode": "diff",
-  "baselineDate": "2026-11-23",
+  "baselineDate": "2026-11-24",
   "events": [
     {
       "type": "price",
-      "key": "sarvam/GLM-5.3",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "GLM-5.3",
-      "date": "2026-11-24",
+      "key": "alibaba-cn/DeepSeek V3.2",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "DeepSeek V3.2",
+      "date": "2026-11-25",
       "facts": {
         "before": {
-          "in": 1.4,
-          "outCost": 4.4
+          "in": 0.27,
+          "outCost": 0.42
         },
         "after": {
-          "in": 1.34042553,
-          "outCost": 4.14893617
+          "in": 0.299433,
+          "outCost": 0.449149
         }
       },
-      "text": "输入 $1.4 → $1.34 · 输出 $4.4 → $4.15",
-      "href": "/models/glm-5-3/"
-    },
-    {
-      "type": "price",
-      "key": "sarvam/GLM-5.3-Flash",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "GLM-5.3-Flash",
-      "date": "2026-11-24",
-      "facts": {
-        "before": {
-          "in": 0.15,
-          "outCost": 0.5
-        },
-        "after": {
-          "in": 0.14361702,
-          "outCost": 0.4787234
-        }
-      },
-      "text": "输入 $0.15 → $0.14 · 输出 $0.5 → $0.48",
-      "href": "/models/glm-5-3-flash/"
-    },
-    {
-      "type": "price",
-      "key": "sarvam/Gemma 4 31B IT",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "Gemma 4 31B IT",
-      "date": "2026-11-24",
-      "facts": {
-        "before": {
-          "in": 0,
-          "outCost": 0
-        },
-        "after": {
-          "in": 0.37234043,
-          "outCost": 0.95744681
-        }
-      },
-      "text": "输入 免费 → $0.37 · 输出 免费 → $0.96",
-      "href": "/models/gemma-4-31b-it/"
-    },
-    {
-      "type": "price",
-      "key": "nvidia/Mistral Medium 3",
-      "vendor": "nvidia",
-      "vendorName": "英伟达",
-      "name": "Mistral Medium 3",
-      "date": "2026-11-24",
-      "facts": {
-        "before": {
-          "in": 0.4,
-          "outCost": 2
-        },
-        "after": {
-          "in": 0,
-          "outCost": 0
-        }
-      },
-      "text": "输入 $0.4 → 免费 · 输出 $2 → 免费",
-      "href": "/models/mistral-medium-3/"
-    },
-    {
-      "type": "price",
-      "key": "mistral/Magistral Medium (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Magistral Medium (latest)",
-      "date": "2026-11-24",
-      "facts": {
-        "before": {
-          "in": 2,
-          "outCost": 5
-        },
-        "after": {
-          "in": 1.5,
-          "outCost": 7.5
-        }
-      },
-      "text": "输入 $2 → $1.5 · 输出 $5 → $7.5",
-      "href": "/models/magistral-medium/",
+      "text": "输入 $0.27 → $0.3 · 输出 $0.42 → $0.45",
+      "href": "/models/deepseek-v3-2/",
       "evidence": [
         {
-          "title": "client-ts ·  TS Client library for Mistral AI platform ",
-          "url": "https://github.com/mistralai/client-ts/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "client-python · Python client library for Mistral AI platform",
-          "url": "https://github.com/mistralai/client-python/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "mistral-common · Official inference library for pre-processing of Mistral models",
-          "url": "https://github.com/mistralai/mistral-common/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "cookbook · 仓库更新",
-          "url": "https://github.com/mistralai/cookbook/releases",
-          "source": "Mistral AI"
-        },
-        {
-          "title": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
-          "url": "https://github.com/mistralai/vllm/releases",
-          "source": "Mistral AI"
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
         }
       ]
     },
     {
       "type": "price",
-      "key": "sarvam/Sarvam-105B",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "Sarvam-105B",
-      "date": "2026-11-24",
+      "key": "zhipuai/GLM-5",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-5",
+      "date": "2026-11-25",
       "facts": {
         "before": {
-          "in": 0.15790269,
-          "outCost": 0.63161075
+          "in": 0,
+          "outCost": 0
         },
         "after": {
-          "in": 0.10638298,
-          "outCost": 0.26595745
+          "in": 0.59758,
+          "outCost": 2.68911
         }
       },
-      "text": "输入 $0.16 → $0.11 · 输出 $0.63 → $0.27",
-      "href": "/models/sarvam-105b/"
+      "text": "输入 免费 → $0.6 · 输出 免费 → $2.69",
+      "href": "/models/glm-5/"
     },
     {
       "type": "price",
-      "key": "mistral/Mistral Embed",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Embed",
-      "date": "2026-11-24",
+      "key": "alibaba-cn/kimi/kimi-k2.5",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "kimi/kimi-k2.5",
+      "date": "2026-11-25",
       "facts": {
         "before": {
-          "in": 0.1,
+          "in": 0,
           "outCost": 0
         },
         "after": {
-          "in": 0.1,
+          "in": 0.6,
+          "outCost": 3
+        }
+      },
+      "text": "输入 免费 → $0.6 · 输出 免费 → $3",
+      "href": "/models/kimi-k2-5/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.6 35B-A3B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.6 35B-A3B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0.45,
+          "outCost": 1.335
+        },
+        "after": {
+          "in": 0.375,
+          "outCost": 2.25
+        }
+      },
+      "text": "输入 $0.45 → $0.38 · 输出 $1.33 → $2.25",
+      "href": "/models/qwen3-6-35b-a3b/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.6 27B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.6 27B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 1.86,
+          "outCost": 5.595
+        },
+        "after": {
+          "in": 0.6,
+          "outCost": 3.6
+        }
+      },
+      "text": "输入 $1.86 → $0.6 · 输出 $5.59 → $3.6",
+      "href": "/models/qwen3-6-27b/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba-cn/DeepSeek V3.1",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "DeepSeek V3.1",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 1.695,
+          "outCost": 4.215
+        },
+        "after": {
+          "in": 0.574,
+          "outCost": 1.721
+        }
+      },
+      "text": "输入 $1.7 → $0.57 · 输出 $4.21 → $1.72",
+      "href": "/models/deepseek-v3-1/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen3.5 397B-A17B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.5 397B-A17B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 1.65,
+          "outCost": 7.5
+        },
+        "after": {
+          "in": 0.6,
+          "outCost": 3.6
+        }
+      },
+      "text": "输入 $1.65 → $0.6 · 输出 $7.5 → $3.6",
+      "href": "/models/qwen3-5-397b-a17b/"
+    },
+    {
+      "type": "price",
+      "key": "tencent-token-plan/Hy3",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy3",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0,
           "outCost": 0
+        },
+        "after": {
+          "in": null,
+          "outCost": null
+        }
+      },
+      "text": "输入 免费 → 未知 · 输出 免费 → 未知",
+      "href": "/models/hy3/"
+    },
+    {
+      "type": "price",
+      "key": "tencent-token-plan/Hy4 preview",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4 preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0.834,
+          "outCost": 2.501
+        },
+        "after": {
+          "in": 0.898298,
+          "outCost": 2.694894
+        }
+      },
+      "text": "输入 $0.83 → $0.9 · 输出 $2.5 → $2.69",
+      "href": "/models/hy4-preview/"
+    },
+    {
+      "type": "price",
+      "key": "alibaba/Qwen Max",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen Max",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 1.6,
+          "outCost": 6.4
+        },
+        "after": {
+          "in": 1.6,
+          "outCost": 6.4
         }
       },
       "text": "",
-      "href": "/models/mistral-embed/"
+      "href": "/models/qwen-max/"
     },
     {
-      "type": "context",
-      "key": "sarvam/GLM-5.3",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "GLM-5.3",
-      "date": "2026-11-24",
+      "type": "price",
+      "key": "thinkingmachines/GPT OSS 20B",
+      "vendor": "thinkingmachines",
+      "vendorName": "Thinking Machines",
+      "name": "GPT OSS 20B",
+      "date": "2026-11-25",
       "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/glm-5-3/"
-    },
-    {
-      "type": "context",
-      "key": "sarvam/GLM-5.3-Flash",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "GLM-5.3-Flash",
-      "date": "2026-11-24",
-      "facts": {
-        "before": 1000000,
-        "after": 1048576
-      },
-      "text": "上下文 1M → 1.05M",
-      "href": "/models/glm-5-3-flash/"
-    },
-    {
-      "type": "context",
-      "key": "sarvam/Sarvam-105B",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "Sarvam-105B",
-      "date": "2026-11-24",
-      "facts": {
-        "before": 131072,
-        "after": 128000
-      },
-      "text": "上下文 131K → 128K",
-      "href": "/models/sarvam-105b/"
-    },
-    {
-      "type": "retired",
-      "key": "openai/GPT-4.1 nano",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-4.1 nano",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/",
-      "evidence": [
-        {
-          "title": "OpenAI and Cisco introduce Shirudo",
-          "url": "https://openai.com/index/introducing-shirudo",
-          "source": "OpenAI"
+        "before": {
+          "in": 0.07,
+          "outCost": 0.3
         },
-        {
-          "title": "Connected intelligence for in-house legal",
-          "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
-          "source": "OpenAI"
-        },
-        {
-          "title": "Richpanel helps companies automate 50% of support in 30 days",
-          "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
-          "source": "OpenAI"
+        "after": {
+          "in": 0.18,
+          "outCost": 0.45
         }
-      ]
+      },
+      "text": "输入 $0.07 → $0.18 · 输出 $0.3 → $0.45",
+      "href": "/models/gpt-oss-20b/"
     },
     {
-      "type": "retired",
-      "key": "openai/o3-mini",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "o3-mini",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
+      "type": "price",
+      "key": "alibaba/Qwen Plus Character (Japanese)",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen Plus Character (Japanese)",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0.5,
+          "outCost": 1.4
+        },
+        "after": {
+          "in": 0.5,
+          "outCost": 1.4
+        }
+      },
+      "text": "",
+      "href": "/models/qwen-plus-character/"
     },
     {
-      "type": "retired",
-      "key": "openai/o4-mini",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "o4-mini",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
+      "type": "price",
+      "key": "tencent-token-plan/Hy4",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0.834,
+          "outCost": 2.501
+        },
+        "after": {
+          "in": 0.898298,
+          "outCost": 2.694894
+        }
+      },
+      "text": "输入 $0.83 → $0.9 · 输出 $2.5 → $2.69",
+      "href": "/models/hy4/"
     },
     {
-      "type": "retired",
-      "key": "mistral/Devstral 2",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Devstral 2",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
+      "type": "price",
+      "key": "cohere/Command A Plus",
+      "vendor": "cohere",
+      "vendorName": "Cohere",
+      "name": "Command A Plus",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 2.5,
+          "outCost": 10
+        },
+        "after": {
+          "in": 0,
+          "outCost": 0
+        }
+      },
+      "text": "输入 $2.5 → 免费 · 输出 $10 → 免费",
+      "href": "/models/command-a-plus/"
     },
     {
-      "type": "retired",
-      "key": "openai/GPT-4 Turbo",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-4 Turbo",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Ministral 3B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 3B (latest)",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "openai/o1",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "o1",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mistral Medium 3.1",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Medium 3.1",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "openai/GPT-4",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "GPT-4",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
-    },
-    {
-      "type": "retired",
-      "key": "google/Gemini 2.5 Computer Use Preview 10-2025",
+      "type": "price",
+      "key": "google/Lyria 3 Clip Preview",
       "vendor": "google",
       "vendorName": "谷歌",
-      "name": "Gemini 2.5 Computer Use Preview 10-2025",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/",
+      "name": "Lyria 3 Clip Preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0,
+          "outCost": 0
+        },
+        "after": {
+          "in": null,
+          "outCost": null
+        }
+      },
+      "text": "输入 免费 → 未知 · 输出 免费 → 未知",
+      "href": "/models/lyria-3-clip-preview/",
       "evidence": [
         {
-          "title": "Finding faster quantum algorithms with agents and formal verification",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
-          "source": "Google DeepMind"
-        },
-        {
-          "title": "A more tailored Google Search that’s uniquely yours",
-          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+          "title": "How Gemini is changing the game for Golden State's organization and fans.",
+          "url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
           "source": "Google Blog · AI"
         }
       ]
     },
     {
-      "type": "retired",
-      "key": "google/Gemini Omni Flash Preview",
+      "type": "price",
+      "key": "google/Lyria 3 Pro Preview",
       "vendor": "google",
       "vendorName": "谷歌",
-      "name": "Gemini Omni Flash Preview",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 谷歌 下架",
-      "href": "/vendors/google/"
+      "name": "Lyria 3 Pro Preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0,
+          "outCost": 0
+        },
+        "after": {
+          "in": null,
+          "outCost": null
+        }
+      },
+      "text": "输入 免费 → 未知 · 输出 免费 → 未知",
+      "href": "/models/lyria-3-pro-preview/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba-cn/DeepSeek V3.2",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "DeepSeek V3.2",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 163840,
+        "after": 131072
+      },
+      "text": "上下文 164K → 131K",
+      "href": "/models/deepseek-v3-2/"
+    },
+    {
+      "type": "context",
+      "key": "zhipuai/GLM-5",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-5",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 202752,
+        "after": 204800
+      },
+      "text": "上下文 203K → 205K",
+      "href": "/models/glm-5/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba/Qwen3.6 35B-A3B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.6 35B-A3B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 65536,
+        "after": 262144
+      },
+      "text": "上下文 66K → 262K",
+      "href": "/models/qwen3-6-35b-a3b/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba/Qwen3.6 27B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.6 27B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 65536,
+        "after": 262144
+      },
+      "text": "上下文 66K → 262K",
+      "href": "/models/qwen3-6-27b/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba-cn/DeepSeek V3.1",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "DeepSeek V3.1",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 32768,
+        "after": 131072
+      },
+      "text": "上下文 33K → 131K",
+      "href": "/models/deepseek-v3-1/"
+    },
+    {
+      "type": "context",
+      "key": "google/Nano Banana",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 32768,
+        "after": 65536
+      },
+      "text": "上下文 33K → 66K",
+      "href": "/models/nano-banana/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba/Qwen3.5 397B-A17B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.5 397B-A17B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 65536,
+        "after": 262144
+      },
+      "text": "上下文 66K → 262K",
+      "href": "/models/qwen3-5-397b-a17b/"
+    },
+    {
+      "type": "context",
+      "key": "volcengine/Seed 2.1 Pro",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 2.1 Pro",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 1024000,
+        "after": 256000
+      },
+      "text": "上下文 1M → 256K",
+      "href": "/models/seed-2-1-pro/"
+    },
+    {
+      "type": "context",
+      "key": "tencent-token-plan/Hy4 preview",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4 preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 1024000,
+        "after": 1048576
+      },
+      "text": "上下文 1.02M → 1.05M",
+      "href": "/models/hy4-preview/"
+    },
+    {
+      "type": "context",
+      "key": "thinkingmachines/GPT OSS 20B",
+      "vendor": "thinkingmachines",
+      "vendorName": "Thinking Machines",
+      "name": "GPT OSS 20B",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 131072,
+        "after": 32768
+      },
+      "text": "上下文 131K → 33K",
+      "href": "/models/gpt-oss-20b/"
+    },
+    {
+      "type": "context",
+      "key": "google/Lyria 3 Clip Preview",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Lyria 3 Clip Preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 1048576,
+        "after": 131072
+      },
+      "text": "上下文 1M → 131K",
+      "href": "/models/lyria-3-clip-preview/"
+    },
+    {
+      "type": "context",
+      "key": "google/Lyria 3 Pro Preview",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Lyria 3 Pro Preview",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 1048576,
+        "after": 131072
+      },
+      "text": "上下文 1M → 131K",
+      "href": "/models/lyria-3-pro-preview/"
+    },
+    {
+      "type": "context",
+      "key": "volcengine/Seed Character",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed Character",
+      "date": "2026-11-25",
+      "facts": {
+        "before": 256000,
+        "after": 128000
+      },
+      "text": "上下文 256K → 128K",
+      "href": "/models/seed-character/"
     },
     {
       "type": "retired",
-      "key": "mistral/Mistral Small 3.2",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Small 3.2",
-      "date": "2026-11-24",
+      "key": "databricks/Gemini 3 Pro Preview",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Gemini 3 Pro Preview",
+      "date": "2026-11-25",
       "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
+      "text": "已从 Databricks 下架",
+      "href": "/vendors/databricks/"
     },
     {
       "type": "retired",
-      "key": "mistral/Pixtral 12B",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Pixtral 12B",
-      "date": "2026-11-24",
+      "key": "databricks/Gemini 3.1 Flash Lite Preview",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Gemini 3.1 Flash Lite Preview",
+      "date": "2026-11-25",
       "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
+      "text": "已从 Databricks 下架",
+      "href": "/vendors/databricks/"
     },
     {
       "type": "retired",
-      "key": "openai/GPT-3.5-turbo",
+      "key": "alibaba/Qwen3 235B-A22B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3 235B-A22B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-Coder 480B-A35B Instruct",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-Coder 480B-A35B Instruct",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3 32B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3 32B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "databricks/Claude Sonnet 4",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Claude Sonnet 4",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 Databricks 下架",
+      "href": "/vendors/databricks/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3 Max",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3 Max",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "xiaomi/MiMo-V2.5",
+      "vendor": "xiaomi",
+      "vendorName": "小米",
+      "name": "MiMo-V2.5",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 小米 下架",
+      "href": "/vendors/xiaomi/"
+    },
+    {
+      "type": "retired",
+      "key": "xiaomi/MiMo-V2.5-Pro",
+      "vendor": "xiaomi",
+      "vendorName": "小米",
+      "name": "MiMo-V2.5-Pro",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 小米 下架",
+      "href": "/vendors/xiaomi/"
+    },
+    {
+      "type": "retired",
+      "key": "tencent-tokenhub/Hy3 preview",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy3 preview",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 腾讯混元 下架",
+      "href": "/vendors/tencent-tokenhub/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3.6 Max Preview",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3.6 Max Preview",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-Next 80B-A3B Instruct",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-Next 80B-A3B Instruct",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/QVQ Max",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "QVQ Max",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba-cn/Qwen Math Plus",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen Math Plus",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen-MT Turbo",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-MT Turbo",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen-Omni Turbo",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-Omni Turbo",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen-Omni Turbo Realtime",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-Omni Turbo Realtime",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen Turbo",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen Turbo",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen-VL Max",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-VL Max",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen-VL Plus",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-VL Plus",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen2.5-Omni 7B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen2.5-Omni 7B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3 14B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3 14B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-Coder 30B-A3B Instruct",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-Coder 30B-A3B Instruct",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3 Coder Plus",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3 Coder Plus",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-Next 80B-A3B (Thinking)",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-Next 80B-A3B (Thinking)",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-Omni Flash Realtime",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-Omni Flash Realtime",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-VL 235B-A22B",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-VL 235B-A22B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/QwQ Plus",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "QwQ Plus",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "alibaba/Qwen3-LiveTranslate Flash Realtime",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen3-LiveTranslate Flash Realtime",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 阿里云 下架",
+      "href": "/vendors/alibaba/"
+    },
+    {
+      "type": "retired",
+      "key": "volcengine/Seed 2.0 Code",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 2.0 Code",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 字节跳动 下架",
+      "href": "/vendors/volcengine/"
+    },
+    {
+      "type": "retired",
+      "key": "thinkingmachines/Nemotron 3 Nano 30B A3B",
+      "vendor": "thinkingmachines",
+      "vendorName": "Thinking Machines",
+      "name": "Nemotron 3 Nano 30B A3B",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 Thinking Machines 下架",
+      "href": "/vendors/thinkingmachines/"
+    },
+    {
+      "type": "retired",
+      "key": "longcat/LongCat-2.5-Preview",
+      "vendor": "longcat",
+      "vendorName": "美团 LongCat",
+      "name": "LongCat-2.5-Preview",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 美团 LongCat 下架",
+      "href": "/vendors/longcat/"
+    },
+    {
+      "type": "retired",
+      "key": "volcengine/Seed 1.8",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 1.8",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 字节跳动 下架",
+      "href": "/vendors/volcengine/"
+    },
+    {
+      "type": "retired",
+      "key": "tencent-coding-plan/Tencent HY 2.0 Instruct",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Tencent HY 2.0 Instruct",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 腾讯混元 下架",
+      "href": "/vendors/tencent-tokenhub/"
+    },
+    {
+      "type": "retired",
+      "key": "tencent-coding-plan/Tencent HY 2.0 Think",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Tencent HY 2.0 Think",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 腾讯混元 下架",
+      "href": "/vendors/tencent-tokenhub/"
+    },
+    {
+      "type": "retired",
+      "key": "tencent-coding-plan/Hunyuan-T1",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hunyuan-T1",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 腾讯混元 下架",
+      "href": "/vendors/tencent-tokenhub/"
+    },
+    {
+      "type": "retired",
+      "key": "tencent-coding-plan/Hunyuan-TurboS",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hunyuan-TurboS",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 腾讯混元 下架",
+      "href": "/vendors/tencent-tokenhub/"
+    },
+    {
+      "type": "retired",
+      "key": "volcengine/Seed 1.6",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 1.6",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 字节跳动 下架",
+      "href": "/vendors/volcengine/"
+    },
+    {
+      "type": "retired",
+      "key": "volcengine/Seed 1.6 Flash",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 1.6 Flash",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 字节跳动 下架",
+      "href": "/vendors/volcengine/"
+    },
+    {
+      "type": "retired",
+      "key": "volcengine/Seed 1.6 Vision",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 1.6 Vision",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 字节跳动 下架",
+      "href": "/vendors/volcengine/"
+    },
+    {
+      "type": "retired",
+      "key": "xiaomi/MiMo-V2.5-Pro-UltraSpeed",
+      "vendor": "xiaomi",
+      "vendorName": "小米",
+      "name": "MiMo-V2.5-Pro-UltraSpeed",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "已从 小米 下架",
+      "href": "/vendors/xiaomi/"
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "GPT-3.5-turbo",
+      "name": "Searching for distant planets with Astra",
       "date": "2026-11-24",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
+      "text": "Searching for distant planets with Astra",
+      "href": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "external": true
     },
     {
-      "type": "retired",
-      "key": "mistral/Ministral 8B (latest)",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Ministral 8B (latest)",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Devstral Small 2",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Devstral Small 2",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Leanstral 1.5",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Leanstral 1.5",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Mistral Large 4.0.8",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Mistral Large 4.0.8",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "mistral/Open Mistral Nemo",
-      "vendor": "mistral",
-      "vendorName": "Mistral",
-      "name": "Open Mistral Nemo",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Mistral 下架",
-      "href": "/vendors/mistral/"
-    },
-    {
-      "type": "retired",
-      "key": "openai/GPT-5.3 Codex Spark",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "GPT-5.3 Codex Spark",
+      "name": "How Intentful uses dots to make more time for growth",
       "date": "2026-11-24",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
+      "text": "How Intentful uses dots to make more time for growth",
+      "href": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "external": true
     },
     {
-      "type": "retired",
-      "key": "openai/GPT-Realtime-2.1",
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
-      "name": "GPT-Realtime-2.1",
+      "name": "How iFood scales coding agents across 15,000 repositories",
       "date": "2026-11-24",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
+      "text": "How iFood scales coding agents across 15,000 repositories",
+      "href": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "external": true
     },
     {
-      "type": "retired",
-      "key": "openai/o1-pro",
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "o1-pro",
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "How Gemini is changing the game for Golden State's organization and fans.",
       "date": "2026-11-24",
       "facts": {},
-      "text": "已从 OpenAI 下架",
-      "href": "/vendors/openai/"
-    },
-    {
-      "type": "retired",
-      "key": "sarvam/Sarvam-30B",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "Sarvam-30B",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "已从 Sarvam AI 下架",
-      "href": "/vendors/sarvam/"
+      "text": "How Gemini is changing the game for Golden State's organization and fans.",
+      "href": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google Blog · AI",
+      "external": true
     },
     {
       "type": "news",
@@ -518,6 +1046,97 @@
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
       "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "zhipu",
+      "vendorName": "智谱 AI",
+      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
+      "href": "https://github.com/zai-org/zcode-plugins/releases",
+      "source": "智谱 AI",
       "external": true
     },
     {
@@ -590,11 +1209,11 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
       "date": "2026-11-23",
       "facts": {},
-      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
-      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
       "source": "Qwen",
       "external": true
     },
@@ -603,11 +1222,11 @@
       "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "Qwen-Live-Delivery-Plugin · 仓库更新",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "date": "2026-11-23",
       "facts": {},
-      "text": "Qwen-Live-Delivery-Plugin · 仓库更新",
-      "href": "https://github.com/QwenLM/Qwen-Live-Delivery-Plugin/releases",
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
       "source": "Qwen",
       "external": true
     },
@@ -621,45 +1240,6 @@
       "facts": {},
       "text": "client-ts ·  TS Client library for Mistral AI platform ",
       "href": "https://github.com/mistralai/client-ts/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "client-python · Python client library for Mistral AI platform",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "client-python · Python client library for Mistral AI platform",
-      "href": "https://github.com/mistralai/client-python/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
-      "href": "https://github.com/mistralai/mistral-common/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "cookbook · 仓库更新",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "cookbook · 仓库更新",
-      "href": "https://github.com/mistralai/cookbook/releases",
       "source": "Mistral AI",
       "external": true
     },
@@ -690,123 +1270,274 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "zhipu",
-      "vendorName": "智谱 AI",
-      "name": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "zcode-plugins · ZCode Plugins Marketplace - official built-in and community plugins for ZCode",
-      "href": "https://github.com/zai-org/zcode-plugins/releases",
-      "source": "智谱 AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "openai",
-      "vendorName": "OpenAI",
-      "name": "Perplexity and Intelligence",
-      "date": "2026-11-22",
-      "facts": {},
-      "text": "Perplexity and Intelligence",
-      "href": "https://openai.com/index/perplexity-and-intelligence",
-      "source": "OpenAI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "date": "2026-11-22",
-      "facts": {},
-      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
-      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
-      "date": "2026-11-22",
-      "facts": {},
-      "text": "timestral · Repository for Timestral, the time-series foundation model by Mistral AI",
-      "href": "https://github.com/mistralai/timestral/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-11-22",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
+      "type": "new",
+      "key": "thinkingmachines/Inkling 2 Mini",
+      "vendor": "thinkingmachines",
+      "vendorName": "Thinking Machines",
+      "name": "Inkling 2 Mini",
+      "date": "2026-11-20",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.15,
+        "outCost": 0.5,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Inkling 2 Mini · 开源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
+      "href": "/models/inkling-2-mini/",
+      "shared": 7
     },
     {
       "type": "new",
-      "key": "longcat/LongCat-2.5",
-      "vendor": "longcat",
-      "vendorName": "美团 LongCat",
-      "name": "LongCat-2.5",
-      "date": "2026-11-02",
+      "key": "alibaba/Qwen4 Max",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen4 Max",
+      "date": "2026-11-16",
       "facts": {
-        "ctx": 1048576,
-        "in": 0.3,
-        "outCost": 1.2,
+        "ctx": 1000000,
+        "in": 1.5,
+        "outCost": 4.5,
         "open": false,
         "reasoning": true
       },
-      "text": "LongCat-2.5 · 闭源 · 1M 上下文 · 输入 $0.3/M · 支持推理",
-      "href": "/models/longcat-2-5/",
+      "text": "Qwen4 Max · 闭源 · 1M 上下文 · 输入 $1.5/M · 支持推理",
+      "href": "/models/qwen4-max/",
+      "shared": 19
+    },
+    {
+      "type": "new",
+      "key": "tencent-token-plan/Hy4 flash",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4 flash",
+      "date": "2026-11-16",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.074858,
+        "outCost": 0.299433,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Hy4 flash · 开源 · 1M 上下文 · 输入 $0.07/M · 支持推理",
+      "href": "/models/hy4-flash/",
+      "shared": 12
+    },
+    {
+      "type": "new",
+      "key": "thinkingmachines/Inkling 2 Small",
+      "vendor": "thinkingmachines",
+      "vendorName": "Thinking Machines",
+      "name": "Inkling 2 Small",
+      "date": "2026-11-05",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.3,
+        "outCost": 1,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Inkling 2 Small · 开源 · 1M 上下文 · 输入 $0.3/M · 支持推理",
+      "href": "/models/inkling-2-small/",
+      "shared": 13
+    },
+    {
+      "type": "new",
+      "key": "zhipuai/GLM-5.3-FlashX-Legal",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-5.3-FlashX-Legal",
+      "date": "2026-11-02",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.29943,
+        "outCost": 1.04801,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GLM-5.3-FlashX-Legal · 闭源 · 1M 上下文 · 输入 $0.3/M · 支持推理",
+      "href": "/models/glm-5-3-flashx-legal/",
+      "shared": 7
+    },
+    {
+      "type": "new",
+      "key": "alibaba/Kimi K3.1 Pro Prime",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Kimi K3.1 Pro Prime",
+      "date": "2026-10-23",
+      "facts": {
+        "ctx": 1048576,
+        "in": 4,
+        "outCost": 20,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "Kimi K3.1 Pro Prime · 开源 · 1M 上下文 · 输入 $4/M · 支持推理",
+      "href": "/models/kimi-k3-1-pro-prime/",
+      "shared": 4
+    },
+    {
+      "type": "new",
+      "key": "volcengine/DeepSeek V4.1 Flash 1017 Economy",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "DeepSeek V4.1 Flash 1017 Economy",
+      "date": "2026-10-17",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.11977,
+        "outCost": 0.47909,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "DeepSeek V4.1 Flash 1017 Economy · 开源 · 1M 上下文 · 输入 $0.12/M · 支持推理",
+      "href": "/models/deepseek-v4-1-flash-1017-economy/",
+      "shared": 1
+    },
+    {
+      "type": "new",
+      "key": "volcengine/Seed 2.1 Lite",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed 2.1 Lite",
+      "date": "2026-09-15",
+      "facts": {
+        "ctx": 1024000,
+        "in": 0.11977,
+        "outCost": 0.40423,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Seed 2.1 Lite · 闭源 · 1M 上下文 · 输入 $0.12/M · 支持推理",
+      "href": "/models/seed-2-1-lite/",
+      "shared": 2
+    },
+    {
+      "type": "new",
+      "key": "tencent-tokenhub/Kimi K2.8 Preview",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Kimi K2.8 Preview",
+      "date": "2026-09-11",
+      "facts": {
+        "ctx": 1048576,
+        "in": 1,
+        "outCost": 4,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "Kimi K2.8 Preview · 闭源 · 1M 上下文 · 输入 $1/M · 支持推理",
+      "href": "/models/kimi-k2-8-preview/",
       "shared": 5
     },
     {
       "type": "new",
-      "key": "sarvam/DeepSeek V4.1 Flash 1017 Interactive",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "DeepSeek V4.1 Flash 1017 Interactive",
-      "date": "2026-10-17",
+      "key": "alibaba/GLM-5.3 Prime",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "GLM-5.3 Prime",
+      "date": "2026-08-14",
       "facts": {
-        "ctx": 1048576,
-        "in": 0.26595745,
-        "outCost": 1.11702128,
+        "ctx": 1000000,
+        "in": 2.8,
+        "outCost": 8.8,
         "open": true,
         "reasoning": true
       },
-      "text": "DeepSeek V4.1 Flash 1017 Interactive · 开源 · 1M 上下文 · 输入 $0.27/M · 支持推理",
-      "href": "/models/deepseek-v4-1-flash-1017-interactive/",
-      "shared": 1
+      "text": "GLM-5.3 Prime · 开源 · 1M 上下文 · 输入 $2.8/M · 支持推理",
+      "href": "/models/glm-5-3-prime/",
+      "shared": 6
     },
     {
       "type": "new",
-      "key": "sarvam/Sarvam-105B Conversations",
-      "vendor": "sarvam",
-      "vendorName": "Sarvam AI",
-      "name": "Sarvam-105B Conversations",
-      "date": "2026-02-18",
+      "key": "stepfun-ai/StepAudio 2.5 Chat",
+      "vendor": "stepfun",
+      "vendorName": "阶跃星辰",
+      "name": "StepAudio 2.5 Chat",
+      "date": "2026-05-09",
       "facts": {
-        "ctx": 32000,
-        "in": 0.10638298,
-        "outCost": 0.26595745,
+        "ctx": 0,
+        "in": 1.5,
+        "outCost": 3.5,
+        "open": false,
+        "reasoning": false
+      },
+      "text": "StepAudio 2.5 Chat · 闭源 · 输入 $1.5/M",
+      "href": "/models/stepaudio-2-5-chat/",
+      "shared": 3
+    },
+    {
+      "type": "new",
+      "key": "databricks/Llama 4 Maverick 17B Instruct",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Llama 4 Maverick 17B Instruct",
+      "date": "2025-04-05",
+      "facts": {
+        "ctx": 1000000,
+        "in": 0.5,
+        "outCost": 1.5,
         "open": true,
         "reasoning": false
       },
-      "text": "Sarvam-105B Conversations · 开源 · 32K 上下文 · 输入 $0.11/M",
-      "href": "/models/sarvam-105b-conversations/",
-      "shared": 1
+      "text": "Llama 4 Maverick 17B Instruct · 开源 · 1M 上下文 · 输入 $0.5/M",
+      "href": "/models/llama-4-maverick-17b-instruct/",
+      "shared": 9
+    },
+    {
+      "type": "new",
+      "key": "stepfun-ai/Step-1o Turbo Vision",
+      "vendor": "stepfun",
+      "vendorName": "阶跃星辰",
+      "name": "Step-1o Turbo Vision",
+      "date": "2025-01-21",
+      "facts": {
+        "ctx": 32768,
+        "in": 0.36,
+        "outCost": 1.15,
+        "open": false,
+        "reasoning": false
+      },
+      "text": "Step-1o Turbo Vision · 闭源 · 33K 上下文 · 输入 $0.36/M",
+      "href": "/models/step-1o-turbo-vision/",
+      "shared": 2
+    },
+    {
+      "type": "new",
+      "key": "databricks/Llama-3.3-70B-Instruct",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Llama-3.3-70B-Instruct",
+      "date": "2024-12-06",
+      "facts": {
+        "ctx": 128000,
+        "in": 0.5,
+        "outCost": 1.5,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "Llama-3.3-70B-Instruct · 开源 · 128K 上下文 · 输入 $0.5/M",
+      "href": "/models/llama-3-3-70b-instruct/",
+      "shared": 35
+    },
+    {
+      "type": "new",
+      "key": "databricks/Llama-3.1-8B-Instruct",
+      "vendor": "databricks",
+      "vendorName": "Databricks",
+      "name": "Llama-3.1-8B-Instruct",
+      "date": "2024-07-23",
+      "facts": {
+        "ctx": 128000,
+        "in": 0.15,
+        "outCost": 0.45,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "Llama-3.1-8B-Instruct · 开源 · 128K 上下文 · 输入 $0.15/M",
+      "href": "/models/llama-3-1-8b-instruct/",
+      "shared": 14
     }
   ]
 }
