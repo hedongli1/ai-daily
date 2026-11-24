@@ -224,6 +224,11 @@
       "href": "/vendors/openai/",
       "evidence": [
         {
+          "title": "OpenAI and Cisco introduce Shirudo",
+          "url": "https://openai.com/index/introducing-shirudo",
+          "source": "OpenAI"
+        },
+        {
           "title": "Connected intelligence for in-house legal",
           "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
           "source": "OpenAI"
@@ -458,6 +463,17 @@
     },
     {
       "type": "retired",
+      "key": "openai/GPT-Realtime-2.1",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-Realtime-2.1",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "已从 OpenAI 下架",
+      "href": "/vendors/openai/"
+    },
+    {
+      "type": "retired",
       "key": "openai/o1-pro",
       "vendor": "openai",
       "vendorName": "OpenAI",
@@ -477,6 +493,45 @@
       "facts": {},
       "text": "已从 Sarvam AI 下架",
       "href": "/vendors/sarvam/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "chat-demo · Chat Demo",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "chat-demo · Chat Demo",
+      "href": "https://github.com/deepseek-ai/chat-demo/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "OpenAI and Cisco introduce Shirudo",
+      "date": "2026-11-23",
+      "facts": {},
+      "text": "OpenAI and Cisco introduce Shirudo",
+      "href": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI",
+      "external": true
     },
     {
       "type": "news",
@@ -533,26 +588,13 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "chat-demo · Chat Demo",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "chat-demo · Chat Demo",
-      "href": "https://github.com/deepseek-ai/chat-demo/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "alibaba",
       "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "name": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
       "date": "2026-11-23",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "text": "Qwen-Live-Harness · An open-source agent harness powered by the Qwen Omni Realtime API—see, hear, and act, with built-in memory.",
+      "href": "https://github.com/QwenLM/Qwen-Live-Harness/releases",
       "source": "Qwen",
       "external": true
     },
@@ -566,19 +608,6 @@
       "facts": {},
       "text": "Qwen-Live-Delivery-Plugin · 仓库更新",
       "href": "https://github.com/QwenLM/Qwen-Live-Delivery-Plugin/releases",
-      "source": "Qwen",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "date": "2026-11-23",
-      "facts": {},
-      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
-      "href": "https://github.com/QwenLM/FlashQLA/releases",
       "source": "Qwen",
       "external": true
     },

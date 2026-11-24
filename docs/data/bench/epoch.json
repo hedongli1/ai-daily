@@ -667,6 +667,18 @@
       }
     },
     {
+      "model": "Qwen4-Max",
+      "release": "2026-11-16",
+      "nRuns": 12,
+      "domains": {
+        "Language,Multimodal,Vision,Video": {
+          "n": 12,
+          "avg": 0.4388,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "GPT-6 Luna",
       "release": "2026-09-22",
       "nRuns": 12,
@@ -1047,18 +1059,6 @@
           "n": 8,
           "avg": 0.2651,
           "best": 0.5133
-        }
-      }
-    },
-    {
-      "model": "Qwen4-Max",
-      "release": "2026-11-16",
-      "nRuns": 7,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 7,
-          "avg": 0.5632,
-          "best": 1
         }
       }
     },
