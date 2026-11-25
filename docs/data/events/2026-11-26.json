@@ -1,0 +1,609 @@
+{
+  "schema": 1,
+  "date": "2026-11-26",
+  "mode": "diff",
+  "baselineDate": "2026-11-25",
+  "counts": {
+    "new": 6,
+    "retired": 9,
+    "price": 1,
+    "context": 1,
+    "news": 19,
+    "facts": 17,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 9
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 1
+    }
+  ],
+  "events": [
+    {
+      "type": "price",
+      "key": "google/Nano Banana",
+      "vendor": "google",
+      "vendorName": "谷歌",
+      "name": "Nano Banana",
+      "date": "2026-11-26",
+      "facts": {
+        "before": {
+          "in": 0.3,
+          "outCost": 2.5
+        },
+        "after": {
+          "in": 0.3,
+          "outCost": 2.5
+        }
+      },
+      "text": "",
+      "href": "/models/nano-banana/"
+    },
+    {
+      "type": "context",
+      "key": "alibaba/Qwen-VL OCR",
+      "vendor": "alibaba",
+      "vendorName": "阿里云",
+      "name": "Qwen-VL OCR",
+      "date": "2026-11-26",
+      "facts": {
+        "before": 34096,
+        "after": 38192
+      },
+      "text": "上下文 34K → 38K",
+      "href": "/models/qwen-vl-ocr/",
+      "evidence": [
+        {
+          "title": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+          "url": "https://github.com/QwenLM/qwen-code/releases",
+          "source": "Qwen"
+        },
+        {
+          "title": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+          "url": "https://github.com/QwenLM/FlashQLA/releases",
+          "source": "Qwen"
+        }
+      ]
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Mistral Medium 3",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Mistral Medium 3",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Llama 3.1 Nemotron 70B Instruct",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Llama 3.1 Nemotron 70B Instruct",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Magistral Small 2506",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Magistral Small 2506",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Mistral-7B-Instruct-v0.3",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Mistral-7B-Instruct-v0.3",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/Llama 3.1 Nemotron Ultra 253B",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "Llama 3.1 Nemotron Ultra 253B",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/rerank-qa-mistral-4b",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "rerank-qa-mistral-4b",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/riva-translate-4b-instruct-v1_1",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "riva-translate-4b-instruct-v1_1",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/usdcode",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "usdcode",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "retired",
+      "key": "nvidia/usdvalidate",
+      "vendor": "nvidia",
+      "vendorName": "英伟达",
+      "name": "usdvalidate",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "已从 英伟达 下架",
+      "href": "/vendors/nvidia/"
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepSelect · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "DeepSelect · DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "href": "https://github.com/deepseek-ai/DeepSelect/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "openai/GPT-6 Astra Healthcare",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6 Astra Healthcare",
+      "date": "2026-11-24",
+      "facts": {
+        "ctx": 1050000,
+        "in": 10,
+        "outCost": 50,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6 Astra Healthcare · 闭源 · 1.1M 上下文 · 输入 $10/M · 支持推理",
+      "href": "/models/gpt-6-astra-healthcare/",
+      "shared": 2,
+      "evidence": [
+        {
+          "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Searching for distant planets with Astra",
+          "url": "https://openai.com/index/searching-for-distant-planets-with-astra",
+          "source": "OpenAI"
+        },
+        {
+          "title": "How Intentful uses dots to make more time for growth",
+          "url": "https://openai.com/business/customer-stories/intentful-dots",
+          "source": "OpenAI"
+        },
+        {
+          "title": "How iFood scales coding agents across 15,000 repositories",
+          "url": "https://openai.com/business/customer-stories/ifood",
+          "source": "OpenAI"
+        },
+        {
+          "title": "Clay helps sales teams win with Codex and ChatGPT",
+          "url": "https://openai.com/business/customer-stories/clay-plugins-openai",
+          "source": "OpenAI"
+        }
+      ]
+    },
+    {
+      "type": "new",
+      "key": "openai/GPT-6.1 Sol Healthcare",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.1 Sol Healthcare",
+      "date": "2026-11-24",
+      "facts": {
+        "ctx": 1050000,
+        "in": 2,
+        "outCost": 10,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6.1 Sol Healthcare · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/gpt-6-1-sol-healthcare/",
+      "shared": 2
+    },
+    {
+      "type": "new",
+      "key": "openai/GPT-6.2 Astra Healthcare",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.2 Astra Healthcare",
+      "date": "2026-11-24",
+      "facts": {
+        "ctx": 1050000,
+        "in": 8,
+        "outCost": 40,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6.2 Astra Healthcare · 闭源 · 1.1M 上下文 · 输入 $8/M · 支持推理",
+      "href": "/models/gpt-6-2-astra-healthcare/",
+      "shared": 2
+    },
+    {
+      "type": "new",
+      "key": "openai/GPT-6.2 Sol Healthcare",
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6.2 Sol Healthcare",
+      "date": "2026-11-24",
+      "facts": {
+        "ctx": 1050000,
+        "in": 2,
+        "outCost": 10,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GPT-6.2 Sol Healthcare · 闭源 · 1.1M 上下文 · 输入 $2/M · 支持推理",
+      "href": "/models/gpt-6-2-sol-healthcare/",
+      "shared": 2
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "href": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Searching for distant planets with Astra",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "Searching for distant planets with Astra",
+      "href": "https://openai.com/index/searching-for-distant-planets-with-astra",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How Intentful uses dots to make more time for growth",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "How Intentful uses dots to make more time for growth",
+      "href": "https://openai.com/business/customer-stories/intentful-dots",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "How iFood scales coding agents across 15,000 repositories",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "How iFood scales coding agents across 15,000 repositories",
+      "href": "https://openai.com/business/customer-stories/ifood",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Clay helps sales teams win with Codex and ChatGPT",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "Clay helps sales teams win with Codex and ChatGPT",
+      "href": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google DeepMind",
+      "name": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "href": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "source": "Google DeepMind",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "google",
+      "vendorName": "Google Blog · AI",
+      "name": "How Gemini is changing the game for Golden State's organization and fans.",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "How Gemini is changing the game for Golden State's organization and fans.",
+      "href": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source": "Google Blog · AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "chat-demo · Chat Demo",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "chat-demo · Chat Demo",
+      "href": "https://github.com/deepseek-ai/chat-demo/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "DeepJIT · A lightweight library for xPU kernel JIT compilation",
+      "href": "https://github.com/deepseek-ai/DeepJIT/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "client-python · Python client library for Mistral AI platform",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "client-python · Python client library for Mistral AI platform",
+      "href": "https://github.com/mistralai/client-python/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "mistral-common · Official inference library for pre-processing of Mistral models",
+      "href": "https://github.com/mistralai/mistral-common/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cookbook · 仓库更新",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "cookbook · 仓库更新",
+      "href": "https://github.com/mistralai/cookbook/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "cli · 仓库更新",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "cli · 仓库更新",
+      "href": "https://github.com/mistralai/cli/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "tencent-token-plan/GLM-5.4",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "GLM-5.4",
+      "date": "2026-11-23",
+      "facts": {
+        "ctx": 1000000,
+        "in": 1.19773,
+        "outCost": 4.192057,
+        "open": false,
+        "reasoning": true
+      },
+      "text": "GLM-5.4 · 闭源 · 1M 上下文 · 输入 $1.2/M · 支持推理",
+      "href": "/models/glm-5-4/",
+      "shared": 4
+    },
+    {
+      "type": "new",
+      "key": "zai/GLM-4-32B-0414-128K",
+      "vendor": "zhipuai",
+      "vendorName": "智谱 AI",
+      "name": "GLM-4-32B-0414-128K",
+      "date": "2025-04-14",
+      "facts": {
+        "ctx": 128000,
+        "in": 0.1,
+        "outCost": 0.1,
+        "open": true,
+        "reasoning": false
+      },
+      "text": "GLM-4-32B-0414-128K · 开源 · 128K 上下文 · 输入 $0.1/M",
+      "href": "/models/glm-4-32b-0414-128k/",
+      "shared": 3
+    }
+  ]
+}

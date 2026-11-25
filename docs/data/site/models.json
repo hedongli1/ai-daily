@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-25",
-  "count": 361,
+  "date": "2026-11-26",
+  "count": 358,
   "models": [
     {
       "n": "jamba-large",
@@ -237,7 +237,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 2,
+      "ch": 1,
       "cap": [
         "推理",
         "工具调用"
@@ -392,7 +392,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 65,
+      "ch": 64,
       "cap": [
         "开源",
         "推理",
@@ -509,7 +509,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 95,
+      "ch": 94,
       "cap": [
         "开源",
         "推理",
@@ -532,7 +532,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 131,
+      "ch": 130,
       "cap": [
         "开源",
         "推理",
@@ -653,7 +653,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 103,
+      "ch": 102,
       "cap": [
         "多模态",
         "视觉",
@@ -679,7 +679,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 72,
+      "ch": 75,
       "cap": [
         "多模态",
         "视觉",
@@ -1285,7 +1285,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 40,
+      "ch": 41,
       "cap": [
         "多模态",
         "视觉",
@@ -1401,7 +1401,7 @@
       "rel": "2026-06-02",
       "relP": "day",
       "ctx": 1000000,
-      "out": 64000,
+      "out": 131072,
       "in": 0.276,
       "oc": 1.101,
       "cr": 0.0552,
@@ -1509,7 +1509,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 19,
+      "ch": 20,
       "cap": [
         "多模态",
         "视觉",
@@ -1956,7 +1956,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 4,
+      "ch": 5,
       "cap": [
         "开源",
         "推理",
@@ -1979,7 +1979,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 55,
+      "ch": 54,
       "cap": [
         "开源",
         "推理",
@@ -2002,7 +2002,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 86,
+      "ch": 87,
       "cap": [
         "多模态",
         "视觉",
@@ -2075,7 +2075,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 133,
+      "ch": 132,
       "cap": [
         "多模态",
         "视觉",
@@ -2101,7 +2101,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 8,
+      "ch": 9,
       "cap": [
         "开源",
         "推理",
@@ -2124,7 +2124,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 9,
+      "ch": 10,
       "cap": [
         "多模态",
         "视觉",
@@ -2221,7 +2221,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 72,
+      "ch": 74,
       "cap": [
         "开源",
         "推理",
@@ -3385,7 +3385,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 39,
+      "ch": 40,
       "cap": [
         "多模态",
         "视觉",
@@ -3433,7 +3433,7 @@
       "open": 1,
       "rsn": 0,
       "tool": 1,
-      "ch": 14,
+      "ch": 15,
       "cap": [
         "开源",
         "工具调用"
@@ -3672,13 +3672,13 @@
       "name": "Nano Banana",
       "v": "google",
       "vn": "谷歌",
-      "rel": "2025-08-26",
+      "rel": "2025-10-02",
       "relP": "day",
       "ctx": 65536,
       "out": 32768,
       "in": 0.3,
       "oc": 2.5,
-      "cr": 0.075,
+      "cr": null,
       "open": 0,
       "rsn": 0,
       "tool": 0,
@@ -3688,14 +3688,14 @@
         "视觉",
         "图像生成"
       ],
-      "rel_ts": 1756166400000
+      "rel_ts": 1759363200000
     },
     {
       "n": "gemini-2-5-flash-lite",
       "name": "Gemini 2.5 Flash-Lite",
       "v": "google",
       "vn": "谷歌",
-      "rel": "2025-06-17",
+      "rel": "2025-07-22",
       "relP": "day",
       "ctx": 1048576,
       "out": 65536,
@@ -3714,7 +3714,7 @@
         "推理",
         "工具调用"
       ],
-      "rel_ts": 1750118400000
+      "rel_ts": 1753142400000
     },
     {
       "n": "gemini-2-5-flash-preview-tts",
@@ -4014,7 +4014,7 @@
       "name": "Gemini Embedding 001",
       "v": "google",
       "vn": "谷歌",
-      "rel": "2025-05-20",
+      "rel": "2025-07-14",
       "relP": "day",
       "ctx": 2048,
       "out": 1,
@@ -4026,7 +4026,7 @@
       "tool": 0,
       "ch": 5,
       "cap": [],
-      "rel_ts": 1747699200000
+      "rel_ts": 1752451200000
     },
     {
       "n": "gemini-embedding-2",
@@ -4346,7 +4346,7 @@
       "in": 0.3,
       "oc": 1.2,
       "cr": 0.006,
-      "open": 0,
+      "open": 1,
       "rsn": 1,
       "tool": 1,
       "ch": 5,
@@ -4354,6 +4354,7 @@
         "多模态",
         "视觉",
         "视频理解",
+        "开源",
         "推理",
         "工具调用"
       ],
@@ -4674,7 +4675,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 42,
+      "ch": 43,
       "cap": [
         "多模态",
         "视觉",
@@ -5103,7 +5104,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 68,
+      "ch": 67,
       "cap": [
         "多模态",
         "视觉",
@@ -5129,7 +5130,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 58,
+      "ch": 57,
       "cap": [
         "多模态",
         "视觉",
@@ -5181,7 +5182,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 14,
+      "ch": 15,
       "cap": [
         "多模态",
         "视觉",
@@ -5525,7 +5526,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 17,
+      "ch": 18,
       "cap": [
         "多模态",
         "视觉",
@@ -5534,71 +5535,6 @@
         "工具调用"
       ],
       "rel_ts": 1786320000000
-    },
-    {
-      "n": "magistral-small-2506",
-      "name": "Magistral Small 2506",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2025-06-10",
-      "relP": "day",
-      "ctx": 32768,
-      "out": 32768,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 2,
-      "cap": [
-        "开源"
-      ],
-      "rel_ts": 1749513600000
-    },
-    {
-      "n": "mistral-7b-instruct-v0-3",
-      "name": "Mistral-7B-Instruct-v0.3",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2024-05-22",
-      "relP": "day",
-      "ctx": 65536,
-      "out": 65536,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 1,
-      "cap": [
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1716336000000
-    },
-    {
-      "n": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2025-05-07",
-      "relP": "day",
-      "ctx": 131072,
-      "out": 32768,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 8,
-      "cap": [
-        "多模态",
-        "视觉"
-      ],
-      "rel_ts": 1746576000000
     },
     {
       "n": "active-speaker-detection",
@@ -5698,28 +5634,6 @@
       "rel_ts": 1772064000000
     },
     {
-      "n": "llama-3-1-nemotron-70b-instruct",
-      "name": "Llama 3.1 Nemotron 70B Instruct",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2025-04-15",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 8192,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 1,
-      "ch": 2,
-      "cap": [
-        "开源",
-        "工具调用"
-      ],
-      "rel_ts": 1744675200000
-    },
-    {
       "n": "llama-3-1-nemotron-safety-guard-8b-v3",
       "name": "llama-3.1-nemotron-safety-guard-8b-v3",
       "v": "nvidia",
@@ -5739,29 +5653,6 @@
         "开源"
       ],
       "rel_ts": 1761609600000
-    },
-    {
-      "n": "llama-3-1-nemotron-ultra-253b",
-      "name": "Llama 3.1 Nemotron Ultra 253B",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2025-04-07",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 16384,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 1,
-      "tool": 1,
-      "ch": 1,
-      "cap": [
-        "开源",
-        "推理",
-        "工具调用"
-      ],
-      "rel_ts": 1743984000000
     },
     {
       "n": "llama-nemotron-embed-vl-1b-v2",
@@ -5875,7 +5766,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 18,
+      "ch": 19,
       "cap": [
         "开源",
         "推理",
@@ -5922,7 +5813,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 14,
+      "ch": 15,
       "cap": [
         "开源",
         "推理",
@@ -5979,48 +5870,6 @@
         "工具调用"
       ],
       "rel_ts": 1773619200000
-    },
-    {
-      "n": "rerank-qa-mistral-4b",
-      "name": "rerank-qa-mistral-4b",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2024-03-17",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 4096,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "开源"
-      ],
-      "rel_ts": 1710633600000
-    },
-    {
-      "n": "riva-translate-4b-instruct-v1-1",
-      "name": "riva-translate-4b-instruct-v1_1",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2025-12-12",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 4096,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "开源"
-      ],
-      "rel_ts": 1765497600000
     },
     {
       "n": "sparsedrive",
@@ -6116,46 +5965,6 @@
       "rel_ts": 1776297600000
     },
     {
-      "n": "usdcode",
-      "name": "usdcode",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2026-01-01",
-      "relP": "day",
-      "ctx": 128000,
-      "out": 4096,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 0,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [],
-      "rel_ts": 1767225600000
-    },
-    {
-      "n": "usdvalidate",
-      "name": "usdvalidate",
-      "v": "nvidia",
-      "vn": "英伟达",
-      "rel": "2024-07-24",
-      "relP": "day",
-      "ctx": 0,
-      "out": 4096,
-      "in": 0,
-      "oc": 0,
-      "cr": null,
-      "open": 1,
-      "rsn": 0,
-      "tool": 0,
-      "ch": 1,
-      "cap": [
-        "开源"
-      ],
-      "rel_ts": 1721779200000
-    },
-    {
       "n": "whisper-large-v3",
       "name": "Whisper Large v3",
       "v": "nvidia",
@@ -6193,7 +6002,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 3,
+      "ch": 4,
       "cap": [
         "开源",
         "推理",
@@ -6483,6 +6292,102 @@
       "rel_ts": 1783555200000
     },
     {
+      "n": "gpt-6-astra-healthcare",
+      "name": "GPT-6 Astra Healthcare",
+      "v": "openai",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "relP": "day",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 10,
+      "oc": 50,
+      "cr": 1,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1795478400000
+    },
+    {
+      "n": "gpt-6-1-sol-healthcare",
+      "name": "GPT-6.1 Sol Healthcare",
+      "v": "openai",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "relP": "day",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 2,
+      "oc": 10,
+      "cr": 0.1,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1795478400000
+    },
+    {
+      "n": "gpt-6-2-astra-healthcare",
+      "name": "GPT-6.2 Astra Healthcare",
+      "v": "openai",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "relP": "day",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 8,
+      "oc": 40,
+      "cr": 0.4,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1795478400000
+    },
+    {
+      "n": "gpt-6-2-sol-healthcare",
+      "name": "GPT-6.2 Sol Healthcare",
+      "v": "openai",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "relP": "day",
+      "ctx": 1050000,
+      "out": 128000,
+      "in": 2,
+      "oc": 10,
+      "cr": 0.1,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 2,
+      "cap": [
+        "多模态",
+        "视觉",
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1795478400000
+    },
+    {
       "n": "daybreak-blue",
       "name": "Daybreak Blue",
       "v": "openai",
@@ -6545,7 +6450,7 @@
       "open": 0,
       "rsn": 0,
       "tool": 0,
-      "ch": 3,
+      "ch": 5,
       "cap": [
         "多模态",
         "视觉",
@@ -6614,7 +6519,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 21,
+      "ch": 19,
       "cap": [
         "多模态",
         "视觉",
@@ -7184,6 +7089,28 @@
       "rel_ts": 1772323200000
     },
     {
+      "n": "glm-5-4",
+      "name": "GLM-5.4",
+      "v": "tencent-tokenhub",
+      "vn": "腾讯混元",
+      "rel": "2026-11-23",
+      "relP": "day",
+      "ctx": 1000000,
+      "out": 131072,
+      "in": 1.19773,
+      "oc": 4.192057,
+      "cr": 0.299433,
+      "open": 0,
+      "rsn": 1,
+      "tool": 1,
+      "ch": 4,
+      "cap": [
+        "推理",
+        "工具调用"
+      ],
+      "rel_ts": 1795392000000
+    },
+    {
       "n": "hy3",
       "name": "Hy3",
       "v": "tencent-tokenhub",
@@ -7221,7 +7148,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 17,
+      "ch": 18,
       "cap": [
         "多模态",
         "视觉",
@@ -7246,7 +7173,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 12,
+      "ch": 13,
       "cap": [
         "多模态",
         "视觉",
@@ -7484,7 +7411,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 13,
+      "ch": 14,
       "cap": [
         "开源",
         "推理",
@@ -7532,7 +7459,7 @@
       "open": 1,
       "rsn": 1,
       "tool": 1,
-      "ch": 9,
+      "ch": 10,
       "cap": [
         "多模态",
         "视觉",
@@ -8198,6 +8125,28 @@
       "rel_ts": 1790035200000
     },
     {
+      "n": "glm-4-32b-0414-128k",
+      "name": "GLM-4-32B-0414-128K",
+      "v": "zhipuai",
+      "vn": "智谱 AI",
+      "rel": "2025-04-14",
+      "relP": "day",
+      "ctx": 128000,
+      "out": 16384,
+      "in": 0.1,
+      "oc": 0.1,
+      "cr": null,
+      "open": 1,
+      "rsn": 0,
+      "tool": 1,
+      "ch": 3,
+      "cap": [
+        "开源",
+        "工具调用"
+      ],
+      "rel_ts": 1744588800000
+    },
+    {
       "n": "glm-4-5",
       "name": "GLM-4.5",
       "v": "zhipuai",
@@ -8498,7 +8447,7 @@
       "open": 0,
       "rsn": 1,
       "tool": 1,
-      "ch": 7,
+      "ch": 8,
       "cap": [
         "多模态",
         "视觉",

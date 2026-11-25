@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-25",
+  "generated": "2026-11-26",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -439,6 +439,18 @@
       }
     },
     {
+      "model": "Gemini 4 Neon",
+      "release": "2026-11-18",
+      "nRuns": 14,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 14,
+          "avg": 0.7411,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Gemini 4 Argon",
       "release": "2026-10-13",
       "nRuns": 14,
@@ -583,13 +595,13 @@
       }
     },
     {
-      "model": "Gemini 4 Neon",
-      "release": "2026-11-18",
+      "model": "Qwen4-Max",
+      "release": "2026-11-16",
       "nRuns": 13,
       "domains": {
-        "Language,Multimodal,Vision,Audio,Video": {
+        "Language,Multimodal,Vision,Video": {
           "n": 13,
-          "avg": 0.7511,
+          "avg": 0.4418,
           "best": 1
         }
       }
@@ -675,18 +687,6 @@
           "n": 13,
           "avg": 0.3973,
           "best": 0.8333
-        }
-      }
-    },
-    {
-      "model": "Qwen4-Max",
-      "release": "2026-11-16",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision,Video": {
-          "n": 12,
-          "avg": 0.4388,
-          "best": 1
         }
       }
     },

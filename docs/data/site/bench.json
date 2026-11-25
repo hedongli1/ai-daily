@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 112,
+  "count": 111,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -319,11 +319,11 @@
       "name": "Qwen3.8 Max (0902)"
     },
     "qwen4-max": {
-      "runs": 12,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision,Video": {
-          "n": 12,
-          "avg": 0.4388,
+          "n": 13,
+          "avg": 0.4418,
           "best": 1
         }
       },
@@ -991,11 +991,11 @@
       "name": "Gemini 3.6 Flash"
     },
     "gemini-4-neon": {
-      "runs": 13,
+      "runs": 14,
       "domains": {
         "Language,Multimodal,Vision,Audio,Video": {
-          "n": 13,
-          "avg": 0.7511,
+          "n": 14,
+          "avg": 0.7411,
           "best": 1
         }
       },
@@ -1133,18 +1133,6 @@
       },
       "rel": "2026-06-12",
       "name": "Kimi K2.7 Code"
-    },
-    "mistral-medium-3": {
-      "runs": 5,
-      "domains": {
-        "Multimodal,Language,Vision": {
-          "n": 5,
-          "avg": 0.3475,
-          "best": 0.8163
-        }
-      },
-      "rel": "2025-05-07",
-      "name": "Mistral Medium 3"
     },
     "gpt-4-1": {
       "runs": 11,

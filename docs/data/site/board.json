@@ -1,12 +1,12 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "board": {
     "latest": [
       {
-        "n": "inkling-2-mini",
-        "name": "Inkling 2 Mini",
-        "vn": "Thinking Machines",
-        "val": "2026-11-20",
+        "n": "gpt-6-astra-healthcare",
+        "name": "GPT-6 Astra Healthcare",
+        "vn": "OpenAI",
+        "val": "2026-11-24",
         "metric": "发布日期"
       }
     ],
@@ -60,7 +60,7 @@
         "n": "glm-5-3-flash",
         "name": "GLM-5.3-Flash",
         "vn": "智谱 AI",
-        "val": 133,
+        "val": 132,
         "metric": "渠道数"
       }
     ]
@@ -68,31 +68,31 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 110,
-      "n": "gemini-4-neon",
-      "name": "Gemini 4 Neon",
-      "vn": "谷歌",
-      "avg": 0.7511,
+      "models": 109,
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "avg": 0.7494,
       "best": 1,
       "runs": 13
     },
     {
       "tag": "Multimodal",
-      "models": 64,
-      "n": "gemini-4-neon",
-      "name": "Gemini 4 Neon",
-      "vn": "谷歌",
-      "avg": 0.7511,
+      "models": 63,
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "avg": 0.7494,
       "best": 1,
       "runs": 13
     },
     {
       "tag": "Vision",
-      "models": 62,
-      "n": "gemini-4-neon",
-      "name": "Gemini 4 Neon",
-      "vn": "谷歌",
-      "avg": 0.7511,
+      "models": 61,
+      "n": "claude-fable-5-2",
+      "name": "Claude Fable 5.2",
+      "vn": "Anthropic",
+      "avg": 0.7494,
       "best": 1,
       "runs": 13
     },
@@ -102,9 +102,9 @@
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.7511,
+      "avg": 0.7411,
       "best": 1,
-      "runs": 13
+      "runs": 14
     },
     {
       "tag": "Audio",
@@ -112,9 +112,9 @@
       "n": "gemini-4-neon",
       "name": "Gemini 4 Neon",
       "vn": "谷歌",
-      "avg": 0.7511,
+      "avg": 0.7411,
       "best": 1,
-      "runs": 13
+      "runs": 14
     },
     {
       "tag": "Speech",

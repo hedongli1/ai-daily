@@ -1,147 +1,287 @@
 {
  "query": "开源大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-23T21:49:43.552Z",
+ "fetchedAt": "2026-11-25T19:40:01.498Z",
  "rows": [
   {
-   "title": "Github又杀疯了！没高端显卡也能玩大模型！涨了 53.0k stars，colibri，一个纯 C 写的推理引擎，让普通电脑也能跑超大模型，不挑显卡。",
+   "title": "模型正在变成水电煤：DeepSeek Harness 才是真正的主战场｜智能体｜工程化｜插件｜大模型｜趋势解读",
    "up": "",
-   "play": 140,
-   "pub": "2026/11/23",
-   "bvid": "BV13Jy9zNEzP"
+   "play": 4,
+   "pub": "2026/11/25",
+   "bvid": "BV1oayCzLEmK"
   },
   {
-   "title": "11月24日AI圈5件事：智谱GLM-5.4用循环结构做750B旗舰，谷歌AI搜索接入Wallet，蚂蚁开源百灵医疗模型，阿里云AgentLoop收费",
+   "title": "从0学习agent--13：从零做迷你 Claude Code，修开源项目 Bug",
    "up": "",
-   "play": 7,
-   "pub": "2026/11/23",
-   "bvid": "BV1E2y9z2E3f"
+   "play": 14,
+   "pub": "2026/11/25",
+   "bvid": "BV1bbyyzTE3i"
   },
   {
-   "title": "Kintsugi-27B：12G显卡跑27B大模型，还带256K上下文！",
+   "title": "开源引擎Radiance实测：让AMD 32GB显卡运行本地大模型速度飙升4倍 | Kai",
    "up": "",
-   "play": 1107,
-   "pub": "2026/11/23",
-   "bvid": "BV1unyQzdEJq"
+   "play": 78,
+   "pub": "2026/11/25",
+   "bvid": "BV1Sj1czJEuZ"
   },
   {
-   "title": "4款最新开源大模型正面对决！35B参数、1M超长上下文、3090单卡部署，纯RL训练、循环Transformer，第三方实测谁才是真正的Coding Agent",
+   "title": "Saluki 27B大模型压缩到8GB！RTX 3080也能跑，本地部署实测50+ Tokens/s，MTP加速太香了！",
    "up": "",
-   "play": 997,
-   "pub": "2026/11/23",
-   "bvid": "BV1mTyXzWEoT"
+   "play": 960,
+   "pub": "2026/11/25",
+   "bvid": "BV1JpyrzyEkr"
   },
   {
-   "title": "Inkling 2 Mini 性能惊人！全新 26B 本地 AI 模型超越 Qwen 3.8 27B",
+   "title": "一个让AI记忆进化的开源工具",
    "up": "",
-   "play": 362,
-   "pub": "2026/11/23",
-   "bvid": "BV1bkyXz8EQQ"
+   "play": 305,
+   "pub": "2026/11/25",
+   "bvid": "BV1rFykzJEYw"
   },
   {
-   "title": "一句话走了几层？拆解企业级开源智能体 BizBuddy 的请求全链路｜Spring Boot + AgentScope",
+   "title": "11月25日科技晚报|WorkBuddy 积分 12 月起 7 天过期｜今天 AI 圈四家开源",
    "up": "",
-   "play": 7,
-   "pub": "2026/11/23",
-   "bvid": "BV18ryXzcEhs"
+   "play": 1891,
+   "pub": "2026/11/25",
+   "bvid": "BV1ARyrzXEoB"
   },
   {
-   "title": "Inkling 2 Mini 突然开源！发布即越狱，最低仅需 8GB 显存，AI 编程、工具调用、Agent 全能！",
+   "title": "Ternary Bonsai 2.5 27B 是 Bonsai 2 的 agentic 版本。九月我测过上一代，官方写保留 98.2%，实际跑起来跟榜单差得远。",
    "up": "",
-   "play": 463,
-   "pub": "2026/11/23",
-   "bvid": "BV1ExyXzGET2"
+   "play": 348,
+   "pub": "2026/11/25",
+   "bvid": "BV1Myyrz8Exj"
   },
   {
-   "title": "DeepSeek Harness 全解｜搞懂大模型新主战场【码士集团】",
+   "title": "Singularity TriPRISM：今天下载最多｜6 个新模型 11-25",
    "up": "",
-   "play": 142,
-   "pub": "2026/11/23",
-   "bvid": "BV1QRySz9EJf"
+   "play": 341,
+   "pub": "2026/11/25",
+   "bvid": "BV1C9yrzpEfT"
   },
   {
-   "title": "Qwen4-Max不及预期 | 为什么新发布的大模型不再变强？",
+   "title": "本地 AI 这块最高的山来了！揽收47.6k stars，Strata一款开源的本地大模型推理引擎，利用 CPU 与 GPU 协同运行模型",
    "up": "",
-   "play": 31733,
-   "pub": "2026/11/23",
-   "bvid": "BV1s1yjzQEdr"
+   "play": 866,
+   "pub": "2026/11/25",
+   "bvid": "BV1Tbykz8EM1"
   },
   {
-   "title": "智谱新发布GLM-5.4 Loop Transformer 架构",
+   "title": "一个skill生成任意角色的3D体素模型！程序化资产可直接用于游戏",
    "up": "",
-   "play": 2302,
-   "pub": "2026/11/23",
-   "bvid": "BV1MAyDzJEKw"
+   "play": 206,
+   "pub": "2026/11/25",
+   "bvid": "BV17mykzjEQq"
   },
   {
-   "title": "蚂蚁开源医疗模型Sante，能自己部署不等于能看病",
+   "title": "《FishBotV2实操教程视频》第九章:AI大模型准备工作",
    "up": "",
-   "play": 13,
-   "pub": "2026/11/23",
-   "bvid": "BV1UcyDzSEir"
+   "play": 737,
+   "pub": "2026/11/25",
+   "bvid": "BV1FfyzzGEgm"
   },
   {
-   "title": "【中文翻译】智谱开源编程模型GLM-5.4：60分满分拿33.2，总榜第七超预期",
+   "title": "我天，实测腾讯Hy4-flash模型，性价比拉满",
    "up": "",
-   "play": 2117,
-   "pub": "2026/11/23",
-   "bvid": "BV1XvyDz4Euh"
+   "play": 135,
+   "pub": "2026/11/25",
+   "bvid": "BV1oNy6zTE5d"
   },
   {
-   "title": "打破安全护栏：开源去审查大模型的构建与攻防实践",
+   "title": "不换显卡，Qwen3.8 27B 本地写代码提速近 4 倍！腾讯开源 DSpine 186 tok/s 真机实测",
+   "up": "",
+   "play": 1950,
+   "pub": "2026/11/25",
+   "bvid": "BV1kXyzzLEaN"
+  },
+  {
+   "title": "本地大模型推理实测：调优后的 llama.cpp 1.0 能追上 Strata 吗 | Kai",
+   "up": "",
+   "play": 164,
+   "pub": "2026/11/25",
+   "bvid": "BV1xryZziEWx"
+  },
+  {
+   "title": "本地部署大模型买什么设备？从千元二手卡、隐藏16G本到128G主机，28款神机年底核价避坑！",
+   "up": "",
+   "play": 342,
+   "pub": "2026/11/25",
+   "bvid": "BV1r9yzzyE16"
+  },
+  {
+   "title": "vLLM-GR：vLLM新开源生成式推荐引擎框架，什么是生成式推荐引擎？",
    "up": "",
    "play": 64,
-   "pub": "2026/11/23",
-   "bvid": "BV1pFyHzZEBb"
+   "pub": "2026/11/25",
+   "bvid": "BV1vMy6zNE3R"
   },
   {
-   "title": "Java后端转AI工程化，难点真是调个接口？程序员转AI大模型应用开发必看",
+   "title": "端侧模型框选示例完成零件定位和计数",
    "up": "",
-   "play": 116,
-   "pub": "2026/11/23",
-   "bvid": "BV1hBsP6FELf"
+   "play": 74,
+   "pub": "2026/11/25",
+   "bvid": "BV14sy6zWEvj"
   },
   {
-   "title": "《文锋历险记》不敌八大模型，看开源如何力挽狂澜！【AI全民制作人】",
+   "title": "自建榜开源第一却总榜第7？GLM-5.4四档实测：低档66秒满分，六应用烧104万token",
    "up": "",
-   "play": 38197,
-   "pub": "2026/11/23",
-   "bvid": "BV1qAyQzMEfT"
+   "play": 224,
+   "pub": "2026/11/25",
+   "bvid": "BV1vp1Fz4EXe"
   },
   {
-   "title": "AI聊五句就失忆？这个新模型让它把记忆长在脑子里",
+   "title": "【2027最新】OpenCode｜开源 AI 代码智能代理，终端 TUI 驱动，兼容 Ollama/Claude 等大模型自动迭代开发，本地可控！AI大模型！",
    "up": "",
-   "play": 123,
-   "pub": "2026/11/23",
-   "bvid": "BV14myDzEEF2"
+   "play": 694,
+   "pub": "2026/11/25",
+   "bvid": "BV1JCy6z3E7A"
   },
   {
-   "title": "中国开源模型出海的软清退推演",
+   "title": "Kimi开源底座四次越狱沙箱！Cognition发布SWE-2.1翻倍暴走+600 tok/s极速版，为何仍输Opus 5.5？",
    "up": "",
-   "play": 116,
-   "pub": "2026/11/23",
-   "bvid": "BV11UyDzmEm7"
+   "play": 296,
+   "pub": "2026/11/25",
+   "bvid": "BV1JCy6z3Ecy"
   },
   {
-   "title": "GLM-5.4 正式发布！补齐视觉、周额度涨50%，开源第一实力拉满，但体验暂时劝退？",
+   "title": "120分钟吃透企业级Agent智能体落地实战｜多智能体架构+DeepSeek Harness+RAG，掌握Agent Skill开发，大模型面试直接加分！",
+   "up": "",
+   "play": 83,
+   "pub": "2026/11/25",
+   "bvid": "BV1xgyrzXEHL"
+  },
+  {
+   "title": "蚂蚁集团 Ling 3.2 Air开源 与 Qwen3.8 Flash Next 同室操戈，一较高下",
+   "up": "",
+   "play": 950,
+   "pub": "2026/11/25",
+   "bvid": "BV1kqy6zLEDy"
+  },
+  {
+   "title": "无限Token｜本地部署GLM5.3 flash，速度159token/s！",
+   "up": "",
+   "play": 150,
+   "pub": "2026/11/25",
+   "bvid": "BV11GyrzHEpT"
+  },
+  {
+   "title": "开源编程界彻底疯狂！智谱GLM-5.4实测登顶最强，这颗旗舰王牌太猛了！",
+   "up": "",
+   "play": 1583,
+   "pub": "2026/11/25",
+   "bvid": "BV1gLyBzXE2o"
+  },
+  {
+   "title": "开源大模型坏啊！要堵开源【饭点新闻】",
+   "up": "",
+   "play": 2241,
+   "pub": "2026/11/25",
+   "bvid": "BV18LyBzQEN5"
+  },
+  {
+   "title": "别再死磕RAG了！vLLM刚开源的vLLM-GR，正在降维打击AI记忆",
+   "up": "",
+   "play": 187,
+   "pub": "2026/11/25",
+   "bvid": "BV1Q3yBzsEeA"
+  },
+  {
+   "title": "4090张量算力翻倍，本地AI快在哪？ #本地大模型 #英伟达显卡 #AI绘图 #开源项目",
+   "up": "",
+   "play": 716,
+   "pub": "2026/11/25",
+   "bvid": "BV1XGyBz9EgJ"
+  },
+  {
+   "title": "用51单片机开发的电子小狗已接入Ai大模型 @嘉立创EDA版图设计软件  #立创开源硬件平台 #立创开源硬件平台7周年 #电子小狗 #桌宠 #diy机器人",
+   "up": "",
+   "play": 111,
+   "pub": "2026/11/25",
+   "bvid": "BV152yBzhE5U"
+  },
+  {
+   "title": "8GB 笔记本也能流畅运行 26B MoE 模型？！",
+   "up": "",
+   "play": 377,
+   "pub": "2026/11/25",
+   "bvid": "BV1ZWyzzNEm5"
+  },
+  {
+   "title": "Java+Al全栈开发基于开源大模型打造航空AI智能客服项目实战一节课带你玩转AI应用开发+企业级解决方案",
+   "up": "",
+   "play": 95,
+   "pub": "2026/11/25",
+   "bvid": "BV1hXyBz4EsZ"
+  },
+  {
+   "title": "MedTrace | 开源的首次病程记录生成程序",
+   "up": "",
+   "play": 28,
+   "pub": "2026/11/25",
+   "bvid": "BV1bwyzznEgB"
+  },
+  {
+   "title": "16GB本地狂飙102字/秒！Inkling 2 Mini 六引擎实测对决千问3.8，跑分没说的坑全测透",
+   "up": "",
+   "play": 551,
+   "pub": "2026/11/25",
+   "bvid": "BV1j6yizoELh"
+  },
+  {
+   "title": "中国牵头AI全球标准，文心全开源",
+   "up": "",
+   "play": 18,
+   "pub": "2026/11/25",
+   "bvid": "BV1j6yizoEoL"
+  },
+  {
+   "title": "百度文心开源了Ernie 5.5 Flash预览版，openrouter 免费使用，解码速度非常快。我实测了一下基本维持在260t/s。",
+   "up": "",
+   "play": 189,
+   "pub": "2026/11/25",
+   "bvid": "BV132yizXEXa"
+  },
+  {
+   "title": "神秘模型HungerG白送7天！Anthropic上市四天破发｜OpenAI与A社曝模型失控｜文心5.5开源｜工程师用Codex窃听获保释",
    "up": "",
    "play": 163,
-   "pub": "2026/11/23",
-   "bvid": "BV1cAyHzREat"
+   "pub": "2026/11/25",
+   "bvid": "BV1NPyqz3EbJ"
   },
   {
-   "title": "8G显存跑35B语音模型？一人31天造出开源配音工作台",
+   "title": "5.9 G的Qwen 3.8 27B模型 | Prism ML 发布 Ternary Bonsai 2.5 27 增强Agent能力",
    "up": "",
-   "play": 113,
-   "pub": "2026/11/23",
-   "bvid": "BV1MbyJzcEFz"
+   "play": 4759,
+   "pub": "2026/11/25",
+   "bvid": "BV1NNyqz6Eb2"
   },
   {
-   "title": "无限Token｜手把手教你把DeepSeek最新模型放进小盒子！懒猫算力舱极简部署流程！",
+   "title": "【AI大模型日报·26期】Anthropic与OpenAI相隔6小时开源VP≠VNP证明！GPT-6.2湿实验蛋白，国产开源破100亿",
    "up": "",
-   "play": 624,
-   "pub": "2026/11/23",
-   "bvid": "BV1pFyHzZEQE"
+   "play": 303,
+   "pub": "2026/11/25",
+   "bvid": "BV1ATyqzuEW6"
+  },
+  {
+   "title": "AI科技开源日报｜2026-11-25",
+   "up": "",
+   "play": 117,
+   "pub": "2026/11/25",
+   "bvid": "BV1ATyqzuE5W"
+  },
+  {
+   "title": "5个月激烈竞争后 国产模型与顶尖模型的差距被拉大……",
+   "up": "",
+   "play": 6543,
+   "pub": "2026/11/25",
+   "bvid": "BV1wMyqzBE87"
+  },
+  {
+   "title": "Rumble-2-Flash开源ASR模型 支持40+语言，速度极快",
+   "up": "",
+   "play": 472,
+   "pub": "2026/11/25",
+   "bvid": "BV1jeyazLEcc"
   }
  ]
 }

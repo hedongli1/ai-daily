@@ -1,6 +1,51 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "timeline": [
+    {
+      "n": "gpt-6-2-sol-healthcare",
+      "name": "GPT-6.2 Sol Healthcare",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "ctx": 1050000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gpt-6-2-astra-healthcare",
+      "name": "GPT-6.2 Astra Healthcare",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "ctx": 1050000,
+      "in": 8,
+      "open": 0
+    },
+    {
+      "n": "gpt-6-1-sol-healthcare",
+      "name": "GPT-6.1 Sol Healthcare",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "ctx": 1050000,
+      "in": 2,
+      "open": 0
+    },
+    {
+      "n": "gpt-6-astra-healthcare",
+      "name": "GPT-6 Astra Healthcare",
+      "vn": "OpenAI",
+      "rel": "2026-11-24",
+      "ctx": 1050000,
+      "in": 10,
+      "open": 0
+    },
+    {
+      "n": "glm-5-4",
+      "name": "GLM-5.4",
+      "vn": "腾讯混元",
+      "rel": "2026-11-23",
+      "ctx": 1000000,
+      "in": 1.19773,
+      "open": 0
+    },
     {
       "n": "inkling-2-mini",
       "name": "Inkling 2 Mini",
@@ -134,7 +179,7 @@
       "rel": "2026-11-02",
       "ctx": 1048576,
       "in": 0.3,
-      "open": 0
+      "open": 1
     },
     {
       "n": "gpt-6-1-terra",
@@ -1982,15 +2027,6 @@
       "open": 1
     },
     {
-      "n": "usdcode",
-      "name": "usdcode",
-      "vn": "英伟达",
-      "rel": "2026-01-01",
-      "ctx": 128000,
-      "in": 0,
-      "open": 0
-    },
-    {
       "n": "minimax-m2-1",
       "name": "MiniMax-M2.1",
       "vn": "MiniMax",
@@ -2043,15 +2079,6 @@
       "ctx": 0,
       "in": 5,
       "open": 0
-    },
-    {
-      "n": "riva-translate-4b-instruct-v1-1",
-      "name": "riva-translate-4b-instruct-v1_1",
-      "vn": "英伟达",
-      "rel": "2025-12-12",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "gpt-5-2-pro",
@@ -2225,6 +2252,15 @@
       "open": 0
     },
     {
+      "n": "nano-banana",
+      "name": "Nano Banana",
+      "vn": "谷歌",
+      "rel": "2025-10-02",
+      "ctx": 65536,
+      "in": 0.3,
+      "open": 0
+    },
+    {
       "n": "glm-4-6",
       "name": "GLM-4.6",
       "vn": "智谱 AI",
@@ -2295,15 +2331,6 @@
       "ctx": 8000,
       "in": 2.5,
       "open": 1
-    },
-    {
-      "n": "nano-banana",
-      "name": "Nano Banana",
-      "vn": "谷歌",
-      "rel": "2025-08-26",
-      "ctx": 65536,
-      "in": 0.3,
-      "open": 0
     },
     {
       "n": "command-a-reasoning",
@@ -2459,6 +2486,15 @@
       "open": 0
     },
     {
+      "n": "gemini-2-5-flash-lite",
+      "name": "Gemini 2.5 Flash-Lite",
+      "vn": "谷歌",
+      "rel": "2025-07-22",
+      "ctx": 1048576,
+      "in": 0.1,
+      "open": 0
+    },
+    {
       "n": "voxtral-small",
       "name": "Voxtral Small",
       "vn": "Mistral",
@@ -2466,6 +2502,15 @@
       "ctx": 32768,
       "in": 0.1,
       "open": 1
+    },
+    {
+      "n": "gemini-embedding-001",
+      "name": "Gemini Embedding 001",
+      "vn": "谷歌",
+      "rel": "2025-07-14",
+      "ctx": 2048,
+      "in": 0.15,
+      "open": 0
     },
     {
       "n": "morph-v3-large",
@@ -2504,15 +2549,6 @@
       "open": 0
     },
     {
-      "n": "gemini-2-5-flash-lite",
-      "name": "Gemini 2.5 Flash-Lite",
-      "vn": "谷歌",
-      "rel": "2025-06-17",
-      "ctx": 1048576,
-      "in": 0.1,
-      "open": 0
-    },
-    {
       "n": "gemini-2-5-flash",
       "name": "Gemini 2.5 Flash",
       "vn": "谷歌",
@@ -2529,15 +2565,6 @@
       "ctx": 200000,
       "in": 20,
       "open": 0
-    },
-    {
-      "n": "magistral-small-2506",
-      "name": "Magistral Small 2506",
-      "vn": "英伟达",
-      "rel": "2025-06-10",
-      "ctx": 32768,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "flux-1-kontext-dev",
@@ -2573,24 +2600,6 @@
       "rel": "2025-05-20",
       "ctx": 65536,
       "in": 0.25,
-      "open": 0
-    },
-    {
-      "n": "gemini-embedding-001",
-      "name": "Gemini Embedding 001",
-      "vn": "谷歌",
-      "rel": "2025-05-20",
-      "ctx": 2048,
-      "in": 0.15,
-      "open": 0
-    },
-    {
-      "n": "mistral-medium-3",
-      "name": "Mistral Medium 3",
-      "vn": "英伟达",
-      "rel": "2025-05-07",
-      "ctx": 131072,
-      "in": 0,
       "open": 0
     },
     {
@@ -2639,12 +2648,12 @@
       "open": 0
     },
     {
-      "n": "llama-3-1-nemotron-70b-instruct",
-      "name": "Llama 3.1 Nemotron 70B Instruct",
-      "vn": "英伟达",
-      "rel": "2025-04-15",
+      "n": "glm-4-32b-0414-128k",
+      "name": "GLM-4-32B-0414-128K",
+      "vn": "智谱 AI",
+      "rel": "2025-04-14",
       "ctx": 128000,
-      "in": 0,
+      "in": 0.1,
       "open": 1
     },
     {
@@ -2664,15 +2673,6 @@
       "ctx": 1047576,
       "in": 2,
       "open": 0
-    },
-    {
-      "n": "llama-3-1-nemotron-ultra-253b",
-      "name": "Llama 3.1 Nemotron Ultra 253B",
-      "vn": "英伟达",
-      "rel": "2025-04-07",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "llama-4-maverick-17b-instruct",
@@ -3008,15 +3008,6 @@
       "open": 1
     },
     {
-      "n": "usdvalidate",
-      "name": "usdvalidate",
-      "vn": "英伟达",
-      "rel": "2024-07-24",
-      "ctx": 0,
-      "in": 0,
-      "open": 1
-    },
-    {
       "n": "llama-3-1-8b-instruct",
       "name": "Llama-3.1-8B-Instruct",
       "vn": "Databricks",
@@ -3059,15 +3050,6 @@
       "rel": "2024-05-29",
       "ctx": 256000,
       "in": 0.3,
-      "open": 1
-    },
-    {
-      "n": "mistral-7b-instruct-v0-3",
-      "name": "Mistral-7B-Instruct-v0.3",
-      "vn": "英伟达",
-      "rel": "2024-05-22",
-      "ctx": 65536,
-      "in": 0,
       "open": 1
     },
     {
@@ -3123,15 +3105,6 @@
       "ctx": 131072,
       "in": 0.345,
       "open": 0
-    },
-    {
-      "n": "rerank-qa-mistral-4b",
-      "name": "rerank-qa-mistral-4b",
-      "vn": "英伟达",
-      "rel": "2024-03-17",
-      "ctx": 128000,
-      "in": 0,
-      "open": 1
     },
     {
       "n": "text-embedding-3-small",
