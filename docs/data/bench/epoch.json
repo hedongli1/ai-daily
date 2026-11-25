@@ -583,6 +583,18 @@
       }
     },
     {
+      "model": "Gemini 4 Neon",
+      "release": "2026-11-18",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 13,
+          "avg": 0.7511,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Gemini 4 Hydrogen",
       "release": "2026-11-12",
       "nRuns": 13,
@@ -783,18 +795,6 @@
           "n": 11,
           "avg": 0.4358,
           "best": 0.9094
-        }
-      }
-    },
-    {
-      "model": "Gemini 4 Neon",
-      "release": "2026-11-18",
-      "nRuns": 10,
-      "domains": {
-        "Language,Multimodal,Vision,Audio,Video": {
-          "n": 10,
-          "avg": 0.8229,
-          "best": 1
         }
       }
     },

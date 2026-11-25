@@ -252,26 +252,6 @@
     },
     {
       "type": "price",
-      "key": "tencent-token-plan/Hy4",
-      "vendor": "tencent-tokenhub",
-      "vendorName": "腾讯混元",
-      "name": "Hy4",
-      "date": "2026-11-25",
-      "facts": {
-        "before": {
-          "in": 0.834,
-          "outCost": 2.501
-        },
-        "after": {
-          "in": 0.898298,
-          "outCost": 2.694894
-        }
-      },
-      "text": "输入 $0.83 → $0.9 · 输出 $2.5 → $2.69",
-      "href": "/models/hy4/"
-    },
-    {
-      "type": "price",
       "key": "cohere/Command A Plus",
       "vendor": "cohere",
       "vendorName": "Cohere",
@@ -289,6 +269,26 @@
       },
       "text": "输入 $2.5 → 免费 · 输出 $10 → 免费",
       "href": "/models/command-a-plus/"
+    },
+    {
+      "type": "price",
+      "key": "tencent-token-plan/Hy4",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "Hy4",
+      "date": "2026-11-25",
+      "facts": {
+        "before": {
+          "in": 0.834,
+          "outCost": 2.501
+        },
+        "after": {
+          "in": 0.898298,
+          "outCost": 2.694894
+        }
+      },
+      "text": "输入 $0.83 → $0.9 · 输出 $2.5 → $2.69",
+      "href": "/models/hy4/"
     },
     {
       "type": "price",
@@ -973,6 +973,32 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+      "href": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "openai",
       "vendorName": "OpenAI",
       "name": "Searching for distant planets with Astra",
@@ -1012,6 +1038,19 @@
     {
       "type": "news",
       "key": null,
+      "vendor": "openai",
+      "vendorName": "OpenAI",
+      "name": "Clay helps sales teams win with Codex and ChatGPT",
+      "date": "2026-11-24",
+      "facts": {},
+      "text": "Clay helps sales teams win with Codex and ChatGPT",
+      "href": "https://openai.com/business/customer-stories/clay-plugins-openai",
+      "source": "OpenAI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
       "vendor": "google",
       "vendorName": "Google Blog · AI",
       "name": "How Gemini is changing the game for Golden State's organization and fans.",
@@ -1033,19 +1072,6 @@
       "text": "chat-demo · Chat Demo",
       "href": "https://github.com/deepseek-ai/chat-demo/releases",
       "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "date": "2026-11-24",
-      "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
       "external": true
     },
     {
@@ -1285,7 +1311,7 @@
       },
       "text": "Inkling 2 Mini · 开源 · 1M 上下文 · 输入 $0.15/M · 支持推理",
       "href": "/models/inkling-2-mini/",
-      "shared": 7
+      "shared": 9
     },
     {
       "type": "new",

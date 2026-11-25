@@ -991,11 +991,11 @@
       "name": "Gemini 3.6 Flash"
     },
     "gemini-4-neon": {
-      "runs": 10,
+      "runs": 13,
       "domains": {
         "Language,Multimodal,Vision,Audio,Video": {
-          "n": 10,
-          "avg": 0.8229,
+          "n": 13,
+          "avg": 0.7511,
           "best": 1
         }
       },
