@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-26",
+  "generated": "2026-11-27",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 234,
+  "count": 235,
   "models": [
     {
       "model": "GPT-5.2",
@@ -859,6 +859,18 @@
       }
     },
     {
+      "model": "Muse Ember",
+      "release": "2026-11-09",
+      "nRuns": 9,
+      "domains": {
+        "Language,Multimodal,Vision,Audio,Video": {
+          "n": 9,
+          "avg": 0.306,
+          "best": 0.9889
+        }
+      }
+    },
+    {
       "model": "DeepSeek V4.1 Flash",
       "release": "2026-09-09",
       "nRuns": 9,
@@ -939,18 +951,6 @@
           "n": 9,
           "avg": 0.4482,
           "best": 0.9111
-        }
-      }
-    },
-    {
-      "model": "Muse Ember",
-      "release": "2026-11-09",
-      "nRuns": 8,
-      "domains": {
-        "Language,Multimodal,Vision,Audio,Video": {
-          "n": 8,
-          "avg": 0.2942,
-          "best": 0.9889
         }
       }
     },
@@ -1611,6 +1611,18 @@
           "n": 5,
           "avg": 0.259,
           "best": 0.6352
+        }
+      }
+    },
+    {
+      "model": "Inkling 2 Mini",
+      "release": "2026-11-20",
+      "nRuns": 4,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 4,
+          "avg": 0.5683,
+          "best": 0.925
         }
       }
     },

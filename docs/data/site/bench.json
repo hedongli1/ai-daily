@@ -1,10 +1,10 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
   "honesty": "Task 列对同一模型为常量，无法据此算出综合排名。本站只展示运行次数与域内均分，不提供智力排名。",
-  "count": 111,
+  "count": 112,
   "bench": {
     "deepseek-r1": {
       "runs": 4,
@@ -1015,11 +1015,11 @@
       "name": "Gemma 4 31B IT"
     },
     "muse-ember": {
-      "runs": 8,
+      "runs": 9,
       "domains": {
         "Language,Multimodal,Vision,Audio,Video": {
-          "n": 8,
-          "avg": 0.2942,
+          "n": 9,
+          "avg": 0.306,
           "best": 0.9889
         }
       },
@@ -1277,6 +1277,18 @@
       },
       "rel": "2026-07-15",
       "name": "Inkling"
+    },
+    "inkling-2-mini": {
+      "runs": 4,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 4,
+          "avg": 0.5683,
+          "best": 0.925
+        }
+      },
+      "rel": "2026-11-20",
+      "name": "Inkling 2 Mini"
     },
     "grok-4-20": {
       "runs": 6,

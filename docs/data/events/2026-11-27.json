@@ -1,0 +1,204 @@
+{
+  "schema": 1,
+  "date": "2026-11-27",
+  "mode": "diff",
+  "baselineDate": "2026-11-26",
+  "counts": {
+    "new": 1,
+    "retired": 0,
+    "price": 0,
+    "context": 0,
+    "news": 8,
+    "facts": 1,
+    "newsAttached": 0
+  },
+  "degraded": [
+    "Anthropic(failed)"
+  ],
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "qwen",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 40
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "status": "failed",
+      "count": 0
+    },
+    {
+      "id": "googleblog",
+      "label": "Google Blog · AI",
+      "status": "ok",
+      "count": 20
+    },
+    {
+      "id": "deepseek-ai",
+      "label": "DeepSeek",
+      "status": "ok",
+      "count": 6
+    },
+    {
+      "id": "QwenLM",
+      "label": "Qwen",
+      "status": "ok",
+      "count": 3
+    },
+    {
+      "id": "meta-llama",
+      "label": "Meta Llama",
+      "status": "ok",
+      "count": 1
+    },
+    {
+      "id": "mistralai",
+      "label": "Mistral AI",
+      "status": "ok",
+      "count": 10
+    },
+    {
+      "id": "zai-org",
+      "label": "智谱 AI",
+      "status": "ok",
+      "count": 2
+    }
+  ],
+  "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "href": "https://github.com/deepseek-ai/3FS/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "mistral-vibe · Minimal CLI coding agent by Mistral",
+      "href": "https://github.com/mistralai/mistral-vibe/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "llm-d-router-public · Inference scheduler for llm-d",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "llm-d-router-public · Inference scheduler for llm-d",
+      "href": "https://github.com/mistralai/llm-d-router-public/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
+      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "FlashQLA · high-performance linear attention kernel library built on TileLang",
+      "href": "https://github.com/QwenLM/FlashQLA/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "mistral",
+      "vendorName": "Mistral AI",
+      "name": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "date": "2026-11-25",
+      "facts": {},
+      "text": "vllm · A high-throughput and memory-efficient inference and serving engine for LLMs",
+      "href": "https://github.com/mistralai/vllm/releases",
+      "source": "Mistral AI",
+      "external": true
+    },
+    {
+      "type": "new",
+      "key": "tencent-tokenhub/MiMo-V2.5-Pro",
+      "vendor": "tencent-tokenhub",
+      "vendorName": "腾讯混元",
+      "name": "MiMo-V2.5-Pro",
+      "date": "2026-04-22",
+      "facts": {
+        "ctx": 1048576,
+        "in": 0.435,
+        "outCost": 0.87,
+        "open": true,
+        "reasoning": true
+      },
+      "text": "MiMo-V2.5-Pro · 开源 · 1M 上下文 · 输入 $0.43/M · 支持推理",
+      "href": "/models/mimo-v2-5-pro/",
+      "shared": 13
+    }
+  ]
+}

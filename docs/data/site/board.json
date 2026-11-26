@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "board": {
     "latest": [
       {
@@ -60,7 +60,7 @@
         "n": "glm-5-3-flash",
         "name": "GLM-5.3-Flash",
         "vn": "智谱 AI",
-        "val": 132,
+        "val": 131,
         "metric": "渠道数"
       }
     ]
@@ -68,7 +68,7 @@
   "domainLeaders": [
     {
       "tag": "Language",
-      "models": 109,
+      "models": 110,
       "n": "claude-fable-5-2",
       "name": "Claude Fable 5.2",
       "vn": "Anthropic",
@@ -78,7 +78,7 @@
     },
     {
       "tag": "Multimodal",
-      "models": 63,
+      "models": 64,
       "n": "claude-fable-5-2",
       "name": "Claude Fable 5.2",
       "vn": "Anthropic",
@@ -88,7 +88,7 @@
     },
     {
       "tag": "Vision",
-      "models": 61,
+      "models": 62,
       "n": "claude-fable-5-2",
       "name": "Claude Fable 5.2",
       "vn": "Anthropic",
