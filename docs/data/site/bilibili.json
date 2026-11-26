@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T19:40:01.971Z",
+ "generated": "2026-11-26T02:59:06.051Z",
  "source": "B站搜索（公开结果，按最新排序）",
  "queries": [
   "大模型",
@@ -8,29 +8,10 @@
   "大模型评测",
   "AI新模型"
  ],
- "count": 118,
- "hotCount": 10,
- "dropped": 20,
+ "count": 101,
+ "hotCount": 8,
+ "dropped": 17,
  "videos": [
-  {
-   "title": "5.9 G的Qwen 3.8 27B模型 | Prism ML 发布 Ternary Bonsai 2.5 27 增强Agent能力",
-   "up": "",
-   "play": 4759,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1NNyqz6Eb2",
-   "url": "https://www.bilibili.com/video/BV1NNyqz6Eb2/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Qwen",
-    "Agent"
-   ],
-   "hot": true,
-   "likes": null
-  },
   {
    "title": "AI抢饭碗，码农扛不住了！新时代程序员该如何找到自己的职业出路？（马士兵-码士集团）",
    "up": "",
@@ -48,48 +29,9 @@
    "likes": null
   },
   {
-   "title": "开源大模型坏啊！要堵开源【饭点新闻】",
-   "up": "",
-   "play": 2241,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV18LyBzQEN5",
-   "url": "https://www.bilibili.com/video/BV18LyBzQEN5/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "不换显卡，Qwen3.8 27B 本地写代码提速近 4 倍！腾讯开源 DSpine 186 tok/s 真机实测",
-   "up": "",
-   "play": 1950,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1kXyzzLEaN",
-   "url": "https://www.bilibili.com/video/BV1kXyzzLEaN/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Qwen",
-    "开源",
-    "评测",
-    "硬件跑模型"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
    "title": "11月25日科技晚报|WorkBuddy 积分 12 月起 7 天过期｜今天 AI 圈四家开源",
    "up": "",
-   "play": 1891,
+   "play": 3473,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
@@ -100,26 +42,6 @@
    ],
    "topics": [
     "开源"
-   ],
-   "hot": true,
-   "likes": null
-  },
-  {
-   "title": "开源编程界彻底疯狂！智谱GLM-5.4实测登顶最强，这颗旗舰王牌太猛了！",
-   "up": "",
-   "play": 1583,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1gLyBzXE2o",
-   "url": "https://www.bilibili.com/video/BV1gLyBzXE2o/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "GLM/智谱",
-    "开源",
-    "评测"
    ],
    "hot": true,
    "likes": null
@@ -138,6 +60,42 @@
    ],
    "topics": [
     "多模态"
+   ],
+   "hot": true,
+   "likes": null
+  },
+  {
+   "title": "Saluki 27B大模型压缩到8GB！RTX 3080也能跑，本地部署实测50+ Tokens/s，MTP加速太香了！",
+   "up": "",
+   "play": 1448,
+   "pub": "2026/11/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1JpyrzyEkr",
+   "url": "https://www.bilibili.com/video/BV1JpyrzyEkr/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "评测"
+   ],
+   "hot": true,
+   "likes": null
+  },
+  {
+   "title": "本地 AI 这块最高的山来了！揽收47.6k stars，Strata一款开源的本地大模型推理引擎，利用 CPU 与 GPU 协同运行模型",
+   "up": "",
+   "play": 1296,
+   "pub": "2026/11/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1Tbykz8EM1",
+   "url": "https://www.bilibili.com/video/BV1Tbykz8EM1/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
    ],
    "hot": true,
    "likes": null
@@ -199,56 +157,19 @@
    "likes": null
   },
   {
-   "title": "Saluki 27B大模型压缩到8GB！RTX 3080也能跑，本地部署实测50+ Tokens/s，MTP加速太香了！",
+   "title": "《FishBotV2实操教程视频》第九章:AI大模型准备工作",
    "up": "",
-   "play": 960,
+   "play": 944,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1JpyrzyEkr",
-   "url": "https://www.bilibili.com/video/BV1JpyrzyEkr/",
+   "bvid": "BV1FfyzzGEgm",
+   "url": "https://www.bilibili.com/video/BV1FfyzzGEgm/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "蚂蚁集团 Ling 3.2 Air开源 与 Qwen3.8 Flash Next 同室操戈，一较高下",
-   "up": "",
-   "play": 950,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1kqy6zLEDy",
-   "url": "https://www.bilibili.com/video/BV1kqy6zLEDy/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Qwen",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "本地 AI 这块最高的山来了！揽收47.6k stars，Strata一款开源的本地大模型推理引擎，利用 CPU 与 GPU 协同运行模型",
-   "up": "",
-   "play": 866,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Tbykz8EM1",
-   "url": "https://www.bilibili.com/video/BV1Tbykz8EM1/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
+    "教程"
    ],
    "hot": false,
    "likes": null
@@ -272,19 +193,19 @@
    "likes": null
   },
   {
-   "title": "《FishBotV2实操教程视频》第九章:AI大模型准备工作",
+   "title": "Ternary Bonsai 2.5 27B 是 Bonsai 2 的 agentic 版本。九月我测过上一代，官方写保留 98.2%，实际跑起来跟榜单差得远。",
    "up": "",
-   "play": 737,
+   "play": 764,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1FfyzzGEgm",
-   "url": "https://www.bilibili.com/video/BV1FfyzzGEgm/",
+   "bvid": "BV1Myyrz8Exj",
+   "url": "https://www.bilibili.com/video/BV1Myyrz8Exj/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "教程"
+    "Agent"
    ],
    "hot": false,
    "likes": null
@@ -306,44 +227,6 @@
    "likes": null
   },
   {
-   "title": "4090张量算力翻倍，本地AI快在哪？ #本地大模型 #英伟达显卡 #AI绘图 #开源项目",
-   "up": "",
-   "play": 716,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1XGyBz9EgJ",
-   "url": "https://www.bilibili.com/video/BV1XGyBz9EgJ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "硬件跑模型"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【2027最新】OpenCode｜开源 AI 代码智能代理，终端 TUI 驱动，兼容 Ollama/Claude 等大模型自动迭代开发，本地可控！AI大模型！",
-   "up": "",
-   "play": 694,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1JCy6z3E7A",
-   "url": "https://www.bilibili.com/video/BV1JCy6z3E7A/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Claude/Opus",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【小样本+多模态】样本少、模态乱还想发SCI？三大落地路线！创新点直接抄！看完轻松搞定大小论文！论文精读+代码复现 AI/深度学习/小样本/科研/大模型",
    "up": "",
    "play": 635,
@@ -357,24 +240,6 @@
    ],
    "topics": [
     "多模态"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "16GB本地狂飙102字/秒！Inkling 2 Mini 六引擎实测对决千问3.8，跑分没说的坑全测透",
-   "up": "",
-   "play": 551,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1j6yizoELh",
-   "url": "https://www.bilibili.com/video/BV1j6yizoELh/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "评测"
    ],
    "hot": false,
    "likes": null
@@ -414,14 +279,14 @@
    "likes": null
   },
   {
-   "title": "Rumble-2-Flash开源ASR模型 支持40+语言，速度极快",
+   "title": "一个让AI记忆进化的开源工具",
    "up": "",
-   "play": 472,
+   "play": 458,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1jeyazLEcc",
-   "url": "https://www.bilibili.com/video/BV1jeyazLEcc/",
+   "bvid": "BV1rFykzJEYw",
+   "url": "https://www.bilibili.com/video/BV1rFykzJEYw/",
    "queries": [
     "开源大模型"
    ],
@@ -469,24 +334,6 @@
    "likes": null
   },
   {
-   "title": "Ternary Bonsai 2.5 27B 是 Bonsai 2 的 agentic 版本。九月我测过上一代，官方写保留 98.2%，实际跑起来跟榜单差得远。",
-   "up": "",
-   "play": 348,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Myyrz8Exj",
-   "url": "https://www.bilibili.com/video/BV1Myyrz8Exj/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Agent"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【匿名新模型】HungerG的6000年鹈鹕骑车，附Qwen4的对照",
    "up": "",
    "play": 347,
@@ -501,22 +348,6 @@
    "topics": [
     "Qwen"
    ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "本地部署大模型买什么设备？从千元二手卡、隐藏16G本到128G主机，28款神机年底核价避坑！",
-   "up": "",
-   "play": 342,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1r9yzzyE16",
-   "url": "https://www.bilibili.com/video/BV1r9yzzyE16/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [],
    "hot": false,
    "likes": null
   },
@@ -552,63 +383,6 @@
    ],
    "topics": [
     "GPT/OpenAI"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "一个让AI记忆进化的开源工具",
-   "up": "",
-   "play": 305,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1rFykzJEYw",
-   "url": "https://www.bilibili.com/video/BV1rFykzJEYw/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "【AI大模型日报·26期】Anthropic与OpenAI相隔6小时开源VP≠VNP证明！GPT-6.2湿实验蛋白，国产开源破100亿",
-   "up": "",
-   "play": 303,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1ATyqzuEW6",
-   "url": "https://www.bilibili.com/video/BV1ATyqzuEW6/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "GPT/OpenAI",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "Kimi开源底座四次越狱沙箱！Cognition发布SWE-2.1翻倍暴走+600 tok/s极速版，为何仍输Opus 5.5？",
-   "up": "",
-   "play": 296,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1JCy6z3Ecy",
-   "url": "https://www.bilibili.com/video/BV1JCy6z3Ecy/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "Kimi",
-    "Claude/Opus",
-    "开源"
    ],
    "hot": false,
    "likes": null
@@ -703,20 +477,18 @@
    "likes": null
   },
   {
-   "title": "自建榜开源第一却总榜第7？GLM-5.4四档实测：低档66秒满分，六应用烧104万token",
+   "title": "我天，实测腾讯Hy4-flash模型，性价比拉满",
    "up": "",
-   "play": 224,
+   "play": 221,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1vp1Fz4EXe",
-   "url": "https://www.bilibili.com/video/BV1vp1Fz4EXe/",
+   "bvid": "BV1oNy6zTE5d",
+   "url": "https://www.bilibili.com/video/BV1oNy6zTE5d/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "GLM/智谱",
-    "开源",
     "评测"
    ],
    "hot": false,
@@ -758,39 +530,21 @@
    "likes": null
   },
   {
-   "title": "百度文心开源了Ernie 5.5 Flash预览版，openrouter 免费使用，解码速度非常快。我实测了一下基本维持在260t/s。",
+   "title": "开源引擎Radiance实测：让AMD 32GB显卡运行本地大模型速度飙升4倍 | Kai",
    "up": "",
-   "play": 189,
+   "play": 186,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV132yizXEXa",
-   "url": "https://www.bilibili.com/video/BV132yizXEXa/",
+   "bvid": "BV1Sj1czJEuZ",
+   "url": "https://www.bilibili.com/video/BV1Sj1czJEuZ/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
     "开源",
-    "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "别再死磕RAG了！vLLM刚开源的vLLM-GR，正在降维打击AI记忆",
-   "up": "",
-   "play": 187,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Q3yBzsEeA",
-   "url": "https://www.bilibili.com/video/BV1Q3yBzsEeA/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "RAG"
+    "评测",
+    "硬件跑模型"
    ],
    "hot": false,
    "likes": null
@@ -848,43 +602,6 @@
    "likes": null
   },
   {
-   "title": "本地大模型推理实测：调优后的 llama.cpp 1.0 能追上 Strata 吗 | Kai",
-   "up": "",
-   "play": 164,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1xryZziEWx",
-   "url": "https://www.bilibili.com/video/BV1xryZziEWx/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "神秘模型HungerG白送7天！Anthropic上市四天破发｜OpenAI与A社曝模型失控｜文心5.5开源｜工程师用Codex窃听获保释",
-   "up": "",
-   "play": 163,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1NPyqz3EbJ",
-   "url": "https://www.bilibili.com/video/BV1NPyqz3EbJ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "GPT/OpenAI",
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "【熟肉】千问4 Max正式发布：最强国产AI模型全面实测 - WorldofAI 5vPXJiy83Sg",
    "up": "",
    "play": 153,
@@ -898,24 +615,6 @@
    ],
    "topics": [
     "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "无限Token｜本地部署GLM5.3 flash，速度159token/s！",
-   "up": "",
-   "play": 150,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV11GyrzHEpT",
-   "url": "https://www.bilibili.com/video/BV11GyrzHEpT/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "GLM/智谱"
    ],
    "hot": false,
    "likes": null
@@ -939,19 +638,41 @@
    "likes": null
   },
   {
-   "title": "我天，实测腾讯Hy4-flash模型，性价比拉满",
+   "title": "Inkling2 Mini实测！26B开源模型挑战Qwen3.8 27B，结果出乎意料",
    "up": "",
-   "play": 135,
+   "play": 142,
    "pub": "2026/11/25",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1oNy6zTE5d",
-   "url": "https://www.bilibili.com/video/BV1oNy6zTE5d/",
+   "bvid": "BV1FJyrz2E2B",
+   "url": "https://www.bilibili.com/video/BV1FJyrz2E2B/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
+    "Qwen",
+    "开源",
     "评测"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "从0学习agent--13：从零做迷你 Claude Code，修开源项目 Bug",
+   "up": "",
+   "play": 129,
+   "pub": "2026/11/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1bbyyzTE3i",
+   "url": "https://www.bilibili.com/video/BV1bbyyzTE3i/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Claude/Opus",
+    "Agent",
+    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1028,43 +749,6 @@
    "likes": null
   },
   {
-   "title": "AI科技开源日报｜2026-11-25",
-   "up": "",
-   "play": 117,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1ATyqzuE5W",
-   "url": "https://www.bilibili.com/video/BV1ATyqzuE5W/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "用51单片机开发的电子小狗已接入Ai大模型 @嘉立创EDA版图设计软件  #立创开源硬件平台 #立创开源硬件平台7周年 #电子小狗 #桌宠 #diy机器人",
-   "up": "",
-   "play": 111,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV152yBzhE5U",
-   "url": "https://www.bilibili.com/video/BV152yBzhE5U/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "具身智能"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "谁是最香国产？GLM 5.4、千问4 Max、Kimi K3.1 Pro、DeepSeek V4.1 Flash 盲测三道题",
    "up": "",
    "play": 110,
@@ -1080,25 +764,6 @@
     "DeepSeek",
     "Kimi",
     "GLM/智谱"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "Java+Al全栈开发基于开源大模型打造航空AI智能客服项目实战一节课带你玩转AI应用开发+企业级解决方案",
-   "up": "",
-   "play": 95,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1hXyBz4EsZ",
-   "url": "https://www.bilibili.com/video/BV1hXyBz4EsZ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "教程"
    ],
    "hot": false,
    "likes": null
@@ -1158,47 +823,6 @@
    "likes": null
   },
   {
-   "title": "120分钟吃透企业级Agent智能体落地实战｜多智能体架构+DeepSeek Harness+RAG，掌握Agent Skill开发，大模型面试直接加分！",
-   "up": "",
-   "play": 83,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1xgyrzXEHL",
-   "url": "https://www.bilibili.com/video/BV1xgyrzXEHL/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "Agent",
-    "教程",
-    "RAG"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "开源引擎Radiance实测：让AMD 32GB显卡运行本地大模型速度飙升4倍 | Kai",
-   "up": "",
-   "play": 78,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1Sj1czJEuZ",
-   "url": "https://www.bilibili.com/video/BV1Sj1czJEuZ/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源",
-    "评测",
-    "硬件跑模型"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "中国已经上市大模型股票MIMI MAX股价相对于最高点下跌将近93.5%，智谱股价相对于最高点下跌超过90%",
    "up": "",
    "play": 71,
@@ -1212,24 +836,6 @@
    ],
    "topics": [
     "GLM/智谱"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "vLLM-GR：vLLM新开源生成式推荐引擎框架，什么是生成式推荐引擎？",
-   "up": "",
-   "play": 64,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1vMy6zNE3R",
-   "url": "https://www.bilibili.com/video/BV1vMy6zNE3R/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
    ],
    "hot": false,
    "likes": null
@@ -1305,6 +911,45 @@
    "likes": null
   },
   {
+   "title": "模型正在变成水电煤：DeepSeek Harness 才是真正的主战场｜智能体｜工程化｜插件｜大模型｜趋势解读",
+   "up": "",
+   "play": 45,
+   "pub": "2026/11/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1oayCzLEmK",
+   "url": "https://www.bilibili.com/video/BV1oayCzLEmK/",
+   "queries": [
+    "大模型",
+    "开源大模型"
+   ],
+   "topics": [
+    "DeepSeek",
+    "Agent"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "OpenAI 与 Cisco 发布并开源AI安全运行盾牌",
+   "up": "",
+   "play": 44,
+   "pub": "2026/11/26",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1HLyzzrEx3",
+   "url": "https://www.bilibili.com/video/BV1HLyzzrEx3/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "GPT/OpenAI",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "5周连发4个王炸！谷歌一旦彻底醒来，AI 牌桌上根本没人接得住？【大模型公司史讲 EP.03】",
    "up": "",
    "play": 44,
@@ -1373,24 +1018,6 @@
    "likes": null
   },
   {
-   "title": "MedTrace | 开源的首次病程记录生成程序",
-   "up": "",
-   "play": 28,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1bwyzznEgB",
-   "url": "https://www.bilibili.com/video/BV1bwyzznEgB/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
    "title": "巴菲特视角看十年财报-案例研讨13-如何借助AI对企业进行深度研究-2026年11月24日",
    "up": "",
    "play": 21,
@@ -1403,24 +1030,6 @@
     "AI新模型"
    ],
    "topics": [],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "中国牵头AI全球标准，文心全开源",
-   "up": "",
-   "play": 18,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1j6yizoEoL",
-   "url": "https://www.bilibili.com/video/BV1j6yizoEoL/",
-   "queries": [
-    "开源大模型"
-   ],
-   "topics": [
-    "开源"
-   ],
    "hot": false,
    "likes": null
   },
@@ -1445,20 +1054,18 @@
    "likes": null
   },
   {
-   "title": "从0学习agent--13：从零做迷你 Claude Code，修开源项目 Bug",
+   "title": "AI真能破译RSA密码？谷歌连发6篇数论论文，T3开源编程工具被扒偷读本地凭证｜AI早报 11.26",
    "up": "",
-   "play": 14,
-   "pub": "2026/11/25",
+   "play": 16,
+   "pub": "2026/11/26",
    "date": null,
    "dateApprox": true,
-   "bvid": "BV1bbyyzTE3i",
-   "url": "https://www.bilibili.com/video/BV1bbyyzTE3i/",
+   "bvid": "BV1Wzyyz8Esf",
+   "url": "https://www.bilibili.com/video/BV1Wzyyz8Esf/",
    "queries": [
     "开源大模型"
    ],
    "topics": [
-    "Claude/Opus",
-    "Agent",
     "开源"
    ],
    "hot": false,
@@ -1622,6 +1229,60 @@
    "likes": null
   },
   {
+   "title": "最强开源模型 MAGI-2 已上线！香蕉会动 AI视频导演工作台（小白友好）Seedance 2.5 、MUSE等 热门视频模型都有！",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/26",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1YMymzEEAc",
+   "url": "https://www.bilibili.com/video/BV1YMymzEEAc/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "高校实验室选本地AI设备，为什么有几十家都选了懒猫算力舱？",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/26",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1zyy6z6Ewq",
+   "url": "https://www.bilibili.com/video/BV1zyy6z6Ewq/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "硬件跑模型"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "最强开源模型 MAGI-2 已上线！香蕉会动 AI视频导演工作台（小白友好）Seedance 2.5 、MUSE等 热门视频模型都有！",
+   "up": "",
+   "play": 5,
+   "pub": "2026/11/26",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1RAymzQErv",
+   "url": "https://www.bilibili.com/video/BV1RAymzQErv/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "Java后端转工业Agent：本体驱动平台落地，面试追问的评测、幻觉与链路追踪全讲透｜Agent｜大模型｜FDE｜本体｜知识图谱",
    "up": "",
    "play": 5,
@@ -1636,26 +1297,6 @@
    "topics": [
     "Agent",
     "评测"
-   ],
-   "hot": false,
-   "likes": null
-  },
-  {
-   "title": "模型正在变成水电煤：DeepSeek Harness 才是真正的主战场｜智能体｜工程化｜插件｜大模型｜趋势解读",
-   "up": "",
-   "play": 4,
-   "pub": "2026/11/25",
-   "date": null,
-   "dateApprox": true,
-   "bvid": "BV1oayCzLEmK",
-   "url": "https://www.bilibili.com/video/BV1oayCzLEmK/",
-   "queries": [
-    "大模型",
-    "开源大模型"
-   ],
-   "topics": [
-    "DeepSeek",
-    "Agent"
    ],
    "hot": false,
    "likes": null
@@ -1711,6 +1352,25 @@
    "likes": null
   },
   {
+   "title": "闭源Agent的基座是国产开源模型：SWE-2.1与本地推理同日推进 | 今日羊报AI",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/26",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV1P4ymzKENU",
+   "url": "https://www.bilibili.com/video/BV1P4ymzKENU/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Agent",
+    "开源"
+   ],
+   "hot": false,
+   "likes": null
+  },
+  {
    "title": "谷歌语音AI专利：不重新训练，挂两个小模块就能学新语言",
    "up": "",
    "play": 4,
@@ -1757,6 +1417,26 @@
     "大模型"
    ],
    "topics": [],
+   "hot": false,
+   "likes": null
+  },
+  {
+   "title": "Kimi K3.1 权重发布、开源计算机操作、SOTA 图像模型、科学模型、Pika H3：AI 新闻",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/25",
+   "date": null,
+   "dateApprox": true,
+   "bvid": "BV12xWQ6SEUF",
+   "url": "https://www.bilibili.com/video/BV12xWQ6SEUF/",
+   "queries": [
+    "开源大模型"
+   ],
+   "topics": [
+    "Kimi",
+    "开源",
+    "多模态"
+   ],
    "hot": false,
    "likes": null
   },
@@ -2128,43 +1808,6 @@
   }
  ],
  "byQuery": {
-  "开源大模型": [
-   "BV1NNyqz6Eb2",
-   "BV18LyBzQEN5",
-   "BV1kXyzzLEaN",
-   "BV1ARyrzXEoB",
-   "BV1gLyBzXE2o",
-   "BV1JpyrzyEkr",
-   "BV1kqy6zLEDy",
-   "BV1Tbykz8EM1",
-   "BV1FfyzzGEgm",
-   "BV1XGyBz9EgJ",
-   "BV1JCy6z3E7A",
-   "BV1j6yizoELh",
-   "BV1jeyazLEcc",
-   "BV1Myyrz8Exj",
-   "BV1r9yzzyE16",
-   "BV1rFykzJEYw",
-   "BV1ATyqzuEW6",
-   "BV1JCy6z3Ecy",
-   "BV1vp1Fz4EXe",
-   "BV132yizXEXa",
-   "BV1Q3yBzsEeA",
-   "BV1xryZziEWx",
-   "BV1NPyqz3EbJ",
-   "BV11GyrzHEpT",
-   "BV1oNy6zTE5d",
-   "BV1ATyqzuE5W",
-   "BV152yBzhE5U",
-   "BV1hXyBz4EsZ",
-   "BV1xgyrzXEHL",
-   "BV1Sj1czJEuZ",
-   "BV1vMy6zNE3R",
-   "BV1bwyzznEgB",
-   "BV1j6yizoEoL",
-   "BV1bbyyzTE3i",
-   "BV1oayCzLEmK"
-  ],
   "AI新模型": [
    "BV1wSyZzcEYc",
    "BV1ngyqzTEd6",
@@ -2182,6 +1825,26 @@
    "BV1Bz1czeEn2",
    "BV1juyQzPE7S",
    "BV1nSyGzYEY1"
+  ],
+  "开源大模型": [
+   "BV1ARyrzXEoB",
+   "BV1JpyrzyEkr",
+   "BV1Tbykz8EM1",
+   "BV1FfyzzGEgm",
+   "BV1Myyrz8Exj",
+   "BV1rFykzJEYw",
+   "BV1oNy6zTE5d",
+   "BV1Sj1czJEuZ",
+   "BV1FJyrz2E2B",
+   "BV1bbyyzTE3i",
+   "BV1oayCzLEmK",
+   "BV1HLyzzrEx3",
+   "BV1Wzyyz8Esf",
+   "BV1YMymzEEAc",
+   "BV1zyy6z6Ewq",
+   "BV1RAymzQErv",
+   "BV1P4ymzKENU",
+   "BV12xWQ6SEUF"
   ],
   "多模态大模型": [
    "BV1XRyQzaEMQ",
@@ -2228,6 +1891,7 @@
    "BV1uTyCzYEVv",
    "BV19zyCz6EFW",
    "BV1fbyCz7Eqc",
+   "BV1oayCzLEmK",
    "BV1nTyyzpE9g",
    "BV1o8yCz2E23",
    "BV1zMyyzDEzx",
@@ -2236,7 +1900,6 @@
    "BV1oayCzLEQq",
    "BV1kwyyzREvt",
    "BV1mQyCzaEqN",
-   "BV1oayCzLEmK",
    "BV1kcyyzxEG2",
    "BV1hxyyzuEa7",
    "BV1apyyz3Eho",

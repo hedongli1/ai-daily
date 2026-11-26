@@ -74,20 +74,20 @@
       "country": "intl"
     },
     {
-      "id": "anthropic",
-      "name": "Anthropic",
-      "n": 15,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
       "id": "zhipuai",
       "name": "智谱 AI",
       "n": 20,
       "cheapest": 0,
       "latest": "2026-11-02",
       "country": "cn"
+    },
+    {
+      "id": "anthropic",
+      "name": "Anthropic",
+      "n": 15,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
     },
     {
       "id": "volcengine",
@@ -106,19 +106,19 @@
       "country": "intl"
     },
     {
-      "id": "arcee",
-      "name": "Arcee AI",
-      "n": 3,
-      "cheapest": 0.14,
-      "latest": "2026-08-13",
-      "country": "intl"
-    },
-    {
       "id": "xai",
       "name": "xAI",
       "n": 10,
       "cheapest": 1.25,
       "latest": "2026-10-01",
+      "country": "intl"
+    },
+    {
+      "id": "arcee",
+      "name": "Arcee AI",
+      "n": 3,
+      "cheapest": 0.14,
+      "latest": "2026-08-13",
       "country": "intl"
     },
     {
@@ -138,14 +138,6 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
       "id": "sarvam",
       "name": "Sarvam AI",
       "n": 3,
@@ -154,12 +146,12 @@
       "country": "intl"
     },
     {
-      "id": "moonshotai",
-      "name": "月之暗面",
-      "n": 6,
-      "cheapest": 0.9711,
-      "latest": "2026-10-23",
-      "country": "cn"
+      "id": "meta",
+      "name": "Meta",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
+      "country": "intl"
     },
     {
       "id": "sensenova",
@@ -167,6 +159,14 @@
       "n": 1,
       "cheapest": 0,
       "latest": "2026-08-11",
+      "country": "cn"
+    },
+    {
+      "id": "moonshotai",
+      "name": "月之暗面",
+      "n": 6,
+      "cheapest": 0.9711,
+      "latest": "2026-10-23",
       "country": "cn"
     },
     {
@@ -184,6 +184,14 @@
       "cheapest": 0.075,
       "latest": "2026-11-05",
       "country": "cn"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
+      "country": "intl"
     },
     {
       "id": "sakana",
@@ -210,22 +218,6 @@
       "country": "cn"
     },
     {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
-      "country": "intl"
-    },
-    {
-      "id": "vispark",
-      "name": "Vispark",
-      "n": 3,
-      "cheapest": 1.05,
-      "latest": "2024-05-15",
-      "country": "intl"
-    },
-    {
       "id": "xiaomi",
       "name": "小米",
       "n": 3,
@@ -242,6 +234,14 @@
       "country": "intl"
     },
     {
+      "id": "vispark",
+      "name": "Vispark",
+      "n": 3,
+      "cheapest": 1.05,
+      "latest": "2024-05-15",
+      "country": "intl"
+    },
+    {
       "id": "longcat",
       "name": "美团 LongCat",
       "n": 2,
@@ -250,19 +250,19 @@
       "country": "cn"
     },
     {
-      "id": "cerebras",
-      "name": "Cerebras",
-      "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
-      "country": "intl"
-    },
-    {
       "id": "ai21",
       "name": "AI21 Labs",
       "n": 2,
       "cheapest": 0.2,
       "latest": "2026-01-08",
+      "country": "intl"
+    },
+    {
+      "id": "cerebras",
+      "name": "Cerebras",
+      "n": 2,
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
       "country": "intl"
     }
   ]
