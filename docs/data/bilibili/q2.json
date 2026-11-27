@@ -1,131 +1,229 @@
 {
  "query": "多模态大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-25T03:39:47.099Z",
+ "fetchedAt": "2026-11-27T03:05:03.505Z",
  "rows": [
+  {
+   "title": "EfficientML.ai 第 14 讲——大语言模型后训练（MIT 6.5940，2026 年秋季学期）",
+   "up": "",
+   "play": 11,
+   "pub": "2026/11/27",
+   "bvid": "BV1m61pzVEQz"
+  },
+  {
+   "title": "【高校AI实验室建设】人工智能全栈教学平台，拿来就能开课！一套顶六套，AI/大模型/嵌入式/鸿蒙/工业视觉/具身智能机械臂全搞定！",
+   "up": "",
+   "play": 8,
+   "pub": "2026/11/27",
+   "bvid": "BV1vx1pzXE6i"
+  },
+  {
+   "title": "AI 大模型周报 2026年11月 e（附链接）",
+   "up": "",
+   "play": 1511,
+   "pub": "2026/11/26",
+   "bvid": "BV1tfymz5EfK"
+  },
+  {
+   "title": "中配+原声·迈向文化对齐，以人为中心评估跨5个社区的多模态AI故事 | Microsoft Research",
+   "up": "",
+   "play": 131,
+   "pub": "2026/11/26",
+   "bvid": "BV1PCyZzNEsr"
+  },
+  {
+   "title": "多模态大模型中的对齐幻觉",
+   "up": "",
+   "play": 70,
+   "pub": "2026/11/26",
+   "bvid": "BV1mvWv6zEGB"
+  },
+  {
+   "title": "人大胡迪：Gestalt-多模态信息交互大模型",
+   "up": "",
+   "play": 1412,
+   "pub": "2026/11/26",
+   "bvid": "BV1GKymzSEXc"
+  },
+  {
+   "title": "（20-2-02）基于《哈利·波特》系列图书内容的问答系统：语言模型的集成与优化(2)",
+   "up": "",
+   "play": 23,
+   "pub": "2026/11/26",
+   "bvid": "BV1qXyyzDEGE"
+  },
+  {
+   "title": "（20-4）基于《哈利·波特》系列图书内容的问答系统：系统测试",
+   "up": "",
+   "play": 37,
+   "pub": "2026/11/26",
+   "bvid": "BV1jXyyzDECp"
+  },
+  {
+   "title": "（18-4-03）Agents（智能代理）：XML Agent（XML代理）",
+   "up": "",
+   "play": 15,
+   "pub": "2026/11/25",
+   "bvid": "BV161yyzxEXp"
+  },
+  {
+   "title": "从碎片化到融合：全模态嵌入综述与路线图：不同模态的嵌入模型可在训练目标、编码架构和表示粒度上统一分析，并沿转换、跨模态对齐与多模态联合嵌入逐步走向全模态融合",
+   "up": "",
+   "play": 238,
+   "pub": "2026/11/25",
+   "bvid": "BV1QqyrzPERv"
+  },
+  {
+   "title": "端侧模型框选示例完成零件定位和计数",
+   "up": "",
+   "play": 173,
+   "pub": "2026/11/25",
+   "bvid": "BV14sy6zWEvj"
+  },
+  {
+   "title": "【小样本+多模态】样本少、模态乱还想发SCI？三条可落地路线！创新点直接抄！看完轻松搞定SCI论文！论文精读+代码复现 AI/深度学习/小样本/科研/大模型",
+   "up": "",
+   "play": 852,
+   "pub": "2026/11/25",
+   "bvid": "BV1ZF1czcEg1"
+  },
+  {
+   "title": "谁说Qwen4很拉的",
+   "up": "",
+   "play": 895,
+   "pub": "2026/11/25",
+   "bvid": "BV14EyBzSEUN"
+  },
   {
    "title": "GLM-5.4真实优缺点全拆解！开放模型编程冲上第一，高档位却慢4倍超时？到底值不值得掏钱订阅",
    "up": "",
-   "play": 362,
+   "play": 838,
    "pub": "2026/11/24",
    "bvid": "BV1ghyqzXERM"
   },
   {
+   "title": "【多模态微调】Qwen3-VL 从租卡到训完：洗数据、chat template、LoRA 全走通｜视觉大模型",
+   "up": "",
+   "play": 112,
+   "pub": "2026/11/24",
+   "bvid": "BV1hq1wzREAr"
+  },
+  {
    "title": "面试一问 LangChain 就哑火：13 节模型调用打通，再过 18 道真题｜面试题｜多模态｜结构化输出｜大模型开发｜求职面试",
    "up": "",
-   "play": 32,
+   "play": 377,
    "pub": "2026/11/24",
    "bvid": "BV1XL1AzZEYr"
   },
   {
    "title": "Ling-3.2-air 发布：1240亿参数开源多模态，能跑代码仓库 | softwareBuy 科技速报第 26 期",
    "up": "",
-   "play": 61,
+   "play": 148,
    "pub": "2026/11/24",
    "bvid": "BV1zr1czAEYd"
   },
   {
    "title": "FDE面试真题复盘：微调全流程、多模态RAG、企业级智能体怎么答｜FDE｜AI就业｜面试真题",
    "up": "",
-   "play": 16,
+   "play": 91,
    "pub": "2026/11/24",
    "bvid": "BV19AyfznEnP"
   },
   {
    "title": "【小样本+多模态】样本少、模态乱还想发SCI？三大落地路线！创新点直接抄！看完轻松搞定大小论文！论文精读+代码复现 AI/深度学习/小样本/科研/大模型",
    "up": "",
-   "play": 635,
+   "play": 736,
    "pub": "2026/11/24",
    "bvid": "BV1A2yZzAEfQ"
   },
   {
+   "title": "AI深度思考/真在动脑吗？",
+   "up": "",
+   "play": 127,
+   "pub": "2026/11/24",
+   "bvid": "BV1HKyZz8Etp"
+  },
+  {
    "title": "【AI模型尝鲜】循环架构MoE多模态 Inkling-2-Mini 26B-A3.4B 本地部署测试",
    "up": "",
-   "play": 1009,
+   "play": 1477,
    "pub": "2026/11/24",
    "bvid": "BV1b9yozBEvN"
   },
   {
    "title": "【多模态】博士精讲MLLM多模态大语言模型+多模态数据处理与特征提取+CLIP模型—Transformer/多模态对齐技术",
    "up": "",
-   "play": 240,
+   "play": 303,
    "pub": "2026/11/24",
    "bvid": "BV1ikyfz9ERc"
   },
   {
    "title": "模型疯狂过拟合？小样本多模态，破解科研做实验的致命痛点",
    "up": "",
-   "play": 128,
+   "play": 138,
    "pub": "2026/11/24",
    "bvid": "BV1otyDzwEFd"
   },
   {
    "title": "别再只会调大模型 API 了！千问 3VL 多模态 LoRA 微调全流程实战｜从 0 到 1 跑通垂直领域训练，简历面试直接用",
    "up": "",
-   "play": 86,
+   "play": 131,
    "pub": "2026/11/24",
    "bvid": "BV1BiyfzZE3W"
   },
   {
    "title": "小样本+多模态发SCI二区，我愿称之为&quot;最水&quot;的方向！多模态大语言模型与多模态数据处理与特征提取技术详解",
    "up": "",
-   "play": 380,
+   "play": 440,
    "pub": "2026/11/24",
    "bvid": "BV1bvyZz6Eio"
   },
   {
-   "title": "蚂蚁百灵发布 Ling-3.2-air：官方称 55 亿激活在智力指数上打平 400 亿级模型",
-   "up": "",
-   "play": 124,
-   "pub": "2026/11/24",
-   "bvid": "BV1BuydzSE47"
-  },
-  {
    "title": "【全49P·硬核】Qwen3-VL 多模态微调：从租卡到训完，一条流水线走通｜视觉大模型｜LoRA｜SFT",
    "up": "",
-   "play": 119,
+   "play": 294,
    "pub": "2026/11/23",
    "bvid": "BV1oXy9zrEeo"
   },
   {
    "title": "【全43P·硬核】千问3 微调实战：数据、模板、LoRA、验证四步走完｜大模型微调｜SFT｜显存优化",
    "up": "",
-   "play": 144,
+   "play": 168,
    "pub": "2026/11/23",
    "bvid": "BV137yQzZEh2"
   },
   {
    "title": "蚂蚁百灵开放Ling-3.2-air权重，多模态模型强化工作流｜2026-11-23 AI快讯",
    "up": "",
-   "play": 1495,
+   "play": 1577,
    "pub": "2026/11/23",
    "bvid": "BV1XRyQzaEMQ"
   },
   {
    "title": "【中配】千问4 Max正式发布：最强国产AI模型全面实测 - WorldofAI 5vPXJiy83Sg",
    "up": "",
-   "play": 1063,
+   "play": 1128,
    "pub": "2026/11/23",
    "bvid": "BV1bCyXzfENo"
   },
   {
    "title": "【熟肉】千问4 Max正式发布：最强国产AI模型全面实测 - WorldofAI 5vPXJiy83Sg",
    "up": "",
-   "play": 153,
+   "play": 160,
    "pub": "2026/11/23",
    "bvid": "BV1SCyXzfECM"
   },
   {
    "title": "【最强中文配音】斯坦福大学CS25-大模型前沿讲座，多模态、世界模型、千卡训练与推理服务｜Transformers United V6 2026",
    "up": "",
-   "play": 501,
+   "play": 615,
    "pub": "2026/11/23",
    "bvid": "BV1LzyezSE4N"
   },
   {
    "title": "国内大模型搜索热度月榜！！",
    "up": "",
-   "play": 173,
+   "play": 222,
    "pub": "2026/11/23",
    "bvid": "BV1McyDzDEwt"
   },
@@ -139,9 +237,51 @@
   {
    "title": "小样本加多模态，为什么我说发篇 SCI 二区太简单了",
    "up": "",
-   "play": 164,
+   "play": 167,
    "pub": "2026/11/23",
    "bvid": "BV1FJyDzBEoP"
+  },
+  {
+   "title": "AIIData大模型与AI数据底座-AI多模态标注（LabelStudio）实操能力演示",
+   "up": "",
+   "play": 48,
+   "pub": "2026/11/23",
+   "bvid": "BV1EPyQzqEqj"
+  },
+  {
+   "title": "大模型技术路线怎么捋：RAG、Agent、微调、多模态四条线一次讲透｜大模型面试｜AI就业｜技术路线｜简历项目｜技术栈",
+   "up": "",
+   "play": 191,
+   "pub": "2026/11/23",
+   "bvid": "BV1x1yDzSE1c"
+  },
+  {
+   "title": "(顶级中配珍藏)跟着Karpathy用2小时手搓大模型，通俗易懂,零基础也能学!",
+   "up": "",
+   "play": 535,
+   "pub": "2026/11/23",
+   "bvid": "BV1HFyHzZECU"
+  },
+  {
+   "title": "小样本+多模态，为什么我说发篇SCI二区太简单了？多模态大模型原理与应用实例详解+多模态数据处理与特征提取详解",
+   "up": "",
+   "play": 575,
+   "pub": "2026/11/23",
+   "bvid": "BV1oDyHzXEEy"
+  },
+  {
+   "title": "GLM-5.4上线了！Coding Plan已经能用，这次还加了视觉｜每日AI午报 11月23日",
+   "up": "",
+   "play": 1499,
+   "pub": "2026/11/23",
+   "bvid": "BV125ypzTEJC"
+  },
+  {
+   "title": "Qwen3.8 27B 增强版！DaisyRose 27B 多模态 AI 大模型本地部署教程｜256 上下文、Agent 能力翻倍",
+   "up": "",
+   "play": 3610,
+   "pub": "2026/11/23",
+   "bvid": "BV1YiyEziET6"
   }
  ]
 }

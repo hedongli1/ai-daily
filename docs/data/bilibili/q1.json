@@ -1,147 +1,287 @@
 {
  "query": "大模型",
  "order": "pubdate",
- "fetchedAt": "2026-11-26T19:20:56.579Z",
+ "fetchedAt": "2026-11-27T03:05:02.656Z",
  "rows": [
   {
-   "title": "好大一只大黑熊｜站起来比人高｜九哥3d打印｜现场实拍",
+   "title": "【2026版】量化与推理加速架构深度解析，从底层原理到工程落地，torchao+Unsloth+LoRA",
    "up": "",
    "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV1331Hz5ECE"
+   "pub": "2026/11/27",
+   "bvid": "BV1dr1HzXEWQ"
   },
   {
-   "title": "【Live2D成品出售】0手成品模型 售价仅1099/25摁键/可捏脸/含飞头/走路动画/大前倾/变大小自定义/一键变q版",
-   "up": "",
-   "play": 14,
-   "pub": "2026/11/26",
-   "bvid": "BV1ME1HzzEHS"
-  },
-  {
-   "title": "Java和数仓转大模型，学历卡在哪一层？先分算法与工程路线，再看项目该补到什么程度",
+   "title": "实测翻车！跑分追平千问27B却狂吐2.8万词卡死？拆透 Inkling-2-Mini 循环架构野心与进化预测",
    "up": "",
    "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV14Y1EzaEdS"
+   "pub": "2026/11/27",
+   "bvid": "BV1Ry1HzDELL"
   },
   {
-   "title": "【AI大模型本地推理 11-27】十二G显卡实测长上下文：Inkling 2 Mini 长文实测",
+   "title": "开发者称Gemini 4 Neon可接进Claude Code调用｜每日AI午报 11月27日",
    "up": "",
    "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV1ML1HzrE6u"
+   "pub": "2026/11/27",
+   "bvid": "BV1Ry1HzDEnY"
   },
   {
-   "title": "RAG 项目怎么才能吸引面试官：Agentic RAG、三层切片、双路索引重排与四层评估全流程｜RAG｜知识库｜智能体｜大模型",
+   "title": "【大模型业务落地】人在回路：反馈即时采集不等于参数即时更新，需要归因、缓冲层与独立验收",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/27",
+   "bvid": "BV1Jp1wzNEFK"
+  },
+  {
+   "title": "【AI大模型本地推理 11-27】苹果显卡全跑本地视觉模型：Inkling 2 Mini 的显卡量化文件",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/27",
+   "bvid": "BV1o61HzWE71"
+  },
+  {
+   "title": "11.27 GLM-5.4 首个循环架构！Aure v2 翻译延迟降一半 第68期AI日报",
    "up": "",
    "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV1ba1EzAEw1"
+   "pub": "2026/11/27",
+   "bvid": "BV1ir1Hz9Eow"
   },
   {
-   "title": "AI能写代码后，程序员还该学什么？从读懂代码、底层思想到FDE，理清转型路线",
-   "up": "",
-   "play": 13,
-   "pub": "2026/11/26",
-   "bvid": "BV1yz1EztER6"
-  },
-  {
-   "title": "怕被岗位变化甩下，转型先补什么？拆开通用能力、定制需求与FDE职业机会",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/26",
-   "bvid": "BV1xz1EztE6s"
-  },
-  {
-   "title": "27年AI 时代程序员该学什么：知识结构重排、AI编程、Agent 开发、微调私有化，三条路径讲透",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV1s61EzoEte"
-  },
-  {
-   "title": "【AI大模型本地推理 11-27】草稿补丁带来三倍代码速度：草稿补丁带来三倍代码速度",
-   "up": "",
-   "play": 0,
-   "pub": "2026/11/26",
-   "bvid": "BV1xi1Ez8E4H"
-  },
-  {
-   "title": "27年IT 求职别再赌回暖：初级中级岗最危险，大专反而有 3 条路——具身智能为什么慢、学历与岗位层次怎么选、该捡回哪些底层原理",
-   "up": "",
-   "play": 2,
-   "pub": "2026/11/26",
-   "bvid": "BV11q1EzfEgs"
-  },
-  {
-   "title": "3D标注基础模型大比拼：μSAM2 vs nnInteractive",
-   "up": "",
-   "play": 66,
-   "pub": "2026/11/26",
-   "bvid": "BV1YW1EzBEFq"
-  },
-  {
-   "title": "【火羽ひのめ】AI二创和手工模型，大小姐怎么答？",
-   "up": "",
-   "play": 98,
-   "pub": "2026/11/26",
-   "bvid": "BV15f1EzyEie"
-  },
-  {
-   "title": "一张图讲透企业AI落地架构：LLM本地+云端+MCP怎么分工｜AI办公实战 EP45",
-   "up": "",
-   "play": 3,
-   "pub": "2026/11/26",
-   "bvid": "BV17d1Ez2EGP"
-  },
-  {
-   "title": "模型没换，效果差十倍：Harness 架构演进一条线讲透",
+   "title": "不训练，给千问动一刀：数学正确率飙到6倍！｜大模型医生 02",
    "up": "",
    "play": 5,
-   "pub": "2026/11/26",
-   "bvid": "BV1GN1Jz6EYG"
+   "pub": "2026/11/27",
+   "bvid": "BV1or1HzXEF6"
   },
   {
-   "title": "从用 AI 到造 AI，中间只隔三层，多数人卡在第一层｜三类工具怎么选｜派活和用嘴编程的区别｜Harness 编排五件套",
+   "title": "【2027】AI 岗大模型面试实战指南：LLM Interview（智能体定制+Harness 架构+薪资谈判）",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/27",
+   "bvid": "BV1or1HzXEdQ"
+  },
+  {
+   "title": "看到字母A和字母B在呼呼大睡～#疯狂字母 #手办模型 #字母冰箱贴 #玩具故事",
+   "up": "",
+   "play": 100,
+   "pub": "2026/11/27",
+   "bvid": "BV1dr1HzXE1y"
+  },
+  {
+   "title": "【实验记录 EP24】两头准，中间瞎｜DeepSeek 小满",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/27",
+   "bvid": "BV1r51pzcEPj"
+  },
+  {
+   "title": "3块钱、2小时，从0训出你的大模型——MiniMind 拆解",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/27",
+   "bvid": "BV1c51pzwENJ"
+  },
+  {
+   "title": "【大模型可解释】LLMs的可解释性 | 春季2026 | 评估SAE特征描述｜UofU Data Science",
+   "up": "",
+   "play": 12,
+   "pub": "2026/11/27",
+   "bvid": "BV1r51pzcEJp"
+  },
+  {
+   "title": "AI激光+豆包大模型+华为星驰，全新深蓝L07 AI激光版到底行不行？",
+   "up": "",
+   "play": 12,
+   "pub": "2026/11/27",
+   "bvid": "BV1wG1pzYEYX"
+  },
+  {
+   "title": "【最新】ChatGPT 国内订阅充值会员教程分享～详细讲解go plus pro套餐区别，让你订阅最适合自己的套餐！",
+   "up": "",
+   "play": 88,
+   "pub": "2026/11/27",
+   "bvid": "BV1rG1pzaEJs"
+  },
+  {
+   "title": "【2026版】扣子多Agent协作架构深度解析，从底层原理到工程落地，Coze+Dify+LangChain",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/27",
+   "bvid": "BV1ZJ1pzoEcK"
+  },
+  {
+   "title": "乐高复仇者联盟4全部套装大盘点，从2019年到2025年究竟有哪些变化",
+   "up": "",
+   "play": 65,
+   "pub": "2026/11/27",
+   "bvid": "BV1qH1pzxESr"
+  },
+  {
+   "title": "27年大模型工程师保姆级实战！吃透AI 替代，岗位两大类+Transformer 底子+Agent 演示一次讲透，少走99%弯路",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/27",
+   "bvid": "BV1qH1pzxEhy"
+  },
+  {
+   "title": "家养ai太花token了:为了不被量化，发挥满血模型的性能吧！",
+   "up": "",
+   "play": 1440,
+   "pub": "2026/11/27",
+   "bvid": "BV1qJ1pzoESu"
+  },
+  {
+   "title": "AI日报11.27｜黎曼猜想证明缩到 7.6 万行？",
+   "up": "",
+   "play": 10,
+   "pub": "2026/11/27",
+   "bvid": "BV1zj1pzfE7j"
+  },
+  {
+   "title": "0风投！2021年豪赌10亿囤万张A100，揭秘梁文锋和DeepSeek掀翻硅谷、硬刚英伟达CUDA的十年暗战！｜《大模型公司十讲》EP.05",
+   "up": "",
+   "play": 14,
+   "pub": "2026/11/27",
+   "bvid": "BV1RsyUzxECc"
+  },
+  {
+   "title": "【AI大模型本地推理 11-27】苹果电脑全显卡跑墨水二号迷你：苹果电脑全显卡推理新选择",
+   "up": "",
+   "play": 2,
+   "pub": "2026/11/27",
+   "bvid": "BV1zj1pzfE8N"
+  },
+  {
+   "title": "GPT-6.2计费回调与Gemini 4 Neon两极实测：模型之外，账本与体感更抢戏 | 今日羊报AI",
+   "up": "",
+   "play": 3,
+   "pub": "2026/11/27",
+   "bvid": "BV1MF1pzrE4r"
+  },
+  {
+   "title": "四色交织的国风重装神将，背载金色大光环，双手挥舞暗纹长柄大刀，极具破阵斩将的东方压迫感#高达模型##拼装模型##模型##胶佬##国模#",
+   "up": "",
+   "play": 116,
+   "pub": "2026/11/27",
+   "bvid": "BV1mf1Hz3EmE"
+  },
+  {
+   "title": "同样写着token每秒，测的可能是三件不同的事",
+   "up": "",
+   "play": 1,
+   "pub": "2026/11/27",
+   "bvid": "BV1UF1pz6EiV"
+  },
+  {
+   "title": "Gemini 4全系横评：自费300刀！美国大豆包崛起！8大案例实测13款模型同台！硬刚Opus 5.5和GPT-6.2 Astra，｜AI模型实测第5期",
    "up": "",
    "play": 13,
-   "pub": "2026/11/26",
-   "bvid": "BV1r11EzWEU5"
+   "pub": "2026/11/27",
+   "bvid": "BV1GM1HzjEhr"
   },
   {
-   "title": "【大货测评】凭啥敢比正版卖的贵？NINA惊异能天使出货即涨价",
+   "title": "大肥鱼拿拖鞋当船",
    "up": "",
-   "play": 245,
-   "pub": "2026/11/26",
-   "bvid": "BV1H11EzWEpd"
+   "play": 99,
+   "pub": "2026/11/27",
+   "bvid": "BV1Yp1EzuENU"
   },
   {
-   "title": "Dify 教程看十遍，不如跟做一遍：知识库到游戏助手，全流程录屏",
+   "title": "方舟十八子大集结！变形金刚 群星版 第12弹！【小刘模玩】",
+   "up": "",
+   "play": 909,
+   "pub": "2026/11/27",
+   "bvid": "BV1Sb1EzNEh8"
+  },
+  {
+   "title": "文档越多，真相越少｜同一页，三种说法",
    "up": "",
    "play": 4,
-   "pub": "2026/11/26",
-   "bvid": "BV1Wk1EzxE6s"
+   "pub": "2026/11/27",
+   "bvid": "BV1KJ1JzcEur"
   },
   {
-   "title": "中文写作最佳？Gemini模型系列盘点",
+   "title": "【EZCollectors简评】《火柴盒大电影》系列部分新模具车型",
    "up": "",
-   "play": 204,
-   "pub": "2026/11/26",
-   "bvid": "BV1Wk1EzxE4s"
+   "play": 151,
+   "pub": "2026/11/27",
+   "bvid": "BV1F81JzWEge"
   },
   {
-   "title": "27年后端转大模型怎么准备：应用开发与算法的分水岭",
+   "title": "机房今晚要下线十四台。名单第一行是我妈用了三年的那台，我给它留了一格电",
+   "up": "",
+   "play": 144,
+   "pub": "2026/11/27",
+   "bvid": "BV1w41JzxEUJ"
+  },
+  {
+   "title": "《中国山寨大百科》 98.玩具手办篇II",
+   "up": "",
+   "play": 472,
+   "pub": "2026/11/27",
+   "bvid": "BV1B6yBzvEdr"
+  },
+  {
+   "title": "你的算子速度到底被什么限制：Roofline屋顶线｜图解CUDA算子08",
+   "up": "",
+   "play": 123,
+   "pub": "2026/11/27",
+   "bvid": "BV1rwygzoE1x"
+  },
+  {
+   "title": "大模型能直接给工厂排产吗？智能制造不能只靠AI聊天",
    "up": "",
    "play": 1,
-   "pub": "2026/11/26",
-   "bvid": "BV1JQ1EzJEAn"
+   "pub": "2026/11/27",
+   "bvid": "BV1Y5sq6RERW"
   },
   {
-   "title": "27年就业大趋势：怎么迎合市场、突破自己",
+   "title": "Skill系统设计上下文与路由控制#Skill #大模型 #Agent #程序员 #AI应用开发",
    "up": "",
    "play": 1,
-   "pub": "2026/11/26",
-   "bvid": "BV1BQ1EzJEdH"
+   "pub": "2026/11/27",
+   "bvid": "BV1Pu1pzvEV1"
+  },
+  {
+   "title": "HospitalBench：Opus 5.5 max 连续五步，20次过4次",
+   "up": "",
+   "play": 72,
+   "pub": "2026/11/27",
+   "bvid": "BV11N1pzTEYV"
+  },
+  {
+   "title": "EfficientML.ai 第 13 讲——大语言模型部署技术（MIT 6.5940，2026 年秋季）",
+   "up": "",
+   "play": 4,
+   "pub": "2026/11/27",
+   "bvid": "BV11N1pzTELs"
+  },
+  {
+   "title": "谁来批判大模型对还是错，如果是错的怎么办",
+   "up": "",
+   "play": 34,
+   "pub": "2026/11/27",
+   "bvid": "BV11N1pzTEcL"
+  },
+  {
+   "title": "大V肉肉爸爸ev透露：蔚来世界模型3.0备案通过后四大平台同步推送！",
+   "up": "",
+   "play": 6,
+   "pub": "2026/11/27",
+   "bvid": "BV11N1pzTEw7"
+  },
+  {
+   "title": "【AI大模型本地推理 11-27】单卡跑大模型，内存是关键：单卡跑大模型，秘密在内存",
+   "up": "",
+   "play": 0,
+   "pub": "2026/11/27",
+   "bvid": "BV1NK1pzqETD"
+  },
+  {
+   "title": "突发！炸场！DeepSeek联合华为把大模型塞进基站，频谱效率暴涨三成，App灰测开收钱，GLM-5.5延期？ | AI日报11.27",
+   "up": "",
+   "play": 5060,
+   "pub": "2026/11/27",
+   "bvid": "BV1yK1pziESc"
   }
  ]
 }

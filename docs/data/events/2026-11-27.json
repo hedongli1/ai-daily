@@ -8,7 +8,7 @@
     "retired": 0,
     "price": 0,
     "context": 0,
-    "news": 8,
+    "news": 9,
     "facts": 1,
     "newsAttached": 0
   },
@@ -50,7 +50,7 @@
       "id": "deepseek-ai",
       "label": "DeepSeek",
       "status": "ok",
-      "count": 6
+      "count": 7
     },
     {
       "id": "QwenLM",
@@ -81,14 +81,14 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "date": "2026-11-26",
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "date": "2026-11-27",
       "facts": {},
-      "text": "DeepGEMM · DeepGEMM: clean and efficient BLAS kernel library on GPU",
-      "href": "https://github.com/deepseek-ai/DeepGEMM/releases",
-      "source": "DeepSeek",
+      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
       "external": true
     },
     {
@@ -107,14 +107,27 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "alibaba",
-      "vendorName": "Qwen",
-      "name": "qwen-code · An open-source AI coding agent that lives in your terminal.",
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
       "date": "2026-11-26",
       "facts": {},
-      "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
-      "href": "https://github.com/QwenLM/qwen-code/releases",
-      "source": "Qwen",
+      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "date": "2026-11-26",
+      "facts": {},
+      "text": "DeepGEMM-Ascend · DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "href": "https://github.com/deepseek-ai/DeepGEMM-Ascend/releases",
+      "source": "DeepSeek",
       "external": true
     },
     {
