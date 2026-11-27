@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "timeline": [
     {
       "n": "gpt-6-2-sol-healthcare",
@@ -434,6 +434,33 @@
       "open": 0
     },
     {
+      "n": "macaron-v1-1-venti-pro",
+      "name": "Macaron V1.1 Venti Pro",
+      "vn": "阿里云",
+      "rel": "2026-09-22",
+      "ctx": 1048576,
+      "in": 2,
+      "open": 1
+    },
+    {
+      "n": "macaron-v1-1-venti",
+      "name": "Macaron V1.1 Venti",
+      "vn": "阿里云",
+      "rel": "2026-09-22",
+      "ctx": 1048576,
+      "in": 1.19,
+      "open": 1
+    },
+    {
+      "n": "macaron-v1-1-coding-venti",
+      "name": "Macaron V1.1 Coding Venti",
+      "vn": "阿里云",
+      "rel": "2026-09-22",
+      "ctx": 1048576,
+      "in": 1.19,
+      "open": 1
+    },
+    {
       "n": "grok-4-7",
       "name": "Grok 4.7",
       "vn": "xAI",
@@ -846,6 +873,15 @@
       "ctx": 1048576,
       "in": 0.3,
       "open": 0
+    },
+    {
+      "n": "macaron-v1-tall",
+      "name": "Macaron V1 Tall",
+      "vn": "阿里云",
+      "rel": "2026-07-21",
+      "ctx": 262144,
+      "in": 0.45,
+      "open": 1
     },
     {
       "n": "kimi-k3-fast",

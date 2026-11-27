@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-27",
+  "generated": "2026-11-28",
   "source": "https://epoch.ai/data/benchmarks.csv",
   "license": "CC-BY 4.0",
   "attribution": "Benchmark data from Epoch AI (epoch.ai), licensed CC-BY 4.0",
@@ -667,6 +667,18 @@
       }
     },
     {
+      "model": "GPT-6.1 Terra",
+      "release": "2026-10-26",
+      "nRuns": 13,
+      "domains": {
+        "Language,Multimodal,Vision": {
+          "n": 13,
+          "avg": 0.6739,
+          "best": 1
+        }
+      }
+    },
+    {
       "model": "Claude Sonnet 5",
       "release": "2026-06-30",
       "nRuns": 13,
@@ -699,18 +711,6 @@
           "n": 12,
           "avg": 0.3997,
           "best": 0.9889
-        }
-      }
-    },
-    {
-      "model": "GPT-6.1 Terra",
-      "release": "2026-10-26",
-      "nRuns": 12,
-      "domains": {
-        "Language,Multimodal,Vision": {
-          "n": 12,
-          "avg": 0.6751,
-          "best": 1
         }
       }
     },
