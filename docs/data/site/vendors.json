@@ -50,20 +50,20 @@
       "country": "intl"
     },
     {
-      "id": "tencent-tokenhub",
-      "name": "腾讯混元",
-      "n": 7,
-      "cheapest": 0.074858,
-      "latest": "2026-11-23",
-      "country": "cn"
-    },
-    {
       "id": "mistral",
       "name": "Mistral",
       "n": 17,
       "cheapest": 0.1,
       "latest": "2026-10-05",
       "country": "intl"
+    },
+    {
+      "id": "tencent-tokenhub",
+      "name": "腾讯混元",
+      "n": 7,
+      "cheapest": 0.074858,
+      "latest": "2026-11-23",
+      "country": "cn"
     },
     {
       "id": "cohere",
@@ -138,19 +138,19 @@
       "country": "cn"
     },
     {
-      "id": "meta",
-      "name": "Meta",
-      "n": 7,
-      "cheapest": 0.1,
-      "latest": "2026-11-09",
-      "country": "intl"
-    },
-    {
       "id": "sarvam",
       "name": "Sarvam AI",
       "n": 3,
       "cheapest": 0.10638298,
       "latest": "2026-10-17",
+      "country": "intl"
+    },
+    {
+      "id": "meta",
+      "name": "Meta",
+      "n": 7,
+      "cheapest": 0.1,
+      "latest": "2026-11-09",
       "country": "intl"
     },
     {
@@ -170,14 +170,6 @@
       "country": "cn"
     },
     {
-      "id": "bailing",
-      "name": "蚂蚁百灵",
-      "n": 5,
-      "cheapest": 0.075,
-      "latest": "2026-11-05",
-      "country": "cn"
-    },
-    {
       "id": "upstage",
       "name": "Upstage",
       "n": 5,
@@ -186,12 +178,28 @@
       "country": "intl"
     },
     {
+      "id": "bailing",
+      "name": "蚂蚁百灵",
+      "n": 5,
+      "cheapest": 0.075,
+      "latest": "2026-11-05",
+      "country": "cn"
+    },
+    {
       "id": "deepseek",
       "name": "DeepSeek",
       "n": 4,
       "cheapest": 0.15,
       "latest": "2026-10-17",
       "country": "cn"
+    },
+    {
+      "id": "inception",
+      "name": "Inception",
+      "n": 4,
+      "cheapest": 0.1,
+      "latest": "2026-10-16",
+      "country": "intl"
     },
     {
       "id": "perplexity",
@@ -210,12 +218,12 @@
       "country": "intl"
     },
     {
-      "id": "inception",
-      "name": "Inception",
-      "n": 4,
-      "cheapest": 0.1,
-      "latest": "2026-10-16",
-      "country": "intl"
+      "id": "xiaomi",
+      "name": "小米",
+      "n": 3,
+      "cheapest": 0.14,
+      "latest": "2026-09-22",
+      "country": "cn"
     },
     {
       "id": "poolside",
@@ -226,14 +234,6 @@
       "country": "intl"
     },
     {
-      "id": "xiaomi",
-      "name": "小米",
-      "n": 3,
-      "cheapest": 0.14,
-      "latest": "2026-09-22",
-      "country": "cn"
-    },
-    {
       "id": "vispark",
       "name": "Vispark",
       "n": 3,
@@ -242,11 +242,11 @@
       "country": "intl"
     },
     {
-      "id": "cerebras",
-      "name": "Cerebras",
+      "id": "ai21",
+      "name": "AI21 Labs",
       "n": 2,
-      "cheapest": 0.35,
-      "latest": "2026-08-14",
+      "cheapest": 0.2,
+      "latest": "2026-01-08",
       "country": "intl"
     },
     {
@@ -258,11 +258,11 @@
       "country": "cn"
     },
     {
-      "id": "ai21",
-      "name": "AI21 Labs",
+      "id": "cerebras",
+      "name": "Cerebras",
       "n": 2,
-      "cheapest": 0.2,
-      "latest": "2026-01-08",
+      "cheapest": 0.35,
+      "latest": "2026-08-14",
       "country": "intl"
     }
   ]
