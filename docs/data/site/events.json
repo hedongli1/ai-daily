@@ -1,8 +1,47 @@
 {
-  "date": "2026-11-28",
+  "date": "2026-11-29",
   "mode": "diff",
-  "baselineDate": "2026-11-27",
+  "baselineDate": "2026-11-28",
   "events": [
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "date": "2026-11-28",
+      "facts": {},
+      "text": "deepseek-harness · DeepSeek Harness: Everything is a Plugin.",
+      "href": "https://github.com/deepseek-ai/deepseek-harness/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "date": "2026-11-28",
+      "facts": {},
+      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
+      "href": "https://github.com/deepseek-ai/3FS/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "deepseek",
+      "vendorName": "DeepSeek",
+      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "date": "2026-11-28",
+      "facts": {},
+      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
+      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
+      "source": "DeepSeek",
+      "external": true
+    },
     {
       "type": "news",
       "key": null,
@@ -13,6 +52,19 @@
       "facts": {},
       "text": "qwen-code · An open-source AI coding agent that lives in your terminal.",
       "href": "https://github.com/QwenLM/qwen-code/releases",
+      "source": "Qwen",
+      "external": true
+    },
+    {
+      "type": "news",
+      "key": null,
+      "vendor": "alibaba",
+      "vendorName": "Qwen",
+      "name": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "date": "2026-11-28",
+      "facts": {},
+      "text": "qwen-code-docs · A documentation translation tool specifically designed for Qwen Code",
+      "href": "https://github.com/QwenLM/qwen-code-docs/releases",
       "source": "Qwen",
       "external": true
     },
@@ -45,19 +97,6 @@
     {
       "type": "news",
       "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
-      "date": "2026-11-27",
-      "facts": {},
-      "text": "3FS ·  A high-performance distributed file system designed to address the challenges of AI training and inference workloads. ",
-      "href": "https://github.com/deepseek-ai/3FS/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
       "vendor": "mistral",
       "vendorName": "Mistral AI",
       "name": "mistral-vibe · Minimal CLI coding agent by Mistral",
@@ -69,115 +108,22 @@
       "external": true
     },
     {
-      "type": "news",
-      "key": null,
-      "vendor": "deepseek",
-      "vendorName": "DeepSeek",
-      "name": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "date": "2026-11-26",
-      "facts": {},
-      "text": "FlashMLA · FlashMLA: Efficient Multi-head Latent Attention Kernels",
-      "href": "https://github.com/deepseek-ai/FlashMLA/releases",
-      "source": "DeepSeek",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "llm-d-router-public · Inference scheduler for llm-d",
-      "date": "2026-11-26",
-      "facts": {},
-      "text": "llm-d-router-public · Inference scheduler for llm-d",
-      "href": "https://github.com/mistralai/llm-d-router-public/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
-      "type": "news",
-      "key": null,
-      "vendor": "mistral",
-      "vendorName": "Mistral AI",
-      "name": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "date": "2026-11-26",
-      "facts": {},
-      "text": "nvsentinel-provider-mistral · NVSentinel reboot provider for Mistral Compute",
-      "href": "https://github.com/mistralai/nvsentinel-provider-mistral/releases",
-      "source": "Mistral AI",
-      "external": true
-    },
-    {
       "type": "new",
-      "key": "alibaba/Macaron V1.1 Coding Venti",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Macaron V1.1 Coding Venti",
-      "date": "2026-09-22",
+      "key": "volcengine/Seed Translation",
+      "vendor": "volcengine",
+      "vendorName": "字节跳动",
+      "name": "Seed Translation",
+      "date": "2025-09-15",
       "facts": {
-        "ctx": 1048576,
-        "in": 1.19,
-        "outCost": 3.74,
-        "open": true,
-        "reasoning": true
+        "ctx": 4000,
+        "in": 0.17989,
+        "outCost": 0.53966,
+        "open": false,
+        "reasoning": false
       },
-      "text": "Macaron V1.1 Coding Venti · 开源 · 1M 上下文 · 输入 $1.19/M · 支持推理",
-      "href": "/models/macaron-v1-1-coding-venti/",
+      "text": "Seed Translation · 闭源 · 4K 上下文 · 输入 $0.18/M",
+      "href": "/models/seed-translation/",
       "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "alibaba/Macaron V1.1 Venti",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Macaron V1.1 Venti",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 1048576,
-        "in": 1.19,
-        "outCost": 3.74,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Macaron V1.1 Venti · 开源 · 1M 上下文 · 输入 $1.19/M · 支持推理",
-      "href": "/models/macaron-v1-1-venti/",
-      "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "alibaba/Macaron V1.1 Venti Pro",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Macaron V1.1 Venti Pro",
-      "date": "2026-09-22",
-      "facts": {
-        "ctx": 1048576,
-        "in": 2,
-        "outCost": 10,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Macaron V1.1 Venti Pro · 开源 · 1M 上下文 · 输入 $2/M · 支持推理",
-      "href": "/models/macaron-v1-1-venti-pro/",
-      "shared": 1
-    },
-    {
-      "type": "new",
-      "key": "alibaba/Macaron V1 Tall",
-      "vendor": "alibaba",
-      "vendorName": "阿里云",
-      "name": "Macaron V1 Tall",
-      "date": "2026-07-21",
-      "facts": {
-        "ctx": 262144,
-        "in": 0.45,
-        "outCost": 2.6,
-        "open": true,
-        "reasoning": true
-      },
-      "text": "Macaron V1 Tall · 开源 · 262K 上下文 · 输入 $0.45/M · 支持推理",
-      "href": "/models/macaron-v1-tall/",
-      "shared": 2
     }
   ]
 }
